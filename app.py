@@ -97,54 +97,59 @@ def page_new() -> None:
     d, models, bt = report_models(hp.stat().st_mtime)
     hist = hist_frame(hp.stat().st_mtime)
 
-    q = st.text_input("IPO name or symbol", placeholder="e.g. Mahanadi Coalfields")
-    if st.button("Find", type="primary") and q.strip():
-        try:
-            st.session_state["matches"] = live.find_issue(q)
-            st.session_state.pop("analysis", None)
-        except Exception as exc:
-            st.error(f"Could not reach NSE: {exc}")
-    matches = st.session_state.get("matches", [])
-    if not matches:
-        return
-    m = st.radio("Which one?", matches, format_func=lambda x: f"{x.company} ({x.symbol}) · {x.status} · {x.segment}")
-    if m.segment == "SME":
-        st.warning("This is an SME issue. The history here is mainboard only, so the numbers are not reliable for it.")
-
-    c1, c2 = st.columns(2)
-    up = c1.file_uploader("Upload the RHP (PDF), optional", type="pdf",
-                          help="Use it when NSE is blocked or has no RHP link. It is saved as rhp/<SYMBOL>.pdf and replaces cached extractions if it differs.")
-    with c2:
-        st.markdown("**Subscription (overrides NSE's live figures)**")
-        s1, s2 = st.columns(2)
-        man = {"sub_qib_x": s1.number_input("QIB (x)", min_value=0.0, value=0.0, step=0.1),
-               "sub_nii_x": s2.number_input("NII (x)", min_value=0.0, value=0.0, step=0.1),
-               "sub_retail_x": s1.number_input("Retail (x)", min_value=0.0, value=0.0, step=0.1),
-               "sub_total_x": s2.number_input("Total (x)", min_value=0.0, value=0.0, step=0.1)}
-        closed = st.checkbox("Bidding has closed (these are final figures)")
-    with_qual = st.checkbox("Include business, risks and litigation (a second Claude pass, uses more of your plan)", value=True)
-
-    if st.button("Analyse"):
-        pdf = None
-        if up is not None:
-            import tempfile
-            pdf = Path(tempfile.mkdtemp()) / f"{m.symbol}.pdf"
-            pdf.write_bytes(up.getvalue())
-        with st.status("Working…", expanded=True) as status:
+    with st.expander("Search and inputs", expanded=st.session_state.get("analysis") is None):
+        q = st.text_input("IPO name or symbol", placeholder="e.g. Mahanadi Coalfields")
+        if st.button("Find", type="primary") and q.strip():
             try:
-                a = live.analyse_issue(m, pdf=pdf, hist=hist, progress=status.write)
-                qual = None
-                if with_qual and a.record is not None:
-                    status.write("Reading business, risks and litigation")
-                    try:
-                        qual = qualitative.extract_qual(m.symbol, pdf=extract_rhp.RHP_DIR / f"{m.symbol}.pdf", client=extract_rhp.make_client())
-                    except Exception as exc:
-                        a.notes.append(f"Business and risk pass failed: {exc}")
-                st.session_state["analysis"], st.session_state["qual"] = a, qual
-                status.update(label="Done", state="complete")
+                st.session_state["matches"] = live.find_issue(q)
+                st.session_state.pop("analysis", None)
             except Exception as exc:
-                status.update(label="Failed", state="error")
-                st.error(str(exc))
+                st.error(f"Could not reach NSE: {exc}")
+        matches = st.session_state.get("matches", [])
+        if not matches:
+            return
+        m = st.radio("Which one?", matches, format_func=lambda x: f"{x.company} ({x.symbol}) · {x.status} · {x.segment}")
+        if m.segment == "SME":
+            st.warning("This is an SME issue. The history here is mainboard only, so the numbers are not reliable for it.")
+
+        c1, c2 = st.columns(2)
+        up = c1.file_uploader("Upload the RHP (PDF), optional", type="pdf",
+                              help="Use it when NSE is blocked or has no RHP link. It is saved as rhp/<SYMBOL>.pdf and replaces cached extractions if it differs.")
+        with c2:
+            st.markdown("**Subscription (overrides NSE's live figures)**")
+            s1, s2 = st.columns(2)
+            man = {"sub_qib_x": s1.number_input("QIB (x)", min_value=0.0, value=0.0, step=0.1),
+                   "sub_nii_x": s2.number_input("NII (x)", min_value=0.0, value=0.0, step=0.1),
+                   "sub_retail_x": s1.number_input("Retail (x)", min_value=0.0, value=0.0, step=0.1),
+                   "sub_total_x": s2.number_input("Total (x)", min_value=0.0, value=0.0, step=0.1)}
+            closed = st.checkbox("Bidding has closed (these are final figures)")
+        with_qual = st.checkbox("Include business, risks and litigation (a second Claude pass, uses more of your plan)", value=True)
+
+        ran = False
+        if st.button("Analyse"):
+            pdf = None
+            if up is not None:
+                import tempfile
+                pdf = Path(tempfile.mkdtemp()) / f"{m.symbol}.pdf"
+                pdf.write_bytes(up.getvalue())
+            with st.status("Working…", expanded=True) as status:
+                try:
+                    a = live.analyse_issue(m, pdf=pdf, hist=hist, progress=status.write)
+                    qual = None
+                    if with_qual and a.record is not None:
+                        status.write("Reading business, risks and litigation")
+                        try:
+                            qual = qualitative.extract_qual(m.symbol, pdf=extract_rhp.RHP_DIR / f"{m.symbol}.pdf", client=extract_rhp.make_client())
+                        except Exception as exc:
+                            a.notes.append(f"Business and risk pass failed: {exc}")
+                    st.session_state["analysis"], st.session_state["qual"] = a, qual
+                    status.update(label="Done", state="complete")
+                    ran = True
+                except Exception as exc:
+                    status.update(label="Failed", state="error")
+                    st.error(str(exc))
+        if ran:
+            st.rerun()                      # redraw with the search form folded away, report on top
     a = st.session_state.get("analysis")
     if a is None or a.match.symbol != m.symbol:
         return
