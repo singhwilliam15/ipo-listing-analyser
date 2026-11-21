@@ -10,12 +10,13 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 import plotly.express as px
+import plotly.graph_objects as go
 import streamlit as st
 
 from src import analyse, demo, extract_rhp, live, qualitative, report, schema
 
 ROOT = Path(__file__).parent
-st.set_page_config(page_title="IPO Listing-Day Analyser", page_icon="📈", layout="wide")
+st.set_page_config(page_title="IPO Listing-Day Analyser", page_icon="📈", layout="wide", initial_sidebar_state="expanded")
 
 
 @st.cache_data(show_spinner=False)
@@ -35,17 +36,22 @@ def run(df_key: str, _df: pd.DataFrame, target: str, quality: tuple[str, ...]) -
 
 # --------------------------------------------------------------------------- #
 with st.sidebar:
-    st.title("📈 IPO listing-day")
-    page = st.radio("View", ["Analyse a new IPO", "Dataset", "Winners vs losers", "Strategy test", "Check an IPO"])
-    st.divider()
-    seg = st.radio("Segment", ["Mainboard", "SME"], horizontal=True)
+    st.title("📈 IPO Listing-Day Analyser")
+    st.caption("Indian mainboard IPOs: chance of a listing gain, expected gain, and why.")
+    page = st.radio("Go to", ["Analyse a new IPO", "Model accuracy", "Past IPOs", "Winners vs losers", "Strategy test", "Check a past IPO"], label_visibility="collapsed")
+    research = page not in ("Analyse a new IPO", "Model accuracy")
+    seg, target, quality, use_demo = "Mainboard", "target_gain", ("full", "partial"), False
+    if research:
+        st.divider()
+        seg = st.radio("Segment", ["Mainboard", "SME"], horizontal=True)
+        target = st.selectbox("Target", analyse.TARGETS,
+                              format_func={"target_gain": "Listed above issue price", "target_gain_5": "Listed > 5% above"}.get)
+        quality = tuple(st.multiselect("Rows to use", ["full", "partial", "missing_rhp"], default=["full", "partial"]))
     path = ROOT / "data" / ("ipos.csv" if seg == "Mainboard" else "ipos_sme.csv")
-    use_demo = st.toggle("Synthetic demo data", value=not path.exists(),
-                         help="Fake companies with invented relationships, for trying the screens.")
-    target = st.selectbox("Target", analyse.TARGETS,
-                          format_func={"target_gain": "Listed above issue price", "target_gain_5": "Listed > 5% above"}.get)
-    quality = tuple(st.multiselect("Rows to use", ["full", "partial", "missing_rhp"], default=["full", "partial"]))
-    st.caption("Train = listed 2022–2025. Test = listed 2026 onward; it is never used to fit or choose anything.")
+    if research:
+        use_demo = st.toggle("Synthetic demo data", value=not path.exists(), help="Fake companies, only for trying the screens.")
+    st.divider()
+    st.caption("Models learn from IPOs listed 2022-2025 and are scored on 2026. Educational tool, not investment advice.")
 
 
 # --------------------------------------------------------------------------- #
@@ -65,11 +71,26 @@ def _pct(v, signed=False):
     return "–" if v is None or pd.isna(v) else (f"{v:+.0f}%" if signed else f"{v:.0%}")
 
 
+@st.cache_data(ttl=600, show_spinner=False)
+def open_issues() -> pd.DataFrame:
+    return live.list_open_issues()
+
+
 def page_new() -> None:
-    st.header("Analyse a new IPO")
-    st.caption("Type a company name or NSE symbol. The app finds it on NSE, downloads its RHP (or use your own PDF), reads it with "
-               "Claude, and reports the chance of a listing gain and the expected gain. Historical patterns only; not investment advice.")
+    st.markdown("# Will this IPO list at a gain?")
+    st.markdown("Type an Indian mainboard IPO. The app finds it on NSE, downloads its RHP, reads it with Claude, and estimates the "
+                "**chance of a listing gain** and the **expected gain in %**, with the reasons, risks and the most similar past IPOs. "
+                "It learns from 390+ IPOs listed 2022-2026.")
     hp = ROOT / "data" / "ipos.csv"
+    try:
+        opened = open_issues()
+    except Exception:
+        opened = pd.DataFrame()
+    if len(opened):
+        mb = opened[opened["segment"] == "Mainboard"]
+        if len(mb):
+            with st.expander(f"Open or upcoming mainboard IPOs on NSE ({len(mb)})", expanded=False):
+                st.dataframe(mb[["company", "symbol", "status", "price_low", "price_high", "issue_open", "issue_close"]], hide_index=True, width="stretch")
     if not hp.exists():
         st.info("data/ipos.csv is missing; see README.md to build it.")
         return
@@ -130,117 +151,167 @@ def page_new() -> None:
     sub = {**a.live_sub, **{k: v for k, v in man.items() if v > 0}}
     rep = report.build_report(a.row, a.record, st.session_state.get("qual"), models, d, sub, closed, backtest_res=bt)
     rep.notes += a.notes
+    render_report(rep, a, sub, bt)
+
+
+VERDICT_STYLE = {"Apply": ("#137333", "#e6f4ea"), "Apply with caution": ("#b06000", "#fef7e0"),
+                 "Skip": ("#c5221f", "#fce8e6"), "Wait for subscription": ("#1a73e8", "#e8f0fe")}
+
+
+def gain_range_chart(e: dict) -> go.Figure:
+    g = e["gain"]
+    fig = go.Figure()
+    fig.add_shape(type="rect", x0=g["p10"], x1=g["p90"], y0=-0.25, y1=0.25, fillcolor="rgba(26,115,232,0.22)", line_width=0)
+    fig.add_shape(type="rect", x0=g["p25"], x1=g["p75"], y0=-0.25, y1=0.25, fillcolor="rgba(26,115,232,0.60)", line_width=0)
+    fig.add_vline(x=0, line_dash="dot", line_color="gray")
+    fig.add_trace(go.Scatter(x=[g["p50"]], y=[0], mode="markers+text", text=[f"{g['p50']:+.0f}%"], textposition="top center",
+                             marker=dict(size=14, color="#0b3d91", symbol="diamond"), hoverinfo="skip", showlegend=False))
+    fig.update_yaxes(visible=False, range=[-0.6, 0.8])
+    fig.update_xaxes(title="Listing gain vs issue price (%)  ·  light = 80% range, dark = likely range", zeroline=False)
+    fig.update_layout(height=170, margin=dict(l=0, r=0, t=6, b=0))
+    return fig
+
+
+def band_chart(rep) -> go.Figure:
+    t = rep.band_table.reset_index().rename(columns={"band": "final subscription"})
+    now = rep.sub.get("sub_total_x")
+    labels = list(t["final subscription"].astype(str))
+    cur = None
+    if now:
+        cur = labels[np.searchsorted([3, 10, 30, 100], now)]
+    colors = ["#1a73e8" if lab == cur else "#aecbfa" for lab in labels]
+    fig = go.Figure(go.Bar(x=labels, y=t["listed above issue"], marker_color=colors, text=[f"{v:.0%}" for v in t["listed above issue"]], textposition="outside",
+                           customdata=t[["IPOs", "median gain %"]], hovertemplate="%{x}<br>%{y:.0%} listed above issue<br>%{customdata[0]} IPOs, median %{customdata[1]:+.1f}%<extra></extra>"))
+    fig.update_yaxes(range=[0, 1.15], tickformat=".0%", title="Listed above issue price")
+    fig.update_layout(height=300, margin=dict(l=0, r=0, t=10, b=0), xaxis_title="Final total subscription")
+    return fig
+
+
+def scorecard_chart(sc: pd.DataFrame) -> go.Figure:
+    s = sc["score_0_10"]
+    fig = go.Figure(go.Bar(y=list(sc.index)[::-1], x=s.fillna(0).iloc[::-1], orientation="h", marker_color=["#1a73e8" if pd.notna(v) else "#dadce0" for v in s.iloc[::-1]],
+                           text=["n/a" if pd.isna(v) else f"{v:.1f}" for v in s.iloc[::-1]], textposition="outside"))
+    fig.update_xaxes(range=[0, 11], title="Percentile rank vs all past IPOs, 0-10")
+    fig.update_layout(height=300, margin=dict(l=0, r=0, t=10, b=0))
+    return fig
+
+
+def render_report(rep, a, sub: dict, bt: dict) -> None:
     e, gq = rep.est, rep.est["gain"]
-    st.title(rep.company)
-    st.caption(f"Source: {a.source}. Stage: {e['stage']}.")
+    head, dl = st.columns([5, 1])
+    head.markdown(f"## {rep.company}")
+    head.caption(f"NSE: {rep.symbol} · source: {a.source} · stage: **{e['stage']}**" + (" (live figures are a floor)" if e["floor"] else ""))
+    dl.download_button("Download report", report.to_markdown(rep), file_name=f"{rep.symbol}_report.md", mime="text/markdown", use_container_width=True)
     for n in rep.notes:
         st.warning(n)
 
-    st.subheader("1. Verdict")
-    {"Apply": st.success, "Apply with caution": st.warning, "Skip": st.error}.get(rep.verdict, st.info)(f"**{rep.verdict}**")
-    for x in rep.reasons:
-        st.markdown(f"- {x}")
-
-    st.subheader("2. Listing chance and expected gain")
-    k = st.columns(3)
-    k[0].metric(f"Chance of a listing gain ({e['stage']})", _pct(e["prob"]) + (" or more" if e["floor"] else ""))
-    k[1].metric("Expected listing gain (median)", _pct(gq["p50"], True), f"likely {_pct(gq['p25'], True)} to {_pct(gq['p75'], True)}", delta_color="off")
+    fg, bgc = VERDICT_STYLE.get(rep.verdict, ("#202124", "#f1f3f4"))
+    reasons = "".join(f"<li>{x}</li>" for x in rep.reasons)
+    st.markdown(f"<div style='border-left:6px solid {fg};background:{bgc};padding:14px 18px;border-radius:8px;color:#202124'>"
+                f"<div style='font-size:0.8rem;letter-spacing:.06em;color:{fg};font-weight:600'>VERDICT</div>"
+                f"<div style='font-size:1.6rem;font-weight:700;color:{fg}'>{rep.verdict}</div><ul style='margin:6px 0 0 0'>{reasons}</ul></div>", unsafe_allow_html=True)
+    st.write("")
+    k = st.columns(4)
+    k[0].metric("Chance of a listing gain", _pct(e["prob"]) + (" or more" if e["floor"] else ""), help="Probability the listing-day open is above the issue price.")
+    k[1].metric("Expected listing gain", _pct(gq["p50"], True), f"likely {_pct(gq['p25'], True)} to {_pct(gq['p75'], True)}", delta_color="off")
     k[2].metric("Implied listing price", f"₹{e['prices']['p50']:,.0f}" if pd.notna(e["prices"]["p50"]) else "–",
                 f"₹{e['prices']['p25']:,.0f} – ₹{e['prices']['p75']:,.0f}" if pd.notna(e["prices"]["p25"]) else "", delta_color="off")
-    k = st.columns(3)
-    k[0].metric("80% range for the gain", f"{_pct(gq['p10'], True)} to {_pct(gq['p90'], True)}")
-    k[1].metric("Allotment odds per application", _pct(e["p_allot"]))
-    k[2].metric("Expected profit per lot", "–" if pd.isna(e["profit_per_lot"]) else f"₹{e['profit_per_lot']:,.0f}", f"lot ₹{e['lot_value']:,.0f}", delta_color="off")
+    k[3].metric("Expected profit per lot", "–" if pd.isna(e["profit_per_lot"]) else f"₹{e['profit_per_lot']:,.0f}",
+                f"allotment odds {_pct(e['p_allot'])}", delta_color="off", help="Allotment odds × expected gain × lot value.")
+    st.plotly_chart(gain_range_chart(e), width="stretch", config={"displayModeBar": False})
     if e["stage"] == "pre-bid":
-        st.info("Pre-bid estimate from fundamentals and the 10 most similar past IPOs. This is a weak signal; the range is wide on purpose.")
+        st.info("Pre-bid estimate from fundamentals and the 10 most similar past IPOs. This is a weak signal, so the range is wide on purpose.")
     elif e["floor"]:
         st.info("Provisional: live figures are a floor because QIBs bid mostly on the last day. Tick 'bidding has closed' when final.")
     need = e["qib_needed"]
     st.caption("QIB subscription needed for a 70% / 85% / 95% chance: " + " / ".join("over 3000x" if need[t] is None else f"{need[t]:.0f}x" for t in (0.70, 0.85, 0.95))
-               + f".  Gain model used: {e['gain_model']}.")
+               + f" · gain model {e['gain_model']}")
     if bt.get("demand"):
-        st.caption(f"Scored on {bt['n_test']} IPOs from 2026 (models never saw them): subscription model AUC {bt['demand']['auc']:.2f}, accuracy {bt['demand']['accuracy']:.0%}; "
-                   f"fundamentals-only AUC {bt['prebid']['auc']:.2f}; gain median error {bt['gain_a']['mae_p50']:.1f} points; "
-                   f"25-75 range covers {bt['gain_a']['cov_25_75']:.0%}, 10-90 covers {bt['gain_a']['cov_10_90']:.0%}. Full backtest below.")
+        st.caption(f"Tested on {bt['n_test']} IPOs from 2026 that the models never saw: subscription model AUC {bt['demand']['auc']:.2f}, accuracy {bt['demand']['accuracy']:.0%}; "
+                   f"gain median error {bt['gain_a']['mae_p50']:.1f} points. See the Model accuracy tab.")
 
-    st.subheader("3. Subscription")
-    cols = st.columns(4)
-    for col, (key, label) in zip(cols, [("sub_total_x", "Total"), ("sub_qib_x", "QIB"), ("sub_nii_x", "NII"), ("sub_retail_x", "Retail")]):
-        col.metric(label, "–" if sub.get(key) is None else f"{sub[key]:.2f}x")
-    st.dataframe(rep.band_table.style.format({"listed above issue": "{:.0%}", "median gain %": "{:+.1f}", "p25 %": "{:+.1f}", "p75 %": "{:+.1f}"}), width="stretch")
-
-    st.subheader("4. The business")
     qq = rep.qual
     pt = lambda p: p["text"] + (f" *(PDF p.{p['page']})*" if p.get("page") else "")
-    if qq:
-        for key, title in (("business_summary", "What it does"), ("industry", "Industry")):
-            st.markdown(f"**{title}**")
-            for p in qq.get(key, []):
+    tabs = st.tabs(["Subscription", "Business", "Numbers", "Scorecard", "Strengths & risks", "Similar IPOs", "Model accuracy"])
+    with tabs[0]:
+        cols = st.columns(4)
+        for col, (key, label) in zip(cols, [("sub_total_x", "Total"), ("sub_qib_x", "QIB"), ("sub_nii_x", "NII"), ("sub_retail_x", "Retail")]):
+            col.metric(label, "–" if sub.get(key) is None else f"{sub[key]:.2f}x")
+        st.markdown("**How past IPOs listed at each final subscription level**")
+        st.plotly_chart(band_chart(rep), width="stretch", config={"displayModeBar": False})
+        st.dataframe(rep.band_table.style.format({"listed above issue": "{:.0%}", "median gain %": "{:+.1f}", "p25 %": "{:+.1f}", "p75 %": "{:+.1f}"}), width="stretch")
+    with tabs[1]:
+        if qq:
+            c1, c2 = st.columns(2)
+            with c1:
+                st.markdown("**What it does**")
+                for p in qq.get("business_summary", []):
+                    st.markdown(f"- {pt(p)}")
+                st.markdown("**Promoters**")
+                for p in qq.get("promoters", []):
+                    st.markdown(f"- {p['name']}: {p['background']}" + (f" *(p.{p['page']})*" if p.get("page") else ""))
+            with c2:
+                st.markdown("**Industry**")
+                for p in qq.get("industry", []):
+                    st.markdown(f"- {pt(p)}")
+                st.markdown("**Concentration**")
+                for p in qq.get("concentration", []):
+                    st.markdown(f"- {pt(p)}")
+            if qq.get("segments"):
+                st.markdown("**Segments**")
+                for s in qq["segments"]:
+                    st.markdown(f"- {s['name']}" + (f": {s['share_of_revenue']}" if s.get("share_of_revenue") else "") + (f" *(p.{s['page']})*" if s.get("page") else ""))
+        else:
+            st.info("The business, risk and litigation pass was not run. Tick the box above the Analyse button and press Analyse.")
+    with tabs[2]:
+        st.table(pd.DataFrame(rep.key_numbers, columns=["Item", "Value", "Note"]).set_index("Item"))
+        st.markdown("**Financials (₹ crore)**")
+        st.dataframe(rep.financials.style.format("{:,.1f}", na_rep="–"), width="stretch")
+        st.markdown("**Listed peers**")
+        st.dataframe(rep.peers, hide_index=True, width="stretch")
+        p1, p2 = st.columns(2)
+        p1.markdown("**Use of fresh money**")
+        p1.dataframe(rep.proceeds, hide_index=True, width="stretch")
+        p2.markdown("**Selling shareholders**")
+        p2.dataframe(rep.sellers, hide_index=True, width="stretch")
+    with tabs[3]:
+        st.plotly_chart(scorecard_chart(rep.scorecard), width="stretch", config={"displayModeBar": False})
+        st.dataframe(rep.scorecard.style.format({"score_0_10": "{:.1f}", "train_spearman_vs_gain": "{:+.2f}", "train_auc": "{:.2f}"}, na_rep="–"), width="stretch")
+        st.caption("Score = percentile rank against every past IPO. The last two columns show how well each pillar predicted listing results on 2022-2025 (AUC 0.5 = no skill). Demand predicts best; the others add little on their own.")
+    with tabs[4]:
+        gcol, bcol = st.columns(2)
+        with gcol:
+            st.markdown("#### 👍 Strengths")
+            for f in [f for f in rep.flags if f.kind == "good"]:
+                st.markdown(f"- {f.text}" + (f" *({f.evidence})*" if f.evidence else ""))
+            for p in (qq or {}).get("strengths", []):
                 st.markdown(f"- {pt(p)}")
-        if qq.get("segments"):
-            st.markdown("**Segments**")
-            for s in qq["segments"]:
-                st.markdown(f"- {s['name']}" + (f": {s['share_of_revenue']}" if s.get("share_of_revenue") else "") + (f" *(p.{s['page']})*" if s.get("page") else ""))
-        st.markdown("**Concentration**")
-        for p in qq.get("concentration", []):
-            st.markdown(f"- {pt(p)}")
-        st.markdown("**Promoters**")
-        for p in qq.get("promoters", []):
-            st.markdown(f"- {p['name']}: {p['background']}" + (f" *(p.{p['page']})*" if p.get("page") else ""))
-    else:
-        st.info("Business, risk and litigation pass not run (tick the box above and press Analyse).")
-
-    st.subheader("5. Key numbers")
-    st.table(pd.DataFrame(rep.key_numbers, columns=["Item", "Value", "Note"]).set_index("Item"))
-    st.markdown("**Financials (₹ crore)**")
-    st.dataframe(rep.financials.style.format("{:,.1f}", na_rep="–"), width="stretch")
-    st.markdown("**Listed peers**")
-    st.dataframe(rep.peers, hide_index=True, width="stretch")
-    p1, p2 = st.columns(2)
-    p1.markdown("**Use of fresh money**")
-    p1.dataframe(rep.proceeds, hide_index=True, width="stretch")
-    p2.markdown("**Selling shareholders**")
-    p2.dataframe(rep.sellers, hide_index=True, width="stretch")
-
-    st.subheader("6. Scorecard")
-    st.dataframe(rep.scorecard.style.format({"score_0_10": "{:.1f}", "train_spearman_vs_gain": "{:+.2f}", "train_auc": "{:.2f}"}, na_rep="–"), width="stretch")
-    st.caption("Score = percentile rank against every past IPO, scaled 0-10. The last two columns show how well that pillar predicted listing results on 2022-2025 (AUC 0.5 = no skill).")
-
-    st.subheader("7. Strengths, concerns and risks")
-    gcol, bcol = st.columns(2)
-    with gcol:
-        st.markdown("**Strengths**")
-        for f in [f for f in rep.flags if f.kind == "good"]:
-            st.markdown(f"- {f.text}" + (f" *({f.evidence})*" if f.evidence else ""))
-        for p in (qq or {}).get("strengths", []):
-            st.markdown(f"- {pt(p)}")
-    with bcol:
-        st.markdown("**Concerns**")
-        for f in [f for f in rep.flags if f.kind == "bad"]:
-            st.markdown(f"- {f.text}" + (f" *({f.evidence})*" if f.evidence else ""))
-    if qq:
-        st.markdown("**Top company-specific risks**")
-        for x in qq.get("risks", []):
-            st.markdown(f"- **[{x['severity']}]** {x['title']}: {x['detail']}" + (f" *(p.{x['page']})*" if x.get("page") else ""))
-        for key, title in (("litigation", "Litigation"), ("contingent_liabilities", "Contingent liabilities"), ("related_party", "Related-party transactions"), ("red_flags", "Red flags")):
-            items = qq.get(key, [])
-            st.markdown(f"**{title}**")
-            if not items:
-                st.write("None stated in the pages read.")
-            for x in items:
-                if key == "litigation":
-                    st.markdown(f"- {x['category']}: {x.get('count') or '?'} cases, {x.get('amount') or 'amount not stated'}" + (f" *(p.{x['page']})*" if x.get("page") else ""))
-                else:
-                    st.markdown(f"- {pt(x)}")
-
-    st.subheader("8. Most similar past IPOs")
-    st.dataframe(rep.similar.assign(listing_date=rep.similar["listing_date"].dt.date), hide_index=True, width="stretch",
-                 column_config={"distance": st.column_config.NumberColumn(format="%.2f")})
-    st.download_button("Download report (Markdown)", report.to_markdown(rep), file_name=f"{rep.symbol}_report.md", mime="text/markdown")
-
-    with st.expander("Backtest: 2022-2025 train, 2026 test", expanded=False):
+        with bcol:
+            st.markdown("#### 👎 Concerns")
+            for f in [f for f in rep.flags if f.kind == "bad"]:
+                st.markdown(f"- {f.text}" + (f" *({f.evidence})*" if f.evidence else ""))
+        if qq:
+            st.markdown("#### Top company-specific risks")
+            icon = {"high": "🔴", "medium": "🟠", "low": "🟡"}
+            for x in qq.get("risks", []):
+                st.markdown(f"- {icon.get(x['severity'], '')} **{x['title']}**: {x['detail']}" + (f" *(p.{x['page']})*" if x.get("page") else ""))
+            for key, title in (("litigation", "Litigation"), ("contingent_liabilities", "Contingent liabilities"), ("related_party", "Related-party transactions"), ("red_flags", "Red flags")):
+                with st.expander(title, expanded=key == "red_flags"):
+                    items = qq.get(key, [])
+                    if not items:
+                        st.write("None stated in the pages read.")
+                    for x in items:
+                        if key == "litigation":
+                            st.markdown(f"- {x['category']}: {x.get('count') or '?'} cases, {x.get('amount') or 'amount not stated'}" + (f" *(p.{x['page']})*" if x.get("page") else ""))
+                        else:
+                            st.markdown(f"- {pt(x)}")
+    with tabs[5]:
+        st.caption("The 10 past IPOs whose fundamentals (and subscription, once known) are closest to this one. Same sector counts as closer.")
+        st.dataframe(rep.similar.assign(listing_date=rep.similar["listing_date"].dt.date), hide_index=True, width="stretch",
+                     column_config={"distance": st.column_config.NumberColumn(format="%.2f"), "listing_gain_pct": st.column_config.NumberColumn("listing gain %", format="%+.1f")})
+    with tabs[6]:
         show_backtest(bt)
-    st.caption("Educational tool. Not investment advice. Past patterns do not guarantee future listings.")
+    st.caption("Educational tool, not investment advice. Models learn from past listings and can be wrong.")
 
 
 def show_backtest(bt: dict) -> None:
@@ -266,6 +337,11 @@ def show_backtest(bt: dict) -> None:
 
 if page == "Analyse a new IPO":
     page_new()
+    st.stop()
+if page == "Model accuracy":
+    st.header("Model accuracy")
+    _d, _m, _bt = report_models((ROOT / "data" / "ipos.csv").stat().st_mtime)
+    show_backtest(_bt)
     st.stop()
 
 if use_demo:
@@ -394,5 +470,5 @@ def page_check() -> None:
     st.dataframe(show.astype(str), width="stretch", height=500)
 
 
-{"Dataset": page_dataset, "Winners vs losers": page_groups,
- "Strategy test": page_strategy, "Check an IPO": page_check}[page]()
+{"Past IPOs": page_dataset, "Winners vs losers": page_groups,
+ "Strategy test": page_strategy, "Check a past IPO": page_check}[page]()

@@ -1,11 +1,37 @@
 # IPO Listing-Day Analyser
 
-Builds a dataset of Indian mainboard IPOs (2022–2025 for training, 2026 for testing), one row
-per IPO. It then compares the IPOs that listed above their issue price with the ones that
-didn't, and tests simple strategies on 2026 IPOs that the strategies have never seen.
+**Will an Indian mainboard IPO list at a gain, and by how much?** Type the name of an IPO. The app finds it on NSE,
+downloads its RHP, has Claude read it, and reports the chance of a listing gain, the expected gain in %, the likely listing
+price, and the strengths, risks and most similar past IPOs behind that estimate.
 
-Every feature is something you could know **before listing day**. Listing-day prices are
-outcomes and are never used as features.
+![The report: verdict, listing chance, expected gain range, subscription history](docs/img/report.png)
+
+|  |  |
+|---|---|
+| **Learns from** | 390+ mainboard IPOs listed 2022-2026 (NSE data, fundamentals read from each RHP) |
+| **Tested on** | 107 IPOs from 2026 that the models never saw |
+| **Chance of a gain, once subscription is known** | AUC 0.85, 81% accuracy (a coin flip is 0.5; always saying "gain" is 69%) |
+| **Expected gain** | median error 6.6 percentage points; the likely range covers 56% of outcomes |
+| **Before bidding opens** | weak (AUC 0.68), and the app labels it that way |
+
+Educational tool, not investment advice. Models learn from past listings and can be wrong.
+
+![Strengths and company-specific risks, each with the RHP page](docs/img/risks.png)
+
+## Quick start
+
+```bash
+git clone https://github.com/singhwilliam15/ipo-listing-analyser
+cd ipo-listing-analyser
+python -m venv .venv && .venv\Scripts\activate        # macOS/Linux: source .venv/bin/activate
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+The repo ships with the dataset (`data/ipos.csv`), so the model pages and backtest work straight away. Looking up a live IPO
+needs two things: a connection NSE accepts (home internet works; most cloud servers and VPNs are blocked), and a way to read
+the RHP, either `ANTHROPIC_API_KEY` or the Claude Code CLI (`claude`) logged in. Without either you can still explore the
+history, the backtest and the model-accuracy pages.
 
 ## Analyse a new IPO
 

@@ -357,4 +357,4 @@ def analyse_issue(m: Match, pdf: Path | None = None, hist: pd.DataFrame | None =
     for c in ("p25", "median", "p75"):
         sc[f"price_{c}"] = price * (1 + sc[c] / 100) if pd.notna(price) else np.nan
     return Analysis(m, row, flags(row, hist), live, gain_p, sub_med, sub_rng, sc,
-                    {k: models[k] for k in ("auc", "r2", "n_train", "n_test")}, table, source, notes, record)
+                    {k: models[k] for k in ("auc", "r2", "n_train", "n_test")}, table, source, notes=notes, record=record)

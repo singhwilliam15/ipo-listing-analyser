@@ -62,3 +62,24 @@ def test_uploaded_rhp_is_saved_as_symbol_pdf(tmp_path, monkeypatch):
     src.write_bytes(b"%PDF-1.4 newer")                       # a different upload replaces the saved copy
     live.get_document("ABC", None, src, nse=None)
     assert path.read_bytes() == b"%PDF-1.4 newer"
+
+
+def test_analysis_keeps_record_and_notes_apart(monkeypatch, tmp_path):
+    """Regression: record and notes were once swapped by a positional constructor call."""
+    from src import extract_rhp
+    rec = {"fields": {"sector": "IT & software", "pat_fy0": 10.0, "revenue_fy0": 100.0, "revenue_fy2": 60.0, "pat_fy2": 5.0,
+                      "ronw_fy0_pct": 20.0, "debt_to_equity_fy0": 0.3}, "checks": ["a check"]}
+
+    class FakeNSE:
+        def ipo_detail(self, symbol):
+            return {"metaInfo": {}, "issueInfo": {"dataList": []}}
+
+    monkeypatch.setattr(live, "market_series", lambda: None)
+    monkeypatch.setattr(live, "get_document", lambda *a, **k: (tmp_path / "x.pdf", "RHP (test)"))
+    monkeypatch.setattr(extract_rhp, "extract", lambda *a, **k: rec)
+    monkeypatch.setattr(extract_rhp, "make_client", lambda: None)
+    hist = live.load_history()
+    m = live.Match("ABC", "Abc Ltd", "Active", "Mainboard", 90.0, 100.0, "01-Dec-2026", "03-Dec-2026")
+    a = live.analyse_issue(m, hist=hist, nse=FakeNSE())
+    assert a.record is rec
+    assert isinstance(a.notes, list) and all(isinstance(n, str) for n in a.notes)
