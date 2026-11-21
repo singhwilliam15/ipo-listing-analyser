@@ -9,10 +9,10 @@ price, and the strengths, risks and most similar past IPOs behind that estimate.
 |  |  |
 |---|---|
 | **Learns from** | 390+ mainboard IPOs listed 2022-2026 (NSE data, fundamentals read from each RHP) |
-| **Tested on** | 107 IPOs from 2026 that the models never saw |
-| **Chance of a gain, once subscription is known** | AUC 0.85, 81% accuracy (a coin flip is 0.5; always saying "gain" is 69%) |
-| **Expected gain** | median error 6.6 percentage points; the likely range covers 56% of outcomes |
-| **Before bidding opens** | weak (AUC 0.68), and the app labels it that way |
+| **Tested by** | walk-forward: each of 2024, 2025 and 2026 scored by models trained only on earlier years (297 IPOs pooled) |
+| **Chance of a gain, once subscription is final** | AUC 0.83, 78% accuracy pooled (a coin flip is 0.5; always saying "gain" is 72%) |
+| **Expected gain** | median error 9.4 percentage points pooled; ranges widened so about 50% and 80% of outcomes fall inside |
+| **Before bidding closes** | weak (pooled AUC 0.61), so the app keeps the pre-bid estimate as the headline while bidding is open and says so |
 
 Educational tool, not investment advice. Models learn from past listings and can be wrong.
 
@@ -50,10 +50,24 @@ reads the RHP, and the code does all the maths. The report has eight sections:
 7. **Strengths, concerns, risks**, litigation, contingent liabilities, related-party items and red flags.
 8. **The 10 most similar past IPOs.**
 
-You can type in subscription figures yourself and tick "bidding has closed" to override NSE's live numbers, and download the
-report as Markdown. Every probability and gain shown comes from a model whose 2026 test score is on the same page (see the
-backtest expander) and in [docs/findings.md](docs/findings.md). Headline 2026 scores: subscription model AUC 0.85 and 81%
-accuracy; fundamentals-only AUC 0.68; median gain error 6.6 points.
+While bidding is open the headline is the pre-bid estimate; the subscription model's answer appears separately as "if bidding
+closed at today's figures", next to the QIB subscription needed for a 70/85/95% chance. Allotment odds and profit per lot appear
+once you tick "bidding has closed" (you can also type subscription figures yourself, which override NSE's live numbers). The
+report downloads as Markdown.
+
+Accuracy is shown on the **Model accuracy** tab: a walk-forward test over 2024-2026 and the published train-to-2025 / test-2026
+result, both in [docs/findings.md](docs/findings.md). Estimates for a live IPO use models refit on every row including 2026;
+the accuracy figures come from models that never saw their test years.
+
+## Logging live subscription
+
+`python -m src.build snapshot` appends NSE's category-wise subscription (QIB, NII, retail, employee and shareholder quotas)
+for every open issue to `data/snapshots.csv`, with a timestamp. It is safe to run from cron every 30 minutes: runs cannot overlap
+(lock file), a row is written only when NSE's own "updated as on" stamp has changed, and NSE errors are logged, not raised.
+
+```
+*/30 9-17 * * 1-5  cd /path/to/ipo-analyser && .venv/bin/python -m src.build snapshot
+```
 
 ## Setup
 
@@ -161,7 +175,8 @@ src/features.py            derived fields, market context, targets, data quality
 src/analyse.py             group comparison, rules, logistic regression, metrics
 src/build.py               the CLI above
 src/demo.py                synthetic rows for tests and the demo toggle
-src/report.py               probability, gain ranges, backtest, report assembly
+src/report.py               probability, gain ranges, walk-forward backtest, report assembly
+src/snapshot.py             live subscription logger for cron
 src/qualitative.py          second Claude pass: business, risks, litigation (page-referenced)
 src/live.py                 NSE lookup, RHP download, feature row for a new IPO
 app.py                     Streamlit front end (display only)

@@ -175,7 +175,7 @@ def num(v) -> float:
         return np.nan
     if isinstance(v, (int, float)):
         return float(v)
-    m = re.search(r"-?\d[\d,]*\.?\d*", str(v))
+    m = re.search(r"-?\d[\d,]*\.?\d*(?:[eE][+-]?\d+)?", str(v))      # keeps scientific notation such as 4.93E8
     return float(m.group().replace(",", "")) if m else np.nan
 
 
@@ -257,6 +257,37 @@ def _walk(obj):
     elif isinstance(obj, list):
         for v in obj:
             yield from _walk(v)
+
+
+def parse_categories(detail: Any) -> dict:
+    """Category-wise subscription from an ipo-detail payload, read by NSE's serial number so that the employee
+    and shareholder quotas are kept (parse_bids drops shareholders).
+
+    sr 1 = QIB, 2 = NII, 2.1 = bNII, 2.2 = sNII, 3 = retail, 4 = employees, 5 = shareholders, no number = total.
+    Values are None when a category is not in the payload. `nse_updated` is NSE's own 'updated as on' stamp."""
+    ac = detail.get("activeCat") if isinstance(detail, dict) else None
+    out: dict[str, Any] = {k: None for k in ("sub_total_x", "sub_qib_x", "sub_nii_x", "sub_bnii_x", "sub_snii_x", "sub_retail_x",
+                                              "sub_employee_x", "sub_shareholder_x", "shares_total", "shares_qib", "shares_nii",
+                                              "shares_retail", "shares_employee", "shares_shareholder")}
+    out["nse_updated"] = None
+    if not isinstance(ac, dict):
+        return out
+    out["nse_updated"] = str(ac.get("updateTime") or "").replace("Updated as on", "").strip() or None
+    by_sr = {"1": "qib", "2": "nii", "2.1": "bnii", "2.2": "snii", "3": "retail", "4": "employee", "5": "shareholder"}
+    for r in ac.get("dataList", []) or []:
+        sr = r.get("srNo")
+        times = num(r.get("noOfTotalMeant"))
+        offered = num(r.get("noOfShareOffered"))
+        if sr is None and str(r.get("category", "")).strip().lower() == "total":
+            key = "total"
+        else:
+            key = by_sr.get(str(sr).strip()) if sr is not None else None
+        if key is None or np.isnan(times):
+            continue
+        out[f"sub_{key}_x"] = float(times)
+        if f"shares_{key}" in out and not np.isnan(offered):
+            out[f"shares_{key}"] = float(offered)
+    return out
 
 
 def parse_bids(detail: Any) -> dict:

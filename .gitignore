@@ -9,3 +9,5 @@ data/nse_detail/
 # run logs
 data/extract_*.txt
 data/missing_rhp.txt
+data/snapshots.csv
+data/snapshots.lock

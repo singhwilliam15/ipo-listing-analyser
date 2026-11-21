@@ -18,7 +18,7 @@ import numpy as np
 import pandas as pd
 
 from . import analyse, extract_rhp, features, schema
-from .fetch_market import DataError, NSEClient, find_rhp_url, index_closes, issue_info, parse_bids
+from .fetch_market import DataError, NSEClient, find_rhp_url, index_closes, issue_info, parse_bids, parse_categories
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
@@ -339,6 +339,8 @@ def analyse_issue(m: Match, pdf: Path | None = None, hist: pd.DataFrame | None =
     progress("Scoring")
     row = build_row(m, detail, record, hist)
     live = parse_bids(detail) if detail else {}
+    cats = parse_categories(detail) if detail else {}
+    live.update({k: v for k, v in cats.items() if k.startswith("sub_") and v is not None})   # adds the shareholder quota
     live = {k: v for k, v in live.items() if pd.notna(v)}
     models = fit_prior_models(hist)
     X = pd.DataFrame([row]).reindex(columns=MODEL_FEATURES).apply(pd.to_numeric, errors="coerce")

@@ -349,6 +349,11 @@ def cmd_assemble(a) -> None:
             f"Base rate (train): {br['positive']}/{br['n']} = {br['rate'] * 100:.1f}% listed above issue price.")
 
 
+def cmd_snapshot(a) -> None:
+    from . import snapshot
+    snapshot.take_snapshot(include_upcoming=a.all)
+
+
 def cmd_analyse(a) -> None:
     df = analyse.load(DATA / ("ipos_sme.csv" if a.sme else "ipos.csv"))
     res = analyse.evaluate_all(df, target=a.target, quality=tuple(a.quality))
@@ -391,13 +396,17 @@ def main(argv=None) -> None:
             p.add_argument("--wait", type=int, default=0, metavar="MIN",
                            help="on a usage limit, sleep MIN minutes and resume (0 = stop)")
     sub.add_parser("assemble")
+    p = sub.add_parser("snapshot", help="append live subscription (all categories) of open issues to data/snapshots.csv")
+    p.add_argument("--all", action="store_true", help="include issues that have not opened yet")
+    p.set_defaults(fn=cmd_snapshot)
     p = sub.add_parser("analyse")
     p.add_argument("--target", default="target_gain", choices=analyse.TARGETS)
     p.add_argument("--quality", nargs="+", default=["full", "partial"])
     p.add_argument("--sme", action="store_true")
     a = ap.parse_args(argv)
     {"issues": cmd_issues, "outcomes": cmd_outcomes, "demand": cmd_demand, "market": cmd_market,
-     "rhp": cmd_rhp, "extract": cmd_extract, "assemble": cmd_assemble, "analyse": cmd_analyse}[a.cmd](a)
+     "rhp": cmd_rhp, "extract": cmd_extract, "assemble": cmd_assemble, "analyse": cmd_analyse,
+     "snapshot": cmd_snapshot}[a.cmd](a)
 
 
 if __name__ == "__main__":

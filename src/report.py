@@ -55,11 +55,17 @@ def prepare(df: pd.DataFrame) -> pd.DataFrame:
     return d
 
 
-def split(d: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]:
-    """Train = listed before 2026-01-01, test = listed 2026 onward. Only rows with an outcome."""
+def split(d: pd.DataFrame, cut=TEST_START, until=None) -> tuple[pd.DataFrame, pd.DataFrame]:
+    """Rows with an outcome, split by listing date: train = before `cut`, test = from `cut` (and before `until`).
+    cut=None puts every row in train (production fit)."""
     d = d[d["listing_gain_pct"].notna() & d["listing_date"].notna()]
-    cut = pd.Timestamp(TEST_START)
-    return d[d["listing_date"] < cut], d[d["listing_date"] >= cut]
+    if cut is None:
+        return d, d.iloc[0:0]
+    c = pd.Timestamp(cut)
+    test = d[d["listing_date"] >= c]
+    if until is not None:
+        test = test[test["listing_date"] < pd.Timestamp(until)]
+    return d[d["listing_date"] < c], test
 
 
 def allotment_prob(retail_x) -> float:
@@ -104,6 +110,18 @@ def _frame(row: pd.Series | pd.DataFrame, cols: list[str]) -> pd.DataFrame:
 # --------------------------------------------------------------------------- #
 # Models
 # --------------------------------------------------------------------------- #
+BANDS = ("<10x", "10-100x", ">100x")
+WF_YEARS = (2024, 2025, 2026)           # walk-forward test years; each trains on every earlier year
+MIN_BAND_ROWS = 20
+
+
+def qib_band(qib) -> str:
+    """Band used for range widening; 'pre-bid' when there is no subscription."""
+    if qib is None or pd.isna(qib) or qib <= 0:
+        return "pre-bid"
+    return BANDS[0] if qib < 10 else BANDS[1] if qib <= 100 else BANDS[2]
+
+
 @dataclass
 class Models:
     demand: Pipeline                      # P(gain) from subscription + PAT margin
@@ -115,8 +133,10 @@ class Models:
     aux_retail: LinearRegression          # l_retail ~ l_qib
     zmean: pd.Series
     zstd: pd.Series
-    default_gain_model: str = "A"         # "A" or "B", chosen on 2025 validation inside the training set
+    default_gain_model: str = "A"         # "A" or "B", chosen on the last training year inside the training set
     info: dict = field(default_factory=dict)
+    widen: dict = field(default_factory=dict)   # {"A"|"B"|"prebid": {band: {"inner": pts, "outer": pts}}}, from walk-forward residuals
+    cutoff: str | None = None             # models saw rows listed before this date; None = every row (production)
 
 
 def _fit_quantiles(train: pd.DataFrame, kind: str) -> dict[str, Pipeline]:
@@ -162,28 +182,23 @@ def _empirical(train: pd.DataFrame, qib: float, pat_margin: float | None) -> tup
     return {k: float(g.quantile(q)) for q, k in zip(QUANTILES, QKEYS)}, meta
 
 
-def fit_models(d: pd.DataFrame) -> Models:
-    """Fit everything on rows listed before 2026. Rows from 2026 are never read for fitting."""
-    train, _ = split(d)
+def _fit_core(d: pd.DataFrame, cutoff) -> Models:
+    """Fit everything on rows listed before `cutoff` (None = every row). No range widening yet."""
+    train, _ = split(d, cutoff)
     tr = train[train["sub_total_x"].notna() | train["sub_qib_x"].notna()]
     y = (tr["listing_gain_pct"] > 0).astype(int)
     demand = _num_pipe(LogisticRegression(C=0.5, max_iter=2000)).fit(tr[DEMAND_NUM], y)
-    pb = train
-    prebid = _num_pipe(LogisticRegression(C=0.05, max_iter=2000)).fit(pb[PREBID_NUM], (pb["listing_gain_pct"] > 0).astype(int))
+    prebid = _num_pipe(LogisticRegression(C=0.05, max_iter=2000)).fit(train[PREBID_NUM], (train["listing_gain_pct"] > 0).astype(int))
 
-    # choose Model A's flavour on a 2025 validation fold carved out of TRAINING rows
-    fit_part, val = tr[tr["listing_date"] < "2025-01-01"], tr[tr["listing_date"] >= "2025-01-01"]
-    best_kind, best_loss, losses = "linear", np.inf, {}
+    # choose Model A's flavour, and A vs B, on the last full year inside the TRAINING rows
+    last_year = (pd.Timestamp(cutoff).year if cutoff is not None else int(train["listing_date"].max().year)) - 1
+    fit_part, val = tr[tr["listing_date"].dt.year < last_year], tr[tr["listing_date"].dt.year == last_year]
+    best_kind, best_loss, losses, default = "linear", np.inf, {}, "A"
     if len(fit_part) > 80 and len(val) > 20:
         for kind in ("linear", "gbm"):
             losses[kind] = _pinball(val["listing_gain_pct"].to_numpy(), _predict_a(_fit_quantiles(fit_part, kind), val))
             if losses[kind] < best_loss:
                 best_kind, best_loss = kind, losses[kind]
-    qa = _fit_quantiles(tr, best_kind)
-
-    # default gain model: A vs B on the same 2025 validation fold
-    default = "A"
-    if len(fit_part) > 80 and len(val) > 20:
         qa_val = _predict_a(_fit_quantiles(fit_part, best_kind), val)
         rows = [_empirical(fit_part, r.sub_qib_x, r.pat_margin_fy0_pct)[0] if pd.notna(r.sub_qib_x) else {k: np.nan for k in QKEYS}
                 for r in val.itertuples()]
@@ -193,14 +208,115 @@ def fit_models(d: pd.DataFrame) -> Models:
             lb = _pinball(val["listing_gain_pct"].to_numpy()[ok], {k: v[ok] for k, v in qb.items()})
             la = _pinball(val["listing_gain_pct"].to_numpy()[ok], {k: v[ok] for k, v in qa_val.items()})
             default = "A" if la <= lb else "B"
-            losses.update({"A_val": la, "B_val": lb})
+            losses.update({"A_val": la, "B_val": lb, "val_year": last_year})
+    qa = _fit_quantiles(tr, best_kind)
 
     both = tr.dropna(subset=["l_qib", "l_total", "l_retail"])
     aux_t = LinearRegression().fit(both[["l_qib"]], both["l_total"])
     aux_r = LinearRegression().fit(both[["l_qib"]], both["l_retail"])
     z = train[PREBID_NUM + ["l_qib", "l_total"]]
     return Models(demand, prebid, qa, best_kind, train, aux_t, aux_r, z.mean(), z.std().replace(0, 1), default,
-                  {"pinball_val": losses, "n_train": len(train), "n_demand_rows": len(tr)})
+                  {"pinball_val": losses, "n_train": len(train), "n_demand_rows": len(tr)},
+                  cutoff=None if cutoff is None else str(pd.Timestamp(cutoff).date()))
+
+
+# --------------------------------------------------------------------------- #
+# Walk-forward predictions and range calibration
+# --------------------------------------------------------------------------- #
+def predict_test(models: Models, test: pd.DataFrame) -> dict:
+    """Raw (unwidened) predictions for held-out rows."""
+    td = test[test["l_qib"].notna() | test["l_total"].notna()]
+    qb_rows = [_empirical(models.train, r.sub_qib_x, r.pat_margin_fy0_pct)[0] if pd.notna(r.sub_qib_x) else {k: np.nan for k in QKEYS}
+               for r in td.itertuples()]
+    knn = []
+    for _, r in test.iterrows():
+        g = similar(models, r, 10)["listing_gain_pct"]
+        knn.append({k: float(g.quantile(q)) if len(g) else np.nan for q, k in zip(QUANTILES, QKEYS)})
+    return {"test": test, "td": td,
+            "y": (test["listing_gain_pct"] > 0).astype(int).to_numpy(), "yd": (td["listing_gain_pct"] > 0).astype(int).to_numpy(),
+            "gain": test["listing_gain_pct"].to_numpy(), "gain_d": td["listing_gain_pct"].to_numpy(),
+            "p_demand": models.demand.predict_proba(td[DEMAND_NUM])[:, 1] if len(td) else np.array([]),
+            "p_prebid": models.prebid.predict_proba(test[PREBID_NUM])[:, 1] if len(test) else np.array([]),
+            "A": _predict_a(models.quantile_a, td) if len(td) else {k: np.array([]) for k in QKEYS},
+            "B": {k: np.array([r[k] for r in qb_rows]) for k in QKEYS},
+            "prebid": {k: np.array([r[k] for r in knn]) for k in QKEYS},
+            "band_d": np.array([qib_band(v) for v in td["sub_qib_x"]]), "band_all": np.array(["pre-bid"] * len(test))}
+
+
+def walk_forward_raw(d: pd.DataFrame, years=WF_YEARS) -> dict[int, dict]:
+    """For each year Y: fit on rows listed before Y, predict the rows listed in Y."""
+    out = {}
+    for y in years:
+        cut, until = pd.Timestamp(year=y, month=1, day=1), pd.Timestamp(year=y + 1, month=1, day=1)
+        _, test = split(d, cut, until)
+        if len(test) < 10:
+            continue
+        m = _fit_core(d, cut)
+        out[y] = {**predict_test(m, test), "n_train": m.info["n_train"], "default": m.default_gain_model}
+    return out
+
+
+def _stack(raws: list[dict], key: str, level: str | None = None) -> np.ndarray:
+    parts = [r[key][level] if level else r[key] for r in raws]
+    return np.concatenate(parts) if parts else np.array([])
+
+
+def calibrate(raws: list[dict]) -> dict:
+    """Widening that makes the two ranges hit their nominal coverage on held-out walk-forward residuals.
+
+    For each model (A, B, pre-bid) and QIB band, two amounts in percentage points:
+      inner = widening of the p25-p75 range (applied as p25 - inner, p75 + inner) so about 50% of outcomes fall inside,
+      outer = widening of the p10-p90 range so about 80% do.
+    Each amount is the smallest c >= 0 that reaches the target coverage; it never narrows a range. Bands with fewer
+    than MIN_BAND_ROWS residuals borrow the pooled amount."""
+    out: dict = {}
+    for model, ykey, bkey in (("A", "gain_d", "band_d"), ("B", "gain_d", "band_d"), ("prebid", "gain", "band_all")):
+        y, bands = _stack(raws, ykey), _stack(raws, bkey)
+        preds = {k: _stack(raws, model, k) for k in QKEYS}
+        ok = ~np.isnan(preds["p50"]) & ~np.isnan(y)
+
+        def need(lo, hi, sel):
+            return np.maximum.reduce([preds[lo][sel] - y[sel], y[sel] - preds[hi][sel], np.zeros(int(sel.sum()))])
+
+        table: dict = {}
+        for band in (BANDS if model != "prebid" else ("pre-bid",)):
+            sel = ok & (bands == band)
+            use = sel if sel.sum() >= MIN_BAND_ROWS else ok
+            table[band] = {"n": int(sel.sum())}
+            for name, (lo, hi), target in (("inner", ("p25", "p75"), 0.50), ("outer", ("p10", "p90"), 0.80)):
+                table[band][name] = float(np.quantile(need(lo, hi, use), target)) if use.sum() else 0.0
+        out[model] = table
+    return out
+
+
+def apply_widen(q: dict[str, float], model: str, band: str, widen: dict) -> dict[str, float]:
+    """Return the quantiles with each range widened by its stored amount, kept in order."""
+    w = (widen or {}).get(model, {}).get(band)
+    if not w:
+        return dict(q)
+    out = {"p10": q["p10"] - w["outer"], "p25": q["p25"] - w["inner"], "p50": q["p50"],
+           "p75": q["p75"] + w["inner"], "p90": q["p90"] + w["outer"]}
+    return dict(zip(QKEYS, np.sort([out[k] for k in QKEYS])))
+
+
+def _apply_arrays(pred: dict[str, np.ndarray], bands: np.ndarray, model: str, widen: dict) -> dict[str, np.ndarray]:
+    out = {k: pred[k].copy() for k in QKEYS}
+    for i, band in enumerate(bands):
+        w = apply_widen({k: pred[k][i] for k in QKEYS}, model, band, widen)
+        for k in QKEYS:
+            out[k][i] = w[k]
+    return out
+
+
+def fit_models(d: pd.DataFrame, cutoff=TEST_START, wf_raw: dict[int, dict] | None = None) -> Models:
+    """Fit on rows listed before `cutoff` (default: before 2026, the published models) or on every row
+    (cutoff=None, the production models). Range widening comes from walk-forward years strictly before the
+    cutoff, so a 2026 test never leaks into the published models."""
+    m = _fit_core(d, cutoff)
+    years = [y for y in WF_YEARS if cutoff is None or y < pd.Timestamp(cutoff).year]
+    wf = wf_raw if wf_raw is not None else walk_forward_raw(d, years)
+    m.widen = calibrate([wf[y] for y in years if y in wf])
+    return m
 
 
 # --------------------------------------------------------------------------- #
@@ -265,46 +381,72 @@ def qib_needed(models: Models, row: pd.Series, targets=(0.70, 0.85, 0.95)) -> di
     return out
 
 
-def estimate(models: Models, row: pd.Series, sub: dict | None = None, closed: bool = False, gain_model: str | None = None) -> dict:
-    """Probability, expected gain, price and allotment economics for one IPO."""
-    sub = {k: v for k, v in (sub or {}).items() if v is not None and pd.notna(v)}
-    stage = stage_of(sub, closed)
-    gm = gain_model or models.default_gain_model
-    price = pd.to_numeric(pd.Series([row.get("price_high", row.get("issue_price"))]), errors="coerce").iloc[0]
-    lot = pd.to_numeric(pd.Series([row.get("lot_size")]), errors="coerce").iloc[0]
-    res: dict = {"stage": stage, "gain_model": gm if stage != "pre-bid" else "kNN", "price": price}
-    knn = similar(models, row, 10, use_demand=stage != "pre-bid")
-    res["similar"] = knn
-    res["knn_hit_rate"] = float((knn["listing_gain_pct"] > 0).mean()) if len(knn) else None
-
-    if stage == "pre-bid":
-        Xp = _frame(row, PREBID_NUM).copy()
-        Xp[PREBID_NUM] = Xp[PREBID_NUM].apply(pd.to_numeric, errors="coerce")
-        res["prob"] = float(models.prebid.predict_proba(Xp[PREBID_NUM])[0, 1])
-        g = knn["listing_gain_pct"]
-        q = {k: float(g.quantile(qq)) for qq, k in zip(QUANTILES, QKEYS)} if len(g) else {k: np.nan for k in QKEYS}
-        # widen: 10 neighbours understate the spread, so stretch tails by the training-set spread
-        res["wide"] = True
-    else:
-        X = _demand_row(row, sub)
-        res["prob"] = float(models.demand.predict_proba(X[DEMAND_NUM])[0, 1])
-        qib = sub.get("sub_qib_x")
-        if gm == "B" and qib is not None:
-            q, meta = _empirical(models.train, float(qib), pd.to_numeric(pd.Series([row.get("pat_margin_fy0_pct")]), errors="coerce").iloc[0])
-            res["model_b_meta"] = meta
-        else:
-            q = {k: float(v[0]) for k, v in _predict_a(models.quantile_a, X).items()}
-        res["wide"] = False
+def _finish(res: dict, q: dict[str, float], price: float) -> dict:
     q = dict(zip(QKEYS, np.sort([q[k] for k in QKEYS])))
     res["gain"] = q
     res["gain_mean"] = float(np.dot(QWEIGHTS, [q[k] for k in QKEYS]))
     res["prices"] = {k: price * (1 + q[k] / 100) if pd.notna(price) else np.nan for k in QKEYS}
+    return res
+
+
+def _prebid_estimate(models: Models, row: pd.Series, price: float, knn: pd.DataFrame) -> dict:
+    Xp = _frame(row, PREBID_NUM).copy()
+    Xp[PREBID_NUM] = Xp[PREBID_NUM].apply(pd.to_numeric, errors="coerce")
+    res = {"prob": float(models.prebid.predict_proba(Xp[PREBID_NUM])[0, 1]), "wide": True, "gain_model": "kNN", "band": "pre-bid"}
+    g = knn["listing_gain_pct"]
+    q = {k: float(g.quantile(qq)) if len(g) else np.nan for qq, k in zip(QUANTILES, QKEYS)}
+    if not np.isnan(q["p50"]):
+        q = apply_widen(q, "prebid", "pre-bid", models.widen)       # tails widened to the walk-forward residual spread
+    return _finish(res, q, price)
+
+
+def _demand_estimate(models: Models, row: pd.Series, sub: dict, gm: str, price: float) -> dict:
+    X = _demand_row(row, sub)
+    res = {"prob": float(models.demand.predict_proba(X[DEMAND_NUM])[0, 1]), "wide": False, "gain_model": gm}
+    qib = sub.get("sub_qib_x")
+    band = qib_band(qib)
+    res["band"] = band
+    if gm == "B" and qib is not None:
+        q, meta = _empirical(models.train, float(qib), _num(row.get("pat_margin_fy0_pct")))
+        res["model_b_meta"] = meta
+    else:
+        q = {k: float(v[0]) for k, v in _predict_a(models.quantile_a, X).items()}
+        gm = "A"
+    q = apply_widen(q, gm, band, models.widen)
+    return _finish(res, q, price)
+
+
+def estimate(models: Models, row: pd.Series, sub: dict | None = None, closed: bool = False, gain_model: str | None = None) -> dict:
+    """Probability, expected gain, price and allotment economics for one IPO.
+
+    pre-bid      headline = fundamentals-only estimate.
+    provisional  headline = still the pre-bid estimate (live figures are partial); the demand model's answer is
+                 reported separately as `if_closed`, 'if bidding closed at today's figures'.
+    final        headline = demand model on the final figures; allotment odds and profit per lot are shown."""
+    sub = {k: v for k, v in (sub or {}).items() if v is not None and pd.notna(v)}
+    stage = stage_of(sub, closed)
+    gm = gain_model or models.default_gain_model
+    price = _num(row.get("price_high", row.get("issue_price")))
+    lot = _num(row.get("lot_size"))
+    knn = similar(models, row, 10, use_demand=stage == "final")
+    res: dict = {"stage": stage, "price": price, "similar": knn,
+                 "knn_hit_rate": float((knn["listing_gain_pct"] > 0).mean()) if len(knn) else None}
+    if stage == "final":
+        res.update(_demand_estimate(models, row, sub, gm, price))
+        res["headline"], res["if_closed"] = "final", None
+    else:
+        res.update(_prebid_estimate(models, row, price, knn))
+        res["headline"] = "pre-bid"
+        res["if_closed"] = _demand_estimate(models, row, sub, gm, price) if stage == "provisional" else None
     res["floor"] = stage == "provisional"
-    retail = sub.get("sub_retail_x") or sub.get("sub_total_x")
-    res["p_allot"] = allotment_prob(retail) if (retail and stage != "pre-bid") else float("nan")
     lot_value = lot * price if pd.notna(lot) and pd.notna(price) else APPLICATION_RS
     res["lot_value"] = lot_value
-    res["profit_per_lot"] = (res["p_allot"] * res["gain_mean"] / 100 * lot_value) if pd.notna(res["p_allot"]) else float("nan")
+    if stage == "final":                                   # shown only once bidding has closed
+        retail = sub.get("sub_retail_x") or sub.get("sub_total_x")
+        res["p_allot"] = allotment_prob(retail) if retail else float("nan")
+        res["profit_per_lot"] = (res["p_allot"] * res["gain_mean"] / 100 * lot_value) if pd.notna(res["p_allot"]) else float("nan")
+    else:
+        res["p_allot"] = res["profit_per_lot"] = float("nan")
     res["qib_needed"] = qib_needed(models, row)
     return res
 
@@ -314,14 +456,15 @@ def estimate(models: Models, row: pd.Series, sub: dict | None = None, closed: bo
 # --------------------------------------------------------------------------- #
 def verdict(prob: float, qib: float | None, stage: str) -> tuple[str, list[str]]:
     """Apply if P >= 0.85 and QIB >= 10x; Skip if P < 0.55 or QIB < 3x (once bidding has closed);
-    Wait while subscription is unknown or still building; otherwise Apply with caution."""
+    Wait while subscription is unknown or still building; otherwise Apply with caution.
+    For the provisional stage pass the demand model's 'if closed now' probability."""
     why: list[str] = []
     if stage == "pre-bid" or qib is None or pd.isna(qib):
         return "Wait for subscription", ["No subscription data yet; fundamentals alone predict listing gains only weakly."]
     meets_apply = prob >= 0.85 and qib >= 10
     if stage == "provisional":
         if meets_apply:
-            return "Apply", [f"Already at {qib:.1f}x QIB with a {prob:.0%} chance, and the live figure is a floor."]
+            return "Apply", [f"Already at {qib:.1f}x QIB; if bidding closed now the chance would be {prob:.0%}, and live figures are a floor."]
         return "Wait for subscription", [f"Bidding is still open ({qib:.1f}x QIB so far); QIBs bid mostly on the last day."]
     if meets_apply:
         return "Apply", [f"Chance of a listing gain {prob:.0%} (at least 85%).", f"QIB subscription {qib:.1f}x (at least 10x)."]
@@ -336,7 +479,7 @@ def verdict(prob: float, qib: float | None, stage: str) -> tuple[str, list[str]]
 
 
 # --------------------------------------------------------------------------- #
-# Backtest on 2026
+# Backtests
 # --------------------------------------------------------------------------- #
 def calibration_table(p: np.ndarray, y: np.ndarray, bins: int = 10) -> pd.DataFrame:
     df = pd.DataFrame({"p": p, "y": y})
@@ -363,7 +506,8 @@ def gain_scores(y: np.ndarray, pred: dict[str, np.ndarray]) -> dict:
 
 
 def strategy_table(test: pd.DataFrame) -> pd.DataFrame:
-    """Hit rate, average gain, allotment-weighted gain and summed expected gain per lot (Rs) by rule."""
+    """Hit rate, average gain, expected gain per application and summed expected gain per lot (Rs) by rule.
+    Expected gain per application = P(allotment) x gain, with P(allotment) = min(1, 1 / retail subscription)."""
     t = test.copy()
     t["p_allot"] = [allotment_prob(r if pd.notna(r) else tot) for r, tot in zip(t["sub_retail_x"], t["sub_total_x"])]
     lot_val = (t["lot_size"] * t["issue_price"]).where(lambda s: s > 0)
@@ -377,42 +521,83 @@ def strategy_table(test: pd.DataFrame) -> pd.DataFrame:
         pa = s["p_allot"].fillna(s["p_allot"].median() if s["p_allot"].notna().any() else 1.0)
         rows.append({"rule": name, "n_applied": len(s), "hit_rate": float((s["listing_gain_pct"] > 0).mean()) if len(s) else np.nan,
                      "avg_gain_pct": float(s["listing_gain_pct"].mean()) if len(s) else np.nan,
-                     "allotment_weighted_gain_pct": float((pa * s["listing_gain_pct"]).mean()) if len(s) else np.nan,
+                     "expected_gain_per_application_pct": float((pa * s["listing_gain_pct"]).mean()) if len(s) else np.nan,
                      "sum_expected_gain_per_lot_rs": float((pa * s["listing_gain_pct"] / 100 * s["lot_value"]).sum()) if len(s) else 0.0})
     return pd.DataFrame(rows).set_index("rule")
 
 
 def backtest(models: Models, d: pd.DataFrame) -> dict:
-    """Score the already-fitted models on 2026 IPOs. Nothing here refits anything."""
-    _, test = split(d)
+    """Score the already-fitted published models (train to 2025) on 2026 IPOs. Nothing here refits anything.
+    Gain ranges are scored both raw and after the walk-forward widening (which never saw 2026)."""
+    _, test = split(d, models.cutoff)
     res: dict = {"n_test": len(test), "n_train": models.info["n_train"], "gain_model_default": models.default_gain_model,
-                 "kind_a": models.kind_a, "val_losses": models.info["pinball_val"]}
+                 "kind_a": models.kind_a, "val_losses": models.info["pinball_val"], "widen": models.widen}
     if len(test) < 10:
         return res
-    y = (test["listing_gain_pct"] > 0).astype(int).to_numpy()
-    td = test[test["l_qib"].notna() | test["l_total"].notna()]
-    yd = (td["listing_gain_pct"] > 0).astype(int).to_numpy()
-    pd_ = models.demand.predict_proba(td[DEMAND_NUM])[:, 1]
-    pp = models.prebid.predict_proba(test[PREBID_NUM])[:, 1]
-    res["demand"], res["prebid"] = prob_scores(pd_, yd), prob_scores(pp, y)
-    res["calibration_demand"], res["calibration_prebid"] = calibration_table(pd_, yd), calibration_table(pp, y)
-    qa = _predict_a(models.quantile_a, td)
-    qb_rows = [_empirical(models.train, r.sub_qib_x, r.pat_margin_fy0_pct)[0] if pd.notna(r.sub_qib_x) else {k: np.nan for k in QKEYS} for r in td.itertuples()]
-    qb = {k: np.array([r[k] for r in qb_rows]) for k in QKEYS}
-    yg = td["listing_gain_pct"].to_numpy()
-    res["gain_a"], res["gain_b"] = gain_scores(yg, qa), gain_scores(yg, qb)
-    # pre-bid gain range from nearest neighbours
-    kq = []
-    for _, r in test.iterrows():
-        g = similar(models, r, 10)["listing_gain_pct"]
-        kq.append({k: float(g.quantile(q)) if len(g) else np.nan for q, k in zip(QUANTILES, QKEYS)})
-    res["gain_prebid_knn"] = gain_scores(test["listing_gain_pct"].to_numpy(), {k: np.array([r[k] for r in kq]) for k in QKEYS})
+    r = predict_test(models, test)
+    res["demand"], res["prebid"] = prob_scores(r["p_demand"], r["yd"]), prob_scores(r["p_prebid"], r["y"])
+    res["calibration_demand"], res["calibration_prebid"] = calibration_table(r["p_demand"], r["yd"]), calibration_table(r["p_prebid"], r["y"])
+    for key, model, bands, y in (("gain_a", "A", r["band_d"], r["gain_d"]), ("gain_b", "B", r["band_d"], r["gain_d"]), ("gain_prebid_knn", "prebid", r["band_all"], r["gain"])):
+        raw = r[model]
+        cal = _apply_arrays(raw, bands, model, models.widen)
+        res[key] = {**gain_scores(y, cal), "cov_25_75_raw": gain_scores(y, raw)["cov_25_75"], "cov_10_90_raw": gain_scores(y, raw)["cov_10_90"]}
     res["strategies"] = strategy_table(test)
-    # baselines for the probability models
+    y = r["y"]
     res["baselines"] = pd.DataFrame({
         "accuracy": [float(y.mean()), float(((test["sub_total_x"] > 10).astype(int) == y).mean())],
     }, index=["Always apply", "Total subscription > 10x"])
     return res
+
+
+def walk_forward(d: pd.DataFrame, wf_raw: dict[int, dict] | None = None, years=WF_YEARS) -> dict:
+    """Walk-forward scores: for each test year, models trained on all earlier years. Returns per-year rows and
+    the pooled row for probabilities and gains. Gain ranges are shown raw and 'leave-one-year-out calibrated':
+    widened using only the OTHER test years' residuals, so calibration is never scored on its own data."""
+    wf = wf_raw if wf_raw is not None else walk_forward_raw(d, years)
+    ys = sorted(wf)
+    prob_rows, gain_rows = [], []
+
+    def _rows(label, raws, cal_widen_for):
+        out = {}
+        yd, pdm = _stack(raws, "yd"), _stack(raws, "p_demand")
+        y, pp = _stack(raws, "y"), _stack(raws, "p_prebid")
+        pr = {"period": label, "n": int(len(y))}
+        s1, s2 = prob_scores(pdm, yd), prob_scores(pp, y)
+        pr.update({"demand_auc": s1["auc"], "demand_brier": s1["brier"], "demand_acc": s1["accuracy"],
+                   "prebid_auc": s2["auc"], "prebid_acc": s2["accuracy"], "base_rate": s2["base_rate"]})
+        out["prob"] = pr
+        for key, model, ykey, bkey in (("A", "A", "gain_d", "band_d"), ("B", "B", "gain_d", "band_d"), ("prebid", "prebid", "gain", "band_all")):
+            yy, bb = _stack(raws, ykey), _stack(raws, bkey)
+            raw = {k: _stack(raws, model, k) for k in QKEYS}
+            cal_parts = []
+            for r in raws:
+                w = cal_widen_for(r)
+                cal_parts.append(_apply_arrays(r[model], r[bkey], model, w))
+            cal = {k: np.concatenate([c[k] for c in cal_parts]) for k in QKEYS}
+            sr, sc = gain_scores(yy, raw), gain_scores(yy, cal)
+            out[key] = {"period": label, "model": key, "n": sr["n"], "mae_p50": sr["mae_p50"], "spearman": sr["spearman"],
+                        "cov_25_75_raw": sr["cov_25_75"], "cov_10_90_raw": sr["cov_10_90"],
+                        "cov_25_75_cal": sc["cov_25_75"], "cov_10_90_cal": sc["cov_10_90"]}
+        return out
+
+    def loyo(held_year):
+        others = [wf[y] for y in ys if y != held_year]
+        return calibrate(others) if len(others) else {}
+
+    per_year = {}
+    for y in ys:
+        per_year[y] = _rows(str(y), [wf[y]], lambda r, y=y: loyo(y))
+    # pooled: each year calibrated from the other years (leave-one-year-out)
+    pooled_raws = [wf[y] for y in ys]
+    widen_for = {id(wf[y]): loyo(y) for y in ys}
+    pooled = _rows("pooled", pooled_raws, lambda r: widen_for[id(r)])
+    for src in [per_year[y] for y in ys] + [pooled]:
+        prob_rows.append(src["prob"])
+        for k in ("A", "B", "prebid"):
+            gain_rows.append(src[k])
+    return {"years": ys, "prob": pd.DataFrame(prob_rows).set_index("period"),
+            "gain": pd.DataFrame(gain_rows).set_index(["model", "period"]), "n_train": {y: wf[y]["n_train"] for y in ys},
+            "calibration_all": calibrate(pooled_raws)}
 
 
 # --------------------------------------------------------------------------- #
@@ -577,9 +762,12 @@ def build_report(row: pd.Series, record: dict | None, qual_rec: dict | None, mod
             row[c] = float(v)
     est = estimate(models, row, sub, closed, gain_model)
     qib = (sub or {}).get("sub_qib_x")
-    label, reasons = verdict(est["prob"], qib, est["stage"])
-    if est["stage"] != "pre-bid":
+    vprob = est["if_closed"]["prob"] if est["stage"] == "provisional" else est["prob"]
+    label, reasons = verdict(vprob, qib, est["stage"])
+    if est["stage"] == "final":
         reasons = reasons + [f"Model {est['gain_model']}: median expected listing gain {est['gain']['p50']:+.0f}%."]
+    elif est["stage"] == "provisional":
+        reasons = reasons + [f"Headline numbers are the pre-bid estimate ({est['prob']:.0%} chance); at today's figures the subscription model gives {est['if_closed']['prob']:.0%}."]
     elif est["knn_hit_rate"] is not None:
         reasons = reasons + [f"The 10 most similar past IPOs listed above issue {est['knn_hit_rate']:.0%} of the time."]
     flags = live.flags(row, d[d["listing_gain_pct"].notna()])
@@ -624,22 +812,36 @@ def to_markdown(r: Report) -> str:
     L: list[str] = [f"# {r.company} ({r.symbol}): IPO report", "",
                     "_Historical patterns only; not investment advice. Models fitted on IPOs listed 2022-2025; scores below are on 2026._", ""]
     L += ["## 1. Verdict", f"**{r.verdict}**", ""] + [f"- {x}" for x in r.reasons] + [""]
-    L += ["## 2. Listing chance and expected gain",
-          f"Stage: **{e['stage']}**" + (" (live figures are a floor: QIBs bid mostly on the last day)" if e["floor"] else ""), "",
-          f"- Chance of listing above issue price: **{e['prob']:.0%}**" + (" (at least)" if e["floor"] else ""),
+    need = " / ".join(_f(e["qib_needed"][t], "{:.0f}x", ">3000x") for t in (0.70, 0.85, 0.95))
+    L += ["## 2. Listing chance and expected gain", ""]
+    if e["stage"] == "provisional":
+        L += [f"Stage: **provisional** (bidding open). QIB subscription needed for a 70% / 85% / 95% chance: **{need}**.",
+              f"QIBs bid mostly on the last day, so the headline below stays the pre-bid estimate.", ""]
+    else:
+        L += [f"Stage: **{e['stage']}**. QIB subscription needed for a 70% / 85% / 95% chance: {need}.", ""]
+    L += [f"- Chance of listing above issue price: **{e['prob']:.0%}** ({e['headline']} estimate)",
           f"- Expected listing gain: **{g['p50']:+.0f}%** median (likely range {g['p25']:+.0f}% to {g['p75']:+.0f}%; 80% range {g['p10']:+.0f}% to {g['p90']:+.0f}%)"
           + (" - wide, pre-bid estimate" if e.get("wide") else ""),
           f"- Implied listing price: ₹{_f(e['prices']['p50'], '{:,.0f}')} (₹{_f(e['prices']['p25'], '{:,.0f}')} to ₹{_f(e['prices']['p75'], '{:,.0f}')}; "
-          f"80% range ₹{_f(e['prices']['p10'], '{:,.0f}')} to ₹{_f(e['prices']['p90'], '{:,.0f}')}) on a top-of-band price of ₹{_f(e['price'], '{:,.0f}')}",
-          f"- Allotment odds per retail application: {_f(e['p_allot'], '{:.0%}')}; expected profit per lot: ₹{_f(e['profit_per_lot'], '{:,.0f}')} (lot value ₹{_f(e['lot_value'], '{:,.0f}')})",
-          "- QIB subscription needed for a 70% / 85% / 95% chance: " + " / ".join(_f(e['qib_needed'][t], "{:.0f}x", ">3000x") for t in (0.70, 0.85, 0.95)), ""]
+          f"80% range ₹{_f(e['prices']['p10'], '{:,.0f}')} to ₹{_f(e['prices']['p90'], '{:,.0f}')}) on a top-of-band price of ₹{_f(e['price'], '{:,.0f}')}"]
+    ic = e.get("if_closed")
+    if ic:
+        L += [f"- If bidding closed at today's figures: {ic['prob']:.0%} chance, median gain {ic['gain']['p50']:+.0f}% "
+              f"(likely {ic['gain']['p25']:+.0f}% to {ic['gain']['p75']:+.0f}%). A floor, because subscription is still building."]
+    if e["stage"] == "final":
+        L += [f"- Allotment odds per retail application: {_f(e['p_allot'], '{:.0%}')}; expected profit per lot: ₹{_f(e['profit_per_lot'], '{:,.0f}')} (lot value ₹{_f(e['lot_value'], '{:,.0f}')})"]
+    else:
+        L += ["- Allotment odds and profit per lot appear once bidding has closed."]
+    L += [""]
     bt = r.backtest
     if bt.get("demand"):
-        L += [f"Scores on {bt['n_test']} IPOs from 2026: subscription model AUC {bt['demand']['auc']:.2f}, accuracy {bt['demand']['accuracy']:.0%}; "
+        L += [f"Published scores, trained to 2025 and tested on {bt['n_test']} IPOs from 2026: subscription model AUC {bt['demand']['auc']:.2f}, accuracy {bt['demand']['accuracy']:.0%}; "
               f"fundamentals-only AUC {bt['prebid']['auc']:.2f}; gain median absolute error {bt['gain_a']['mae_p50']:.1f} points (Model A), "
-              f"25-75 range covers {bt['gain_a']['cov_25_75']:.0%}, 10-90 covers {bt['gain_a']['cov_10_90']:.0%}.", ""]
+              f"25-75 range covers {bt['gain_a']['cov_25_75']:.0%}, 10-90 covers {bt['gain_a']['cov_10_90']:.0%}. "
+              "Live estimates use models refit on every row including 2026.", ""]
     L += ["## 3. Subscription"]
-    cats = [("sub_total_x", "Total"), ("sub_qib_x", "QIB"), ("sub_nii_x", "NII"), ("sub_retail_x", "Retail")]
+    cats = [("sub_total_x", "Total"), ("sub_qib_x", "QIB"), ("sub_nii_x", "NII"), ("sub_retail_x", "Retail"),
+            ("sub_employee_x", "Employees"), ("sub_shareholder_x", "Shareholders")]
     L += ["| " + " | ".join(n for _, n in cats) + " |", "|" + "---|" * len(cats),
           "| " + " | ".join(_f(r.sub.get(c), "{:.2f}x") for c, _ in cats) + " |", "",
           "How past IPOs listed by final total subscription:", "", _md_table(r.band_table, {"listed above issue": lambda v: _f(v, "{:.0%}")})]

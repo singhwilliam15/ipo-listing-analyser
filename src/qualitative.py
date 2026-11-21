@@ -33,6 +33,8 @@ class Point(BaseModel):
 
 class Segment(BaseModel):
     name: str
+    dimension: Optional[str] = Field(description="What the split is by, as printed, e.g. 'by product', 'by customer type', 'by geography'.")
+    period: Optional[str] = Field(description="Financial year of this split exactly as printed, e.g. 'Fiscal 2026' or 'FY2025'.")
     share_of_revenue: Optional[str] = Field(description="Share of revenue exactly as printed (e.g. '62.4%'); null if not printed.")
     page: Optional[int]
 
@@ -65,7 +67,8 @@ class LitigationItem(BaseModel):
 
 class QualExtract(BaseModel):
     business_summary: list[Point] = Field(description="3-5 points: what the company does, how it earns, scale, footprint.")
-    segments: list[Segment]
+    segments: list[Segment] = Field(description="ONE split only: the company's primary revenue split for the latest full financial year. "
+                                                "Do not list other years or other ways of cutting the same revenue, and do not repeat a segment.")
     concentration: list[Concentration]
     industry: list[Point] = Field(description="3-5 points on industry size, growth and the company's position, as stated in the RHP (usually a commissioned report).")
     promoters: list[Promoter]
@@ -87,6 +90,8 @@ Rules:
 - Every point carries page = the n of the marker of the page it came from.
 - Copy figures exactly as printed with their unit. Use null when a figure is not on the pages.
 - Prefer facts specific to this company. Skip boilerplate risks (market volatility, general economy).
+- Never repeat a point. If two sentences make the same point, keep the one with the most precise figure.
+- segments: give a single split, the primary revenue split for the latest full financial year, with its dimension and period.
 - If a section is missing from the pages, return an empty list for it and say so in notes."""
 
 
@@ -103,6 +108,70 @@ def select_qual_pages(pages: list[str]) -> list[int]:
     return sorted(seen[:MAX_QUAL_PAGES])
 
 
+def _norm(text: str) -> str:
+    import re
+    return re.sub(r"[^a-z0-9 ]+", "", str(text).lower()).strip()
+
+
+def _dedupe(items: list[dict], key) -> list[dict]:
+    """Drop items whose key matches an earlier one exactly or by near-identical wording (>= 0.9 similarity)."""
+    import difflib
+    kept: list[dict] = []
+    norms: list[str] = []
+    for it in items:
+        n = _norm(key(it))
+        if not n or any(n == m or difflib.SequenceMatcher(None, n, m).ratio() >= 0.9 for m in norms):
+            continue
+        kept.append(it)
+        norms.append(n)
+    return kept
+
+
+def _period_year(period) -> int:
+    import re
+    m = re.findall(r"(\d{4}|\d{2})\b", str(period or ""))
+    if not m:
+        return -1
+    y = int(m[-1])
+    return y + 2000 if y < 100 else y
+
+
+def clean_qual(q: dict) -> dict:
+    """Remove repeated points and keep ONE segment split: the latest period, within it the dimension with most
+    segments (ties go to the first one printed). Old caches without period/dimension are only de-duplicated."""
+    q = dict(q)
+    for k in ("business_summary", "industry", "strengths", "contingent_liabilities", "related_party", "red_flags", "concentration"):
+        q[k] = _dedupe(q.get(k, []), lambda x: x["text"])
+    q["risks"] = _dedupe(q.get("risks", []), lambda x: x["title"])
+    q["promoters"] = _dedupe(q.get("promoters", []), lambda x: x["name"])
+    q["litigation"] = _dedupe(q.get("litigation", []), lambda x: f"{x['category']} {x.get('count') or ''}")
+    segs = [dict(s) for s in q.get("segments", [])]
+    if segs and not any(s.get("period") or s.get("dimension") for s in segs):   # old cache: the period sits in the name
+        import re
+        for s in segs:
+            m = re.search(r"\(([^()]*(?:fiscal|fy|months|year)[^()]*)\)\s*$", s["name"], re.I)
+            if m:
+                s["period"] = m.group(1)
+                s["name"] = s["name"][:m.start()].strip()
+        stub = [s for s in segs if re.search(r"months?|quarter", str(s.get("period") or ""), re.I)]
+        if stub and len(stub) < len(segs):
+            segs = [s for s in segs if s not in stub]
+    if segs and any(s.get("period") or s.get("dimension") for s in segs):
+        latest = max(_period_year(s.get("period")) for s in segs)
+        segs = [s for s in segs if _period_year(s.get("period")) == latest]
+        dims: dict[str, int] = {}
+        for s in segs:
+            dims[_norm(s.get("dimension"))] = dims.get(_norm(s.get("dimension")), 0) + 1
+        if dims:
+            first = {}
+            for i, s in enumerate(segs):
+                first.setdefault(_norm(s.get("dimension")), i)
+            best = max(dims, key=lambda d: (dims[d], -first[d]))
+            segs = [s for s in segs if _norm(s.get("dimension")) == best]
+    q["segments"] = _dedupe(segs, lambda x: x["name"])
+    return q
+
+
 def qual_path(symbol: str) -> Path:
     return X.RAW_DIR / f"{symbol}.qual.json"
 
@@ -115,6 +184,7 @@ def extract_qual(symbol: str, pdf: Path | None = None, force: bool = False, clie
     if out.exists() and not force:
         rec = json.loads(out.read_text(encoding="utf-8"))
         if not (sha and rec.get("rhp_sha256") and rec["rhp_sha256"] != sha):
+            rec["qual"] = clean_qual(rec["qual"])
             return rec
         out.unlink()
     if not pdf.exists():
@@ -125,7 +195,7 @@ def extract_qual(symbol: str, pdf: Path | None = None, force: bool = False, clie
         raise X.ExtractionError("could not find Risk Factors / Our Business sections (scanned or unusual layout)")
     x, usage = X.call_claude(X.build_prompt(pages, idx), client or X.make_client(), QualExtract, SYSTEM)
     rec = {"symbol": symbol, "rhp_sha256": sha, "model": X.MODEL, "pages_sent": [i + 1 for i in idx], "usage": usage,
-           "extracted_at": datetime.now(timezone.utc).isoformat(timespec="seconds"), "qual": x.model_dump()}
+           "extracted_at": datetime.now(timezone.utc).isoformat(timespec="seconds"), "qual": clean_qual(x.model_dump())}
     X.RAW_DIR.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(rec, indent=2, default=str), encoding="utf-8")
     return rec

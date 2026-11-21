@@ -45,7 +45,7 @@ def test_cached_qual_is_dropped_when_rhp_changes(tmp_path, monkeypatch):
     pdf.write_bytes(b"%PDF-1.4 first version")
     rec = {"symbol": "ABC", "rhp_sha256": X.file_sha256(pdf), "qual": {"risks": []}}
     Q.qual_path("ABC").write_text(json.dumps(rec), encoding="utf-8")
-    assert Q.extract_qual("ABC")["qual"] == {"risks": []}      # same file: served from cache
+    assert Q.extract_qual("ABC")["qual"]["risks"] == []        # same file: served from cache
     pdf.write_bytes(b"%PDF-1.4 a different RHP")
     with pytest.raises(Exception):                              # stale cache removed; the fake PDF cannot be parsed, so the fresh run fails loudly
         Q.extract_qual("ABC", client=object())
@@ -61,3 +61,50 @@ def test_clear_cached_removes_all_artifacts(tmp_path, monkeypatch):
         p.write_text("{}")
     X.clear_cached("ABC")
     assert not list(X.RAW_DIR.iterdir()) and not list(X.RHP_DIR.iterdir())
+
+
+# ---- clean_qual: one segment split, no repeats ---------------------------- #
+def seg(name, dimension, period, share=None, page=1):
+    return {"name": name, "dimension": dimension, "period": period, "share_of_revenue": share, "page": page}
+
+
+def test_clean_qual_keeps_one_segment_split_for_the_latest_year():
+    q = {"segments": [
+        seg("Raw coal", "by product", "Fiscal 2025"), seg("Washed coal", "by product", "Fiscal 2025"),
+        seg("Raw coal", "by product", "Fiscal 2026"), seg("Washed coal", "by product", "Fiscal 2026"), seg("Rejects", "by product", "Fiscal 2026"),
+        seg("Power", "by customer", "Fiscal 2026"), seg("Cement", "by customer", "Fiscal 2026"),
+        seg("Raw coal", "by product", "Six months ended September 30, 2026")]}
+    out = Q.clean_qual(q)["segments"]
+    assert [s["name"] for s in out] == ["Raw coal", "Washed coal", "Rejects"]
+    assert {s["period"] for s in out} == {"Fiscal 2026"} and {s["dimension"] for s in out} == {"by product"}
+
+
+def test_clean_qual_dedupes_names_and_points():
+    q = {"segments": [seg("Retail", "by channel", "FY2025"), seg("retail ", "by channel", "FY2025"), seg("Online", "by channel", "FY2025")],
+         "business_summary": [{"text": "It is the largest coal producer in India.", "page": 3}, {"text": "It is the largest coal producer in India", "page": 9},
+                              {"text": "It has 12 mines.", "page": 4}],
+         "risks": [{"title": "Customer concentration", "detail": "a", "severity": "high", "page": 5},
+                   {"title": "customer concentration", "detail": "b", "severity": "high", "page": 6}],
+         "promoters": [{"name": "Coal India Limited", "background": "x", "page": 1}, {"name": "Coal India Limited", "background": "y", "page": 2}]}
+    out = Q.clean_qual(q)
+    assert [s["name"] for s in out["segments"]] == ["Retail", "Online"]
+    assert [p["text"] for p in out["business_summary"]] == ["It is the largest coal producer in India.", "It has 12 mines."]
+    assert len(out["risks"]) == 1 and len(out["promoters"]) == 1
+
+
+def test_clean_qual_handles_old_caches_with_period_in_the_name():
+    q = {"segments": [{"name": "Raw coal (six months ended September 30, 2026)", "page": 1}, {"name": "Raw coal (Fiscal 2026)", "page": 2},
+                      {"name": "Washed coal (Fiscal 2026)", "page": 2}, {"name": "Washed coal (six months ended September 30, 2026)", "page": 1}]}
+    out = Q.clean_qual(q)["segments"]
+    assert [s["name"] for s in out] == ["Raw coal", "Washed coal"] and all("Fiscal 2026" in s["period"] for s in out)
+
+
+def test_clean_qual_is_safe_on_empty_input():
+    out = Q.clean_qual({})
+    assert out["segments"] == [] and out["risks"] == [] and out["business_summary"] == []
+
+
+def test_segment_schema_asks_for_dimension_and_period():
+    props = Q.Segment.model_json_schema()["properties"]
+    assert "dimension" in props and "period" in props
+    assert "latest full financial year" in Q.QualExtract.model_json_schema()["properties"]["segments"]["description"]

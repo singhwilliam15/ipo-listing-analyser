@@ -34,13 +34,13 @@
     534
   ],
   "usage": {
-    "input_tokens": 54252,
-    "output_tokens": 6142,
+    "input_tokens": 54545,
+    "output_tokens": 5468,
     "backend": "claude-cli",
-    "cost_usd_list": 0.5620513,
-    "session_id": "07eeff3b-f97b-45d9-a475-7a80483a0137"
+    "cost_usd_list": 0.5509147999999999,
+    "session_id": "9853edba-fcf7-4019-9300-243fc20197c4"
   },
-  "extracted_at": "2026-11-21T20:44:07+00:00",
+  "extracted_at": "2026-11-21T21:29:36+00:00",
   "qual": {
     "business_summary": [
       {
@@ -48,215 +48,187 @@
         "page": 229
       },
       {
-        "text": "Its primary product is non-coking coal, including washed / beneficiated coal, supplied to power utilities, captive power plants, independent power producers and non-power industries such as cement and sponge iron.",
+        "text": "Its primary product is non-coking coal, including washed/beneficiated coal, sold to power utilities, captive power plants, IPPs and non-power industries such as cement and sponge iron.",
         "page": 229
       },
       {
-        "text": "The Company is a wholly owned subsidiary of Coal India Limited, was incorporated on April 3, 1992 by carving out of South Eastern Coalfields Limited, and holds Miniratna Category I status; it accounted for 28.4% of Coal India Limited's total coal production in Fiscal 2026.",
+        "text": "Coal production increased 5.92% from 206.10 million tonnes in Fiscal 2024 to 218.31 million tonnes in Fiscal 2026.",
         "page": 230
       },
       {
-        "text": "Coal production rose from 206.10 million tonnes in Fiscal 2024 to 218.31 million tonnes in Fiscal 2026; it operates 17 mines (14 opencast and 3 underground) in the Talcher and Ib Valley coalfields, Odisha, plus one 10 MTPA washery.",
-        "page": 230
+        "text": "The Company operates 17 mines (14 opencast and 3 underground) in the Talcher and Ib Valley coalfields, Odisha, plus one 10 MTPA coal washery at Lakhanpur; opencast mines contributed 99.85% of production in Fiscal 2026.",
+        "page": 231
       },
       {
-        "text": "Long-term Fuel Supply Agreements accounted for 82.12% of revenue from sale of products in Fiscal 2026, and its customers are spread across 16 states in India.",
+        "text": "Long-term Fuel Supply Agreements accounted for 82.12% of revenue from sale of products in Fiscal 2026, and its customer base spans 16 states in India.",
         "page": 233
       }
     ],
     "segments": [
       {
-        "name": "Raw coal (six months ended September 30, 2026)",
-        "share_of_revenue": "97.38%",
-        "page": 25
-      },
-      {
-        "name": "Washed coal (six months ended September 30, 2026)",
-        "share_of_revenue": "2.60%",
-        "page": 25
-      },
-      {
-        "name": "Washery rejects (six months ended September 30, 2026)",
-        "share_of_revenue": "0.02%",
-        "page": 25
-      },
-      {
-        "name": "Raw coal (Fiscal 2026)",
+        "name": "Raw coal",
+        "dimension": "by product (sale of products)",
+        "period": "Fiscal 2026",
         "share_of_revenue": "97.41%",
         "page": 25
       },
       {
-        "name": "Washed coal (Fiscal 2026)",
+        "name": "Washed coal",
+        "dimension": "by product (sale of products)",
+        "period": "Fiscal 2026",
         "share_of_revenue": "2.58%",
         "page": 25
       },
       {
-        "name": "Washery rejects (Fiscal 2026)",
+        "name": "Washery rejects",
+        "dimension": "by product (sale of products)",
+        "period": "Fiscal 2026",
         "share_of_revenue": "0.01%",
         "page": 25
-      },
-      {
-        "name": "Power generation (State, Central GENCO and IPPs) (Fiscal 2026)",
-        "share_of_revenue": "68.62%",
-        "page": 26
-      },
-      {
-        "name": "Captive power plants (Fiscal 2026)",
-        "share_of_revenue": "16.57%",
-        "page": 26
-      },
-      {
-        "name": "Others (cement, sponge iron, aluminium, traders, other small industries) (Fiscal 2026)",
-        "share_of_revenue": "14.81%",
-        "page": 26
       }
     ],
     "concentration": [
       {
-        "text": "Top 10 customers accounted for 51.95%, 58.04%, 55.94%, 55.71% and 53.30% of revenue from operations in the six months ended September 30, 2026 and September 30, 2025 and Fiscals 2026, 2025 and 2024, respectively.",
-        "page": 30
+        "text": "Top 10 customers contributed 55.94% of revenue from operations in Fiscal 2026 (\u20b9170,888.47 million) and 51.95% in the six months ended September 30, 2026.",
+        "page": 31
       },
       {
-        "text": "Top customer accounted for 12.45% of revenue from operations in the six months ended September 30, 2026 and 14.64% in Fiscal 2026; top 5 customers accounted for 38.06% and 41.09%, respectively.",
-        "page": 30
+        "text": "Top customer contributed 14.64% (\u20b944,719.00 million) and top 5 customers 41.09% (\u20b9125,528.58 million) of revenue from operations in Fiscal 2026.",
+        "page": 31
       },
       {
-        "text": "Revenue from government-owned and controlled power generation companies and utilities was 41.68%, 47.64%, 44.81%, 47.53% and 41.89% of revenue from operations across the periods presented.",
-        "page": 28
-      },
-      {
-        "text": "Sale of raw non-coking coal accounted for 97.38%, 97.13%, 97.41%, 97.10% and 99.94% of sale of products across the periods presented.",
-        "page": 24
-      },
-      {
-        "text": "Sales to the thermal power sector (State, Central GENCO and IPPs) were 69.64%, 70.35%, 68.62%, 70.60% and 69.41% of sale of products across the periods presented.",
+        "text": "Sales to the thermal power sector (State, Central GENCO and IPPs) were 68.62% of sale of products in Fiscal 2026 and 69.64% in the six months ended September 30, 2026.",
         "page": 26
       },
       {
-        "text": "Top 10 contractors accounted for 63.61%, 56.38%, 60.02%, 47.83% and 42.62% of contractual expenses across the periods presented.",
+        "text": "Revenue from government-owned and controlled power generation companies and utilities was 44.81% of revenue from operations in Fiscal 2026 (\u20b9136,900.36 million) and 41.68% in the six months ended September 30, 2026.",
+        "page": 28
+      },
+      {
+        "text": "Raw non-coking coal accounted for 97.41% of sale of products in Fiscal 2026 and 97.38% in the six months ended September 30, 2026.",
+        "page": 24
+      },
+      {
+        "text": "Top 10 contractors accounted for 63.61% of contractual expenses in the six months ended September 30, 2026 and 60.02% in Fiscal 2026.",
         "page": 31
       },
       {
-        "text": "Five of the top 10 customers for the six months ended September 30, 2026 have coastal thermal plants in their portfolio, and five are government-owned and controlled power generation companies and utilities.",
+        "text": "Five of the top 10 customers for the six months ended September 30, 2026 have coastal thermal plants that can switch to imported coal.",
         "page": 31
-      },
-      {
-        "text": "Operations are concentrated in the Talcher and Ib Valley coalfields, Odisha: of 335.09 square kilometres of land held, 167.37 sq km is in Talcher and 165.96 sq km is in Ib Valley.",
-        "page": 230
       }
     ],
     "industry": [
       {
-        "text": "Demand for non-coking coal in India increased from 1,112 million tonnes in Fiscal 2025 to 1,186 million tonnes in Fiscal 2026, and is projected to reach 1,564 million tonnes in Fiscal 2036 (source: CRISIL Report).",
+        "text": "Thermal power accounted for approximately 70% of India's electricity generation in Fiscal 2026 (source: CRISIL Report).",
         "page": 25
       },
       {
-        "text": "Thermal power accounts for approximately 70% of India's electricity generation in Fiscal 2026; coal demand from power plants was 698 million tonnes in Fiscal 2025 and is expected to reach 843 million tonnes by Fiscal 2031 (source: CRISIL Report).",
+        "text": "Demand for non-coking coal in India increased from 1,112 million tonnes in Fiscal 2025 to 1,186 million tonnes in Fiscal 2026, with a projected demand of 1,564 million tonnes in Fiscal 2036 (source: CRISIL Report).",
         "page": 25
       },
       {
-        "text": "After Fiscal 2036, demand for non-coking coal may decline; power sector demand is projected to fall from 934.40 million tonnes in Fiscal 2035 to 927.80 million tonnes in Fiscal 2038 (source: CRISIL Report).",
+        "text": "Coal demand from power plants stood at 698 million tonnes in Fiscal 2025 and is expected to reach 843 million tonnes by Fiscal 2031 (source: CRISIL Report).",
         "page": 25
       },
       {
-        "text": "Under a net zero pathway, coal demand is projected to peak at approximately 1.83 billion tonnes in 2050 and decline to about 161 million tonnes by 2070 (NITI Aayog scenarios cited in CRISIL Report).",
+        "text": "Power-sector demand for non-coking coal is projected to decline from 934.40 million tonnes in Fiscal 2035 to 927.80 million tonnes in Fiscal 2038 as renewable energy emerges (source: CRISIL Report).",
         "page": 25
       },
       {
-        "text": "Domestic coal output reached 1.05 billion tonnes in Fiscal 2025 and is projected to remain above 1 billion tonnes in Fiscal 2026.",
-        "page": 149
-      },
-      {
-        "text": "Coal India Limited is the largest coal producing company in the world, with production of 768.19 MT in Fiscal 2026, and accounted for 73.8% of domestic coal production on a consolidated basis (source: CRISIL Report).",
+        "text": "Coal India Limited produced 768.19 MT in Fiscal 2026 and accounted for 73.8% of domestic coal production; the Company accounted for 28.4% of Coal India Limited's production (source: CRISIL Report).",
         "page": 233
+      },
+      {
+        "text": "Domestic coal output reached 1.05 billion tonnes in Fiscal 2025.",
+        "page": 149
       }
     ],
     "promoters": [
       {
         "name": "President of India, acting through the Ministry of Coal, Government of India",
-        "background": "Individual Promoter; holds Nil pre-Offer equity shares in the Company. Promoter Group disclosures for this Promoter have not been provided.",
+        "background": "Individual Promoter; holds Nil pre-Offer equity shares directly; is the promoter of Coal India Limited.",
         "page": 306
       },
       {
         "name": "Coal India Limited",
-        "background": "Corporate Promoter holding 6,618,363,000 equity shares (100.00%) pre-Offer. It is a listed 'Maharatna' central public sector enterprise, incorporated June 14, 1973 as Coal Mines Authority Limited and engaged in production and marketing of coal; its promoter holds 61.13% as of September 30, 2026.",
+        "background": "Corporate Promoter holding 6,618,363,000 equity shares (100.00%) pre-Offer; a listed 'Maharatna' central public sector enterprise engaged in production and marketing of coal, incorporated June 14, 1973 as Coal Mines Authority Limited; the President of India holds 61.13% of it.",
         "page": 306
       }
     ],
     "strengths": [
       {
-        "text": "It is the largest single coal producing company in India (21.00% of domestic coal production in Fiscal 2026), with audited JORC reserves of 9,840.31 MT as at April 1, 2026, which would sustain around 45 years of production at current levels.",
+        "text": "Largest single coal producing company in India with 21.00% of domestic coal production in Fiscal 2026 and JORC audited reserves of 9,840.31 MT, enough for around 45 years at current production.",
         "page": 234
       },
       {
-        "text": "Its allocated blocks hold an estimated coal resource of approximately 40.34 billion tonnes as per ISP Guidelines, which is 9.80% of India's total coal resource.",
+        "text": "Allocated blocks hold an estimated coal resource of approximately 40.34 billion tonnes under ISP Guidelines, 9.80% of India's total coal resource as at April 1, 2026.",
         "page": 234
       },
       {
-        "text": "It benefits from the strategic support and resources of Coal India Limited, including CMPDIL support for exploration, mine planning and R&D.",
+        "text": "Strategic support and resources of Coal India Limited, the largest coal producing company in the world, including R&D and exploration support from CMPDIL.",
         "page": 234
       },
       {
-        "text": "It runs low-cost, mechanised opencast operations, with surface miners accounting for 99.37% of production and the lowest production cost per tonne among Coal India Limited's subsidiaries in Fiscal 2026.",
+        "text": "Low-cost mechanised mining: surface miners accounted for 99.37% of production in Fiscal 2026, and the Company had the lowest production cost per tonne among Coal India Limited's subsidiaries.",
         "page": 235
       },
       {
-        "text": "Its output per manshift was 30.34 tonnes in Fiscal 2026, 2.4 times that of Coal India Limited on a consolidated basis.",
+        "text": "Output per manshift of 30.34 tonnes in Fiscal 2026, 2.4 times that of Coal India Limited on a consolidated basis.",
         "page": 236
       },
       {
-        "text": "Its evacuation network is increasingly rail-led: railways carried 96.86% of first-mile-connectivity dispatch and 65.28% of total dispatch in Fiscal 2026, and it has access to five ports.",
+        "text": "Rail-led evacuation network: railways accounted for 65.28% of total coal dispatch in Fiscal 2026, up from 58.70% in Fiscal 2024, with access to five ports.",
         "page": 236
       }
     ],
     "risks": [
       {
-        "title": "Dependence on raw non-coking coal and long-term demand decline",
-        "detail": "Raw non-coking coal was 97.38% of sale of products in the six months ended September 30, 2026. CRISIL projects that non-coking coal demand may decline after Fiscal 2036 as renewables grow.",
+        "title": "Dependence on raw non-coking coal",
+        "detail": "Raw non-coking coal accounted for 97.41% of sale of products in Fiscal 2026. CRISIL says demand may decline after Fiscal 2036, and under a net zero pathway coal demand falls to about 161 million tonnes by 2070.",
         "severity": "high",
         "page": 24
       },
       {
         "title": "Dependence on the thermal power sector",
-        "detail": "Sales to the thermal power sector were 69.64% of sale of products in the six months ended September 30, 2026. Sales to the power sector fell 4.82% to \u20b9 204,854.09 million in Fiscal 2026, attributed to a higher renewable contribution.",
+        "detail": "Thermal power sales were 68.62% of sale of products in Fiscal 2026. Power-sector sales fell 4.82% to \u20b9204,854.09 million in Fiscal 2026, mainly because renewables contributed more to the grid.",
         "severity": "high",
-        "page": 26
+        "page": 27
       },
       {
-        "title": "Government utility customers and delayed receivables",
-        "detail": "Government-owned power utilities contributed 41.68% of revenue from operations in the six months ended September 30, 2026. Payments were delayed from Andhra Pradesh Power Generation Corporation Limited (\u20b919,298.80 million) and Andhra Pradesh Power Development Company Limited (\u20b95,021.60 million) as at September 30, 2026.",
+        "title": "Government customers and delayed receivables",
+        "detail": "Government-owned power utilities contributed 44.81% of revenue from operations in Fiscal 2026. Payments are delayed from Andhra Pradesh Power Generation Corporation (\u20b919,298.80 million) and Andhra Pradesh Power Development Company (\u20b95,021.60 million) as at September 30, 2026.",
         "severity": "high",
         "page": 28
       },
       {
-        "title": "Large unprovided contingent liabilities",
-        "detail": "Contingent liabilities were \u20b9 125,132.90 million, or 55.86% of Net Worth, as at September 30, 2026, and have not been provided for.",
+        "title": "Large contingent liabilities",
+        "detail": "Total contingent liabilities of \u20b9125,132.90 million were 55.86% of Net Worth as at September 30, 2026, and they are not provided for in the financial statements.",
         "severity": "high",
         "page": 28
       },
       {
         "title": "Dependence on Coal India Limited and conflicts of interest",
-        "detail": "The Company is wholly owned by Coal India Limited and its executive employees are seconded from Coal India Limited on terms that may be altered at any time. Other Coal India Limited subsidiaries are also in coal mining, which may create conflicts of interest.",
+        "detail": "The Company is wholly owned by Coal India Limited, its executive employees are seconded from Coal India Limited on terms that can be changed, and sister subsidiaries in coal mining may create conflicts of interest.",
         "severity": "medium",
         "page": 29
       },
       {
-        "title": "Customer concentration and loss of offtake",
-        "detail": "Top 10 customers were 51.95% of revenue from operations in the six months ended September 30, 2026. Customers may cut offtake if they secure their own coal blocks or, for coastal plants, switch to imported coal.",
-        "severity": "high",
+        "title": "Customer concentration and captive blocks or imports",
+        "detail": "Top 10 customers were 55.94% of revenue from operations in Fiscal 2026. Customers may cut offtake if they win captive or commercial coal blocks or switch to imported coal.",
+        "severity": "medium",
         "page": 30
       },
       {
         "title": "Reliance on third-party contractors",
-        "detail": "Contractual expenses were \u20b9 68,236.20 million (22.34% of revenue from operations) in Fiscal 2026. Top 10 contractors were 63.61% of contractual expenses in the six months ended September 30, 2026.",
+        "detail": "Contractual expenses were \u20b968,236.20 million (22.34% of revenue from operations) in Fiscal 2026, and the top 10 contractors made up 63.61% of contractual expenses in the six months ended September 30, 2026.",
         "severity": "medium",
         "page": 31
       },
       {
         "title": "Hazardous operations and inadequate insurance",
-        "detail": "There were 13 fatal accident cases between April 1, 2023 and September 30, 2026. The Company does not maintain insurance coverage in accordance with applicable industry standards.",
+        "detail": "There were 13 fatal accident cases between April 1, 2023 and September 30, 2026. The Company does not maintain insurance coverage in line with applicable industry standards.",
         "severity": "medium",
-        "page": 33
+        "page": 29
       }
     ],
     "litigation": [
@@ -267,84 +239,76 @@
         "page": 532
       },
       {
-        "category": "Criminal proceedings against the Company / its employees",
-        "count": "13",
-        "amount": null,
-        "page": 533
-      },
-      {
-        "category": "Criminal \u2013 Motor Accidents Claim Tribunal cases against the Company",
-        "count": "5",
-        "amount": "\u20b961.29 million",
-        "page": 534
-      },
-      {
-        "category": "Criminal \u2013 complaints by the Company over obstruction of mining operations at Talcher",
+        "category": "Criminal proceedings by the Company \u2013 complaints before SDJM Talcher and Jharsuguda over obstruction and trespass at mines",
         "count": "36",
         "amount": null,
         "page": 532
       },
       {
-        "category": "Criminal \u2013 complaints by the Company under section 630 of the Companies Act, 1956 for vacation of quarters",
+        "category": "Criminal proceedings by the Company \u2013 complaints under section 630 of the Companies Act, 1956 to vacate employee quarters",
         "count": "20",
         "amount": null,
         "page": 532
       },
       {
-        "category": "Criminal \u2013 maintenance petitions in which the Company is a proforma party",
+        "category": "Criminal proceedings against the Company",
+        "count": "13",
+        "amount": null,
+        "page": 533
+      },
+      {
+        "category": "Criminal \u2013 maintenance petitions where the Company is a proforma party",
         "count": "26",
         "amount": null,
         "page": 533
       },
       {
-        "category": "Material civil proceedings by the Company (ORISED Act tax on coal-bearing lands before the Supreme Court; Supreme Court Claims Commission on land compensation)",
-        "count": "2",
+        "category": "Motor Accidents Claim Tribunal cases against the Company",
+        "count": "5",
+        "amount": "\u20b961.29 million",
+        "page": 534
+      },
+      {
+        "category": "Material civil \u2013 the Company's challenge to the State of Odisha's 15% tax on coal-bearing lands under the ORISED Act, pending before the Supreme Court",
+        "count": "1",
         "amount": null,
         "page": 534
       }
     ],
     "contingent_liabilities": [
       {
-        "text": "Total contingent liabilities were \u20b9 125,132.90 million as at September 30, 2026, which is 55.86% of Net Worth of \u20b9 223,998.03 million.",
+        "text": "Total contingent liabilities were \u20b9125,132.90 million as at September 30, 2026, 55.86% of Net Worth of \u20b9223,998.03 million.",
         "page": 29
       },
       {
-        "text": "Total contingent liabilities were \u20b9 85,062.30 million (39.80% of Net Worth) as at March 31, 2026, \u20b9 101,222.10 million (55.18%) as at March 31, 2025 and \u20b9 99,232.40 million (61.56%) as at March 31, 2024.",
-        "page": 29
-      },
-      {
-        "text": "Income tax contingent liabilities were \u20b9 80,748.30 million as at September 30, 2026, compared with \u20b9 49,957.40 million as at March 31, 2026.",
+        "text": "Income tax contingent liabilities were \u20b980,748.30 million as at September 30, 2026, against \u20b949,957.40 million as at March 31, 2026.",
         "page": 28
       },
       {
-        "text": "Water tax contingent liabilities were \u20b9 8,573.80 million as at September 30, 2026; the State Government and Local Authorities sub-total was \u20b9 19,298.80 million.",
+        "text": "Water tax contingent liabilities were \u20b98,573.80 million and royalty \u20b92,250.80 million as at September 30, 2026.",
         "page": 28
       },
       {
-        "text": "Miscellaneous land compensation and others were \u20b9 21,010.00 million as at September 30, 2026, compared with \u20b9 299.50 million as at March 31, 2024.",
+        "text": "Miscellaneous land compensation and other contingent liabilities were \u20b921,010.00 million as at September 30, 2026.",
         "page": 29
       },
       {
-        "text": "Demand notices of \u20b928,640.70 million alleging production in excess of Environmental Clearance limits are under revision before the Coal Tribunal and have not been treated as a contingent liability, as outflow is considered remote.",
+        "text": "Demand notices of \u20b928,640.70 million alleging production above Environmental Clearance limits are not counted as contingent liabilities, because the Company considers an outflow remote after a Revisional Authority set aside similar orders.",
         "page": 29
       }
     ],
     "related_party": [
       {
-        "text": "Net amount receivable from Coal India Limited was \u20b9 562.50 million (0.35% of revenue from operations) for the six months ended September 30, 2026; net amount payable was \u20b9 432.80 million in Fiscal 2026.",
+        "text": "The net amount receivable from Coal India Limited was \u20b9562.50 million (0.35% of revenue from operations) for the six months ended September 30, 2026; the net amount payable was \u20b9432.80 million in Fiscal 2026.",
         "page": 30
       },
       {
-        "text": "Executive employees are seconded from Coal India Limited; the Company pays their salaries and these are not reimbursed by Coal India Limited.",
+        "text": "Executive employees are seconded from Coal India Limited; the Company pays their salaries and Coal India Limited does not reimburse them.",
         "page": 30
       },
       {
-        "text": "CMPDIL, a Coal India Limited subsidiary and promoter group company, provides exploration, mine planning and R&D support under an annual work program paid through arm's-length contracts.",
+        "text": "CMPDIL, a Coal India Limited subsidiary and promoter group company, provides exploration, mine planning and R&D services under an annual work programme paid through arm's-length contracts.",
         "page": 231
-      },
-      {
-        "text": "Coal India Limited is responsible for executive manpower planning, recruitment and promotions of the Company.",
-        "page": 235
       },
       {
         "text": "None of the top 10 customers are related parties.",
@@ -353,47 +317,41 @@
     ],
     "red_flags": [
       {
-        "text": "Payments were delayed from Andhra Pradesh Power Generation Corporation Limited (\u20b919,298.80 million) and Andhra Pradesh Power Development Company Limited (\u20b95,021.60 million) as at September 30, 2026.",
+        "text": "Receivables are delayed from Andhra Pradesh Power Generation Corporation Limited (\u20b919,298.80 million) and Andhra Pradesh Power Development Company Limited (\u20b95,021.60 million) as at September 30, 2026.",
         "page": 28
       },
       {
-        "text": "Contingent liabilities not provided for equal 55.86% of Net Worth as at September 30, 2026.",
-        "page": 28
-      },
-      {
-        "text": "Demand notices of \u20b928,640.70 million for production exceeding Environmental Clearance limits are not reported as a contingent liability.",
+        "text": "Contingent liabilities rose to \u20b9125,132.90 million (55.86% of Net Worth) as at September 30, 2026 from \u20b985,062.30 million as at March 31, 2026.",
         "page": 29
       },
       {
         "text": "The Company does not maintain insurance coverage in accordance with applicable industry standards.",
-        "page": 33
+        "page": 29
       },
       {
-        "text": "There were 13 fatal accident cases in operations between April 1, 2023 and September 30, 2026.",
-        "page": 33
+        "text": "There were 13 fatal accident cases between April 1, 2023 and September 30, 2026.",
+        "page": 29
       },
       {
-        "text": "The Company's Chief Medical Officer was convicted under the PCPNDT Act (three years' imprisonment), the conviction was confirmed on appeal, and a revision petition is pending before the Orissa High Court.",
-        "page": 533
-      },
-      {
-        "text": "An FIR under sections 286 and 304 IPC is pending against employees over the deaths of 3 individuals on site.",
-        "page": 534
-      },
-      {
-        "text": "Research and development expense was nil in each period except Fiscal 2024 (\u20b90.50 million).",
+        "text": "Research and development expense was nil in Fiscals 2026 and 2025 and \u20b90.50 million in Fiscal 2024.",
         "page": 233
       },
       {
-        "text": "The CRISIL Report used for industry data was exclusively commissioned and paid for by the Company.",
+        "text": "The Company's Chief Medical Officer was convicted under the PCPNDT Act, the conviction was upheld on appeal, and a revision petition is pending before the Orissa High Court.",
+        "page": 533
+      },
+      {
+        "text": "Industry data comes from the CRISIL Report, which the Company exclusively commissioned and paid for.",
         "page": 24
       }
     ],
     "notes": [
-      "No financial statements, MD&A or tax-proceedings summary table were included in the pages. The litigation counts are taken from the numbered items listed on pages 532-534, and the litigation section is cut off at page 534.",
-      "Industry Overview pages 146-149 cover only macroeconomic data; the coal-specific industry figures above are CRISIL data quoted in Risk Factors and Our Business.",
-      "The 'Others' sales category is described as including cement on page 26 but excludes cement in the dispatch and revenue notes on page 228.",
-      "The Our Business section is cut off at page 236. The list of risk factors ends at item 9 (page 33)."
+      "The segment split shown is by product for Fiscal 2026. The RHP also splits sale of products by industry for the same year (Power generation 68.62%, Captive power plants 16.57%, Others 14.81%, page 233); it is left out to avoid duplication.",
+      "Only pages 24-33 of Risk Factors were provided, so risks after risk factor 9 are not covered.",
+      "The Industry Overview pages provided (146-149) cover mainly the macroeconomy; the coal industry figures above come from Risk Factors and Our Business.",
+      "The Outstanding Litigation pages are incomplete: tax claims, regulatory actions, director and promoter litigation and the rest of the material civil proceedings are not on the pages provided.",
+      "No full related-party transactions note and no auditor's report or emphasis of matter are on these pages.",
+      "Page 25 gives the power-sector demand CAGR of (0.24)% 'between Fiscal 2035 and Fiscal' without stating the end year."
     ]
   }
 }

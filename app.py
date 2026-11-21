@@ -60,11 +60,14 @@ def hist_frame(mtime: float) -> pd.DataFrame:
     return live.load_history()
 
 
-@st.cache_resource(show_spinner="Fitting models on 2022-2025 and scoring 2026…")
+@st.cache_resource(show_spinner="Fitting models and running the walk-forward backtest…")
 def report_models(mtime: float):
+    """published = trained on 2022-2025 (its 2026 scores are the ones shown); production = refit on every row, used for live IPOs."""
     d = report.prepare(pd.read_csv(ROOT / "data" / "ipos.csv"))
-    m = report.fit_models(d)
-    return d, m, report.backtest(m, d)
+    wf_raw = report.walk_forward_raw(d)
+    published = report.fit_models(d, wf_raw=wf_raw)
+    production = report.fit_models(d, cutoff=None, wf_raw=wf_raw)
+    return d, published, production, report.backtest(published, d), report.walk_forward(d, wf_raw)
 
 
 def _pct(v, signed=False):
@@ -94,7 +97,7 @@ def page_new() -> None:
     if not hp.exists():
         st.info("data/ipos.csv is missing; see README.md to build it.")
         return
-    d, models, bt = report_models(hp.stat().st_mtime)
+    d, _published, models, bt, wf = report_models(hp.stat().st_mtime)
     hist = hist_frame(hp.stat().st_mtime)
 
     with st.expander("Search and inputs", expanded=st.session_state.get("analysis") is None):
@@ -156,7 +159,7 @@ def page_new() -> None:
     sub = {**a.live_sub, **{k: v for k, v in man.items() if v > 0}}
     rep = report.build_report(a.row, a.record, st.session_state.get("qual"), models, d, sub, closed, backtest_res=bt)
     rep.notes += a.notes
-    render_report(rep, a, sub, bt)
+    render_report(rep, a, sub, bt, wf, models.info['n_train'])
 
 
 VERDICT_STYLE = {"Apply": ("#137333", "#e6f4ea"), "Apply with caution": ("#b06000", "#fef7e0"),
@@ -201,7 +204,7 @@ def scorecard_chart(sc: pd.DataFrame) -> go.Figure:
     return fig
 
 
-def render_report(rep, a, sub: dict, bt: dict) -> None:
+def render_report(rep, a, sub: dict, bt: dict, wf: dict, n_live_train: int) -> None:
     e, gq = rep.est, rep.est["gain"]
     head, dl = st.columns([5, 1])
     head.markdown(f"## {rep.company}")
@@ -216,32 +219,50 @@ def render_report(rep, a, sub: dict, bt: dict) -> None:
                 f"<div style='font-size:0.8rem;letter-spacing:.06em;color:{fg};font-weight:600'>VERDICT</div>"
                 f"<div style='font-size:1.6rem;font-weight:700;color:{fg}'>{rep.verdict}</div><ul style='margin:6px 0 0 0'>{reasons}</ul></div>", unsafe_allow_html=True)
     st.write("")
+    need = e["qib_needed"]
+    need_txt = lambda t: "over 3000x" if need[t] is None else f"{need[t]:.0f}x"
+    if e["stage"] == "provisional":
+        st.markdown("#### QIB subscription needed by the close")
+        n3 = st.columns(3)
+        now = sub.get("sub_qib_x")
+        for col, t in zip(n3, (0.70, 0.85, 0.95)):
+            col.metric(f"For a {t:.0%} chance", need_txt(t), f"now {now:.1f}x" if now else "", delta_color="off")
+        st.caption("Bidding is open and QIBs bid mostly on the last day, so the headline below stays the pre-bid estimate.")
     k = st.columns(4)
-    k[0].metric("Chance of a listing gain", _pct(e["prob"]) + (" or more" if e["floor"] else ""), help="Probability the listing-day open is above the issue price.")
+    k[0].metric(f"Chance of a listing gain ({e['headline']})", _pct(e["prob"]), help="Probability the listing-day open is above the issue price.")
     k[1].metric("Expected listing gain", _pct(gq["p50"], True), f"likely {_pct(gq['p25'], True)} to {_pct(gq['p75'], True)}", delta_color="off")
     k[2].metric("Implied listing price", f"₹{e['prices']['p50']:,.0f}" if pd.notna(e["prices"]["p50"]) else "–",
                 f"₹{e['prices']['p25']:,.0f} – ₹{e['prices']['p75']:,.0f}" if pd.notna(e["prices"]["p25"]) else "", delta_color="off")
-    k[3].metric("Expected profit per lot", "–" if pd.isna(e["profit_per_lot"]) else f"₹{e['profit_per_lot']:,.0f}",
-                f"allotment odds {_pct(e['p_allot'])}", delta_color="off", help="Allotment odds × expected gain × lot value.")
+    if e["stage"] == "final":
+        k[3].metric("Expected profit per lot", "–" if pd.isna(e["profit_per_lot"]) else f"₹{e['profit_per_lot']:,.0f}",
+                    f"allotment odds {_pct(e['p_allot'])}", delta_color="off", help="Allotment odds × expected gain × lot value.")
+    else:
+        k[3].metric("Allotment odds, profit per lot", "after close", help="Shown once bidding has closed and the final figures are in.")
     st.plotly_chart(gain_range_chart(e), width="stretch", config={"displayModeBar": False})
-    if e["stage"] == "pre-bid":
+    ic = e.get("if_closed")
+    if ic:
+        st.info(f"**If bidding closed at today's figures:** {_pct(ic['prob'])} chance of a listing gain, median gain {_pct(ic['gain']['p50'], True)} "
+                f"(likely {_pct(ic['gain']['p25'], True)} to {_pct(ic['gain']['p75'], True)}). A floor, because subscription is still building. "
+                "Tick 'bidding has closed' in the inputs when it is final.")
+    elif e["stage"] == "pre-bid":
         st.info("Pre-bid estimate from fundamentals and the 10 most similar past IPOs. This is a weak signal, so the range is wide on purpose.")
-    elif e["floor"]:
-        st.info("Provisional: live figures are a floor because QIBs bid mostly on the last day. Tick 'bidding has closed' when final.")
-    need = e["qib_needed"]
-    st.caption("QIB subscription needed for a 70% / 85% / 95% chance: " + " / ".join("over 3000x" if need[t] is None else f"{need[t]:.0f}x" for t in (0.70, 0.85, 0.95))
-               + f" · gain model {e['gain_model']}")
-    if bt.get("demand"):
-        st.caption(f"Tested on {bt['n_test']} IPOs from 2026 that the models never saw: subscription model AUC {bt['demand']['auc']:.2f}, accuracy {bt['demand']['accuracy']:.0%}; "
-                   f"gain median error {bt['gain_a']['mae_p50']:.1f} points. See the Model accuracy tab.")
+    else:
+        st.caption("QIB subscription needed for a 70% / 85% / 95% chance: " + " / ".join(need_txt(t) for t in (0.70, 0.85, 0.95)) + f" · gain model {e['gain_model']}")
+    st.caption(f"Estimates for this IPO come from models refit on all {n_live_train} IPOs with a listing price, including 2026. "
+               "The accuracy figures are different and cleaner: models trained to 2025 and tested on 2026 (below), plus a walk-forward test over 2024-2026.")
+    if wf and "pooled" in wf["prob"].index:
+        pw, ga = wf["prob"].loc["pooled"], wf["gain"].loc[("A", "pooled")]
+        st.caption(f"Walk-forward, pooled over {int(pw['n'])} IPOs listed 2024-2026: subscription model AUC {pw['demand_auc']:.2f}, accuracy {pw['demand_acc']:.0%}; "
+                   f"fundamentals only AUC {pw['prebid_auc']:.2f}; gain median error {ga['mae_p50']:.1f} points. See the Model accuracy tab.")
 
     qq = rep.qual
     pt = lambda p: p["text"] + (f" *(PDF p.{p['page']})*" if p.get("page") else "")
     tabs = st.tabs(["Subscription", "Business", "Numbers", "Scorecard", "Strengths & risks", "Similar IPOs", "Model accuracy"])
     with tabs[0]:
-        cols = st.columns(4)
-        for col, (key, label) in zip(cols, [("sub_total_x", "Total"), ("sub_qib_x", "QIB"), ("sub_nii_x", "NII"), ("sub_retail_x", "Retail")]):
-            col.metric(label, "–" if sub.get(key) is None else f"{sub[key]:.2f}x")
+        for row_cats in ([("sub_total_x", "Total"), ("sub_qib_x", "QIB"), ("sub_nii_x", "NII"), ("sub_retail_x", "Retail")],
+                         [("sub_employee_x", "Employee quota"), ("sub_shareholder_x", "Shareholder quota")]):
+            for col, (key, label) in zip(st.columns(4), row_cats):
+                col.metric(label, "–" if sub.get(key) is None else f"{sub[key]:.2f}x")
         st.markdown("**How past IPOs listed at each final subscription level**")
         st.plotly_chart(band_chart(rep), width="stretch", config={"displayModeBar": False})
         st.dataframe(rep.band_table.style.format({"listed above issue": "{:.0%}", "median gain %": "{:+.1f}", "p25 %": "{:+.1f}", "p75 %": "{:+.1f}"}), width="stretch")
@@ -315,17 +336,40 @@ def render_report(rep, a, sub: dict, bt: dict) -> None:
         st.dataframe(rep.similar.assign(listing_date=rep.similar["listing_date"].dt.date), hide_index=True, width="stretch",
                      column_config={"distance": st.column_config.NumberColumn(format="%.2f"), "listing_gain_pct": st.column_config.NumberColumn("listing gain %", format="%+.1f")})
     with tabs[6]:
-        show_backtest(bt)
+        show_backtest(bt, wf)
     st.caption("Educational tool, not investment advice. Models learn from past listings and can be wrong.")
 
 
-def show_backtest(bt: dict) -> None:
+def show_walk_forward(wf: dict) -> None:
+    if not wf or not len(wf.get("years", [])):
+        return
+    st.markdown("### Walk-forward: every test year scored by models trained on all earlier years")
+    st.caption("2024 is tested by models trained on 2022-2023, 2025 on 2022-2024, 2026 on 2022-2025. 'pooled' scores all test years together.")
+    pr = wf["prob"].rename(columns={"n": "IPOs", "demand_auc": "subscription AUC", "demand_brier": "subscription Brier", "demand_acc": "subscription accuracy",
+                                    "prebid_auc": "pre-bid AUC", "prebid_acc": "pre-bid accuracy", "base_rate": "base rate"})
+    st.dataframe(pr.style.format({"subscription AUC": "{:.2f}", "subscription Brier": "{:.3f}", "subscription accuracy": "{:.0%}",
+                                  "pre-bid AUC": "{:.2f}", "pre-bid accuracy": "{:.0%}", "base rate": "{:.0%}"}), width="stretch")
+    names = {"A": "Model A (quantile regression)", "B": "Model B (similar QIB)", "prebid": "Pre-bid (10 nearest IPOs)"}
+    g = wf["gain"].reset_index()
+    g["model"] = g["model"].map(names)
+    g = g.rename(columns={"period": "test year", "mae_p50": "median error (pts)", "cov_25_75_raw": "25-75 covers (raw)", "cov_10_90_raw": "10-90 covers (raw)",
+                          "cov_25_75_cal": "25-75 covers (widened)", "cov_10_90_cal": "10-90 covers (widened)"})
+    pct = {c: "{:.0%}" for c in g.columns if "covers" in c}
+    st.dataframe(g.style.format(pct | {"median error (pts)": "{:.1f}", "spearman": "{:.2f}"}), hide_index=True, width="stretch")
+    st.caption("Targets: 25-75 should cover about 50%, 10-90 about 80%. 'Widened' ranges use only the other test years' residuals, so the "
+               "widening is never scored on the data it was fitted on.")
+
+
+def show_backtest(bt: dict, wf: dict | None = None) -> None:
+    show_walk_forward(wf)
     if not bt.get("demand"):
         st.info("Not enough 2026 rows to score.")
         return
-    st.markdown(f"**{bt['n_test']} IPOs listed in 2026. Models were fitted on {bt['n_train']} IPOs from 2022-2025 and never saw these.**")
+    st.markdown("### Published test: trained 2022-2025, scored on 2026")
+    st.markdown(f"**{bt['n_test']} IPOs listed in 2026. Models were fitted on {bt['n_train']} IPOs from 2022-2025 and never saw these.** "
+                "(The models behind live estimates are refit on every row; their scores cannot be measured, so these are the ones shown.)")
     rows = {"Subscription model (QIB, total, retail, PAT margin)": bt["demand"], "Fundamentals only (pre-bid)": bt["prebid"]}
-    st.dataframe(pd.DataFrame(rows).T[["n", "auc", "brier", "accuracy", "base_rate"]].style.format({"auc": "{:.2f}", "brier": "{:.3f}", "accuracy": "{:.0%}", "base_rate": "{:.0%}"}), width="stretch")
+    st.dataframe(pd.DataFrame(rows).T[["n", "auc", "brier", "accuracy", "base_rate"]].style.format({"n": "{:.0f}", "auc": "{:.2f}", "brier": "{:.3f}", "accuracy": "{:.0%}", "base_rate": "{:.0%}"}), width="stretch")
     st.dataframe(bt["baselines"].style.format("{:.0%}"), width="stretch")
     c1, c2 = st.columns(2)
     c1.markdown("Calibration, subscription model (deciles)")
@@ -333,11 +377,20 @@ def show_backtest(bt: dict) -> None:
     c2.markdown("Calibration, pre-bid model (deciles)")
     c2.dataframe(bt["calibration_prebid"].style.format({"predicted": "{:.0%}", "actual": "{:.0%}"}), width="stretch")
     g = pd.DataFrame({"Model A (quantile regression)": bt["gain_a"], "Model B (similar QIB)": bt["gain_b"], "Pre-bid (10 nearest IPOs)": bt["gain_prebid_knn"]}).T
-    st.markdown(f"Listing-gain %: Model {bt['gain_model_default']} is the default (chosen on a 2025 validation fold inside the training data).")
-    st.dataframe(g.style.format({"mae_p50": "{:.1f}", "cov_25_75": "{:.0%}", "cov_10_90": "{:.0%}", "spearman": "{:.2f}", "pinball": "{:.2f}"}), width="stretch")
-    st.caption("mae_p50 = median absolute error of the 50th-percentile prediction, in percentage points. The 25-75 and 10-90 ranges should cover about 50% and 80%.")
+    st.markdown(f"Listing-gain %: Model {bt['gain_model_default']} is the default (chosen on the last full year inside the training data). "
+                "Ranges are widened using 2024-2025 walk-forward residuals only.")
+    st.dataframe(g.style.format({"n": "{:.0f}", "mae_p50": "{:.1f}", "cov_25_75": "{:.0%}", "cov_10_90": "{:.0%}", "cov_25_75_raw": "{:.0%}", "cov_10_90_raw": "{:.0%}",
+                                 "spearman": "{:.2f}", "pinball": "{:.2f}"}), width="stretch")
+    st.caption("mae_p50 = median absolute error of the 50th-percentile prediction, in percentage points. cov_* = share of outcomes inside the range (targets 50% and 80%); "
+               "the _raw columns are before widening. One year (2026) is a small sample; the pooled walk-forward above is the fairer summary.")
+    if bt.get("widen", {}).get("A"):
+        w = pd.DataFrame({m: {band: f"+{v['inner']:.1f} / +{v['outer']:.1f}" for band, v in tb.items()} for m, tb in bt["widen"].items()}).T
+        st.markdown("Range widening by QIB band (points added to each side, inner 25-75 / outer 10-90)")
+        st.dataframe(w.rename(index={"A": "Model A", "B": "Model B", "prebid": "Pre-bid"}), width="stretch")
     st.markdown("Strategies on 2026")
-    st.dataframe(bt["strategies"].style.format({"hit_rate": "{:.0%}", "avg_gain_pct": "{:+.1f}", "allotment_weighted_gain_pct": "{:+.1f}", "sum_expected_gain_per_lot_rs": "₹{:,.0f}"}), width="stretch")
+    st.dataframe(bt["strategies"].rename(columns={"expected_gain_per_application_pct": "expected gain per application %"}).style.format(
+        {"hit_rate": "{:.0%}", "avg_gain_pct": "{:+.1f}", "expected gain per application %": "{:+.1f}", "sum_expected_gain_per_lot_rs": "₹{:,.0f}"}), width="stretch")
+    st.caption("Expected gain per application = chance of allotment (about 1 / retail subscription, capped at 1) × the listing gain.")
 
 
 if page == "Analyse a new IPO":
@@ -345,8 +398,8 @@ if page == "Analyse a new IPO":
     st.stop()
 if page == "Model accuracy":
     st.header("Model accuracy")
-    _d, _m, _bt = report_models((ROOT / "data" / "ipos.csv").stat().st_mtime)
-    show_backtest(_bt)
+    _d, _pub, _prod, _bt, _wf = report_models((ROOT / "data" / "ipos.csv").stat().st_mtime)
+    show_backtest(_bt, _wf)
     st.stop()
 
 if use_demo:
