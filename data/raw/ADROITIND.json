@@ -1,0 +1,378 @@
+{
+  "symbol": "ADROITIND",
+  "rhp_file": "ADROITIND.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:19:47+00:00",
+  "pages_sent": [
+    1,
+    2,
+    29,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    138,
+    139,
+    140,
+    188,
+    189,
+    215,
+    216,
+    217,
+    454,
+    455
+  ],
+  "n_pdf_pages": 600,
+  "usage": {
+    "input_tokens": 29373,
+    "output_tokens": 3070,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.2642908,
+    "session_id": "13d05340-81b1-4d2b-aea2-b6c879be17a8"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Adroit Industries (India) Limited",
+    "sector": "Auto & auto components",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "stub_period_months": null,
+    "pre_ipo_placement": null,
+    "lead_managers": "Choice Capital Advisors Private Limited",
+    "revenue_fy2": 124.528,
+    "rhp_page_revenue_fy2": 119,
+    "revenue_fy1": 133.894,
+    "rhp_page_revenue_fy1": 119,
+    "revenue_fy0": 139.943,
+    "rhp_page_revenue_fy0": 119,
+    "ebitda_fy2": 29.685,
+    "rhp_page_ebitda_fy2": 454,
+    "ebitda_fy1": 31.019,
+    "rhp_page_ebitda_fy1": 454,
+    "ebitda_fy0": 38.71,
+    "rhp_page_ebitda_fy0": 454,
+    "pat_fy2": 14.527,
+    "rhp_page_pat_fy2": 119,
+    "pat_fy1": 18.144,
+    "rhp_page_pat_fy1": 119,
+    "pat_fy0": 26.157999999999998,
+    "rhp_page_pat_fy0": 119,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 128.627,
+    "rhp_page_net_worth_fy0": 117,
+    "total_debt_fy0": 52.4,
+    "rhp_page_total_debt_fy0": 455,
+    "cash_fy0": 1.505,
+    "rhp_page_cash_fy0": 117,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 7.48,
+    "rhp_page_eps_fy0": 216,
+    "ronw_fy0_pct": 22.51,
+    "rhp_page_ronw_fy0_pct": 217,
+    "nav_per_share_fy0": 36.84,
+    "rhp_page_nav_per_share_fy0": 217,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": 0.9897,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.135,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 3.491134,
+    "rhp_page_pre_issue_shares_cr": 114,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 114,
+    "ofs_promoter_shares_cr": 0.135,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 24.119,
+    "proceeds_capex_cr": 63.863,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "Hindustan Hardy Ltd; Talbros Engineering Ltd; GNA Axles Ltd",
+    "n_peers": 3,
+    "peer_pe_list": [
+      12.98,
+      10.7,
+      20.85
+    ],
+    "peer_ronw_list": [
+      25.0,
+      17.32,
+      12.28
+    ],
+    "rhp_page_peers": 217
+  },
+  "extract": {
+    "company": "Adroit Industries (India) Limited",
+    "sector": "Auto & auto components",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": 9897000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 1350000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Mukesh Sangla HUF",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 1350000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 34911340.0,
+      "unit": "shares",
+      "page": 114
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 114
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Capital expenditure by the Company for machinery and equipment at Dewas Facility and transportation vehicle",
+        "category": "capex",
+        "amount": {
+          "value": 199.07,
+          "unit": "million",
+          "page": 189
+        }
+      },
+      {
+        "purpose": "Investment in Subsidiary Adroit Driveshafts Private Limited for capital expenditure (machinery and equipment at Pithampur Facility and transportation vehicle)",
+        "category": "capex",
+        "amount": {
+          "value": 439.56,
+          "unit": "million",
+          "page": 189
+        }
+      },
+      {
+        "purpose": "Investment in Subsidiary Adroit Driveshafts Private Limited for repayment/pre-payment of borrowings",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 241.19,
+          "unit": "million",
+          "page": 189
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 189
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lead_managers": [
+      "Choice Capital Advisors Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "revenue_fy2": {
+      "value": 1245.28,
+      "unit": "million",
+      "page": 119
+    },
+    "revenue_fy1": {
+      "value": 1338.94,
+      "unit": "million",
+      "page": 119
+    },
+    "revenue_fy0": {
+      "value": 1399.43,
+      "unit": "million",
+      "page": 119
+    },
+    "ebitda_fy2": {
+      "value": 296.85,
+      "unit": "million",
+      "page": 454
+    },
+    "ebitda_fy1": {
+      "value": 310.19,
+      "unit": "million",
+      "page": 454
+    },
+    "ebitda_fy0": {
+      "value": 387.1,
+      "unit": "million",
+      "page": 454
+    },
+    "pat_fy2": {
+      "value": 145.27,
+      "unit": "million",
+      "page": 119
+    },
+    "pat_fy1": {
+      "value": 181.44,
+      "unit": "million",
+      "page": 119
+    },
+    "pat_fy0": {
+      "value": 261.58,
+      "unit": "million",
+      "page": 119
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 1286.27,
+      "unit": "million",
+      "page": 117
+    },
+    "total_debt_fy0": {
+      "value": 524.0,
+      "unit": "million",
+      "page": 455
+    },
+    "cash_fy0": {
+      "value": 15.05,
+      "unit": "million",
+      "page": 117
+    },
+    "eps_fy0": {
+      "value": 7.48,
+      "unit": "rupees",
+      "page": 216
+    },
+    "ronw_fy0_pct": {
+      "value": 22.51,
+      "unit": "percent",
+      "page": 217
+    },
+    "nav_per_share_fy0": {
+      "value": 36.84,
+      "unit": "rupees",
+      "page": 217
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Hindustan Hardy Ltd",
+        "nse_symbol": null,
+        "pe": 12.98,
+        "ronw_pct": 25.0,
+        "page": 217
+      },
+      {
+        "name": "Talbros Engineering Ltd",
+        "nse_symbol": null,
+        "pe": 10.7,
+        "ronw_pct": 17.32,
+        "page": 217
+      },
+      {
+        "name": "GNA Axles Ltd",
+        "nse_symbol": null,
+        "pe": 20.85,
+        "ronw_pct": 12.28,
+        "page": 217
+      }
+    ],
+    "notes": [
+      "Price band, lot size, offer amounts, post-offer shares and retail quota % are not printed ([\u25cf]) on the pages provided.",
+      "Cash flow statement not among provided pages; CFO left null.",
+      "Promoter pre/post shareholding % not on provided pages.",
+      "Total debt 524.00 from capitalisation statement (p.455) matches balance sheet non-current 18.83 + current 505.17 borrowings (p.117); capitalisation statement splits it differently (441.07 current, 82.93 non-current incl. current maturities).",
+      "PAT 261.58 is total profit for the year incl. minority; attribution split not shown on provided pages.",
+      "Equity share capital doubled from 174.56 to 349.11 million in FY2026 (likely bonus issue); no details of pre-IPO placements in the last 12 months on provided pages, so pre_ipo_placement left null.",
+      "Only one selling shareholder: Mukesh Sangla HUF (Promoter Group), WACA \u20b93.65.",
+      "Peer P/E based on BSE closing price on August 20, 2026."
+    ]
+  }
+}

@@ -1,0 +1,375 @@
+{
+  "symbol": "GSLSU",
+  "rhp_file": "GSLSU.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T20:55:13+00:00",
+  "pages_sent": [
+    1,
+    2,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    93,
+    94,
+    95,
+    96,
+    118,
+    119,
+    120,
+    121,
+    132,
+    133,
+    134,
+    135,
+    136,
+    301,
+    302,
+    303
+  ],
+  "n_pdf_pages": 405,
+  "usage": {
+    "input_tokens": 49305,
+    "output_tokens": 3610,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.4365379,
+    "session_id": "1b9abfb3-00d4-4aff-8d35-42eb58278510"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Global Surfaces Limited",
+    "sector": "Chemicals & materials",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2022 (March 31, 2022)",
+    "stub_period_months": 6,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Unistone Capital Private Limited",
+    "revenue_fy2": 163.291,
+    "rhp_page_revenue_fy2": 82,
+    "revenue_fy1": 175.371,
+    "rhp_page_revenue_fy1": 82,
+    "revenue_fy0": 190.313,
+    "rhp_page_revenue_fy0": 82,
+    "ebitda_fy2": 40.316,
+    "rhp_page_ebitda_fy2": 136,
+    "ebitda_fy1": 47.433,
+    "rhp_page_ebitda_fy1": 136,
+    "ebitda_fy0": 41.804,
+    "rhp_page_ebitda_fy0": 136,
+    "pat_fy2": 20.964,
+    "rhp_page_pat_fy2": 82,
+    "pat_fy1": 33.932,
+    "rhp_page_pat_fy1": 82,
+    "pat_fy0": 35.634,
+    "rhp_page_pat_fy0": 82,
+    "cfo_fy2": 53.688,
+    "rhp_page_cfo_fy2": 83,
+    "cfo_fy1": 32.144,
+    "rhp_page_cfo_fy1": 83,
+    "cfo_fy0": 28.19,
+    "rhp_page_cfo_fy0": 83,
+    "net_worth_fy0": 134.034,
+    "rhp_page_net_worth_fy0": 81,
+    "total_debt_fy0": 37.282,
+    "rhp_page_total_debt_fy0": 28,
+    "cash_fy0": 2.034,
+    "rhp_page_cash_fy0": 81,
+    "revenue_stub": 97.978,
+    "rhp_page_revenue_stub": 82,
+    "pat_stub": 13.588,
+    "rhp_page_pat_stub": 82,
+    "price_low": null,
+    "rhp_page_price_low": 2,
+    "price_high": null,
+    "rhp_page_price_high": 2,
+    "lot_size": null,
+    "rhp_page_lot_size": 2,
+    "promoter_pre_pct": 73.55,
+    "rhp_page_promoter_pre_pct": 28,
+    "promoter_post_pct": null,
+    "retail_quota_pct": 35.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": null,
+    "eps_fy0": 10.52,
+    "rhp_page_eps_fy0": 82,
+    "ronw_fy0_pct": 26.59,
+    "rhp_page_ronw_fy0_pct": 301,
+    "nav_per_share_fy0": 39.58,
+    "rhp_page_nav_per_share_fy0": 133,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": 0.852,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.255,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 3.3861818,
+    "rhp_page_pre_issue_shares_cr": 78,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 78,
+    "ofs_promoter_shares_cr": 0.255,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 90.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "POKARNA",
+    "n_peers": 1,
+    "peer_pe_list": [
+      29.53
+    ],
+    "peer_ronw_list": [
+      17.67
+    ],
+    "rhp_page_peers": 134
+  },
+  "extract": {
+    "company": "Global Surfaces Limited",
+    "sector": "Chemicals & materials",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 2
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 2
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": 2
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": 8520000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 2550000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Mayank Shah",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 1400000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Sweta Shah",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 1150000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 33861818.0,
+      "unit": "shares",
+      "page": 78
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 78
+    },
+    "promoter_pre_pct": {
+      "value": 73.55,
+      "unit": "percent",
+      "page": 28
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Investment in wholly owned subsidiary Global Surfaces FZE for part-financing capital expenditure for setting up engineered quartz manufacturing facility at Jebel Ali Free Zone, Dubai",
+        "category": "capex",
+        "amount": {
+          "value": 900.0,
+          "unit": "million",
+          "page": 119
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 119
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Unistone Capital Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2022 (March 31, 2022)",
+    "revenue_fy2": {
+      "value": 1632.91,
+      "unit": "million",
+      "page": 82
+    },
+    "revenue_fy1": {
+      "value": 1753.71,
+      "unit": "million",
+      "page": 82
+    },
+    "revenue_fy0": {
+      "value": 1903.13,
+      "unit": "million",
+      "page": 82
+    },
+    "ebitda_fy2": {
+      "value": 403.16,
+      "unit": "million",
+      "page": 136
+    },
+    "ebitda_fy1": {
+      "value": 474.33,
+      "unit": "million",
+      "page": 136
+    },
+    "ebitda_fy0": {
+      "value": 418.04,
+      "unit": "million",
+      "page": 136
+    },
+    "pat_fy2": {
+      "value": 209.64,
+      "unit": "million",
+      "page": 82
+    },
+    "pat_fy1": {
+      "value": 339.32,
+      "unit": "million",
+      "page": 82
+    },
+    "pat_fy0": {
+      "value": 356.34,
+      "unit": "million",
+      "page": 82
+    },
+    "cfo_fy2": {
+      "value": 536.88,
+      "unit": "million",
+      "page": 83
+    },
+    "cfo_fy1": {
+      "value": 321.44,
+      "unit": "million",
+      "page": 83
+    },
+    "cfo_fy0": {
+      "value": 281.9,
+      "unit": "million",
+      "page": 83
+    },
+    "net_worth_fy0": {
+      "value": 1340.34,
+      "unit": "million",
+      "page": 81
+    },
+    "total_debt_fy0": {
+      "value": 372.82,
+      "unit": "million",
+      "page": 28
+    },
+    "cash_fy0": {
+      "value": 20.34,
+      "unit": "million",
+      "page": 81
+    },
+    "eps_fy0": {
+      "value": 10.52,
+      "unit": "rupees",
+      "page": 82
+    },
+    "ronw_fy0_pct": {
+      "value": 26.59,
+      "unit": "percent",
+      "page": 301
+    },
+    "nav_per_share_fy0": {
+      "value": 39.58,
+      "unit": "rupees",
+      "page": 133
+    },
+    "stub_period_months": 6,
+    "revenue_stub": {
+      "value": 979.78,
+      "unit": "million",
+      "page": 82
+    },
+    "pat_stub": {
+      "value": 135.88,
+      "unit": "million",
+      "page": 82
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Pokarna Limited",
+        "nse_symbol": "POKARNA",
+        "pe": 29.53,
+        "ronw_pct": 17.67,
+        "page": 134
+      }
+    ],
+    "notes": [
+      "Promoter pre-offer holding is printed separately: Promoter (Mayank Shah) 73.55% and Promoter Group 25.80% (page 28). promoter_pre_pct is the promoter-only figure; the combined figure is not printed.",
+      "RoNW for FY2022 doesn't match across sections. The Basis for Offer Price RoNW table (page 133) shows FY2022 32.51% and FY2020 26.59%. The KPI table (page 136), Other Financial Information (page 301) and the peer table show FY2022 26.59% and FY2020 32.51%. 26.59% was used; it matches 356.34/1,340.34.",
+      "Total debt for FY2022 is the summary's total borrowings of 372.82 (page 28). This agrees with the balance sheet: non-current 107.93 plus current 264.89.",
+      "Price band, lot size, offer amounts and post-offer shares are [\u25cf] in the RHP.",
+      "Fresh issue objects: the \u20b9900 million going to Global Surfaces FZE for the Dubai facility may be used to repay bridge loans from HDFC Bank and Kotak Mahindra Bank taken for the facility, including \u20b9250 million to be recouped. It is categorised as capex.",
+      "Bonus issues of April 16, 2021 and March 26, 2022 are bonus shares, not placements. No preferential, rights or private placement was found in the 12 months before the RHP.",
+      "Pokarna's NSE symbol was assumed (POKARNA); it is not printed on these pages.",
+      "The 900.00 capex figure includes a footnote about loan repayment."
+    ]
+  }
+}

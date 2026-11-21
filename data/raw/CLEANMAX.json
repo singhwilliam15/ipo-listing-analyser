@@ -1,0 +1,403 @@
+{
+  "symbol": "CLEANMAX",
+  "rhp_file": "CLEANMAX.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:00:49+00:00",
+  "pages_sent": [
+    1,
+    2,
+    24,
+    25,
+    26,
+    27,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    122,
+    123,
+    124,
+    164,
+    165,
+    193,
+    194,
+    195,
+    827,
+    828,
+    873
+  ],
+  "n_pdf_pages": 994,
+  "usage": {
+    "input_tokens": 45743,
+    "output_tokens": 4087,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.41722679999999995,
+    "session_id": "a974c60e-a9c2-48d8-ba2e-f2b474f2a2ec"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Clean Max Enviro Energy Solutions Limited",
+    "sector": "Energy, power & renewables",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "stub_period_months": 6,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "Axis Capital Limited; J.P. Morgan India Private Limited; BNP Paribas; HSBC Securities and Capital Markets (India) Private Limited; IIFL Capital Services Limited; Nomura Financial Advisory and Securities (India) Private Limited; BOB Capital Markets Limited; SBI Capital Markets Limited",
+    "revenue_fy2": 929.582,
+    "rhp_page_revenue_fy2": 109,
+    "revenue_fy1": 1389.837,
+    "rhp_page_revenue_fy1": 109,
+    "revenue_fy0": 1495.701,
+    "rhp_page_revenue_fy0": 109,
+    "ebitda_fy2": 405.919,
+    "rhp_page_ebitda_fy2": 827,
+    "ebitda_fy1": 741.573,
+    "rhp_page_ebitda_fy1": 827,
+    "ebitda_fy0": 1015.072,
+    "rhp_page_ebitda_fy0": 827,
+    "pat_fy2": -59.473,
+    "rhp_page_pat_fy2": 109,
+    "pat_fy1": -37.643,
+    "rhp_page_pat_fy1": 109,
+    "pat_fy0": 19.429,
+    "rhp_page_pat_fy0": 109,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 2563.48,
+    "rhp_page_net_worth_fy0": 107,
+    "total_debt_fy0": null,
+    "rhp_page_total_debt_fy0": 107,
+    "cash_fy0": 328.585,
+    "rhp_page_cash_fy0": 107,
+    "revenue_stub": 932.953,
+    "rhp_page_revenue_stub": 109,
+    "pat_stub": 19.004,
+    "rhp_page_pat_stub": 109,
+    "price_low": null,
+    "rhp_page_price_low": 194,
+    "price_high": null,
+    "rhp_page_price_high": 194,
+    "lot_size": null,
+    "promoter_pre_pct": 55.78,
+    "rhp_page_promoter_pre_pct": 26,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 26,
+    "retail_quota_pct": null,
+    "pre_ipo_price": 1053.0,
+    "rhp_page_pre_ipo_price": 2,
+    "eps_fy0": 2.88,
+    "rhp_page_eps_fy0": 193,
+    "ronw_fy0_pct": 1.09,
+    "rhp_page_ronw_fy0_pct": 194,
+    "nav_per_share_fy0": 250.93,
+    "rhp_page_nav_per_share_fy0": 195,
+    "fresh_issue_cr": 1200.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": 1900.0,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 10.5653268,
+    "rhp_page_pre_issue_shares_cr": 122,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 122,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 1122.674,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "NTPC Green Energy Ltd; ReNew Energy Global Plc",
+    "n_peers": 2,
+    "peer_pe_list": [
+      132.94,
+      44.84
+    ],
+    "peer_ronw_list": [],
+    "rhp_page_peers": 194
+  },
+  "extract": {
+    "company": "Clean Max Enviro Energy Solutions Limited",
+    "sector": "Energy, power & renewables",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 194
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 194
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 12000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": 19000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Kuldeep Jain",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "BGTF One Holdings (DIFC) Limited",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "KEMPINC LLP",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Augment India I Holdings, LLC",
+        "kind": "investor",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "DSDG HOLDING APS",
+        "kind": "investor",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 105653268.0,
+      "unit": "shares",
+      "page": 122
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 122
+    },
+    "promoter_pre_pct": {
+      "value": 55.78,
+      "unit": "percent",
+      "page": 26
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 26
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment and/or pre-payment, in part or full, of all or certain outstanding borrowings of the Company and/or its Subsidiaries",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 11226.74,
+          "unit": "million",
+          "page": 164
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 164
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 1053.0,
+      "unit": "rupees",
+      "page": 2
+    },
+    "lead_managers": [
+      "Axis Capital Limited",
+      "J.P. Morgan India Private Limited",
+      "BNP Paribas",
+      "HSBC Securities and Capital Markets (India) Private Limited",
+      "IIFL Capital Services Limited",
+      "Nomura Financial Advisory and Securities (India) Private Limited",
+      "BOB Capital Markets Limited",
+      "SBI Capital Markets Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "revenue_fy2": {
+      "value": 9295.82,
+      "unit": "million",
+      "page": 109
+    },
+    "revenue_fy1": {
+      "value": 13898.37,
+      "unit": "million",
+      "page": 109
+    },
+    "revenue_fy0": {
+      "value": 14957.01,
+      "unit": "million",
+      "page": 109
+    },
+    "ebitda_fy2": {
+      "value": 4059.19,
+      "unit": "million",
+      "page": 827
+    },
+    "ebitda_fy1": {
+      "value": 7415.73,
+      "unit": "million",
+      "page": 827
+    },
+    "ebitda_fy0": {
+      "value": 10150.72,
+      "unit": "million",
+      "page": 827
+    },
+    "pat_fy2": {
+      "value": -594.73,
+      "unit": "million",
+      "page": 109
+    },
+    "pat_fy1": {
+      "value": -376.43,
+      "unit": "million",
+      "page": 109
+    },
+    "pat_fy0": {
+      "value": 194.29,
+      "unit": "million",
+      "page": 109
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 25634.8,
+      "unit": "million",
+      "page": 107
+    },
+    "total_debt_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": 107
+    },
+    "cash_fy0": {
+      "value": 3285.85,
+      "unit": "million",
+      "page": 107
+    },
+    "eps_fy0": {
+      "value": 2.88,
+      "unit": "rupees",
+      "page": 193
+    },
+    "ronw_fy0_pct": {
+      "value": 1.09,
+      "unit": "percent",
+      "page": 194
+    },
+    "nav_per_share_fy0": {
+      "value": 250.93,
+      "unit": "rupees",
+      "page": 195
+    },
+    "stub_period_months": 6,
+    "revenue_stub": {
+      "value": 9329.53,
+      "unit": "million",
+      "page": 109
+    },
+    "pat_stub": {
+      "value": 190.04,
+      "unit": "million",
+      "page": 109
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "NTPC Green Energy Ltd",
+        "nse_symbol": null,
+        "pe": 132.94,
+        "ronw_pct": null,
+        "page": 194
+      },
+      {
+        "name": "ReNew Energy Global Plc",
+        "nse_symbol": null,
+        "pe": 44.84,
+        "ronw_pct": null,
+        "page": 194
+      }
+    ],
+    "notes": [
+      "Pre-offer share count differs: 'The Offer' (p.104) says 102,833,720 shares, while Capital Structure (p.122) and the shareholding table (p.27) say 105,653,268. The gap is exactly the 2,819,548 Pre-IPO Placement shares, so I used 105,653,268.",
+      "promoter_pre_pct of 55.78% covers the Promoters only, on a fully diluted basis. Promoter Group (Rikhab Investments B.V.) holds another 9.21% (p.26). No combined figure is printed.",
+      "total_debt_fy0 is left null because no total is printed for March 31, 2025. The parts are non-current borrowings 71,268.37 and current borrowings 8,468.61 (\u20b9 million, p.107). Total borrowings at Sep 30, 2025 is printed as 101,214.60 (p.873).",
+      "Cash flow statement not on the pages given, so CFO is null.",
+      "The full 'Comparison with listed industry peers' table is not on the pages given. Only the highest and lowest P/E are shown (NTPC Green 132.94, ReNew Energy Global Plc 44.84, which is listed on NASDAQ); the average is 86.59. Peer RoNW is not available.",
+      "Price band, lot size, share counts for the fresh issue and OFS, and the retail quota are all [\u25cf] or not on these pages.",
+      "Pre-IPO Placement: 2,819,548 shares at \u20b91,053 each, totalling \u20b92,968.98 million. The Fresh Issue was cut from its original size to \u20b912,000 million as a result, and the placement proceeds go to general corporate purposes.",
+      "EPS and NAV are adjusted for the 1:10 share split and 1:1 bonus. Before the split, NAV at March 31, 2025 was \u20b95,018.52.",
+      "PAT is total restated profit including minority interest. PAT attributable to owners for FY2025 was 278.43."
+    ]
+  }
+}

@@ -1,0 +1,454 @@
+{
+  "symbol": "TONBO",
+  "rhp_file": "TONBO.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:17:22+00:00",
+  "pages_sent": [
+    1,
+    2,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    111,
+    112,
+    113,
+    114,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    409,
+    410,
+    411,
+    449
+  ],
+  "n_pdf_pages": 554,
+  "usage": {
+    "input_tokens": 42175,
+    "output_tokens": 4018,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3869468,
+    "session_id": "7cfeb9c9-054e-4c87-b511-728de6e8d77f"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Tonbo Imaging India Limited",
+    "sector": "Electronics & EMS",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026 (March 31, 2026)",
+    "stub_period_months": 3,
+    "pre_ipo_placement": null,
+    "lead_managers": "JM Financial Limited; IIFL Capital Services Limited",
+    "revenue_fy2": 428.189,
+    "rhp_page_revenue_fy2": 94,
+    "revenue_fy1": 469.08,
+    "rhp_page_revenue_fy1": 94,
+    "revenue_fy0": 362.648,
+    "rhp_page_revenue_fy0": 94,
+    "ebitda_fy2": 112.324,
+    "rhp_page_ebitda_fy2": 409,
+    "ebitda_fy1": 139.064,
+    "rhp_page_ebitda_fy1": 409,
+    "ebitda_fy0": 104.61800000000001,
+    "rhp_page_ebitda_fy0": 409,
+    "pat_fy2": 68.543,
+    "rhp_page_pat_fy2": 94,
+    "pat_fy1": 72.757,
+    "rhp_page_pat_fy1": 94,
+    "pat_fy0": 50.88,
+    "rhp_page_pat_fy0": 94,
+    "cfo_fy2": 78.333,
+    "rhp_page_cfo_fy2": 95,
+    "cfo_fy1": -136.119,
+    "rhp_page_cfo_fy1": 95,
+    "cfo_fy0": -63.216,
+    "rhp_page_cfo_fy0": 95,
+    "net_worth_fy0": 553.159,
+    "rhp_page_net_worth_fy0": 92,
+    "total_debt_fy0": 116.064,
+    "rhp_page_total_debt_fy0": 92,
+    "cash_fy0": 16.179,
+    "rhp_page_cash_fy0": 92,
+    "revenue_stub": 36.008,
+    "rhp_page_revenue_stub": 94,
+    "pat_stub": -17.737,
+    "rhp_page_pat_stub": 94,
+    "price_low": null,
+    "rhp_page_price_low": 144,
+    "price_high": null,
+    "rhp_page_price_high": 144,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 9.19,
+    "rhp_page_eps_fy0": 94,
+    "ronw_fy0_pct": 9.75,
+    "rhp_page_ronw_fy0_pct": 145,
+    "nav_per_share_fy0": 96.57,
+    "rhp_page_nav_per_share_fy0": 145,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 1.2174046,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 5.72821,
+    "rhp_page_pre_issue_shares_cr": 89,
+    "post_issue_shares_cr": 5.72821,
+    "rhp_page_post_issue_shares_cr": 111,
+    "ofs_promoter_shares_cr": 0.22997,
+    "ofs_investor_shares_cr": 0.9723845999999999,
+    "proceeds_debt_repayment_cr": null,
+    "proceeds_capex_cr": null,
+    "proceeds_gcp_cr": null,
+    "peers": "PARAS; DATAPATTNS; ASTRAMICRO; ZENTEC; BEL",
+    "n_peers": 5,
+    "peer_pe_list": [
+      117.74,
+      87.29,
+      83.92,
+      73.44,
+      45.7
+    ],
+    "peer_ronw_list": [
+      17.0
+    ],
+    "rhp_page_peers": 146
+  },
+  "extract": {
+    "company": "Tonbo Imaging India Limited",
+    "sector": "Electronics & EMS",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 144
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 144
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 12174046.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Arvind Kondangi Lakshmikumar",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 1150000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Ankit Kumar",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 580000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Cecilia D'Souza",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 230000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Vinimaya Advisory LLP",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 339700.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "CEAQ Technologies Private Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 4998100.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "CEAQ Technologies Pte. Ltd.",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 4155096.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Timothy Guy Mitchell",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 208700.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Artiman Partners LLC",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 197350.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Amit Dilip Shah",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 84600.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Ramesh Radhakrishnan",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 80000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 57282100.0,
+      "unit": "shares",
+      "page": 89
+    },
+    "post_issue_shares": {
+      "value": 57282100.0,
+      "unit": "shares",
+      "page": 111
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "JM Financial Limited",
+      "IIFL Capital Services Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026 (March 31, 2026)",
+    "revenue_fy2": {
+      "value": 4281.89,
+      "unit": "million",
+      "page": 94
+    },
+    "revenue_fy1": {
+      "value": 4690.8,
+      "unit": "million",
+      "page": 94
+    },
+    "revenue_fy0": {
+      "value": 3626.48,
+      "unit": "million",
+      "page": 94
+    },
+    "ebitda_fy2": {
+      "value": 1123.24,
+      "unit": "million",
+      "page": 409
+    },
+    "ebitda_fy1": {
+      "value": 1390.64,
+      "unit": "million",
+      "page": 409
+    },
+    "ebitda_fy0": {
+      "value": 1046.18,
+      "unit": "million",
+      "page": 409
+    },
+    "pat_fy2": {
+      "value": 685.43,
+      "unit": "million",
+      "page": 94
+    },
+    "pat_fy1": {
+      "value": 727.57,
+      "unit": "million",
+      "page": 94
+    },
+    "pat_fy0": {
+      "value": 508.8,
+      "unit": "million",
+      "page": 94
+    },
+    "cfo_fy2": {
+      "value": 783.33,
+      "unit": "million",
+      "page": 95
+    },
+    "cfo_fy1": {
+      "value": -1361.19,
+      "unit": "million",
+      "page": 95
+    },
+    "cfo_fy0": {
+      "value": -632.16,
+      "unit": "million",
+      "page": 95
+    },
+    "net_worth_fy0": {
+      "value": 5531.59,
+      "unit": "million",
+      "page": 92
+    },
+    "total_debt_fy0": {
+      "value": 1160.64,
+      "unit": "million",
+      "page": 92
+    },
+    "cash_fy0": {
+      "value": 161.79,
+      "unit": "million",
+      "page": 92
+    },
+    "eps_fy0": {
+      "value": 9.19,
+      "unit": "rupees",
+      "page": 94
+    },
+    "ronw_fy0_pct": {
+      "value": 9.75,
+      "unit": "percent",
+      "page": 145
+    },
+    "nav_per_share_fy0": {
+      "value": 96.57,
+      "unit": "rupees",
+      "page": 145
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 360.08,
+      "unit": "million",
+      "page": 94
+    },
+    "pat_stub": {
+      "value": -177.37,
+      "unit": "million",
+      "page": 94
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Paras Defence and Space Technologies Limited",
+        "nse_symbol": "PARAS",
+        "pe": 117.74,
+        "ronw_pct": null,
+        "page": 146
+      },
+      {
+        "name": "Data Patterns (India) Limited",
+        "nse_symbol": "DATAPATTNS",
+        "pe": 87.29,
+        "ronw_pct": 17.0,
+        "page": 146
+      },
+      {
+        "name": "Astra Microwave Products Limited",
+        "nse_symbol": "ASTRAMICRO",
+        "pe": 83.92,
+        "ronw_pct": null,
+        "page": 146
+      },
+      {
+        "name": "Zen Technologies Limited",
+        "nse_symbol": "ZENTEC",
+        "pe": 73.44,
+        "ronw_pct": null,
+        "page": 146
+      },
+      {
+        "name": "Bharat Electronics Limited",
+        "nse_symbol": "BEL",
+        "pe": 45.7,
+        "ronw_pct": null,
+        "page": 146
+      }
+    ],
+    "notes": [
+      "Pure offer for sale: there is no fresh issue and the Company receives no proceeds, so objects_of_offer is empty.",
+      "Price band, lot size and OFS amount are printed as [\u25cf].",
+      "The retail quota is printed only as 'not less than [\u25cf] Equity Shares', with no percentage given.",
+      "Promoter shareholding before and after the offer is not on the pages provided.",
+      "total_debt_fy0: 1,160.64 is short-term borrowings as at March 31, 2026; long-term borrowings are nil ('-'). No total figure is printed for FY2026.",
+      "cash_fy0: 161.79 is 'Cash and Bank Balances' from the balance sheet. The cash flow statement shows cash and cash equivalents at the end of FY2026 as 386.32, and other bank balances were 224.53.",
+      "Pre-IPO placement: the latest allotments shown are the March 27, 2025 private placement at \u20b925,000 per share (face value \u20b910, before the bonus issue and share split) and a bonus issue in June 2025. Both are more than 12 months before the RHP date. The pages covering the capital history after March 2025 and any secondary transfers were not provided, so this is left null.",
+      "FY2024 restated figures are effectively standalone because the subsidiaries were incorporated in FY2025.",
+      "For peers, RoNW is printed as NA for every company except Data Patterns. NSE symbols were added by me and are not printed in the RHP.",
+      "The weighted average cost of acquisition for CEAQ Technologies Private Limited is shown as Nil because its shares came from the bonus issue."
+    ]
+  }
+}

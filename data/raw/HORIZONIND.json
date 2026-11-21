@@ -1,0 +1,329 @@
+{
+  "symbol": "HORIZONIND",
+  "rhp_file": "HORIZONIND.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:25:23+00:00",
+  "pages_sent": [
+    1,
+    2,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    117,
+    118,
+    119,
+    141,
+    142,
+    181,
+    182,
+    183,
+    674,
+    675,
+    679
+  ],
+  "n_pdf_pages": 847,
+  "usage": {
+    "input_tokens": 31744,
+    "output_tokens": 3187,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.2858345,
+    "session_id": "8b896fed-96fc-4eae-a988-0e6e836ab97a"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Horizon Industrial Parks Limited",
+    "sector": "Infrastructure, construction & real estate",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "stub_period_months": null,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "JM Financial Limited; Axis Capital Limited; IIFL Capital Services Limited; SBI Capital Markets Limited; 360 ONE WAM Limited",
+    "revenue_fy2": 228.861,
+    "rhp_page_revenue_fy2": 91,
+    "revenue_fy1": 390.286,
+    "rhp_page_revenue_fy1": 91,
+    "revenue_fy0": 691.381,
+    "rhp_page_revenue_fy0": 91,
+    "ebitda_fy2": 151.51,
+    "rhp_page_ebitda_fy2": 674,
+    "ebitda_fy1": 339.117,
+    "rhp_page_ebitda_fy1": 674,
+    "ebitda_fy0": 607.8,
+    "rhp_page_ebitda_fy0": 674,
+    "pat_fy2": -162.21,
+    "rhp_page_pat_fy2": 91,
+    "pat_fy1": -178.781,
+    "rhp_page_pat_fy1": 91,
+    "pat_fy0": -203.649,
+    "rhp_page_pat_fy0": 91,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 5664.067,
+    "rhp_page_net_worth_fy0": 89,
+    "total_debt_fy0": 6884.341,
+    "rhp_page_total_debt_fy0": 679,
+    "cash_fy0": 637.835,
+    "rhp_page_cash_fy0": 89,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 178,
+    "price_high": null,
+    "rhp_page_price_high": 178,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "rhp_page_retail_quota_pct": 86,
+    "pre_ipo_price": null,
+    "eps_fy0": -1.18,
+    "rhp_page_eps_fy0": 183,
+    "ronw_fy0_pct": -4.23,
+    "rhp_page_ronw_fy0_pct": 674,
+    "nav_per_share_fy0": 27.89,
+    "rhp_page_nav_per_share_fy0": 674,
+    "fresh_issue_cr": 2600.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 244.952646,
+    "rhp_page_pre_issue_shares_cr": 86,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 86,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 2250.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "Horizon Industrial Parks Limited",
+    "sector": "Infrastructure, construction & real estate",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 178
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 178
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 26000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 2449526460.0,
+      "unit": "shares",
+      "page": 86
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 86
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment and/or prepayment, in part or full, of certain borrowings availed by the Company and certain wholly owned Identified Subsidiaries (through investment in such Subsidiaries)",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 22500.0,
+          "unit": "million",
+          "page": 141
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 141
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 86
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "JM Financial Limited",
+      "Axis Capital Limited",
+      "IIFL Capital Services Limited",
+      "SBI Capital Markets Limited",
+      "360 ONE WAM Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "revenue_fy2": {
+      "value": 2288.61,
+      "unit": "million",
+      "page": 91
+    },
+    "revenue_fy1": {
+      "value": 3902.86,
+      "unit": "million",
+      "page": 91
+    },
+    "revenue_fy0": {
+      "value": 6913.81,
+      "unit": "million",
+      "page": 91
+    },
+    "ebitda_fy2": {
+      "value": 1515.1,
+      "unit": "million",
+      "page": 674
+    },
+    "ebitda_fy1": {
+      "value": 3391.17,
+      "unit": "million",
+      "page": 674
+    },
+    "ebitda_fy0": {
+      "value": 6078.0,
+      "unit": "million",
+      "page": 674
+    },
+    "pat_fy2": {
+      "value": -1622.1,
+      "unit": "million",
+      "page": 91
+    },
+    "pat_fy1": {
+      "value": -1787.81,
+      "unit": "million",
+      "page": 91
+    },
+    "pat_fy0": {
+      "value": -2036.49,
+      "unit": "million",
+      "page": 91
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 56640.67,
+      "unit": "million",
+      "page": 89
+    },
+    "total_debt_fy0": {
+      "value": 68843.41,
+      "unit": "million",
+      "page": 679
+    },
+    "cash_fy0": {
+      "value": 6378.35,
+      "unit": "million",
+      "page": 89
+    },
+    "eps_fy0": {
+      "value": -1.18,
+      "unit": "rupees",
+      "page": 183
+    },
+    "ronw_fy0_pct": {
+      "value": -4.23,
+      "unit": "percent",
+      "page": 674
+    },
+    "nav_per_share_fy0": {
+      "value": 27.89,
+      "unit": "rupees",
+      "page": 674
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [],
+    "notes": [
+      "Pure fresh issue of up to \u20b926,000.00 million (includes Employee Reservation Portion up to \u20b950.00 million); no offer for sale.",
+      "Price band, lot size and number of fresh issue shares are shown as [\u25cf] on the pages provided.",
+      "The peer comparison table is not on the pages provided, so peers is left empty. no_listed_peers is set to false because nothing says there are no peers.",
+      "Retail quota % is not printed on the pages provided. The page shows only 'Not more than [\u25cf] Equity Shares' for retail; NIB is not more than 15%. Under Reg 6(2), retail is usually not more than 10%, but that is not stated here.",
+      "Promoter shareholding % is not on the pages provided.",
+      "Cash flow statement is not provided; CFO is null.",
+      "Pre-IPO allotments within 12 months of the RHP: rights issues (Jul 15 2025, Jul 30 2025, Oct 15 2025, Dec 11 2025), OCD conversion Dec 5 2025, and a preferential allotment of 275,873,599 shares on Dec 26 2025 (page 679). Prices are not on the pages provided.",
+      "PAT is the restated loss for the year including NCI. RoNW and EPS use the loss attributable to owners. NAV per share is calculated on the weighted average number of shares.",
+      "EBITDA is from 'Other Financial Information' (page 674), restated basis. Proforma figures are also disclosed but not used.",
+      "Total debt of 68,843.41 = current 1,236.51 + non-current 67,606.90 (capitalisation statement).",
+      "Total debt and the 22,500.00 debt repayment are both in \u20b9 million; GCP is [\u25cf] and capped at 25% of gross proceeds."
+    ]
+  }
+}

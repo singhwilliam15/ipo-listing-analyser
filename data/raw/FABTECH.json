@@ -1,0 +1,333 @@
+{
+  "symbol": "FABTECH",
+  "rhp_file": "FABTECH.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:07:10+00:00",
+  "pages_sent": [
+    1,
+    2,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    121,
+    122,
+    123,
+    134,
+    135,
+    147,
+    148,
+    149,
+    404,
+    405
+  ],
+  "n_pdf_pages": 521,
+  "usage": {
+    "input_tokens": 28979,
+    "output_tokens": 3184,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.2633803,
+    "session_id": "729a0a5c-9d5c-4199-a9c5-721cc366da6f"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Fabtech Technologies Limited",
+    "sector": "Industrials & capital goods",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "stub_period_months": null,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Unistone Capital Private Limited",
+    "revenue_fy2": 193.7975,
+    "rhp_page_revenue_fy2": 109,
+    "revenue_fy1": 226.1363,
+    "rhp_page_revenue_fy1": 109,
+    "revenue_fy0": 326.6685,
+    "rhp_page_revenue_fy0": 109,
+    "ebitda_fy2": 32.3768,
+    "rhp_page_ebitda_fy2": 404,
+    "ebitda_fy1": 39.7511,
+    "rhp_page_ebitda_fy1": 404,
+    "ebitda_fy0": 47.2791,
+    "rhp_page_ebitda_fy0": 404,
+    "pat_fy2": 21.7337,
+    "rhp_page_pat_fy2": 109,
+    "pat_fy1": 27.2174,
+    "rhp_page_pat_fy1": 109,
+    "pat_fy0": 46.453,
+    "rhp_page_pat_fy0": 109,
+    "cfo_fy2": -13.889,
+    "rhp_page_cfo_fy2": 110,
+    "cfo_fy1": 60.429,
+    "rhp_page_cfo_fy1": 110,
+    "cfo_fy0": -36.1448,
+    "rhp_page_cfo_fy0": 110,
+    "net_worth_fy0": 173.1139,
+    "rhp_page_net_worth_fy0": 404,
+    "total_debt_fy0": 54.6208,
+    "rhp_page_total_debt_fy0": 405,
+    "cash_fy0": 9.0556,
+    "rhp_page_cash_fy0": 108,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 149,
+    "price_high": null,
+    "rhp_page_price_high": 149,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 14.34,
+    "rhp_page_eps_fy0": 109,
+    "ronw_fy0_pct": 26.83,
+    "rhp_page_ronw_fy0_pct": 149,
+    "nav_per_share_fy0": 53.44,
+    "rhp_page_nav_per_share_fy0": 149,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": 1.206,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 3.2392239,
+    "rhp_page_pre_issue_shares_cr": 105,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 105,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "Fabtech Technologies Limited",
+    "sector": "Industrials & capital goods",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 149
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 149
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "lakh",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": 12060000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 32392239.0,
+      "unit": "shares",
+      "page": 105
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 105
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding working capital requirements of our Company",
+        "category": "other",
+        "amount": {
+          "value": 12700.0,
+          "unit": "lakh",
+          "page": 134
+        }
+      },
+      {
+        "purpose": "Pursuing inorganic growth initiatives through acquisitions",
+        "category": "other",
+        "amount": {
+          "value": 3000.0,
+          "unit": "lakh",
+          "page": 134
+        }
+      },
+      {
+        "purpose": "General Corporate Purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "lakh",
+          "page": 134
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Unistone Capital Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "revenue_fy2": {
+      "value": 19379.75,
+      "unit": "lakh",
+      "page": 109
+    },
+    "revenue_fy1": {
+      "value": 22613.63,
+      "unit": "lakh",
+      "page": 109
+    },
+    "revenue_fy0": {
+      "value": 32666.85,
+      "unit": "lakh",
+      "page": 109
+    },
+    "ebitda_fy2": {
+      "value": 3237.68,
+      "unit": "lakh",
+      "page": 404
+    },
+    "ebitda_fy1": {
+      "value": 3975.11,
+      "unit": "lakh",
+      "page": 404
+    },
+    "ebitda_fy0": {
+      "value": 4727.91,
+      "unit": "lakh",
+      "page": 404
+    },
+    "pat_fy2": {
+      "value": 2173.37,
+      "unit": "lakh",
+      "page": 109
+    },
+    "pat_fy1": {
+      "value": 2721.74,
+      "unit": "lakh",
+      "page": 109
+    },
+    "pat_fy0": {
+      "value": 4645.3,
+      "unit": "lakh",
+      "page": 109
+    },
+    "cfo_fy2": {
+      "value": -1388.9,
+      "unit": "lakh",
+      "page": 110
+    },
+    "cfo_fy1": {
+      "value": 6042.9,
+      "unit": "lakh",
+      "page": 110
+    },
+    "cfo_fy0": {
+      "value": -3614.48,
+      "unit": "lakh",
+      "page": 110
+    },
+    "net_worth_fy0": {
+      "value": 17311.39,
+      "unit": "lakh",
+      "page": 404
+    },
+    "total_debt_fy0": {
+      "value": 5462.08,
+      "unit": "lakh",
+      "page": 405
+    },
+    "cash_fy0": {
+      "value": 905.56,
+      "unit": "lakh",
+      "page": 108
+    },
+    "eps_fy0": {
+      "value": 14.34,
+      "unit": "rupees",
+      "page": 109
+    },
+    "ronw_fy0_pct": {
+      "value": 26.83,
+      "unit": "percent",
+      "page": 149
+    },
+    "nav_per_share_fy0": {
+      "value": 53.44,
+      "unit": "rupees",
+      "page": 149
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "no_listed_peers": true,
+    "peers": [],
+    "notes": [
+      "The whole issue is new shares (fresh issue) with no offer for sale; the price band and issue amount are shown as [\u25cf].",
+      "Net worth of 17,311.39 lakh (owners' equity = share capital + other equity) is taken from p.404/405. The balance sheet total equity of 17,311.36 lakh includes a non-controlling interest of -0.03.",
+      "Total debt of 5,462.08 lakh is from the capitalisation statement (p.405). The balance sheet shows current borrowings of 5,408.64 and non-current of 53.44 lakh, which add up to the same total.",
+      "PAT of 4,645.30 lakh is the profit for the year including minority interest. It includes an exceptional gain of 1,784.86 lakh from the sale of an investment in an associate.",
+      "Most recent private placement was on Jan 3, 2024 at \u20b9988 per share, before the 1:10 bonus issue of April 3, 2024. Both are more than 12 months before the RHP date (Sep 22, 2025), so pre_ipo_placement is set to false and pre_ipo_price to null.",
+      "Employee reservation portion: up to \u20b9100.00 lakh. The retail quota % is not printed on these pages.",
+      "Promoter shareholding % before and after the issue is not on the pages provided.",
+      "The working capital and acquisition objects are categorised as 'other'. Acquisitions plus general corporate purposes are capped at 35% of gross proceeds, and general corporate purposes alone at 25%.",
+      "The RHP says there are no comparable listed industry peers."
+    ]
+  }
+}

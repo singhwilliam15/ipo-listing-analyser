@@ -1,0 +1,376 @@
+{
+  "symbol": "YATRA",
+  "rhp_file": "YATRA.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T20:58:47+00:00",
+  "pages_sent": [
+    1,
+    2,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    173,
+    174,
+    175,
+    176,
+    187,
+    188,
+    189,
+    190,
+    197,
+    198,
+    199,
+    200,
+    201,
+    479,
+    480,
+    481,
+    526
+  ],
+  "n_pdf_pages": 640,
+  "usage": {
+    "input_tokens": 51297,
+    "output_tokens": 3177,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.4440111,
+    "session_id": "f9735c89-874d-41da-a4de-1331e2b7d931"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Yatra Online Limited",
+    "sector": "Logistics & travel",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023",
+    "stub_period_months": null,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "SBI Capital Markets Limited; DAM Capital Advisors Limited; IIFL Securities Limited",
+    "revenue_fy2": 125.45,
+    "rhp_page_revenue_fy2": 92,
+    "revenue_fy1": 198.066,
+    "rhp_page_revenue_fy1": 92,
+    "revenue_fy0": 380.16,
+    "rhp_page_revenue_fy0": 92,
+    "ebitda_fy2": -5.062,
+    "rhp_page_ebitda_fy2": 200,
+    "ebitda_fy1": 32.148,
+    "rhp_page_ebitda_fy1": 200,
+    "ebitda_fy0": 66.969,
+    "rhp_page_ebitda_fy0": 200,
+    "pat_fy2": -118.863,
+    "rhp_page_pat_fy2": 92,
+    "pat_fy1": -30.786,
+    "rhp_page_pat_fy1": 92,
+    "pat_fy0": 7.632,
+    "rhp_page_pat_fy0": 92,
+    "cfo_fy2": 104.105,
+    "rhp_page_cfo_fy2": 93,
+    "cfo_fy1": -83.386,
+    "rhp_page_cfo_fy1": 93,
+    "cfo_fy0": -153.06,
+    "rhp_page_cfo_fy0": 93,
+    "net_worth_fy0": 169.523,
+    "rhp_page_net_worth_fy0": 91,
+    "total_debt_fy0": 153.074,
+    "rhp_page_total_debt_fy0": 526,
+    "cash_fy0": 46.902,
+    "rhp_page_cash_fy0": 91,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": 98.59,
+    "rhp_page_promoter_pre_pct": 26,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": 236.0,
+    "rhp_page_pre_ipo_price": 176,
+    "eps_fy0": 0.69,
+    "rhp_page_eps_fy0": 92,
+    "ronw_fy0_pct": 4.5,
+    "rhp_page_ronw_fy0_pct": 479,
+    "nav_per_share_fy0": 15.04,
+    "rhp_page_nav_per_share_fy0": 198,
+    "fresh_issue_cr": 602.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "fresh_issue_shares_cr": null,
+    "ofs_shares_cr": 1.2183099,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 11.4521827,
+    "rhp_page_pre_issue_shares_cr": 88,
+    "post_issue_shares_cr": null,
+    "ofs_promoter_shares_cr": 1.1751739,
+    "ofs_investor_shares_cr": 0.043136,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "EASEMYTRIP",
+    "n_peers": 1,
+    "peer_pe_list": [
+      56.53
+    ],
+    "peer_ronw_list": [],
+    "rhp_page_peers": 198
+  },
+  "extract": {
+    "company": "Yatra Online Limited",
+    "sector": "Logistics & travel",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 6020.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "ofs_shares": {
+      "value": 12183099.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "THCL Travel Holding Cyprus Limited",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 11751739.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Pandara Trust \u2013 Scheme I represented by its trustee Vistra ITCL (India) Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 431360.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 114521827.0,
+      "unit": "shares",
+      "page": 88
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "promoter_pre_pct": {
+      "value": 98.59,
+      "unit": "percent",
+      "page": 26
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Strategic investments, acquisitions and inorganic growth",
+        "category": "other",
+        "amount": {
+          "value": 1500.0,
+          "unit": "million",
+          "page": 187
+        }
+      },
+      {
+        "purpose": "Investment in customer acquisition and retention, technology, and other organic growth initiatives",
+        "category": "other",
+        "amount": {
+          "value": 3920.0,
+          "unit": "million",
+          "page": 187
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": null,
+          "page": 187
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 236.0,
+      "unit": "rupees",
+      "page": 176
+    },
+    "lead_managers": [
+      "SBI Capital Markets Limited",
+      "DAM Capital Advisors Limited",
+      "IIFL Securities Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023",
+    "revenue_fy2": {
+      "value": 1254.5,
+      "unit": "million",
+      "page": 92
+    },
+    "revenue_fy1": {
+      "value": 1980.66,
+      "unit": "million",
+      "page": 92
+    },
+    "revenue_fy0": {
+      "value": 3801.6,
+      "unit": "million",
+      "page": 92
+    },
+    "ebitda_fy2": {
+      "value": -50.62,
+      "unit": "million",
+      "page": 200
+    },
+    "ebitda_fy1": {
+      "value": 321.48,
+      "unit": "million",
+      "page": 200
+    },
+    "ebitda_fy0": {
+      "value": 669.69,
+      "unit": "million",
+      "page": 200
+    },
+    "pat_fy2": {
+      "value": -1188.63,
+      "unit": "million",
+      "page": 92
+    },
+    "pat_fy1": {
+      "value": -307.86,
+      "unit": "million",
+      "page": 92
+    },
+    "pat_fy0": {
+      "value": 76.32,
+      "unit": "million",
+      "page": 92
+    },
+    "cfo_fy2": {
+      "value": 1041.05,
+      "unit": "million",
+      "page": 93
+    },
+    "cfo_fy1": {
+      "value": -833.86,
+      "unit": "million",
+      "page": 93
+    },
+    "cfo_fy0": {
+      "value": -1530.6,
+      "unit": "million",
+      "page": 93
+    },
+    "net_worth_fy0": {
+      "value": 1695.23,
+      "unit": "million",
+      "page": 91
+    },
+    "total_debt_fy0": {
+      "value": 1530.74,
+      "unit": "million",
+      "page": 526
+    },
+    "cash_fy0": {
+      "value": 469.02,
+      "unit": "million",
+      "page": 91
+    },
+    "eps_fy0": {
+      "value": 0.69,
+      "unit": "rupees",
+      "page": 92
+    },
+    "ronw_fy0_pct": {
+      "value": 4.5,
+      "unit": "percent",
+      "page": 479
+    },
+    "nav_per_share_fy0": {
+      "value": 15.04,
+      "unit": "rupees",
+      "page": 198
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Easy Trip Planners Limited",
+        "nse_symbol": "EASEMYTRIP",
+        "pe": 56.53,
+        "ronw_pct": null,
+        "page": 198
+      }
+    ],
+    "notes": [
+      "The EBITDA figures are 'Adjusted EBITDA' from the KPI table (page 200). Unadjusted EBITDA is given separately on page 479: 510.88 / 41.61 / (569.82) million for FY23 / FY22 / FY21.",
+      "The price band and lot size are [\u25cf] in this RHP.",
+      "Fresh issue cut from \u20b97,500 million to \u20b96,020 million after a \u20b9620.14 million pre-IPO rights issue (2,627,697 shares to THCL at \u20b9236 on Dec 10, 2022).",
+      "The objects are acquisitions/inorganic growth and marketing/technology spending, so they are categorised as 'other'. Of the 3,920 million: 3,400 million is marketing and 520 million is technology infrastructure.",
+      "The full 'Comparison with listed industry peers' table was not in the pages provided. Peer P/E is taken from the industry P/E table on page 198. Peer RoNW is not available. The NSE symbol is my assumption.",
+      "The retail quota is not on these pages. The offer is made under Regulation 6(2), and the Offer Structure section on page 563 was not provided.",
+      "Total income for FY23 is 3,974.65 million. Revenue from operations is used, as instructed."
+    ]
+  }
+}

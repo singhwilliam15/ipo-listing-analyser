@@ -1,0 +1,361 @@
+{
+  "symbol": "HEXAGON",
+  "rhp_file": "HEXAGON.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:29:29+00:00",
+  "pages_sent": [
+    1,
+    2,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    143,
+    144,
+    145,
+    173,
+    174,
+    176,
+    177,
+    178,
+    485,
+    486
+  ],
+  "n_pdf_pages": 689,
+  "usage": {
+    "input_tokens": 33455,
+    "output_tokens": 3181,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.2995755,
+    "session_id": "6894dece-2980-4046-937c-265397e775c5"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Hexagon Nutrition Limited",
+    "sector": "FMCG & food",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "stub_period_months": 9,
+    "pre_ipo_placement": null,
+    "lead_managers": "Cumulative Capital Private Limited; Catalyst Capital Partners Private Limited",
+    "revenue_fy2": 278.501,
+    "rhp_page_revenue_fy2": 122,
+    "revenue_fy1": 297.731,
+    "rhp_page_revenue_fy1": 122,
+    "revenue_fy0": 324.929,
+    "rhp_page_revenue_fy0": 122,
+    "ebitda_fy2": 17.174,
+    "rhp_page_ebitda_fy2": 485,
+    "ebitda_fy1": 24.877,
+    "rhp_page_ebitda_fy1": 485,
+    "ebitda_fy0": 40.072,
+    "rhp_page_ebitda_fy0": 485,
+    "pat_fy2": 5.824,
+    "rhp_page_pat_fy2": 122,
+    "pat_fy1": 12.214,
+    "rhp_page_pat_fy1": 122,
+    "pat_fy0": 24.377,
+    "rhp_page_pat_fy0": 122,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 194.181,
+    "rhp_page_net_worth_fy0": 120,
+    "total_debt_fy0": null,
+    "cash_fy0": 15.223,
+    "rhp_page_cash_fy0": 120,
+    "revenue_stub": 267.587,
+    "rhp_page_revenue_stub": 122,
+    "pat_stub": 27.033,
+    "rhp_page_pat_stub": 122,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": 35.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": null,
+    "eps_fy0": 1.75,
+    "rhp_page_eps_fy0": 176,
+    "ronw_fy0_pct": 12.46,
+    "rhp_page_ronw_fy0_pct": 177,
+    "nav_per_share_fy0": 15.91,
+    "rhp_page_nav_per_share_fy0": 177,
+    "fresh_issue_cr": null,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "ofs_shares_cr": 3.0859704,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 12.2918109,
+    "rhp_page_pre_issue_shares_cr": 117,
+    "post_issue_shares_cr": 12.2918109,
+    "rhp_page_post_issue_shares_cr": 117,
+    "ofs_promoter_shares_cr": 3.0859704,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": null,
+    "proceeds_capex_cr": null,
+    "proceeds_gcp_cr": null,
+    "peers": "ZYDUSWELL; NESTLEIND",
+    "n_peers": 2,
+    "peer_pe_list": [
+      46.22,
+      88.86
+    ],
+    "peer_ronw_list": [
+      6.12,
+      77.91
+    ],
+    "rhp_page_peers": 178
+  },
+  "extract": {
+    "company": "Hexagon Nutrition Limited",
+    "sector": "FMCG & food",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 30859704.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Arun Purushottam Kelkar",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 1536477.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Subhash Purushottam Kelkar",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 24188993.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Aditya Kelkar",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 1526092.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Nutan Subhash Kelkar",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 3608142.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 122918109.0,
+      "unit": "shares",
+      "page": 117
+    },
+    "post_issue_shares": {
+      "value": 122918109.0,
+      "unit": "shares",
+      "page": 117
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "objects_of_offer": [],
+    "retail_quota_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lead_managers": [
+      "Cumulative Capital Private Limited",
+      "Catalyst Capital Partners Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "revenue_fy2": {
+      "value": 2785.01,
+      "unit": "million",
+      "page": 122
+    },
+    "revenue_fy1": {
+      "value": 2977.31,
+      "unit": "million",
+      "page": 122
+    },
+    "revenue_fy0": {
+      "value": 3249.29,
+      "unit": "million",
+      "page": 122
+    },
+    "ebitda_fy2": {
+      "value": 171.74,
+      "unit": "million",
+      "page": 485
+    },
+    "ebitda_fy1": {
+      "value": 248.77,
+      "unit": "million",
+      "page": 485
+    },
+    "ebitda_fy0": {
+      "value": 400.72,
+      "unit": "million",
+      "page": 485
+    },
+    "pat_fy2": {
+      "value": 58.24,
+      "unit": "million",
+      "page": 122
+    },
+    "pat_fy1": {
+      "value": 122.14,
+      "unit": "million",
+      "page": 122
+    },
+    "pat_fy0": {
+      "value": 243.77,
+      "unit": "million",
+      "page": 122
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 1941.81,
+      "unit": "million",
+      "page": 120
+    },
+    "total_debt_fy0": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cash_fy0": {
+      "value": 152.23,
+      "unit": "million",
+      "page": 120
+    },
+    "eps_fy0": {
+      "value": 1.75,
+      "unit": "rupees",
+      "page": 176
+    },
+    "ronw_fy0_pct": {
+      "value": 12.46,
+      "unit": "percent",
+      "page": 177
+    },
+    "nav_per_share_fy0": {
+      "value": 15.91,
+      "unit": "rupees",
+      "page": 177
+    },
+    "stub_period_months": 9,
+    "revenue_stub": {
+      "value": 2675.87,
+      "unit": "million",
+      "page": 122
+    },
+    "pat_stub": {
+      "value": 270.33,
+      "unit": "million",
+      "page": 122
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Zydus Wellness Limited",
+        "nse_symbol": "ZYDUSWELL",
+        "pe": 46.22,
+        "ronw_pct": 6.12,
+        "page": 178
+      },
+      {
+        "name": "Nestl\u00e9 India Limited",
+        "nse_symbol": "NESTLEIND",
+        "pe": 88.86,
+        "ronw_pct": 77.91,
+        "page": 178
+      }
+    ],
+    "notes": [
+      "Pure offer for sale: there is no fresh issue, so the company gets no proceeds and objects_of_offer is empty.",
+      "The price band and lot size are not printed ([\u25cf]).",
+      "Net worth for FY2025 is taken from total equity in the balance sheet (1,941.81). The Other Financial Information page (p.485) shows a different net worth of 1,955.99.",
+      "Total debt for FY2025 is not printed as a single figure. Non-current borrowings are 71.04 and current borrowings are 194.96 (p.120-121). Total borrowings are printed only for Dec 31, 2025: 397.90 (p.486).",
+      "Cash flow statement pages were not provided, so CFO is null.",
+      "Promoter shareholding percentages were not on the pages provided.",
+      "Pre-IPO placement: the pages only mention conversion of 12,208,212 CCPS into 12,290,705 equity shares. No placement or price is given.",
+      "Nine-month RoNW is printed as 12.12% on p.177 but 12.24% on p.485.",
+      "Shares outstanding at period end are 110,627,404 (p.485). The pre-offer count of 122,918,109 is after CCPS conversion.",
+      "Peer NSE symbols were added from general knowledge; they are not printed in the RHP."
+    ]
+  }
+}

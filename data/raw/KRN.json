@@ -1,0 +1,330 @@
+{
+  "symbol": "KRN",
+  "rhp_file": "KRN.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-21T06:02:44+00:00",
+  "pages_sent": [
+    1,
+    2,
+    22,
+    23,
+    71,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    108,
+    109,
+    110,
+    142,
+    143,
+    144,
+    340,
+    341
+  ],
+  "n_pdf_pages": 468,
+  "usage": {
+    "input_tokens": 34299,
+    "output_tokens": 3127,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3053304,
+    "session_id": "7684f059-138a-4243-8138-19ac903581fd"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "KRN Heat Exchanger and Refrigeration Limited",
+    "sector": "Industrials & capital goods",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024 (March 31, 2024)",
+    "stub_period_months": null,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "Holani Consultants Private Limited",
+    "revenue_fy2": 156.1146,
+    "rhp_page_revenue_fy2": 97,
+    "revenue_fy1": 247.4808,
+    "rhp_page_revenue_fy1": 97,
+    "revenue_fy0": 308.2831,
+    "rhp_page_revenue_fy0": 97,
+    "ebitda_fy2": 16.9356,
+    "rhp_page_ebitda_fy2": 143,
+    "ebitda_fy1": 49.3175,
+    "rhp_page_ebitda_fy1": 143,
+    "ebitda_fy0": 58.4524,
+    "rhp_page_ebitda_fy0": 143,
+    "pat_fy2": 10.5904,
+    "rhp_page_pat_fy2": 97,
+    "pat_fy1": 32.3135,
+    "rhp_page_pat_fy1": 97,
+    "pat_fy0": 39.0686,
+    "rhp_page_pat_fy0": 97,
+    "cfo_fy2": 4.4835,
+    "rhp_page_cfo_fy2": 98,
+    "cfo_fy1": 5.0725,
+    "rhp_page_cfo_fy1": 98,
+    "cfo_fy0": 2.7588,
+    "rhp_page_cfo_fy0": 98,
+    "net_worth_fy0": 131.6471,
+    "rhp_page_net_worth_fy0": 96,
+    "total_debt_fy0": 59.6919,
+    "rhp_page_total_debt_fy0": 23,
+    "cash_fy0": 10.3081,
+    "rhp_page_cash_fy0": 95,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 2,
+    "price_high": null,
+    "rhp_page_price_high": 2,
+    "lot_size": null,
+    "rhp_page_lot_size": 2,
+    "promoter_pre_pct": 94.39,
+    "rhp_page_promoter_pre_pct": 22,
+    "promoter_post_pct": null,
+    "retail_quota_pct": 35.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": 200.0,
+    "rhp_page_pre_ipo_price": 109,
+    "eps_fy0": 8.69,
+    "rhp_page_eps_fy0": 144,
+    "ronw_fy0_pct": 29.68,
+    "rhp_page_ronw_fy0_pct": 340,
+    "nav_per_share_fy0": 28.53,
+    "rhp_page_nav_per_share_fy0": 22,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": 1.5523,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 4.66136,
+    "rhp_page_pre_issue_shares_cr": 93,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 93,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 242.461,
+    "proceeds_gcp_cr": 0.0,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "KRN Heat Exchanger and Refrigeration Limited",
+    "sector": "Industrials & capital goods",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 2
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 2
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": 2
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "lakh",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": 15523000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "lakh",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 46613600.0,
+      "unit": "shares",
+      "page": 93
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 93
+    },
+    "promoter_pre_pct": {
+      "value": 94.39,
+      "unit": "percent",
+      "page": 22
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Investment in wholly owned subsidiary KRN HVAC Products Private Limited for setting up a new manufacturing facility at Neemrana, Alwar, Rajasthan",
+        "category": "capex",
+        "amount": {
+          "value": 24246.1,
+          "unit": "lakh",
+          "page": 22
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "lakh",
+          "page": 22
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 200.0,
+      "unit": "rupees",
+      "page": 109
+    },
+    "lead_managers": [
+      "Holani Consultants Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024 (March 31, 2024)",
+    "revenue_fy2": {
+      "value": 15611.46,
+      "unit": "lakh",
+      "page": 97
+    },
+    "revenue_fy1": {
+      "value": 24748.08,
+      "unit": "lakh",
+      "page": 97
+    },
+    "revenue_fy0": {
+      "value": 30828.31,
+      "unit": "lakh",
+      "page": 97
+    },
+    "ebitda_fy2": {
+      "value": 1693.56,
+      "unit": "lakh",
+      "page": 143
+    },
+    "ebitda_fy1": {
+      "value": 4931.75,
+      "unit": "lakh",
+      "page": 143
+    },
+    "ebitda_fy0": {
+      "value": 5845.24,
+      "unit": "lakh",
+      "page": 143
+    },
+    "pat_fy2": {
+      "value": 1059.04,
+      "unit": "lakh",
+      "page": 97
+    },
+    "pat_fy1": {
+      "value": 3231.35,
+      "unit": "lakh",
+      "page": 97
+    },
+    "pat_fy0": {
+      "value": 3906.86,
+      "unit": "lakh",
+      "page": 97
+    },
+    "cfo_fy2": {
+      "value": 448.35,
+      "unit": "lakh",
+      "page": 98
+    },
+    "cfo_fy1": {
+      "value": 507.25,
+      "unit": "lakh",
+      "page": 98
+    },
+    "cfo_fy0": {
+      "value": 275.88,
+      "unit": "lakh",
+      "page": 98
+    },
+    "net_worth_fy0": {
+      "value": 13164.71,
+      "unit": "lakh",
+      "page": 96
+    },
+    "total_debt_fy0": {
+      "value": 5969.19,
+      "unit": "lakh",
+      "page": 23
+    },
+    "cash_fy0": {
+      "value": 1030.81,
+      "unit": "lakh",
+      "page": 95
+    },
+    "eps_fy0": {
+      "value": 8.69,
+      "unit": "rupees",
+      "page": 144
+    },
+    "ronw_fy0_pct": {
+      "value": 29.68,
+      "unit": "percent",
+      "page": 340
+    },
+    "nav_per_share_fy0": {
+      "value": 28.53,
+      "unit": "rupees",
+      "page": 22
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "lakh",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "lakh",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [],
+    "notes": [
+      "FY2024 figures are restated consolidated; FY2023 and FY2022 figures are restated standalone, because the subsidiary was formed in FY2024.",
+      "Price band, lot size, issue amount and post-issue shares are shown as [\u25cf] in the RHP and are left null.",
+      "This is a 100% fresh issue with no offer for sale and no selling shareholders.",
+      "The pre-IPO placement on August 14, 2024 was 4,77,000 shares at \u20b9200 each (\u20b9954 lakh). Its proceeds go to general corporate purposes, and the fresh issue was cut from 1,60,00,000 to 1,55,23,000 shares as a result.",
+      "NAV per share is printed inconsistently: 28.53 on page 22 and 29.29 on page 340. I used 28.53.",
+      "RoNW for FY2024 is 29.68% on page 340, but 'Return on Equity' on page 143 is 40.86%. I used 29.68%.",
+      "The capitalisation statement on page 341 shows total borrowings of 4,517.04 lakh and shareholders' funds of 7,957.08 lakh. These don't match the restated FY2024 balance sheet (borrowings 5,969.19 lakh, net worth 13,164.71 lakh), so I used the balance sheet figures.",
+      "Page 340 lists FY2024 weighted average shares as 4,40,00,000, which doesn't match the shares actually outstanding (4,61,36,600).",
+      "The peer comparison table in Basis for Issue Price is not on the pages provided, so peers are left empty.",
+      "Retail quota of not less than 35% is from the cover page text."
+    ]
+  }
+}

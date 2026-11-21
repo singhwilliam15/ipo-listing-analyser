@@ -1,0 +1,383 @@
+{
+  "symbol": "SYRMA",
+  "rhp_file": "SYRMA.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T20:51:46+00:00",
+  "pages_sent": [
+    1,
+    2,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    93,
+    94,
+    95,
+    96,
+    108,
+    109,
+    110,
+    111,
+    137,
+    138,
+    139,
+    140,
+    141,
+    587,
+    588,
+    589,
+    590
+  ],
+  "n_pdf_pages": 779,
+  "usage": {
+    "input_tokens": 57818,
+    "output_tokens": 3358,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.5004529,
+    "session_id": "aaba44b2-09f5-41cc-b1ec-55ca9c9e6c17"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Syrma SGS Technology Limited",
+    "sector": "Electronics & EMS",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2022",
+    "stub_period_months": null,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "DAM Capital Advisors Limited; ICICI Securities Limited; IIFL Securities Limited",
+    "revenue_fy2": null,
+    "revenue_fy1": 438.303,
+    "rhp_page_revenue_fy1": 78,
+    "revenue_fy0": 1019.72,
+    "rhp_page_revenue_fy0": 78,
+    "ebitda_fy2": null,
+    "ebitda_fy1": 52.934000000000005,
+    "rhp_page_ebitda_fy1": 587,
+    "ebitda_fy0": 107.11600000000001,
+    "rhp_page_ebitda_fy0": 587,
+    "pat_fy2": null,
+    "pat_fy1": 32.017,
+    "rhp_page_pat_fy1": 78,
+    "pat_fy0": 56.674,
+    "rhp_page_pat_fy0": 78,
+    "cfo_fy2": null,
+    "cfo_fy1": 23.854,
+    "rhp_page_cfo_fy1": 79,
+    "cfo_fy0": 14.93,
+    "rhp_page_cfo_fy0": 79,
+    "net_worth_fy0": 572.056,
+    "rhp_page_net_worth_fy0": 77,
+    "total_debt_fy0": 194.24,
+    "rhp_page_total_debt_fy0": 590,
+    "cash_fy0": 33.411,
+    "rhp_page_cash_fy0": 77,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 137,
+    "price_high": null,
+    "rhp_page_price_high": 137,
+    "lot_size": null,
+    "rhp_page_lot_size": 2,
+    "promoter_pre_pct": 61.47,
+    "rhp_page_promoter_pre_pct": 23,
+    "promoter_post_pct": null,
+    "retail_quota_pct": 35.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": 290.0,
+    "rhp_page_pre_ipo_price": 2,
+    "eps_fy0": 4.97,
+    "rhp_page_eps_fy0": 78,
+    "ronw_fy0_pct": 13.75,
+    "rhp_page_ronw_fy0_pct": 140,
+    "nav_per_share_fy0": 42.36,
+    "rhp_page_nav_per_share_fy0": 140,
+    "fresh_issue_cr": 766.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.336936,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 14.1410956,
+    "rhp_page_pre_issue_shares_cr": 72,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 72,
+    "ofs_promoter_shares_cr": 0.336936,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 403.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "DIXON; AMBER",
+    "n_peers": 2,
+    "peer_pe_list": [
+      110.76,
+      75.54
+    ],
+    "peer_ronw_list": [
+      21.94,
+      6.52
+    ],
+    "rhp_page_peers": 141
+  },
+  "extract": {
+    "company": "Syrma SGS Technology Limited",
+    "sector": "Electronics & EMS",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 137
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 137
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": 2
+    },
+    "fresh_issue_amount": {
+      "value": 7660.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 3369360.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Veena Kumari Tandon",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 3369360.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 141410956.0,
+      "unit": "shares",
+      "page": 72
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 72
+    },
+    "promoter_pre_pct": {
+      "value": 61.47,
+      "unit": "percent",
+      "page": 23
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding capital expenditure requirements for development of a R&D facility and expansion / setting up of manufacturing facilities",
+        "category": "capex",
+        "amount": {
+          "value": 4030.0,
+          "unit": "million",
+          "page": 22
+        }
+      },
+      {
+        "purpose": "Funding working capital requirements",
+        "category": "other",
+        "amount": {
+          "value": 1315.8,
+          "unit": "million",
+          "page": 22
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 23
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 290.0,
+      "unit": "rupees",
+      "page": 2
+    },
+    "lead_managers": [
+      "DAM Capital Advisors Limited",
+      "ICICI Securities Limited",
+      "IIFL Securities Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2022",
+    "revenue_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "revenue_fy1": {
+      "value": 4383.03,
+      "unit": "million",
+      "page": 78
+    },
+    "revenue_fy0": {
+      "value": 10197.2,
+      "unit": "million",
+      "page": 78
+    },
+    "ebitda_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "ebitda_fy1": {
+      "value": 529.34,
+      "unit": "million",
+      "page": 587
+    },
+    "ebitda_fy0": {
+      "value": 1071.16,
+      "unit": "million",
+      "page": 587
+    },
+    "pat_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_fy1": {
+      "value": 320.17,
+      "unit": "million",
+      "page": 78
+    },
+    "pat_fy0": {
+      "value": 566.74,
+      "unit": "million",
+      "page": 78
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": 238.54,
+      "unit": "million",
+      "page": 79
+    },
+    "cfo_fy0": {
+      "value": 149.3,
+      "unit": "million",
+      "page": 79
+    },
+    "net_worth_fy0": {
+      "value": 5720.56,
+      "unit": "million",
+      "page": 77
+    },
+    "total_debt_fy0": {
+      "value": 1942.4,
+      "unit": "million",
+      "page": 590
+    },
+    "cash_fy0": {
+      "value": 334.11,
+      "unit": "million",
+      "page": 77
+    },
+    "eps_fy0": {
+      "value": 4.97,
+      "unit": "rupees",
+      "page": 78
+    },
+    "ronw_fy0_pct": {
+      "value": 13.75,
+      "unit": "percent",
+      "page": 140
+    },
+    "nav_per_share_fy0": {
+      "value": 42.36,
+      "unit": "rupees",
+      "page": 140
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Dixon Technologies Limited",
+        "nse_symbol": "DIXON",
+        "pe": 110.76,
+        "ronw_pct": 21.94,
+        "page": 141
+      },
+      {
+        "name": "Amber Enterprises India Limited",
+        "nse_symbol": "AMBER",
+        "pe": 75.54,
+        "ronw_pct": 6.52,
+        "page": 141
+      }
+    ],
+    "notes": [
+      "Restated consolidated financials cover only FY2021 and FY2022 (subsidiaries acquired in FY2022); FY2020 (fy2) consolidated figures are therefore null. Standalone FY2020 figures: revenue from operations 3,970.76, PAT 438.80, CFO 708.29, EBITDA 699.00 (\u20b9 million, pages 75-76, 587).",
+      "Price band, lot size, number of fresh issue shares, post-issue shares and GCP amount are [\u25cf] in the RHP.",
+      "Promoter pre-offer holding: 57.12% for promoters only, 61.47% including promoter group (page 23). Post-offer % not given.",
+      "Consolidated RoNW for FY2022 is 13.75% in Basis for Offer Price (page 140) but 13.78% in Other Financial Information (page 587). The two pages differ in how they calculate it.",
+      "Total equity including NCI is 5,828.97 million. The 5,720.56 used for net worth is equity attributable to owners.",
+      "Peer table in Basis for Offer Price shows Syrma on a proforma condensed combined basis (revenue 12,843.68 million, RoNW 13.58%).",
+      "Pre-IPO placement on May 5, 2022: 3,793,103 shares at \u20b9290 to Malabar and IIFL funds. Of the capex total, \u20b9770.06 million will be funded from the pre-IPO placement proceeds.",
+      "Working capital object classified as 'other'.",
+      "NSE symbols for peers are not printed in the RHP and were inferred."
+    ]
+  }
+}

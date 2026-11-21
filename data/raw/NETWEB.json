@@ -1,0 +1,439 @@
+{
+  "symbol": "NETWEB",
+  "rhp_file": "NETWEB.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T20:56:42+00:00",
+  "pages_sent": [
+    1,
+    2,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    91,
+    92,
+    93,
+    94,
+    122,
+    123,
+    124,
+    125,
+    139,
+    140,
+    141,
+    142,
+    143,
+    336,
+    337,
+    338,
+    349
+  ],
+  "n_pdf_pages": 506,
+  "usage": {
+    "input_tokens": 47959,
+    "output_tokens": 3689,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.4272148,
+    "session_id": "14a7c2d0-db99-417d-9fae-e0583f8d9aa4"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Netweb Technologies India Limited",
+    "sector": "Electronics & EMS",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "FY2023",
+    "stub_period_months": null,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "Equirus Capital Private Limited; IIFL Securities Limited",
+    "revenue_fy2": 142.787,
+    "rhp_page_revenue_fy2": 77,
+    "revenue_fy1": 247.033,
+    "rhp_page_revenue_fy1": 77,
+    "revenue_fy0": 444.972,
+    "rhp_page_revenue_fy0": 77,
+    "ebitda_fy2": 15.886,
+    "rhp_page_ebitda_fy2": 142,
+    "ebitda_fy1": 35.507,
+    "rhp_page_ebitda_fy1": 142,
+    "ebitda_fy0": 70.693,
+    "rhp_page_ebitda_fy0": 142,
+    "pat_fy2": 8.23,
+    "rhp_page_pat_fy2": 77,
+    "pat_fy1": 22.453,
+    "rhp_page_pat_fy1": 77,
+    "pat_fy0": 46.936,
+    "rhp_page_pat_fy0": 77,
+    "cfo_fy2": -9.867,
+    "rhp_page_cfo_fy2": 78,
+    "cfo_fy1": 5.187,
+    "rhp_page_cfo_fy1": 78,
+    "cfo_fy0": 27.132,
+    "rhp_page_cfo_fy0": 78,
+    "net_worth_fy0": 93.666,
+    "rhp_page_net_worth_fy0": 75,
+    "total_debt_fy0": 35.603,
+    "rhp_page_total_debt_fy0": 28,
+    "cash_fy0": 7.092,
+    "rhp_page_cash_fy0": 75,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 139,
+    "price_high": null,
+    "rhp_page_price_high": 139,
+    "lot_size": null,
+    "promoter_pre_pct": 97.8,
+    "rhp_page_promoter_pre_pct": 28,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 28,
+    "retail_quota_pct": null,
+    "rhp_page_retail_quota_pct": 73,
+    "pre_ipo_price": 500.0,
+    "rhp_page_pre_ipo_price": 1,
+    "eps_fy0": 9.22,
+    "rhp_page_eps_fy0": 77,
+    "ronw_fy0_pct": 68.01,
+    "rhp_page_ronw_fy0_pct": 140,
+    "nav_per_share_fy0": 18.39,
+    "rhp_page_nav_per_share_fy0": 140,
+    "fresh_issue_cr": 206.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.85,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 5.194398,
+    "rhp_page_pre_issue_shares_cr": 73,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 73,
+    "ofs_promoter_shares_cr": 0.85,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 22.5,
+    "proceeds_capex_cr": 32.286,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "SYRMA; KAYNES; DIXON",
+    "n_peers": 3,
+    "peer_pe_list": [
+      59.72,
+      76.77,
+      102.97
+    ],
+    "peer_ronw_list": [
+      11.58,
+      16.36,
+      22.36
+    ],
+    "rhp_page_peers": 141
+  },
+  "extract": {
+    "company": "Netweb Technologies India Limited",
+    "sector": "Electronics & EMS",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 139
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 139
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 2060.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 8500000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Sanjay Lodha",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 2860000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Navin Lodha",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 1430000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Vivek Lodha",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 1430000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Niraj Lodha",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 1430000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Ashoka Bajaj Automobiles LLP",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 1350000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 51943980.0,
+      "unit": "shares",
+      "page": 73
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 73
+    },
+    "promoter_pre_pct": {
+      "value": 97.8,
+      "unit": "percent",
+      "page": 28
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 28
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Capital expenditure: civil construction of building for SMT line and purchase of equipment/machinery for new SMT production line",
+        "category": "capex",
+        "amount": {
+          "value": 322.86,
+          "unit": "million",
+          "page": 123
+        }
+      },
+      {
+        "purpose": "Funding long term working capital requirements",
+        "category": "other",
+        "amount": {
+          "value": 1280.22,
+          "unit": "million",
+          "page": 123
+        }
+      },
+      {
+        "purpose": "Repayment or pre-payment of certain outstanding borrowings",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 225.0,
+          "unit": "million",
+          "page": 123
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 123
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 73
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 500.0,
+      "unit": "rupees",
+      "page": 1
+    },
+    "lead_managers": [
+      "Equirus Capital Private Limited",
+      "IIFL Securities Limited"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "FY2023",
+    "revenue_fy2": {
+      "value": 1427.87,
+      "unit": "million",
+      "page": 77
+    },
+    "revenue_fy1": {
+      "value": 2470.33,
+      "unit": "million",
+      "page": 77
+    },
+    "revenue_fy0": {
+      "value": 4449.72,
+      "unit": "million",
+      "page": 77
+    },
+    "ebitda_fy2": {
+      "value": 158.86,
+      "unit": "million",
+      "page": 142
+    },
+    "ebitda_fy1": {
+      "value": 355.07,
+      "unit": "million",
+      "page": 142
+    },
+    "ebitda_fy0": {
+      "value": 706.93,
+      "unit": "million",
+      "page": 142
+    },
+    "pat_fy2": {
+      "value": 82.3,
+      "unit": "million",
+      "page": 77
+    },
+    "pat_fy1": {
+      "value": 224.53,
+      "unit": "million",
+      "page": 77
+    },
+    "pat_fy0": {
+      "value": 469.36,
+      "unit": "million",
+      "page": 77
+    },
+    "cfo_fy2": {
+      "value": -98.67,
+      "unit": "million",
+      "page": 78
+    },
+    "cfo_fy1": {
+      "value": 51.87,
+      "unit": "million",
+      "page": 78
+    },
+    "cfo_fy0": {
+      "value": 271.32,
+      "unit": "million",
+      "page": 78
+    },
+    "net_worth_fy0": {
+      "value": 936.66,
+      "unit": "million",
+      "page": 75
+    },
+    "total_debt_fy0": {
+      "value": 356.03,
+      "unit": "million",
+      "page": 28
+    },
+    "cash_fy0": {
+      "value": 70.92,
+      "unit": "million",
+      "page": 75
+    },
+    "eps_fy0": {
+      "value": 9.22,
+      "unit": "rupees",
+      "page": 77
+    },
+    "ronw_fy0_pct": {
+      "value": 68.01,
+      "unit": "percent",
+      "page": 140
+    },
+    "nav_per_share_fy0": {
+      "value": 18.39,
+      "unit": "rupees",
+      "page": 140
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Syrma SGS Technology Limited",
+        "nse_symbol": "SYRMA",
+        "pe": 59.72,
+        "ronw_pct": 11.58,
+        "page": 141
+      },
+      {
+        "name": "Kaynes Technology India Limited",
+        "nse_symbol": "KAYNES",
+        "pe": 76.77,
+        "ronw_pct": 16.36,
+        "page": 141
+      },
+      {
+        "name": "Dixon Technologies (India) Limited",
+        "nse_symbol": "DIXON",
+        "pe": 102.97,
+        "ronw_pct": 22.36,
+        "page": 141
+      }
+    ],
+    "notes": [
+      "The financials are called 'Restated Financial Statements' and are never labelled consolidated. The audited statements are referred to as standalone, so I classified the basis as standalone. The company does have a subsidiary (Netweb Foundation; Rs 0.10 million invested).",
+      "Total borrowings of 356.03 million include lease liabilities (52.05 million). Borrowings alone are 303.98 million (non-current 93.12 + current 210.86), but that total is not printed as a single figure.",
+      "The price band, lot size, number of fresh issue shares, post-offer shares and retail quota are all printed as [\u25cf] in the RHP.",
+      "Pre-IPO placement: 1,020,000 shares at Rs 500 each (Rs 510.00 million) were allotted on June 30, 2023. This cut the fresh issue from Rs 2,570 million to Rs 2,060 million, and the placement proceeds go to general corporate purposes.",
+      "The long term working capital object (1,280.22 million) is categorised as 'other'.",
+      "The RHP says no Indian listed companies provide HCS offerings. The peers listed (Syrma, Kaynes, Dixon) are a proxy set of EMS companies.",
+      "Promoter pre-offer holding of 97.80% covers promoters (94.89%) plus the promoter group.",
+      "NSE symbols for the peers are not printed on these pages; I supplied them myself."
+    ]
+  }
+}

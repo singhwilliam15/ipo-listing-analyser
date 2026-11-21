@@ -1,0 +1,371 @@
+{
+  "symbol": "TRAVELFOOD",
+  "rhp_file": "TRAVELFOOD.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:14:08+00:00",
+  "pages_sent": [
+    1,
+    2,
+    30,
+    31,
+    32,
+    33,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    110,
+    111,
+    112,
+    124,
+    125,
+    127,
+    128,
+    129,
+    397,
+    398,
+    425
+  ],
+  "n_pdf_pages": 541,
+  "usage": {
+    "input_tokens": 37178,
+    "output_tokens": 3547,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3370463,
+    "session_id": "54f788d7-7ea6-432d-a457-e73def352420"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Travel Food Services Limited",
+    "sector": "Consumer & retail",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "stub_period_months": null,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Kotak Mahindra Capital Company Limited; HSBC Securities and Capital Markets (India) Private Limited; ICICI Securities Limited; Batlivala & Karani Securities India Private Limited",
+    "revenue_fy2": 1067.15,
+    "rhp_page_revenue_fy2": 98,
+    "revenue_fy1": 1396.322,
+    "rhp_page_revenue_fy1": 98,
+    "revenue_fy0": 1687.739,
+    "rhp_page_revenue_fy0": 98,
+    "ebitda_fy2": 458.054,
+    "rhp_page_ebitda_fy2": 397,
+    "ebitda_fy1": 549.993,
+    "rhp_page_ebitda_fy1": 397,
+    "ebitda_fy0": 676.346,
+    "rhp_page_ebitda_fy0": 397,
+    "pat_fy2": 251.299,
+    "rhp_page_pat_fy2": 98,
+    "pat_fy1": 298.12,
+    "rhp_page_pat_fy1": 98,
+    "pat_fy0": 379.659,
+    "rhp_page_pat_fy0": 98,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 1053.403,
+    "rhp_page_net_worth_fy0": 96,
+    "total_debt_fy0": 0.0,
+    "rhp_page_total_debt_fy0": 96,
+    "cash_fy0": 25.296,
+    "rhp_page_cash_fy0": 96,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 128,
+    "price_high": null,
+    "rhp_page_price_high": 128,
+    "lot_size": null,
+    "promoter_pre_pct": 100.0,
+    "rhp_page_promoter_pre_pct": 31,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 31,
+    "retail_quota_pct": null,
+    "rhp_page_retail_quota_pct": 93,
+    "pre_ipo_price": null,
+    "eps_fy0": 27.58,
+    "rhp_page_eps_fy0": 98,
+    "ronw_fy0_pct": 34.64,
+    "rhp_page_ronw_fy0_pct": 128,
+    "nav_per_share_fy0": 79.62,
+    "rhp_page_nav_per_share_fy0": 128,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": 2000.0,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 13.1679484,
+    "rhp_page_pre_issue_shares_cr": 110,
+    "post_issue_shares_cr": 13.1679484,
+    "rhp_page_post_issue_shares_cr": 110,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": null,
+    "proceeds_capex_cr": null,
+    "proceeds_gcp_cr": null,
+    "peers": "JUBLFOOD; DEVYANI; SAPPHIRE; WESTLIFE; RBA",
+    "n_peers": 5,
+    "peer_pe_list": [
+      205.81,
+      2097.13,
+      548.0,
+      955.26
+    ],
+    "peer_ronw_list": [
+      10.02,
+      0.84,
+      1.38,
+      2.01,
+      -23.8
+    ],
+    "rhp_page_peers": 129
+  },
+  "extract": {
+    "company": "Travel Food Services Limited",
+    "sector": "Consumer & retail",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 128
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 128
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": 20000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Kapur Family Trust",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 131679484.0,
+      "unit": "shares",
+      "page": 110
+    },
+    "post_issue_shares": {
+      "value": 131679484.0,
+      "unit": "shares",
+      "page": 110
+    },
+    "promoter_pre_pct": {
+      "value": 100.0,
+      "unit": "percent",
+      "page": 31
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 31
+    },
+    "objects_of_offer": [],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 93
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Kotak Mahindra Capital Company Limited",
+      "HSBC Securities and Capital Markets (India) Private Limited",
+      "ICICI Securities Limited",
+      "Batlivala & Karani Securities India Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "revenue_fy2": {
+      "value": 10671.5,
+      "unit": "million",
+      "page": 98
+    },
+    "revenue_fy1": {
+      "value": 13963.22,
+      "unit": "million",
+      "page": 98
+    },
+    "revenue_fy0": {
+      "value": 16877.39,
+      "unit": "million",
+      "page": 98
+    },
+    "ebitda_fy2": {
+      "value": 4580.54,
+      "unit": "million",
+      "page": 397
+    },
+    "ebitda_fy1": {
+      "value": 5499.93,
+      "unit": "million",
+      "page": 397
+    },
+    "ebitda_fy0": {
+      "value": 6763.46,
+      "unit": "million",
+      "page": 397
+    },
+    "pat_fy2": {
+      "value": 2512.99,
+      "unit": "million",
+      "page": 98
+    },
+    "pat_fy1": {
+      "value": 2981.2,
+      "unit": "million",
+      "page": 98
+    },
+    "pat_fy0": {
+      "value": 3796.59,
+      "unit": "million",
+      "page": 98
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 10534.03,
+      "unit": "million",
+      "page": 96
+    },
+    "total_debt_fy0": {
+      "value": 0.0,
+      "unit": "million",
+      "page": 96
+    },
+    "cash_fy0": {
+      "value": 252.96,
+      "unit": "million",
+      "page": 96
+    },
+    "eps_fy0": {
+      "value": 27.58,
+      "unit": "rupees",
+      "page": 98
+    },
+    "ronw_fy0_pct": {
+      "value": 34.64,
+      "unit": "percent",
+      "page": 128
+    },
+    "nav_per_share_fy0": {
+      "value": 79.62,
+      "unit": "rupees",
+      "page": 128
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Jubilant FoodWorks Limited",
+        "nse_symbol": "JUBLFOOD",
+        "pe": 205.81,
+        "ronw_pct": 10.02,
+        "page": 129
+      },
+      {
+        "name": "Devyani International Limited",
+        "nse_symbol": "DEVYANI",
+        "pe": 2097.13,
+        "ronw_pct": 0.84,
+        "page": 129
+      },
+      {
+        "name": "Sapphire Foods India Limited",
+        "nse_symbol": "SAPPHIRE",
+        "pe": 548.0,
+        "ronw_pct": 1.38,
+        "page": 129
+      },
+      {
+        "name": "Westlife Foodworld Limited",
+        "nse_symbol": "WESTLIFE",
+        "pe": 955.26,
+        "ronw_pct": 2.01,
+        "page": 129
+      },
+      {
+        "name": "Restaurant Brands Asia Limited",
+        "nse_symbol": "RBA",
+        "pe": null,
+        "ronw_pct": -23.8,
+        "page": 129
+      }
+    ],
+    "notes": [
+      "Pure offer for sale (up to \u20b920,000.00 million by Kapur Family Trust); no fresh issue, company receives no proceeds, so objects_of_offer is empty. Includes Employee Reservation up to \u20b940.00 million.",
+      "Price band, lot size and offered share count are [\u25cf] in this RHP.",
+      "Total borrowings at March 31, 2025 printed as '-' (nil) on pages 31, 96 and 425; recorded as 0.",
+      "net_worth_fy0 uses equity attributable to owners (10,534.03); the RHP's non-GAAP Net Worth (share capital + securities premium + retained earnings) is 10,484.52 (page 31).",
+      "Cash flow statement not among the pages provided; CFO null.",
+      "Retail portion stated as 'not less than [\u25cf]' with no percentage on given pages.",
+      "Promoters hold 100% pre-Offer (SSP Asia Pacific Holdings 49.00%, Kapur Family Trust 51.00%); post-Offer % [\u25cf]. KFT to transfer 1,329,988 shares to SSP Asia Pacific under Inter-se Agreement prior to listing (price not disclosed).",
+      "Within the 12 months before the RHP: Oct 17, 2024 allotment of 1,975,193 shares to KFT under SNVK amalgamation scheme (other than cash), split, and Nov 8, 2024 bonus issue \u2014 none treated as pre-IPO placement/preferential allotment.",
+      "Restaurant Brands Asia P/E shown as NM (negative EPS)."
+    ]
+  }
+}

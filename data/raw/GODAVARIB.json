@@ -1,0 +1,474 @@
+{
+  "symbol": "GODAVARIB",
+  "rhp_file": "GODAVARIB.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-21T06:01:53+00:00",
+  "pages_sent": [
+    1,
+    2,
+    18,
+    19,
+    20,
+    21,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    96,
+    97,
+    98,
+    110,
+    111,
+    120,
+    121,
+    122,
+    336,
+    337,
+    373
+  ],
+  "n_pdf_pages": 484,
+  "usage": {
+    "input_tokens": 39657,
+    "output_tokens": 4127,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3687292,
+    "session_id": "09a21b7f-1a8d-4151-a37b-197425e2104c"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Godavari Biorefineries Limited",
+    "sector": "Chemicals & materials",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024",
+    "stub_period_months": 3,
+    "pre_ipo_placement": null,
+    "lead_managers": "Equirus Capital Private Limited; SBI Capital Markets Limited",
+    "revenue_fy2": 1702.329,
+    "rhp_page_revenue_fy2": 84,
+    "revenue_fy1": 2014.694,
+    "rhp_page_revenue_fy1": 84,
+    "revenue_fy0": 1686.6650000000002,
+    "rhp_page_revenue_fy0": 84,
+    "ebitda_fy2": 140.534,
+    "rhp_page_ebitda_fy2": 336,
+    "ebitda_fy1": 154.616,
+    "rhp_page_ebitda_fy1": 336,
+    "ebitda_fy0": 147.935,
+    "rhp_page_ebitda_fy0": 336,
+    "pat_fy2": 19.097,
+    "rhp_page_pat_fy2": 84,
+    "pat_fy1": 19.637,
+    "rhp_page_pat_fy1": 84,
+    "pat_fy0": 12.299,
+    "rhp_page_pat_fy0": 84,
+    "cfo_fy2": 44.86,
+    "rhp_page_cfo_fy2": 85,
+    "cfo_fy1": 196.96,
+    "rhp_page_cfo_fy1": 85,
+    "cfo_fy0": 185.668,
+    "rhp_page_cfo_fy0": 85,
+    "net_worth_fy0": 500.68,
+    "rhp_page_net_worth_fy0": 83,
+    "total_debt_fy0": 654.062,
+    "rhp_page_total_debt_fy0": 20,
+    "cash_fy0": 11.112,
+    "rhp_page_cash_fy0": 83,
+    "revenue_stub": 522.525,
+    "rhp_page_revenue_stub": 84,
+    "pat_stub": -26.106,
+    "rhp_page_pat_stub": 84,
+    "price_low": null,
+    "rhp_page_price_low": 120,
+    "price_high": null,
+    "rhp_page_price_high": 120,
+    "lot_size": null,
+    "promoter_pre_pct": 81.06,
+    "rhp_page_promoter_pre_pct": 19,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 19,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 2.93,
+    "rhp_page_eps_fy0": 84,
+    "ronw_fy0_pct": 4.73,
+    "rhp_page_ronw_fy0_pct": 121,
+    "nav_per_share_fy0": 62.05,
+    "rhp_page_nav_per_share_fy0": 121,
+    "fresh_issue_cr": 325.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.6526983,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 4.1943023,
+    "rhp_page_pre_issue_shares_cr": 80,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 80,
+    "ofs_promoter_shares_cr": 0.16,
+    "ofs_investor_shares_cr": 0.4926983,
+    "proceeds_debt_repayment_cr": 240.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "ALKYLAMINE; JUBLINGREA; LXCHEM; EIDPARRY; TRIVENI; BALRAMCHIN; DALMIASUG; DHAMPURSUG; DWARKESH",
+    "n_peers": 9,
+    "peer_pe_list": [
+      78.84,
+      64.1,
+      65.11,
+      16.69,
+      26.06,
+      24.72,
+      15.83,
+      11.2,
+      17.3
+    ],
+    "peer_ronw_list": [
+      11.75,
+      6.68,
+      6.71,
+      12.75,
+      13.62,
+      15.72,
+      9.29,
+      12.21,
+      10.16
+    ],
+    "rhp_page_peers": 121
+  },
+  "extract": {
+    "company": "Godavari Biorefineries Limited",
+    "sector": "Chemicals & materials",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 120
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 120
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 3250.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 6526983.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Mandala Capital AG Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 4926983.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Somaiya Agencies Private Limited",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 500000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Samir Shantilal Somaiya",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 500000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Lakshmiwadi Mines and Minerals Private Limited",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 200000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Filmedia Communication Systems Private Limited",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 300000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Somaiya Properties and Investments Private Limited",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 100000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 41943023.0,
+      "unit": "shares",
+      "page": 80
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 80
+    },
+    "promoter_pre_pct": {
+      "value": 81.06,
+      "unit": "percent",
+      "page": 19
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 19
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment/pre-payment, in full or in part, of certain outstanding borrowings availed by the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 2400.0,
+          "unit": "million",
+          "page": 110
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 110
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Equirus Capital Private Limited",
+      "SBI Capital Markets Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024",
+    "revenue_fy2": {
+      "value": 17023.29,
+      "unit": "million",
+      "page": 84
+    },
+    "revenue_fy1": {
+      "value": 20146.94,
+      "unit": "million",
+      "page": 84
+    },
+    "revenue_fy0": {
+      "value": 16866.65,
+      "unit": "million",
+      "page": 84
+    },
+    "ebitda_fy2": {
+      "value": 1405.34,
+      "unit": "million",
+      "page": 336
+    },
+    "ebitda_fy1": {
+      "value": 1546.16,
+      "unit": "million",
+      "page": 336
+    },
+    "ebitda_fy0": {
+      "value": 1479.35,
+      "unit": "million",
+      "page": 336
+    },
+    "pat_fy2": {
+      "value": 190.97,
+      "unit": "million",
+      "page": 84
+    },
+    "pat_fy1": {
+      "value": 196.37,
+      "unit": "million",
+      "page": 84
+    },
+    "pat_fy0": {
+      "value": 122.99,
+      "unit": "million",
+      "page": 84
+    },
+    "cfo_fy2": {
+      "value": 448.6,
+      "unit": "million",
+      "page": 85
+    },
+    "cfo_fy1": {
+      "value": 1969.6,
+      "unit": "million",
+      "page": 85
+    },
+    "cfo_fy0": {
+      "value": 1856.68,
+      "unit": "million",
+      "page": 85
+    },
+    "net_worth_fy0": {
+      "value": 5006.8,
+      "unit": "million",
+      "page": 83
+    },
+    "total_debt_fy0": {
+      "value": 6540.62,
+      "unit": "million",
+      "page": 20
+    },
+    "cash_fy0": {
+      "value": 111.12,
+      "unit": "million",
+      "page": 83
+    },
+    "eps_fy0": {
+      "value": 2.93,
+      "unit": "rupees",
+      "page": 84
+    },
+    "ronw_fy0_pct": {
+      "value": 4.73,
+      "unit": "percent",
+      "page": 121
+    },
+    "nav_per_share_fy0": {
+      "value": 62.05,
+      "unit": "rupees",
+      "page": 121
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 5225.25,
+      "unit": "million",
+      "page": 84
+    },
+    "pat_stub": {
+      "value": -261.06,
+      "unit": "million",
+      "page": 84
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Alkyl Amines Chemicals Limited",
+        "nse_symbol": "ALKYLAMINE",
+        "pe": 78.84,
+        "ronw_pct": 11.75,
+        "page": 121
+      },
+      {
+        "name": "Jubilant Ingrevia Limited",
+        "nse_symbol": "JUBLINGREA",
+        "pe": 64.1,
+        "ronw_pct": 6.68,
+        "page": 121
+      },
+      {
+        "name": "Laxmi Organic Industries Limited",
+        "nse_symbol": "LXCHEM",
+        "pe": 65.11,
+        "ronw_pct": 6.71,
+        "page": 121
+      },
+      {
+        "name": "EID Parry (India) Limited",
+        "nse_symbol": "EIDPARRY",
+        "pe": 16.69,
+        "ronw_pct": 12.75,
+        "page": 121
+      },
+      {
+        "name": "Triveni Engineering and Industries Limited",
+        "nse_symbol": "TRIVENI",
+        "pe": 26.06,
+        "ronw_pct": 13.62,
+        "page": 121
+      },
+      {
+        "name": "Balrampur Chini Mills Limited",
+        "nse_symbol": "BALRAMCHIN",
+        "pe": 24.72,
+        "ronw_pct": 15.72,
+        "page": 121
+      },
+      {
+        "name": "Dalmia Bharat Sugar & Industries Limited",
+        "nse_symbol": "DALMIASUG",
+        "pe": 15.83,
+        "ronw_pct": 9.29,
+        "page": 121
+      },
+      {
+        "name": "Dhampur Sugar Mills Limited",
+        "nse_symbol": "DHAMPURSUG",
+        "pe": 11.2,
+        "ronw_pct": 12.21,
+        "page": 121
+      },
+      {
+        "name": "Dwarikesh Sugar Industries Limited",
+        "nse_symbol": "DWARKESH",
+        "pe": 17.3,
+        "ronw_pct": 10.16,
+        "page": 121
+      }
+    ],
+    "notes": [
+      "The price band and lot size show as [\u25cf] in this RHP (the P/E table on page 120 says 'Price Band of \u20b9[\u25cf] to \u20b9[\u25cf]').",
+      "Net worth: the balance sheet total equity at 31 Mar 2024 is \u20b95,006.80 million (page 83), and that is the figure used. The 'Net worth' printed in the summary and KPIs is \u20b92,602.45 million (page 20), which leaves out the revaluation reserve and the capital redemption reserve. RoNW of 4.73% and NAV of \u20b962.05 are based on the \u20b92,602.45 million figure.",
+      "Total debt for FY2024 is the printed total borrowings excluding interest accrued, \u20b96,540.62 million (page 20). Including interest accrued it is \u20b96,632.70 million. Balance sheet: non-current borrowings 3,554.79 and current borrowings 2,985.83.",
+      "The pages give no retail quota percentage. The offer is under Regulation 6(1), and the Offer Structure page (409) was not provided.",
+      "The capital history pages provided end with the February 15, 2019 rights issue. It cannot be confirmed whether any allotment was made in the 12 months before the RHP, so pre_ipo_placement is left null.",
+      "The listing is on 'the Stock Exchanges' with BSE as the Designated Stock Exchange. NSE and BSE are assumed.",
+      "EBITDA is taken from the accounting ratios on page 336. The KPI table on page 122 lists EBITDA as a metric but its values are not on the pages provided.",
+      "The peer NSE symbols are not printed in the RHP. They were inferred.",
+      "The stub period is the three months ended June 30, 2024. EBITDA for the stub is (94.90) million."
+    ]
+  }
+}

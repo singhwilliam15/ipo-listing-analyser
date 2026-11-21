@@ -1,0 +1,377 @@
+{
+  "symbol": "SHANTIGOLD",
+  "rhp_file": "SHANTIGOLD.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:13:10+00:00",
+  "pages_sent": [
+    1,
+    2,
+    25,
+    26,
+    27,
+    28,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    89,
+    90,
+    91,
+    101,
+    102,
+    121,
+    122,
+    123,
+    279,
+    280
+  ],
+  "n_pdf_pages": 393,
+  "usage": {
+    "input_tokens": 32497,
+    "output_tokens": 3456,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.2973116,
+    "session_id": "6b3f3afb-81cd-4d62-b559-47ef5a68e369"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Shanti Gold International Limited",
+    "sector": "Consumer & retail",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "FY2025",
+    "stub_period_months": null,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Choice Capital Advisors Private Limited",
+    "revenue_fy2": 679.404,
+    "rhp_page_revenue_fy2": 77,
+    "revenue_fy1": 711.434,
+    "rhp_page_revenue_fy1": 77,
+    "revenue_fy0": 1106.407,
+    "rhp_page_revenue_fy0": 77,
+    "ebitda_fy2": 45.57,
+    "rhp_page_ebitda_fy2": 279,
+    "ebitda_fy1": 53.45399999999999,
+    "rhp_page_ebitda_fy1": 279,
+    "ebitda_fy0": 97.714,
+    "rhp_page_ebitda_fy0": 279,
+    "pat_fy2": 19.819,
+    "rhp_page_pat_fy2": 77,
+    "pat_fy1": 26.868,
+    "rhp_page_pat_fy1": 77,
+    "pat_fy0": 55.842,
+    "rhp_page_pat_fy0": 77,
+    "cfo_fy2": -3.566,
+    "rhp_page_cfo_fy2": 78,
+    "cfo_fy1": -12.51,
+    "rhp_page_cfo_fy1": 78,
+    "cfo_fy0": -15.303,
+    "rhp_page_cfo_fy0": 78,
+    "net_worth_fy0": 152.373,
+    "rhp_page_net_worth_fy0": 26,
+    "total_debt_fy0": 232.997,
+    "rhp_page_total_debt_fy0": 26,
+    "cash_fy0": 3.365,
+    "rhp_page_cash_fy0": 76,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": 99.98,
+    "rhp_page_promoter_pre_pct": 26,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 26,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 10.34,
+    "rhp_page_eps_fy0": 78,
+    "ronw_fy0_pct": 44.85,
+    "rhp_page_ronw_fy0_pct": 122,
+    "nav_per_share_fy0": 28.22,
+    "rhp_page_nav_per_share_fy0": 123,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": 1.8096,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 5.4,
+    "rhp_page_pre_issue_shares_cr": 74,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 74,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 17.0,
+    "proceeds_capex_cr": 46.297,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "Utssav CZ Gold Limited; RBZJEWEL; SKYGOLD",
+    "n_peers": 3,
+    "peer_pe_list": [
+      19.35,
+      14.42,
+      34.53
+    ],
+    "peer_ronw_list": [
+      30.94,
+      17.15,
+      28.59
+    ],
+    "rhp_page_peers": 123
+  },
+  "extract": {
+    "company": "Shanti Gold International Limited",
+    "sector": "Consumer & retail",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": 18096000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 54000000.0,
+      "unit": "shares",
+      "page": 74
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 74
+    },
+    "promoter_pre_pct": {
+      "value": 99.98,
+      "unit": "percent",
+      "page": 26
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 26
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding of capital expenditure requirements towards setting up of the Proposed Jaipur Facility",
+        "category": "capex",
+        "amount": {
+          "value": 462.97,
+          "unit": "million",
+          "page": 101
+        }
+      },
+      {
+        "purpose": "Funding working capital requirements of our Company",
+        "category": "other",
+        "amount": {
+          "value": 2000.0,
+          "unit": "million",
+          "page": 101
+        }
+      },
+      {
+        "purpose": "Repayment and/or pre-payment, in full or part, of certain borrowings availed by our Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 170.0,
+          "unit": "million",
+          "page": 101
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 101
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lead_managers": [
+      "Choice Capital Advisors Private Limited"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "FY2025",
+    "revenue_fy2": {
+      "value": 6794.04,
+      "unit": "million",
+      "page": 77
+    },
+    "revenue_fy1": {
+      "value": 7114.34,
+      "unit": "million",
+      "page": 77
+    },
+    "revenue_fy0": {
+      "value": 11064.07,
+      "unit": "million",
+      "page": 77
+    },
+    "ebitda_fy2": {
+      "value": 455.7,
+      "unit": "million",
+      "page": 279
+    },
+    "ebitda_fy1": {
+      "value": 534.54,
+      "unit": "million",
+      "page": 279
+    },
+    "ebitda_fy0": {
+      "value": 977.14,
+      "unit": "million",
+      "page": 279
+    },
+    "pat_fy2": {
+      "value": 198.19,
+      "unit": "million",
+      "page": 77
+    },
+    "pat_fy1": {
+      "value": 268.68,
+      "unit": "million",
+      "page": 77
+    },
+    "pat_fy0": {
+      "value": 558.42,
+      "unit": "million",
+      "page": 77
+    },
+    "cfo_fy2": {
+      "value": -35.66,
+      "unit": "million",
+      "page": 78
+    },
+    "cfo_fy1": {
+      "value": -125.1,
+      "unit": "million",
+      "page": 78
+    },
+    "cfo_fy0": {
+      "value": -153.03,
+      "unit": "million",
+      "page": 78
+    },
+    "net_worth_fy0": {
+      "value": 1523.73,
+      "unit": "million",
+      "page": 26
+    },
+    "total_debt_fy0": {
+      "value": 2329.97,
+      "unit": "million",
+      "page": 26
+    },
+    "cash_fy0": {
+      "value": 33.65,
+      "unit": "million",
+      "page": 76
+    },
+    "eps_fy0": {
+      "value": 10.34,
+      "unit": "rupees",
+      "page": 78
+    },
+    "ronw_fy0_pct": {
+      "value": 44.85,
+      "unit": "percent",
+      "page": 122
+    },
+    "nav_per_share_fy0": {
+      "value": 28.22,
+      "unit": "rupees",
+      "page": 123
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Utssav CZ Gold Limited",
+        "nse_symbol": null,
+        "pe": 19.35,
+        "ronw_pct": 30.94,
+        "page": 123
+      },
+      {
+        "name": "RBZ Jewellers Limited",
+        "nse_symbol": "RBZJEWEL",
+        "pe": 14.42,
+        "ronw_pct": 17.15,
+        "page": 123
+      },
+      {
+        "name": "Sky Gold Limited",
+        "nse_symbol": "SKYGOLD",
+        "pe": 34.53,
+        "ronw_pct": 28.59,
+        "page": 123
+      }
+    ],
+    "notes": [
+      "Fresh issue only (no OFS); issue amount, price band, lot size, post-issue shares, and retail quota are [\u25cf] or not printed on the pages given.",
+      "Financials basis: the company appears to have no subsidiaries, and the restated financial information looks like standalone figures (the audited standalone statements are referenced on p.279), although the definition of net worth on p.26 says 'as restated and consolidated'. Marked as standalone.",
+      "Total debt: 2,329.97 (p.26) equals non-current borrowings 194.25 plus current borrowings 2,135.71 and excludes lease liabilities, even though note 9 says lease liabilities are included. The capitalisation statement (p.280) shows 2,434.00 including lease liabilities of 67.88 + 36.15.",
+      "The P&L header on p.77 has a typo ('March 31,2054'), read as FY2025.",
+      "Funding working capital (2,000.00 million) is categorised as 'other'. The general corporate purposes amount is [\u25cf].",
+      "The only allotment in the last 12 months is a 5:1 bonus issue (Nov 18, 2024). It is not a priced placement, so pre_ipo_placement is set to false.",
+      "NAV per share is computed on weighted average shares (per the RHP). RoNW of 44.85% appears in the Basis for Issue Price, but p.279 says it is computed on average net worth.",
+      "Promoter pre-issue holding of 99.98% includes the promoter group.",
+      "NSE symbol for Utssav CZ Gold is unconfirmed."
+    ]
+  }
+}

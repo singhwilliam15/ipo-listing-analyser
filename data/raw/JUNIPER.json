@@ -1,0 +1,382 @@
+{
+  "symbol": "JUNIPER",
+  "rhp_file": "JUNIPER.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:12:47+00:00",
+  "pages_sent": [
+    1,
+    2,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    93,
+    94,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    117,
+    118,
+    119,
+    120,
+    128,
+    129,
+    130,
+    131,
+    143,
+    144,
+    145,
+    146,
+    147,
+    622,
+    623,
+    624
+  ],
+  "n_pdf_pages": 757,
+  "usage": {
+    "input_tokens": 49938,
+    "output_tokens": 3203,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.4681409,
+    "session_id": "f61ba3a0-85f2-4df5-9961-58621c816822"
+  },
+  "checks": [
+    "|PAT| > revenue in fy2: unit mix-up?"
+  ],
+  "fields": {
+    "company_rhp": "Juniper Hotels Limited",
+    "sector": "Logistics & travel",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023",
+    "stub_period_months": 6,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "JM Financial Limited; CLSA India Private Limited; ICICI Securities Limited",
+    "revenue_fy2": 166.351,
+    "rhp_page_revenue_fy2": 102,
+    "revenue_fy1": 308.689,
+    "rhp_page_revenue_fy1": 102,
+    "revenue_fy0": 666.854,
+    "rhp_page_revenue_fy0": 102,
+    "ebitda_fy2": 22.205,
+    "rhp_page_ebitda_fy2": 622,
+    "ebitda_fy1": 101.468,
+    "rhp_page_ebitda_fy1": 622,
+    "ebitda_fy0": 322.362,
+    "rhp_page_ebitda_fy0": 622,
+    "pat_fy2": -199.486,
+    "rhp_page_pat_fy2": 102,
+    "pat_fy1": -188.031,
+    "rhp_page_pat_fy1": 102,
+    "pat_fy0": -1.497,
+    "rhp_page_pat_fy0": 102,
+    "cfo_fy2": 53.576,
+    "rhp_page_cfo_fy2": 103,
+    "cfo_fy1": -36.449,
+    "rhp_page_cfo_fy1": 103,
+    "cfo_fy0": 286.444,
+    "rhp_page_cfo_fy0": 103,
+    "net_worth_fy0": 354.507,
+    "rhp_page_net_worth_fy0": 100,
+    "total_debt_fy0": 2045.608,
+    "rhp_page_total_debt_fy0": 26,
+    "cash_fy0": 9.801,
+    "rhp_page_cash_fy0": 100,
+    "revenue_stub": 336.112,
+    "rhp_page_revenue_stub": 102,
+    "pat_stub": -26.501999999999995,
+    "rhp_page_pat_stub": 102,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": 100.0,
+    "rhp_page_promoter_pre_pct": 25,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": 184.51,
+    "rhp_page_pre_ipo_price": 120,
+    "eps_fy0": -0.1,
+    "rhp_page_eps_fy0": 102,
+    "ronw_fy0_pct": -0.42,
+    "rhp_page_ronw_fy0_pct": 140,
+    "nav_per_share_fy0": 24.67,
+    "rhp_page_nav_per_share_fy0": 140,
+    "fresh_issue_cr": 1800.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "fresh_issue_shares_cr": null,
+    "ofs_shares_cr": null,
+    "pre_issue_shares_cr": 17.2502384,
+    "rhp_page_pre_issue_shares_cr": 117,
+    "post_issue_shares_cr": null,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 1500.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "CHALET; LEMONTREE; INDHOTEL; EIHOTEL",
+    "n_peers": 4,
+    "peer_pe_list": [
+      84.37,
+      95.52,
+      66.78,
+      58.71
+    ],
+    "peer_ronw_list": [
+      11.89,
+      9.94,
+      12.18,
+      9.48
+    ],
+    "rhp_page_peers": 146
+  },
+  "extract": {
+    "company": "Juniper Hotels Limited",
+    "sector": "Logistics & travel",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 18000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 172502384.0,
+      "unit": "shares",
+      "page": 117
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "promoter_pre_pct": {
+      "value": 100.0,
+      "unit": "percent",
+      "page": 25
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment/prepayment/redemption, in full or in part, of certain outstanding borrowings availed by the Company and recent acquisitions CHPL and CHHPL",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 15000.0,
+          "unit": "million",
+          "page": 128
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": null,
+          "page": null
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 184.51,
+      "unit": "rupees",
+      "page": 120
+    },
+    "lead_managers": [
+      "JM Financial Limited",
+      "CLSA India Private Limited",
+      "ICICI Securities Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023",
+    "revenue_fy2": {
+      "value": 1663.51,
+      "unit": "million",
+      "page": 102
+    },
+    "revenue_fy1": {
+      "value": 3086.89,
+      "unit": "million",
+      "page": 102
+    },
+    "revenue_fy0": {
+      "value": 6668.54,
+      "unit": "million",
+      "page": 102
+    },
+    "ebitda_fy2": {
+      "value": 222.05,
+      "unit": "million",
+      "page": 622
+    },
+    "ebitda_fy1": {
+      "value": 1014.68,
+      "unit": "million",
+      "page": 622
+    },
+    "ebitda_fy0": {
+      "value": 3223.62,
+      "unit": "million",
+      "page": 622
+    },
+    "pat_fy2": {
+      "value": -1994.86,
+      "unit": "million",
+      "page": 102
+    },
+    "pat_fy1": {
+      "value": -1880.31,
+      "unit": "million",
+      "page": 102
+    },
+    "pat_fy0": {
+      "value": -14.97,
+      "unit": "million",
+      "page": 102
+    },
+    "cfo_fy2": {
+      "value": 535.76,
+      "unit": "million",
+      "page": 103
+    },
+    "cfo_fy1": {
+      "value": -364.49,
+      "unit": "million",
+      "page": 103
+    },
+    "cfo_fy0": {
+      "value": 2864.44,
+      "unit": "million",
+      "page": 103
+    },
+    "net_worth_fy0": {
+      "value": 3545.07,
+      "unit": "million",
+      "page": 100
+    },
+    "total_debt_fy0": {
+      "value": 20456.08,
+      "unit": "million",
+      "page": 26
+    },
+    "cash_fy0": {
+      "value": 98.01,
+      "unit": "million",
+      "page": 100
+    },
+    "eps_fy0": {
+      "value": -0.1,
+      "unit": "rupees",
+      "page": 102
+    },
+    "ronw_fy0_pct": {
+      "value": -0.42,
+      "unit": "percent",
+      "page": 140
+    },
+    "nav_per_share_fy0": {
+      "value": 24.67,
+      "unit": "rupees",
+      "page": 140
+    },
+    "stub_period_months": 6,
+    "revenue_stub": {
+      "value": 3361.12,
+      "unit": "million",
+      "page": 102
+    },
+    "pat_stub": {
+      "value": -265.02,
+      "unit": "million",
+      "page": 102
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Chalet Hotels Limited",
+        "nse_symbol": "CHALET",
+        "pe": 84.37,
+        "ronw_pct": 11.89,
+        "page": 146
+      },
+      {
+        "name": "Lemon Tree Hotels Limited",
+        "nse_symbol": "LEMONTREE",
+        "pe": 95.52,
+        "ronw_pct": 9.94,
+        "page": 146
+      },
+      {
+        "name": "The Indian Hotels Company Limited",
+        "nse_symbol": "INDHOTEL",
+        "pe": 66.78,
+        "ronw_pct": 12.18,
+        "page": 146
+      },
+      {
+        "name": "EIH Limited",
+        "nse_symbol": "EIHOTEL",
+        "pe": 58.71,
+        "ronw_pct": 9.48,
+        "page": 146
+      }
+    ],
+    "notes": [
+      "The offer is a fresh issue only. There is no offer for sale and no selling shareholders.",
+      "The price band, lot size, retail quota and post-issue share count are not printed on the pages provided (shown as [\u25cf] or absent).",
+      "EBITDA is taken from the accounting ratios table under Other Financial Information (page 622). The KPI section on page 147 lists EBITDA but the given pages do not show its values.",
+      "The CHPL Group (CHPL and CHHPL) was acquired on September 20, 2023 and consolidated from September 30, 2023. FY2021-FY2023 figures and the profit and loss for the 6-month stub do not include CHPL. The September 30, 2023 balance sheet does include it.",
+      "The pre-IPO placement is the September 20, 2023 private placement of 28,802,384 shares at Rs 184.51 to the promoters. It was a share swap for CHPL (consideration other than cash).",
+      "The promoters' 100% pre-issue holding is held by the Corporate Promoters: Saraf Hotels 44.68%, Two Seas Holdings 50.00%, Juniper Investments 5.32%.",
+      "Sector: hotels/hospitality has no exact match in the list, so Logistics & travel was chosen as the closest.",
+      "The P/E for peers is based on the closing price on BSE on January 23, 2024. The company's own P/E is NA because its EPS is negative.",
+      "The amount for general corporate purposes is not yet set ([\u25cf]) and is capped at 25% of Net Proceeds.",
+      "The peer NSE symbols were filled in from general knowledge; the RHP table does not print them."
+    ]
+  }
+}

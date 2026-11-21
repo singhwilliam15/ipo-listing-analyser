@@ -1,0 +1,451 @@
+{
+  "symbol": "CELLO",
+  "rhp_file": "CELLO.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T21:00:26+00:00",
+  "pages_sent": [
+    1,
+    2,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    94,
+    95,
+    96,
+    97,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    461,
+    462,
+    463,
+    464
+  ],
+  "n_pdf_pages": 607,
+  "usage": {
+    "input_tokens": 54041,
+    "output_tokens": 4427,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.4912377,
+    "session_id": "6e8db791-38ec-4160-b535-235fd0bf1784"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Cello World Limited",
+    "sector": "Consumer & retail",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023 (March 31, 2023)",
+    "stub_period_months": 3,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "Kotak Mahindra Capital Company Limited; ICICI Securities Limited; IIFL Securities Limited; JM Financial Limited; Motilal Oswal Investment Advisors Limited",
+    "revenue_fy2": 1049.455,
+    "rhp_page_revenue_fy2": 79,
+    "revenue_fy1": 1359.176,
+    "rhp_page_revenue_fy1": 79,
+    "revenue_fy0": 1796.695,
+    "rhp_page_revenue_fy0": 79,
+    "ebitda_fy2": 286.87,
+    "rhp_page_ebitda_fy2": 117,
+    "ebitda_fy1": 349.504,
+    "rhp_page_ebitda_fy1": 117,
+    "ebitda_fy0": 437.278,
+    "rhp_page_ebitda_fy0": 117,
+    "pat_fy2": 165.548,
+    "rhp_page_pat_fy2": 79,
+    "pat_fy1": 219.523,
+    "rhp_page_pat_fy1": 79,
+    "pat_fy0": 285.055,
+    "rhp_page_pat_fy0": 79,
+    "cfo_fy2": 193.612,
+    "rhp_page_cfo_fy2": 81,
+    "cfo_fy1": 187.268,
+    "rhp_page_cfo_fy1": 81,
+    "cfo_fy0": 227.364,
+    "rhp_page_cfo_fy0": 81,
+    "net_worth_fy0": 336.45,
+    "rhp_page_net_worth_fy0": 77,
+    "total_debt_fy0": 335.107,
+    "rhp_page_total_debt_fy0": 28,
+    "cash_fy0": 30.617,
+    "rhp_page_cash_fy0": 77,
+    "revenue_stub": 471.779,
+    "rhp_page_revenue_stub": 79,
+    "pat_stub": 82.828,
+    "rhp_page_pat_stub": 79,
+    "price_low": null,
+    "rhp_page_price_low": 114,
+    "price_high": null,
+    "rhp_page_price_high": 114,
+    "lot_size": null,
+    "promoter_pre_pct": 91.88,
+    "rhp_page_promoter_pre_pct": 27,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 27,
+    "retail_quota_pct": null,
+    "pre_ipo_price": 660.77,
+    "rhp_page_pre_ipo_price": 97,
+    "eps_fy0": 13.65,
+    "rhp_page_eps_fy0": 80,
+    "ronw_fy0_pct": 23.17,
+    "rhp_page_ronw_fy0_pct": 115,
+    "nav_per_share_fy0": 56.84,
+    "rhp_page_nav_per_share_fy0": 115,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": 1900.0,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 21.2231034,
+    "rhp_page_pre_issue_shares_cr": 74,
+    "post_issue_shares_cr": 21.2231034,
+    "rhp_page_post_issue_shares_cr": 74,
+    "ofs_promoter_shares_cr": 0,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": null,
+    "proceeds_capex_cr": null,
+    "proceeds_gcp_cr": null,
+    "peers": "BOROLTD; KOKUYOCMLN; LAOPALA; STOVEKRAFT; TTKPRESTIG; LINC; Hawkins Cookers Limited",
+    "n_peers": 7,
+    "peer_pe_list": [
+      50.59,
+      57.97,
+      40.81,
+      51.49,
+      43.78,
+      33.39,
+      40.23
+    ],
+    "peer_ronw_list": [
+      11.55,
+      9.31,
+      15.87,
+      8.87,
+      13.11,
+      20.38,
+      34.32
+    ],
+    "rhp_page_peers": 118
+  },
+  "extract": {
+    "company": "Cello World Limited",
+    "sector": "Consumer & retail",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 114
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 114
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": 19000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Pradeep Ghisulal Rathod",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Pankaj Ghisulal Rathod",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Gaurav Pradeep Rathod",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Sangeeta Pradeep Rathod",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Babita Pankaj Rathod",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Ruchi Gaurav Rathod",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 212231034.0,
+      "unit": "shares",
+      "page": 74
+    },
+    "post_issue_shares": {
+      "value": 212231034.0,
+      "unit": "shares",
+      "page": 74
+    },
+    "promoter_pre_pct": {
+      "value": 91.88,
+      "unit": "percent",
+      "page": 27
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 27
+    },
+    "objects_of_offer": [],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 660.77,
+      "unit": "rupees",
+      "page": 97
+    },
+    "lead_managers": [
+      "Kotak Mahindra Capital Company Limited",
+      "ICICI Securities Limited",
+      "IIFL Securities Limited",
+      "JM Financial Limited",
+      "Motilal Oswal Investment Advisors Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023 (March 31, 2023)",
+    "revenue_fy2": {
+      "value": 10494.55,
+      "unit": "million",
+      "page": 79
+    },
+    "revenue_fy1": {
+      "value": 13591.76,
+      "unit": "million",
+      "page": 79
+    },
+    "revenue_fy0": {
+      "value": 17966.95,
+      "unit": "million",
+      "page": 79
+    },
+    "ebitda_fy2": {
+      "value": 2868.7,
+      "unit": "million",
+      "page": 117
+    },
+    "ebitda_fy1": {
+      "value": 3495.04,
+      "unit": "million",
+      "page": 117
+    },
+    "ebitda_fy0": {
+      "value": 4372.78,
+      "unit": "million",
+      "page": 117
+    },
+    "pat_fy2": {
+      "value": 1655.48,
+      "unit": "million",
+      "page": 79
+    },
+    "pat_fy1": {
+      "value": 2195.23,
+      "unit": "million",
+      "page": 79
+    },
+    "pat_fy0": {
+      "value": 2850.55,
+      "unit": "million",
+      "page": 79
+    },
+    "cfo_fy2": {
+      "value": 1936.12,
+      "unit": "million",
+      "page": 81
+    },
+    "cfo_fy1": {
+      "value": 1872.68,
+      "unit": "million",
+      "page": 81
+    },
+    "cfo_fy0": {
+      "value": 2273.64,
+      "unit": "million",
+      "page": 81
+    },
+    "net_worth_fy0": {
+      "value": 3364.5,
+      "unit": "million",
+      "page": 77
+    },
+    "total_debt_fy0": {
+      "value": 3351.07,
+      "unit": "million",
+      "page": 28
+    },
+    "cash_fy0": {
+      "value": 306.17,
+      "unit": "million",
+      "page": 77
+    },
+    "eps_fy0": {
+      "value": 13.65,
+      "unit": "rupees",
+      "page": 80
+    },
+    "ronw_fy0_pct": {
+      "value": 23.17,
+      "unit": "percent",
+      "page": 115
+    },
+    "nav_per_share_fy0": {
+      "value": 56.84,
+      "unit": "rupees",
+      "page": 115
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 4717.79,
+      "unit": "million",
+      "page": 79
+    },
+    "pat_stub": {
+      "value": 828.28,
+      "unit": "million",
+      "page": 79
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Borosil Limited",
+        "nse_symbol": "BOROLTD",
+        "pe": 50.59,
+        "ronw_pct": 11.55,
+        "page": 118
+      },
+      {
+        "name": "Kokuyo Camlin Limited",
+        "nse_symbol": "KOKUYOCMLN",
+        "pe": 57.97,
+        "ronw_pct": 9.31,
+        "page": 118
+      },
+      {
+        "name": "La Opala RG Limited",
+        "nse_symbol": "LAOPALA",
+        "pe": 40.81,
+        "ronw_pct": 15.87,
+        "page": 118
+      },
+      {
+        "name": "Stove Kraft Limited",
+        "nse_symbol": "STOVEKRAFT",
+        "pe": 51.49,
+        "ronw_pct": 8.87,
+        "page": 118
+      },
+      {
+        "name": "TTK Prestige Limited",
+        "nse_symbol": "TTKPRESTIG",
+        "pe": 43.78,
+        "ronw_pct": 13.11,
+        "page": 118
+      },
+      {
+        "name": "Linc Limited",
+        "nse_symbol": "LINC",
+        "pe": 33.39,
+        "ronw_pct": 20.38,
+        "page": 118
+      },
+      {
+        "name": "Hawkins Cookers Limited",
+        "nse_symbol": null,
+        "pe": 40.23,
+        "ronw_pct": 34.32,
+        "page": 118
+      }
+    ],
+    "notes": [
+      "Pure Offer for Sale of up to \u20b919,000.00 million (including \u20b9100.00 million Employee Reservation Portion); no fresh issue, company receives no proceeds, so objects_of_offer is empty.",
+      "Price band, lot size and share counts offered by each selling shareholder are [\u25cf] in the RHP; only rupee amounts per seller are given (Pradeep 3,000; Pankaj 7,360; Gaurav 4,640; Sangeeta 2,000; Babita 1,000; Ruchi 1,000 \u2014 \u20b9 million).",
+      "Sangeeta, Babita and Ruchi Rathod are Other Selling Shareholders but listed in the Promoter Group; classified as promoter_group.",
+      "net_worth_fy0 uses Total equity attributable to owners (3,364.50) from the balance sheet; RHP's defined 'Total Net Worth' (excluding capital reserve on common-control combinations) is 6,657.27 million (page 28/461).",
+      "total_debt_fy0 3,351.07 is RHP 'Total borrowings' which includes lease liabilities; borrowings alone are current 3,174.05 + non-current 86.62 (page 78).",
+      "RoNW FY2023: 23.17% is the 'as adjusted' figure (net worth adjusted for preference shares) in Basis for Offer Price; page 461 shows 39.98% unadjusted. NAV: 56.84 is as adjusted (page 115); basic NAV per summary is 34.14 (page 28).",
+      "Pre-IPO placement: CCPS allotted Oct 21, Nov 2 and Nov 24, 2022 at \u20b9660.77 per CCPS (face value \u20b920) to India Advantage Fund S5 I/S4 I, Dynamic India Fund S4 US I and Tata Capital Growth Fund II; converted Oct 10, 2023 into equity shares at 2.397 equity shares per CCPS. Price shown is per CCPS, not per equity share.",
+      "Retail quota percentage not stated on provided pages.",
+      "Hawkins Cookers is listed only on BSE (no NSE symbol). Peer P/E based on Oct 19, 2023 closing price / diluted FY2023 EPS."
+    ]
+  }
+}

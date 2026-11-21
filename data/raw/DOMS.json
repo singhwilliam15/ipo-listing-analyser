@@ -1,0 +1,413 @@
+{
+  "symbol": "DOMS",
+  "rhp_file": "DOMS.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T21:01:33+00:00",
+  "pages_sent": [
+    1,
+    2,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    91,
+    92,
+    93,
+    94,
+    105,
+    106,
+    107,
+    108,
+    115,
+    116,
+    117,
+    118,
+    119,
+    354,
+    355,
+    356,
+    359
+  ],
+  "n_pdf_pages": 506,
+  "usage": {
+    "input_tokens": 54256,
+    "output_tokens": 3259,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.4696202,
+    "session_id": "62e99112-3bec-4910-a7af-b5f025289924"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "DOMS Industries Limited",
+    "sector": "Consumer & retail",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023",
+    "stub_period_months": 6,
+    "pre_ipo_placement": "no",
+    "lead_managers": "JM Financial Limited; BNP Paribas; ICICI Securities Limited; IIFL Securities Limited",
+    "revenue_fy2": 402.817,
+    "rhp_page_revenue_fy2": 78,
+    "revenue_fy1": 683.601,
+    "rhp_page_revenue_fy1": 78,
+    "revenue_fy0": 1211.89,
+    "rhp_page_revenue_fy0": 78,
+    "ebitda_fy2": 30.025,
+    "rhp_page_ebitda_fy2": 354,
+    "ebitda_fy1": 69.713,
+    "rhp_page_ebitda_fy1": 354,
+    "ebitda_fy0": 186.66,
+    "rhp_page_ebitda_fy0": 354,
+    "pat_fy2": -6.026,
+    "rhp_page_pat_fy2": 78,
+    "pat_fy1": 17.14,
+    "rhp_page_pat_fy1": 78,
+    "pat_fy0": 102.871,
+    "rhp_page_pat_fy0": 78,
+    "cfo_fy2": 15.213,
+    "rhp_page_cfo_fy2": 79,
+    "cfo_fy1": 50.939,
+    "rhp_page_cfo_fy1": 79,
+    "cfo_fy0": 173.263,
+    "rhp_page_cfo_fy0": 79,
+    "net_worth_fy0": 337.432,
+    "rhp_page_net_worth_fy0": 77,
+    "total_debt_fy0": 100.065,
+    "rhp_page_total_debt_fy0": 28,
+    "cash_fy0": 34.254,
+    "rhp_page_cash_fy0": 77,
+    "revenue_stub": 761.798,
+    "rhp_page_revenue_stub": 78,
+    "pat_stub": 73.906,
+    "rhp_page_pat_stub": 78,
+    "price_low": null,
+    "rhp_page_price_low": 117,
+    "price_high": null,
+    "rhp_page_price_high": 117,
+    "lot_size": null,
+    "promoter_pre_pct": 100.0,
+    "rhp_page_promoter_pre_pct": 27,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 27,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 18.29,
+    "rhp_page_eps_fy0": 78,
+    "ronw_fy0_pct": 28.39,
+    "rhp_page_ronw_fy0_pct": 118,
+    "nav_per_share_fy0": 59.99,
+    "rhp_page_nav_per_share_fy0": 118,
+    "fresh_issue_cr": 350.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": 850.0,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 5.6250218,
+    "rhp_page_pre_issue_shares_cr": 74,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 74,
+    "ofs_promoter_shares_cr": 0,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 280.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "Kokuyo Camlin Limited; Linc Limited; Navneet Education Limited; Flair Writing Industries Limited",
+    "n_peers": 4,
+    "peer_pe_list": [
+      64.14,
+      28.15,
+      15.86,
+      35.76
+    ],
+    "peer_ronw_list": [
+      9.31,
+      21.1,
+      17.78,
+      27.18
+    ],
+    "rhp_page_peers": 119
+  },
+  "extract": {
+    "company": "DOMS Industries Limited",
+    "sector": "Consumer & retail",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 117
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 117
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 3500.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": 8500.0,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "F.I.L.A. - Fabbrica Italiana Lapis ed Affini S.p.A.",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Sanjay Mansukhlal Rajani",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Ketan Mansukhlal Rajani",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 56250218.0,
+      "unit": "shares",
+      "page": 74
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 74
+    },
+    "promoter_pre_pct": {
+      "value": 100.0,
+      "unit": "percent",
+      "page": 27
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 27
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Part finance cost of establishing new manufacturing facility for writing instruments, water colour pens, markers and highlighters at Umbergaon, Gujarat (Proposed Project)",
+        "category": "capex",
+        "amount": {
+          "value": 2800.0,
+          "unit": "million",
+          "page": 27
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 27
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "JM Financial Limited",
+      "BNP Paribas",
+      "ICICI Securities Limited",
+      "IIFL Securities Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023",
+    "revenue_fy2": {
+      "value": 4028.17,
+      "unit": "million",
+      "page": 78
+    },
+    "revenue_fy1": {
+      "value": 6836.01,
+      "unit": "million",
+      "page": 78
+    },
+    "revenue_fy0": {
+      "value": 12118.9,
+      "unit": "million",
+      "page": 78
+    },
+    "ebitda_fy2": {
+      "value": 300.25,
+      "unit": "million",
+      "page": 354
+    },
+    "ebitda_fy1": {
+      "value": 697.13,
+      "unit": "million",
+      "page": 354
+    },
+    "ebitda_fy0": {
+      "value": 1866.6,
+      "unit": "million",
+      "page": 354
+    },
+    "pat_fy2": {
+      "value": -60.26,
+      "unit": "million",
+      "page": 78
+    },
+    "pat_fy1": {
+      "value": 171.4,
+      "unit": "million",
+      "page": 78
+    },
+    "pat_fy0": {
+      "value": 1028.71,
+      "unit": "million",
+      "page": 78
+    },
+    "cfo_fy2": {
+      "value": 152.13,
+      "unit": "million",
+      "page": 79
+    },
+    "cfo_fy1": {
+      "value": 509.39,
+      "unit": "million",
+      "page": 79
+    },
+    "cfo_fy0": {
+      "value": 1732.63,
+      "unit": "million",
+      "page": 79
+    },
+    "net_worth_fy0": {
+      "value": 3374.32,
+      "unit": "million",
+      "page": 77
+    },
+    "total_debt_fy0": {
+      "value": 1000.65,
+      "unit": "million",
+      "page": 28
+    },
+    "cash_fy0": {
+      "value": 342.54,
+      "unit": "million",
+      "page": 77
+    },
+    "eps_fy0": {
+      "value": 18.29,
+      "unit": "rupees",
+      "page": 78
+    },
+    "ronw_fy0_pct": {
+      "value": 28.39,
+      "unit": "percent",
+      "page": 118
+    },
+    "nav_per_share_fy0": {
+      "value": 59.99,
+      "unit": "rupees",
+      "page": 118
+    },
+    "stub_period_months": 6,
+    "revenue_stub": {
+      "value": 7617.98,
+      "unit": "million",
+      "page": 78
+    },
+    "pat_stub": {
+      "value": 739.06,
+      "unit": "million",
+      "page": 78
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Kokuyo Camlin Limited",
+        "nse_symbol": null,
+        "pe": 64.14,
+        "ronw_pct": 9.31,
+        "page": 119
+      },
+      {
+        "name": "Linc Limited",
+        "nse_symbol": null,
+        "pe": 28.15,
+        "ronw_pct": 21.1,
+        "page": 119
+      },
+      {
+        "name": "Navneet Education Limited",
+        "nse_symbol": null,
+        "pe": 15.86,
+        "ronw_pct": 17.78,
+        "page": 119
+      },
+      {
+        "name": "Flair Writing Industries Limited",
+        "nse_symbol": null,
+        "pe": 35.76,
+        "ronw_pct": 27.18,
+        "page": 119
+      }
+    ],
+    "notes": [
+      "The price band, lot size, share counts for the fresh issue and OFS, and post-offer shares are all printed as [\u25cf] in the RHP. Only the amounts are given: fresh issue \u20b93,500 million; OFS \u20b98,500 million, of which FILA \u20b98,000 million, Sanjay Rajani \u20b9250 million and Ketan Rajani \u20b9250 million.",
+      "promoter_pre_pct is 100.00%, the printed total for promoters plus promoter group. The promoters alone hold 89.26% (51.00 + 17.00 + 8.63 + 8.63 + 4.00).",
+      "The retail quota percentage is not printed on the pages provided.",
+      "The only allotment in the last year was a 150:1 bonus issue on July 6, 2023. There was no priced pre-IPO placement.",
+      "Total debt for FY2023 is \u20b91,000.65 million (current \u20b9849.10 million + non-current \u20b9151.55 million). PAT includes the non-controlling interest; the amount attributable to owners for FY2023 is \u20b9958.12 million.",
+      "The general corporate purposes amount is [\u25cf] and is capped at 25% of gross proceeds. The Proposed Project costs \u20b94,535.66 million in total, of which \u20b92,800 million comes from the Net Proceeds.",
+      "Peer P/E figures are based on closing prices on December 1, 2023. NSE symbols are not printed."
+    ]
+  }
+}

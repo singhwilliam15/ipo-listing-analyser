@@ -1,0 +1,398 @@
+{
+  "symbol": "AJAXENGG",
+  "rhp_file": "AJAXENGG.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-21T05:52:58+00:00",
+  "pages_sent": [
+    1,
+    2,
+    18,
+    19,
+    20,
+    21,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    84,
+    85,
+    86,
+    104,
+    105,
+    107,
+    108,
+    109,
+    272,
+    273,
+    307
+  ],
+  "n_pdf_pages": 403,
+  "usage": {
+    "input_tokens": 43318,
+    "output_tokens": 3521,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3862623,
+    "session_id": "78c50f14-d8d4-4e98-b93b-f23f32a63816"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Ajax Engineering Limited",
+    "sector": "Industrials & capital goods",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "FY2024",
+    "stub_period_months": 6,
+    "pre_ipo_placement": null,
+    "lead_managers": "ICICI Securities Limited; Citigroup Global Markets India Private Limited; JM Financial Limited; Nuvama Wealth Management Limited; SBI Capital Markets Limited",
+    "revenue_fy2": 763.289,
+    "rhp_page_revenue_fy2": 74,
+    "revenue_fy1": 1151.128,
+    "rhp_page_revenue_fy1": 74,
+    "revenue_fy0": 1741.403,
+    "rhp_page_revenue_fy0": 74,
+    "ebitda_fy2": 90.479,
+    "rhp_page_ebitda_fy2": 273,
+    "ebitda_fy1": 170.741,
+    "rhp_page_ebitda_fy1": 273,
+    "ebitda_fy0": 275.546,
+    "rhp_page_ebitda_fy0": 273,
+    "pat_fy2": 66.208,
+    "rhp_page_pat_fy2": 74,
+    "pat_fy1": 135.904,
+    "rhp_page_pat_fy1": 74,
+    "pat_fy0": 225.149,
+    "rhp_page_pat_fy0": 74,
+    "cfo_fy2": 84.724,
+    "rhp_page_cfo_fy2": 273,
+    "cfo_fy1": 184.702,
+    "rhp_page_cfo_fy1": 273,
+    "cfo_fy0": 207.473,
+    "rhp_page_cfo_fy0": 273,
+    "net_worth_fy0": 917.959,
+    "rhp_page_net_worth_fy0": 72,
+    "total_debt_fy0": 6.225,
+    "rhp_page_total_debt_fy0": 20,
+    "cash_fy0": 69.619,
+    "rhp_page_cash_fy0": 72,
+    "revenue_stub": 769.985,
+    "rhp_page_revenue_stub": 74,
+    "pat_stub": 101.022,
+    "rhp_page_pat_stub": 74,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": 87.88,
+    "rhp_page_promoter_pre_pct": 19,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 19.68,
+    "rhp_page_eps_fy0": 74,
+    "ronw_fy0_pct": 24.53,
+    "rhp_page_ronw_fy0_pct": 272,
+    "nav_per_share_fy0": 80.24,
+    "rhp_page_nav_per_share_fy0": 109,
+    "fresh_issue_cr": null,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "ofs_shares_cr": 2.0180446,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 11.44068,
+    "rhp_page_pre_issue_shares_cr": 84,
+    "post_issue_shares_cr": 11.44068,
+    "rhp_page_post_issue_shares_cr": 84,
+    "ofs_promoter_shares_cr": 1.2743646,
+    "ofs_investor_shares_cr": 0.74368,
+    "proceeds_debt_repayment_cr": null,
+    "proceeds_capex_cr": null,
+    "proceeds_gcp_cr": null,
+    "peers": "ACE; BEML; ESCORTS",
+    "n_peers": 3,
+    "peer_pe_list": [
+      46.13,
+      54.24,
+      35.73
+    ],
+    "peer_ronw_list": [
+      26.65,
+      10.56,
+      11.44
+    ],
+    "rhp_page_peers": 109
+  },
+  "extract": {
+    "company": "Ajax Engineering Limited",
+    "sector": "Industrials & capital goods",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 20180446.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Krishnaswamy Vijay",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 1716102.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Kalyani Vijay",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 1716102.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Jacob Jiten John",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 2288136.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Jacob Hansen Family Trust",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 5593221.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Susie John",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 1430085.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Kedaara Capital Fund II LLP",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 7436800.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 114406800.0,
+      "unit": "shares",
+      "page": 84
+    },
+    "post_issue_shares": {
+      "value": 114406800.0,
+      "unit": "shares",
+      "page": 84
+    },
+    "promoter_pre_pct": {
+      "value": 87.88,
+      "unit": "percent",
+      "page": 19
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "objects_of_offer": [],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lead_managers": [
+      "ICICI Securities Limited",
+      "Citigroup Global Markets India Private Limited",
+      "JM Financial Limited",
+      "Nuvama Wealth Management Limited",
+      "SBI Capital Markets Limited"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "FY2024",
+    "revenue_fy2": {
+      "value": 7632.89,
+      "unit": "million",
+      "page": 74
+    },
+    "revenue_fy1": {
+      "value": 11511.28,
+      "unit": "million",
+      "page": 74
+    },
+    "revenue_fy0": {
+      "value": 17414.03,
+      "unit": "million",
+      "page": 74
+    },
+    "ebitda_fy2": {
+      "value": 904.79,
+      "unit": "million",
+      "page": 273
+    },
+    "ebitda_fy1": {
+      "value": 1707.41,
+      "unit": "million",
+      "page": 273
+    },
+    "ebitda_fy0": {
+      "value": 2755.46,
+      "unit": "million",
+      "page": 273
+    },
+    "pat_fy2": {
+      "value": 662.08,
+      "unit": "million",
+      "page": 74
+    },
+    "pat_fy1": {
+      "value": 1359.04,
+      "unit": "million",
+      "page": 74
+    },
+    "pat_fy0": {
+      "value": 2251.49,
+      "unit": "million",
+      "page": 74
+    },
+    "cfo_fy2": {
+      "value": 847.24,
+      "unit": "million",
+      "page": 273
+    },
+    "cfo_fy1": {
+      "value": 1847.02,
+      "unit": "million",
+      "page": 273
+    },
+    "cfo_fy0": {
+      "value": 2074.73,
+      "unit": "million",
+      "page": 273
+    },
+    "net_worth_fy0": {
+      "value": 9179.59,
+      "unit": "million",
+      "page": 72
+    },
+    "total_debt_fy0": {
+      "value": 62.25,
+      "unit": "million",
+      "page": 20
+    },
+    "cash_fy0": {
+      "value": 696.19,
+      "unit": "million",
+      "page": 72
+    },
+    "eps_fy0": {
+      "value": 19.68,
+      "unit": "rupees",
+      "page": 74
+    },
+    "ronw_fy0_pct": {
+      "value": 24.53,
+      "unit": "percent",
+      "page": 272
+    },
+    "nav_per_share_fy0": {
+      "value": 80.24,
+      "unit": "rupees",
+      "page": 109
+    },
+    "stub_period_months": 6,
+    "revenue_stub": {
+      "value": 7699.85,
+      "unit": "million",
+      "page": 74
+    },
+    "pat_stub": {
+      "value": 1010.22,
+      "unit": "million",
+      "page": 74
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Action Construction Equipment Limited",
+        "nse_symbol": "ACE",
+        "pe": 46.13,
+        "ronw_pct": 26.65,
+        "page": 109
+      },
+      {
+        "name": "BEML Limited",
+        "nse_symbol": "BEML",
+        "pe": 54.24,
+        "ronw_pct": 10.56,
+        "page": 109
+      },
+      {
+        "name": "Escorts Kubota Limited",
+        "nse_symbol": "ESCORTS",
+        "pe": 35.73,
+        "ronw_pct": 11.44,
+        "page": 109
+      }
+    ],
+    "notes": [
+      "Pure Offer for Sale: no fresh issue, so the company gets no proceeds and objects_of_offer is empty. Pre- and post-offer share count is the same: 114,406,800.",
+      "The price band, lot size and retail quota are not printed on the pages given (shown as [\u25cf] or absent).",
+      "The financials are 'Restated Summary Statements'. The company has no subsidiary, so I treated them as standalone.",
+      "promoter_pre_pct of 87.88% covers the named Promoters only. The Promoter Group Selling Shareholder Susie John holds another 5.62%, so promoters plus promoter group would be 93.50%, but that total is not printed.",
+      "RoNW for FY2024 is printed differently in two places: 24.53% in Other Financial Information (p.272), but 19.39% in Basis for Offer Price and the peer table (p.104/109). I used 24.53%, which matches PAT/net worth. NAV per share for FY2023 and FY2022 also differs between p.272 (121.13/202.18) and p.19 (62.39/50.55).",
+      "Total debt for FY2024 = current borrowings of 62.25 million; there are no non-current borrowings. Borrowings are nil at September 30, 2024.",
+      "Peer NSE symbols are inferred; they are not printed in the RHP.",
+      "Pre-IPO placement is not addressed on the pages given. The last allotment was a 3:1 bonus issue on November 23, 2022, followed by a share split in September 2023."
+    ]
+  }
+}

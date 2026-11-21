@@ -1,0 +1,386 @@
+{
+  "symbol": "KRONOX",
+  "rhp_file": "KRONOX.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-21T06:06:48+00:00",
+  "pages_sent": [
+    1,
+    2,
+    24,
+    25,
+    26,
+    27,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    78,
+    79,
+    80,
+    88,
+    89,
+    92,
+    93,
+    94,
+    281,
+    282,
+    283
+  ],
+  "n_pdf_pages": 400,
+  "usage": {
+    "input_tokens": 40761,
+    "output_tokens": 3266,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.36045259999999996,
+    "session_id": "ce0d9317-b20b-4f78-879d-a91f17f0026f"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Kronox Lab Sciences Limited",
+    "sector": "Chemicals & materials",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "March 31, 2023",
+    "stub_period_months": 9,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Pantomath Capital Advisors Private Limited",
+    "revenue_fy2": 62.46,
+    "rhp_page_revenue_fy2": 67,
+    "revenue_fy1": 82.247,
+    "rhp_page_revenue_fy1": 67,
+    "revenue_fy0": 95.578,
+    "rhp_page_revenue_fy0": 67,
+    "ebitda_fy2": 14.803,
+    "rhp_page_ebitda_fy2": 281,
+    "ebitda_fy1": 19.697,
+    "rhp_page_ebitda_fy1": 281,
+    "ebitda_fy0": 21.996,
+    "rhp_page_ebitda_fy0": 281,
+    "pat_fy2": 9.73,
+    "rhp_page_pat_fy2": 67,
+    "pat_fy1": 13.627,
+    "rhp_page_pat_fy1": 67,
+    "pat_fy0": 16.617,
+    "rhp_page_pat_fy0": 67,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 44.679,
+    "rhp_page_net_worth_fy0": 65,
+    "total_debt_fy0": 0.0,
+    "rhp_page_total_debt_fy0": 26,
+    "cash_fy0": 2.483,
+    "rhp_page_cash_fy0": 65,
+    "revenue_stub": 67.686,
+    "rhp_page_revenue_stub": 67,
+    "pat_stub": 15.469,
+    "rhp_page_pat_stub": 67,
+    "price_low": 129.0,
+    "rhp_page_price_low": 1,
+    "price_high": 136.0,
+    "rhp_page_price_high": 1,
+    "lot_size": 110.0,
+    "rhp_page_lot_size": 1,
+    "promoter_pre_pct": 100.0,
+    "rhp_page_promoter_pre_pct": 26,
+    "promoter_post_pct": null,
+    "retail_quota_pct": 35.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": null,
+    "eps_fy0": 4.3,
+    "rhp_page_eps_fy0": 92,
+    "ronw_fy0_pct": 37.19,
+    "rhp_page_ronw_fy0_pct": 93,
+    "nav_per_share_fy0": 12.04,
+    "rhp_page_nav_per_share_fy0": 93,
+    "fresh_issue_cr": null,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "ofs_shares_cr": 0.957,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 3.7104,
+    "rhp_page_pre_issue_shares_cr": 62,
+    "post_issue_shares_cr": 3.7104,
+    "rhp_page_post_issue_shares_cr": 62,
+    "ofs_promoter_shares_cr": 0.9570000000000001,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": null,
+    "proceeds_capex_cr": null,
+    "proceeds_gcp_cr": null,
+    "peers": "Tatva Chintan Pharma Chem Limited; Tanfac Industries Limited; Neogen Chemicals Limited; Sigachi Industries Limited; DMCC Speciality Chemical Limited",
+    "n_peers": 5,
+    "peer_pe_list": [
+      57.57,
+      39.15,
+      77.55,
+      46.64,
+      116.57
+    ],
+    "peer_ronw_list": [
+      8.84,
+      30.46,
+      10.36,
+      16.22,
+      3.5
+    ],
+    "rhp_page_peers": 94
+  },
+  "extract": {
+    "company": "Kronox Lab Sciences Limited",
+    "sector": "Chemicals & materials",
+    "exchanges": "both",
+    "price_low": {
+      "value": 129.0,
+      "unit": "rupees",
+      "page": 1
+    },
+    "price_high": {
+      "value": 136.0,
+      "unit": "rupees",
+      "page": 1
+    },
+    "lot_size": {
+      "value": 110.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 9570000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Jogindersingh Jaswal",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 3190000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Ketan Ramani",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 3190000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Pritesh Ramani",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 3190000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 37104000.0,
+      "unit": "shares",
+      "page": 62
+    },
+    "post_issue_shares": {
+      "value": 37104000.0,
+      "unit": "shares",
+      "page": 62
+    },
+    "promoter_pre_pct": {
+      "value": 100.0,
+      "unit": "percent",
+      "page": 26
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "objects_of_offer": [],
+    "retail_quota_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lead_managers": [
+      "Pantomath Capital Advisors Private Limited"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "March 31, 2023",
+    "revenue_fy2": {
+      "value": 624.6,
+      "unit": "million",
+      "page": 67
+    },
+    "revenue_fy1": {
+      "value": 822.47,
+      "unit": "million",
+      "page": 67
+    },
+    "revenue_fy0": {
+      "value": 955.78,
+      "unit": "million",
+      "page": 67
+    },
+    "ebitda_fy2": {
+      "value": 148.03,
+      "unit": "million",
+      "page": 281
+    },
+    "ebitda_fy1": {
+      "value": 196.97,
+      "unit": "million",
+      "page": 281
+    },
+    "ebitda_fy0": {
+      "value": 219.96,
+      "unit": "million",
+      "page": 281
+    },
+    "pat_fy2": {
+      "value": 97.3,
+      "unit": "million",
+      "page": 67
+    },
+    "pat_fy1": {
+      "value": 136.27,
+      "unit": "million",
+      "page": 67
+    },
+    "pat_fy0": {
+      "value": 166.17,
+      "unit": "million",
+      "page": 67
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 446.79,
+      "unit": "million",
+      "page": 65
+    },
+    "total_debt_fy0": {
+      "value": 0.0,
+      "unit": "million",
+      "page": 26
+    },
+    "cash_fy0": {
+      "value": 24.83,
+      "unit": "million",
+      "page": 65
+    },
+    "eps_fy0": {
+      "value": 4.3,
+      "unit": "rupees",
+      "page": 92
+    },
+    "ronw_fy0_pct": {
+      "value": 37.19,
+      "unit": "percent",
+      "page": 93
+    },
+    "nav_per_share_fy0": {
+      "value": 12.04,
+      "unit": "rupees",
+      "page": 93
+    },
+    "stub_period_months": 9,
+    "revenue_stub": {
+      "value": 676.86,
+      "unit": "million",
+      "page": 67
+    },
+    "pat_stub": {
+      "value": 154.69,
+      "unit": "million",
+      "page": 67
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Tatva Chintan Pharma Chem Limited",
+        "nse_symbol": null,
+        "pe": 57.57,
+        "ronw_pct": 8.84,
+        "page": 94
+      },
+      {
+        "name": "Tanfac Industries Limited",
+        "nse_symbol": null,
+        "pe": 39.15,
+        "ronw_pct": 30.46,
+        "page": 94
+      },
+      {
+        "name": "Neogen Chemicals Limited",
+        "nse_symbol": null,
+        "pe": 77.55,
+        "ronw_pct": 10.36,
+        "page": 94
+      },
+      {
+        "name": "Sigachi Industries Limited",
+        "nse_symbol": null,
+        "pe": 46.64,
+        "ronw_pct": 16.22,
+        "page": 94
+      },
+      {
+        "name": "DMCC Speciality Chemical Limited",
+        "nse_symbol": null,
+        "pe": 116.57,
+        "ronw_pct": 3.5,
+        "page": 94
+      }
+    ],
+    "notes": [
+      "The offer is entirely an Offer for Sale by the three promoters. There is no fresh issue, so objects_of_offer is empty and the company gets no proceeds.",
+      "The financials are restated and no consolidated statements are mentioned, so the basis is treated as standalone.",
+      "Total borrowings at March 31, 2023 are printed as '-' (nil) on pages 26 and 65\u201366. The company describes itself as zero-debt, so this is recorded as 0. It is a printed nil, not a missing figure.",
+      "The cash flow statement is not among the pages provided, so CFO is null for all years.",
+      "Post-offer promoter holding is not printed. Pre-offer promoter and promoter group holding is 100% (3,71,04,000 shares). Post-offer shares are unchanged at 3,71,04,000 because the offer is a pure OFS.",
+      "The RHP says there are no listed companies with the exact same product segment. It still gives a peer table of speciality chemical companies 'for broad based comparison', so no_listed_peers is false. Peer P/E figures are based on CMP as of May 17, 2024, as printed.",
+      "The last share capital change was a buy-back on January 24, 2023 at \u20b964.50, more than 12 months before the RHP date. The RHP states that no shares were issued below the Offer Price in the preceding year, so pre_ipo_placement is false.",
+      "The stub period is the nine months ended December 31, 2023."
+    ]
+  }
+}

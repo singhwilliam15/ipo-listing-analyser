@@ -1,0 +1,436 @@
+{
+  "symbol": "MUFTI",
+  "rhp_file": "MUFTI.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T21:02:09+00:00",
+  "pages_sent": [
+    1,
+    2,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    88,
+    89,
+    90,
+    91,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    275,
+    276,
+    277,
+    298
+  ],
+  "n_pdf_pages": 397,
+  "usage": {
+    "input_tokens": 54883,
+    "output_tokens": 3823,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.4859793,
+    "session_id": "0b568cdb-3026-42b4-8d3a-2e4b37bf7117"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Credo Brands Marketing Limited",
+    "sector": "Consumer & retail",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023",
+    "stub_period_months": 3,
+    "pre_ipo_placement": "no",
+    "lead_managers": "DAM Capital Advisors Limited; ICICI Securities Limited; Keynote Financial Services Limited",
+    "revenue_fy2": 244.826,
+    "rhp_page_revenue_fy2": 77,
+    "revenue_fy1": 341.172,
+    "rhp_page_revenue_fy1": 77,
+    "revenue_fy0": 498.182,
+    "rhp_page_revenue_fy0": 77,
+    "ebitda_fy2": 48.482,
+    "rhp_page_ebitda_fy2": 116,
+    "ebitda_fy1": 95.097,
+    "rhp_page_ebitda_fy1": 116,
+    "ebitda_fy0": 163.85,
+    "rhp_page_ebitda_fy0": 116,
+    "pat_fy2": 3.441,
+    "rhp_page_pat_fy2": 77,
+    "pat_fy1": 35.74,
+    "rhp_page_pat_fy1": 77,
+    "pat_fy0": 77.514,
+    "rhp_page_pat_fy0": 77,
+    "cfo_fy2": 95.638,
+    "rhp_page_cfo_fy2": 78,
+    "cfo_fy1": 78.382,
+    "rhp_page_cfo_fy1": 78,
+    "cfo_fy0": 72.41,
+    "rhp_page_cfo_fy0": 78,
+    "net_worth_fy0": 281.351,
+    "rhp_page_net_worth_fy0": 76,
+    "total_debt_fy0": 10.079,
+    "rhp_page_total_debt_fy0": 22,
+    "cash_fy0": 8.135,
+    "rhp_page_cash_fy0": 76,
+    "revenue_stub": 118.49,
+    "rhp_page_revenue_stub": 77,
+    "pat_stub": 8.575,
+    "rhp_page_pat_stub": 77,
+    "price_low": null,
+    "rhp_page_price_low": 113,
+    "price_high": null,
+    "rhp_page_price_high": 113,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "rhp_page_promoter_pre_pct": 21,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 12.06,
+    "rhp_page_eps_fy0": 77,
+    "ronw_fy0_pct": 29.98,
+    "rhp_page_ronw_fy0_pct": 110,
+    "nav_per_share_fy0": 43.75,
+    "rhp_page_nav_per_share_fy0": 110,
+    "fresh_issue_cr": null,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "ofs_shares_cr": 1.963496,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 6.430188,
+    "rhp_page_pre_issue_shares_cr": 73,
+    "post_issue_shares_cr": 6.430188,
+    "rhp_page_post_issue_shares_cr": 73,
+    "ofs_promoter_shares_cr": 0.8631,
+    "ofs_investor_shares_cr": 0.706352,
+    "proceeds_debt_repayment_cr": null,
+    "proceeds_capex_cr": null,
+    "proceeds_gcp_cr": null,
+    "peers": "Aditya Birla Fashion and Retail Limited; Go Fashion (India) Limited; Arvind Fashions Limited; Kewal Kiran Clothing Limited",
+    "n_peers": 4,
+    "peer_pe_list": [
+      88.24,
+      157.08,
+      40.24
+    ],
+    "peer_ronw_list": [
+      -1.18,
+      17.27,
+      4.42,
+      23.22
+    ],
+    "rhp_page_peers": 115
+  },
+  "extract": {
+    "company": "Credo Brands Marketing Limited",
+    "sector": "Consumer & retail",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 113
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 113
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 19634960.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Kamal Khushlani",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 4140000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Poonam Khushlani",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 4275000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Sonakshi Khushlani",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 108000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Andrew Khushlani",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 108000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Concept Communication Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 2032260.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Bela Properties Private Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 5031260.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Jay Milan Mehta",
+        "kind": "other",
+        "shares_offered": {
+          "value": 1970220.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Sagar Milan Mehta",
+        "kind": "other",
+        "shares_offered": {
+          "value": 1970220.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 64301880.0,
+      "unit": "shares",
+      "page": 73
+    },
+    "post_issue_shares": {
+      "value": 64301880.0,
+      "unit": "shares",
+      "page": 73
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 21
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "DAM Capital Advisors Limited",
+      "ICICI Securities Limited",
+      "Keynote Financial Services Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023",
+    "revenue_fy2": {
+      "value": 2448.26,
+      "unit": "million",
+      "page": 77
+    },
+    "revenue_fy1": {
+      "value": 3411.72,
+      "unit": "million",
+      "page": 77
+    },
+    "revenue_fy0": {
+      "value": 4981.82,
+      "unit": "million",
+      "page": 77
+    },
+    "ebitda_fy2": {
+      "value": 484.82,
+      "unit": "million",
+      "page": 116
+    },
+    "ebitda_fy1": {
+      "value": 950.97,
+      "unit": "million",
+      "page": 116
+    },
+    "ebitda_fy0": {
+      "value": 1638.5,
+      "unit": "million",
+      "page": 116
+    },
+    "pat_fy2": {
+      "value": 34.41,
+      "unit": "million",
+      "page": 77
+    },
+    "pat_fy1": {
+      "value": 357.4,
+      "unit": "million",
+      "page": 77
+    },
+    "pat_fy0": {
+      "value": 775.14,
+      "unit": "million",
+      "page": 77
+    },
+    "cfo_fy2": {
+      "value": 956.38,
+      "unit": "million",
+      "page": 78
+    },
+    "cfo_fy1": {
+      "value": 783.82,
+      "unit": "million",
+      "page": 78
+    },
+    "cfo_fy0": {
+      "value": 724.1,
+      "unit": "million",
+      "page": 78
+    },
+    "net_worth_fy0": {
+      "value": 2813.51,
+      "unit": "million",
+      "page": 76
+    },
+    "total_debt_fy0": {
+      "value": 100.79,
+      "unit": "million",
+      "page": 22
+    },
+    "cash_fy0": {
+      "value": 81.35,
+      "unit": "million",
+      "page": 76
+    },
+    "eps_fy0": {
+      "value": 12.06,
+      "unit": "rupees",
+      "page": 77
+    },
+    "ronw_fy0_pct": {
+      "value": 29.98,
+      "unit": "percent",
+      "page": 110
+    },
+    "nav_per_share_fy0": {
+      "value": 43.75,
+      "unit": "rupees",
+      "page": 110
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 1184.9,
+      "unit": "million",
+      "page": 77
+    },
+    "pat_stub": {
+      "value": 85.75,
+      "unit": "million",
+      "page": 77
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Aditya Birla Fashion and Retail Limited",
+        "nse_symbol": null,
+        "pe": null,
+        "ronw_pct": -1.18,
+        "page": 115
+      },
+      {
+        "name": "Go Fashion (India) Limited",
+        "nse_symbol": null,
+        "pe": 88.24,
+        "ronw_pct": 17.27,
+        "page": 115
+      },
+      {
+        "name": "Arvind Fashions Limited",
+        "nse_symbol": null,
+        "pe": 157.08,
+        "ronw_pct": 4.42,
+        "page": 115
+      },
+      {
+        "name": "Kewal Kiran Clothing Limited",
+        "nse_symbol": null,
+        "pe": 40.24,
+        "ronw_pct": 23.22,
+        "page": 115
+      }
+    ],
+    "notes": [
+      "This is a pure offer for sale: there is no fresh issue, so the company gets no proceeds and objects_of_offer is empty.",
+      "The price band, lot size and OFS amount are printed as [\u25cf] in the RHP.",
+      "Combined promoter + promoter group pre-offer % is not printed. Page 21 shows Promoters (A) 60.90% and Promoter Group (B) 5.76% on a fully diluted basis (diluted share count includes 2,080,340 vested ESOP options). Post-offer promoter % is not given.",
+      "The retail quota % is not stated on these pages. The retail portion is 'not less than 6,872,236 Equity Shares' out of 19,634,960 (page 73).",
+      "Concept Communication Limited and Bela Properties Private Limited are listed in the RHP as 'Other Selling Shareholders'. They are classed here as investor because they are corporate shareholders.",
+      "Total debt for FY2023 (100.79) comes from the summary on page 22. It matches the balance sheet: non-current borrowings 67.55 + current borrowings 33.24. Lease liabilities are excluded.",
+      "Cash is taken from the balance sheet (81.35). The cash flow statement shows 77.24 at year end.",
+      "Aditya Birla Fashion and Retail's P/E is printed as '-' because its EPS is negative.",
+      "The peer table uses Total Revenue (5,093.22) for Credo, but revenue_fy0 here is Revenue from operations.",
+      "No pre-IPO placement was found in the 12 months before the RHP. The April 2023 bonus issue and share split are not placements, and the last ESOP allotment was on July 19, 2022."
+    ]
+  }
+}

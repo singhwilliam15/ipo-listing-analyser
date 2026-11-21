@@ -1,0 +1,424 @@
+{
+  "symbol": "UDS",
+  "rhp_file": "UDS.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T20:59:19+00:00",
+  "pages_sent": [
+    1,
+    2,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    111,
+    112,
+    113,
+    114,
+    132,
+    133,
+    134,
+    135,
+    147,
+    148,
+    149,
+    150,
+    151,
+    419,
+    420,
+    421
+  ],
+  "n_pdf_pages": 592,
+  "usage": {
+    "input_tokens": 58826,
+    "output_tokens": 3639,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.5142369999999999,
+    "session_id": "995bb4e0-9b05-4dc6-9573-d9cf9b711245"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Updater Services Limited",
+    "sector": "Media, education & services",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023 (March 31, 2023)",
+    "stub_period_months": null,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "IIFL Securities Limited; Motilal Oswal Investment Advisors Limited; SBI Capital Markets Limited",
+    "revenue_fy2": 1210.032,
+    "rhp_page_revenue_fy2": 98,
+    "revenue_fy1": 1483.552,
+    "rhp_page_revenue_fy1": 98,
+    "revenue_fy0": 2098.887,
+    "rhp_page_revenue_fy0": 98,
+    "ebitda_fy2": 70.224,
+    "rhp_page_ebitda_fy2": 149,
+    "ebitda_fy1": 86.536,
+    "rhp_page_ebitda_fy1": 149,
+    "ebitda_fy0": 99.771,
+    "rhp_page_ebitda_fy0": 149,
+    "pat_fy2": 47.561,
+    "rhp_page_pat_fy2": 98,
+    "pat_fy1": 57.369,
+    "rhp_page_pat_fy1": 98,
+    "pat_fy0": 34.605,
+    "rhp_page_pat_fy0": 98,
+    "cfo_fy2": 128.495,
+    "rhp_page_cfo_fy2": 100,
+    "cfo_fy1": 31.069,
+    "rhp_page_cfo_fy1": 100,
+    "cfo_fy0": 114.782,
+    "rhp_page_cfo_fy0": 100,
+    "net_worth_fy0": 380.893,
+    "rhp_page_net_worth_fy0": 96,
+    "total_debt_fy0": 176.538,
+    "rhp_page_total_debt_fy0": 420,
+    "cash_fy0": 114.667,
+    "rhp_page_cash_fy0": 96,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 147,
+    "price_high": null,
+    "rhp_page_price_high": 147,
+    "lot_size": null,
+    "rhp_page_lot_size": 2,
+    "promoter_pre_pct": null,
+    "rhp_page_promoter_pre_pct": 26,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 26,
+    "retail_quota_pct": 10.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": 325.0,
+    "rhp_page_pre_ipo_price": 112,
+    "eps_fy0": 6.77,
+    "rhp_page_eps_fy0": 99,
+    "ronw_fy0_pct": 9.4,
+    "rhp_page_ronw_fy0_pct": 419,
+    "nav_per_share_fy0": 71.93,
+    "rhp_page_nav_per_share_fy0": 144,
+    "fresh_issue_cr": 400.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.8,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 5.3369355,
+    "rhp_page_pre_issue_shares_cr": 93,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 93,
+    "ofs_promoter_shares_cr": 0.4,
+    "ofs_investor_shares_cr": 0.4,
+    "proceeds_debt_repayment_cr": 133.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "QUESS; SIS; TEAMLEASE",
+    "n_peers": 3,
+    "peer_pe_list": [
+      28.38,
+      19.74,
+      40.96
+    ],
+    "peer_ronw_list": [
+      8.74,
+      14.85,
+      13.79
+    ],
+    "rhp_page_peers": 148
+  },
+  "extract": {
+    "company": "Updater Services Limited",
+    "sector": "Media, education & services",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 147
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 147
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": 2
+    },
+    "fresh_issue_amount": {
+      "value": 4000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 8000000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Tangi Facility Solutions Private Limited",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 4000000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "India Business Excellence Fund \u2013 II",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 800000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "India Business Excellence Fund \u2013 IIA",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 3200000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 53369355.0,
+      "unit": "shares",
+      "page": 93
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 93
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 26
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 26
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment and/or prepayment of certain borrowings availed by the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 1330.0,
+          "unit": "million",
+          "page": 133
+        }
+      },
+      {
+        "purpose": "Funding working capital requirements",
+        "category": "other",
+        "amount": {
+          "value": 1150.0,
+          "unit": "million",
+          "page": 133
+        }
+      },
+      {
+        "purpose": "Pursuing inorganic initiatives",
+        "category": "other",
+        "amount": {
+          "value": 800.0,
+          "unit": "million",
+          "page": 133
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 133
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 10.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 325.0,
+      "unit": "rupees",
+      "page": 112
+    },
+    "lead_managers": [
+      "IIFL Securities Limited",
+      "Motilal Oswal Investment Advisors Limited",
+      "SBI Capital Markets Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023 (March 31, 2023)",
+    "revenue_fy2": {
+      "value": 12100.32,
+      "unit": "million",
+      "page": 98
+    },
+    "revenue_fy1": {
+      "value": 14835.52,
+      "unit": "million",
+      "page": 98
+    },
+    "revenue_fy0": {
+      "value": 20988.87,
+      "unit": "million",
+      "page": 98
+    },
+    "ebitda_fy2": {
+      "value": 702.24,
+      "unit": "million",
+      "page": 149
+    },
+    "ebitda_fy1": {
+      "value": 865.36,
+      "unit": "million",
+      "page": 149
+    },
+    "ebitda_fy0": {
+      "value": 997.71,
+      "unit": "million",
+      "page": 149
+    },
+    "pat_fy2": {
+      "value": 475.61,
+      "unit": "million",
+      "page": 98
+    },
+    "pat_fy1": {
+      "value": 573.69,
+      "unit": "million",
+      "page": 98
+    },
+    "pat_fy0": {
+      "value": 346.05,
+      "unit": "million",
+      "page": 98
+    },
+    "cfo_fy2": {
+      "value": 1284.95,
+      "unit": "million",
+      "page": 100
+    },
+    "cfo_fy1": {
+      "value": 310.69,
+      "unit": "million",
+      "page": 100
+    },
+    "cfo_fy0": {
+      "value": 1147.82,
+      "unit": "million",
+      "page": 100
+    },
+    "net_worth_fy0": {
+      "value": 3808.93,
+      "unit": "million",
+      "page": 96
+    },
+    "total_debt_fy0": {
+      "value": 1765.38,
+      "unit": "million",
+      "page": 420
+    },
+    "cash_fy0": {
+      "value": 1146.67,
+      "unit": "million",
+      "page": 96
+    },
+    "eps_fy0": {
+      "value": 6.77,
+      "unit": "rupees",
+      "page": 99
+    },
+    "ronw_fy0_pct": {
+      "value": 9.4,
+      "unit": "percent",
+      "page": 419
+    },
+    "nav_per_share_fy0": {
+      "value": 71.93,
+      "unit": "rupees",
+      "page": 144
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Quess Corp Limited",
+        "nse_symbol": "QUESS",
+        "pe": 28.38,
+        "ronw_pct": 8.74,
+        "page": 148
+      },
+      {
+        "name": "SIS Limited",
+        "nse_symbol": "SIS",
+        "pe": 19.74,
+        "ronw_pct": 14.85,
+        "page": 148
+      },
+      {
+        "name": "TeamLease Services Limited",
+        "nse_symbol": "TEAMLEASE",
+        "pe": 40.96,
+        "ronw_pct": 13.79,
+        "page": 148
+      }
+    ],
+    "notes": [
+      "Price band, lot size, fresh issue share count and post-offer shares are printed as [\u25cf] in this RHP.",
+      "Revenue is 'Revenue from contracts with customers' (the revenue from operations line).",
+      "RoNW for FY2023 is shown as 9.34% on page 148 (Basis for Offer Price RoNW table) but as 9.40% on pages 148 (peer table), 149 (KPI) and 419 (accounting ratios); 9.40 used.",
+      "EBITDA FY2022 is 865.36 in the KPI table (p149) but 865.37 in the accounting ratios (p419).",
+      "Industry P/E highest 35.89 / lowest 18.35 / composite 27.60 (p148) do not match the peer P/Es in the table (28.38, 19.74, 40.96).",
+      "Promoter pre-offer holding has no printed total: Raghunandana Tangirala 29.21%, Shanthi Tangirala 30.43%, Tangi Facility Solutions 20.94% (p26); left null rather than adding them up. The 97.49% total on p26 also includes the investor selling shareholders.",
+      "Pre-IPO: preferential allotment of 134,988 shares at \u20b9325 on March 21, 2023, for consideration other than cash (to buy the rest of Matrix). ESOP allotments were also made on August 10, 2023 at \u20b910 and \u20b9111.",
+      "India Business Excellence Funds are labelled 'Other' on the cover but are called Investor Selling Shareholders; classified as investor.",
+      "Working capital and inorganic initiatives are categorised as 'other'.",
+      "No stub period financials are given."
+    ]
+  }
+}

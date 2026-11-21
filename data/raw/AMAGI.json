@@ -1,0 +1,425 @@
+{
+  "symbol": "AMAGI",
+  "rhp_file": "AMAGI.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:01:45+00:00",
+  "pages_sent": [
+    1,
+    2,
+    23,
+    24,
+    25,
+    26,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    113,
+    114,
+    115,
+    157,
+    158,
+    168,
+    169,
+    170,
+    384,
+    385,
+    420
+  ],
+  "n_pdf_pages": 517,
+  "usage": {
+    "input_tokens": 45310,
+    "output_tokens": 3739,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.40675819999999996,
+    "session_id": "7342243a-8b3c-4fab-b5a1-851ef562e714"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Amagi Media Labs Limited",
+    "sector": "IT & software",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "stub_period_months": 6,
+    "pre_ipo_placement": null,
+    "lead_managers": "Kotak Mahindra Capital Company Limited; Citigroup Global Markets India Private Limited; Goldman Sachs (India) Securities Private Limited",
+    "revenue_fy2": 680.558,
+    "rhp_page_revenue_fy2": 102,
+    "revenue_fy1": 879.155,
+    "rhp_page_revenue_fy1": 102,
+    "revenue_fy0": 1162.637,
+    "rhp_page_revenue_fy0": 102,
+    "ebitda_fy2": -302.653,
+    "rhp_page_ebitda_fy2": 385,
+    "ebitda_fy1": -215.311,
+    "rhp_page_ebitda_fy1": 385,
+    "ebitda_fy0": -29.851,
+    "rhp_page_ebitda_fy0": 385,
+    "pat_fy2": -321.268,
+    "rhp_page_pat_fy2": 102,
+    "pat_fy1": -245.001,
+    "rhp_page_pat_fy1": 102,
+    "pat_fy0": -68.714,
+    "rhp_page_pat_fy0": 102,
+    "cfo_fy2": -245.236,
+    "rhp_page_cfo_fy2": 103,
+    "cfo_fy1": -182.99,
+    "rhp_page_cfo_fy1": 103,
+    "cfo_fy0": 33.574,
+    "rhp_page_cfo_fy0": 103,
+    "net_worth_fy0": 509.452,
+    "rhp_page_net_worth_fy0": 101,
+    "total_debt_fy0": 0.0,
+    "rhp_page_total_debt_fy0": 25,
+    "cash_fy0": 113.671,
+    "rhp_page_cash_fy0": 101,
+    "revenue_stub": 704.823,
+    "rhp_page_revenue_stub": 102,
+    "pat_stub": 6.47,
+    "rhp_page_pat_stub": 102,
+    "price_low": null,
+    "rhp_page_price_low": 168,
+    "price_high": null,
+    "rhp_page_price_high": 168,
+    "lot_size": null,
+    "promoter_pre_pct": 13.99,
+    "rhp_page_promoter_pre_pct": 24,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 24,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": -3.48,
+    "rhp_page_eps_fy0": 102,
+    "ronw_fy0_pct": -13.49,
+    "rhp_page_ronw_fy0_pct": 169,
+    "nav_per_share_fy0": 25.6,
+    "rhp_page_nav_per_share_fy0": 170,
+    "fresh_issue_cr": 816.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 2.6942343,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 19.3735066,
+    "rhp_page_pre_issue_shares_cr": 98,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 98,
+    "ofs_promoter_shares_cr": 0,
+    "ofs_investor_shares_cr": 2.6828323,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "Amagi Media Labs Limited",
+    "sector": "IT & software",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 168
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 168
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 8160.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 26942343.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "PI Opportunities Fund-I",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 9889646.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Accel India VI (Mauritius) Ltd.",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 5072582.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Trudy Holdings",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 5072582.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "PI Opportunities Fund-II",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 3411792.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Norwest Venture Partners X - Mauritius",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 3381721.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Rahul Garg",
+        "kind": "other",
+        "shares_offered": {
+          "value": 60000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Rajat Garg",
+        "kind": "other",
+        "shares_offered": {
+          "value": 22725.0,
+          "unit": "shares",
+          "page": 2
+        }
+      },
+      {
+        "name": "Kollengode Ramanathan Lakshminarayana",
+        "kind": "other",
+        "shares_offered": {
+          "value": 18495.0,
+          "unit": "shares",
+          "page": 2
+        }
+      },
+      {
+        "name": "Prem Gupta",
+        "kind": "other",
+        "shares_offered": {
+          "value": 10000.0,
+          "unit": "shares",
+          "page": 2
+        }
+      },
+      {
+        "name": "Rajesh Ramaiah",
+        "kind": "other",
+        "shares_offered": {
+          "value": 2800.0,
+          "unit": "shares",
+          "page": 2
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 193735066.0,
+      "unit": "shares",
+      "page": 98
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 98
+    },
+    "promoter_pre_pct": {
+      "value": 13.99,
+      "unit": "percent",
+      "page": 24
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 24
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Expenses towards technology and cloud infrastructure",
+        "category": "other",
+        "amount": {
+          "value": 5500.64,
+          "unit": "million",
+          "page": 157
+        }
+      },
+      {
+        "purpose": "Funding inorganic growth through unidentified acquisitions and general corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 157
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Kotak Mahindra Capital Company Limited",
+      "Citigroup Global Markets India Private Limited",
+      "Goldman Sachs (India) Securities Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "revenue_fy2": {
+      "value": 6805.58,
+      "unit": "million",
+      "page": 102
+    },
+    "revenue_fy1": {
+      "value": 8791.55,
+      "unit": "million",
+      "page": 102
+    },
+    "revenue_fy0": {
+      "value": 11626.37,
+      "unit": "million",
+      "page": 102
+    },
+    "ebitda_fy2": {
+      "value": -3026.53,
+      "unit": "million",
+      "page": 385
+    },
+    "ebitda_fy1": {
+      "value": -2153.11,
+      "unit": "million",
+      "page": 385
+    },
+    "ebitda_fy0": {
+      "value": -298.51,
+      "unit": "million",
+      "page": 385
+    },
+    "pat_fy2": {
+      "value": -3212.68,
+      "unit": "million",
+      "page": 102
+    },
+    "pat_fy1": {
+      "value": -2450.01,
+      "unit": "million",
+      "page": 102
+    },
+    "pat_fy0": {
+      "value": -687.14,
+      "unit": "million",
+      "page": 102
+    },
+    "cfo_fy2": {
+      "value": -2452.36,
+      "unit": "million",
+      "page": 103
+    },
+    "cfo_fy1": {
+      "value": -1829.9,
+      "unit": "million",
+      "page": 103
+    },
+    "cfo_fy0": {
+      "value": 335.74,
+      "unit": "million",
+      "page": 103
+    },
+    "net_worth_fy0": {
+      "value": 5094.52,
+      "unit": "million",
+      "page": 101
+    },
+    "total_debt_fy0": {
+      "value": 0.0,
+      "unit": "million",
+      "page": 25
+    },
+    "cash_fy0": {
+      "value": 1136.71,
+      "unit": "million",
+      "page": 101
+    },
+    "eps_fy0": {
+      "value": -3.48,
+      "unit": "rupees",
+      "page": 102
+    },
+    "ronw_fy0_pct": {
+      "value": -13.49,
+      "unit": "percent",
+      "page": 169
+    },
+    "nav_per_share_fy0": {
+      "value": 25.6,
+      "unit": "rupees",
+      "page": 170
+    },
+    "stub_period_months": 6,
+    "revenue_stub": {
+      "value": 7048.23,
+      "unit": "million",
+      "page": 102
+    },
+    "pat_stub": {
+      "value": 64.7,
+      "unit": "million",
+      "page": 102
+    },
+    "no_listed_peers": true,
+    "peers": [],
+    "notes": [
+      "Price band, lot size, fresh issue share count, OFS amount and post-offer shares are all [\u25cf] in the RHP.",
+      "Stub PAT (6 months to Sep 30, 2025) is 64.70 in the restated P&L (page 102) and in the reconciliation (page 385), but the Summary of Offer Document (page 25) shows 64.60. Used 64.70.",
+      "Total borrowings are printed as 'Nil' (pages 25 and 420), so 0 was recorded.",
+      "promoter_pre_pct of 13.99% covers the three individual Promoters only, on a fully diluted basis. Promoter Group (Vinculum Advisors LLP) holds a separate 1.71%; no combined figure is printed.",
+      "Expenses towards technology and cloud infrastructure (mainly AWS cloud services) are tagged 'other', not capex, because they are mostly operating costs. The amount for inorganic acquisitions plus GCP is [\u25cf]; it is capped at 35% of Gross Proceeds.",
+      "Basis for Offer Price says there are no listed peers in India or abroad.",
+      "Retail quota % is not given on the pages provided. No pre-IPO placement information was provided; the CCPS conversion approved on November 21, 2025 is a conversion, not a placement.",
+      "The lead manager list may be incomplete; only the BRLMs on page 2 were visible."
+    ]
+  }
+}

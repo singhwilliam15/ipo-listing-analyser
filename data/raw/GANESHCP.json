@@ -1,0 +1,399 @@
+{
+  "symbol": "GANESHCP",
+  "rhp_file": "GANESHCP.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:08:50+00:00",
+  "pages_sent": [
+    1,
+    2,
+    26,
+    27,
+    28,
+    29,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    94,
+    95,
+    96,
+    125,
+    126,
+    150,
+    151,
+    152,
+    385,
+    386,
+    417
+  ],
+  "n_pdf_pages": 588,
+  "usage": {
+    "input_tokens": 37894,
+    "output_tokens": 3429,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.34048929999999994,
+    "session_id": "6a6dbb31-3f33-4b2d-b737-8beb70296606"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Ganesh Consumer Products Limited",
+    "sector": "FMCG & food",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "FY2025",
+    "stub_period_months": null,
+    "pre_ipo_placement": null,
+    "lead_managers": "DAM Capital Advisors Limited; IIFL Capital Services Limited; Motilal Oswal Investment Advisors Limited",
+    "revenue_fy2": 610.751,
+    "rhp_page_revenue_fy2": 81,
+    "revenue_fy1": 759.073,
+    "rhp_page_revenue_fy1": 81,
+    "revenue_fy0": 850.4620000000001,
+    "rhp_page_revenue_fy0": 81,
+    "ebitda_fy2": 56.144,
+    "rhp_page_ebitda_fy2": 385,
+    "ebitda_fy1": 63.354,
+    "rhp_page_ebitda_fy1": 385,
+    "ebitda_fy0": 73.237,
+    "rhp_page_ebitda_fy0": 385,
+    "pat_fy2": 27.104,
+    "rhp_page_pat_fy2": 81,
+    "pat_fy1": 26.992,
+    "rhp_page_pat_fy1": 81,
+    "pat_fy0": 35.432,
+    "rhp_page_pat_fy0": 81,
+    "cfo_fy2": -13.113999999999999,
+    "rhp_page_cfo_fy2": 82,
+    "cfo_fy1": 88.466,
+    "rhp_page_cfo_fy1": 82,
+    "cfo_fy0": 46.084,
+    "rhp_page_cfo_fy0": 82,
+    "net_worth_fy0": 226.84,
+    "rhp_page_net_worth_fy0": 80,
+    "total_debt_fy0": 50.0,
+    "rhp_page_total_debt_fy0": 80,
+    "cash_fy0": 0.882,
+    "rhp_page_cash_fy0": 80,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": 75.28,
+    "rhp_page_promoter_pre_pct": 28,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 28,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 9.74,
+    "rhp_page_eps_fy0": 81,
+    "ronw_fy0_pct": 15.81,
+    "rhp_page_ronw_fy0_pct": 151,
+    "nav_per_share_fy0": 61.62,
+    "rhp_page_nav_per_share_fy0": 151,
+    "fresh_issue_cr": 130.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.8658333,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 3.6373259,
+    "rhp_page_pre_issue_shares_cr": 77,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 77,
+    "ofs_promoter_shares_cr": 0.14866259999999998,
+    "ofs_investor_shares_cr": 0.7171707,
+    "proceeds_debt_repayment_cr": 60.0,
+    "proceeds_capex_cr": 45.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "PATANJALI; AWL",
+    "n_peers": 2,
+    "peer_pe_list": [
+      50.15,
+      27.15
+    ],
+    "peer_ronw_list": [
+      11.96,
+      13.12
+    ],
+    "rhp_page_peers": 152
+  },
+  "extract": {
+    "company": "Ganesh Consumer Products Limited",
+    "sector": "FMCG & food",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 1300.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 8658333.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Manish Mimani",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 1341132.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Madhu Mimani",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 145494.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "India Business Excellence Fund II",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 1238061.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "India Business Excellence Fund IIA",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 5933646.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 36373259.0,
+      "unit": "shares",
+      "page": 77
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 77
+    },
+    "promoter_pre_pct": {
+      "value": 75.28,
+      "unit": "percent",
+      "page": 28
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": 28
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Prepayment and/or repayment of all or a portion of certain outstanding borrowings availed by the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 600.0,
+          "unit": "million",
+          "page": 125
+        }
+      },
+      {
+        "purpose": "Capital expenditure for setting up a roasted gram flour and gram flour manufacturing unit in Darjeeling, West Bengal",
+        "category": "capex",
+        "amount": {
+          "value": 450.0,
+          "unit": "million",
+          "page": 125
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": null,
+          "page": 126
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lead_managers": [
+      "DAM Capital Advisors Limited",
+      "IIFL Capital Services Limited",
+      "Motilal Oswal Investment Advisors Limited"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "FY2025",
+    "revenue_fy2": {
+      "value": 6107.51,
+      "unit": "million",
+      "page": 81
+    },
+    "revenue_fy1": {
+      "value": 7590.73,
+      "unit": "million",
+      "page": 81
+    },
+    "revenue_fy0": {
+      "value": 8504.62,
+      "unit": "million",
+      "page": 81
+    },
+    "ebitda_fy2": {
+      "value": 561.44,
+      "unit": "million",
+      "page": 385
+    },
+    "ebitda_fy1": {
+      "value": 633.54,
+      "unit": "million",
+      "page": 385
+    },
+    "ebitda_fy0": {
+      "value": 732.37,
+      "unit": "million",
+      "page": 385
+    },
+    "pat_fy2": {
+      "value": 271.04,
+      "unit": "million",
+      "page": 81
+    },
+    "pat_fy1": {
+      "value": 269.92,
+      "unit": "million",
+      "page": 81
+    },
+    "pat_fy0": {
+      "value": 354.32,
+      "unit": "million",
+      "page": 81
+    },
+    "cfo_fy2": {
+      "value": -131.14,
+      "unit": "million",
+      "page": 82
+    },
+    "cfo_fy1": {
+      "value": 884.66,
+      "unit": "million",
+      "page": 82
+    },
+    "cfo_fy0": {
+      "value": 460.84,
+      "unit": "million",
+      "page": 82
+    },
+    "net_worth_fy0": {
+      "value": 2268.4,
+      "unit": "million",
+      "page": 80
+    },
+    "total_debt_fy0": {
+      "value": 500.0,
+      "unit": "million",
+      "page": 80
+    },
+    "cash_fy0": {
+      "value": 8.82,
+      "unit": "million",
+      "page": 80
+    },
+    "eps_fy0": {
+      "value": 9.74,
+      "unit": "rupees",
+      "page": 81
+    },
+    "ronw_fy0_pct": {
+      "value": 15.81,
+      "unit": "percent",
+      "page": 151
+    },
+    "nav_per_share_fy0": {
+      "value": 61.62,
+      "unit": "rupees",
+      "page": 151
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Patanjali Foods Limited",
+        "nse_symbol": "PATANJALI",
+        "pe": 50.15,
+        "ronw_pct": 11.96,
+        "page": 152
+      },
+      {
+        "name": "AWL Agri Business Limited (formerly Adani Wilmar Limited)",
+        "nse_symbol": "AWL",
+        "pe": 27.15,
+        "ronw_pct": 13.12,
+        "page": 152
+      }
+    ],
+    "notes": [
+      "The restated financial information is not labelled consolidated, and the RHP refers to audited standalone financial statements. The company appears to have no subsidiaries, so I treated the basis as standalone.",
+      "net_worth_fy0 is total equity of 2,268.40 (page 80). The RHP's own net worth figure is 2,241.33 (pages 29 and 386), which excludes capital reserve (9.93) and capital redemption reserve (17.14). RoNW and NAV per share are calculated on 2,241.33.",
+      "The price band, lot size, fresh issue share count, OFS amount and post-offer shares are all printed as [\u25cf] in the RHP.",
+      "Retail quota percentage is not stated on the pages provided.",
+      "General corporate purposes amount is [\u25cf]; it is capped at 25% of gross proceeds.",
+      "FY2024 RoNW is printed as 12.34% on page 385 and as 12.35% on pages 151 and 386.",
+      "No pre-IPO placement was disclosed on the pages provided; the share capital history pages given only cover allotments up to 2008.",
+      "Motilal Oswal Investment Advisors is an associate of the company and will only be involved in marketing the offer.",
+      "Peer NSE symbols are inferred; the RHP does not print them."
+    ]
+  }
+}

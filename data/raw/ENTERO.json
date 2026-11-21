@@ -1,0 +1,553 @@
+{
+  "symbol": "ENTERO",
+  "rhp_file": "ENTERO.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T21:04:48+00:00",
+  "pages_sent": [
+    1,
+    2,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    72,
+    73,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    93,
+    94,
+    95,
+    96,
+    116,
+    117,
+    118,
+    119,
+    131,
+    132,
+    133,
+    134,
+    135,
+    394,
+    395,
+    396,
+    465
+  ],
+  "n_pdf_pages": 573,
+  "usage": {
+    "input_tokens": 52746,
+    "output_tokens": 4666,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.48553070000000004,
+    "session_id": "6c1901d5-c5a8-4c75-b0af-46149fa4fd94"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Entero Healthcare Solutions Limited",
+    "sector": "Healthcare & pharma",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023 (March 31, 2023)",
+    "stub_period_months": 6,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "ICICI Securities Limited; DAM Capital Advisors Limited; Jefferies India Private Limited; JM Financial Limited; SBI Capital Markets Limited",
+    "revenue_fy2": 1779.737,
+    "rhp_page_revenue_fy2": 77,
+    "revenue_fy1": 2522.065,
+    "rhp_page_revenue_fy1": 77,
+    "revenue_fy0": 3300.207,
+    "rhp_page_revenue_fy0": 77,
+    "ebitda_fy2": 21.545,
+    "rhp_page_ebitda_fy2": 135,
+    "ebitda_fy1": 24.438,
+    "rhp_page_ebitda_fy1": 135,
+    "ebitda_fy0": 64.007,
+    "rhp_page_ebitda_fy0": 135,
+    "pat_fy2": -15.354,
+    "rhp_page_pat_fy2": 77,
+    "pat_fy1": -29.439,
+    "rhp_page_pat_fy1": 77,
+    "pat_fy0": -11.104,
+    "rhp_page_pat_fy0": 77,
+    "cfo_fy2": -68.684,
+    "rhp_page_cfo_fy2": 80,
+    "cfo_fy1": -35.266,
+    "rhp_page_cfo_fy1": 80,
+    "cfo_fy0": -45.315,
+    "rhp_page_cfo_fy0": 80,
+    "net_worth_fy0": 595.027,
+    "rhp_page_net_worth_fy0": 75,
+    "total_debt_fy0": 373.515,
+    "rhp_page_total_debt_fy0": 28,
+    "cash_fy0": 25.362,
+    "rhp_page_cash_fy0": 75,
+    "revenue_stub": 1895.501,
+    "rhp_page_revenue_stub": 77,
+    "pat_stub": 11.642,
+    "rhp_page_pat_stub": 77,
+    "price_low": null,
+    "rhp_page_price_low": 132,
+    "price_high": null,
+    "rhp_page_price_high": 132,
+    "lot_size": null,
+    "promoter_pre_pct": 77.11,
+    "rhp_page_promoter_pre_pct": 27,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 27,
+    "retail_quota_pct": null,
+    "rhp_page_retail_quota_pct": 72,
+    "pre_ipo_price": null,
+    "eps_fy0": -3.1,
+    "rhp_page_eps_fy0": 78,
+    "ronw_fy0_pct": -1.86,
+    "rhp_page_ronw_fy0_pct": 132,
+    "nav_per_share_fy0": 157.08,
+    "rhp_page_nav_per_share_fy0": 132,
+    "fresh_issue_cr": 1000.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.4769475,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 3.5543198,
+    "rhp_page_pre_issue_shares_cr": 72,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 72,
+    "ofs_promoter_shares_cr": 0.4599262,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 142.5,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "MEDPLUS",
+    "n_peers": 1,
+    "peer_pe_list": [
+      177.21
+    ],
+    "peer_ronw_list": [
+      3.36
+    ],
+    "rhp_page_peers": 133
+  },
+  "extract": {
+    "company": "Entero Healthcare Solutions Limited",
+    "sector": "Healthcare & pharma",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 132
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 132
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 10000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 4769475.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Prabhat Agrawal",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 470210.0,
+          "unit": "shares",
+          "page": 73
+        }
+      },
+      {
+        "name": "Prem Sethi",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 313472.0,
+          "unit": "shares",
+          "page": 73
+        }
+      },
+      {
+        "name": "OrbiMed Asia III Mauritius Limited",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 3815580.0,
+          "unit": "shares",
+          "page": 73
+        }
+      },
+      {
+        "name": "Chethan M.P.",
+        "kind": "other",
+        "shares_offered": {
+          "value": 4401.0,
+          "unit": "shares",
+          "page": 73
+        }
+      },
+      {
+        "name": "Deepesh T. Gala",
+        "kind": "other",
+        "shares_offered": {
+          "value": 1320.0,
+          "unit": "shares",
+          "page": 73
+        }
+      },
+      {
+        "name": "Hemant Jose Barros",
+        "kind": "other",
+        "shares_offered": {
+          "value": 8802.0,
+          "unit": "shares",
+          "page": 73
+        }
+      },
+      {
+        "name": "Hemant Jaggi",
+        "kind": "other",
+        "shares_offered": {
+          "value": 4401.0,
+          "unit": "shares",
+          "page": 73
+        }
+      },
+      {
+        "name": "K.R.V.S. Varaprasad",
+        "kind": "other",
+        "shares_offered": {
+          "value": 2201.0,
+          "unit": "shares",
+          "page": 73
+        }
+      },
+      {
+        "name": "K.E. Prakash",
+        "kind": "other",
+        "shares_offered": {
+          "value": 39610.0,
+          "unit": "shares",
+          "page": 73
+        }
+      },
+      {
+        "name": "Lavu Sahadev",
+        "kind": "other",
+        "shares_offered": {
+          "value": 1320.0,
+          "unit": "shares",
+          "page": 73
+        }
+      },
+      {
+        "name": "Manoj K Sanghani",
+        "kind": "other",
+        "shares_offered": {
+          "value": 12103.0,
+          "unit": "shares",
+          "page": 73
+        }
+      },
+      {
+        "name": "Millennium Medicare Private Limited",
+        "kind": "other",
+        "shares_offered": {
+          "value": 8802.0,
+          "unit": "shares",
+          "page": 73
+        }
+      },
+      {
+        "name": "K. Naveen Kumar Gupta",
+        "kind": "other",
+        "shares_offered": {
+          "value": 2201.0,
+          "unit": "shares",
+          "page": 73
+        }
+      },
+      {
+        "name": "Novacare Drug Specialities Private Limited",
+        "kind": "other",
+        "shares_offered": {
+          "value": 42250.0,
+          "unit": "shares",
+          "page": 73
+        }
+      },
+      {
+        "name": "Petros Diamantides",
+        "kind": "other",
+        "shares_offered": {
+          "value": 15074.0,
+          "unit": "shares",
+          "page": 73
+        }
+      },
+      {
+        "name": "Prashanth Ravindrakumar",
+        "kind": "other",
+        "shares_offered": {
+          "value": 13203.0,
+          "unit": "shares",
+          "page": 73
+        }
+      },
+      {
+        "name": "Suraj Prakash Atreja",
+        "kind": "other",
+        "shares_offered": {
+          "value": 1102.0,
+          "unit": "shares",
+          "page": 73
+        }
+      },
+      {
+        "name": "Venkata Ramana Siva Kumar Yanamadala",
+        "kind": "other",
+        "shares_offered": {
+          "value": 1320.0,
+          "unit": "shares",
+          "page": 73
+        }
+      },
+      {
+        "name": "Vikramaditya Ambre",
+        "kind": "other",
+        "shares_offered": {
+          "value": 12103.0,
+          "unit": "shares",
+          "page": 73
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 35543198.0,
+      "unit": "shares",
+      "page": 72
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 72
+    },
+    "promoter_pre_pct": {
+      "value": 77.11,
+      "unit": "percent",
+      "page": 27
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 27
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment/prepayment, in full or part, of certain borrowings availed of by the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 1425.0,
+          "unit": "million",
+          "page": 116
+        }
+      },
+      {
+        "purpose": "Funding of long-term working capital requirements of the Company and its Subsidiaries during Fiscals 2025 and 2026",
+        "category": "other",
+        "amount": {
+          "value": 4800.0,
+          "unit": "million",
+          "page": 116
+        }
+      },
+      {
+        "purpose": "Pursuing inorganic growth initiatives through acquisitions",
+        "category": "other",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 117
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 116
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 72
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "ICICI Securities Limited",
+      "DAM Capital Advisors Limited",
+      "Jefferies India Private Limited",
+      "JM Financial Limited",
+      "SBI Capital Markets Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023 (March 31, 2023)",
+    "revenue_fy2": {
+      "value": 17797.37,
+      "unit": "million",
+      "page": 77
+    },
+    "revenue_fy1": {
+      "value": 25220.65,
+      "unit": "million",
+      "page": 77
+    },
+    "revenue_fy0": {
+      "value": 33002.07,
+      "unit": "million",
+      "page": 77
+    },
+    "ebitda_fy2": {
+      "value": 215.45,
+      "unit": "million",
+      "page": 135
+    },
+    "ebitda_fy1": {
+      "value": 244.38,
+      "unit": "million",
+      "page": 135
+    },
+    "ebitda_fy0": {
+      "value": 640.07,
+      "unit": "million",
+      "page": 135
+    },
+    "pat_fy2": {
+      "value": -153.54,
+      "unit": "million",
+      "page": 77
+    },
+    "pat_fy1": {
+      "value": -294.39,
+      "unit": "million",
+      "page": 77
+    },
+    "pat_fy0": {
+      "value": -111.04,
+      "unit": "million",
+      "page": 77
+    },
+    "cfo_fy2": {
+      "value": -686.84,
+      "unit": "million",
+      "page": 80
+    },
+    "cfo_fy1": {
+      "value": -352.66,
+      "unit": "million",
+      "page": 80
+    },
+    "cfo_fy0": {
+      "value": -453.15,
+      "unit": "million",
+      "page": 80
+    },
+    "net_worth_fy0": {
+      "value": 5950.27,
+      "unit": "million",
+      "page": 75
+    },
+    "total_debt_fy0": {
+      "value": 3735.15,
+      "unit": "million",
+      "page": 28
+    },
+    "cash_fy0": {
+      "value": 253.62,
+      "unit": "million",
+      "page": 75
+    },
+    "eps_fy0": {
+      "value": -3.1,
+      "unit": "rupees",
+      "page": 78
+    },
+    "ronw_fy0_pct": {
+      "value": -1.86,
+      "unit": "percent",
+      "page": 132
+    },
+    "nav_per_share_fy0": {
+      "value": 157.08,
+      "unit": "rupees",
+      "page": 132
+    },
+    "stub_period_months": 6,
+    "revenue_stub": {
+      "value": 18955.01,
+      "unit": "million",
+      "page": 77
+    },
+    "pat_stub": {
+      "value": 116.42,
+      "unit": "million",
+      "page": 77
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "MedPlus Health Services Limited",
+        "nse_symbol": "MEDPLUS",
+        "pe": 177.21,
+        "ronw_pct": 3.36,
+        "page": 133
+      }
+    ],
+    "notes": [
+      "Price band, lot size, fresh issue share count, post-offer shares and retail quota are all shown as [\u25cf] in the RHP pages provided.",
+      "EPS fy0 is the restated basic EPS of -3.10 (p78). Restated EPS after the CCPS conversion of January 27, 2024 is -3.43 (p78/p131), and that is the figure used in the peer table.",
+      "NAV fy0 is the restated figure of 157.08 (p132). NAV after the CCPS conversion is 174.21.",
+      "total_debt_fy0 is 3,735.15 (p28). It matches non-current 310.67 plus current 3,424.48 (p76), but the footnote says it excludes current maturities of long-term borrowings.",
+      "net_worth_fy0 is equity attributable to owners (5,950.27). Total equity including non-controlling interest is 5,976.61, and that is the figure used for RoNW.",
+      "PAT is restated profit for the year including the non-controlling interest. The loss attributable to owners for FY2023 is -115.57.",
+      "The working capital object is categorised as 'other'. The acquisitions object and the general corporate purposes amount are [\u25cf].",
+      "pre_ipo_placement is set to true because the cash flow statement shows 509.85 million raised from issuing convertible preference shares (CCPS) in the six months to Sep 30, 2023. The issue price is not given on these pages. Equity shares were also allotted on CCPS conversion in July 2023 and January 2024.",
+      "OrbiMed Asia III Mauritius Limited is a named promoter (and a PE investor), so it is classified as a promoter seller. The corporate sellers (Novacare, Millennium Medicare) are classified as other.",
+      "The MedPlus NSE symbol is not printed in the RHP; it was inferred."
+    ]
+  }
+}

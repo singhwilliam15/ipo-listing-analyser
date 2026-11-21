@@ -1,0 +1,349 @@
+{
+  "symbol": "MANYAVAR",
+  "rhp_file": "MANYAVAR.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T17:47:19+00:00",
+  "pages_sent": [
+    1,
+    2,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    80,
+    81,
+    82,
+    83,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    260,
+    261,
+    262
+  ],
+  "n_pdf_pages": 420,
+  "usage": {
+    "input_tokens": 53042,
+    "output_tokens": 3364,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.46233109999999994,
+    "session_id": "861d082f-5ec6-41c1-b415-625b80daa7fb"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Vedant Fashions Limited",
+    "sector": "Consumer & retail",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2021 (March 31, 2021)",
+    "stub_period_months": 6,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Axis Capital Limited; Edelweiss Financial Services Limited; ICICI Securities Limited; IIFL Securities Limited; Kotak Mahindra Capital Company Limited",
+    "revenue_fy2": 800.742,
+    "rhp_page_revenue_fy2": 67,
+    "revenue_fy1": 915.549,
+    "rhp_page_revenue_fy1": 67,
+    "revenue_fy0": 564.816,
+    "rhp_page_revenue_fy0": 67,
+    "ebitda_fy2": 337.954,
+    "rhp_page_ebitda_fy2": 260,
+    "ebitda_fy1": 398.765,
+    "rhp_page_ebitda_fy1": 260,
+    "ebitda_fy0": 281.705,
+    "rhp_page_ebitda_fy0": 260,
+    "pat_fy2": 176.427,
+    "rhp_page_pat_fy2": 67,
+    "pat_fy1": 236.637,
+    "rhp_page_pat_fy1": 67,
+    "pat_fy0": 132.903,
+    "rhp_page_pat_fy0": 67,
+    "cfo_fy2": 234.838,
+    "rhp_page_cfo_fy2": 69,
+    "cfo_fy1": 243.447,
+    "rhp_page_cfo_fy1": 69,
+    "cfo_fy0": 252.622,
+    "rhp_page_cfo_fy0": 69,
+    "net_worth_fy0": 1091.41,
+    "rhp_page_net_worth_fy0": 65,
+    "total_debt_fy0": 0.0,
+    "rhp_page_total_debt_fy0": 66,
+    "cash_fy0": 6.609999999999999,
+    "rhp_page_cash_fy0": 65,
+    "revenue_stub": 359.843,
+    "rhp_page_revenue_stub": 67,
+    "pat_stub": 98.407,
+    "rhp_page_pat_stub": 67,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": 92.4,
+    "rhp_page_promoter_pre_pct": 20,
+    "promoter_post_pct": null,
+    "retail_quota_pct": 35.0,
+    "rhp_page_retail_quota_pct": 1,
+    "pre_ipo_price": null,
+    "eps_fy0": 5.36,
+    "rhp_page_eps_fy0": 67,
+    "ronw_fy0_pct": 12.19,
+    "rhp_page_ronw_fy0_pct": 100,
+    "nav_per_share_fy0": 44.03,
+    "rhp_page_nav_per_share_fy0": 21,
+    "fresh_issue_cr": null,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "ofs_shares_cr": 3.6364838,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 24.2694774,
+    "rhp_page_pre_issue_shares_cr": 62,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 62,
+    "ofs_promoter_shares_cr": 1.8182432,
+    "ofs_investor_shares_cr": 1.8182406,
+    "proceeds_debt_repayment_cr": null,
+    "proceeds_capex_cr": null,
+    "proceeds_gcp_cr": null,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "Vedant Fashions Limited",
+    "sector": "Consumer & retail",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 36364838.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Rhine Holdings Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 17459392.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Kedaara Capital Alternative Investment Fund-Kedaara Capital AIF 1",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 723014.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Ravi Modi Family Trust (acting through its trustee, Modi Fiduciary Services Private Limited)",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 18182432.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 242694774.0,
+      "unit": "shares",
+      "page": 62
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 62
+    },
+    "promoter_pre_pct": {
+      "value": 92.4,
+      "unit": "percent",
+      "page": 20
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "objects_of_offer": [],
+    "retail_quota_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 1
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lead_managers": [
+      "Axis Capital Limited",
+      "Edelweiss Financial Services Limited",
+      "ICICI Securities Limited",
+      "IIFL Securities Limited",
+      "Kotak Mahindra Capital Company Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2021 (March 31, 2021)",
+    "revenue_fy2": {
+      "value": 8007.42,
+      "unit": "million",
+      "page": 67
+    },
+    "revenue_fy1": {
+      "value": 9155.49,
+      "unit": "million",
+      "page": 67
+    },
+    "revenue_fy0": {
+      "value": 5648.16,
+      "unit": "million",
+      "page": 67
+    },
+    "ebitda_fy2": {
+      "value": 3379.54,
+      "unit": "million",
+      "page": 260
+    },
+    "ebitda_fy1": {
+      "value": 3987.65,
+      "unit": "million",
+      "page": 260
+    },
+    "ebitda_fy0": {
+      "value": 2817.05,
+      "unit": "million",
+      "page": 260
+    },
+    "pat_fy2": {
+      "value": 1764.27,
+      "unit": "million",
+      "page": 67
+    },
+    "pat_fy1": {
+      "value": 2366.37,
+      "unit": "million",
+      "page": 67
+    },
+    "pat_fy0": {
+      "value": 1329.03,
+      "unit": "million",
+      "page": 67
+    },
+    "cfo_fy2": {
+      "value": 2348.38,
+      "unit": "million",
+      "page": 69
+    },
+    "cfo_fy1": {
+      "value": 2434.47,
+      "unit": "million",
+      "page": 69
+    },
+    "cfo_fy0": {
+      "value": 2526.22,
+      "unit": "million",
+      "page": 69
+    },
+    "net_worth_fy0": {
+      "value": 10914.1,
+      "unit": "million",
+      "page": 65
+    },
+    "total_debt_fy0": {
+      "value": 0.0,
+      "unit": "million",
+      "page": 66
+    },
+    "cash_fy0": {
+      "value": 66.1,
+      "unit": "million",
+      "page": 65
+    },
+    "eps_fy0": {
+      "value": 5.36,
+      "unit": "rupees",
+      "page": 67
+    },
+    "ronw_fy0_pct": {
+      "value": 12.19,
+      "unit": "percent",
+      "page": 100
+    },
+    "nav_per_share_fy0": {
+      "value": 44.03,
+      "unit": "rupees",
+      "page": 21
+    },
+    "stub_period_months": 6,
+    "revenue_stub": {
+      "value": 3598.43,
+      "unit": "million",
+      "page": 67
+    },
+    "pat_stub": {
+      "value": 984.07,
+      "unit": "million",
+      "page": 67
+    },
+    "no_listed_peers": true,
+    "peers": [],
+    "notes": [
+      "Pure offer for sale: there is no fresh issue, the company gets no proceeds, and objects_of_offer is empty.",
+      "Price band, lot size and post-offer shares are shown as [\u25cf] in the RHP.",
+      "net_worth_fy0 is total equity from the balance sheet (10,914.10 million). The RHP's own 'Net worth' figure is 10,906.48 million because it leaves out the capital reserve (page 20/260). The RoNW of 12.19% is calculated on 10,906.48.",
+      "total_debt_fy0: borrowings are printed as '-' (nil) at March 31, 2021. Lease liabilities (current 707.22 million plus non-current 1,396.52 million) are not counted.",
+      "No pre-IPO placement. The only share movements were ESOP exercises on October 16, 2021 (262,520 shares at \u20b9172) and a buy-back on July 14, 2021 at \u20b9990 per \u20b92 share.",
+      "Promoter pre-offer holding of 92.40% is promoters plus promoter group (promoters alone hold 76.38%).",
+      "The RHP says there are no listed peers, so no peer comparison is given.",
+      "Rhine Holdings and Kedaara AIF are treated as investors. Ravi Modi Family Trust is a promoter."
+    ]
+  }
+}

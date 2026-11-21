@@ -1,0 +1,374 @@
+{
+  "symbol": "WAAREEENER",
+  "rhp_file": "WAAREEENER.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-21T06:01:55+00:00",
+  "pages_sent": [
+    1,
+    2,
+    25,
+    26,
+    27,
+    28,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    114,
+    115,
+    116,
+    142,
+    143,
+    154,
+    155,
+    156,
+    457,
+    458,
+    510
+  ],
+  "n_pdf_pages": 626,
+  "usage": {
+    "input_tokens": 37342,
+    "output_tokens": 3091,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3292547,
+    "session_id": "00d51dbd-ca58-4b20-a14a-cae523d942e5"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Waaree Energies Limited",
+    "sector": "Energy, power & renewables",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024",
+    "stub_period_months": 3,
+    "pre_ipo_placement": null,
+    "lead_managers": "Axis Capital Limited; IIFL Securities Limited; Jefferies India Private Limited; Nomura Financial Advisory and Securities (India) Private Limited; SBI Capital Markets Limited; Intensive Fiscal Services Private Limited; ITI Capital Limited",
+    "revenue_fy2": 2854.265,
+    "rhp_page_revenue_fy2": 99,
+    "revenue_fy1": 6750.873,
+    "rhp_page_revenue_fy1": 99,
+    "revenue_fy0": 11397.609,
+    "rhp_page_revenue_fy0": 99,
+    "ebitda_fy2": 202.532,
+    "rhp_page_ebitda_fy2": 457,
+    "ebitda_fy1": 944.134,
+    "rhp_page_ebitda_fy1": 457,
+    "ebitda_fy0": 1809.577,
+    "rhp_page_ebitda_fy0": 457,
+    "pat_fy2": 79.65,
+    "rhp_page_pat_fy2": 99,
+    "pat_fy1": 500.277,
+    "rhp_page_pat_fy1": 99,
+    "pat_fy0": 1274.377,
+    "rhp_page_pat_fy0": 99,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 4087.812,
+    "rhp_page_net_worth_fy0": 97,
+    "total_debt_fy0": 317.319,
+    "rhp_page_total_debt_fy0": 28,
+    "cash_fy0": 121.385,
+    "rhp_page_cash_fy0": 97,
+    "revenue_stub": 3408.9010000000003,
+    "rhp_page_revenue_stub": 99,
+    "pat_stub": 401.125,
+    "rhp_page_pat_stub": 99,
+    "price_low": null,
+    "rhp_page_price_low": 155,
+    "price_high": null,
+    "rhp_page_price_high": 155,
+    "lot_size": null,
+    "promoter_pre_pct": 71.8,
+    "rhp_page_promoter_pre_pct": 27,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "rhp_page_retail_quota_pct": 94,
+    "pre_ipo_price": null,
+    "eps_fy0": 48.05,
+    "rhp_page_eps_fy0": 154,
+    "ronw_fy0_pct": 30.36,
+    "rhp_page_ronw_fy0_pct": 155,
+    "nav_per_share_fy0": 154.96,
+    "rhp_page_nav_per_share_fy0": 155,
+    "fresh_issue_cr": 3600.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.48,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 26.3331104,
+    "rhp_page_pre_issue_shares_cr": 94,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 94,
+    "ofs_promoter_shares_cr": 0.435,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 2775.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "Websol Energy System Limited; Premier Energies Limited",
+    "n_peers": 2,
+    "peer_pe_list": [
+      151.13
+    ],
+    "peer_ronw_list": [
+      37.46
+    ],
+    "rhp_page_peers": 155
+  },
+  "extract": {
+    "company": "Waaree Energies Limited",
+    "sector": "Energy, power & renewables",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 155
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 155
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 36000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 4800000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Waaree Sustainable Finance Private Limited",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 4350000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Chandurkar Investments Private Limited",
+        "kind": "other",
+        "shares_offered": {
+          "value": 450000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 263331104.0,
+      "unit": "shares",
+      "page": 94
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 94
+    },
+    "promoter_pre_pct": {
+      "value": 71.8,
+      "unit": "percent",
+      "page": 27
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Part finance the cost of establishing the 6GW Ingot Wafer, Solar Cell and Solar PV Module manufacturing facility in Odisha via investment in WOS Sangam Solar One Private Limited",
+        "category": "capex",
+        "amount": {
+          "value": 27750.0,
+          "unit": "million",
+          "page": 143
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 143
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 94
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Axis Capital Limited",
+      "IIFL Securities Limited",
+      "Jefferies India Private Limited",
+      "Nomura Financial Advisory and Securities (India) Private Limited",
+      "SBI Capital Markets Limited",
+      "Intensive Fiscal Services Private Limited",
+      "ITI Capital Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024",
+    "revenue_fy2": {
+      "value": 28542.65,
+      "unit": "million",
+      "page": 99
+    },
+    "revenue_fy1": {
+      "value": 67508.73,
+      "unit": "million",
+      "page": 99
+    },
+    "revenue_fy0": {
+      "value": 113976.09,
+      "unit": "million",
+      "page": 99
+    },
+    "ebitda_fy2": {
+      "value": 2025.32,
+      "unit": "million",
+      "page": 457
+    },
+    "ebitda_fy1": {
+      "value": 9441.34,
+      "unit": "million",
+      "page": 457
+    },
+    "ebitda_fy0": {
+      "value": 18095.77,
+      "unit": "million",
+      "page": 457
+    },
+    "pat_fy2": {
+      "value": 796.5,
+      "unit": "million",
+      "page": 99
+    },
+    "pat_fy1": {
+      "value": 5002.77,
+      "unit": "million",
+      "page": 99
+    },
+    "pat_fy0": {
+      "value": 12743.77,
+      "unit": "million",
+      "page": 99
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 40878.12,
+      "unit": "million",
+      "page": 97
+    },
+    "total_debt_fy0": {
+      "value": 3173.19,
+      "unit": "million",
+      "page": 28
+    },
+    "cash_fy0": {
+      "value": 1213.85,
+      "unit": "million",
+      "page": 97
+    },
+    "eps_fy0": {
+      "value": 48.05,
+      "unit": "rupees",
+      "page": 154
+    },
+    "ronw_fy0_pct": {
+      "value": 30.36,
+      "unit": "percent",
+      "page": 155
+    },
+    "nav_per_share_fy0": {
+      "value": 154.96,
+      "unit": "rupees",
+      "page": 155
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 34089.01,
+      "unit": "million",
+      "page": 99
+    },
+    "pat_stub": {
+      "value": 4011.25,
+      "unit": "million",
+      "page": 99
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Websol Energy System Limited",
+        "nse_symbol": null,
+        "pe": null,
+        "ronw_pct": null,
+        "page": 155
+      },
+      {
+        "name": "Premier Energies Limited",
+        "nse_symbol": null,
+        "pe": 151.13,
+        "ronw_pct": 37.46,
+        "page": 155
+      }
+    ],
+    "notes": [
+      "Price band, lot size, fresh issue share count, retail quota % and post-offer shares are all printed as [\u25cf] in these pages.",
+      "Net worth: the balance sheet's 'Equity attributable to owners of the parent' for FY2024 is 40,878.12 million (p.97). The SEBI ICDR 'Net worth' printed in the summary/accounting ratios is 40,748.37 million (p.28, p.457). The first figure is used.",
+      "Cash flow statement not included in the pages provided, so CFO is null.",
+      "Promoter pre-offer % (71.80) is promoters (40.55%) plus promoter group (31.25%).",
+      "Pre-IPO placement: the only allotments shown after June 30, 2024 are ESOP allotments (Aug/Sep 2024). The full 12-month allotment history isn't in the pages, so this is left null.",
+      "Websol Energy P/E and RoNW are NA (negative EPS). The peer P/E is calculated on diluted EPS.",
+      "FY2024 PAT includes exceptional gain of 3,413.42 million.",
+      "Total borrowings FY2024 = non-current 1,025.97 + current 2,147.22 (p.97-98)."
+    ]
+  }
+}

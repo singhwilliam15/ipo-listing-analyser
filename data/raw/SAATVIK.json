@@ -1,0 +1,384 @@
+{
+  "symbol": "SAATVIK",
+  "rhp_file": "SAATVIK.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:09:05+00:00",
+  "pages_sent": [
+    1,
+    2,
+    20,
+    21,
+    22,
+    23,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    115,
+    116,
+    117,
+    134,
+    135,
+    182,
+    183,
+    184,
+    462,
+    463,
+    501
+  ],
+  "n_pdf_pages": 618,
+  "usage": {
+    "input_tokens": 38627,
+    "output_tokens": 3400,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3458468,
+    "session_id": "fa35a128-7166-4f9e-9210-571a9f29f064"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Saatvik Green Energy Limited",
+    "sector": "Energy, power & renewables",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "stub_period_months": null,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "DAM Capital Advisors Limited; Ambit Private Limited; Motilal Oswal Investment Advisors Limited",
+    "revenue_fy2": 608.588,
+    "rhp_page_revenue_fy2": 97,
+    "revenue_fy1": 1087.965,
+    "rhp_page_revenue_fy1": 97,
+    "revenue_fy0": 2158.394,
+    "rhp_page_revenue_fy0": 97,
+    "ebitda_fy2": 23.866,
+    "rhp_page_ebitda_fy2": 462,
+    "ebitda_fy1": 156.844,
+    "rhp_page_ebitda_fy1": 462,
+    "ebitda_fy0": 353.932,
+    "rhp_page_ebitda_fy0": 462,
+    "pat_fy2": 4.745,
+    "rhp_page_pat_fy2": 97,
+    "pat_fy1": 100.472,
+    "rhp_page_pat_fy1": 97,
+    "pat_fy0": 213.93000000000004,
+    "rhp_page_pat_fy0": 97,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 337.659,
+    "rhp_page_net_worth_fy0": 95,
+    "total_debt_fy0": 458.096,
+    "rhp_page_total_debt_fy0": 501,
+    "cash_fy0": 5.394,
+    "rhp_page_cash_fy0": 95,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": 90.05,
+    "rhp_page_promoter_pre_pct": 21,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": 10.0,
+    "rhp_page_pre_ipo_price": 116,
+    "eps_fy0": 19.09,
+    "rhp_page_eps_fy0": 182,
+    "ronw_fy0_pct": 63.41,
+    "rhp_page_ronw_fy0_pct": 183,
+    "nav_per_share_fy0": 30.14,
+    "rhp_page_nav_per_share_fy0": 183,
+    "fresh_issue_cr": 700.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": 200.0,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "ofs_shares_cr": null,
+    "pre_issue_shares_cr": 11.2047,
+    "rhp_page_pre_issue_shares_cr": 92,
+    "post_issue_shares_cr": null,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 177.255,
+    "proceeds_capex_cr": 477.227,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "WAAREEENER; PREMIERENE",
+    "n_peers": 2,
+    "peer_pe_list": [
+      55.02,
+      49.96
+    ],
+    "peer_ronw_list": [
+      19.48,
+      33.14
+    ],
+    "rhp_page_peers": 184
+  },
+  "extract": {
+    "company": "Saatvik Green Energy Limited",
+    "sector": "Energy, power & renewables",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 7000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "ofs_amount": {
+      "value": 2000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "selling_shareholders": [
+      {
+        "name": "Parmod Kumar",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": null,
+          "unit": null,
+          "page": 1
+        }
+      },
+      {
+        "name": "Sunila Garg",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": null,
+          "unit": null,
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 112047000.0,
+      "unit": "shares",
+      "page": 92
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "promoter_pre_pct": {
+      "value": 90.05,
+      "unit": "percent",
+      "page": 21
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Prepayment/repayment of certain outstanding borrowings availed by the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 108.19,
+          "unit": "million",
+          "page": 134
+        }
+      },
+      {
+        "purpose": "Investment in wholly owned subsidiary Saatvik Solar Industries Pvt Ltd for repayment/prepayment of its borrowings",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 1664.36,
+          "unit": "million",
+          "page": 134
+        }
+      },
+      {
+        "purpose": "Investment in subsidiary Saatvik Solar Industries Pvt Ltd for setting up 4 GW solar PV module manufacturing facility at Gopalpur, Odisha",
+        "category": "capex",
+        "amount": {
+          "value": 4772.27,
+          "unit": "million",
+          "page": 134
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": null,
+          "page": 134
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 10.0,
+      "unit": "rupees",
+      "page": 116
+    },
+    "lead_managers": [
+      "DAM Capital Advisors Limited",
+      "Ambit Private Limited",
+      "Motilal Oswal Investment Advisors Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "revenue_fy2": {
+      "value": 6085.88,
+      "unit": "million",
+      "page": 97
+    },
+    "revenue_fy1": {
+      "value": 10879.65,
+      "unit": "million",
+      "page": 97
+    },
+    "revenue_fy0": {
+      "value": 21583.94,
+      "unit": "million",
+      "page": 97
+    },
+    "ebitda_fy2": {
+      "value": 238.66,
+      "unit": "million",
+      "page": 462
+    },
+    "ebitda_fy1": {
+      "value": 1568.44,
+      "unit": "million",
+      "page": 462
+    },
+    "ebitda_fy0": {
+      "value": 3539.32,
+      "unit": "million",
+      "page": 462
+    },
+    "pat_fy2": {
+      "value": 47.45,
+      "unit": "million",
+      "page": 97
+    },
+    "pat_fy1": {
+      "value": 1004.72,
+      "unit": "million",
+      "page": 97
+    },
+    "pat_fy0": {
+      "value": 2139.3,
+      "unit": "million",
+      "page": 97
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 3376.59,
+      "unit": "million",
+      "page": 95
+    },
+    "total_debt_fy0": {
+      "value": 4580.96,
+      "unit": "million",
+      "page": 501
+    },
+    "cash_fy0": {
+      "value": 53.94,
+      "unit": "million",
+      "page": 95
+    },
+    "eps_fy0": {
+      "value": 19.09,
+      "unit": "rupees",
+      "page": 182
+    },
+    "ronw_fy0_pct": {
+      "value": 63.41,
+      "unit": "percent",
+      "page": 183
+    },
+    "nav_per_share_fy0": {
+      "value": 30.14,
+      "unit": "rupees",
+      "page": 183
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Waaree Energies Limited",
+        "nse_symbol": "WAAREEENER",
+        "pe": 55.02,
+        "ronw_pct": 19.48,
+        "page": 184
+      },
+      {
+        "name": "Premier Energies Limited",
+        "nse_symbol": "PREMIERENE",
+        "pe": 49.96,
+        "ronw_pct": 33.14,
+        "page": 184
+      }
+    ],
+    "notes": [
+      "Price band, lot size, and the share counts for the fresh issue and OFS are all [\u25cf] in this RHP. Only rupee amounts are given: fresh issue \u20b97,000 million, OFS \u20b92,000 million (Parmod Kumar \u20b91,120 million, Sunila Garg \u20b9880 million).",
+      "The offer includes an Employee Reservation Portion of up to \u20b920 million. The retail quota % is not printed on these pages.",
+      "Cash flow statement not on the pages provided, so CFO is null.",
+      "PAT is the restated profit for the year including NCI (2,139.30). Profit attributable to owners is 2,141.15 for FY2025.",
+      "Pre-IPO allotment: a rights issue on October 19, 2024 of 354,900 shares to Prashant Mathur at \u20b910 per share (face value \u20b910, before the 5:1 bonus and the split from \u20b910 to \u20b92 face value on October 24, 2024).",
+      "Promoter pre-offer % of 90.05 combines promoters (73.69%) and promoter group (16.36%), on a fully diluted basis.",
+      "Trade receivables in note 5 on page 96 (4,062.47) do not match the balance sheet current receivables (3,995.17). The gap equals the non-current receivables of 67.30.",
+      "EBITDA comes from the Accounting Ratios on page 462 (PBT + finance costs + D&A).",
+      "NSE symbols for peers are not printed in the RHP; they were inferred."
+    ]
+  }
+}

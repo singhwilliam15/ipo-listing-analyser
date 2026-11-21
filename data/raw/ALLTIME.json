@@ -1,0 +1,379 @@
+{
+  "symbol": "ALLTIME",
+  "rhp_file": "ALLTIME.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:11:50+00:00",
+  "pages_sent": [
+    1,
+    2,
+    24,
+    25,
+    26,
+    27,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    111,
+    112,
+    113,
+    128,
+    129,
+    161,
+    162,
+    163,
+    409,
+    410,
+    447
+  ],
+  "n_pdf_pages": 560,
+  "usage": {
+    "input_tokens": 34383,
+    "output_tokens": 2979,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3030481,
+    "session_id": "d7ecff81-e8ce-4342-a799-3d7fde1296f8"
+  },
+  "checks": [
+    "missing fy0 revenue or PAT"
+  ],
+  "fields": {
+    "company_rhp": "All Time Plastics Limited",
+    "sector": "Consumer & retail",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "stub_period_months": null,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "Intensive Fiscal Services Private Limited; DAM Capital Advisors Limited",
+    "revenue_fy2": 443.486,
+    "rhp_page_revenue_fy2": 27,
+    "revenue_fy1": 512.853,
+    "rhp_page_revenue_fy1": 27,
+    "revenue_fy0": 558.167,
+    "rhp_page_revenue_fy0": 27,
+    "ebitda_fy2": 73.382,
+    "rhp_page_ebitda_fy2": 409,
+    "ebitda_fy1": 97.101,
+    "rhp_page_ebitda_fy1": 409,
+    "ebitda_fy0": 101.337,
+    "rhp_page_ebitda_fy0": 409,
+    "pat_fy2": null,
+    "pat_fy1": null,
+    "pat_fy0": null,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 248.779,
+    "rhp_page_net_worth_fy0": 27,
+    "total_debt_fy0": 218.511,
+    "rhp_page_total_debt_fy0": 447,
+    "cash_fy0": null,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": 90.98,
+    "rhp_page_promoter_pre_pct": 26,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": 248.0,
+    "rhp_page_pre_ipo_price": 2,
+    "eps_fy0": 9.01,
+    "rhp_page_eps_fy0": 162,
+    "ronw_fy0_pct": 19.01,
+    "rhp_page_ronw_fy0_pct": 163,
+    "nav_per_share_fy0": 47.39,
+    "rhp_page_nav_per_share_fy0": 163,
+    "fresh_issue_cr": 280.0,
+    "rhp_page_fresh_issue_cr": 25,
+    "ofs_cr": null,
+    "fresh_issue_shares_cr": null,
+    "ofs_shares_cr": 0.4385562,
+    "rhp_page_ofs_shares_cr": 25,
+    "pre_issue_shares_cr": 5.532258,
+    "rhp_page_pre_issue_shares_cr": 96,
+    "post_issue_shares_cr": null,
+    "ofs_promoter_shares_cr": 0.43855619999999995,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 143.0,
+    "proceeds_capex_cr": 113.714,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "Shaily Engineering Plastics Limited; Cello World Limited",
+    "n_peers": 2,
+    "peer_pe_list": [
+      80.69,
+      40.71
+    ],
+    "peer_ronw_list": [
+      17.0,
+      16.82
+    ],
+    "rhp_page_peers": 163
+  },
+  "extract": {
+    "company": "All Time Plastics Limited",
+    "sector": "Consumer & retail",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 2800.0,
+      "unit": "million",
+      "page": 25
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "ofs_shares": {
+      "value": 4385562.0,
+      "unit": "shares",
+      "page": 25
+    },
+    "selling_shareholders": [
+      {
+        "name": "Kailesh Punamchand Shah",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 1461854.0,
+          "unit": "shares",
+          "page": 97
+        }
+      },
+      {
+        "name": "Bhupesh Punamchand Shah",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 1461854.0,
+          "unit": "shares",
+          "page": 97
+        }
+      },
+      {
+        "name": "Nilesh Punamchand Shah",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 1461854.0,
+          "unit": "shares",
+          "page": 97
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 55322580.0,
+      "unit": "shares",
+      "page": 96
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "promoter_pre_pct": {
+      "value": 90.98,
+      "unit": "percent",
+      "page": 26
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Prepayment or repayment of all or a portion of certain outstanding borrowings availed by the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 1430.0,
+          "unit": "million",
+          "page": 129
+        }
+      },
+      {
+        "purpose": "Purchase of equipment and machinery for the Manekpur Facility and installation of ASRS for warehouse in Manekpur Facility",
+        "category": "capex",
+        "amount": {
+          "value": 1137.14,
+          "unit": "million",
+          "page": 129
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": null,
+          "page": null
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 248.0,
+      "unit": "rupees",
+      "page": 2
+    },
+    "lead_managers": [
+      "Intensive Fiscal Services Private Limited",
+      "DAM Capital Advisors Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "revenue_fy2": {
+      "value": 4434.86,
+      "unit": "million",
+      "page": 27
+    },
+    "revenue_fy1": {
+      "value": 5128.53,
+      "unit": "million",
+      "page": 27
+    },
+    "revenue_fy0": {
+      "value": 5581.67,
+      "unit": "million",
+      "page": 27
+    },
+    "ebitda_fy2": {
+      "value": 733.82,
+      "unit": "million",
+      "page": 409
+    },
+    "ebitda_fy1": {
+      "value": 971.01,
+      "unit": "million",
+      "page": 409
+    },
+    "ebitda_fy0": {
+      "value": 1013.37,
+      "unit": "million",
+      "page": 409
+    },
+    "pat_fy2": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pat_fy1": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pat_fy0": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 2487.79,
+      "unit": "million",
+      "page": 27
+    },
+    "total_debt_fy0": {
+      "value": 2185.11,
+      "unit": "million",
+      "page": 447
+    },
+    "cash_fy0": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "eps_fy0": {
+      "value": 9.01,
+      "unit": "rupees",
+      "page": 162
+    },
+    "ronw_fy0_pct": {
+      "value": 19.01,
+      "unit": "percent",
+      "page": 163
+    },
+    "nav_per_share_fy0": {
+      "value": 47.39,
+      "unit": "rupees",
+      "page": 163
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Shaily Engineering Plastics Limited",
+        "nse_symbol": null,
+        "pe": 80.69,
+        "ronw_pct": 17.0,
+        "page": 163
+      },
+      {
+        "name": "Cello World Limited",
+        "nse_symbol": null,
+        "pe": 40.71,
+        "ronw_pct": 16.82,
+        "page": 163
+      }
+    ],
+    "notes": [
+      "The FY2025 figures are consolidated, but the FY2024 and FY2023 figures are standalone. The company had no subsidiaries before November 13, 2024.",
+      "Pages 99-101 (summary financial statements) are blank in the input. Restated PAT, CFO and cash for all years are not on the pages provided, so they are null.",
+      "The price band, lot size and number of fresh issue shares are [\u25cf] in the RHP.",
+      "Pre-IPO placement at \u20b9248.00 per share for \u20b9700.00 million. The fresh issue was cut from \u20b93,500 million to \u20b92,800 million as a result. The placement proceeds go to general corporate purposes.",
+      "Promoter pre-offer holding: 90.98% is promoters plus promoter group; promoters alone hold 90.79%.",
+      "EBITDA comes from the accounting ratios on page 409. The EBITDA margins were 18.16%, 18.93% and 16.55%.",
+      "Employee reservation portion: up to 35,750 shares. The retail quota % is not stated on the pages provided."
+    ]
+  }
+}

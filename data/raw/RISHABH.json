@@ -1,0 +1,381 @@
+{
+  "symbol": "RISHABH",
+  "rhp_file": "RISHABH.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T20:57:37+00:00",
+  "pages_sent": [
+    1,
+    2,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    105,
+    106,
+    107,
+    108,
+    128,
+    129,
+    130,
+    131,
+    153,
+    154,
+    155,
+    156,
+    157,
+    402,
+    403,
+    404
+  ],
+  "n_pdf_pages": 521,
+  "usage": {
+    "input_tokens": 53374,
+    "output_tokens": 3393,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.4651568,
+    "session_id": "6fcdfd8d-a097-442f-a6b4-0816410e7e83"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Rishabh Instruments Limited",
+    "sector": "Industrials & capital goods",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023 (March 31, 2023)",
+    "stub_period_months": null,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "DAM Capital Advisors Limited; Mirae Asset Capital Markets (India) Private Limited; Motilal Oswal Investment Advisors Limited",
+    "revenue_fy2": 389.956,
+    "rhp_page_revenue_fy2": 93,
+    "revenue_fy1": 470.25,
+    "rhp_page_revenue_fy1": 93,
+    "revenue_fy0": 569.54,
+    "rhp_page_revenue_fy0": 93,
+    "ebitda_fy2": 70.021,
+    "rhp_page_ebitda_fy2": 154,
+    "ebitda_fy1": 82.632,
+    "rhp_page_ebitda_fy1": 154,
+    "ebitda_fy0": 86.316,
+    "rhp_page_ebitda_fy0": 154,
+    "pat_fy2": 35.94,
+    "rhp_page_pat_fy2": 93,
+    "pat_fy1": 49.652,
+    "rhp_page_pat_fy1": 93,
+    "pat_fy0": 49.687,
+    "rhp_page_pat_fy0": 93,
+    "cfo_fy2": 52.934000000000005,
+    "rhp_page_cfo_fy2": 94,
+    "cfo_fy1": 13.282,
+    "rhp_page_cfo_fy1": 94,
+    "cfo_fy0": 27.508,
+    "rhp_page_cfo_fy0": 94,
+    "net_worth_fy0": 401.031,
+    "rhp_page_net_worth_fy0": 92,
+    "total_debt_fy0": 102.854,
+    "rhp_page_total_debt_fy0": 404,
+    "cash_fy0": 66.565,
+    "rhp_page_cash_fy0": 92,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 153,
+    "price_high": null,
+    "rhp_page_price_high": 153,
+    "lot_size": null,
+    "rhp_page_lot_size": 2,
+    "promoter_pre_pct": null,
+    "rhp_page_promoter_pre_pct": 25,
+    "promoter_post_pct": null,
+    "retail_quota_pct": 35.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": 89.56,
+    "rhp_page_pre_ipo_price": 156,
+    "eps_fy0": 12.84,
+    "rhp_page_eps_fy0": 93,
+    "ronw_fy0_pct": 11.67,
+    "rhp_page_ronw_fy0_pct": 154,
+    "nav_per_share_fy0": 109.98,
+    "rhp_page_nav_per_share_fy0": 154,
+    "fresh_issue_cr": 75.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.9428178,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 3.6260678,
+    "rhp_page_pre_issue_shares_cr": 89,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 89,
+    "ofs_promoter_shares_cr": 0.24175,
+    "ofs_investor_shares_cr": 0.7010678,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 62.886,
+    "proceeds_gcp_cr": 0.0,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "Rishabh Instruments Limited",
+    "sector": "Industrials & capital goods",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 153
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 153
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": 2
+    },
+    "fresh_issue_amount": {
+      "value": 750.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 9428178.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Asha Narendra Goliya",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 1500000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Rishabh Narendra Goliya",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 400000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Narendra Rishabh Goliya (HUF)",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 517500.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "SACEF Holdings II",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 7010678.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 36260678.0,
+      "unit": "shares",
+      "page": 89
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 89
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 25
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Financing the cost towards the Expansion of Nashik Manufacturing Facility I",
+        "category": "capex",
+        "amount": {
+          "value": 628.86,
+          "unit": "million",
+          "page": 128
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 128
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 89.56,
+      "unit": "rupees",
+      "page": 156
+    },
+    "lead_managers": [
+      "DAM Capital Advisors Limited",
+      "Mirae Asset Capital Markets (India) Private Limited",
+      "Motilal Oswal Investment Advisors Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023 (March 31, 2023)",
+    "revenue_fy2": {
+      "value": 3899.56,
+      "unit": "million",
+      "page": 93
+    },
+    "revenue_fy1": {
+      "value": 4702.5,
+      "unit": "million",
+      "page": 93
+    },
+    "revenue_fy0": {
+      "value": 5695.4,
+      "unit": "million",
+      "page": 93
+    },
+    "ebitda_fy2": {
+      "value": 700.21,
+      "unit": "million",
+      "page": 154
+    },
+    "ebitda_fy1": {
+      "value": 826.32,
+      "unit": "million",
+      "page": 154
+    },
+    "ebitda_fy0": {
+      "value": 863.16,
+      "unit": "million",
+      "page": 154
+    },
+    "pat_fy2": {
+      "value": 359.4,
+      "unit": "million",
+      "page": 93
+    },
+    "pat_fy1": {
+      "value": 496.52,
+      "unit": "million",
+      "page": 93
+    },
+    "pat_fy0": {
+      "value": 496.87,
+      "unit": "million",
+      "page": 93
+    },
+    "cfo_fy2": {
+      "value": 529.34,
+      "unit": "million",
+      "page": 94
+    },
+    "cfo_fy1": {
+      "value": 132.82,
+      "unit": "million",
+      "page": 94
+    },
+    "cfo_fy0": {
+      "value": 275.08,
+      "unit": "million",
+      "page": 94
+    },
+    "net_worth_fy0": {
+      "value": 4010.31,
+      "unit": "million",
+      "page": 92
+    },
+    "total_debt_fy0": {
+      "value": 1028.54,
+      "unit": "million",
+      "page": 404
+    },
+    "cash_fy0": {
+      "value": 665.65,
+      "unit": "million",
+      "page": 92
+    },
+    "eps_fy0": {
+      "value": 12.84,
+      "unit": "rupees",
+      "page": 93
+    },
+    "ronw_fy0_pct": {
+      "value": 11.67,
+      "unit": "percent",
+      "page": 154
+    },
+    "nav_per_share_fy0": {
+      "value": 109.98,
+      "unit": "rupees",
+      "page": 154
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": true,
+    "peers": [],
+    "notes": [
+      "Price band, lot size, fresh issue share count, OFS amount and post-offer shares are shown as [\u25cf] in the RHP.",
+      "Net worth taken as equity attributable to equity holders of parent (4,010.31 mn, p.92). The summary table on p.25 shows 'Net worth' 4,087.48 mn, which is total equity including non-controlling interest.",
+      "EBITDA FY2023 is 863.16 mn in the KPI table (p.154) but 863.17 mn in Other Financial Information (p.402). The KPI figure is used. Adjusted EBITDA FY2023 is 943.01 mn.",
+      "Promoter plus promoter group pre-offer holding is not printed as a single total. Individual holdings on p.25 are: Promoter 44.85%; Asha 12.41%; Rishabh Family Trust 9.93%; Anushree Family Trust 9.93%; Rishabh 2.07%; HUF 1.43%; Ivaan Foundation 0.06%; others negligible. Left null rather than calculated.",
+      "Pre-IPO allotment: on July 25, 2023, 7,010,278 equity shares were allotted to SACEF on conversion of 3,606,110 CCPS (originally subscribed in 2013 at \u20b9174.10 per CCPS). The WACA is \u20b989.56 per share. This is a conversion, not a fresh cash placement.",
+      "PAT includes non-controlling interest. PAT attributable to the parent for FY2023 is 468.17 mn.",
+      "The RHP states there are no comparable listed peers in India or globally.",
+      "GCP amount is [\u25cf] and is capped at 25% of gross Fresh Issue proceeds."
+    ]
+  }
+}

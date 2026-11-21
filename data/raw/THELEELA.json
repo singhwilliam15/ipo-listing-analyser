@@ -1,0 +1,358 @@
+{
+  "symbol": "THELEELA",
+  "rhp_file": "THELEELA.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:16:10+00:00",
+  "pages_sent": [
+    1,
+    2,
+    19,
+    20,
+    21,
+    22,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    121,
+    122,
+    123,
+    133,
+    134,
+    149,
+    150,
+    151,
+    441,
+    442,
+    477
+  ],
+  "n_pdf_pages": 610,
+  "usage": {
+    "input_tokens": 37510,
+    "output_tokens": 3322,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3352391,
+    "session_id": "3a35f4f7-fac1-44e2-8074-98a7d3021d53"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Schloss Bangalore Limited (The Leela)",
+    "sector": "Logistics & travel",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "stub_period_months": null,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "JM Financial Limited; BofA Securities India Limited; Morgan Stanley India Company Private Limited; J.P. Morgan India Private Limited; Kotak Mahindra Capital Company Limited; Axis Capital Limited; Citigroup Global Markets India Private Limited; IIFL Capital Services Limited; ICICI Securities Limited; Motilal Oswal Investment Advisors Limited; SBI Capital Markets Limited",
+    "revenue_fy2": 860.058,
+    "rhp_page_revenue_fy2": 106,
+    "revenue_fy1": 1171.453,
+    "rhp_page_revenue_fy1": 106,
+    "revenue_fy0": 1300.573,
+    "rhp_page_revenue_fy0": 106,
+    "ebitda_fy2": 423.629,
+    "rhp_page_ebitda_fy2": 441,
+    "ebitda_fy1": 600.026,
+    "rhp_page_ebitda_fy1": 441,
+    "ebitda_fy0": 700.168,
+    "rhp_page_ebitda_fy0": 441,
+    "pat_fy2": -61.679,
+    "rhp_page_pat_fy2": 106,
+    "pat_fy1": -2.127,
+    "rhp_page_pat_fy1": 106,
+    "pat_fy0": 47.658,
+    "rhp_page_pat_fy0": 106,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 3556.916,
+    "rhp_page_net_worth_fy0": 104,
+    "total_debt_fy0": 3908.746,
+    "rhp_page_total_debt_fy0": 477,
+    "cash_fy0": 130.007,
+    "rhp_page_cash_fy0": 104,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 151,
+    "price_high": null,
+    "rhp_page_price_high": 151,
+    "lot_size": null,
+    "promoter_pre_pct": 100.0,
+    "rhp_page_promoter_pre_pct": 21,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 22,
+    "retail_quota_pct": null,
+    "rhp_page_retail_quota_pct": 101,
+    "pre_ipo_price": 619.0,
+    "rhp_page_pre_ipo_price": 122,
+    "eps_fy0": 1.97,
+    "rhp_page_eps_fy0": 106,
+    "ronw_fy0_pct": 1.32,
+    "rhp_page_ronw_fy0_pct": 147,
+    "nav_per_share_fy0": 148.88,
+    "rhp_page_nav_per_share_fy0": 147,
+    "fresh_issue_cr": 2500.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": 1000.0,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 27.6486614,
+    "rhp_page_pre_issue_shares_cr": 101,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 101,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 2300.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "Schloss Bangalore Limited (The Leela)",
+    "sector": "Logistics & travel",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 151
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 151
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 25000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": 10000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Project Ballet Bangalore Holdings (DIFC) Pvt Ltd",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 276486614.0,
+      "unit": "shares",
+      "page": 101
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 101
+    },
+    "promoter_pre_pct": {
+      "value": 100.0,
+      "unit": "percent",
+      "page": 21
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 22
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment/prepayment/redemption of certain outstanding borrowings of the Company (incl. interest accrued and prepayment penalties)",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 11025.0,
+          "unit": "million",
+          "page": 134
+        }
+      },
+      {
+        "purpose": "Repayment/prepayment/redemption of borrowings of wholly owned subsidiaries/step-down subsidiaries (Schloss Chanakya, Schloss Chennai, Schloss Udaipur, TPRPL) through investment",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 11975.0,
+          "unit": "million",
+          "page": 134
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 134
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 101
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 619.0,
+      "unit": "rupees",
+      "page": 122
+    },
+    "lead_managers": [
+      "JM Financial Limited",
+      "BofA Securities India Limited",
+      "Morgan Stanley India Company Private Limited",
+      "J.P. Morgan India Private Limited",
+      "Kotak Mahindra Capital Company Limited",
+      "Axis Capital Limited",
+      "Citigroup Global Markets India Private Limited",
+      "IIFL Capital Services Limited",
+      "ICICI Securities Limited",
+      "Motilal Oswal Investment Advisors Limited",
+      "SBI Capital Markets Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "revenue_fy2": {
+      "value": 8600.58,
+      "unit": "million",
+      "page": 106
+    },
+    "revenue_fy1": {
+      "value": 11714.53,
+      "unit": "million",
+      "page": 106
+    },
+    "revenue_fy0": {
+      "value": 13005.73,
+      "unit": "million",
+      "page": 106
+    },
+    "ebitda_fy2": {
+      "value": 4236.29,
+      "unit": "million",
+      "page": 441
+    },
+    "ebitda_fy1": {
+      "value": 6000.26,
+      "unit": "million",
+      "page": 441
+    },
+    "ebitda_fy0": {
+      "value": 7001.68,
+      "unit": "million",
+      "page": 441
+    },
+    "pat_fy2": {
+      "value": -616.79,
+      "unit": "million",
+      "page": 106
+    },
+    "pat_fy1": {
+      "value": -21.27,
+      "unit": "million",
+      "page": 106
+    },
+    "pat_fy0": {
+      "value": 476.58,
+      "unit": "million",
+      "page": 106
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 35569.16,
+      "unit": "million",
+      "page": 104
+    },
+    "total_debt_fy0": {
+      "value": 39087.46,
+      "unit": "million",
+      "page": 477
+    },
+    "cash_fy0": {
+      "value": 1300.07,
+      "unit": "million",
+      "page": 104
+    },
+    "eps_fy0": {
+      "value": 1.97,
+      "unit": "rupees",
+      "page": 106
+    },
+    "ronw_fy0_pct": {
+      "value": 1.32,
+      "unit": "percent",
+      "page": 147
+    },
+    "nav_per_share_fy0": {
+      "value": 148.88,
+      "unit": "rupees",
+      "page": 147
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [],
+    "notes": [
+      "Price band, lot size, and the share counts for the fresh issue, OFS and post-offer are shown as [\u25cf] in the RHP pages provided.",
+      "The peer comparison table is not on the pages provided. Page 147 gives only the industry P/E range: highest 197.91, lowest 36.24, average 95.13. Because of this, the peers list is empty.",
+      "Net worth fy0 is the equity attributable to owners (35,569.16 million). The RHP's own 'Net Worth' of 36,049.88 million includes non-controlling interest of 480.72 million. RoNW (1.32%) and NAV per share (148.88) are calculated on the 36,049.88 figure. Net worth was negative in FY2024 and FY2023.",
+      "No cash flow statement was provided, so CFO is null for all three years.",
+      "The retail quota is not printed as a percentage. Page 102 says at least 75% goes to QIBs and not more than 15% to NIIs, which implies about 10% retail, but this is not stated.",
+      "Pre-IPO: CCPS were issued by private placement in July and September 2024 at \u20b9100 per CCPS. They were converted into 100,501,294 equity shares on January 10, 2025, at \u20b9619 per equity share.",
+      "Promoters and the promoter group hold 100% of the company before the offer. The promoters are Brookfield-affiliated entities.",
+      "Sector: this is a hospitality (hotels) business, and 'Logistics & travel' was chosen as the closest category."
+    ]
+  }
+}

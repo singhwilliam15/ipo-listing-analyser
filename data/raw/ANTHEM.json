@@ -1,0 +1,440 @@
+{
+  "symbol": "ANTHEM",
+  "rhp_file": "ANTHEM.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:13:51+00:00",
+  "pages_sent": [
+    1,
+    2,
+    27,
+    28,
+    29,
+    30,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    96,
+    97,
+    98,
+    116,
+    117,
+    119,
+    120,
+    121,
+    325,
+    326,
+    357
+  ],
+  "n_pdf_pages": 523,
+  "usage": {
+    "input_tokens": 49037,
+    "output_tokens": 4259,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.44734469999999993,
+    "session_id": "e9decd1e-4f3b-4797-91e0-d7afe269a6ec"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Anthem Biosciences Limited",
+    "sector": "Healthcare & pharma",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "stub_period_months": null,
+    "pre_ipo_placement": "no",
+    "lead_managers": "JM Financial Limited; Citigroup Global Markets India Private Limited; J.P. Morgan India Private Limited; Nomura Financial Advisory and Securities (India) Private Limited",
+    "revenue_fy2": 1056.924,
+    "rhp_page_revenue_fy2": 86,
+    "revenue_fy1": 1419.37,
+    "rhp_page_revenue_fy1": 86,
+    "revenue_fy0": 1844.553,
+    "rhp_page_revenue_fy0": 86,
+    "ebitda_fy2": 446.053,
+    "rhp_page_ebitda_fy2": 325,
+    "ebitda_fy1": 519.955,
+    "rhp_page_ebitda_fy1": 325,
+    "ebitda_fy0": 683.78,
+    "rhp_page_ebitda_fy0": 325,
+    "pat_fy2": 385.185,
+    "rhp_page_pat_fy2": 86,
+    "pat_fy1": 367.31,
+    "rhp_page_pat_fy1": 86,
+    "pat_fy0": 451.259,
+    "rhp_page_pat_fy0": 86,
+    "cfo_fy2": 305.985,
+    "rhp_page_cfo_fy2": 87,
+    "cfo_fy1": 140.151,
+    "rhp_page_cfo_fy1": 87,
+    "cfo_fy0": 418.33599999999996,
+    "rhp_page_cfo_fy0": 87,
+    "net_worth_fy0": 2409.864,
+    "rhp_page_net_worth_fy0": 29,
+    "total_debt_fy0": 108.954,
+    "rhp_page_total_debt_fy0": 29,
+    "cash_fy0": 316.142,
+    "rhp_page_cash_fy0": 85,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 119,
+    "price_high": null,
+    "rhp_page_price_high": 119,
+    "lot_size": null,
+    "rhp_page_lot_size": 2,
+    "promoter_pre_pct": null,
+    "rhp_page_promoter_pre_pct": 28,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 28,
+    "retail_quota_pct": 35.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": null,
+    "rhp_page_pre_ipo_price": 98,
+    "eps_fy0": 8.07,
+    "rhp_page_eps_fy0": 29,
+    "ronw_fy0_pct": 20.82,
+    "rhp_page_ronw_fy0_pct": 120,
+    "nav_per_share_fy0": 43.1,
+    "rhp_page_nav_per_share_fy0": 120,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": 3395.0,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 56.1610051,
+    "rhp_page_pre_issue_shares_cr": 82,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 82,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": null,
+    "proceeds_capex_cr": null,
+    "proceeds_gcp_cr": null,
+    "peers": "SYNGENE; SAILIFE; COHANCE; DIVISLAB",
+    "n_peers": 4,
+    "peer_pe_list": [
+      51.54,
+      92.18,
+      97.29,
+      83.22
+    ],
+    "peer_ronw_list": [
+      11.05,
+      10.96,
+      13.61,
+      15.35
+    ],
+    "rhp_page_peers": 121
+  },
+  "extract": {
+    "company": "Anthem Biosciences Limited",
+    "sector": "Healthcare & pharma",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 119
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 119
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": 2
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": 33950.0,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Ganesh Sambasivam",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "K Ravindra Chandrappa",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Viridity Tone LLP",
+        "kind": "investor",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Portsmouth Technologies LLC",
+        "kind": "investor",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Malay J Barua",
+        "kind": "other",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Rupesh N Kinekar",
+        "kind": "other",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Satish Sharma",
+        "kind": "other",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Prakash Kariabettan",
+        "kind": "other",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "K Ramakrishnan",
+        "kind": "other",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 561610051.0,
+      "unit": "shares",
+      "page": 82
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 82
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 28
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 28
+    },
+    "objects_of_offer": [],
+    "retail_quota_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": 98
+    },
+    "lead_managers": [
+      "JM Financial Limited",
+      "Citigroup Global Markets India Private Limited",
+      "J.P. Morgan India Private Limited",
+      "Nomura Financial Advisory and Securities (India) Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "revenue_fy2": {
+      "value": 10569.24,
+      "unit": "million",
+      "page": 86
+    },
+    "revenue_fy1": {
+      "value": 14193.7,
+      "unit": "million",
+      "page": 86
+    },
+    "revenue_fy0": {
+      "value": 18445.53,
+      "unit": "million",
+      "page": 86
+    },
+    "ebitda_fy2": {
+      "value": 4460.53,
+      "unit": "million",
+      "page": 325
+    },
+    "ebitda_fy1": {
+      "value": 5199.55,
+      "unit": "million",
+      "page": 325
+    },
+    "ebitda_fy0": {
+      "value": 6837.8,
+      "unit": "million",
+      "page": 325
+    },
+    "pat_fy2": {
+      "value": 3851.85,
+      "unit": "million",
+      "page": 86
+    },
+    "pat_fy1": {
+      "value": 3673.1,
+      "unit": "million",
+      "page": 86
+    },
+    "pat_fy0": {
+      "value": 4512.59,
+      "unit": "million",
+      "page": 86
+    },
+    "cfo_fy2": {
+      "value": 3059.85,
+      "unit": "million",
+      "page": 87
+    },
+    "cfo_fy1": {
+      "value": 1401.51,
+      "unit": "million",
+      "page": 87
+    },
+    "cfo_fy0": {
+      "value": 4183.36,
+      "unit": "million",
+      "page": 87
+    },
+    "net_worth_fy0": {
+      "value": 24098.64,
+      "unit": "million",
+      "page": 29
+    },
+    "total_debt_fy0": {
+      "value": 1089.54,
+      "unit": "million",
+      "page": 29
+    },
+    "cash_fy0": {
+      "value": 3161.42,
+      "unit": "million",
+      "page": 85
+    },
+    "eps_fy0": {
+      "value": 8.07,
+      "unit": "rupees",
+      "page": 29
+    },
+    "ronw_fy0_pct": {
+      "value": 20.82,
+      "unit": "percent",
+      "page": 120
+    },
+    "nav_per_share_fy0": {
+      "value": 43.1,
+      "unit": "rupees",
+      "page": 120
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Syngene International Limited",
+        "nse_symbol": "SYNGENE",
+        "pe": 51.54,
+        "ronw_pct": 11.05,
+        "page": 121
+      },
+      {
+        "name": "Sai Life Sciences Limited",
+        "nse_symbol": "SAILIFE",
+        "pe": 92.18,
+        "ronw_pct": 10.96,
+        "page": 121
+      },
+      {
+        "name": "Cohance Lifesciences Limited (Formerly Suven Pharmaceuticals)",
+        "nse_symbol": "COHANCE",
+        "pe": 97.29,
+        "ronw_pct": 13.61,
+        "page": 121
+      },
+      {
+        "name": "Divi's Laboratories Limited",
+        "nse_symbol": "DIVISLAB",
+        "pe": 83.22,
+        "ronw_pct": 15.35,
+        "page": 121
+      }
+    ],
+    "notes": [
+      "Pure offer for sale (\u20b933,950.00 million); no fresh issue, so there are no objects of the offer and the company receives no proceeds.",
+      "Price band, lot size and the number of shares offered by each seller are all shown as [\u25cf]. Only amounts are printed per seller: Ganesh Sambasivam \u20b93,500m, K Ravindra Chandrappa \u20b93,500m, Viridity Tone LLP \u20b913,250m, Portsmouth Technologies LLC \u20b93,200m, Malay J Barua \u20b93,200m, Rupesh N Kinekar \u20b93,200m, Satish Sharma \u20b93,200m, Prakash Kariabettan \u20b9800m, K Ramakrishnan \u20b9100m.",
+      "PAT figures differ: the summary on page 29 labels 4,508.63/3,670.62/3,859.41 as 'Restated profit for the year', but these are total comprehensive income in the restated P&L (page 86). Profit for the year (item IX) is 4,512.59/3,673.10/3,851.85, and that is what was used.",
+      "Cash and cash equivalents is 3,161.42 in the balance sheet (page 85) and 3,169.81 in the cash flow statement (page 87). The balance sheet figure was used.",
+      "No aggregate promoter holding is printed, so it is left null. Individual pre-offer % (fully diluted): Ajay Bhardwaj 42.53, Ishaan Bhardwaj 10.16, Ganesh Sambasivam 9.23, K Ravindra Chandrappa 8.86; promoter group Krithika Ganesh 1.52, Aruna Ganesh 1.52, S Vijayalakshmi 1.02, Swara Trust 1.02, Keerthi Trust 1.02 (page 28). Post-offer figures are [\u25cf].",
+      "The only allotment in the 12 months before the RHP is an ESOP exercise on June 11, 2025: 2,532,951 shares at \u20b9100.75 to 745 employees. It is not treated as a pre-IPO placement or preferential allotment. Earlier: a buy-back on January 16, 2024 at \u20b9130.55, and a private placement to Viridity Tone LLP on April 9, 2021 at \u20b98,485.52 (face value \u20b910, before the share split and bonus).",
+      "EBITDA is the company's Operating EBITDA, a non-GAAP measure (page 325). FY2025 includes a share-based compensation expense of \u20b9343.46m and IPO expenses of \u20b941.60m.",
+      "Retail quota is 'not less than 35%' of the Offer. There is also an employee reservation of up to \u20b982.50 million.",
+      "Peer NSE symbols are not printed in the RHP; they were inferred."
+    ]
+  }
+}

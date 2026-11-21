@@ -1,0 +1,479 @@
+{
+  "symbol": "JSFB",
+  "rhp_file": "JSFB.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T21:04:10+00:00",
+  "pages_sent": [
+    1,
+    2,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    137,
+    138,
+    139,
+    140,
+    188,
+    189,
+    190,
+    191,
+    193,
+    194,
+    195,
+    196,
+    197,
+    469,
+    470,
+    471,
+    513
+  ],
+  "n_pdf_pages": 603,
+  "usage": {
+    "input_tokens": 61666,
+    "output_tokens": 4004,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.5445424,
+    "session_id": "7b2a281f-1ed6-4c4c-a15d-e5716a5035ee"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Jana Small Finance Bank Limited",
+    "sector": "Banking & NBFC",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "FY2023",
+    "stub_period_months": 6,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "Axis Capital Limited; ICICI Securities Limited; SBI Capital Markets Limited",
+    "revenue_fy2": 2720.741,
+    "rhp_page_revenue_fy2": 126,
+    "revenue_fy1": 3062.365,
+    "rhp_page_revenue_fy1": 126,
+    "revenue_fy0": 3699.875,
+    "rhp_page_revenue_fy0": 126,
+    "ebitda_fy2": 154.937,
+    "rhp_page_ebitda_fy2": 469,
+    "ebitda_fy1": 98.286,
+    "rhp_page_ebitda_fy1": 469,
+    "ebitda_fy0": 324.66,
+    "rhp_page_ebitda_fy0": 469,
+    "pat_fy2": 72.26,
+    "rhp_page_pat_fy2": 126,
+    "pat_fy1": 17.471,
+    "rhp_page_pat_fy1": 126,
+    "pat_fy0": 255.971,
+    "rhp_page_pat_fy0": 126,
+    "cfo_fy2": 615.321,
+    "rhp_page_cfo_fy2": 127,
+    "cfo_fy1": 858.609,
+    "rhp_page_cfo_fy1": 127,
+    "cfo_fy0": -1137.181,
+    "rhp_page_cfo_fy0": 127,
+    "net_worth_fy0": 1777.069,
+    "rhp_page_net_worth_fy0": 28,
+    "total_debt_fy0": 6277.46,
+    "rhp_page_total_debt_fy0": 125,
+    "cash_fy0": 2066.882,
+    "rhp_page_cash_fy0": 127,
+    "revenue_stub": 2215.568,
+    "rhp_page_revenue_stub": 126,
+    "pat_stub": 213.218,
+    "rhp_page_pat_stub": 126,
+    "price_low": null,
+    "rhp_page_price_low": 194,
+    "price_high": null,
+    "rhp_page_price_high": 194,
+    "lot_size": null,
+    "promoter_pre_pct": 25.23,
+    "rhp_page_promoter_pre_pct": 28,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": 414.0,
+    "rhp_page_pre_ipo_price": 1,
+    "eps_fy0": 47.47,
+    "rhp_page_eps_fy0": 126,
+    "ronw_fy0_pct": 14.4,
+    "rhp_page_ronw_fy0_pct": 194,
+    "nav_per_share_fy0": 323.23,
+    "rhp_page_nav_per_share_fy0": 28,
+    "fresh_issue_cr": 462.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.2608629,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 9.3430855,
+    "rhp_page_pre_issue_shares_cr": 122,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 122,
+    "ofs_promoter_shares_cr": 0,
+    "ofs_investor_shares_cr": 0.2608629,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "AUBANK; SURYODAY; CREDITACC; SPANDANA; BANDHANBNK; UJJIVANSFB; EQUITASBNK; FUSION; UTKARSHBNK",
+    "n_peers": 9,
+    "peer_pe_list": [
+      35.47,
+      24.21,
+      32.66,
+      665.52,
+      16.87,
+      10.15,
+      24.21,
+      14.68,
+      13.51
+    ],
+    "peer_ronw_list": [
+      13.0,
+      4.9,
+      16.18,
+      0.4,
+      11.21,
+      26.45,
+      11.21,
+      16.67,
+      20.22
+    ],
+    "rhp_page_peers": 195
+  },
+  "extract": {
+    "company": "Jana Small Finance Bank Limited",
+    "sector": "Banking & NBFC",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 194
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 194
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 4620.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 2608629.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Client Rosehill Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 906277.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "CVCIGP II Employee Rosehill Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 929656.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Global Impact Funds, S.C.A., SICAR, sub-fund Global Financial Inclusion Fund",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 141285.0,
+          "unit": "shares",
+          "page": 2
+        }
+      },
+      {
+        "name": "Growth Partnership II Ajay Tandon Co-Investment Trust",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 413.0,
+          "unit": "shares",
+          "page": 2
+        }
+      },
+      {
+        "name": "Growth Partnership II Siva Shankar Co-Investment Trust",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 998.0,
+          "unit": "shares",
+          "page": 2
+        }
+      },
+      {
+        "name": "Hero Enterprise Partner Ventures",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 630000.0,
+          "unit": "shares",
+          "page": 2
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 93430855.0,
+      "unit": "shares",
+      "page": 122
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 122
+    },
+    "promoter_pre_pct": {
+      "value": 25.23,
+      "unit": "percent",
+      "page": 28
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Augmentation of the Bank's Tier-1 capital base",
+        "category": "other",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 28
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 414.0,
+      "unit": "rupees",
+      "page": 1
+    },
+    "lead_managers": [
+      "Axis Capital Limited",
+      "ICICI Securities Limited",
+      "SBI Capital Markets Limited"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "FY2023",
+    "revenue_fy2": {
+      "value": 27207.41,
+      "unit": "million",
+      "page": 126
+    },
+    "revenue_fy1": {
+      "value": 30623.65,
+      "unit": "million",
+      "page": 126
+    },
+    "revenue_fy0": {
+      "value": 36998.75,
+      "unit": "million",
+      "page": 126
+    },
+    "ebitda_fy2": {
+      "value": 1549.37,
+      "unit": "million",
+      "page": 469
+    },
+    "ebitda_fy1": {
+      "value": 982.86,
+      "unit": "million",
+      "page": 469
+    },
+    "ebitda_fy0": {
+      "value": 3246.6,
+      "unit": "million",
+      "page": 469
+    },
+    "pat_fy2": {
+      "value": 722.6,
+      "unit": "million",
+      "page": 126
+    },
+    "pat_fy1": {
+      "value": 174.71,
+      "unit": "million",
+      "page": 126
+    },
+    "pat_fy0": {
+      "value": 2559.71,
+      "unit": "million",
+      "page": 126
+    },
+    "cfo_fy2": {
+      "value": 6153.21,
+      "unit": "million",
+      "page": 127
+    },
+    "cfo_fy1": {
+      "value": 8586.09,
+      "unit": "million",
+      "page": 127
+    },
+    "cfo_fy0": {
+      "value": -11371.81,
+      "unit": "million",
+      "page": 127
+    },
+    "net_worth_fy0": {
+      "value": 17770.69,
+      "unit": "million",
+      "page": 28
+    },
+    "total_debt_fy0": {
+      "value": 62774.6,
+      "unit": "million",
+      "page": 125
+    },
+    "cash_fy0": {
+      "value": 20668.82,
+      "unit": "million",
+      "page": 127
+    },
+    "eps_fy0": {
+      "value": 47.47,
+      "unit": "rupees",
+      "page": 126
+    },
+    "ronw_fy0_pct": {
+      "value": 14.4,
+      "unit": "percent",
+      "page": 194
+    },
+    "nav_per_share_fy0": {
+      "value": 323.23,
+      "unit": "rupees",
+      "page": 28
+    },
+    "stub_period_months": 6,
+    "revenue_stub": {
+      "value": 22155.68,
+      "unit": "million",
+      "page": 126
+    },
+    "pat_stub": {
+      "value": 2132.18,
+      "unit": "million",
+      "page": 126
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "AU Small Finance Bank Limited",
+        "nse_symbol": "AUBANK",
+        "pe": 35.47,
+        "ronw_pct": 13.0,
+        "page": 195
+      },
+      {
+        "name": "Suryoday Small Finance Bank Limited",
+        "nse_symbol": "SURYODAY",
+        "pe": 24.21,
+        "ronw_pct": 4.9,
+        "page": 195
+      },
+      {
+        "name": "Credit Access Grameen Limited",
+        "nse_symbol": "CREDITACC",
+        "pe": 32.66,
+        "ronw_pct": 16.18,
+        "page": 195
+      },
+      {
+        "name": "Spandana Sphoorty Financial Limited",
+        "nse_symbol": "SPANDANA",
+        "pe": 665.52,
+        "ronw_pct": 0.4,
+        "page": 195
+      },
+      {
+        "name": "Bandhan Bank Limited",
+        "nse_symbol": "BANDHANBNK",
+        "pe": 16.87,
+        "ronw_pct": 11.21,
+        "page": 195
+      },
+      {
+        "name": "Ujjivan Small Finance Bank Limited",
+        "nse_symbol": "UJJIVANSFB",
+        "pe": 10.15,
+        "ronw_pct": 26.45,
+        "page": 195
+      },
+      {
+        "name": "Equitas Small Finance Bank Limited",
+        "nse_symbol": "EQUITASBNK",
+        "pe": 24.21,
+        "ronw_pct": 11.21,
+        "page": 195
+      },
+      {
+        "name": "Fusion Micro Finance Limited",
+        "nse_symbol": "FUSION",
+        "pe": 14.68,
+        "ronw_pct": 16.67,
+        "page": 195
+      },
+      {
+        "name": "Utkarsh Small Finance Bank Limited",
+        "nse_symbol": "UTKARSHBNK",
+        "pe": 13.51,
+        "ronw_pct": 20.22,
+        "page": 195
+      }
+    ],
+    "notes": [
+      "Bank: no 'revenue from operations' line item (p.30 says so); revenue figures are Total income (interest earned + other income) from restated P&L, p.126.",
+      "Restated Financial Statements are not labelled consolidated; the Bank seems to have no subsidiaries, so they are taken as standalone.",
+      "Price band, lot size, fresh issue share count, and post-offer shares are [\u25cf] in the RHP.",
+      "Objects: Net Proceeds go to augmenting Tier-1 capital (amount [\u25cf]); categorised as 'other'.",
+      "Pre-IPO placement: 2,439,607 equity shares at \u20b9414 (Jan 19, 2024) plus 12,154,044 CCPS at \u20b910 (converted into 401,149 equity shares). Fresh issue was cut to \u20b94,620 million as a result.",
+      "EBITDA comes from Other Financial Information (p.469), worked out as net profit + depreciation + tax; it is not in the KPI table.",
+      "Cash fy0 = cash and cash equivalents at end of FY2023 from the cash flow statement (p.127).",
+      "Promoter pre-offer holding of 25.23% is JHL only; JCL holds no equity shares.",
+      "Lead managers list may be incomplete: p.129 is cut off after SBI Capital Markets.",
+      "Retail quota is not stated on the pages given.",
+      "NSE symbols for peers are not printed in the RHP; they were inferred."
+    ]
+  }
+}

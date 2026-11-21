@@ -1,0 +1,388 @@
+{
+  "symbol": "VARMORA",
+  "rhp_file": "VARMORA.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:20:15+00:00",
+  "pages_sent": [
+    1,
+    2,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    89,
+    90,
+    91,
+    127,
+    128,
+    138,
+    139,
+    140,
+    396,
+    397,
+    428
+  ],
+  "n_pdf_pages": 591,
+  "usage": {
+    "input_tokens": 32639,
+    "output_tokens": 3276,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.29486389999999996,
+    "session_id": "68d31736-e730-4f92-987a-6b41811869a3"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Varmora Granito Limited",
+    "sector": "Chemicals & materials",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "stub_period_months": null,
+    "pre_ipo_placement": null,
+    "lead_managers": "JM Financial Limited; Goldman Sachs (India) Securities Private Limited; SBI Capital Markets Limited",
+    "revenue_fy2": 1435.481,
+    "rhp_page_revenue_fy2": 69,
+    "revenue_fy1": 1446.029,
+    "rhp_page_revenue_fy1": 69,
+    "revenue_fy0": 1512.464,
+    "rhp_page_revenue_fy0": 69,
+    "ebitda_fy2": 150.33,
+    "rhp_page_ebitda_fy2": 396,
+    "ebitda_fy1": 198.291,
+    "rhp_page_ebitda_fy1": 396,
+    "ebitda_fy0": 221.556,
+    "rhp_page_ebitda_fy0": 396,
+    "pat_fy2": 44.935,
+    "rhp_page_pat_fy2": 69,
+    "pat_fy1": 30.773,
+    "rhp_page_pat_fy1": 69,
+    "pat_fy0": 55.093,
+    "rhp_page_pat_fy0": 69,
+    "cfo_fy2": 88.291,
+    "rhp_page_cfo_fy2": 70,
+    "cfo_fy1": 63.213,
+    "rhp_page_cfo_fy1": 70,
+    "cfo_fy0": 234.07,
+    "rhp_page_cfo_fy0": 70,
+    "net_worth_fy0": 806.027,
+    "rhp_page_net_worth_fy0": 67,
+    "total_debt_fy0": 357.948,
+    "rhp_page_total_debt_fy0": 428,
+    "cash_fy0": 81.912,
+    "rhp_page_cash_fy0": 67,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 138,
+    "price_high": null,
+    "rhp_page_price_high": 138,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "rhp_page_retail_quota_pct": 64,
+    "pre_ipo_price": null,
+    "eps_fy0": 3.08,
+    "rhp_page_eps_fy0": 69,
+    "ronw_fy0_pct": 7.79,
+    "rhp_page_ronw_fy0_pct": 139,
+    "nav_per_share_fy0": 39.52,
+    "rhp_page_nav_per_share_fy0": 139,
+    "fresh_issue_cr": 320.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 2.6217634,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 20.4390203,
+    "rhp_page_pre_issue_shares_cr": 64,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 64,
+    "ofs_promoter_shares_cr": 0,
+    "ofs_investor_shares_cr": 2.6217634,
+    "proceeds_debt_repayment_cr": 245.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "KAJARIACER; SOMANYCERA; ASIANTILES; ORIENTBELL",
+    "n_peers": 4,
+    "peer_pe_list": [
+      40.27,
+      28.55,
+      72.0,
+      47.67
+    ],
+    "peer_ronw_list": [
+      15.89,
+      8.79,
+      1.23,
+      3.78
+    ],
+    "rhp_page_peers": 140
+  },
+  "extract": {
+    "company": "Varmora Granito Limited",
+    "sector": "Chemicals & materials",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 138
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 138
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 3200.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 26217634.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Katsura Investments",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 26217634.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 204390203.0,
+      "unit": "shares",
+      "page": 64
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 64
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment/pre-payment of outstanding borrowings and accrued interest of the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 2150.0,
+          "unit": "million",
+          "page": 128
+        }
+      },
+      {
+        "purpose": "Repayment/pre-payment of borrowings of wholly-owned subsidiaries Covertek Ceramica Private Limited and Varmora Sanitarywares Private Limited through investment in such subsidiaries",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 300.0,
+          "unit": "million",
+          "page": 128
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 128
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 64
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "JM Financial Limited",
+      "Goldman Sachs (India) Securities Private Limited",
+      "SBI Capital Markets Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "revenue_fy2": {
+      "value": 14354.81,
+      "unit": "million",
+      "page": 69
+    },
+    "revenue_fy1": {
+      "value": 14460.29,
+      "unit": "million",
+      "page": 69
+    },
+    "revenue_fy0": {
+      "value": 15124.64,
+      "unit": "million",
+      "page": 69
+    },
+    "ebitda_fy2": {
+      "value": 1503.3,
+      "unit": "million",
+      "page": 396
+    },
+    "ebitda_fy1": {
+      "value": 1982.91,
+      "unit": "million",
+      "page": 396
+    },
+    "ebitda_fy0": {
+      "value": 2215.56,
+      "unit": "million",
+      "page": 396
+    },
+    "pat_fy2": {
+      "value": 449.35,
+      "unit": "million",
+      "page": 69
+    },
+    "pat_fy1": {
+      "value": 307.73,
+      "unit": "million",
+      "page": 69
+    },
+    "pat_fy0": {
+      "value": 550.93,
+      "unit": "million",
+      "page": 69
+    },
+    "cfo_fy2": {
+      "value": 882.91,
+      "unit": "million",
+      "page": 70
+    },
+    "cfo_fy1": {
+      "value": 632.13,
+      "unit": "million",
+      "page": 70
+    },
+    "cfo_fy0": {
+      "value": 2340.7,
+      "unit": "million",
+      "page": 70
+    },
+    "net_worth_fy0": {
+      "value": 8060.27,
+      "unit": "million",
+      "page": 67
+    },
+    "total_debt_fy0": {
+      "value": 3579.48,
+      "unit": "million",
+      "page": 428
+    },
+    "cash_fy0": {
+      "value": 819.12,
+      "unit": "million",
+      "page": 67
+    },
+    "eps_fy0": {
+      "value": 3.08,
+      "unit": "rupees",
+      "page": 69
+    },
+    "ronw_fy0_pct": {
+      "value": 7.79,
+      "unit": "percent",
+      "page": 139
+    },
+    "nav_per_share_fy0": {
+      "value": 39.52,
+      "unit": "rupees",
+      "page": 139
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Kajaria Ceramics Limited",
+        "nse_symbol": "KAJARIACER",
+        "pe": 40.27,
+        "ronw_pct": 15.89,
+        "page": 140
+      },
+      {
+        "name": "Somany Ceramics Limited",
+        "nse_symbol": "SOMANYCERA",
+        "pe": 28.55,
+        "ronw_pct": 8.79,
+        "page": 140
+      },
+      {
+        "name": "Asian Granito India Limited",
+        "nse_symbol": "ASIANTILES",
+        "pe": 72.0,
+        "ronw_pct": 1.23,
+        "page": 140
+      },
+      {
+        "name": "Orient Bell Limited",
+        "nse_symbol": "ORIENTBELL",
+        "pe": 47.67,
+        "ronw_pct": 3.78,
+        "page": 140
+      }
+    ],
+    "notes": [
+      "Price band, lot size, fresh issue share count, OFS amount and post-offer shares are all printed as [\u25cf] in this RHP.",
+      "Retail quota % is not given as a number on these pages; it is shown only as 'Not less than [\u25cf] Equity Shares'. Because the offer is under Regulation 6(1), the usual figure would be 35%, but it was not extracted.",
+      "Promoter shareholding % and details of any pre-IPO placement are not on the pages provided.",
+      "PAT is the profit for the year including non-controlling interest (550.93). The profit attributable to owners is 620.57, because the NCI share was a loss of (69.64).",
+      "Net worth is total equity attributable to equity holders of the Holding Company (8,060.27). Total equity including NCI is 8,102.16.",
+      "EBITDA is EBITDA before exceptional items, as given in Other Financial Information (p.392 printed / marker 396).",
+      "General corporate purposes amount is [\u25cf]; it is capped at 25% of gross proceeds.",
+      "Sector chosen as Chemicals & materials (tiles/building materials); Consumer & retail is an alternative classification.",
+      "Peer NSE symbols were not printed in the RHP; they were filled in from general knowledge."
+    ]
+  }
+}

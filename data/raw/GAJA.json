@@ -1,0 +1,452 @@
+{
+  "symbol": "GAJA",
+  "rhp_file": "GAJA.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:24:40+00:00",
+  "pages_sent": [
+    1,
+    2,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    92,
+    93,
+    94,
+    115,
+    116,
+    128,
+    129,
+    130,
+    344,
+    345,
+    373
+  ],
+  "n_pdf_pages": 504,
+  "usage": {
+    "input_tokens": 29565,
+    "output_tokens": 4290,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.29024630000000007,
+    "session_id": "f591bd60-039d-4c77-8323-54a45c44f001"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Gaja Alternative Asset Management Limited",
+    "sector": "Financial services",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "stub_period_months": null,
+    "pre_ipo_placement": null,
+    "lead_managers": "JM Financial Limited; IIFL Capital Services Limited",
+    "revenue_fy2": 95.64,
+    "rhp_page_revenue_fy2": 73,
+    "revenue_fy1": 121.999,
+    "rhp_page_revenue_fy1": 73,
+    "revenue_fy0": 135.531,
+    "rhp_page_revenue_fy0": 73,
+    "ebitda_fy2": 49.253,
+    "rhp_page_ebitda_fy2": 344,
+    "ebitda_fy1": 60.809,
+    "rhp_page_ebitda_fy1": 344,
+    "ebitda_fy0": 72.052,
+    "rhp_page_ebitda_fy0": 344,
+    "pat_fy2": 44.742,
+    "rhp_page_pat_fy2": 73,
+    "pat_fy1": 61.951,
+    "rhp_page_pat_fy1": 73,
+    "pat_fy0": 81.959,
+    "rhp_page_pat_fy0": 73,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 606.515,
+    "rhp_page_net_worth_fy0": 373,
+    "total_debt_fy0": 41.556,
+    "rhp_page_total_debt_fy0": 373,
+    "cash_fy0": 71.074,
+    "rhp_page_cash_fy0": 71,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 129,
+    "price_high": null,
+    "rhp_page_price_high": 129,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": 143.95,
+    "rhp_page_pre_ipo_price": 129,
+    "eps_fy0": 7.17,
+    "rhp_page_eps_fy0": 73,
+    "ronw_fy0_pct": 13.13,
+    "rhp_page_ronw_fy0_pct": 129,
+    "nav_per_share_fy0": 53.73,
+    "rhp_page_nav_per_share_fy0": 130,
+    "fresh_issue_cr": 450.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": 100.0,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 11.288523,
+    "rhp_page_pre_issue_shares_cr": 68,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 68,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 19.5,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "Anand Rathi Wealth Limited; UTI Asset Management Company Limited",
+    "n_peers": 2,
+    "peer_pe_list": [
+      91.5,
+      28.84
+    ],
+    "peer_ronw_list": [],
+    "rhp_page_peers": 129
+  },
+  "extract": {
+    "company": "Gaja Alternative Asset Management Limited",
+    "sector": "Financial services",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 129
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 129
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 4500.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": 1000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Mr. Ranjit Jayant Shah jointly held with Ms. Mona Ranjit Shah",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 69
+        }
+      },
+      {
+        "name": "Mr. Imran Jafar",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 69
+        }
+      },
+      {
+        "name": "Ms. Sudesh Jain jointly held with Mr. Gopal Jain",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 69
+        }
+      },
+      {
+        "name": "Mr. Sanjay Hiralal Patel",
+        "kind": "other",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 69
+        }
+      },
+      {
+        "name": "Mr. Anshuman Goyal",
+        "kind": "other",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 69
+        }
+      },
+      {
+        "name": "Mr. Abhinav Jain",
+        "kind": "other",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 69
+        }
+      },
+      {
+        "name": "Mr. Sushane Chopra",
+        "kind": "other",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 69
+        }
+      },
+      {
+        "name": "Ms. Suparna Kumar",
+        "kind": "other",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 69
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 112885230.0,
+      "unit": "shares",
+      "page": 68
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 68
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Sponsor Commitment to Gaja Capital India Fund 2020 LLP (Fund IV)",
+        "category": "other",
+        "amount": {
+          "value": 21.55,
+          "unit": "million",
+          "page": 116
+        }
+      },
+      {
+        "purpose": "Sponsor Commitment to Gaja Capital India Fund 2021 (Fund IV)",
+        "category": "other",
+        "amount": {
+          "value": 353.45,
+          "unit": "million",
+          "page": 116
+        }
+      },
+      {
+        "purpose": "Repayment of Bridge Loan Amount (ICICI Bank loan used for Fund IV commitment)",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 195.0,
+          "unit": "million",
+          "page": 116
+        }
+      },
+      {
+        "purpose": "Sponsor Commitment to proposed Fund V",
+        "category": "other",
+        "amount": {
+          "value": 2100.0,
+          "unit": "million",
+          "page": 116
+        }
+      },
+      {
+        "purpose": "Sponsor Commitment to Secondaries Fund",
+        "category": "other",
+        "amount": {
+          "value": 1050.0,
+          "unit": "million",
+          "page": 116
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 116
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": 143.95,
+      "unit": "rupees",
+      "page": 129
+    },
+    "lead_managers": [
+      "JM Financial Limited",
+      "IIFL Capital Services Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "revenue_fy2": {
+      "value": 956.4,
+      "unit": "million",
+      "page": 73
+    },
+    "revenue_fy1": {
+      "value": 1219.99,
+      "unit": "million",
+      "page": 73
+    },
+    "revenue_fy0": {
+      "value": 1355.31,
+      "unit": "million",
+      "page": 73
+    },
+    "ebitda_fy2": {
+      "value": 492.53,
+      "unit": "million",
+      "page": 344
+    },
+    "ebitda_fy1": {
+      "value": 608.09,
+      "unit": "million",
+      "page": 344
+    },
+    "ebitda_fy0": {
+      "value": 720.52,
+      "unit": "million",
+      "page": 344
+    },
+    "pat_fy2": {
+      "value": 447.42,
+      "unit": "million",
+      "page": 73
+    },
+    "pat_fy1": {
+      "value": 619.51,
+      "unit": "million",
+      "page": 73
+    },
+    "pat_fy0": {
+      "value": 819.59,
+      "unit": "million",
+      "page": 73
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 6065.15,
+      "unit": "million",
+      "page": 373
+    },
+    "total_debt_fy0": {
+      "value": 415.56,
+      "unit": "million",
+      "page": 373
+    },
+    "cash_fy0": {
+      "value": 710.74,
+      "unit": "million",
+      "page": 71
+    },
+    "eps_fy0": {
+      "value": 7.17,
+      "unit": "rupees",
+      "page": 73
+    },
+    "ronw_fy0_pct": {
+      "value": 13.13,
+      "unit": "percent",
+      "page": 129
+    },
+    "nav_per_share_fy0": {
+      "value": 53.73,
+      "unit": "rupees",
+      "page": 130
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Anand Rathi Wealth Limited",
+        "nse_symbol": null,
+        "pe": 91.5,
+        "ronw_pct": null,
+        "page": 129
+      },
+      {
+        "name": "UTI Asset Management Company Limited",
+        "nse_symbol": null,
+        "pe": 28.84,
+        "ronw_pct": null,
+        "page": 129
+      }
+    ],
+    "notes": [
+      "Price band, lot size, share counts for fresh issue/OFS and post-offer shares are [\u25cf] in the RHP pages provided.",
+      "OFS amounts per seller (\u20b9 million): Ranjit Shah/Mona Shah 293.50; Imran Jafar 200.00; Sudesh Jain/Gopal Jain 100.00; Sanjay Hiralal Patel 187.50; Anshuman Goyal 94.00; Abhinav Jain 50.00; Sushane Chopra 50.00; Suparna Kumar 25.00. Share counts are [\u25cf].",
+      "Sudesh Jain is called 'Promoter Group Selling Shareholder' on the cover (p.1) but 'Other Selling Shareholder' in the table on p.69; classified as promoter_group.",
+      "Full peer comparison table not in the pages provided; only the highest (Anand Rathi Wealth, 91.50x) and lowest (UTI AMC, 28.84x) P/E are shown, with an average of 43.52x. Peer RoNW not available.",
+      "Net worth = equity attributable to owners (share capital 564.43 + other equity 5,500.72 = 6,065.15, printed as Total Equity (D) in the capitalization statement). Total equity including NCI is 6,133.49.",
+      "Cash flow statement not provided; CFO is null.",
+      "Preferential allotment of 8,683,566 shares at \u20b9143.95 was approved June 2/5, 2025. The allotment date is not shown on these pages; it happened after the June 7, 2025 bonus issue. It may fall more than 12 months before the RHP date (Aug 12, 2026), so pre_ipo_placement is left null.",
+      "Retail quota % and promoter holding % are not on the pages provided.",
+      "GCP amount is [\u25cf] (capped at 25% of gross proceeds). Sponsor commitments total 3,720.00 million."
+    ]
+  }
+}

@@ -1,0 +1,374 @@
+{
+  "symbol": "MOBIKWIK",
+  "rhp_file": "MOBIKWIK.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-21T06:00:00+00:00",
+  "pages_sent": [
+    1,
+    2,
+    85,
+    86,
+    87,
+    88,
+    90,
+    91,
+    101,
+    102,
+    103,
+    144,
+    145,
+    158,
+    159,
+    160,
+    398,
+    399,
+    442
+  ],
+  "n_pdf_pages": 524,
+  "usage": {
+    "input_tokens": 35510,
+    "output_tokens": 3180,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.316198,
+    "session_id": "876f01f0-cd76-49a8-bb3f-a18ff3fb6c89"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "One MobiKwik Systems Limited",
+    "sector": "Financial services",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024 (March 31, 2024)",
+    "stub_period_months": 3,
+    "pre_ipo_placement": null,
+    "lead_managers": "SBI Capital Markets Limited; DAM Capital Advisors Limited",
+    "revenue_fy2": 526.565,
+    "rhp_page_revenue_fy2": 87,
+    "revenue_fy1": 539.467,
+    "rhp_page_revenue_fy1": 87,
+    "revenue_fy0": 875.003,
+    "rhp_page_revenue_fy0": 87,
+    "ebitda_fy2": -115.406,
+    "rhp_page_ebitda_fy2": 398,
+    "ebitda_fy1": -55.92,
+    "rhp_page_ebitda_fy1": 398,
+    "ebitda_fy0": 37.22,
+    "rhp_page_ebitda_fy0": 398,
+    "pat_fy2": -128.162,
+    "rhp_page_pat_fy2": 87,
+    "pat_fy1": -83.814,
+    "rhp_page_pat_fy1": 87,
+    "pat_fy0": 14.079,
+    "rhp_page_pat_fy0": 87,
+    "cfo_fy2": -320.586,
+    "rhp_page_cfo_fy2": 88,
+    "cfo_fy1": 27.013,
+    "rhp_page_cfo_fy1": 88,
+    "cfo_fy0": -22.066,
+    "rhp_page_cfo_fy0": 88,
+    "net_worth_fy0": 162.589,
+    "rhp_page_net_worth_fy0": 86,
+    "total_debt_fy0": null,
+    "rhp_page_total_debt_fy0": 86,
+    "cash_fy0": 92.853,
+    "rhp_page_cash_fy0": 86,
+    "revenue_stub": 342.267,
+    "rhp_page_revenue_stub": 87,
+    "pat_stub": -6.615000000000001,
+    "rhp_page_pat_stub": 87,
+    "price_low": null,
+    "rhp_page_price_low": 159,
+    "price_high": null,
+    "rhp_page_price_high": 159,
+    "lot_size": null,
+    "rhp_page_lot_size": 2,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": 10.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": null,
+    "eps_fy0": 2.46,
+    "rhp_page_eps_fy0": 159,
+    "ronw_fy0_pct": 8.66,
+    "rhp_page_ronw_fy0_pct": 160,
+    "nav_per_share_fy0": 28.43,
+    "rhp_page_nav_per_share_fy0": 160,
+    "fresh_issue_cr": 572.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 5.7184521,
+    "rhp_page_pre_issue_shares_cr": 90,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 90,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 70.285,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "PayPal Holdings, Inc.; Affirm Holdings, Inc",
+    "n_peers": 2,
+    "peer_pe_list": [
+      22.17
+    ],
+    "peer_ronw_list": [],
+    "rhp_page_peers": 159
+  },
+  "extract": {
+    "company": "One MobiKwik Systems Limited",
+    "sector": "Financial services",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 159
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 159
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": 2
+    },
+    "fresh_issue_amount": {
+      "value": 5720.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 57184521.0,
+      "unit": "shares",
+      "page": 90
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 90
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding organic growth in our financial services business",
+        "category": "other",
+        "amount": {
+          "value": 1500.0,
+          "unit": "million",
+          "page": 145
+        }
+      },
+      {
+        "purpose": "Funding organic growth in our payment services business",
+        "category": "other",
+        "amount": {
+          "value": 1350.0,
+          "unit": "million",
+          "page": 145
+        }
+      },
+      {
+        "purpose": "Research and development in data, ML and AI and product and technology",
+        "category": "other",
+        "amount": {
+          "value": 1070.0,
+          "unit": "million",
+          "page": 145
+        }
+      },
+      {
+        "purpose": "Capital expenditure for our payment devices business",
+        "category": "capex",
+        "amount": {
+          "value": 702.85,
+          "unit": "million",
+          "page": 145
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 145
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 10.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "SBI Capital Markets Limited",
+      "DAM Capital Advisors Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024 (March 31, 2024)",
+    "revenue_fy2": {
+      "value": 5265.65,
+      "unit": "million",
+      "page": 87
+    },
+    "revenue_fy1": {
+      "value": 5394.67,
+      "unit": "million",
+      "page": 87
+    },
+    "revenue_fy0": {
+      "value": 8750.03,
+      "unit": "million",
+      "page": 87
+    },
+    "ebitda_fy2": {
+      "value": -1154.06,
+      "unit": "million",
+      "page": 398
+    },
+    "ebitda_fy1": {
+      "value": -559.2,
+      "unit": "million",
+      "page": 398
+    },
+    "ebitda_fy0": {
+      "value": 372.2,
+      "unit": "million",
+      "page": 398
+    },
+    "pat_fy2": {
+      "value": -1281.62,
+      "unit": "million",
+      "page": 87
+    },
+    "pat_fy1": {
+      "value": -838.14,
+      "unit": "million",
+      "page": 87
+    },
+    "pat_fy0": {
+      "value": 140.79,
+      "unit": "million",
+      "page": 87
+    },
+    "cfo_fy2": {
+      "value": -3205.86,
+      "unit": "million",
+      "page": 88
+    },
+    "cfo_fy1": {
+      "value": 270.13,
+      "unit": "million",
+      "page": 88
+    },
+    "cfo_fy0": {
+      "value": -220.66,
+      "unit": "million",
+      "page": 88
+    },
+    "net_worth_fy0": {
+      "value": 1625.89,
+      "unit": "million",
+      "page": 86
+    },
+    "total_debt_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": 86
+    },
+    "cash_fy0": {
+      "value": 928.53,
+      "unit": "million",
+      "page": 86
+    },
+    "eps_fy0": {
+      "value": 2.46,
+      "unit": "rupees",
+      "page": 159
+    },
+    "ronw_fy0_pct": {
+      "value": 8.66,
+      "unit": "percent",
+      "page": 160
+    },
+    "nav_per_share_fy0": {
+      "value": 28.43,
+      "unit": "rupees",
+      "page": 160
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 3422.67,
+      "unit": "million",
+      "page": 87
+    },
+    "pat_stub": {
+      "value": -66.15,
+      "unit": "million",
+      "page": 87
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "PayPal Holdings, Inc.",
+        "nse_symbol": null,
+        "pe": 22.17,
+        "ronw_pct": null,
+        "page": 159
+      },
+      {
+        "name": "Affirm Holdings, Inc",
+        "nse_symbol": null,
+        "pe": null,
+        "ronw_pct": null,
+        "page": 159
+      }
+    ],
+    "notes": [
+      "The issue is a pure fresh issue (no OFS); the cover page says the OFS is 'Not applicable'.",
+      "Price band, lot size, fresh issue share count and post-issue shares are printed as [\u2022] in the RHP.",
+      "Total debt for FY2024 is not printed as a single figure. Restated balance sheet (page 86): non-current borrowings 423.49 million plus current borrowings 1,693.50 million. Left null because summing them would be a calculation. The capitalisation statement (page 442) shows total borrowings of 2,063.36 million, but that is as at June 30, 2024 (the stub date).",
+      "The peer comparison table (page 161) was not among the pages provided. Only the industry P/E summary on page 159 was available: highest P/E 22.17 (PayPal), lowest Affirm (no P/E value printed). Peer RoNW is not available.",
+      "Promoter shareholding percentages and pre-IPO placement details were not on the pages provided.",
+      "NAV per share for FY2022 is shown as 37.87 on page 398's accounting ratios table but as 38.94 on page 398's NAV reconciliation table. This does not affect the FY2024 NAV of 28.43.",
+      "Retail quota is 'not more than 10%' of the issue (QIB at least 75%, NII not more than 15%).",
+      "Objects 'funding organic growth' for the financial services and payment services businesses were categorised as 'other'. The 3-month stub is to June 30, 2024."
+    ]
+  }
+}

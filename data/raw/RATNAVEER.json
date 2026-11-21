@@ -1,0 +1,381 @@
+{
+  "symbol": "RATNAVEER",
+  "rhp_file": "RATNAVEER.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T20:57:45+00:00",
+  "pages_sent": [
+    1,
+    2,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    100,
+    101,
+    102,
+    103,
+    122,
+    123,
+    124,
+    125,
+    132,
+    133,
+    134,
+    135,
+    136,
+    320,
+    321,
+    322
+  ],
+  "n_pdf_pages": 457,
+  "usage": {
+    "input_tokens": 41404,
+    "output_tokens": 3321,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3667623,
+    "session_id": "2727dadb-927b-4dca-bf38-53a887b0f149"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Ratnaveer Precision Engineering Limited",
+    "sector": "Chemicals & materials",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "FY2023",
+    "stub_period_months": null,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "Unistone Capital Private Limited",
+    "revenue_fy2": 359.663,
+    "rhp_page_revenue_fy2": 89,
+    "revenue_fy1": 426.938,
+    "rhp_page_revenue_fy1": 89,
+    "revenue_fy0": 479.748,
+    "rhp_page_revenue_fy0": 89,
+    "ebitda_fy2": 24.321,
+    "rhp_page_ebitda_fy2": 89,
+    "ebitda_fy1": 29.059,
+    "rhp_page_ebitda_fy1": 89,
+    "ebitda_fy0": 47.022,
+    "rhp_page_ebitda_fy0": 89,
+    "pat_fy2": 5.459,
+    "rhp_page_pat_fy2": 31,
+    "pat_fy1": 9.476,
+    "rhp_page_pat_fy1": 31,
+    "pat_fy0": 25.044,
+    "rhp_page_pat_fy0": 31,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 106.054,
+    "rhp_page_net_worth_fy0": 321,
+    "total_debt_fy0": 229.989,
+    "rhp_page_total_debt_fy0": 321,
+    "cash_fy0": 30.374,
+    "rhp_page_cash_fy0": 124,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 132,
+    "price_high": null,
+    "rhp_page_price_high": 132,
+    "lot_size": null,
+    "rhp_page_lot_size": 2,
+    "promoter_pre_pct": 83.6,
+    "rhp_page_promoter_pre_pct": 31,
+    "promoter_post_pct": null,
+    "retail_quota_pct": 35.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": 575.0,
+    "rhp_page_pre_ipo_price": 103,
+    "eps_fy0": 7.26,
+    "rhp_page_eps_fy0": 128,
+    "ronw_fy0_pct": 29.12,
+    "rhp_page_ronw_fy0_pct": 129,
+    "nav_per_share_fy0": 30.74,
+    "rhp_page_nav_per_share_fy0": 134,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": 1.38,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.304,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 3.469904,
+    "rhp_page_pre_issue_shares_cr": 82,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 82,
+    "ofs_promoter_shares_cr": 0.304,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "M.M. Forgings Limited; Menon Bearings Limited; Venus Pipes & Tubes Limited",
+    "n_peers": 3,
+    "peer_pe_list": [
+      20.26,
+      23.07,
+      59.93
+    ],
+    "peer_ronw_list": [
+      18.23,
+      24.47,
+      9.83
+    ],
+    "rhp_page_peers": 134
+  },
+  "extract": {
+    "company": "Ratnaveer Precision Engineering Limited",
+    "sector": "Chemicals & materials",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 132
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 132
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": 2
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": 13800000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 3040000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Vijay Ramanlal Sanghavi",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 3040000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 34699040.0,
+      "unit": "shares",
+      "page": 82
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 82
+    },
+    "promoter_pre_pct": {
+      "value": 83.6,
+      "unit": "percent",
+      "page": 31
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding working capital requirements of our Company",
+        "category": "other",
+        "amount": {
+          "value": 850.0,
+          "unit": "million",
+          "page": 123
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 123
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 575.0,
+      "unit": "rupees",
+      "page": 103
+    },
+    "lead_managers": [
+      "Unistone Capital Private Limited"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "FY2023",
+    "revenue_fy2": {
+      "value": 3596.63,
+      "unit": "million",
+      "page": 89
+    },
+    "revenue_fy1": {
+      "value": 4269.38,
+      "unit": "million",
+      "page": 89
+    },
+    "revenue_fy0": {
+      "value": 4797.48,
+      "unit": "million",
+      "page": 89
+    },
+    "ebitda_fy2": {
+      "value": 243.21,
+      "unit": "million",
+      "page": 89
+    },
+    "ebitda_fy1": {
+      "value": 290.59,
+      "unit": "million",
+      "page": 89
+    },
+    "ebitda_fy0": {
+      "value": 470.22,
+      "unit": "million",
+      "page": 89
+    },
+    "pat_fy2": {
+      "value": 54.59,
+      "unit": "million",
+      "page": 31
+    },
+    "pat_fy1": {
+      "value": 94.76,
+      "unit": "million",
+      "page": 31
+    },
+    "pat_fy0": {
+      "value": 250.44,
+      "unit": "million",
+      "page": 31
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 1060.54,
+      "unit": "million",
+      "page": 321
+    },
+    "total_debt_fy0": {
+      "value": 2299.89,
+      "unit": "million",
+      "page": 321
+    },
+    "cash_fy0": {
+      "value": 303.74,
+      "unit": "million",
+      "page": 124
+    },
+    "eps_fy0": {
+      "value": 7.26,
+      "unit": "rupees",
+      "page": 128
+    },
+    "ronw_fy0_pct": {
+      "value": 29.12,
+      "unit": "percent",
+      "page": 129
+    },
+    "nav_per_share_fy0": {
+      "value": 30.74,
+      "unit": "rupees",
+      "page": 134
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "M.M. Forgings Limited",
+        "nse_symbol": null,
+        "pe": 20.26,
+        "ronw_pct": 18.23,
+        "page": 134
+      },
+      {
+        "name": "Menon Bearings Limited",
+        "nse_symbol": null,
+        "pe": 23.07,
+        "ronw_pct": 24.47,
+        "page": 134
+      },
+      {
+        "name": "Venus Pipes & Tubes Limited",
+        "nse_symbol": null,
+        "pe": 59.93,
+        "ronw_pct": 9.83,
+        "page": 134
+      }
+    ],
+    "notes": [
+      "Financials are restated standalone; page 320 says the ratios come from the Restated Standalone Financial Information, and no consolidated statements appear on these pages.",
+      "promoter_pre_pct of 83.60% covers the Promoter only. The Promoter Group holds another 2.70% (937,576 shares) per page 31; the combined figure is not printed.",
+      "Price band and lot size are not set in the RHP (shown as [\u25cf]). Post-offer shares and the fresh issue and OFS amounts are also [\u25cf].",
+      "Page 83 says the Promoter consented to offer up to 3,500,000 shares, but the cover page and offer details say up to 3,040,000. 3,040,000 is used here.",
+      "Working capital funding (\u20b9850.00 million) is categorised as 'other' because the categories offered have no working capital option.",
+      "Cash flow statements (CFO) are not in the pages provided. cash_fy0 is the 'Cash and bank balances' figure from the working capital table on page 124 and may include bank balances other than cash equivalents.",
+      "Pre-IPO placement: private placements on Dec 27, 2022 (182,000 shares at \u20b9535) and Jan 4, 2023 (88,180 shares at \u20b9575), followed by a 7:1 bonus issue on Jan 12, 2023.",
+      "The column headers on page 320 are mislabelled ('March 31, 2022' printed twice); the first column is FY2023.",
+      "The summary table labels PAT as 'Profit/(loss) after tax'. Total income of \u20b94,811.45 million is separate from revenue from operations of \u20b94,797.48 million."
+    ]
+  }
+}

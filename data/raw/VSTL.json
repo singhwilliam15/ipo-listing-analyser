@@ -1,0 +1,381 @@
+{
+  "symbol": "VSTL",
+  "rhp_file": "VSTL.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T21:04:51+00:00",
+  "pages_sent": [
+    1,
+    2,
+    17,
+    26,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    84,
+    85,
+    86,
+    87,
+    98,
+    99,
+    100,
+    101,
+    111,
+    112,
+    325,
+    326,
+    327,
+    328
+  ],
+  "n_pdf_pages": 468,
+  "usage": {
+    "input_tokens": 40777,
+    "output_tokens": 3695,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.36916210000000005,
+    "session_id": "fa62bcd2-cc53-4dd6-bd65-1302187f4c73"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Vibhor Steel Tubes Limited",
+    "sector": "Chemicals & materials",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023 (March 31, 2023)",
+    "stub_period_months": 6,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Khambatta Securities Limited",
+    "revenue_fy2": 510.4668,
+    "rhp_page_revenue_fy2": 70,
+    "revenue_fy1": 817.9960000000001,
+    "rhp_page_revenue_fy1": 70,
+    "revenue_fy0": 1113.119,
+    "rhp_page_revenue_fy0": 70,
+    "ebitda_fy2": 19.9175,
+    "rhp_page_ebitda_fy2": 326,
+    "ebitda_fy1": 30.1811,
+    "rhp_page_ebitda_fy1": 326,
+    "ebitda_fy0": 46.84439999999999,
+    "rhp_page_ebitda_fy0": 326,
+    "pat_fy2": 0.6883,
+    "rhp_page_pat_fy2": 70,
+    "pat_fy1": 11.3311,
+    "rhp_page_pat_fy1": 70,
+    "pat_fy0": 21.0662,
+    "rhp_page_pat_fy0": 70,
+    "cfo_fy2": 45.42,
+    "rhp_page_cfo_fy2": 71,
+    "cfo_fy1": -34.5493,
+    "rhp_page_cfo_fy1": 71,
+    "cfo_fy0": 7.0273,
+    "rhp_page_cfo_fy0": 71,
+    "net_worth_fy0": 93.19790000000002,
+    "rhp_page_net_worth_fy0": 68,
+    "total_debt_fy0": 152.3776,
+    "rhp_page_total_debt_fy0": 325,
+    "cash_fy0": 9.4338,
+    "rhp_page_cash_fy0": 68,
+    "revenue_stub": 530.5101,
+    "rhp_page_revenue_stub": 70,
+    "pat_stub": 8.5213,
+    "rhp_page_pat_stub": 70,
+    "price_low": null,
+    "rhp_page_price_low": 2,
+    "price_high": null,
+    "rhp_page_price_high": 2,
+    "lot_size": null,
+    "rhp_page_lot_size": 2,
+    "promoter_pre_pct": 98.24,
+    "rhp_page_promoter_pre_pct": 87,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 87,
+    "retail_quota_pct": 35.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": 75.0,
+    "rhp_page_pre_ipo_price": 87,
+    "eps_fy0": 14.85,
+    "rhp_page_eps_fy0": 70,
+    "ronw_fy0_pct": 22.6,
+    "rhp_page_ronw_fy0_pct": 111,
+    "nav_per_share_fy0": 65.71,
+    "rhp_page_nav_per_share_fy0": 112,
+    "fresh_issue_cr": 72.1696,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 1.4183,
+    "rhp_page_pre_issue_shares_cr": 65,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 65,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "APLAPOLLO; HITECH; GOODLUCK; RAMASTEEL",
+    "n_peers": 4,
+    "peer_pe_list": [
+      64.88,
+      47.91,
+      31.01,
+      37.75
+    ],
+    "peer_ronw_list": [
+      21.36,
+      9.01,
+      14.16,
+      10.97
+    ],
+    "rhp_page_peers": 112
+  },
+  "extract": {
+    "company": "Vibhor Steel Tubes Limited",
+    "sector": "Chemicals & materials",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 2
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 2
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": 2
+    },
+    "fresh_issue_amount": {
+      "value": 7216.96,
+      "unit": "lakh",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "lakh",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 14183000.0,
+      "unit": "shares",
+      "page": 65
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 65
+    },
+    "promoter_pre_pct": {
+      "value": 98.24,
+      "unit": "percent",
+      "page": 87
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 87
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding working capital requirements of the Company",
+        "category": "other",
+        "amount": {
+          "value": 6200.0,
+          "unit": "lakh",
+          "page": 98
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "lakh",
+          "page": 98
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": 75.0,
+      "unit": "rupees",
+      "page": 87
+    },
+    "lead_managers": [
+      "Khambatta Securities Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023 (March 31, 2023)",
+    "revenue_fy2": {
+      "value": 51046.68,
+      "unit": "lakh",
+      "page": 70
+    },
+    "revenue_fy1": {
+      "value": 81799.6,
+      "unit": "lakh",
+      "page": 70
+    },
+    "revenue_fy0": {
+      "value": 111311.9,
+      "unit": "lakh",
+      "page": 70
+    },
+    "ebitda_fy2": {
+      "value": 1991.75,
+      "unit": "lakh",
+      "page": 326
+    },
+    "ebitda_fy1": {
+      "value": 3018.11,
+      "unit": "lakh",
+      "page": 326
+    },
+    "ebitda_fy0": {
+      "value": 4684.44,
+      "unit": "lakh",
+      "page": 326
+    },
+    "pat_fy2": {
+      "value": 68.83,
+      "unit": "lakh",
+      "page": 70
+    },
+    "pat_fy1": {
+      "value": 1133.11,
+      "unit": "lakh",
+      "page": 70
+    },
+    "pat_fy0": {
+      "value": 2106.62,
+      "unit": "lakh",
+      "page": 70
+    },
+    "cfo_fy2": {
+      "value": 4542.0,
+      "unit": "lakh",
+      "page": 71
+    },
+    "cfo_fy1": {
+      "value": -3454.93,
+      "unit": "lakh",
+      "page": 71
+    },
+    "cfo_fy0": {
+      "value": 702.73,
+      "unit": "lakh",
+      "page": 71
+    },
+    "net_worth_fy0": {
+      "value": 9319.79,
+      "unit": "lakh",
+      "page": 68
+    },
+    "total_debt_fy0": {
+      "value": 15237.76,
+      "unit": "lakh",
+      "page": 325
+    },
+    "cash_fy0": {
+      "value": 943.38,
+      "unit": "lakh",
+      "page": 68
+    },
+    "eps_fy0": {
+      "value": 14.85,
+      "unit": "rupees",
+      "page": 70
+    },
+    "ronw_fy0_pct": {
+      "value": 22.6,
+      "unit": "percent",
+      "page": 111
+    },
+    "nav_per_share_fy0": {
+      "value": 65.71,
+      "unit": "rupees",
+      "page": 112
+    },
+    "stub_period_months": 6,
+    "revenue_stub": {
+      "value": 53051.01,
+      "unit": "lakh",
+      "page": 70
+    },
+    "pat_stub": {
+      "value": 852.13,
+      "unit": "lakh",
+      "page": 70
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "APL Apollo Tubes Limited",
+        "nse_symbol": "APLAPOLLO",
+        "pe": 64.88,
+        "ronw_pct": 21.36,
+        "page": 112
+      },
+      {
+        "name": "Hi-Tech Pipes Limited",
+        "nse_symbol": "HITECH",
+        "pe": 47.91,
+        "ronw_pct": 9.01,
+        "page": 112
+      },
+      {
+        "name": "Goodluck India Limited",
+        "nse_symbol": "GOODLUCK",
+        "pe": 31.01,
+        "ronw_pct": 14.16,
+        "page": 112
+      },
+      {
+        "name": "Rama Steel Tubes Limited",
+        "nse_symbol": "RAMASTEEL",
+        "pe": 37.75,
+        "ronw_pct": 10.97,
+        "page": 112
+      }
+    ],
+    "notes": [
+      "Price band, lot size, number of fresh issue shares and post-issue shares are printed as [\u25cf] in this RHP.",
+      "The fresh issue is Rs. 7,216.96 lakh on the cover and in 'The Issue' (pages 1, 65), but the Objects section (page 98) gives gross proceeds of 'Upto 6,200.00' lakh. These do not agree.",
+      "The issue is entirely a fresh issue, with no offer for sale. It includes an Employee Reservation Portion of Rs. 44.55 lakh; the net issue is Rs. 7,172.41 lakh.",
+      "Funding working capital (Rs. 6,200 lakh) is categorised as 'other'. The general corporate purposes amount is [\u25cf], capped at 25% of gross proceeds.",
+      "Total debt for FY2023 is 15,237.76 lakh (non-current 1,351.34 + current 13,886.42) from the capitalisation statement. The summary on page 26 shows 'Total Borrowing' of 12,682.52 lakh, which is defined net of cash and cash equivalents.",
+      "Cash for FY2023 is the balance-sheet cash and cash equivalents of 943.38 lakh. The cash flow statement's closing cash of 2,555.24 lakh appears to include other bank balances (1,611.86).",
+      "EBITDA is as reported on page 326. Adjusted EBITDA (EBITDA less other income) for FY2023 is 4,558.52 lakh.",
+      "No allotment was made in the 12 months before the RHP. The pre-IPO price of Rs. 75 comes from secondary transfers to promoter Vijay Kaushik on June 01, 2023. There was also a gift transfer on April 27, 2023.",
+      "The NAV for FY2023 is 65.71 on both pages 26 and 326. For FY2022/FY2021 the two pages differ slightly (50.74 vs 50.75; 42.64 vs 42.65).",
+      "Peer P/E is based on closing prices on January 24, 2024. Peer NSE symbols were inferred, not printed.",
+      "Sector: steel tubes manufacturer, mapped to Chemicals & materials."
+    ]
+  }
+}

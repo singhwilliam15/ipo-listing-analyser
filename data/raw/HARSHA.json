@@ -1,0 +1,444 @@
+{
+  "symbol": "HARSHA",
+  "rhp_file": "HARSHA.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T20:52:12+00:00",
+  "pages_sent": [
+    1,
+    2,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    80,
+    81,
+    82,
+    83,
+    94,
+    95,
+    96,
+    97,
+    106,
+    107,
+    108,
+    109,
+    110,
+    261,
+    262,
+    263
+  ],
+  "n_pdf_pages": 375,
+  "usage": {
+    "input_tokens": 50948,
+    "output_tokens": 3579,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.4492278,
+    "session_id": "80f19cb4-5b51-485f-8f41-962d2a179c93"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Harsha Engineers International Limited",
+    "sector": "Industrials & capital goods",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2022",
+    "stub_period_months": null,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Axis Capital Limited; Equirus Capital Private Limited; JM Financial Limited",
+    "revenue_fy2": 885.853,
+    "rhp_page_revenue_fy2": 68,
+    "revenue_fy1": 873.754,
+    "rhp_page_revenue_fy1": 68,
+    "revenue_fy0": 1321.481,
+    "rhp_page_revenue_fy0": 68,
+    "ebitda_fy2": 100.055,
+    "rhp_page_ebitda_fy2": 107,
+    "ebitda_fy1": 124.962,
+    "rhp_page_ebitda_fy1": 107,
+    "ebitda_fy0": 186.577,
+    "rhp_page_ebitda_fy0": 107,
+    "pat_fy2": 21.909,
+    "rhp_page_pat_fy2": 68,
+    "pat_fy1": 45.439,
+    "rhp_page_pat_fy1": 68,
+    "pat_fy0": 91.944,
+    "rhp_page_pat_fy0": 68,
+    "cfo_fy2": 112.907,
+    "rhp_page_cfo_fy2": 69,
+    "cfo_fy1": 121.157,
+    "rhp_page_cfo_fy1": 69,
+    "cfo_fy0": 36.474,
+    "rhp_page_cfo_fy0": 69,
+    "net_worth_fy0": 527.901,
+    "rhp_page_net_worth_fy0": 25,
+    "total_debt_fy0": 384.862,
+    "rhp_page_total_debt_fy0": 25,
+    "cash_fy0": 21.417,
+    "rhp_page_cash_fy0": 66,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 106,
+    "price_high": null,
+    "rhp_page_price_high": 106,
+    "lot_size": null,
+    "promoter_pre_pct": 99.7,
+    "rhp_page_promoter_pre_pct": 25,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 16.06,
+    "rhp_page_eps_fy0": 68,
+    "ronw_fy0_pct": 17.42,
+    "rhp_page_ronw_fy0_pct": 103,
+    "nav_per_share_fy0": 68.34,
+    "rhp_page_nav_per_share_fy0": 103,
+    "fresh_issue_cr": 455.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": 300.0,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 7.724841,
+    "rhp_page_pre_issue_shares_cr": 63,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 63,
+    "ofs_promoter_shares_cr": 0,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 270.0,
+    "proceeds_capex_cr": 85.07,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "TIMKEN; SKFINDIA; ROLEXRINGS; SUNDRMFAST",
+    "n_peers": 4,
+    "peer_pe_list": [
+      69.3,
+      59.21,
+      36.04,
+      39.38
+    ],
+    "peer_ronw_list": [
+      19.74,
+      20.95,
+      24.21,
+      17.42
+    ],
+    "rhp_page_peers": 108
+  },
+  "extract": {
+    "company": "Harsha Engineers International Limited",
+    "sector": "Industrials & capital goods",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 106
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 106
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 4550.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": 3000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Harish Rangwala",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Rajendra Shah",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Pilak Shah",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Charusheela Rangwala",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Nirmala Shah",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 77248410.0,
+      "unit": "shares",
+      "page": 63
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 63
+    },
+    "promoter_pre_pct": {
+      "value": 99.7,
+      "unit": "percent",
+      "page": 25
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Pre-payment or scheduled repayment of a portion of the existing borrowing availed by the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 2700.0,
+          "unit": "million",
+          "page": 24
+        }
+      },
+      {
+        "purpose": "Funding capital expenditure requirements towards purchase of machinery",
+        "category": "capex",
+        "amount": {
+          "value": 779.54,
+          "unit": "million",
+          "page": 24
+        }
+      },
+      {
+        "purpose": "Infrastructure repairs and renovation of existing production facilities including office premises in India",
+        "category": "capex",
+        "amount": {
+          "value": 71.16,
+          "unit": "million",
+          "page": 24
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 24
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Axis Capital Limited",
+      "Equirus Capital Private Limited",
+      "JM Financial Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2022",
+    "revenue_fy2": {
+      "value": 8858.53,
+      "unit": "million",
+      "page": 68
+    },
+    "revenue_fy1": {
+      "value": 8737.54,
+      "unit": "million",
+      "page": 68
+    },
+    "revenue_fy0": {
+      "value": 13214.81,
+      "unit": "million",
+      "page": 68
+    },
+    "ebitda_fy2": {
+      "value": 1000.55,
+      "unit": "million",
+      "page": 107
+    },
+    "ebitda_fy1": {
+      "value": 1249.62,
+      "unit": "million",
+      "page": 107
+    },
+    "ebitda_fy0": {
+      "value": 1865.77,
+      "unit": "million",
+      "page": 107
+    },
+    "pat_fy2": {
+      "value": 219.09,
+      "unit": "million",
+      "page": 68
+    },
+    "pat_fy1": {
+      "value": 454.39,
+      "unit": "million",
+      "page": 68
+    },
+    "pat_fy0": {
+      "value": 919.44,
+      "unit": "million",
+      "page": 68
+    },
+    "cfo_fy2": {
+      "value": 1129.07,
+      "unit": "million",
+      "page": 69
+    },
+    "cfo_fy1": {
+      "value": 1211.57,
+      "unit": "million",
+      "page": 69
+    },
+    "cfo_fy0": {
+      "value": 364.74,
+      "unit": "million",
+      "page": 69
+    },
+    "net_worth_fy0": {
+      "value": 5279.01,
+      "unit": "million",
+      "page": 25
+    },
+    "total_debt_fy0": {
+      "value": 3848.62,
+      "unit": "million",
+      "page": 25
+    },
+    "cash_fy0": {
+      "value": 214.17,
+      "unit": "million",
+      "page": 66
+    },
+    "eps_fy0": {
+      "value": 16.06,
+      "unit": "rupees",
+      "page": 68
+    },
+    "ronw_fy0_pct": {
+      "value": 17.42,
+      "unit": "percent",
+      "page": 103
+    },
+    "nav_per_share_fy0": {
+      "value": 68.34,
+      "unit": "rupees",
+      "page": 103
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Timken India Limited",
+        "nse_symbol": "TIMKEN",
+        "pe": 69.3,
+        "ronw_pct": 19.74,
+        "page": 108
+      },
+      {
+        "name": "SKF India Limited",
+        "nse_symbol": "SKFINDIA",
+        "pe": 59.21,
+        "ronw_pct": 20.95,
+        "page": 108
+      },
+      {
+        "name": "Rolex Rings Limited",
+        "nse_symbol": "ROLEXRINGS",
+        "pe": 36.04,
+        "ronw_pct": 24.21,
+        "page": 108
+      },
+      {
+        "name": "Sundaram Fasteners Limited",
+        "nse_symbol": "SUNDRMFAST",
+        "pe": 39.38,
+        "ronw_pct": 17.42,
+        "page": 108
+      }
+    ],
+    "notes": [
+      "Price band, lot size and share counts for the fresh issue/OFS are [\u25cf] in the RHP. Each selling shareholder's offer is given only as an amount: Harish Rangwala \u20b9750.00m, Rajendra Shah \u20b9667.50m, Pilak Shah \u20b9165.00m, Charusheela Rangwala \u20b9750.00m, Nirmala Shah \u20b9667.50m.",
+      "Net worth 5,279.01 (summary/accounting ratios/capitalisation) excludes the capital reserve from the amalgamation; the balance sheet total equity is 5,218.60 (page 66).",
+      "Total debt of 3,848.62 includes lease liabilities. Borrowings alone on the balance sheet are non-current 1,378.45 + current 2,406.41.",
+      "Diluted EPS for FY2022 is printed as 11.09 in the Basis for Offer Price EPS table (page 106) but as 11.90 elsewhere.",
+      "The retail quota percentage is not shown on the pages provided. There is an employee reservation of up to \u20b925.00 million.",
+      "Equity shares were allotted on Dec 25, 2021 under the scheme of amalgamation (other than cash). This is not treated as a pre-IPO placement.",
+      "PAT margin is calculated on total income; FY2022 total income is 13,389.99."
+    ]
+  }
+}

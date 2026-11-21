@@ -1,0 +1,398 @@
+{
+  "symbol": "OMFREIGHT",
+  "rhp_file": "OMFREIGHT.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:06:51+00:00",
+  "pages_sent": [
+    1,
+    2,
+    33,
+    34,
+    35,
+    36,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    98,
+    99,
+    100,
+    117,
+    118,
+    126,
+    127,
+    128,
+    326,
+    327
+  ],
+  "n_pdf_pages": 478,
+  "usage": {
+    "input_tokens": 36523,
+    "output_tokens": 3614,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3330838,
+    "session_id": "ae1560f5-132e-487b-88f1-adcb1946b213"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Om Freight Forwarders Limited",
+    "sector": "Logistics & travel",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "stub_period_months": null,
+    "pre_ipo_placement": null,
+    "lead_managers": "Smart Horizon Capital Advisors Private Limited",
+    "revenue_fy2": 471.138,
+    "rhp_page_revenue_fy2": 88,
+    "revenue_fy1": 410.501,
+    "rhp_page_revenue_fy1": 88,
+    "revenue_fy0": 490.137,
+    "rhp_page_revenue_fy0": 88,
+    "ebitda_fy2": 33.331,
+    "rhp_page_ebitda_fy2": 326,
+    "ebitda_fy1": 11.96,
+    "rhp_page_ebitda_fy1": 326,
+    "ebitda_fy0": 37.714,
+    "rhp_page_ebitda_fy0": 326,
+    "pat_fy2": 27.158,
+    "rhp_page_pat_fy2": 88,
+    "pat_fy1": 10.345,
+    "rhp_page_pat_fy1": 88,
+    "pat_fy0": 21.99,
+    "rhp_page_pat_fy0": 88,
+    "cfo_fy2": 5.692,
+    "rhp_page_cfo_fy2": 89,
+    "cfo_fy1": 37.698,
+    "rhp_page_cfo_fy1": 89,
+    "cfo_fy0": 39.812,
+    "rhp_page_cfo_fy0": 89,
+    "net_worth_fy0": 173.472,
+    "rhp_page_net_worth_fy0": 87,
+    "total_debt_fy0": 26.953,
+    "rhp_page_total_debt_fy0": 36,
+    "cash_fy0": 17.856,
+    "rhp_page_cash_fy0": 87,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 127,
+    "price_high": null,
+    "rhp_page_price_high": 127,
+    "lot_size": null,
+    "promoter_pre_pct": 99.04,
+    "rhp_page_promoter_pre_pct": 35,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 35,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 6.9,
+    "rhp_page_eps_fy0": 88,
+    "ronw_fy0_pct": 12.68,
+    "rhp_page_ronw_fy0_pct": 127,
+    "nav_per_share_fy0": 54.44,
+    "rhp_page_nav_per_share_fy0": 127,
+    "fresh_issue_cr": 24.436,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.725,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 3.18654,
+    "rhp_page_pre_issue_shares_cr": 84,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 84,
+    "ofs_promoter_shares_cr": 0.725,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 17.145,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "TIGERLOGS; TOTAL; AVG; PATINTLOG",
+    "n_peers": 4,
+    "peer_pe_list": [
+      19.72,
+      13.32,
+      16.15,
+      13.33
+    ],
+    "peer_ronw_list": [
+      19.53,
+      10.56,
+      8.65,
+      6.25
+    ],
+    "rhp_page_peers": 128
+  },
+  "extract": {
+    "company": "Om Freight Forwarders Limited",
+    "sector": "Logistics & travel",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 127
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 127
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 244.36,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 7250000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Rahul Jagannath Joshi",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 3987500.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Harmesh Rahul Joshi",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 2537500.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Kamesh Rahul Joshi",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 725000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 31865400.0,
+      "unit": "shares",
+      "page": 84
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 84
+    },
+    "promoter_pre_pct": {
+      "value": 99.04,
+      "unit": "percent",
+      "page": 35
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 35
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding of capital expenditure requirements related to acquisition of commercial vehicle and heavy equipment",
+        "category": "capex",
+        "amount": {
+          "value": 171.45,
+          "unit": "million",
+          "page": 118
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 118
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Smart Horizon Capital Advisors Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "revenue_fy2": {
+      "value": 4711.38,
+      "unit": "million",
+      "page": 88
+    },
+    "revenue_fy1": {
+      "value": 4105.01,
+      "unit": "million",
+      "page": 88
+    },
+    "revenue_fy0": {
+      "value": 4901.37,
+      "unit": "million",
+      "page": 88
+    },
+    "ebitda_fy2": {
+      "value": 333.31,
+      "unit": "million",
+      "page": 326
+    },
+    "ebitda_fy1": {
+      "value": 119.6,
+      "unit": "million",
+      "page": 326
+    },
+    "ebitda_fy0": {
+      "value": 377.14,
+      "unit": "million",
+      "page": 326
+    },
+    "pat_fy2": {
+      "value": 271.58,
+      "unit": "million",
+      "page": 88
+    },
+    "pat_fy1": {
+      "value": 103.45,
+      "unit": "million",
+      "page": 88
+    },
+    "pat_fy0": {
+      "value": 219.9,
+      "unit": "million",
+      "page": 88
+    },
+    "cfo_fy2": {
+      "value": 56.92,
+      "unit": "million",
+      "page": 89
+    },
+    "cfo_fy1": {
+      "value": 376.98,
+      "unit": "million",
+      "page": 89
+    },
+    "cfo_fy0": {
+      "value": 398.12,
+      "unit": "million",
+      "page": 89
+    },
+    "net_worth_fy0": {
+      "value": 1734.72,
+      "unit": "million",
+      "page": 87
+    },
+    "total_debt_fy0": {
+      "value": 269.53,
+      "unit": "million",
+      "page": 36
+    },
+    "cash_fy0": {
+      "value": 178.56,
+      "unit": "million",
+      "page": 87
+    },
+    "eps_fy0": {
+      "value": 6.9,
+      "unit": "rupees",
+      "page": 88
+    },
+    "ronw_fy0_pct": {
+      "value": 12.68,
+      "unit": "percent",
+      "page": 127
+    },
+    "nav_per_share_fy0": {
+      "value": 54.44,
+      "unit": "rupees",
+      "page": 127
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Tiger Logistics (India) Limited",
+        "nse_symbol": "TIGERLOGS",
+        "pe": 19.72,
+        "ronw_pct": 19.53,
+        "page": 128
+      },
+      {
+        "name": "Total Transport Systems Limited",
+        "nse_symbol": "TOTAL",
+        "pe": 13.32,
+        "ronw_pct": 10.56,
+        "page": 128
+      },
+      {
+        "name": "AVG Logistics Limited",
+        "nse_symbol": "AVG",
+        "pe": 16.15,
+        "ronw_pct": 8.65,
+        "page": 128
+      },
+      {
+        "name": "Patel Integrated Logistics Limited",
+        "nse_symbol": "PATINTLOG",
+        "pe": 13.33,
+        "ronw_pct": 6.25,
+        "page": 128
+      }
+    ],
+    "notes": [
+      "Price band, lot size, fresh issue share count and post-offer shares are [\u25cf] in the RHP.",
+      "EBITDA comes from the accounting ratios table in Other Financial Information (p.326). The KPI table itself was not among the pages provided.",
+      "The revenue split by service in the Summary of Business (p.33) totals 4,881.82 / 4,083.74 / 4,693.36 million. This differs from Revenue from Operations in the restated P&L (4,901.37 / 4,105.01 / 4,711.38), which is the figure used.",
+      "Total debt is 269.53 million (p.36: current 142.76 + non-current 126.77). The capitalisation statement (p.327) shows total borrowings of 293.29 million including lease liabilities.",
+      "Profit before tax for FY2025 is 295.09 in the P&L but 295.12 in the cash flow statement.",
+      "Pre-IPO placement could not be confirmed: the capital history pages provided are incomplete. A 280:1 bonus issue was allotted on April 22, 2024. The securities premium of 105,600 rupees suggests no recent priced allotment.",
+      "Retail quota % is not stated on the pages provided.",
+      "Promoter group share counts are printed oddly as '5,6200' and '1,1240'.",
+      "Peer NSE symbols are inferred; the RHP does not print them."
+    ]
+  }
+}

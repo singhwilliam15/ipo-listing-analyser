@@ -1,0 +1,363 @@
+{
+  "symbol": "JNPR",
+  "rhp_file": "JNPR.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:26:43+00:00",
+  "pages_sent": [
+    1,
+    2,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    152,
+    153,
+    154,
+    173,
+    174,
+    189,
+    190,
+    191,
+    608,
+    609,
+    657
+  ],
+  "n_pdf_pages": 771,
+  "usage": {
+    "input_tokens": 30067,
+    "output_tokens": 3531,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.2791295,
+    "session_id": "2d4247fe-c0f3-4d36-a9ec-af676713d765"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Juniper Green Energy Limited",
+    "sector": "Energy, power & renewables",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "stub_period_months": null,
+    "pre_ipo_placement": "no",
+    "lead_managers": "ICICI Securities Limited; HSBC Securities and Capital Markets (India) Private Limited; JM Financial Limited; Kotak Mahindra Capital Company Limited",
+    "revenue_fy2": 391.55,
+    "rhp_page_revenue_fy2": 99,
+    "revenue_fy1": 508.678,
+    "rhp_page_revenue_fy1": 99,
+    "revenue_fy0": 718.934,
+    "rhp_page_revenue_fy0": 99,
+    "ebitda_fy2": 370.843,
+    "rhp_page_ebitda_fy2": 609,
+    "ebitda_fy1": 485.685,
+    "rhp_page_ebitda_fy1": 609,
+    "ebitda_fy0": 692.184,
+    "rhp_page_ebitda_fy0": 609,
+    "pat_fy2": 40.064,
+    "rhp_page_pat_fy2": 99,
+    "pat_fy1": 36.478,
+    "rhp_page_pat_fy1": 99,
+    "pat_fy0": 40.464,
+    "rhp_page_pat_fy0": 99,
+    "cfo_fy2": 322.225,
+    "rhp_page_cfo_fy2": 100,
+    "cfo_fy1": 365.068,
+    "rhp_page_cfo_fy1": 100,
+    "cfo_fy0": 469.992,
+    "rhp_page_cfo_fy0": 100,
+    "net_worth_fy0": 3423.883,
+    "rhp_page_net_worth_fy0": 98,
+    "total_debt_fy0": 12920.541,
+    "rhp_page_total_debt_fy0": 657,
+    "cash_fy0": 1101.987,
+    "rhp_page_cash_fy0": 98,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 190,
+    "price_high": null,
+    "rhp_page_price_high": 190,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "rhp_page_retail_quota_pct": 95,
+    "pre_ipo_price": null,
+    "eps_fy0": 0.83,
+    "rhp_page_eps_fy0": 189,
+    "ronw_fy0_pct": 1.18,
+    "rhp_page_ronw_fy0_pct": 190,
+    "nav_per_share_fy0": 70.02,
+    "rhp_page_nav_per_share_fy0": 191,
+    "fresh_issue_cr": 1800.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 48.8989292,
+    "rhp_page_pre_issue_shares_cr": 95,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 95,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 1411.921,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "ADANIGREEN; Renew Global Energy Plc; NTPCGREEN",
+    "n_peers": 3,
+    "peer_pe_list": [
+      156.88,
+      22.25
+    ],
+    "peer_ronw_list": [],
+    "rhp_page_peers": 190
+  },
+  "extract": {
+    "company": "Juniper Green Energy Limited",
+    "sector": "Energy, power & renewables",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 190
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 190
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 18000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 488989292.0,
+      "unit": "shares",
+      "page": 95
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 95
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment/pre-payment, in full or part, of certain borrowings availed by the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 6832.35,
+          "unit": "million",
+          "page": 173
+        }
+      },
+      {
+        "purpose": "Investment in Material Subsidiary Juniper Green Gamma One Pvt Ltd and Subsidiaries Juniper Green Kite Pvt Ltd and Juniper Green Power Five Pvt Ltd for repayment/pre-payment of their borrowings",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 7286.86,
+          "unit": "million",
+          "page": 173
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 173
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 95
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "ICICI Securities Limited",
+      "HSBC Securities and Capital Markets (India) Private Limited",
+      "JM Financial Limited",
+      "Kotak Mahindra Capital Company Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "revenue_fy2": {
+      "value": 3915.5,
+      "unit": "million",
+      "page": 99
+    },
+    "revenue_fy1": {
+      "value": 5086.78,
+      "unit": "million",
+      "page": 99
+    },
+    "revenue_fy0": {
+      "value": 7189.34,
+      "unit": "million",
+      "page": 99
+    },
+    "ebitda_fy2": {
+      "value": 3708.43,
+      "unit": "million",
+      "page": 609
+    },
+    "ebitda_fy1": {
+      "value": 4856.85,
+      "unit": "million",
+      "page": 609
+    },
+    "ebitda_fy0": {
+      "value": 6921.84,
+      "unit": "million",
+      "page": 609
+    },
+    "pat_fy2": {
+      "value": 400.64,
+      "unit": "million",
+      "page": 99
+    },
+    "pat_fy1": {
+      "value": 364.78,
+      "unit": "million",
+      "page": 99
+    },
+    "pat_fy0": {
+      "value": 404.64,
+      "unit": "million",
+      "page": 99
+    },
+    "cfo_fy2": {
+      "value": 3222.25,
+      "unit": "million",
+      "page": 100
+    },
+    "cfo_fy1": {
+      "value": 3650.68,
+      "unit": "million",
+      "page": 100
+    },
+    "cfo_fy0": {
+      "value": 4699.92,
+      "unit": "million",
+      "page": 100
+    },
+    "net_worth_fy0": {
+      "value": 34238.83,
+      "unit": "million",
+      "page": 98
+    },
+    "total_debt_fy0": {
+      "value": 129205.41,
+      "unit": "million",
+      "page": 657
+    },
+    "cash_fy0": {
+      "value": 11019.87,
+      "unit": "million",
+      "page": 98
+    },
+    "eps_fy0": {
+      "value": 0.83,
+      "unit": "rupees",
+      "page": 189
+    },
+    "ronw_fy0_pct": {
+      "value": 1.18,
+      "unit": "percent",
+      "page": 190
+    },
+    "nav_per_share_fy0": {
+      "value": 70.02,
+      "unit": "rupees",
+      "page": 191
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Adani Green Energy Limited",
+        "nse_symbol": "ADANIGREEN",
+        "pe": 156.88,
+        "ronw_pct": null,
+        "page": 190
+      },
+      {
+        "name": "Renew Global Energy Plc",
+        "nse_symbol": null,
+        "pe": 22.25,
+        "ronw_pct": null,
+        "page": 190
+      },
+      {
+        "name": "NTPC Green Energy",
+        "nse_symbol": "NTPCGREEN",
+        "pe": null,
+        "ronw_pct": null,
+        "page": 190
+      }
+    ],
+    "notes": [
+      "Fresh issue only (\u20b918,000.00 million); no offer for sale, so there are no selling shareholders. Includes an Employee Reservation Portion of up to \u20b920.00 million; the Net Issue is \u20b917,980.00 million.",
+      "Price band, lot size, number of shares in the issue, post-issue shares and the general corporate purposes amount are all printed as [\u25cf] or are not on the pages provided.",
+      "The full peer comparison table (page 192) was not provided. Peers were taken from the summary on page 190: highest P/E Adani Green 156.88, lowest P/E Renew 22.25, average 93.67. NTPC Green Energy is named only as the highest EV/Operating EBITDA (42.88), so its P/E is unknown. RoNW for peers is not available. Renew P/E is based on its Nasdaq listing.",
+      "Promoter shareholding percentages and the retail quota percentage are not printed on the pages provided.",
+      "pre_ipo_placement was set to false by inference, not from an explicit statement: equity share capital is \u20b94,889.90 million at both March 31, 2025 and March 31, 2026, matches the 488,989,292 shares as at the RHP date, and FY2026 shows no proceeds from issue of equity shares. The capital history shown stops at May 2024, and secondary transfers were not checked.",
+      "EBITDA is as reported (PAT + tax + finance costs + D&A), including other income. Operating EBITDA FY2026 is 6,061.88 million.",
+      "Total debt is 112,417.24 (non-current) + 16,788.17 (current), as per the Capitalisation Statement.",
+      "EPS and NAV are adjusted for the 10:1 bonus issue of March 2025."
+    ]
+  }
+}

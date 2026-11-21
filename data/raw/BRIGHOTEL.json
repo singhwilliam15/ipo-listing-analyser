@@ -1,0 +1,367 @@
+{
+  "symbol": "BRIGHOTEL",
+  "rhp_file": "BRIGHOTEL.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:13:16+00:00",
+  "pages_sent": [
+    1,
+    2,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    97,
+    98,
+    99,
+    108,
+    109,
+    126,
+    127,
+    128,
+    322,
+    323,
+    349
+  ],
+  "n_pdf_pages": 437,
+  "usage": {
+    "input_tokens": 34415,
+    "output_tokens": 3537,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.31447210000000003,
+    "session_id": "1aabaf17-201c-4762-b202-3f1ea4775579"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Brigade Hotel Ventures Limited",
+    "sector": "Logistics & travel",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "stub_period_months": null,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "JM Financial Limited; ICICI Securities Limited",
+    "revenue_fy2": 350.22,
+    "rhp_page_revenue_fy2": 88,
+    "revenue_fy1": 401.7,
+    "rhp_page_revenue_fy1": 88,
+    "revenue_fy0": 468.25,
+    "rhp_page_revenue_fy0": 88,
+    "ebitda_fy2": 113.98,
+    "rhp_page_ebitda_fy2": 322,
+    "ebitda_fy1": 144.61,
+    "rhp_page_ebitda_fy1": 322,
+    "ebitda_fy0": 166.87,
+    "rhp_page_ebitda_fy0": 322,
+    "pat_fy2": -3.09,
+    "rhp_page_pat_fy2": 88,
+    "pat_fy1": 31.14,
+    "rhp_page_pat_fy1": 88,
+    "pat_fy0": 23.66,
+    "rhp_page_pat_fy0": 88,
+    "cfo_fy2": 107.87,
+    "rhp_page_cfo_fy2": 89,
+    "cfo_fy1": 154.86,
+    "rhp_page_cfo_fy1": 89,
+    "cfo_fy0": 148.95,
+    "rhp_page_cfo_fy0": 89,
+    "net_worth_fy0": 86.88,
+    "rhp_page_net_worth_fy0": 87,
+    "total_debt_fy0": 617.32,
+    "rhp_page_total_debt_fy0": 323,
+    "cash_fy0": 10.77,
+    "rhp_page_cash_fy0": 87,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 127,
+    "price_high": null,
+    "rhp_page_price_high": 127,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": 90.0,
+    "rhp_page_pre_ipo_price": 98,
+    "eps_fy0": 0.72,
+    "rhp_page_eps_fy0": 88,
+    "ronw_fy0_pct": 30.11,
+    "rhp_page_ronw_fy0_pct": 127,
+    "nav_per_share_fy0": 2.79,
+    "rhp_page_nav_per_share_fy0": 128,
+    "fresh_issue_cr": 759.6,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 29.543,
+    "rhp_page_pre_issue_shares_cr": 84,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 84,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 468.13999999999993,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "Schloss Bangalore; EIH Limited",
+    "n_peers": 2,
+    "peer_pe_list": [
+      229.34,
+      32.2
+    ],
+    "peer_ronw_list": [],
+    "rhp_page_peers": 127
+  },
+  "extract": {
+    "company": "Brigade Hotel Ventures Limited",
+    "sector": "Logistics & travel",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 127
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 127
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 7596.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 295430000.0,
+      "unit": "shares",
+      "page": 84
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 84
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment/prepayment of certain outstanding borrowings of the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 4136.9,
+          "unit": "million",
+          "page": 108
+        }
+      },
+      {
+        "purpose": "Repayment/prepayment of certain outstanding borrowings of Material Subsidiary SRP Prosperita Hotel Ventures Limited",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 544.5,
+          "unit": "million",
+          "page": 108
+        }
+      },
+      {
+        "purpose": "Payment of consideration for buying Undivided Share of Land from Promoter, BEL",
+        "category": "other",
+        "amount": {
+          "value": 1075.19,
+          "unit": "million",
+          "page": 108
+        }
+      },
+      {
+        "purpose": "Inorganic growth through unidentified acquisitions and other strategic initiatives and general corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 109
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 90.0,
+      "unit": "rupees",
+      "page": 98
+    },
+    "lead_managers": [
+      "JM Financial Limited",
+      "ICICI Securities Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "revenue_fy2": {
+      "value": 3502.2,
+      "unit": "million",
+      "page": 88
+    },
+    "revenue_fy1": {
+      "value": 4017.0,
+      "unit": "million",
+      "page": 88
+    },
+    "revenue_fy0": {
+      "value": 4682.5,
+      "unit": "million",
+      "page": 88
+    },
+    "ebitda_fy2": {
+      "value": 1139.8,
+      "unit": "million",
+      "page": 322
+    },
+    "ebitda_fy1": {
+      "value": 1446.1,
+      "unit": "million",
+      "page": 322
+    },
+    "ebitda_fy0": {
+      "value": 1668.7,
+      "unit": "million",
+      "page": 322
+    },
+    "pat_fy2": {
+      "value": -30.9,
+      "unit": "million",
+      "page": 88
+    },
+    "pat_fy1": {
+      "value": 311.4,
+      "unit": "million",
+      "page": 88
+    },
+    "pat_fy0": {
+      "value": 236.6,
+      "unit": "million",
+      "page": 88
+    },
+    "cfo_fy2": {
+      "value": 1078.7,
+      "unit": "million",
+      "page": 89
+    },
+    "cfo_fy1": {
+      "value": 1548.6,
+      "unit": "million",
+      "page": 89
+    },
+    "cfo_fy0": {
+      "value": 1489.5,
+      "unit": "million",
+      "page": 89
+    },
+    "net_worth_fy0": {
+      "value": 868.8,
+      "unit": "million",
+      "page": 87
+    },
+    "total_debt_fy0": {
+      "value": 6173.2,
+      "unit": "million",
+      "page": 323
+    },
+    "cash_fy0": {
+      "value": 107.7,
+      "unit": "million",
+      "page": 87
+    },
+    "eps_fy0": {
+      "value": 0.72,
+      "unit": "rupees",
+      "page": 88
+    },
+    "ronw_fy0_pct": {
+      "value": 30.11,
+      "unit": "percent",
+      "page": 127
+    },
+    "nav_per_share_fy0": {
+      "value": 2.79,
+      "unit": "rupees",
+      "page": 128
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Schloss Bangalore",
+        "nse_symbol": null,
+        "pe": 229.34,
+        "ronw_pct": null,
+        "page": 127
+      },
+      {
+        "name": "EIH Limited",
+        "nse_symbol": null,
+        "pe": 32.2,
+        "ronw_pct": null,
+        "page": 127
+      }
+    ],
+    "notes": [
+      "The issue is a pure fresh issue with no offer for sale, so there are no selling shareholders.",
+      "The price band, lot size, number of fresh issue shares and post-issue share count are all printed as [\u25cf].",
+      "Pre-IPO placement: 14,000,000 shares were allotted on July 3, 2025 at \u20b990 each to 360 ONE funds, raising \u20b91,260.00 million. The issue size was cut by this amount to \u20b97,596.00 million.",
+      "The full 'Comparison with listed industry peers' table is not on these pages. Only the industry P/E summary is shown: highest 229.34 (Schloss Bangalore), lowest 32.20 (EIH Limited), industry composite 91.43. Peer RoNW and the other peers are not available.",
+      "net_worth_fy0 is equity attributable to equity holders of the parent (\u20b9868.80 million). The RHP's own 'Net Worth' used for RoNW and NAV is \u20b9785.80 million (page 323).",
+      "The RHP calculates RoNW from total restated PAT including minority interest (\u20b9236.60 million), not PAT attributable to the parent.",
+      "Promoter (BEL) shareholding % is not printed on these pages. From the capital history, BEL appears to hold 281,430,000 of 295,430,000 shares, but this was not calculated.",
+      "Retail quota % is not printed on these pages. Only the non-institutional cap (not more than 15% of Net Issue) is given.",
+      "Total debt is current borrowings 1,239.30 plus non-current 4,933.90, giving 6,173.20. Lease liabilities are excluded.",
+      "The amount for inorganic acquisitions plus GCP is [\u25cf]. Pre-IPO proceeds go to GCP. GCP plus unidentified acquisitions is capped at 35% of gross proceeds, with at least \u20b9900 million for acquisitions.",
+      "The land purchase from promoter BEL is categorised as 'other'.",
+      "FY2023 PAT is a loss despite an exceptional reversal of impairment of \u20b9110.00 million."
+    ]
+  }
+}

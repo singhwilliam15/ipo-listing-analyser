@@ -1,0 +1,495 @@
+{
+  "symbol": "RENTOMOJO",
+  "rhp_file": "RENTOMOJO.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:21:40+00:00",
+  "pages_sent": [
+    1,
+    2,
+    25,
+    72,
+    73,
+    75,
+    76,
+    77,
+    78,
+    92,
+    93,
+    94,
+    149,
+    150,
+    159,
+    160,
+    161,
+    308,
+    309,
+    338
+  ],
+  "n_pdf_pages": 436,
+  "usage": {
+    "input_tokens": 33788,
+    "output_tokens": 4383,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.32631029999999994,
+    "session_id": "b9fbd524-4294-42da-abca-50f58d635307"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Rentomojo Limited",
+    "sector": "Internet & platforms",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "stub_period_months": null,
+    "pre_ipo_placement": null,
+    "lead_managers": "Motilal Oswal Investment Advisors Limited; Axis Capital Limited; IIFL Capital Services Limited",
+    "revenue_fy2": 192.701,
+    "rhp_page_revenue_fy2": 78,
+    "revenue_fy1": 265.959,
+    "rhp_page_revenue_fy1": 78,
+    "revenue_fy0": 386.988,
+    "rhp_page_revenue_fy0": 78,
+    "ebitda_fy2": 78.152,
+    "rhp_page_ebitda_fy2": 161,
+    "ebitda_fy1": 118.439,
+    "rhp_page_ebitda_fy1": 161,
+    "ebitda_fy0": 163.462,
+    "rhp_page_ebitda_fy0": 161,
+    "pat_fy2": 22.412,
+    "rhp_page_pat_fy2": 78,
+    "pat_fy1": 43.106,
+    "rhp_page_pat_fy1": 78,
+    "pat_fy0": 104.299,
+    "rhp_page_pat_fy0": 78,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 295.807,
+    "rhp_page_net_worth_fy0": 76,
+    "total_debt_fy0": 187.59,
+    "rhp_page_total_debt_fy0": 338,
+    "cash_fy0": 23.097,
+    "rhp_page_cash_fy0": 76,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 10.42,
+    "rhp_page_eps_fy0": 160,
+    "ronw_fy0_pct": 43.51,
+    "rhp_page_ronw_fy0_pct": 160,
+    "nav_per_share_fy0": 28.65,
+    "rhp_page_nav_per_share_fy0": 160,
+    "fresh_issue_cr": 150.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 2.7365529,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 10.0400342,
+    "rhp_page_pre_issue_shares_cr": 72,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 72,
+    "ofs_promoter_shares_cr": 0.0849175,
+    "ofs_investor_shares_cr": 2.4858359,
+    "proceeds_debt_repayment_cr": 70.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "Rentomojo Limited",
+    "sector": "Internet & platforms",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 1500.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 27365529.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Geetansh Bamania",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 849175.0,
+          "unit": "shares",
+          "page": 72
+        }
+      },
+      {
+        "name": "Accel India IV (Mauritius) Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 7846951.0,
+          "unit": "shares",
+          "page": 72
+        }
+      },
+      {
+        "name": "Edelweiss Discovery Fund - Series I",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 2882794.0,
+          "unit": "shares",
+          "page": 72
+        }
+      },
+      {
+        "name": "IDG Ventures India Fund III LLC",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 2803431.0,
+          "unit": "shares",
+          "page": 73
+        }
+      },
+      {
+        "name": "ValueQuest S.C.A.L.E. Fund",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 2713418.0,
+          "unit": "shares",
+          "page": 73
+        }
+      },
+      {
+        "name": "Madison India Opportunities V VCC",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 2398550.0,
+          "unit": "shares",
+          "page": 73
+        }
+      },
+      {
+        "name": "Chiratae Trust (trustee Vistra ITCL (India) Limited, through Naigama Investment Manager LLP)",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 2002019.0,
+          "unit": "shares",
+          "page": 73
+        }
+      },
+      {
+        "name": "GMO Payment Gateway Inc",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 1512800.0,
+          "unit": "shares",
+          "page": 73
+        }
+      },
+      {
+        "name": "GMO GFF Limited Partnership",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 842174.0,
+          "unit": "shares",
+          "page": 73
+        }
+      },
+      {
+        "name": "MSIVC 2018V Venture Capital Investment Limited Partnership",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 753647.0,
+          "unit": "shares",
+          "page": 73
+        }
+      },
+      {
+        "name": "Pratithi Investment Trust, acting through its trustee S. Gopalakrishnan",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 719315.0,
+          "unit": "shares",
+          "page": 73
+        }
+      },
+      {
+        "name": "Rajeev Chitrabhanu HUF",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 307000.0,
+          "unit": "shares",
+          "page": 73
+        }
+      },
+      {
+        "name": "VCATs Management Services Trust - II",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 76260.0,
+          "unit": "shares",
+          "page": 73
+        }
+      },
+      {
+        "name": "Renaud Laplanche",
+        "kind": "other",
+        "shares_offered": {
+          "value": 755405.0,
+          "unit": "shares",
+          "page": 73
+        }
+      },
+      {
+        "name": "Gaurav Bamania",
+        "kind": "other",
+        "shares_offered": {
+          "value": 400000.0,
+          "unit": "shares",
+          "page": 73
+        }
+      },
+      {
+        "name": "Gautam Dalmia",
+        "kind": "other",
+        "shares_offered": {
+          "value": 254130.0,
+          "unit": "shares",
+          "page": 73
+        }
+      },
+      {
+        "name": "Nitish Mittersain",
+        "kind": "other",
+        "shares_offered": {
+          "value": 148460.0,
+          "unit": "shares",
+          "page": 73
+        }
+      },
+      {
+        "name": "Subodh Shinkar",
+        "kind": "other",
+        "shares_offered": {
+          "value": 100000.0,
+          "unit": "shares",
+          "page": 73
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 100400342.0,
+      "unit": "shares",
+      "page": 72
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 72
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment/prepayment, in full or in part, of certain outstanding borrowings and accrued interest thereon",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 700.0,
+          "unit": "million",
+          "page": 149
+        }
+      },
+      {
+        "purpose": "Payment of lease rental/license fee for warehouses and experience stores",
+        "category": "other",
+        "amount": {
+          "value": 425.0,
+          "unit": "million",
+          "page": 149
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": null,
+          "page": 149
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lead_managers": [
+      "Motilal Oswal Investment Advisors Limited",
+      "Axis Capital Limited",
+      "IIFL Capital Services Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "revenue_fy2": {
+      "value": 1927.01,
+      "unit": "million",
+      "page": 78
+    },
+    "revenue_fy1": {
+      "value": 2659.59,
+      "unit": "million",
+      "page": 78
+    },
+    "revenue_fy0": {
+      "value": 3869.88,
+      "unit": "million",
+      "page": 78
+    },
+    "ebitda_fy2": {
+      "value": 781.52,
+      "unit": "million",
+      "page": 161
+    },
+    "ebitda_fy1": {
+      "value": 1184.39,
+      "unit": "million",
+      "page": 161
+    },
+    "ebitda_fy0": {
+      "value": 1634.62,
+      "unit": "million",
+      "page": 161
+    },
+    "pat_fy2": {
+      "value": 224.12,
+      "unit": "million",
+      "page": 78
+    },
+    "pat_fy1": {
+      "value": 431.06,
+      "unit": "million",
+      "page": 78
+    },
+    "pat_fy0": {
+      "value": 1042.99,
+      "unit": "million",
+      "page": 78
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 2958.07,
+      "unit": "million",
+      "page": 76
+    },
+    "total_debt_fy0": {
+      "value": 1875.9,
+      "unit": "million",
+      "page": 338
+    },
+    "cash_fy0": {
+      "value": 230.97,
+      "unit": "million",
+      "page": 76
+    },
+    "eps_fy0": {
+      "value": 10.42,
+      "unit": "rupees",
+      "page": 160
+    },
+    "ronw_fy0_pct": {
+      "value": 43.51,
+      "unit": "percent",
+      "page": 160
+    },
+    "nav_per_share_fy0": {
+      "value": 28.65,
+      "unit": "rupees",
+      "page": 160
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "no_listed_peers": true,
+    "peers": [],
+    "notes": [
+      "FY2026 figures are restated consolidated (Company + Subsidiary); FY2025 and FY2024 are restated standalone, as the subsidiary appears only in FY2026.",
+      "Price band, lot size, fresh issue share count, post-offer shares and OFS amount are [\u25cf] in the RHP.",
+      "No cash flow statement pages were provided, so CFO is null for all years.",
+      "Promoter shareholding % and retail quota % are not on the pages provided.",
+      "The share capital history on page 94 is cut off. Shares after the March 7, 2026 bonus total 34,516,640, but the pre-offer count is 100,400,342, so later allotments (likely CCPS conversion) are not shown. The pre-IPO placement status is therefore unknown. The rights issue of July 24, 2025 at \u20b910 is more than 12 months before the RHP.",
+      "PAT FY2026 includes a deferred tax credit of 366.43 million; exceptional items were 25.79 million.",
+      "Rajeev Chitrabhanu HUF, Pratithi Investment Trust and VCATs are grouped in the RHP under Investor Selling Shareholders, so they are classified as investor here. Gaurav Bamania is listed as an Individual Selling Shareholder (possibly a relative of the promoter, but not labelled promoter group on these pages).",
+      "The lease rental payment object (425.00 million) is categorised as 'other'.",
+      "The Employee Reservation Portion is up to \u20b920.00 million."
+    ]
+  }
+}

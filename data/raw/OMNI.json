@@ -1,0 +1,404 @@
+{
+  "symbol": "OMNI",
+  "rhp_file": "OMNI.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:00:14+00:00",
+  "pages_sent": [
+    1,
+    2,
+    23,
+    24,
+    25,
+    26,
+    91,
+    92,
+    94,
+    95,
+    96,
+    97,
+    111,
+    112,
+    113,
+    130,
+    131,
+    169,
+    170,
+    171,
+    412,
+    413,
+    417
+  ],
+  "n_pdf_pages": 570,
+  "usage": {
+    "input_tokens": 35253,
+    "output_tokens": 3583,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.322176,
+    "session_id": "4d081ea5-6490-4aaf-a08a-3cc04dddabb8"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Omnitech Engineering Limited",
+    "sector": "Industrials & capital goods",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "stub_period_months": 6,
+    "pre_ipo_placement": null,
+    "lead_managers": "Equirus Capital Private Limited; ICICI Securities Limited",
+    "revenue_fy2": 177.331,
+    "rhp_page_revenue_fy2": 97,
+    "revenue_fy1": 178.18,
+    "rhp_page_revenue_fy1": 97,
+    "revenue_fy0": 342.913,
+    "rhp_page_revenue_fy0": 97,
+    "ebitda_fy2": 63.456,
+    "rhp_page_ebitda_fy2": 412,
+    "ebitda_fy1": 64.936,
+    "rhp_page_ebitda_fy1": 412,
+    "ebitda_fy0": 117.647,
+    "rhp_page_ebitda_fy0": 412,
+    "pat_fy2": 32.292,
+    "rhp_page_pat_fy2": 97,
+    "pat_fy1": 18.908,
+    "rhp_page_pat_fy1": 97,
+    "pat_fy0": 43.865,
+    "rhp_page_pat_fy0": 97,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 203.641,
+    "rhp_page_net_worth_fy0": 95,
+    "total_debt_fy0": 330.627,
+    "rhp_page_total_debt_fy0": 25,
+    "cash_fy0": 5.133,
+    "rhp_page_cash_fy0": 95,
+    "revenue_stub": 228.17,
+    "rhp_page_revenue_stub": 97,
+    "pat_stub": 27.779,
+    "rhp_page_pat_stub": 97,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": 94.08,
+    "rhp_page_promoter_pre_pct": 24,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 24,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 4.26,
+    "rhp_page_eps_fy0": 170,
+    "ronw_fy0_pct": 21.46,
+    "rhp_page_ronw_fy0_pct": 171,
+    "nav_per_share_fy0": 19.82,
+    "rhp_page_nav_per_share_fy0": 171,
+    "fresh_issue_cr": 418.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": 165.0,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 10.524968,
+    "rhp_page_pre_issue_shares_cr": 91,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 91,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 50.0,
+    "proceeds_capex_cr": 252.256,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "MTAR Technologies Ltd; PTC Industries Ltd; Dynamatic Technologies Ltd; Azad Engineering Ltd; Unimech Aerospace and Manufacturing Ltd",
+    "n_peers": 5,
+    "peer_pe_list": [],
+    "peer_ronw_list": [],
+    "rhp_page_peers": 171
+  },
+  "extract": {
+    "company": "Omnitech Engineering Limited",
+    "sector": "Industrials & capital goods",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 4180.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": 1650.0,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Udaykumar Arunkumar Parekh",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": null,
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 105249680.0,
+      "unit": "shares",
+      "page": 91
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 91
+    },
+    "promoter_pre_pct": {
+      "value": 94.08,
+      "unit": "percent",
+      "page": 24
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": 24
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment and/or pre-payment of certain outstanding borrowings",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 500.0,
+          "unit": "million",
+          "page": 131
+        }
+      },
+      {
+        "purpose": "Setting up New Projects - Proposed Facility 1",
+        "category": "capex",
+        "amount": {
+          "value": 1328.44,
+          "unit": "million",
+          "page": 131
+        }
+      },
+      {
+        "purpose": "Setting up New Projects - Proposed Facility 2",
+        "category": "capex",
+        "amount": {
+          "value": 1007.14,
+          "unit": "million",
+          "page": 131
+        }
+      },
+      {
+        "purpose": "Capital expenditure at Existing Facility 2 (rooftop solar panels, new equipment/machinery)",
+        "category": "capex",
+        "amount": {
+          "value": 186.98,
+          "unit": "million",
+          "page": 131
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": null,
+          "page": 131
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lead_managers": [
+      "Equirus Capital Private Limited",
+      "ICICI Securities Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "revenue_fy2": {
+      "value": 1773.31,
+      "unit": "million",
+      "page": 97
+    },
+    "revenue_fy1": {
+      "value": 1781.8,
+      "unit": "million",
+      "page": 97
+    },
+    "revenue_fy0": {
+      "value": 3429.13,
+      "unit": "million",
+      "page": 97
+    },
+    "ebitda_fy2": {
+      "value": 634.56,
+      "unit": "million",
+      "page": 412
+    },
+    "ebitda_fy1": {
+      "value": 649.36,
+      "unit": "million",
+      "page": 412
+    },
+    "ebitda_fy0": {
+      "value": 1176.47,
+      "unit": "million",
+      "page": 412
+    },
+    "pat_fy2": {
+      "value": 322.92,
+      "unit": "million",
+      "page": 97
+    },
+    "pat_fy1": {
+      "value": 189.08,
+      "unit": "million",
+      "page": 97
+    },
+    "pat_fy0": {
+      "value": 438.65,
+      "unit": "million",
+      "page": 97
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 2036.41,
+      "unit": "million",
+      "page": 95
+    },
+    "total_debt_fy0": {
+      "value": 3306.27,
+      "unit": "million",
+      "page": 25
+    },
+    "cash_fy0": {
+      "value": 51.33,
+      "unit": "million",
+      "page": 95
+    },
+    "eps_fy0": {
+      "value": 4.26,
+      "unit": "rupees",
+      "page": 170
+    },
+    "ronw_fy0_pct": {
+      "value": 21.46,
+      "unit": "percent",
+      "page": 171
+    },
+    "nav_per_share_fy0": {
+      "value": 19.82,
+      "unit": "rupees",
+      "page": 171
+    },
+    "stub_period_months": 6,
+    "revenue_stub": {
+      "value": 2281.7,
+      "unit": "million",
+      "page": 97
+    },
+    "pat_stub": {
+      "value": 277.79,
+      "unit": "million",
+      "page": 97
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "MTAR Technologies Ltd",
+        "nse_symbol": null,
+        "pe": null,
+        "ronw_pct": null,
+        "page": 171
+      },
+      {
+        "name": "PTC Industries Ltd",
+        "nse_symbol": null,
+        "pe": null,
+        "ronw_pct": null,
+        "page": 171
+      },
+      {
+        "name": "Dynamatic Technologies Ltd",
+        "nse_symbol": null,
+        "pe": null,
+        "ronw_pct": null,
+        "page": 171
+      },
+      {
+        "name": "Azad Engineering Ltd",
+        "nse_symbol": null,
+        "pe": null,
+        "ronw_pct": null,
+        "page": 171
+      },
+      {
+        "name": "Unimech Aerospace and Manufacturing Ltd",
+        "nse_symbol": null,
+        "pe": null,
+        "ronw_pct": null,
+        "page": 171
+      }
+    ],
+    "notes": [
+      "Price band, lot size, and share counts for the fresh issue/OFS are [\u25cf] in the RHP; only amounts are given.",
+      "Net worth fy0 is taken as equity attributable to owners from the balance sheet (2,036.41). The summary and NAV reconciliation give a different 'Net worth' of 2,044.37 (pages 25, 413), defined as including NCI and excluding the FCTR.",
+      "There is no total borrowings line for FY2025 in the balance sheet. Total debt 3,306.27 comes from the summary on page 25 and matches non-current 1,292.50 + current 2,013.77 (page 95-96).",
+      "The cash flow statement is not in the pages provided, so CFO is null.",
+      "The peer comparison table with each peer's P/E and RoNW is not in the pages provided. Page 171 names only the peers and gives industry P/E figures: highest 428.48, lowest 56.68, average 184.90.",
+      "The RoNW of 21.46% (page 171/412) differs from the 21.55% return on equity stated in the qualitative factors (page 170).",
+      "The retail quota percentage is not stated in the pages provided (Offer Structure, page 491, is not included).",
+      "Share capital rose from 500.00 to 526.25 million during FY2025, which points to an allotment, but its details and timing (and so any pre-IPO placement) are not in the pages provided.",
+      "Promoter pre-offer holding of 94.08% includes the promoter group; promoters alone hold 93.04%.",
+      "Selling shareholder's weighted average cost of acquisition: \u20b90.05 per share."
+    ]
+  }
+}

@@ -1,0 +1,376 @@
+{
+  "symbol": "CORONA",
+  "rhp_file": "CORONA.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:02:48+00:00",
+  "pages_sent": [
+    1,
+    2,
+    26,
+    27,
+    28,
+    29,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    109,
+    110,
+    111,
+    128,
+    129,
+    131,
+    132,
+    133,
+    344,
+    345,
+    378
+  ],
+  "n_pdf_pages": 545,
+  "usage": {
+    "input_tokens": 39098,
+    "output_tokens": 3366,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.34898,
+    "session_id": "921d7270-f46a-4c1d-b87a-1a2a7a4933cc"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Corona Remedies Limited",
+    "sector": "Healthcare & pharma",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "stub_period_months": 3,
+    "pre_ipo_placement": null,
+    "lead_managers": "JM Financial Limited; IIFL Capital Services Limited; Kotak Mahindra Capital Company Limited",
+    "revenue_fy2": 884.05,
+    "rhp_page_revenue_fy2": 95,
+    "revenue_fy1": 1014.474,
+    "rhp_page_revenue_fy1": 95,
+    "revenue_fy0": 1196.415,
+    "rhp_page_revenue_fy0": 95,
+    "ebitda_fy2": 135.03,
+    "rhp_page_ebitda_fy2": 344,
+    "ebitda_fy1": 161.19,
+    "rhp_page_ebitda_fy1": 344,
+    "ebitda_fy0": 245.913,
+    "rhp_page_ebitda_fy0": 344,
+    "pat_fy2": 84.929,
+    "rhp_page_pat_fy2": 95,
+    "pat_fy1": 90.503,
+    "rhp_page_pat_fy1": 95,
+    "pat_fy0": 149.434,
+    "rhp_page_pat_fy0": 95,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 606.343,
+    "rhp_page_net_worth_fy0": 94,
+    "total_debt_fy0": 62.695,
+    "rhp_page_total_debt_fy0": 29,
+    "cash_fy0": 3.2229999999999994,
+    "rhp_page_cash_fy0": 94,
+    "revenue_stub": 346.542,
+    "rhp_page_revenue_stub": 95,
+    "pat_stub": 46.196,
+    "rhp_page_pat_stub": 95,
+    "price_low": null,
+    "rhp_page_price_low": 133,
+    "price_high": null,
+    "rhp_page_price_high": 133,
+    "lot_size": null,
+    "promoter_pre_pct": 72.5,
+    "rhp_page_promoter_pre_pct": 27,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 28,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 24.43,
+    "rhp_page_eps_fy0": 95,
+    "ronw_fy0_pct": 24.65,
+    "rhp_page_ronw_fy0_pct": 133,
+    "nav_per_share_fy0": 99.14,
+    "rhp_page_nav_per_share_fy0": 29,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": 655.371,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 6.1160088,
+    "rhp_page_pre_issue_shares_cr": 91,
+    "post_issue_shares_cr": 6.1160088,
+    "rhp_page_post_issue_shares_cr": 91,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": null,
+    "proceeds_capex_cr": null,
+    "proceeds_gcp_cr": null,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "Corona Remedies Limited",
+    "sector": "Healthcare & pharma",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 133
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 133
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": 6553.71,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Dr. Kirtikumar Laxmidas Mehta",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Minaxi Kirtikumar Mehta",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Dipabahen Niravkumar Mehta",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Brinda Ankur Mehta",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Sepia Investments Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Anchor Partners",
+        "kind": "investor",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Sage Investment Trust",
+        "kind": "investor",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 61160088.0,
+      "unit": "shares",
+      "page": 91
+    },
+    "post_issue_shares": {
+      "value": 61160088.0,
+      "unit": "shares",
+      "page": 91
+    },
+    "promoter_pre_pct": {
+      "value": 72.5,
+      "unit": "percent",
+      "page": 27
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 28
+    },
+    "objects_of_offer": [],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "JM Financial Limited",
+      "IIFL Capital Services Limited",
+      "Kotak Mahindra Capital Company Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "revenue_fy2": {
+      "value": 8840.5,
+      "unit": "million",
+      "page": 95
+    },
+    "revenue_fy1": {
+      "value": 10144.74,
+      "unit": "million",
+      "page": 95
+    },
+    "revenue_fy0": {
+      "value": 11964.15,
+      "unit": "million",
+      "page": 95
+    },
+    "ebitda_fy2": {
+      "value": 1350.3,
+      "unit": "million",
+      "page": 344
+    },
+    "ebitda_fy1": {
+      "value": 1611.9,
+      "unit": "million",
+      "page": 344
+    },
+    "ebitda_fy0": {
+      "value": 2459.13,
+      "unit": "million",
+      "page": 344
+    },
+    "pat_fy2": {
+      "value": 849.29,
+      "unit": "million",
+      "page": 95
+    },
+    "pat_fy1": {
+      "value": 905.03,
+      "unit": "million",
+      "page": 95
+    },
+    "pat_fy0": {
+      "value": 1494.34,
+      "unit": "million",
+      "page": 95
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 6063.43,
+      "unit": "million",
+      "page": 94
+    },
+    "total_debt_fy0": {
+      "value": 626.95,
+      "unit": "million",
+      "page": 29
+    },
+    "cash_fy0": {
+      "value": 32.23,
+      "unit": "million",
+      "page": 94
+    },
+    "eps_fy0": {
+      "value": 24.43,
+      "unit": "rupees",
+      "page": 95
+    },
+    "ronw_fy0_pct": {
+      "value": 24.65,
+      "unit": "percent",
+      "page": 133
+    },
+    "nav_per_share_fy0": {
+      "value": 99.14,
+      "unit": "rupees",
+      "page": 29
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 3465.42,
+      "unit": "million",
+      "page": 95
+    },
+    "pat_stub": {
+      "value": 461.96,
+      "unit": "million",
+      "page": 95
+    },
+    "no_listed_peers": false,
+    "peers": [],
+    "notes": [
+      "The offer is entirely an offer for sale with no fresh issue, so the company gets no proceeds and there are no objects of the offer.",
+      "Share counts offered by each selling shareholder are printed as [\u25cf]. Only amounts are given: Dr. K.L. Mehta \u20b91,298.41 mn, Minaxi \u20b9766.07 mn, Dipabahen \u20b9103.87 mn, Brinda \u20b9103.87 mn, Sepia \u20b94,046.00 mn, Anchor Partners \u20b9151.25 mn, Sage \u20b984.24 mn.",
+      "The price band, lot size and retail quota % are not printed, or are shown as [\u25cf]. The employee reservation portion is up to \u20b958.50 mn.",
+      "promoter_pre_pct of 72.50% is the sum of the printed totals: promoters 66.00% plus promoter group 6.50% (page 27).",
+      "Net worth for FY2025 is 6,063.43 in the balance sheet (page 94) but 6,063.44 in the summary (page 28).",
+      "The 'Comparison with listed industry peers' table is not in the pages provided. Only the industry P/E summary is given: highest 65.91, lowest 24.47, average 43.74 (page 133). The peers list is left empty.",
+      "The cash flow statement is not in the pages provided, so CFO is null.",
+      "There is no information on pre-IPO placements in the pages provided."
+    ]
+  }
+}

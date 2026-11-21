@@ -1,0 +1,350 @@
+{
+  "symbol": "VEEGALAND",
+  "rhp_file": "VEEGALAND.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:21:10+00:00",
+  "pages_sent": [
+    1,
+    2,
+    26,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    105,
+    106,
+    107,
+    132,
+    133,
+    153,
+    154,
+    155,
+    369,
+    370,
+    371
+  ],
+  "n_pdf_pages": 534,
+  "usage": {
+    "input_tokens": 34869,
+    "output_tokens": 3327,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.31394690000000003,
+    "session_id": "b4dd2181-4330-4cf2-aea2-ca9afa93de9b"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Veegaland Developers Limited",
+    "sector": "Infrastructure, construction & real estate",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "FY2026",
+    "stub_period_months": null,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Cumulative Capital Private Limited",
+    "revenue_fy2": 110.7676,
+    "rhp_page_revenue_fy2": 89,
+    "revenue_fy1": 192.3753,
+    "rhp_page_revenue_fy1": 89,
+    "revenue_fy0": 250.9762,
+    "rhp_page_revenue_fy0": 89,
+    "ebitda_fy2": 16.7223,
+    "rhp_page_ebitda_fy2": 369,
+    "ebitda_fy1": 33.7735,
+    "rhp_page_ebitda_fy1": 369,
+    "ebitda_fy0": 42.6422,
+    "rhp_page_ebitda_fy0": 369,
+    "pat_fy2": 7.8688,
+    "rhp_page_pat_fy2": 89,
+    "pat_fy1": 20.4259,
+    "rhp_page_pat_fy1": 89,
+    "pat_fy0": 26.6146,
+    "rhp_page_pat_fy0": 89,
+    "cfo_fy2": 8.8273,
+    "rhp_page_cfo_fy2": 90,
+    "cfo_fy1": -43.9956,
+    "rhp_page_cfo_fy1": 90,
+    "cfo_fy0": -74.2595,
+    "rhp_page_cfo_fy0": 90,
+    "net_worth_fy0": 266.9002,
+    "rhp_page_net_worth_fy0": 369,
+    "total_debt_fy0": 85.589,
+    "rhp_page_total_debt_fy0": 371,
+    "cash_fy0": 20.5269,
+    "rhp_page_cash_fy0": 88,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 154,
+    "price_high": null,
+    "rhp_page_price_high": 154,
+    "lot_size": null,
+    "rhp_page_lot_size": 2,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": 35.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": 1000.0,
+    "rhp_page_pre_ipo_price": 106,
+    "eps_fy0": 8.77,
+    "rhp_page_eps_fy0": 89,
+    "ronw_fy0_pct": 16.02,
+    "rhp_page_ronw_fy0_pct": 369,
+    "nav_per_share_fy0": 79.08,
+    "rhp_page_nav_per_share_fy0": 369,
+    "fresh_issue_cr": 210.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 3.375,
+    "rhp_page_pre_issue_shares_cr": 85,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 85,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 119.8254,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "SHRIRAMPPS; PURVA",
+    "n_peers": 2,
+    "peer_pe_list": [
+      12.91,
+      84.24
+    ],
+    "peer_ronw_list": [
+      7.16,
+      3.23
+    ],
+    "rhp_page_peers": 155
+  },
+  "extract": {
+    "company": "Veegaland Developers Limited",
+    "sector": "Infrastructure, construction & real estate",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 154
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 154
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": 2
+    },
+    "fresh_issue_amount": {
+      "value": 21000.0,
+      "unit": "lakh",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "lakh",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 33750000.0,
+      "unit": "shares",
+      "page": 85
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 85
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding a part of the expense to be incurred in the development of Ongoing Projects",
+        "category": "capex",
+        "amount": {
+          "value": 11982.54,
+          "unit": "lakh",
+          "page": 132
+        }
+      },
+      {
+        "purpose": "Funding unidentified acquisition of land and general corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "lakh",
+          "page": 132
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": 1000.0,
+      "unit": "rupees",
+      "page": 106
+    },
+    "lead_managers": [
+      "Cumulative Capital Private Limited"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "FY2026",
+    "revenue_fy2": {
+      "value": 11076.76,
+      "unit": "lakh",
+      "page": 89
+    },
+    "revenue_fy1": {
+      "value": 19237.53,
+      "unit": "lakh",
+      "page": 89
+    },
+    "revenue_fy0": {
+      "value": 25097.62,
+      "unit": "lakh",
+      "page": 89
+    },
+    "ebitda_fy2": {
+      "value": 1672.23,
+      "unit": "lakh",
+      "page": 369
+    },
+    "ebitda_fy1": {
+      "value": 3377.35,
+      "unit": "lakh",
+      "page": 369
+    },
+    "ebitda_fy0": {
+      "value": 4264.22,
+      "unit": "lakh",
+      "page": 369
+    },
+    "pat_fy2": {
+      "value": 786.88,
+      "unit": "lakh",
+      "page": 89
+    },
+    "pat_fy1": {
+      "value": 2042.59,
+      "unit": "lakh",
+      "page": 89
+    },
+    "pat_fy0": {
+      "value": 2661.46,
+      "unit": "lakh",
+      "page": 89
+    },
+    "cfo_fy2": {
+      "value": 882.73,
+      "unit": "lakh",
+      "page": 90
+    },
+    "cfo_fy1": {
+      "value": -4399.56,
+      "unit": "lakh",
+      "page": 90
+    },
+    "cfo_fy0": {
+      "value": -7425.95,
+      "unit": "lakh",
+      "page": 90
+    },
+    "net_worth_fy0": {
+      "value": 26690.02,
+      "unit": "lakh",
+      "page": 369
+    },
+    "total_debt_fy0": {
+      "value": 8558.9,
+      "unit": "lakh",
+      "page": 371
+    },
+    "cash_fy0": {
+      "value": 2052.69,
+      "unit": "lakh",
+      "page": 88
+    },
+    "eps_fy0": {
+      "value": 8.77,
+      "unit": "rupees",
+      "page": 89
+    },
+    "ronw_fy0_pct": {
+      "value": 16.02,
+      "unit": "percent",
+      "page": 369
+    },
+    "nav_per_share_fy0": {
+      "value": 79.08,
+      "unit": "rupees",
+      "page": 369
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "lakh",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "lakh",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Shriram Properties Limited",
+        "nse_symbol": "SHRIRAMPPS",
+        "pe": 12.91,
+        "ronw_pct": 7.16,
+        "page": 155
+      },
+      {
+        "name": "Puravankara Limited",
+        "nse_symbol": "PURVA",
+        "pe": 84.24,
+        "ronw_pct": 3.23,
+        "page": 155
+      }
+    ],
+    "notes": [
+      "Financials are the company's restated financial statements with no consolidated statements shown, so the basis is standalone.",
+      "This is a fresh issue only. There is no offer for sale and no selling shareholders. The price band, lot size, number of shares and post-issue shares are all shown as [\u25cf].",
+      "Total debt of 8,558.90 lakh is taken from the capitalisation statement (page 371), where it is split as current 5,630.04 and non-current including current maturities 2,928.86. The balance sheet (page 88) shows non-current borrowings of 2,716.91 and current borrowings of 5,841.99. These also add up to 8,558.90, but the current/non-current split is different.",
+      "Pre-IPO price: a rights issue was allotted on August 21, 2025 at \u20b91,000 per share. This is just over 12 months before the RHP date of August 31, 2026, so pre_ipo_placement is set to false. A 4:1 bonus issue on September 25, 2025 falls within the 12 months but is not a placement.",
+      "Promoter shareholding percentages before and after the issue are not on the pages provided.",
+      "The amount for land acquisition and general corporate purposes is [\u25cf]. Each is capped at 25% of gross proceeds, and together they are capped at 35%.",
+      "EBITDA is taken from Other Financial Information (page 369). The KPI table values were not on the pages provided.",
+      "NSE symbols for the peers were not printed in the RHP and are inferred."
+    ]
+  }
+}

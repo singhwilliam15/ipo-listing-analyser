@@ -1,0 +1,458 @@
+{
+  "symbol": "ORIENTTECH",
+  "rhp_file": "ORIENTTECH.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-21T06:04:18+00:00",
+  "pages_sent": [
+    1,
+    2,
+    24,
+    25,
+    26,
+    27,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    82,
+    83,
+    84,
+    117,
+    118,
+    138,
+    139,
+    140,
+    345,
+    346,
+    353
+  ],
+  "n_pdf_pages": 479,
+  "usage": {
+    "input_tokens": 37464,
+    "output_tokens": 3689,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3422058,
+    "session_id": "2e09cf1e-a973-40d2-8b77-d0e534276c21"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Orient Technologies Limited",
+    "sector": "IT & software",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "FY2024",
+    "stub_period_months": null,
+    "pre_ipo_placement": null,
+    "lead_managers": "Elara Capital (India) Private Limited",
+    "revenue_fy2": 467.443,
+    "rhp_page_revenue_fy2": 70,
+    "revenue_fy1": 535.102,
+    "rhp_page_revenue_fy1": 70,
+    "revenue_fy0": 602.893,
+    "rhp_page_revenue_fy0": 70,
+    "ebitda_fy2": 45.825,
+    "rhp_page_ebitda_fy2": 346,
+    "ebitda_fy1": 48.644,
+    "rhp_page_ebitda_fy1": 346,
+    "ebitda_fy0": 56.618,
+    "rhp_page_ebitda_fy0": 346,
+    "pat_fy2": 33.493,
+    "rhp_page_pat_fy2": 70,
+    "pat_fy1": 38.298,
+    "rhp_page_pat_fy1": 70,
+    "pat_fy0": 41.448,
+    "rhp_page_pat_fy0": 70,
+    "cfo_fy2": 30.478,
+    "rhp_page_cfo_fy2": 71,
+    "cfo_fy1": 1.954,
+    "rhp_page_cfo_fy1": 71,
+    "cfo_fy0": 22.294,
+    "rhp_page_cfo_fy0": 71,
+    "net_worth_fy0": 175.307,
+    "rhp_page_net_worth_fy0": 68,
+    "total_debt_fy0": 4.817,
+    "rhp_page_total_debt_fy0": 26,
+    "cash_fy0": 18.993,
+    "rhp_page_cash_fy0": 68,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": 97.96,
+    "rhp_page_promoter_pre_pct": 25,
+    "promoter_post_pct": null,
+    "retail_quota_pct": 35.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": null,
+    "eps_fy0": 11.8,
+    "rhp_page_eps_fy0": 70,
+    "ronw_fy0_pct": 23.64,
+    "rhp_page_ronw_fy0_pct": 135,
+    "nav_per_share_fy0": 48.95,
+    "rhp_page_nav_per_share_fy0": 135,
+    "fresh_issue_cr": 120.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.46,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 3.58165,
+    "rhp_page_pre_issue_shares_cr": 66,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 66,
+    "ofs_promoter_shares_cr": 0.46,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 89.998,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "DSSL; HCLTECH; WIPRO; LTIM; ADSL; DEVIT; TECHM; Silicon Rental Solutions Limited",
+    "n_peers": 8,
+    "peer_pe_list": [
+      29.47,
+      26.93,
+      23.39,
+      34.56,
+      26.05,
+      29.01,
+      55.17,
+      14.41
+    ],
+    "peer_ronw_list": [
+      34.13,
+      23.01,
+      14.79,
+      22.89,
+      7.41,
+      16.26,
+      8.83,
+      20.54
+    ],
+    "rhp_page_peers": 140
+  },
+  "extract": {
+    "company": "Orient Technologies Limited",
+    "sector": "IT & software",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 1200.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 4600000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Ajay Baliram Sawant",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 1150000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Umesh Navnitlal Shah",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 1150000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Ujwal Arvind Mhatre",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 1150000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Jayesh Manharlal Shah",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 1150000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 35816500.0,
+      "unit": "shares",
+      "page": 66
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 66
+    },
+    "promoter_pre_pct": {
+      "value": 97.96,
+      "unit": "percent",
+      "page": 25
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Acquisition of office premise at Navi Mumbai",
+        "category": "capex",
+        "amount": {
+          "value": 103.48,
+          "unit": "million",
+          "page": 118
+        }
+      },
+      {
+        "purpose": "Capital expenditure: purchase of equipment for setting up NOC and SOC at Navi Mumbai Property",
+        "category": "capex",
+        "amount": {
+          "value": 100.81,
+          "unit": "million",
+          "page": 118
+        }
+      },
+      {
+        "purpose": "Capital expenditure: purchase of equipment and devices to offer Device-as-a-Service (DaaS)",
+        "category": "capex",
+        "amount": {
+          "value": 695.69,
+          "unit": "million",
+          "page": 118
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": null,
+          "page": 118
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lead_managers": [
+      "Elara Capital (India) Private Limited"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "FY2024",
+    "revenue_fy2": {
+      "value": 4674.43,
+      "unit": "million",
+      "page": 70
+    },
+    "revenue_fy1": {
+      "value": 5351.02,
+      "unit": "million",
+      "page": 70
+    },
+    "revenue_fy0": {
+      "value": 6028.93,
+      "unit": "million",
+      "page": 70
+    },
+    "ebitda_fy2": {
+      "value": 458.25,
+      "unit": "million",
+      "page": 346
+    },
+    "ebitda_fy1": {
+      "value": 486.44,
+      "unit": "million",
+      "page": 346
+    },
+    "ebitda_fy0": {
+      "value": 566.18,
+      "unit": "million",
+      "page": 346
+    },
+    "pat_fy2": {
+      "value": 334.93,
+      "unit": "million",
+      "page": 70
+    },
+    "pat_fy1": {
+      "value": 382.98,
+      "unit": "million",
+      "page": 70
+    },
+    "pat_fy0": {
+      "value": 414.48,
+      "unit": "million",
+      "page": 70
+    },
+    "cfo_fy2": {
+      "value": 304.78,
+      "unit": "million",
+      "page": 71
+    },
+    "cfo_fy1": {
+      "value": 19.54,
+      "unit": "million",
+      "page": 71
+    },
+    "cfo_fy0": {
+      "value": 222.94,
+      "unit": "million",
+      "page": 71
+    },
+    "net_worth_fy0": {
+      "value": 1753.07,
+      "unit": "million",
+      "page": 68
+    },
+    "total_debt_fy0": {
+      "value": 48.17,
+      "unit": "million",
+      "page": 26
+    },
+    "cash_fy0": {
+      "value": 189.93,
+      "unit": "million",
+      "page": 68
+    },
+    "eps_fy0": {
+      "value": 11.8,
+      "unit": "rupees",
+      "page": 70
+    },
+    "ronw_fy0_pct": {
+      "value": 23.64,
+      "unit": "percent",
+      "page": 135
+    },
+    "nav_per_share_fy0": {
+      "value": 48.95,
+      "unit": "rupees",
+      "page": 135
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Dynacons Systems & Solutions Limited",
+        "nse_symbol": "DSSL",
+        "pe": 29.47,
+        "ronw_pct": 34.13,
+        "page": 140
+      },
+      {
+        "name": "HCL Technologies Limited",
+        "nse_symbol": "HCLTECH",
+        "pe": 26.93,
+        "ronw_pct": 23.01,
+        "page": 140
+      },
+      {
+        "name": "Wipro Limited",
+        "nse_symbol": "WIPRO",
+        "pe": 23.39,
+        "ronw_pct": 14.79,
+        "page": 140
+      },
+      {
+        "name": "LTIMindtree Limited",
+        "nse_symbol": "LTIM",
+        "pe": 34.56,
+        "ronw_pct": 22.89,
+        "page": 140
+      },
+      {
+        "name": "Allied Digital Services Limited",
+        "nse_symbol": "ADSL",
+        "pe": 26.05,
+        "ronw_pct": 7.41,
+        "page": 140
+      },
+      {
+        "name": "Dev Information Technology Limited",
+        "nse_symbol": "DEVIT",
+        "pe": 29.01,
+        "ronw_pct": 16.26,
+        "page": 140
+      },
+      {
+        "name": "Tech Mahindra Limited",
+        "nse_symbol": "TECHM",
+        "pe": 55.17,
+        "ronw_pct": 8.83,
+        "page": 140
+      },
+      {
+        "name": "Silicon Rental Solutions Limited",
+        "nse_symbol": null,
+        "pe": 14.41,
+        "ronw_pct": 20.54,
+        "page": 140
+      }
+    ],
+    "notes": [
+      "Restated financial statements are standalone (the peer table shows Orient Technologies as 'Standalone'). No consolidated statements appear on the pages given.",
+      "Price band, lot size, number of fresh issue shares and post-offer shares are all shown as [\u25cf] in this RHP.",
+      "Promoter pre-offer holding of 97.96% includes the promoter group. The four promoters alone hold 97.72%.",
+      "The 35,816,500 pre-offer shares include 816,500 shares issued in FY2024 (\u20b983.06 million received from the share issue, per the cash flow statement), after a bonus issue on June 2, 2023. The pages given do not show the allotment date or issue price, so pre_ipo_placement is left null.",
+      "Total borrowings of 48.17 = non-current 14.03 + current 34.14 (balance sheet). The capitalisation statement instead shows current borrowings as Nil and 48.17 as non-current including current maturities.",
+      "Capex object total of 796.50 is split into NOC/SOC equipment 100.81 and DaaS equipment 695.69. GCP is [\u25cf] and capped at 25% of gross proceeds.",
+      "NSE symbols for the peers were added by me and are not printed in the RHP. The symbol for Silicon Rental Solutions is not known. Silicon Rental's P/E is based on basic EPS."
+    ]
+  }
+}

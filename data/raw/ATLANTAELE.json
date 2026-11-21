@@ -1,0 +1,428 @@
+{
+  "symbol": "ATLANTAELE",
+  "rhp_file": "ATLANTAELE.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:08:58+00:00",
+  "pages_sent": [
+    1,
+    2,
+    21,
+    22,
+    23,
+    24,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    85,
+    86,
+    87,
+    125,
+    126,
+    136,
+    137,
+    138,
+    328,
+    329,
+    359
+  ],
+  "n_pdf_pages": 456,
+  "usage": {
+    "input_tokens": 39446,
+    "output_tokens": 3539,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3552602,
+    "session_id": "9476365c-0845-464c-81e3-86cd724714a0"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Atlanta Electricals Limited",
+    "sector": "Industrials & capital goods",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "stub_period_months": null,
+    "pre_ipo_placement": null,
+    "lead_managers": "Motilal Oswal Investment Advisors Limited; Axis Capital Limited",
+    "revenue_fy2": 873.883,
+    "rhp_page_revenue_fy2": 72,
+    "revenue_fy1": 867.553,
+    "rhp_page_revenue_fy1": 72,
+    "revenue_fy0": 1244.18,
+    "rhp_page_revenue_fy0": 72,
+    "ebitda_fy2": 143.115,
+    "rhp_page_ebitda_fy2": 138,
+    "ebitda_fy1": 123.158,
+    "rhp_page_ebitda_fy1": 138,
+    "ebitda_fy0": 199.882,
+    "rhp_page_ebitda_fy0": 138,
+    "pat_fy2": 87.473,
+    "rhp_page_pat_fy2": 72,
+    "pat_fy1": 63.521,
+    "rhp_page_pat_fy1": 72,
+    "pat_fy0": 118.647,
+    "rhp_page_pat_fy0": 72,
+    "cfo_fy2": 51.976,
+    "rhp_page_cfo_fy2": 73,
+    "cfo_fy1": 88.311,
+    "rhp_page_cfo_fy1": 73,
+    "cfo_fy0": 83.576,
+    "rhp_page_cfo_fy0": 73,
+    "net_worth_fy0": 349.904,
+    "rhp_page_net_worth_fy0": 24,
+    "total_debt_fy0": 141.03,
+    "rhp_page_total_debt_fy0": 24,
+    "cash_fy0": 0.367,
+    "rhp_page_cash_fy0": 71,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 136,
+    "price_high": null,
+    "rhp_page_price_high": 136,
+    "lot_size": null,
+    "promoter_pre_pct": 94.36,
+    "rhp_page_promoter_pre_pct": 23,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 23,
+    "retail_quota_pct": null,
+    "rhp_page_retail_quota_pct": 68,
+    "pre_ipo_price": null,
+    "eps_fy0": 16.57,
+    "rhp_page_eps_fy0": 72,
+    "ronw_fy0_pct": 33.91,
+    "rhp_page_ronw_fy0_pct": 137,
+    "nav_per_share_fy0": 48.88,
+    "rhp_page_nav_per_share_fy0": 137,
+    "fresh_issue_cr": 400.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.3810895,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 7.15848,
+    "rhp_page_pre_issue_shares_cr": 68,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 68,
+    "ofs_promoter_shares_cr": 0.04359,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 79.12,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "VOLTAMP; TARIL; DANISH",
+    "n_peers": 3,
+    "peer_pe_list": [
+      22.15,
+      69.97,
+      25.8
+    ],
+    "peer_ronw_list": [
+      20.5,
+      17.29,
+      18.0
+    ],
+    "rhp_page_peers": 137
+  },
+  "extract": {
+    "company": "Atlanta Electricals Limited",
+    "sector": "Industrials & capital goods",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 136
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 136
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 4000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 3810895.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Atlanta UHV Transformers LLP",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 435900.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Hemang Harendra Shah",
+        "kind": "other",
+        "shares_offered": {
+          "value": 666560.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Nimish Harendra Shah",
+        "kind": "other",
+        "shares_offered": {
+          "value": 777185.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Dhaval Harshadbhai Mehta (held jointly with Avanee Dhavalbhai Mehta)",
+        "kind": "other",
+        "shares_offered": {
+          "value": 217500.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Gitaben Harshadbhai Mehta (held jointly with Harshadbhai Amritlal Mehta)",
+        "kind": "other",
+        "shares_offered": {
+          "value": 326250.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Jignesh Suryakant Patel",
+        "kind": "other",
+        "shares_offered": {
+          "value": 1387500.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 71584800.0,
+      "unit": "shares",
+      "page": 68
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 68
+    },
+    "promoter_pre_pct": {
+      "value": 94.36,
+      "unit": "percent",
+      "page": 23
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 23
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment/prepayment, in full or in part, of certain outstanding borrowings availed by the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 791.2,
+          "unit": "million",
+          "page": 125
+        }
+      },
+      {
+        "purpose": "Funding working capital requirements of the Company",
+        "category": "other",
+        "amount": {
+          "value": 2100.0,
+          "unit": "million",
+          "page": 125
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 125
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 68
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Motilal Oswal Investment Advisors Limited",
+      "Axis Capital Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "revenue_fy2": {
+      "value": 8738.83,
+      "unit": "million",
+      "page": 72
+    },
+    "revenue_fy1": {
+      "value": 8675.53,
+      "unit": "million",
+      "page": 72
+    },
+    "revenue_fy0": {
+      "value": 12441.8,
+      "unit": "million",
+      "page": 72
+    },
+    "ebitda_fy2": {
+      "value": 1431.15,
+      "unit": "million",
+      "page": 138
+    },
+    "ebitda_fy1": {
+      "value": 1231.58,
+      "unit": "million",
+      "page": 138
+    },
+    "ebitda_fy0": {
+      "value": 1998.82,
+      "unit": "million",
+      "page": 138
+    },
+    "pat_fy2": {
+      "value": 874.73,
+      "unit": "million",
+      "page": 72
+    },
+    "pat_fy1": {
+      "value": 635.21,
+      "unit": "million",
+      "page": 72
+    },
+    "pat_fy0": {
+      "value": 1186.47,
+      "unit": "million",
+      "page": 72
+    },
+    "cfo_fy2": {
+      "value": 519.76,
+      "unit": "million",
+      "page": 73
+    },
+    "cfo_fy1": {
+      "value": 883.11,
+      "unit": "million",
+      "page": 73
+    },
+    "cfo_fy0": {
+      "value": 835.76,
+      "unit": "million",
+      "page": 73
+    },
+    "net_worth_fy0": {
+      "value": 3499.04,
+      "unit": "million",
+      "page": 24
+    },
+    "total_debt_fy0": {
+      "value": 1410.3,
+      "unit": "million",
+      "page": 24
+    },
+    "cash_fy0": {
+      "value": 3.67,
+      "unit": "million",
+      "page": 71
+    },
+    "eps_fy0": {
+      "value": 16.57,
+      "unit": "rupees",
+      "page": 72
+    },
+    "ronw_fy0_pct": {
+      "value": 33.91,
+      "unit": "percent",
+      "page": 137
+    },
+    "nav_per_share_fy0": {
+      "value": 48.88,
+      "unit": "rupees",
+      "page": 137
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Voltamp Transformers Limited",
+        "nse_symbol": "VOLTAMP",
+        "pe": 22.15,
+        "ronw_pct": 20.5,
+        "page": 137
+      },
+      {
+        "name": "Transformers and Rectifiers India Limited",
+        "nse_symbol": "TARIL",
+        "pe": 69.97,
+        "ronw_pct": 17.29,
+        "page": 137
+      },
+      {
+        "name": "Danish Power Limited",
+        "nse_symbol": "DANISH",
+        "pe": 25.8,
+        "ronw_pct": 18.0,
+        "page": 137
+      }
+    ],
+    "notes": [
+      "The price band, lot size, fresh issue share count, OFS amount, post-offer shares and retail quota are all printed as [\u25cf] in the RHP (dated September 16, 2025).",
+      "Promoter pre-offer holding of 94.36% is Total (A) from the shareholding table on page 23. The promoter group holding is Nil. That total includes the late Krupeshbhai Narharibhai Patel's shares, which are being transmitted to heirs.",
+      "Atlanta UHV Transformers LLP is both a promoter and a selling shareholder. The other five sellers are individuals.",
+      "Net worth for FY2024 is 2,284.72 in the summary table but 2,284.73 in the balance sheet. Restated PAT for FY2024 is 635.21 after share of associate profit, and 633.62 before it.",
+      "Cash figure is cash and cash equivalents only (3.67). It excludes other bank balances of 657.03.",
+      "I put the working capital object (2,100.00 million) under 'other'. General corporate purposes is [\u25cf] and capped at 25% of gross proceeds.",
+      "The pages given do not cover any pre-IPO placement or recent share transfers, so pre_ipo_placement is left null.",
+      "The NSE symbols for the peers are not printed in the RHP; I filled them in myself. The peer P/E figures use closing prices on September 11, 2025.",
+      "The offer includes an employee reservation portion of up to \u20b950.00 million."
+    ]
+  }
+}

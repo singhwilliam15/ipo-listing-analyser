@@ -1,0 +1,379 @@
+{
+  "symbol": "JKIPL",
+  "rhp_file": "JKIPL.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:07:18+00:00",
+  "pages_sent": [
+    1,
+    2,
+    30,
+    31,
+    32,
+    33,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    105,
+    106,
+    107,
+    118,
+    119,
+    132,
+    133,
+    134,
+    337,
+    338,
+    339
+  ],
+  "n_pdf_pages": 471,
+  "usage": {
+    "input_tokens": 38985,
+    "output_tokens": 3252,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.34578519999999996,
+    "session_id": "b26b8950-1c03-45f4-a0c2-e86538cd00c5"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Jinkushal Industries Limited",
+    "sector": "Industrials & capital goods",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "stub_period_months": null,
+    "pre_ipo_placement": "no",
+    "lead_managers": "GYR Capital Advisors Private Limited",
+    "revenue_fy2": 233.4505,
+    "rhp_page_revenue_fy2": 92,
+    "revenue_fy1": 238.5918,
+    "rhp_page_revenue_fy1": 92,
+    "revenue_fy0": 380.5581,
+    "rhp_page_revenue_fy0": 92,
+    "ebitda_fy2": 14.6792,
+    "rhp_page_ebitda_fy2": 338,
+    "ebitda_fy1": 27.5694,
+    "rhp_page_ebitda_fy1": 338,
+    "ebitda_fy0": 28.6005,
+    "rhp_page_ebitda_fy0": 338,
+    "pat_fy2": 10.1174,
+    "rhp_page_pat_fy2": 92,
+    "pat_fy1": 18.6445,
+    "rhp_page_pat_fy1": 92,
+    "pat_fy0": 19.14,
+    "rhp_page_pat_fy0": 92,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 86.18959999999998,
+    "rhp_page_net_worth_fy0": 90,
+    "total_debt_fy0": 54.2663,
+    "rhp_page_total_debt_fy0": 339,
+    "cash_fy0": 5.0657,
+    "rhp_page_cash_fy0": 90,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 133,
+    "price_high": null,
+    "rhp_page_price_high": 133,
+    "lot_size": null,
+    "promoter_pre_pct": 99.0,
+    "rhp_page_promoter_pre_pct": 31,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 31,
+    "retail_quota_pct": 35.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": null,
+    "eps_fy0": 6.15,
+    "rhp_page_eps_fy0": 93,
+    "ronw_fy0_pct": 21.22,
+    "rhp_page_ronw_fy0_pct": 133,
+    "nav_per_share_fy0": 28.98,
+    "rhp_page_nav_per_share_fy0": 134,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": 0.8635935,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.0959548,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 2.9746,
+    "rhp_page_pre_issue_shares_cr": 88,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 88,
+    "ofs_promoter_shares_cr": 0.0959548,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "ACE; Vision Infra Equipment Solutions Limited",
+    "n_peers": 2,
+    "peer_pe_list": [
+      31.18,
+      10.94
+    ],
+    "peer_ronw_list": [
+      25.34,
+      20.68
+    ],
+    "rhp_page_peers": 134
+  },
+  "extract": {
+    "company": "Jinkushal Industries Limited",
+    "sector": "Industrials & capital goods",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 133
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 133
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "lakh",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": 8635935.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "lakh",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 959548.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Anil Kumar Jain",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 620570.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Abhinav Jain",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 217850.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Sandhya Jain",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 121128.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 29746000.0,
+      "unit": "shares",
+      "page": 88
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 88
+    },
+    "promoter_pre_pct": {
+      "value": 99.0,
+      "unit": "percent",
+      "page": 31
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 31
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding the long-term incremental working capital requirements of the Company",
+        "category": "other",
+        "amount": {
+          "value": 7267.5,
+          "unit": "lakh",
+          "page": 116
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "lakh",
+          "page": 116
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "GYR Capital Advisors Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "revenue_fy2": {
+      "value": 23345.05,
+      "unit": "lakh",
+      "page": 92
+    },
+    "revenue_fy1": {
+      "value": 23859.18,
+      "unit": "lakh",
+      "page": 92
+    },
+    "revenue_fy0": {
+      "value": 38055.81,
+      "unit": "lakh",
+      "page": 92
+    },
+    "ebitda_fy2": {
+      "value": 1467.92,
+      "unit": "lakh",
+      "page": 338
+    },
+    "ebitda_fy1": {
+      "value": 2756.94,
+      "unit": "lakh",
+      "page": 338
+    },
+    "ebitda_fy0": {
+      "value": 2860.05,
+      "unit": "lakh",
+      "page": 338
+    },
+    "pat_fy2": {
+      "value": 1011.74,
+      "unit": "lakh",
+      "page": 92
+    },
+    "pat_fy1": {
+      "value": 1864.45,
+      "unit": "lakh",
+      "page": 92
+    },
+    "pat_fy0": {
+      "value": 1914.0,
+      "unit": "lakh",
+      "page": 92
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "lakh",
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": "lakh",
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": "lakh",
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 8618.96,
+      "unit": "lakh",
+      "page": 90
+    },
+    "total_debt_fy0": {
+      "value": 5426.63,
+      "unit": "lakh",
+      "page": 339
+    },
+    "cash_fy0": {
+      "value": 506.57,
+      "unit": "lakh",
+      "page": 90
+    },
+    "eps_fy0": {
+      "value": 6.15,
+      "unit": "rupees",
+      "page": 93
+    },
+    "ronw_fy0_pct": {
+      "value": 21.22,
+      "unit": "percent",
+      "page": 133
+    },
+    "nav_per_share_fy0": {
+      "value": 28.98,
+      "unit": "rupees",
+      "page": 134
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "lakh",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "lakh",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Action Construction Equipment Limited",
+        "nse_symbol": "ACE",
+        "pe": 31.18,
+        "ronw_pct": 25.34,
+        "page": 134
+      },
+      {
+        "name": "Vision Infra Equipment Solutions Limited",
+        "nse_symbol": null,
+        "pe": 10.94,
+        "ronw_pct": 20.68,
+        "page": 134
+      }
+    ],
+    "notes": [
+      "FY2025 and FY2024 figures are restated consolidated; FY2023 figures are restated standalone (no consolidated figures for FY2023).",
+      "Promoter pre-offer holding: 99.00% for the five promoters; promoter group (Kamla Bai Jain) holds a further 1.00%, so promoter + promoter group is about 100% (page 31). Post-offer % is [\u25cf].",
+      "Price band, lot size, issue amounts and post-offer shares are [\u25cf] in the RHP.",
+      "Cash flow statement not among the pages provided; CFO left null.",
+      "Total borrowings FY2025 = current borrowings 5,426.63 lakh; non-current borrowings nil.",
+      "Main object is working capital funding (7,267.50 lakh), categorised as 'other'.",
+      "Bonus issue 213:1 on April 16, 2025 (not a priced placement); EPS/NAV are post-bonus. The only priced allotment was a rights issue in 2008 at \u20b9200.",
+      "PAT of 1,914.00 lakh includes 84.88 lakh attributable to non-controlling interests; the share attributable to owners is 1,829.12 lakh.",
+      "NSE symbol for Vision Infra Equipment Solutions is not given in the RHP; the ACE symbol was inferred, not printed."
+    ]
+  }
+}

@@ -1,0 +1,499 @@
+{
+  "symbol": "GROWW",
+  "rhp_file": "GROWW.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:05:18+00:00",
+  "pages_sent": [
+    1,
+    2,
+    4,
+    5,
+    28,
+    29,
+    30,
+    31,
+    92,
+    93,
+    94,
+    95,
+    111,
+    112,
+    113,
+    150,
+    151,
+    163,
+    164,
+    165,
+    374,
+    375,
+    405
+  ],
+  "n_pdf_pages": 568,
+  "usage": {
+    "input_tokens": 36654,
+    "output_tokens": 5172,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3653058,
+    "session_id": "d61e6325-38ab-4d0a-9435-7429ca7bc0ad"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Billionbrains Garage Ventures Limited (Groww)",
+    "sector": "Financial services",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "stub_period_months": 3,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "Kotak Mahindra Capital Company Limited; J.P. Morgan India Private Limited; Citigroup Global Markets India Private Limited; Axis Capital Limited; Motilal Oswal Investment Advisors Limited",
+    "revenue_fy2": 1141.526,
+    "rhp_page_revenue_fy2": 95,
+    "revenue_fy1": 2609.281,
+    "rhp_page_revenue_fy1": 95,
+    "revenue_fy0": 3901.723,
+    "rhp_page_revenue_fy0": 95,
+    "ebitda_fy2": 518.21,
+    "rhp_page_ebitda_fy2": 374,
+    "ebitda_fy1": -594.169,
+    "rhp_page_ebitda_fy1": 374,
+    "ebitda_fy0": 2530.931,
+    "rhp_page_ebitda_fy0": 374,
+    "pat_fy2": 457.717,
+    "rhp_page_pat_fy2": 95,
+    "pat_fy1": -805.45,
+    "rhp_page_pat_fy1": 95,
+    "pat_fy0": 1824.373,
+    "rhp_page_pat_fy0": 95,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 4855.445,
+    "rhp_page_net_worth_fy0": 93,
+    "total_debt_fy0": null,
+    "rhp_page_total_debt_fy0": 93,
+    "cash_fy0": 361.107,
+    "rhp_page_cash_fy0": 93,
+    "revenue_stub": 904.398,
+    "rhp_page_revenue_stub": 95,
+    "pat_stub": 378.367,
+    "rhp_page_pat_stub": 95,
+    "price_low": null,
+    "rhp_page_price_low": 165,
+    "price_high": null,
+    "rhp_page_price_high": 165,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "rhp_page_promoter_pre_pct": 29,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 30,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "rhp_page_pre_ipo_price": 405,
+    "eps_fy0": 3.34,
+    "rhp_page_eps_fy0": 164,
+    "ronw_fy0_pct": 37.57,
+    "rhp_page_ronw_fy0_pct": 165,
+    "nav_per_share_fy0": 8.89,
+    "rhp_page_nav_per_share_fy0": 165,
+    "fresh_issue_cr": 1060.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 55.7230051,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 606.7596631,
+    "rhp_page_pre_issue_shares_cr": 111,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 111,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "Billionbrains Garage Ventures Limited (Groww)",
+    "sector": "Financial services",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 165
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 165
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 10600.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 557230051.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Peak XV Partners Investments VI-1",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 158281491.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "YC Holdings II, LLC",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 105481609.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Ribbit Capital V, L.P.",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 65668147.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "GW-E Ribbit Opportunity V, LLC",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 52464086.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Internet Fund VI Pte. Ltd.",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 51842810.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Kauffman Fellows Fund, L.P.",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 27505088.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Alkeon Innovation Master Fund II, LP",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 18707370.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Alkeon Innovation Master Fund II, Private Series, LP",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 17453620.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Propel Venture Partners Global US, LP",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 16266356.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Sequoia Capital Global Growth Fund III \u2013 U.S./India Annex Fund, L.P.",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 14723398.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Fri\u00e1le Fund IV LLC",
+        "kind": "investor",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": null
+        }
+      },
+      {
+        "name": "Alkeon Innovation Master Fund, LP",
+        "kind": "investor",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": null
+        }
+      },
+      {
+        "name": "Alkeon Innovation Opportunity Master Fund, LP",
+        "kind": "investor",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": null
+        }
+      },
+      {
+        "name": "Nirman Investments, L.P.",
+        "kind": "investor",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": null
+        }
+      },
+      {
+        "name": "Nirman Holdings, L.P.",
+        "kind": "investor",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": null
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 6067596631.0,
+      "unit": "shares",
+      "page": 111
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 111
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 29
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 30
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Expenditure towards cloud infrastructure",
+        "category": "other",
+        "amount": {
+          "value": 1525.0,
+          "unit": "million",
+          "page": 151
+        }
+      },
+      {
+        "purpose": "Brand building and performance marketing activities",
+        "category": "other",
+        "amount": {
+          "value": 2250.0,
+          "unit": "million",
+          "page": 151
+        }
+      },
+      {
+        "purpose": "Investment in Material Subsidiary Groww Creditserv Technology Pvt Ltd (NBFC) for augmenting its capital base",
+        "category": "other",
+        "amount": {
+          "value": 2050.0,
+          "unit": "million",
+          "page": 151
+        }
+      },
+      {
+        "purpose": "Investment in Material Subsidiary Groww Invest Tech Pvt Ltd for funding its MTF business",
+        "category": "other",
+        "amount": {
+          "value": 1675.0,
+          "unit": "million",
+          "page": 151
+        }
+      },
+      {
+        "purpose": "Funding inorganic growth through unidentified acquisitions and general corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 151
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": 405
+    },
+    "lead_managers": [
+      "Kotak Mahindra Capital Company Limited",
+      "J.P. Morgan India Private Limited",
+      "Citigroup Global Markets India Private Limited",
+      "Axis Capital Limited",
+      "Motilal Oswal Investment Advisors Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "revenue_fy2": {
+      "value": 11415.26,
+      "unit": "million",
+      "page": 95
+    },
+    "revenue_fy1": {
+      "value": 26092.81,
+      "unit": "million",
+      "page": 95
+    },
+    "revenue_fy0": {
+      "value": 39017.23,
+      "unit": "million",
+      "page": 95
+    },
+    "ebitda_fy2": {
+      "value": 5182.1,
+      "unit": "million",
+      "page": 374
+    },
+    "ebitda_fy1": {
+      "value": -5941.69,
+      "unit": "million",
+      "page": 374
+    },
+    "ebitda_fy0": {
+      "value": 25309.31,
+      "unit": "million",
+      "page": 374
+    },
+    "pat_fy2": {
+      "value": 4577.17,
+      "unit": "million",
+      "page": 95
+    },
+    "pat_fy1": {
+      "value": -8054.5,
+      "unit": "million",
+      "page": 95
+    },
+    "pat_fy0": {
+      "value": 18243.73,
+      "unit": "million",
+      "page": 95
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 48554.45,
+      "unit": "million",
+      "page": 93
+    },
+    "total_debt_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": 93
+    },
+    "cash_fy0": {
+      "value": 3611.07,
+      "unit": "million",
+      "page": 93
+    },
+    "eps_fy0": {
+      "value": 3.34,
+      "unit": "rupees",
+      "page": 164
+    },
+    "ronw_fy0_pct": {
+      "value": 37.57,
+      "unit": "percent",
+      "page": 165
+    },
+    "nav_per_share_fy0": {
+      "value": 8.89,
+      "unit": "rupees",
+      "page": 165
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 9043.98,
+      "unit": "million",
+      "page": 95
+    },
+    "pat_stub": {
+      "value": 3783.67,
+      "unit": "million",
+      "page": 95
+    },
+    "no_listed_peers": false,
+    "peers": [],
+    "notes": [
+      "Price band, lot size, fresh issue share count and OFS amount are [\u25cf] in the RHP pages provided.",
+      "Promoter holding (pre-offer, fully diluted): promoters 26.62% (page 29) and promoter group 1.38% (page 29). No combined figure is printed, so promoter_pre_pct is left null. Post-offer holdings are [\u25cf].",
+      "Only the top 10 selling shareholders' offered shares are printed (page 1). The other selling shareholders (Fri\u00e1le Fund IV, Alkeon Innovation Master Fund LP, Alkeon Innovation Opportunity Master Fund LP, Nirman Investments, Nirman Holdings) are listed on page 30 without their offered share counts.",
+      "The comparison with listed industry peers table is not on the pages provided. Only the industry P/E summary is given (page 165): highest 86.11, lowest 19.80, composite 40.77.",
+      "Cash flow statement not on the pages provided, so CFO is null.",
+      "Total debt FY2025 is not printed as one figure. The balance sheet (page 93) shows debt securities of 1,319.79 (non-current) and 603.97 (current), and borrowings other than debt securities of 788.65 (non-current) and 2,731.23 (current), all in \u20b9 million. The capitalisation statement gives total borrowings only as at June 30, 2025: 3,240.81 million, excluding debt securities.",
+      "FY2024 loss includes an exceptional tax item of 13,396.84 million (US taxes on the outbound merger). EBITDA FY2024 includes this item.",
+      "Pre-IPO placement: after June 30, 2025, 1,000 equity shares and 17,968,043 Series F CCPS were allotted to Viggo Investment Pte. Ltd. (Board resolution July 10, 2025), and ESOP allotments were made in Sept/Oct 2025. The issue price is not given on these pages.",
+      "Retail quota not on the pages provided. The offer is under Regulation 6(2) of the SEBI ICDR Regulations.",
+      "Objects categorised as 'other' because cloud infrastructure, marketing and subsidiary investments are not plant/machinery capex. The amount for inorganic growth plus GCP is [\u25cf] (capped at 35% of gross proceeds)."
+    ]
+  }
+}

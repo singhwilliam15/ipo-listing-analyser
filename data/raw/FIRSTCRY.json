@@ -1,0 +1,506 @@
+{
+  "symbol": "FIRSTCRY",
+  "rhp_file": "FIRSTCRY.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-21T06:04:54+00:00",
+  "pages_sent": [
+    1,
+    2,
+    29,
+    30,
+    31,
+    32,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    163,
+    164,
+    165,
+    188,
+    189,
+    226,
+    227,
+    228,
+    522,
+    523,
+    526
+  ],
+  "n_pdf_pages": 682,
+  "usage": {
+    "input_tokens": 39864,
+    "output_tokens": 4480,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3774648,
+    "session_id": "9dd7558e-f572-4a3f-80e2-f1121667fd47"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Brainbees Solutions Limited (FirstCry)",
+    "sector": "Internet & platforms",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024",
+    "stub_period_months": null,
+    "pre_ipo_placement": null,
+    "lead_managers": "Kotak Mahindra Capital Company Limited; Morgan Stanley India Company Private Limited; BofA Securities India Limited; JM Financial Limited; Avendus Capital Private Limited",
+    "revenue_fy2": 2401.288,
+    "rhp_page_revenue_fy2": 151,
+    "revenue_fy1": 5632.539,
+    "rhp_page_revenue_fy1": 151,
+    "revenue_fy0": 6480.856,
+    "rhp_page_revenue_fy0": 151,
+    "ebitda_fy2": -18.201,
+    "rhp_page_ebitda_fy2": 31,
+    "ebitda_fy1": -262.904,
+    "rhp_page_ebitda_fy1": 31,
+    "ebitda_fy0": 70.491,
+    "rhp_page_ebitda_fy0": 31,
+    "pat_fy2": -78.685,
+    "rhp_page_pat_fy2": 151,
+    "pat_fy1": -486.056,
+    "rhp_page_pat_fy1": 151,
+    "pat_fy0": -321.507,
+    "rhp_page_pat_fy0": 151,
+    "cfo_fy2": -131.726,
+    "rhp_page_cfo_fy2": 152,
+    "cfo_fy1": -398.989,
+    "rhp_page_cfo_fy1": 152,
+    "cfo_fy0": -42.073,
+    "rhp_page_cfo_fy0": 152,
+    "net_worth_fy0": 3170.736,
+    "rhp_page_net_worth_fy0": 150,
+    "total_debt_fy0": 462.722,
+    "rhp_page_total_debt_fy0": 522,
+    "cash_fy0": 361.696,
+    "rhp_page_cash_fy0": 150,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 227,
+    "price_high": null,
+    "rhp_page_price_high": 227,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": -6.2,
+    "rhp_page_eps_fy0": 151,
+    "ronw_fy0_pct": -8.65,
+    "rhp_page_ronw_fy0_pct": 228,
+    "nav_per_share_fy0": 71.65,
+    "rhp_page_nav_per_share_fy0": 228,
+    "fresh_issue_cr": 1666.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 5.4359733,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 48.334947,
+    "rhp_page_pre_issue_shares_cr": 147,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 147,
+    "ofs_promoter_shares_cr": 0,
+    "ofs_investor_shares_cr": 4.6566579,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 432.70000000000005,
+    "proceeds_gcp_cr": 0.0,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "Brainbees Solutions Limited (FirstCry)",
+    "sector": "Internet & platforms",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 227
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 227
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 16660.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 54359733.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "SVF Frog (Cayman) Ltd",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 20318050.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Mahindra & Mahindra Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 2806174.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "PI Opportunities Fund-1",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 8601292.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "TPG Growth V SF Markets Pte. Ltd.",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 3899525.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "NewQuest Asia Investments III Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 4141043.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Apricot Investments Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 2523280.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Satyadharma Investments and Trading Company Private Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 197777.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Schroders Capital Private Equity Asia Mauritius II Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 3802210.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Sage Investment Trust",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 52516.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Pratithi Investment Trust",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 224712.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 483349470.0,
+      "unit": "shares",
+      "page": 147
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 147
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Setting up new modern stores under the 'BabyHug' brand in India",
+        "category": "capex",
+        "amount": {
+          "value": 939.0,
+          "unit": "million",
+          "page": 189
+        }
+      },
+      {
+        "purpose": "Setting up a warehouse in India",
+        "category": "capex",
+        "amount": {
+          "value": 142.0,
+          "unit": "million",
+          "page": 189
+        }
+      },
+      {
+        "purpose": "Lease payments for existing identified modern stores owned and operated by the Company in India",
+        "category": "other",
+        "amount": {
+          "value": 931.0,
+          "unit": "million",
+          "page": 189
+        }
+      },
+      {
+        "purpose": "Investment in Digital Age for setting up new modern stores under FirstCry and other home brands",
+        "category": "capex",
+        "amount": {
+          "value": 1690.0,
+          "unit": "million",
+          "page": 189
+        }
+      },
+      {
+        "purpose": "Investment in Digital Age for lease payments for existing identified modern stores",
+        "category": "other",
+        "amount": {
+          "value": 1306.0,
+          "unit": "million",
+          "page": 189
+        }
+      },
+      {
+        "purpose": "Investment in FirstCry Trading for setting up new modern stores in KSA",
+        "category": "capex",
+        "amount": {
+          "value": 726.0,
+          "unit": "million",
+          "page": 189
+        }
+      },
+      {
+        "purpose": "Investment in FirstCry Trading for setting up warehouse(s) in KSA",
+        "category": "capex",
+        "amount": {
+          "value": 830.0,
+          "unit": "million",
+          "page": 189
+        }
+      },
+      {
+        "purpose": "Investment in Globalbees Brands towards acquisition of additional stake in step-down subsidiaries",
+        "category": "other",
+        "amount": {
+          "value": 1690.0,
+          "unit": "million",
+          "page": 189
+        }
+      },
+      {
+        "purpose": "Sales and marketing initiatives",
+        "category": "other",
+        "amount": {
+          "value": 2000.0,
+          "unit": "million",
+          "page": 189
+        }
+      },
+      {
+        "purpose": "Technology and data science cost including cloud and server hosting related costs",
+        "category": "other",
+        "amount": {
+          "value": 576.0,
+          "unit": "million",
+          "page": 189
+        }
+      },
+      {
+        "purpose": "Funding inorganic growth through acquisition and other strategic initiatives and general corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 189
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Kotak Mahindra Capital Company Limited",
+      "Morgan Stanley India Company Private Limited",
+      "BofA Securities India Limited",
+      "JM Financial Limited",
+      "Avendus Capital Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024",
+    "revenue_fy2": {
+      "value": 24012.88,
+      "unit": "million",
+      "page": 151
+    },
+    "revenue_fy1": {
+      "value": 56325.39,
+      "unit": "million",
+      "page": 151
+    },
+    "revenue_fy0": {
+      "value": 64808.56,
+      "unit": "million",
+      "page": 151
+    },
+    "ebitda_fy2": {
+      "value": -182.01,
+      "unit": "million",
+      "page": 31
+    },
+    "ebitda_fy1": {
+      "value": -2629.04,
+      "unit": "million",
+      "page": 31
+    },
+    "ebitda_fy0": {
+      "value": 704.91,
+      "unit": "million",
+      "page": 31
+    },
+    "pat_fy2": {
+      "value": -786.85,
+      "unit": "million",
+      "page": 151
+    },
+    "pat_fy1": {
+      "value": -4860.56,
+      "unit": "million",
+      "page": 151
+    },
+    "pat_fy0": {
+      "value": -3215.07,
+      "unit": "million",
+      "page": 151
+    },
+    "cfo_fy2": {
+      "value": -1317.26,
+      "unit": "million",
+      "page": 152
+    },
+    "cfo_fy1": {
+      "value": -3989.89,
+      "unit": "million",
+      "page": 152
+    },
+    "cfo_fy0": {
+      "value": -420.73,
+      "unit": "million",
+      "page": 152
+    },
+    "net_worth_fy0": {
+      "value": 31707.36,
+      "unit": "million",
+      "page": 150
+    },
+    "total_debt_fy0": {
+      "value": 4627.22,
+      "unit": "million",
+      "page": 522
+    },
+    "cash_fy0": {
+      "value": 3616.96,
+      "unit": "million",
+      "page": 150
+    },
+    "eps_fy0": {
+      "value": -6.2,
+      "unit": "rupees",
+      "page": 151
+    },
+    "ronw_fy0_pct": {
+      "value": -8.65,
+      "unit": "percent",
+      "page": 228
+    },
+    "nav_per_share_fy0": {
+      "value": 71.65,
+      "unit": "rupees",
+      "page": 228
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": true,
+    "peers": [],
+    "notes": [
+      "Company has no identifiable promoter, so promoter holding is null.",
+      "Price band, lot size, fresh issue share count and post-offer shares are all shown as [\u25cf] in the RHP.",
+      "Selling shareholders are taken from the cover page, which lists 10 corporate sellers. Page 32 names more selling shareholders, including individuals such as Amitava Saha and Abhinav Sharma, but the shares each of them is offering are not on the pages given. The 10 sellers listed add up to 46,566,379 shares, not the total offer for sale of 54,359,733.",
+      "In the restated cash flow summary, the first column's header reads 'For the period ended December 31, 2023'. Its figures (closing cash of 3,616.96, matching March 31, 2024) look like FY2024, so it was treated as fy0. This looks like a typo in the RHP.",
+      "EBITDA is 'EBITDA (excluding other income)' as reported. Adjusted EBITDA is also reported: FY24 2,744.49, FY23 749.82, FY22 961.99 (\u20b9 million).",
+      "PAT includes non-controlling interests. The loss attributable to owners in FY24 was (2,742.77) million.",
+      "NAV per share is the basic figure (71.65). The diluted figure is 66.68.",
+      "The retail quota % is not printed explicitly. QIB is at least 75% and NII at most 15% of the Net Offer. There is an employee reservation of up to \u20b930 million.",
+      "The page 1 objects table shows Digital Age and KSA investments with sub-items; these were split into capex and lease or other parts.",
+      "Whether there was a pre-IPO placement cannot be told from the pages given."
+    ]
+  }
+}

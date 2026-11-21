@@ -1,0 +1,383 @@
+{
+  "symbol": "PNGJL",
+  "rhp_file": "PNGJL.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-21T06:03:14+00:00",
+  "pages_sent": [
+    1,
+    2,
+    20,
+    21,
+    22,
+    23,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    89,
+    90,
+    91,
+    102,
+    103,
+    115,
+    116,
+    117,
+    297,
+    298,
+    299
+  ],
+  "n_pdf_pages": 412,
+  "usage": {
+    "input_tokens": 36486,
+    "output_tokens": 3344,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3273856,
+    "session_id": "d0600f06-73a1-44f1-92c6-7396113982b0"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "P N Gadgil Jewellers Limited",
+    "sector": "Consumer & retail",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024",
+    "stub_period_months": null,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Motilal Oswal Investment Advisors Limited; Nuvama Wealth Management Limited; BOB Capital Markets Limited",
+    "revenue_fy2": 2555.634,
+    "rhp_page_revenue_fy2": 76,
+    "revenue_fy1": 4507.519,
+    "rhp_page_revenue_fy1": 76,
+    "revenue_fy0": 6110.945,
+    "rhp_page_revenue_fy0": 76,
+    "ebitda_fy2": 141.983,
+    "rhp_page_ebitda_fy2": 117,
+    "ebitda_fy1": 174.52,
+    "rhp_page_ebitda_fy1": 117,
+    "ebitda_fy0": 277.426,
+    "rhp_page_ebitda_fy0": 117,
+    "pat_fy2": 69.515,
+    "rhp_page_pat_fy2": 76,
+    "pat_fy1": 93.701,
+    "rhp_page_pat_fy1": 76,
+    "pat_fy0": 154.343,
+    "rhp_page_pat_fy0": 76,
+    "cfo_fy2": 72.755,
+    "rhp_page_cfo_fy2": 77,
+    "cfo_fy1": 104.772,
+    "rhp_page_cfo_fy1": 77,
+    "cfo_fy0": 6.323,
+    "rhp_page_cfo_fy0": 77,
+    "net_worth_fy0": 534.377,
+    "rhp_page_net_worth_fy0": 75,
+    "total_debt_fy0": 396.496,
+    "rhp_page_total_debt_fy0": 21,
+    "cash_fy0": 26.087,
+    "rhp_page_cash_fy0": 75,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 115,
+    "price_high": null,
+    "rhp_page_price_high": 115,
+    "lot_size": null,
+    "promoter_pre_pct": 100.0,
+    "rhp_page_promoter_pre_pct": 21,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 21,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 21.59,
+    "rhp_page_eps_fy0": 76,
+    "ronw_fy0_pct": 28.88,
+    "rhp_page_ronw_fy0_pct": 116,
+    "nav_per_share_fy0": 45.29,
+    "rhp_page_nav_per_share_fy0": 116,
+    "fresh_issue_cr": 850.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": 250.0,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 11.8,
+    "rhp_page_pre_issue_shares_cr": 72,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 72,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 300.0,
+    "proceeds_capex_cr": 392.568,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "KALYANKJIL; SENCO; THANGAMAYL",
+    "n_peers": 3,
+    "peer_pe_list": [
+      101.53,
+      45.5,
+      42.89
+    ],
+    "peer_ronw_list": [
+      14.23,
+      13.26,
+      24.99
+    ],
+    "rhp_page_peers": 116
+  },
+  "extract": {
+    "company": "P N Gadgil Jewellers Limited",
+    "sector": "Consumer & retail",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 115
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 115
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 8500.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": 2500.0,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "SVG Business Trust",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 118000000.0,
+      "unit": "shares",
+      "page": 72
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 72
+    },
+    "promoter_pre_pct": {
+      "value": 100.0,
+      "unit": "percent",
+      "page": 21
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 21
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding expenditure towards setting-up of 12 new stores in Maharashtra",
+        "category": "capex",
+        "amount": {
+          "value": 3925.68,
+          "unit": "million",
+          "page": 102
+        }
+      },
+      {
+        "purpose": "Repayment or pre-payment, in full or part, of certain borrowings availed by the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 3000.0,
+          "unit": "million",
+          "page": 102
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 103
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Motilal Oswal Investment Advisors Limited",
+      "Nuvama Wealth Management Limited",
+      "BOB Capital Markets Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024",
+    "revenue_fy2": {
+      "value": 25556.34,
+      "unit": "million",
+      "page": 76
+    },
+    "revenue_fy1": {
+      "value": 45075.19,
+      "unit": "million",
+      "page": 76
+    },
+    "revenue_fy0": {
+      "value": 61109.45,
+      "unit": "million",
+      "page": 76
+    },
+    "ebitda_fy2": {
+      "value": 1419.83,
+      "unit": "million",
+      "page": 117
+    },
+    "ebitda_fy1": {
+      "value": 1745.2,
+      "unit": "million",
+      "page": 117
+    },
+    "ebitda_fy0": {
+      "value": 2774.26,
+      "unit": "million",
+      "page": 117
+    },
+    "pat_fy2": {
+      "value": 695.15,
+      "unit": "million",
+      "page": 76
+    },
+    "pat_fy1": {
+      "value": 937.01,
+      "unit": "million",
+      "page": 76
+    },
+    "pat_fy0": {
+      "value": 1543.43,
+      "unit": "million",
+      "page": 76
+    },
+    "cfo_fy2": {
+      "value": 727.55,
+      "unit": "million",
+      "page": 77
+    },
+    "cfo_fy1": {
+      "value": 1047.72,
+      "unit": "million",
+      "page": 77
+    },
+    "cfo_fy0": {
+      "value": 63.23,
+      "unit": "million",
+      "page": 77
+    },
+    "net_worth_fy0": {
+      "value": 5343.77,
+      "unit": "million",
+      "page": 75
+    },
+    "total_debt_fy0": {
+      "value": 3964.96,
+      "unit": "million",
+      "page": 21
+    },
+    "cash_fy0": {
+      "value": 260.87,
+      "unit": "million",
+      "page": 75
+    },
+    "eps_fy0": {
+      "value": 21.59,
+      "unit": "rupees",
+      "page": 76
+    },
+    "ronw_fy0_pct": {
+      "value": 28.88,
+      "unit": "percent",
+      "page": 116
+    },
+    "nav_per_share_fy0": {
+      "value": 45.29,
+      "unit": "rupees",
+      "page": 116
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Kalyan Jewellers India Limited",
+        "nse_symbol": "KALYANKJIL",
+        "pe": 101.53,
+        "ronw_pct": 14.23,
+        "page": 116
+      },
+      {
+        "name": "Senco Gold Limited",
+        "nse_symbol": "SENCO",
+        "pe": 45.5,
+        "ronw_pct": 13.26,
+        "page": 116
+      },
+      {
+        "name": "Thangamayil Jewellery Limited",
+        "nse_symbol": "THANGAMAYL",
+        "pe": 42.89,
+        "ronw_pct": 24.99,
+        "page": 116
+      }
+    ],
+    "notes": [
+      "Price band, lot size, and the number of fresh issue and OFS shares are all printed as [\u25cf] in this RHP. Only the amounts are given: fresh issue up to \u20b98,500 million and OFS up to \u20b92,500 million.",
+      "Two different net worth figures are printed. The summary (page 21) uses total equity including non-controlling interest: FY23 3,657.34 and FY22 2,820.13. Equity attributable to owners is FY23 3,735.26 and FY22 3,092.20. For FY24 both figures are the same, 5,343.77, because there is no NCI.",
+      "PAT is restated profit for the year including minority interest. Profit attributable to owners was FY23 742.85 and FY22 576.03.",
+      "Total borrowings of 3,964.96 match the balance sheet: non-current 919.41 plus current 3,045.55. The capitalisation table splits the same total differently (1,129.77 and 2,835.19) because current maturities are reclassified.",
+      "The only allotment in the 12 months before the RHP is the conversion of 62,800,000 CCNPS into equity shares for SVG Business Trust on January 10, 2024. No consideration was paid, so it is not treated as a pre-IPO placement.",
+      "Promoter pre-offer holding is 100% for promoters and promoter group combined; SVG Business Trust alone holds 99.99%.",
+      "The retail quota percentage is not printed on the pages provided.",
+      "Peer NSE symbols are not printed in the RHP; they were inferred.",
+      "Diluted EPS for FY24 is \u20b913.08 against basic EPS of \u20b921.59."
+    ]
+  }
+}

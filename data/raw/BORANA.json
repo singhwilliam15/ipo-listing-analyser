@@ -1,0 +1,341 @@
+{
+  "symbol": "BORANA",
+  "rhp_file": "BORANA.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:16:14+00:00",
+  "pages_sent": [
+    1,
+    2,
+    28,
+    29,
+    30,
+    31,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    94,
+    95,
+    96,
+    108,
+    109,
+    127,
+    128,
+    129,
+    281,
+    282,
+    284
+  ],
+  "n_pdf_pages": 417,
+  "usage": {
+    "input_tokens": 34898,
+    "output_tokens": 3177,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3111815,
+    "session_id": "413feaf1-77a8-4948-bcde-783474611e3a"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Borana Weaves Limited",
+    "sector": "Chemicals & materials",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "FY2024 (March 31, 2024)",
+    "stub_period_months": 9,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Beeline Capital Advisors Private Limited",
+    "revenue_fy2": 42.333999999999996,
+    "rhp_page_revenue_fy2": 83,
+    "revenue_fy1": 135.399,
+    "rhp_page_revenue_fy1": 83,
+    "revenue_fy0": 199.05560000000003,
+    "rhp_page_revenue_fy0": 83,
+    "ebitda_fy2": 5.1746,
+    "rhp_page_ebitda_fy2": 281,
+    "ebitda_fy1": 26.0641,
+    "rhp_page_ebitda_fy1": 281,
+    "ebitda_fy0": 41.173100000000005,
+    "rhp_page_ebitda_fy0": 281,
+    "pat_fy2": 1.7986,
+    "rhp_page_pat_fy2": 83,
+    "pat_fy1": 16.3009,
+    "rhp_page_pat_fy1": 83,
+    "pat_fy0": 23.5864,
+    "rhp_page_pat_fy0": 83,
+    "cfo_fy2": -8.3262,
+    "rhp_page_cfo_fy2": 84,
+    "cfo_fy1": 6.896,
+    "rhp_page_cfo_fy1": 84,
+    "cfo_fy0": 22.132600000000004,
+    "rhp_page_cfo_fy0": 84,
+    "net_worth_fy0": 47.6966,
+    "rhp_page_net_worth_fy0": 82,
+    "total_debt_fy0": 69.0977,
+    "rhp_page_total_debt_fy0": 31,
+    "cash_fy0": 0.0116,
+    "rhp_page_cash_fy0": 82,
+    "revenue_stub": 211.6152,
+    "rhp_page_revenue_stub": 83,
+    "pat_stub": 29.3063,
+    "rhp_page_pat_stub": 83,
+    "price_low": null,
+    "rhp_page_price_low": 128,
+    "price_high": null,
+    "rhp_page_price_high": 128,
+    "lot_size": null,
+    "promoter_pre_pct": 87.19,
+    "rhp_page_promoter_pre_pct": 30,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 30,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 11.83,
+    "rhp_page_eps_fy0": 84,
+    "ronw_fy0_pct": 49.77,
+    "rhp_page_ronw_fy0_pct": 128,
+    "nav_per_share_fy0": 23.77,
+    "rhp_page_nav_per_share_fy0": 129,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "fresh_issue_shares_cr": 0.6708,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "pre_issue_shares_cr": 1.9937295,
+    "rhp_page_pre_issue_shares_cr": 80,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 80,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 71.3477,
+    "proceeds_gcp_cr": 0.0,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "Borana Weaves Limited",
+    "sector": "Chemicals & materials",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 128
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 128
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "lakh",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": 6708000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 19937295.0,
+      "unit": "shares",
+      "page": 80
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 80
+    },
+    "promoter_pre_pct": {
+      "value": 87.19,
+      "unit": "percent",
+      "page": 30
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 30
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Financing the cost of establishing a new manufacturing unit (Proposed Unit 4) to produce grey fabric at Surat, Gujarat",
+        "category": "capex",
+        "amount": {
+          "value": 7134.77,
+          "unit": "lakh",
+          "page": 108
+        }
+      },
+      {
+        "purpose": "Funding incremental working capital requirements",
+        "category": "other",
+        "amount": {
+          "value": 2650.0,
+          "unit": "lakh",
+          "page": 108
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "lakh",
+          "page": 108
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Beeline Capital Advisors Private Limited"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "FY2024 (March 31, 2024)",
+    "revenue_fy2": {
+      "value": 4233.4,
+      "unit": "lakh",
+      "page": 83
+    },
+    "revenue_fy1": {
+      "value": 13539.9,
+      "unit": "lakh",
+      "page": 83
+    },
+    "revenue_fy0": {
+      "value": 19905.56,
+      "unit": "lakh",
+      "page": 83
+    },
+    "ebitda_fy2": {
+      "value": 517.46,
+      "unit": "lakh",
+      "page": 281
+    },
+    "ebitda_fy1": {
+      "value": 2606.41,
+      "unit": "lakh",
+      "page": 281
+    },
+    "ebitda_fy0": {
+      "value": 4117.31,
+      "unit": "lakh",
+      "page": 281
+    },
+    "pat_fy2": {
+      "value": 179.86,
+      "unit": "lakh",
+      "page": 83
+    },
+    "pat_fy1": {
+      "value": 1630.09,
+      "unit": "lakh",
+      "page": 83
+    },
+    "pat_fy0": {
+      "value": 2358.64,
+      "unit": "lakh",
+      "page": 83
+    },
+    "cfo_fy2": {
+      "value": -832.62,
+      "unit": "lakh",
+      "page": 84
+    },
+    "cfo_fy1": {
+      "value": 689.6,
+      "unit": "lakh",
+      "page": 84
+    },
+    "cfo_fy0": {
+      "value": 2213.26,
+      "unit": "lakh",
+      "page": 84
+    },
+    "net_worth_fy0": {
+      "value": 4769.66,
+      "unit": "lakh",
+      "page": 82
+    },
+    "total_debt_fy0": {
+      "value": 6909.77,
+      "unit": "lakh",
+      "page": 31
+    },
+    "cash_fy0": {
+      "value": 1.16,
+      "unit": "lakh",
+      "page": 82
+    },
+    "eps_fy0": {
+      "value": 11.83,
+      "unit": "rupees",
+      "page": 84
+    },
+    "ronw_fy0_pct": {
+      "value": 49.77,
+      "unit": "percent",
+      "page": 128
+    },
+    "nav_per_share_fy0": {
+      "value": 23.77,
+      "unit": "rupees",
+      "page": 129
+    },
+    "stub_period_months": 9,
+    "revenue_stub": {
+      "value": 21161.52,
+      "unit": "lakh",
+      "page": 83
+    },
+    "pat_stub": {
+      "value": 2930.63,
+      "unit": "lakh",
+      "page": 83
+    },
+    "no_listed_peers": true,
+    "peers": [],
+    "notes": [
+      "The financials are labelled 'Restated Financial Information' and no subsidiaries or consolidation are mentioned, so they are treated as standalone.",
+      "Net worth for FY2024 is total equity from the balance sheet (4,769.66 lakh). The summary table gives 'Net worth' as 4,739.02 lakh, which is reduced by loan processing fees not written off.",
+      "Total debt for FY2024 = non-current borrowings 4,805.19 + current borrowings 2,104.57 = 6,909.77 lakh, as printed on page 31. The cash flow note shows a different closing borrowings figure of 6,790.12 lakh.",
+      "Price band, lot size, issue amount and post-issue shares are shown as [\u25cf] in the RHP.",
+      "The issue is a fresh issue only, with no offer for sale.",
+      "The retail quota % is not printed on the pages provided. The issue is under Regulation 6(2), so retail is likely capped at 10%, but this was not confirmed.",
+      "The only allotment in the 12 months before the RHP is a 500:1 bonus issue on June 22, 2024. It is not counted as a pre-IPO placement. The last cash allotment was a private placement at Rs 2,014 per share on July 30, 2022.",
+      "The RHP states the company has no listed industry peers.",
+      "Sector: the company makes textiles (synthetic grey fabric and PTY yarn). No textile category exists, so 'Chemicals & materials' was chosen as the closest.",
+      "Funding of incremental working capital is classified as 'other'."
+    ]
+  }
+}

@@ -1,0 +1,367 @@
+{
+  "symbol": "LGEINDIA",
+  "rhp_file": "LGEINDIA.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:06:21+00:00",
+  "pages_sent": [
+    1,
+    2,
+    21,
+    22,
+    23,
+    24,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    124,
+    125,
+    126,
+    135,
+    136,
+    138,
+    139,
+    140,
+    357,
+    358,
+    392
+  ],
+  "n_pdf_pages": 502,
+  "usage": {
+    "input_tokens": 40870,
+    "output_tokens": 3433,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3646731,
+    "session_id": "f2ae3efa-ca81-4e5a-927a-eff2c2006edb"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "LG Electronics India Limited",
+    "sector": "Consumer & retail",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "FY2025",
+    "stub_period_months": 3,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Axis Capital Limited; Citigroup Global Markets India Private Limited; Morgan Stanley India Company Private Limited; J.P. Morgan India Private Limited; BofA Securities India Limited",
+    "revenue_fy2": 19864.593,
+    "rhp_page_revenue_fy2": 110,
+    "revenue_fy1": 21352.0,
+    "rhp_page_revenue_fy1": 110,
+    "revenue_fy0": 24366.638,
+    "rhp_page_revenue_fy0": 110,
+    "ebitda_fy2": 1895.115,
+    "rhp_page_ebitda_fy2": 357,
+    "ebitda_fy1": 2224.873,
+    "rhp_page_ebitda_fy1": 357,
+    "ebitda_fy0": 3110.124,
+    "rhp_page_ebitda_fy0": 357,
+    "pat_fy2": 1344.93,
+    "rhp_page_pat_fy2": 110,
+    "pat_fy1": 1511.068,
+    "rhp_page_pat_fy1": 110,
+    "pat_fy0": 2203.348,
+    "rhp_page_pat_fy0": 110,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 5933.745,
+    "rhp_page_net_worth_fy0": 23,
+    "total_debt_fy0": 0.0,
+    "rhp_page_total_debt_fy0": 23,
+    "cash_fy0": 3741.473,
+    "rhp_page_cash_fy0": 108,
+    "revenue_stub": 6262.938,
+    "rhp_page_revenue_stub": 110,
+    "pat_stub": 513.255,
+    "rhp_page_pat_stub": 110,
+    "price_low": null,
+    "rhp_page_price_low": 139,
+    "price_high": null,
+    "rhp_page_price_high": 139,
+    "lot_size": null,
+    "promoter_pre_pct": 100.0,
+    "rhp_page_promoter_pre_pct": 23,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 23,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 32.46,
+    "rhp_page_eps_fy0": 139,
+    "ronw_fy0_pct": 37.13,
+    "rhp_page_ronw_fy0_pct": 139,
+    "nav_per_share_fy0": 87.42,
+    "rhp_page_nav_per_share_fy0": 140,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 10.1815859,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 67.8772392,
+    "rhp_page_pre_issue_shares_cr": 105,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 105,
+    "ofs_promoter_shares_cr": 10.1815859,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": null,
+    "proceeds_capex_cr": null,
+    "proceeds_gcp_cr": null,
+    "peers": "HAVELLS; VOLTAS; WHIRLPOOL; BLUESTARCO",
+    "n_peers": 4,
+    "peer_pe_list": [
+      64.14,
+      52.68,
+      43.53,
+      65.59
+    ],
+    "peer_ronw_list": [
+      17.63,
+      12.76,
+      9.09,
+      19.27
+    ],
+    "rhp_page_peers": 140
+  },
+  "extract": {
+    "company": "LG Electronics India Limited",
+    "sector": "Consumer & retail",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 139
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 139
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 101815859.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "LG Electronics Inc.",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 101815859.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 678772392.0,
+      "unit": "shares",
+      "page": 105
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 105
+    },
+    "promoter_pre_pct": {
+      "value": 100.0,
+      "unit": "percent",
+      "page": 23
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 23
+    },
+    "objects_of_offer": [],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Axis Capital Limited",
+      "Citigroup Global Markets India Private Limited",
+      "Morgan Stanley India Company Private Limited",
+      "J.P. Morgan India Private Limited",
+      "BofA Securities India Limited"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "FY2025",
+    "revenue_fy2": {
+      "value": 198645.93,
+      "unit": "million",
+      "page": 110
+    },
+    "revenue_fy1": {
+      "value": 213520.0,
+      "unit": "million",
+      "page": 110
+    },
+    "revenue_fy0": {
+      "value": 243666.38,
+      "unit": "million",
+      "page": 110
+    },
+    "ebitda_fy2": {
+      "value": 18951.15,
+      "unit": "million",
+      "page": 357
+    },
+    "ebitda_fy1": {
+      "value": 22248.73,
+      "unit": "million",
+      "page": 357
+    },
+    "ebitda_fy0": {
+      "value": 31101.24,
+      "unit": "million",
+      "page": 357
+    },
+    "pat_fy2": {
+      "value": 13449.3,
+      "unit": "million",
+      "page": 110
+    },
+    "pat_fy1": {
+      "value": 15110.68,
+      "unit": "million",
+      "page": 110
+    },
+    "pat_fy0": {
+      "value": 22033.48,
+      "unit": "million",
+      "page": 110
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 59337.45,
+      "unit": "million",
+      "page": 23
+    },
+    "total_debt_fy0": {
+      "value": 0.0,
+      "unit": "million",
+      "page": 23
+    },
+    "cash_fy0": {
+      "value": 37414.73,
+      "unit": "million",
+      "page": 108
+    },
+    "eps_fy0": {
+      "value": 32.46,
+      "unit": "rupees",
+      "page": 139
+    },
+    "ronw_fy0_pct": {
+      "value": 37.13,
+      "unit": "percent",
+      "page": 139
+    },
+    "nav_per_share_fy0": {
+      "value": 87.42,
+      "unit": "rupees",
+      "page": 140
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 62629.38,
+      "unit": "million",
+      "page": 110
+    },
+    "pat_stub": {
+      "value": 5132.55,
+      "unit": "million",
+      "page": 110
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Havells",
+        "nse_symbol": "HAVELLS",
+        "pe": 64.14,
+        "ronw_pct": 17.63,
+        "page": 140
+      },
+      {
+        "name": "Voltas",
+        "nse_symbol": "VOLTAS",
+        "pe": 52.68,
+        "ronw_pct": 12.76,
+        "page": 140
+      },
+      {
+        "name": "Whirlpool",
+        "nse_symbol": "WHIRLPOOL",
+        "pe": 43.53,
+        "ronw_pct": 9.09,
+        "page": 140
+      },
+      {
+        "name": "Blue Star",
+        "nse_symbol": "BLUESTARCO",
+        "pe": 65.59,
+        "ronw_pct": 19.27,
+        "page": 140
+      }
+    ],
+    "notes": [
+      "Pure offer for sale by promoter LG Electronics Inc.; no fresh issue, and the company gets no proceeds, so objects_of_offer is empty.",
+      "Price band, lot size and OFS amount are printed as [\u25cf] in the RHP.",
+      "Financials_basis is set to standalone because the pages say 'Restated Financial Information' without a consolidated label and link to standalone audited financials. No subsidiaries are mentioned. This basis is inferred, not stated.",
+      "FY2023 revenue from operations is 198,645.93 million (continuing operations, restated P&L on page 110). The summary on page 23 shows 198,682.39 million, which includes discontinued operations.",
+      "Net worth for FY2025 is 59,337.45 million, the SEBI-defined net worth on page 23 that RoNW is calculated on. Total equity on the balance sheet is 59,701.70 million (page 108).",
+      "Total borrowings are printed as 'Nil' (page 23; capitalisation statement on page 392), so total debt is recorded as 0.",
+      "Cash flow from operations is not on the pages provided.",
+      "Post-offer shares and promoter post-offer % are printed as [\u25cf]. Because this is an OFS only, the share count stays at 678,772,392; the offer is 15.00% of post-offer capital.",
+      "Retail quota % is not printed on these pages.",
+      "No pre-IPO placement found. The only recent allotment is a 5:1 bonus issue on November 18, 2024.",
+      "NSE symbols for the peers are inferred; the RHP does not print them."
+    ]
+  }
+}

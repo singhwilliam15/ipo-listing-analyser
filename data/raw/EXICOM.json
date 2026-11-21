@@ -1,0 +1,407 @@
+{
+  "symbol": "EXICOM",
+  "rhp_file": "EXICOM.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:12:50+00:00",
+  "pages_sent": [
+    1,
+    2,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    103,
+    104,
+    105,
+    106,
+    118,
+    119,
+    120,
+    121,
+    147,
+    148,
+    149,
+    150,
+    151,
+    358,
+    359,
+    360,
+    364
+  ],
+  "n_pdf_pages": 492,
+  "usage": {
+    "input_tokens": 60523,
+    "output_tokens": 3431,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.5584405,
+    "session_id": "af6b10ec-c9b1-4ad2-9491-6fdfc19ed3e3"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Exicom Tele-Systems Limited",
+    "sector": "Industrials & capital goods",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "March 31, 2023",
+    "stub_period_months": 6,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "Monarch Networth Capital Limited; Unistone Capital Private Limited; Systematix Corporate Services Limited",
+    "revenue_fy2": 512.905,
+    "rhp_page_revenue_fy2": 89,
+    "revenue_fy1": 842.805,
+    "rhp_page_revenue_fy1": 89,
+    "revenue_fy0": 707.93,
+    "rhp_page_revenue_fy0": 89,
+    "ebitda_fy2": 29.515,
+    "rhp_page_ebitda_fy2": 150,
+    "ebitda_fy1": 67.421,
+    "rhp_page_ebitda_fy1": 150,
+    "ebitda_fy0": 52.437,
+    "rhp_page_ebitda_fy0": 150,
+    "pat_fy2": 3.45,
+    "rhp_page_pat_fy2": 89,
+    "pat_fy1": 5.136,
+    "rhp_page_pat_fy1": 89,
+    "pat_fy0": 6.372,
+    "rhp_page_pat_fy0": 89,
+    "cfo_fy2": -13.455,
+    "rhp_page_cfo_fy2": 90,
+    "cfo_fy1": 56.037,
+    "rhp_page_cfo_fy1": 90,
+    "cfo_fy0": 2.571,
+    "rhp_page_cfo_fy0": 90,
+    "net_worth_fy0": 231.999,
+    "rhp_page_net_worth_fy0": 28,
+    "total_debt_fy0": 117.915,
+    "rhp_page_total_debt_fy0": 28,
+    "cash_fy0": 37.959,
+    "rhp_page_cash_fy0": 88,
+    "revenue_stub": 455.042,
+    "rhp_page_revenue_stub": 89,
+    "pat_stub": 27.463,
+    "rhp_page_pat_stub": 89,
+    "price_low": null,
+    "rhp_page_price_low": 1,
+    "price_high": null,
+    "rhp_page_price_high": 1,
+    "lot_size": null,
+    "rhp_page_lot_size": 2,
+    "promoter_pre_pct": 93.28,
+    "rhp_page_promoter_pre_pct": 27,
+    "promoter_post_pct": null,
+    "retail_quota_pct": 10.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": 135.0,
+    "rhp_page_pre_ipo_price": 1,
+    "eps_fy0": 0.69,
+    "rhp_page_eps_fy0": 147,
+    "ronw_fy0_pct": 2.75,
+    "rhp_page_ronw_fy0_pct": 149,
+    "nav_per_share_fy0": 25.24,
+    "rhp_page_nav_per_share_fy0": 150,
+    "fresh_issue_cr": 329.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.70422,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 9.7655501,
+    "rhp_page_pre_issue_shares_cr": 85,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 85,
+    "ofs_promoter_shares_cr": 0.70422,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 50.298,
+    "proceeds_capex_cr": 145.772,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "Servotech Power Systems Limited; HBL Power Systems Limited",
+    "n_peers": 2,
+    "peer_pe_list": [
+      155.96,
+      139.3
+    ],
+    "peer_ronw_list": [
+      13.47,
+      10.35
+    ],
+    "rhp_page_peers": 150
+  },
+  "extract": {
+    "company": "Exicom Tele-Systems Limited",
+    "sector": "Industrials & capital goods",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 1
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 1
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": 2
+    },
+    "fresh_issue_amount": {
+      "value": 3290.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 7042200.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "NextWave Communications Private Limited",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 7042200.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 97655501.0,
+      "unit": "shares",
+      "page": 85
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 85
+    },
+    "promoter_pre_pct": {
+      "value": 93.28,
+      "unit": "percent",
+      "page": 27
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Part-financing setting up of production/assembly lines at planned manufacturing facility in Telangana",
+        "category": "capex",
+        "amount": {
+          "value": 1457.72,
+          "unit": "million",
+          "page": 118
+        }
+      },
+      {
+        "purpose": "Repayment/pre-payment, in part or full, of certain borrowings",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 502.98,
+          "unit": "million",
+          "page": 118
+        }
+      },
+      {
+        "purpose": "Part-funding incremental working capital requirements",
+        "category": "other",
+        "amount": {
+          "value": 690.0,
+          "unit": "million",
+          "page": 119
+        }
+      },
+      {
+        "purpose": "Investment in R&D and product development",
+        "category": "other",
+        "amount": {
+          "value": 400.0,
+          "unit": "million",
+          "page": 119
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 119
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 10.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 135.0,
+      "unit": "rupees",
+      "page": 1
+    },
+    "lead_managers": [
+      "Monarch Networth Capital Limited",
+      "Unistone Capital Private Limited",
+      "Systematix Corporate Services Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "March 31, 2023",
+    "revenue_fy2": {
+      "value": 5129.05,
+      "unit": "million",
+      "page": 89
+    },
+    "revenue_fy1": {
+      "value": 8428.05,
+      "unit": "million",
+      "page": 89
+    },
+    "revenue_fy0": {
+      "value": 7079.3,
+      "unit": "million",
+      "page": 89
+    },
+    "ebitda_fy2": {
+      "value": 295.15,
+      "unit": "million",
+      "page": 150
+    },
+    "ebitda_fy1": {
+      "value": 674.21,
+      "unit": "million",
+      "page": 150
+    },
+    "ebitda_fy0": {
+      "value": 524.37,
+      "unit": "million",
+      "page": 150
+    },
+    "pat_fy2": {
+      "value": 34.5,
+      "unit": "million",
+      "page": 89
+    },
+    "pat_fy1": {
+      "value": 51.36,
+      "unit": "million",
+      "page": 89
+    },
+    "pat_fy0": {
+      "value": 63.72,
+      "unit": "million",
+      "page": 89
+    },
+    "cfo_fy2": {
+      "value": -134.55,
+      "unit": "million",
+      "page": 90
+    },
+    "cfo_fy1": {
+      "value": 560.37,
+      "unit": "million",
+      "page": 90
+    },
+    "cfo_fy0": {
+      "value": 25.71,
+      "unit": "million",
+      "page": 90
+    },
+    "net_worth_fy0": {
+      "value": 2319.99,
+      "unit": "million",
+      "page": 28
+    },
+    "total_debt_fy0": {
+      "value": 1179.15,
+      "unit": "million",
+      "page": 28
+    },
+    "cash_fy0": {
+      "value": 379.59,
+      "unit": "million",
+      "page": 88
+    },
+    "eps_fy0": {
+      "value": 0.69,
+      "unit": "rupees",
+      "page": 147
+    },
+    "ronw_fy0_pct": {
+      "value": 2.75,
+      "unit": "percent",
+      "page": 149
+    },
+    "nav_per_share_fy0": {
+      "value": 25.24,
+      "unit": "rupees",
+      "page": 150
+    },
+    "stub_period_months": 6,
+    "revenue_stub": {
+      "value": 4550.42,
+      "unit": "million",
+      "page": 89
+    },
+    "pat_stub": {
+      "value": 274.63,
+      "unit": "million",
+      "page": 89
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Servotech Power Systems Limited",
+        "nse_symbol": null,
+        "pe": 155.96,
+        "ronw_pct": 13.47,
+        "page": 150
+      },
+      {
+        "name": "HBL Power Systems Limited",
+        "nse_symbol": null,
+        "pe": 139.3,
+        "ronw_pct": 10.35,
+        "page": 150
+      }
+    ],
+    "notes": [
+      "Price band and lot size are not given in the RHP (shown as [\u25cf]); the fresh issue share count is not given either.",
+      "PAT and EPS for FY0 cover continuing and discontinued operations together (PAT 63.72, EPS 0.69). Continuing operations alone: PAT 310.31, basic EPS 3.38, RoNW 13.38%.",
+      "EBITDA comes from the KPI table and the Other Financial Information section; EBITDA there excludes other income.",
+      "Working capital (690.00) and R&D (400.00) are categorised as 'other'. The general corporate purposes amount is [\u25cf].",
+      "Pre-IPO placement: 5,259,257 shares at \u20b9135 on January 3, 2024 (\u20b9710 million). The fresh issue was cut from \u20b94,000 million to \u20b93,290 million as a result.",
+      "Total debt for FY0 (1,179.15) is from the summary table on page 28. It matches the balance sheet: non-current 833.23 + current 345.91.",
+      "Promoter pre-offer holding of 93.28% includes the promoter group. NextWave alone holds 76.55%.",
+      "The September 30, 2022 RoNW is printed as 13.49 on page 359 and as (13.49) on page 149.",
+      "A bonus issue of 11:1 in September 2023 has been applied retrospectively to EPS and NAV."
+    ]
+  }
+}

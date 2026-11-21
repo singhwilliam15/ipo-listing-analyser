@@ -1,0 +1,451 @@
+{
+  "symbol": "SHIPROCKET",
+  "rhp_file": "SHIPROCKET.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:25:35+00:00",
+  "pages_sent": [
+    1,
+    2,
+    27,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    102,
+    103,
+    104,
+    138,
+    139,
+    171,
+    172,
+    173,
+    379,
+    380,
+    406
+  ],
+  "n_pdf_pages": 516,
+  "usage": {
+    "input_tokens": 35637,
+    "output_tokens": 4034,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.33430689999999996,
+    "session_id": "947dbfb5-0ec1-400a-bac1-6e9f996a41d3"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Shiprocket Limited",
+    "sector": "Internet & platforms",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "stub_period_months": null,
+    "pre_ipo_placement": null,
+    "lead_managers": "Axis Capital Limited; BofA Securities India Limited; JM Financial Limited; Kotak Mahindra Capital Company Limited",
+    "revenue_fy2": 1315.976,
+    "rhp_page_revenue_fy2": 83,
+    "revenue_fy1": 1632.012,
+    "rhp_page_revenue_fy1": 83,
+    "revenue_fy0": 2024.141,
+    "rhp_page_revenue_fy0": 83,
+    "ebitda_fy2": -495.889,
+    "rhp_page_ebitda_fy2": 379,
+    "ebitda_fy1": -17.16,
+    "rhp_page_ebitda_fy1": 379,
+    "ebitda_fy0": -16.555,
+    "rhp_page_ebitda_fy0": 379,
+    "pat_fy2": -595.181,
+    "rhp_page_pat_fy2": 83,
+    "pat_fy1": -74.449,
+    "rhp_page_pat_fy1": 83,
+    "pat_fy0": -79.245,
+    "rhp_page_pat_fy0": 83,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 1524.311,
+    "rhp_page_net_worth_fy0": 81,
+    "total_debt_fy0": 242.012,
+    "rhp_page_total_debt_fy0": 406,
+    "cash_fy0": 184.743,
+    "rhp_page_cash_fy0": 81,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 1,
+    "price_high": null,
+    "rhp_page_price_high": 1,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": -1.23,
+    "rhp_page_eps_fy0": 171,
+    "ronw_fy0_pct": -5.2,
+    "rhp_page_ronw_fy0_pct": 172,
+    "nav_per_share_fy0": 23.96,
+    "rhp_page_nav_per_share_fy0": 172,
+    "fresh_issue_cr": 885.5,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": 731.985,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 63.6278384,
+    "rhp_page_pre_issue_shares_cr": 78,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 78,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 210.0,
+    "proceeds_capex_cr": 159.8,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "Unicommerce Esolutions Limited",
+    "n_peers": 1,
+    "peer_pe_list": [
+      47.75
+    ],
+    "peer_ronw_list": [
+      10.6
+    ],
+    "rhp_page_peers": 173
+  },
+  "extract": {
+    "company": "Shiprocket Limited",
+    "sector": "Internet & platforms",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 1
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 1
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 8855.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": 7319.85,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "LR India Fund I S.a.r.l. SICAV-RAIF",
+        "kind": "investor",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 79
+        }
+      },
+      {
+        "name": "Tribe Capital III, LLC - Series 1",
+        "kind": "investor",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 79
+        }
+      },
+      {
+        "name": "MCP3 SPV LLC",
+        "kind": "investor",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 79
+        }
+      },
+      {
+        "name": "Moore Strategic Ventures, LLC",
+        "kind": "investor",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 79
+        }
+      },
+      {
+        "name": "AFOS, LLC",
+        "kind": "investor",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 78
+        }
+      },
+      {
+        "name": "Agility International Investment L.L.C.",
+        "kind": "investor",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 78
+        }
+      },
+      {
+        "name": "500 Startups III, L.P.",
+        "kind": "investor",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 78
+        }
+      },
+      {
+        "name": "Gautam Kapoor",
+        "kind": "other",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 79
+        }
+      },
+      {
+        "name": "Saahil Goel",
+        "kind": "other",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 79
+        }
+      },
+      {
+        "name": "Vishesh Khurana",
+        "kind": "other",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 79
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 636278384.0,
+      "unit": "shares",
+      "page": 78
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 78
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Investment in marketing initiatives primarily for Emerging Business and Core Business",
+        "category": "other",
+        "amount": {
+          "value": 2058.0,
+          "unit": "million",
+          "page": 139
+        }
+      },
+      {
+        "purpose": "Investment in technology infrastructure and capabilities primarily for Emerging Business and Core Business",
+        "category": "capex",
+        "amount": {
+          "value": 1598.0,
+          "unit": "million",
+          "page": 139
+        }
+      },
+      {
+        "purpose": "Repayment / prepayment, in full or in part, of certain borrowings including interest accrued",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 2100.0,
+          "unit": "million",
+          "page": 139
+        }
+      },
+      {
+        "purpose": "Funding inorganic growth through unidentified acquisitions and general corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 139
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Axis Capital Limited",
+      "BofA Securities India Limited",
+      "JM Financial Limited",
+      "Kotak Mahindra Capital Company Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "revenue_fy2": {
+      "value": 13159.76,
+      "unit": "million",
+      "page": 83
+    },
+    "revenue_fy1": {
+      "value": 16320.12,
+      "unit": "million",
+      "page": 83
+    },
+    "revenue_fy0": {
+      "value": 20241.41,
+      "unit": "million",
+      "page": 83
+    },
+    "ebitda_fy2": {
+      "value": -4958.89,
+      "unit": "million",
+      "page": 379
+    },
+    "ebitda_fy1": {
+      "value": -171.6,
+      "unit": "million",
+      "page": 379
+    },
+    "ebitda_fy0": {
+      "value": -165.55,
+      "unit": "million",
+      "page": 379
+    },
+    "pat_fy2": {
+      "value": -5951.81,
+      "unit": "million",
+      "page": 83
+    },
+    "pat_fy1": {
+      "value": -744.49,
+      "unit": "million",
+      "page": 83
+    },
+    "pat_fy0": {
+      "value": -792.45,
+      "unit": "million",
+      "page": 83
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 15243.11,
+      "unit": "million",
+      "page": 81
+    },
+    "total_debt_fy0": {
+      "value": 2420.12,
+      "unit": "million",
+      "page": 406
+    },
+    "cash_fy0": {
+      "value": 1847.43,
+      "unit": "million",
+      "page": 81
+    },
+    "eps_fy0": {
+      "value": -1.23,
+      "unit": "rupees",
+      "page": 171
+    },
+    "ronw_fy0_pct": {
+      "value": -5.2,
+      "unit": "percent",
+      "page": 172
+    },
+    "nav_per_share_fy0": {
+      "value": 23.96,
+      "unit": "rupees",
+      "page": 172
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Unicommerce Esolutions Limited",
+        "nse_symbol": null,
+        "pe": 47.75,
+        "ronw_pct": 10.6,
+        "page": 173
+      }
+    ],
+    "notes": [
+      "Price band, lot size and share counts for the fresh issue and OFS are not printed ([\u25cf]); only rupee amounts are given. Each selling shareholder's share count is [\u25cf]. Amounts offered (\u20b9 million): LR India 2,716.98; Tribe Capital 1,200.00; MCP3 555.30; AFOS 539.60; Moore 513.54; Agility 211.45; 500 Startups 162.99; Gautam Kapoor 610.00; Saahil Goel 610.00; Vishesh Khurana 200.00.",
+      "AFOS, LLC is listed as a selling shareholder on pages 78 and 138 but does not appear in the cover page OFS table.",
+      "The company is professionally managed and has no identifiable promoter, so promoter holding is null.",
+      "Retail quota % is not printed on these pages. The offer is made under Regulation 6(2), so retail is typically not more than 10%, but this is not stated here and the field is null.",
+      "Cash flow statement pages were not provided, so CFO is null.",
+      "Net worth: equity attributable to owners on page 81 is 15,243.11 million. Page 379 shows net worth of 15,242.89 million, which excludes capital redemption reserve.",
+      "FY2024 restated loss of (5,951.81) million includes non-controlling interest of (27.68); the loss attributable to the parent is (5,924.13).",
+      "EBITDA is taken from 'Other Financial Information' (page 379), defined as restated loss excluding D&A, finance cost and tax.",
+      "Total debt is current borrowings only. Non-current borrowings are nil, and lease liabilities are excluded.",
+      "Amount for inorganic acquisitions / GCP is [\u25cf]. Together they are capped at 35% of gross proceeds, and each individually at 25%.",
+      "Pre-IPO placement information for the last 12 months is not available on these pages. A 265:1 bonus issue was approved in 2025.",
+      "NSE symbol for the peer is not printed in the RHP."
+    ]
+  }
+}

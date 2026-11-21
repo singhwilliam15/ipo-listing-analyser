@@ -1,0 +1,365 @@
+{
+  "symbol": "NITYAS",
+  "rhp_file": "NITYAS.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:17:50+00:00",
+  "pages_sent": [
+    1,
+    2,
+    27,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    128,
+    129,
+    130,
+    131,
+    145,
+    146,
+    147,
+    148,
+    156,
+    157,
+    158,
+    159,
+    160,
+    408,
+    409,
+    410
+  ],
+  "n_pdf_pages": 537,
+  "usage": {
+    "input_tokens": 36580,
+    "output_tokens": 3287,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.32700720000000005,
+    "session_id": "179d108a-ae1b-4605-90cf-8f87dbae05c3"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Nityas Gems and Jewellery Limited",
+    "sector": "Consumer & retail",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "stub_period_months": null,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Choice Capital Advisors Private Limited",
+    "revenue_fy2": 53.654999999999994,
+    "rhp_page_revenue_fy2": 107,
+    "revenue_fy1": 96.845,
+    "rhp_page_revenue_fy1": 107,
+    "revenue_fy0": 202.894,
+    "rhp_page_revenue_fy0": 107,
+    "ebitda_fy2": 5.476,
+    "rhp_page_ebitda_fy2": 160,
+    "ebitda_fy1": 12.900999999999998,
+    "rhp_page_ebitda_fy1": 160,
+    "ebitda_fy0": 30.974,
+    "rhp_page_ebitda_fy0": 160,
+    "pat_fy2": 4.024,
+    "rhp_page_pat_fy2": 107,
+    "pat_fy1": 9.788,
+    "rhp_page_pat_fy1": 107,
+    "pat_fy0": 22.315,
+    "rhp_page_pat_fy0": 107,
+    "cfo_fy2": -1.051,
+    "rhp_page_cfo_fy2": 109,
+    "cfo_fy1": -10.052,
+    "rhp_page_cfo_fy1": 109,
+    "cfo_fy0": -14.732,
+    "rhp_page_cfo_fy0": 109,
+    "net_worth_fy0": 62.438,
+    "rhp_page_net_worth_fy0": 105,
+    "total_debt_fy0": 23.424,
+    "rhp_page_total_debt_fy0": 409,
+    "cash_fy0": 0.542,
+    "rhp_page_cash_fy0": 105,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 158,
+    "price_high": null,
+    "rhp_page_price_high": 158,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 5.52,
+    "rhp_page_eps_fy0": 108,
+    "ronw_fy0_pct": 43.75,
+    "rhp_page_ronw_fy0_pct": 158,
+    "nav_per_share_fy0": 15.13,
+    "rhp_page_nav_per_share_fy0": 158,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": 1.4456,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 4.3137248,
+    "rhp_page_pre_issue_shares_cr": 102,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 102,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "Golkunda Diamonds & Jewellery Limited; Goldiam International Limited; Renaissance Global Limited",
+    "n_peers": 3,
+    "peer_pe_list": [
+      16.61,
+      21.69,
+      18.63
+    ],
+    "peer_ronw_list": [
+      18.81,
+      18.38,
+      6.09
+    ],
+    "rhp_page_peers": 159
+  },
+  "extract": {
+    "company": "Nityas Gems and Jewellery Limited",
+    "sector": "Consumer & retail",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 158
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 158
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": 14456000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 43137248.0,
+      "unit": "shares",
+      "page": 102
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 102
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding working capital requirements of the Company",
+        "category": "other",
+        "amount": {
+          "value": 700.0,
+          "unit": "million",
+          "page": 145
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 145
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Choice Capital Advisors Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "revenue_fy2": {
+      "value": 536.55,
+      "unit": "million",
+      "page": 107
+    },
+    "revenue_fy1": {
+      "value": 968.45,
+      "unit": "million",
+      "page": 107
+    },
+    "revenue_fy0": {
+      "value": 2028.94,
+      "unit": "million",
+      "page": 107
+    },
+    "ebitda_fy2": {
+      "value": 54.76,
+      "unit": "million",
+      "page": 160
+    },
+    "ebitda_fy1": {
+      "value": 129.01,
+      "unit": "million",
+      "page": 160
+    },
+    "ebitda_fy0": {
+      "value": 309.74,
+      "unit": "million",
+      "page": 160
+    },
+    "pat_fy2": {
+      "value": 40.24,
+      "unit": "million",
+      "page": 107
+    },
+    "pat_fy1": {
+      "value": 97.88,
+      "unit": "million",
+      "page": 107
+    },
+    "pat_fy0": {
+      "value": 223.15,
+      "unit": "million",
+      "page": 107
+    },
+    "cfo_fy2": {
+      "value": -10.51,
+      "unit": "million",
+      "page": 109
+    },
+    "cfo_fy1": {
+      "value": -100.52,
+      "unit": "million",
+      "page": 109
+    },
+    "cfo_fy0": {
+      "value": -147.32,
+      "unit": "million",
+      "page": 109
+    },
+    "net_worth_fy0": {
+      "value": 624.38,
+      "unit": "million",
+      "page": 105
+    },
+    "total_debt_fy0": {
+      "value": 234.24,
+      "unit": "million",
+      "page": 409
+    },
+    "cash_fy0": {
+      "value": 5.42,
+      "unit": "million",
+      "page": 105
+    },
+    "eps_fy0": {
+      "value": 5.52,
+      "unit": "rupees",
+      "page": 108
+    },
+    "ronw_fy0_pct": {
+      "value": 43.75,
+      "unit": "percent",
+      "page": 158
+    },
+    "nav_per_share_fy0": {
+      "value": 15.13,
+      "unit": "rupees",
+      "page": 158
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Golkunda Diamonds & Jewellery Limited",
+        "nse_symbol": null,
+        "pe": 16.61,
+        "ronw_pct": 18.81,
+        "page": 159
+      },
+      {
+        "name": "Goldiam International Limited",
+        "nse_symbol": null,
+        "pe": 21.69,
+        "ronw_pct": 18.38,
+        "page": 159
+      },
+      {
+        "name": "Renaissance Global Limited",
+        "nse_symbol": null,
+        "pe": 18.63,
+        "ronw_pct": 6.09,
+        "page": 159
+      }
+    ],
+    "notes": [
+      "Price band, lot size, issue amount and post-issue shares are shown as [\u25cf] in this RHP.",
+      "Fresh issue only; there is no offer for sale.",
+      "Total debt of 234.24 million is taken from the capitalisation statement (page 409). That figure includes lease liabilities. On the balance sheet, borrowings alone are 0.92 million non-current and 89.87 million current.",
+      "Net worth is equity attributable to owners (624.38 million). Total equity including the non-controlling interest is 794.30 million.",
+      "PAT is the restated profit for the year, including the minority share (223.15 million). The share attributable to owners is 227.73 million.",
+      "The working capital object is categorised as 'other' because it does not fit debt repayment, capex or GCP. The GCP amount is still [\u25cf].",
+      "Promoter shareholding percentages and the retail quota percentage are not on the pages provided.",
+      "The last preferential allotment was on March 4, 2025 at Rs 260 per share (face value Rs 10, before the split and bonus). That is more than 12 months before the RHP dated September 24, 2026, so pre_ipo_placement is set to false. The FY2026 cash flow shows 187.35 million of share issue proceeds, which may relate to the subsidiary, Ayaani.",
+      "The peer table does not print NSE symbols.",
+      "Industry P/E: high 21.69, low 18.63, average 20.16."
+    ]
+  }
+}

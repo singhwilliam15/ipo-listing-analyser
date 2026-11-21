@@ -1,0 +1,406 @@
+{
+  "symbol": "GODIGIT",
+  "rhp_file": "GODIGIT.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:14:52+00:00",
+  "pages_sent": [
+    1,
+    2,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    142,
+    143,
+    144,
+    145,
+    193,
+    194,
+    195,
+    196,
+    199,
+    200,
+    201,
+    202,
+    203,
+    483,
+    484,
+    485,
+    534
+  ],
+  "n_pdf_pages": 708,
+  "usage": {
+    "input_tokens": 54399,
+    "output_tokens": 3901,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.4836199,
+    "session_id": "19a6d962-c748-4750-a331-22f1acc2bd88"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Go Digit General Insurance Limited",
+    "sector": "Financial services",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "FY2023 (March 31, 2023)",
+    "stub_period_months": 9,
+    "pre_ipo_placement": null,
+    "lead_managers": "ICICI Securities Limited; Morgan Stanley India Company Private Limited; Axis Capital Limited; HDFC Bank Limited; IIFL Securities Limited; Nuvama Wealth Management Limited",
+    "revenue_fy2": 3243.388,
+    "rhp_page_revenue_fy2": 484,
+    "revenue_fy1": 5267.633,
+    "rhp_page_revenue_fy1": 484,
+    "revenue_fy0": 7242.985,
+    "rhp_page_revenue_fy0": 484,
+    "ebitda_fy2": -113.793,
+    "rhp_page_ebitda_fy2": 484,
+    "ebitda_fy1": -283.402,
+    "rhp_page_ebitda_fy1": 484,
+    "ebitda_fy0": 50.689,
+    "rhp_page_ebitda_fy0": 484,
+    "pat_fy2": -122.764,
+    "rhp_page_pat_fy2": 125,
+    "pat_fy1": -295.851,
+    "rhp_page_pat_fy1": 125,
+    "pat_fy0": 35.547,
+    "rhp_page_pat_fy0": 125,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 2325.468,
+    "rhp_page_net_worth_fy0": 24,
+    "total_debt_fy0": 0.0,
+    "rhp_page_total_debt_fy0": 25,
+    "cash_fy0": 279.301,
+    "rhp_page_cash_fy0": 124,
+    "revenue_stub": 6679.678,
+    "rhp_page_revenue_stub": 484,
+    "pat_stub": 129.017,
+    "rhp_page_pat_stub": 125,
+    "price_low": null,
+    "rhp_page_price_low": 199,
+    "price_high": null,
+    "rhp_page_price_high": 199,
+    "lot_size": null,
+    "promoter_pre_pct": 83.31,
+    "rhp_page_promoter_pre_pct": 24,
+    "promoter_post_pct": null,
+    "retail_quota_pct": 10.0,
+    "rhp_page_retail_quota_pct": 22,
+    "pre_ipo_price": null,
+    "eps_fy0": 0.41,
+    "rhp_page_eps_fy0": 126,
+    "ronw_fy0_pct": 1.53,
+    "rhp_page_ronw_fy0_pct": 200,
+    "nav_per_share_fy0": 26.61,
+    "rhp_page_nav_per_share_fy0": 200,
+    "fresh_issue_cr": 1125.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 5.4766392,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 87.5842046,
+    "rhp_page_pre_issue_shares_cr": 121,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 121,
+    "ofs_promoter_shares_cr": 5.4755614,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "NIACL; STARHEALTH; ICICIGI",
+    "n_peers": 3,
+    "peer_pe_list": [
+      38.47,
+      53.79,
+      48.14
+    ],
+    "peer_ronw_list": [
+      5.13,
+      11.39,
+      16.64
+    ],
+    "rhp_page_peers": 200
+  },
+  "extract": {
+    "company": "Go Digit General Insurance Limited",
+    "sector": "Financial services",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 199
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 199
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 11250.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 54766392.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Go Digit Infoworks Services Private Limited",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 54755614.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Nikita Mihir Vakharia, jointly with Mihir Atul Vakharia",
+        "kind": "other",
+        "shares_offered": {
+          "value": 4000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Nikunj Hirendra Shah, jointly with Sohag Hirendra Shah",
+        "kind": "other",
+        "shares_offered": {
+          "value": 3778.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Subramaniam Vasudevan, jointly with Shanti Subramaniam",
+        "kind": "other",
+        "shares_offered": {
+          "value": 3000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 875842046.0,
+      "unit": "shares",
+      "page": 121
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 121
+    },
+    "promoter_pre_pct": {
+      "value": 83.31,
+      "unit": "percent",
+      "page": 24
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Maintenance of solvency ratio",
+        "category": "other",
+        "amount": {
+          "value": 11250.0,
+          "unit": "million",
+          "page": 23
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 10.0,
+      "unit": "percent",
+      "page": 22
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "ICICI Securities Limited",
+      "Morgan Stanley India Company Private Limited",
+      "Axis Capital Limited",
+      "HDFC Bank Limited",
+      "IIFL Securities Limited",
+      "Nuvama Wealth Management Limited"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "FY2023 (March 31, 2023)",
+    "revenue_fy2": {
+      "value": 32433.88,
+      "unit": "million",
+      "page": 484
+    },
+    "revenue_fy1": {
+      "value": 52676.33,
+      "unit": "million",
+      "page": 484
+    },
+    "revenue_fy0": {
+      "value": 72429.85,
+      "unit": "million",
+      "page": 484
+    },
+    "ebitda_fy2": {
+      "value": -1137.93,
+      "unit": "million",
+      "page": 484
+    },
+    "ebitda_fy1": {
+      "value": -2834.02,
+      "unit": "million",
+      "page": 484
+    },
+    "ebitda_fy0": {
+      "value": 506.89,
+      "unit": "million",
+      "page": 484
+    },
+    "pat_fy2": {
+      "value": -1227.64,
+      "unit": "million",
+      "page": 125
+    },
+    "pat_fy1": {
+      "value": -2958.51,
+      "unit": "million",
+      "page": 125
+    },
+    "pat_fy0": {
+      "value": 355.47,
+      "unit": "million",
+      "page": 125
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 23254.68,
+      "unit": "million",
+      "page": 24
+    },
+    "total_debt_fy0": {
+      "value": 0.0,
+      "unit": "million",
+      "page": 25
+    },
+    "cash_fy0": {
+      "value": 2793.01,
+      "unit": "million",
+      "page": 124
+    },
+    "eps_fy0": {
+      "value": 0.41,
+      "unit": "rupees",
+      "page": 126
+    },
+    "ronw_fy0_pct": {
+      "value": 1.53,
+      "unit": "percent",
+      "page": 200
+    },
+    "nav_per_share_fy0": {
+      "value": 26.61,
+      "unit": "rupees",
+      "page": 200
+    },
+    "stub_period_months": 9,
+    "revenue_stub": {
+      "value": 66796.78,
+      "unit": "million",
+      "page": 484
+    },
+    "pat_stub": {
+      "value": 1290.17,
+      "unit": "million",
+      "page": 125
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "New India Assurance Company Limited",
+        "nse_symbol": "NIACL",
+        "pe": 38.47,
+        "ronw_pct": 5.13,
+        "page": 200
+      },
+      {
+        "name": "Star Health and Allied Insurance Company Limited",
+        "nse_symbol": "STARHEALTH",
+        "pe": 53.79,
+        "ronw_pct": 11.39,
+        "page": 200
+      },
+      {
+        "name": "ICICI Lombard General Insurance Company Ltd",
+        "nse_symbol": "ICICIGI",
+        "pe": 48.14,
+        "ronw_pct": 16.64,
+        "page": 200
+      }
+    ],
+    "notes": [
+      "Company is a general insurer. 'Revenue from operations' in the accounting ratios table on p.484 equals GWP (72,429.85 for FY2023). Total income on p.24 is different (58,857.01 for FY2023).",
+      "EBITDA is taken from the accounting ratios table and the reconciliation (p.484-485), not from the KPI table. The KPI table does not report EBITDA.",
+      "Financials are the Restated Financial Statements of the company alone, with no subsidiaries mentioned. Treated as standalone; p.483 calls the audited statements standalone.",
+      "Total borrowings for FY2023 are printed as '-' (nil) on p.25. Borrowings of 2,000 million appear only at Dec 31, 2023, from NCDs.",
+      "Cash flow statement not provided in these pages, so CFO is null.",
+      "Price band, lot size and fresh issue share count are [\u25cf] in the RHP.",
+      "Capital history pages shown only go up to June 2022, so pre-IPO placements within the 12 months before the RHP could not be checked. Share capital rose after FY2023, possibly from ESOP allotments.",
+      "Promoter pre-offer holding of 83.31% includes the promoter group. Promoter entities alone hold 83.30%.",
+      "The object (maintenance of solvency ratio) is categorised as 'other'.",
+      "Peer P/E is based on closing price on April 26, 2024 / FY2023 diluted EPS. New India Assurance is noted as not strictly comparable."
+    ]
+  }
+}

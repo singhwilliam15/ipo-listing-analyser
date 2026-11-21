@@ -1,0 +1,461 @@
+{
+  "symbol": "PINELABS",
+  "rhp_file": "PINELABS.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:04:59+00:00",
+  "pages_sent": [
+    1,
+    2,
+    26,
+    27,
+    28,
+    29,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    125,
+    126,
+    127,
+    186,
+    187,
+    207,
+    208,
+    209,
+    443,
+    444,
+    481
+  ],
+  "n_pdf_pages": 642,
+  "usage": {
+    "input_tokens": 43850,
+    "output_tokens": 4476,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.4096704,
+    "session_id": "2eebc46f-e4bc-49c6-bb22-d2664ae3e69e"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Pine Labs Limited",
+    "sector": "Financial services",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "stub_period_months": 3,
+    "pre_ipo_placement": null,
+    "lead_managers": "Axis Capital Limited; Morgan Stanley India Company Private Limited; Citigroup Global Markets India Private Limited; J.P. Morgan India Private Limited; Jefferies India Private Limited",
+    "revenue_fy2": 1597.658,
+    "rhp_page_revenue_fy2": 115,
+    "revenue_fy1": 1769.546,
+    "rhp_page_revenue_fy1": 115,
+    "revenue_fy0": 2274.274,
+    "rhp_page_revenue_fy0": 115,
+    "ebitda_fy2": 61.304,
+    "rhp_page_ebitda_fy2": 443,
+    "ebitda_fy1": 29.663,
+    "rhp_page_ebitda_fy1": 443,
+    "ebitda_fy0": 234.664,
+    "rhp_page_ebitda_fy0": 443,
+    "pat_fy2": -265.145,
+    "rhp_page_pat_fy2": 115,
+    "pat_fy1": -341.903,
+    "rhp_page_pat_fy1": 115,
+    "pat_fy0": -145.487,
+    "rhp_page_pat_fy0": 115,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 3506.15,
+    "rhp_page_net_worth_fy0": 113,
+    "total_debt_fy0": 829.491,
+    "rhp_page_total_debt_fy0": 28,
+    "cash_fy0": 951.455,
+    "rhp_page_cash_fy0": 113,
+    "revenue_stub": 615.91,
+    "rhp_page_revenue_stub": 115,
+    "pat_stub": 4.786,
+    "rhp_page_pat_stub": 115,
+    "price_low": null,
+    "rhp_page_price_low": 208,
+    "price_high": null,
+    "rhp_page_price_high": 208,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": -1.45,
+    "rhp_page_eps_fy0": 203,
+    "ronw_fy0_pct": null,
+    "rhp_page_ronw_fy0_pct": 204,
+    "nav_per_share_fy0": -22.43,
+    "rhp_page_nav_per_share_fy0": 209,
+    "fresh_issue_cr": 2080.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 8.2348779,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 105.4146853,
+    "rhp_page_pre_issue_shares_cr": 110,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 110,
+    "ofs_promoter_shares_cr": 0,
+    "ofs_investor_shares_cr": 6.3913764,
+    "proceeds_debt_repayment_cr": 532.0,
+    "proceeds_capex_cr": 760.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "Pine Labs Limited",
+    "sector": "Financial services",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 208
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 208
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 20800.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 82348779.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Peak XV Partners Pine Investment Holdings",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 23002308.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Actis Pine Labs Investment Holdings Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 8808097.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Macritchie Investments Pte. Ltd.",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 8747787.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "PayPal Pte. Ltd.",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 6786963.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Mastercard Asia/Pacific Pte. Ltd.",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 5925004.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "AIM Investment Funds (Invesco Investment Funds), on behalf of its series portfolio Invesco Developing Markets Fund",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 3212971.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Madison India Opportunities IV",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 3018784.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Lone Cascade, L.P.",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 2413491.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Lokvir Kapoor",
+        "kind": "other",
+        "shares_offered": {
+          "value": 2221277.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Sofina Ventures S.A.",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 1998359.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 1054146853.0,
+      "unit": "shares",
+      "page": 110
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 110
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment / prepayment, in full or in part, of certain borrowings availed of by the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 5320.0,
+          "unit": "million",
+          "page": 186
+        }
+      },
+      {
+        "purpose": "Investment in Subsidiaries Qwikcilver Singapore, Pine Payment Solutions Malaysia and Pine Labs UAE for expanding presence outside India",
+        "category": "other",
+        "amount": {
+          "value": 600.0,
+          "unit": "million",
+          "page": 186
+        }
+      },
+      {
+        "purpose": "Investment in IT assets and expenditure towards cloud infrastructure",
+        "category": "capex",
+        "amount": {
+          "value": 2300.0,
+          "unit": "million",
+          "page": 186
+        }
+      },
+      {
+        "purpose": "Expenditure towards procurement of digital check-out points (DCPs)",
+        "category": "capex",
+        "amount": {
+          "value": 4300.0,
+          "unit": "million",
+          "page": 186
+        }
+      },
+      {
+        "purpose": "Expenditure towards technology development initiatives",
+        "category": "capex",
+        "amount": {
+          "value": 1000.0,
+          "unit": "million",
+          "page": 186
+        }
+      },
+      {
+        "purpose": "General corporate purposes and unidentified inorganic acquisitions",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 186
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Axis Capital Limited",
+      "Morgan Stanley India Company Private Limited",
+      "Citigroup Global Markets India Private Limited",
+      "J.P. Morgan India Private Limited",
+      "Jefferies India Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "revenue_fy2": {
+      "value": 15976.58,
+      "unit": "million",
+      "page": 115
+    },
+    "revenue_fy1": {
+      "value": 17695.46,
+      "unit": "million",
+      "page": 115
+    },
+    "revenue_fy0": {
+      "value": 22742.74,
+      "unit": "million",
+      "page": 115
+    },
+    "ebitda_fy2": {
+      "value": 613.04,
+      "unit": "million",
+      "page": 443
+    },
+    "ebitda_fy1": {
+      "value": 296.63,
+      "unit": "million",
+      "page": 443
+    },
+    "ebitda_fy0": {
+      "value": 2346.64,
+      "unit": "million",
+      "page": 443
+    },
+    "pat_fy2": {
+      "value": -2651.45,
+      "unit": "million",
+      "page": 115
+    },
+    "pat_fy1": {
+      "value": -3419.03,
+      "unit": "million",
+      "page": 115
+    },
+    "pat_fy0": {
+      "value": -1454.87,
+      "unit": "million",
+      "page": 115
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 35061.5,
+      "unit": "million",
+      "page": 113
+    },
+    "total_debt_fy0": {
+      "value": 8294.91,
+      "unit": "million",
+      "page": 28
+    },
+    "cash_fy0": {
+      "value": 9514.55,
+      "unit": "million",
+      "page": 113
+    },
+    "eps_fy0": {
+      "value": -1.45,
+      "unit": "rupees",
+      "page": 203
+    },
+    "ronw_fy0_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 204
+    },
+    "nav_per_share_fy0": {
+      "value": -22.43,
+      "unit": "rupees",
+      "page": 209
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 6159.1,
+      "unit": "million",
+      "page": 115
+    },
+    "pat_stub": {
+      "value": 47.86,
+      "unit": "million",
+      "page": 115
+    },
+    "no_listed_peers": false,
+    "peers": [],
+    "notes": [
+      "The company has no identifiable promoter, so promoter_pre_pct and promoter_post_pct are null.",
+      "Price band, lot size and fresh issue share count are [\u25cf] in the RHP.",
+      "Only the 10 selling shareholders on the cover page are included; they total 66,135,041 shares against the 82,348,779-share OFS. The full list is in Annexure A (page 610), which was not provided.",
+      "net_worth_fy0 is total equity of 35,061.50 million from the balance sheet (equal to 'Adjusted Net Worth'). The RHP's own defined 'Net Worth' for FY2025 is negative at (22,442.70) million (page 28), and NAV per share of (22.43) is based on that figure.",
+      "RoNW for FY2025 is printed as N.A. because both profit and the defined net worth are negative. Return on Adjusted Net Worth for FY2025 is (4.15)%.",
+      "CFO for the full years is not on the pages provided. The 3-month stub (June 30, 2025) net cash used in operating activities was 2,811.93 million (page 29).",
+      "The peer comparison table (Part G of Basis for Offer Price) is not on the pages provided. Only the industry P/E summary is given: highest 101.20, lowest N.M., average 61.78.",
+      "The retail quota percentage is not printed on the pages provided; the offer is under Reg 6(2), so the retail portion is 'not more than [\u25cf]'.",
+      "Pre-IPO placement status is unclear. After June 30, 2025 there was an ESOP allotment of 27,556,978 shares and a CCPS conversion into 579,520,139 equity shares; no placement price is given.",
+      "The investment in subsidiaries (600 million) is categorised as 'other'. The 7,600 million IT/DCP/technology object is split into its three sub-items, all categorised as capex.",
+      "The share in net loss of associate for FY2025 is printed as 0.00* (less than 0.01 million)."
+    ]
+  }
+}

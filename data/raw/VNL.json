@@ -1,0 +1,375 @@
+{
+  "symbol": "VNL",
+  "rhp_file": "VNL.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:17:55+00:00",
+  "pages_sent": [
+    1,
+    2,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    92,
+    93,
+    94,
+    95,
+    128,
+    129,
+    130,
+    131,
+    143,
+    144,
+    145,
+    146,
+    147,
+    404,
+    405,
+    406,
+    408,
+    430
+  ],
+  "n_pdf_pages": 551,
+  "usage": {
+    "input_tokens": 40428,
+    "output_tokens": 3293,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3582955,
+    "session_id": "9edc50ef-0f30-4bfe-b7dc-65dbf7d3ba8c"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Vishal Nirmiti Limited",
+    "sector": "Infrastructure, construction & real estate",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "FY2026",
+    "stub_period_months": null,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Saffron Capital Advisors Private Limited",
+    "revenue_fy2": 242.882,
+    "rhp_page_revenue_fy2": 73,
+    "revenue_fy1": 318.5162,
+    "rhp_page_revenue_fy1": 73,
+    "revenue_fy0": 338.67730000000006,
+    "rhp_page_revenue_fy0": 73,
+    "ebitda_fy2": 23.1425,
+    "rhp_page_ebitda_fy2": 146,
+    "ebitda_fy1": 46.4834,
+    "rhp_page_ebitda_fy1": 146,
+    "ebitda_fy0": 51.1296,
+    "rhp_page_ebitda_fy0": 146,
+    "pat_fy2": 3.4456,
+    "rhp_page_pat_fy2": 73,
+    "pat_fy1": 23.6359,
+    "rhp_page_pat_fy1": 73,
+    "pat_fy0": 24.975,
+    "rhp_page_pat_fy0": 73,
+    "cfo_fy2": 27.7305,
+    "rhp_page_cfo_fy2": 74,
+    "cfo_fy1": 38.2017,
+    "rhp_page_cfo_fy1": 74,
+    "cfo_fy0": 27.1547,
+    "rhp_page_cfo_fy0": 74,
+    "net_worth_fy0": 86.7835,
+    "rhp_page_net_worth_fy0": 71,
+    "total_debt_fy0": 87.41700000000002,
+    "rhp_page_total_debt_fy0": 405,
+    "cash_fy0": 0.1655,
+    "rhp_page_cash_fy0": 71,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 144,
+    "price_high": null,
+    "rhp_page_price_high": 144,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 12.61,
+    "rhp_page_eps_fy0": 73,
+    "ronw_fy0_pct": 33.87,
+    "rhp_page_ronw_fy0_pct": 144,
+    "nav_per_share_fy0": 43.61,
+    "rhp_page_nav_per_share_fy0": 144,
+    "fresh_issue_cr": 145.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.15,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 1.98,
+    "rhp_page_pre_issue_shares_cr": 68,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 68,
+    "ofs_promoter_shares_cr": 0.15,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 19.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "GPT Infraprojects Limited; Indian Hume Pipe Company Limited",
+    "n_peers": 2,
+    "peer_pe_list": [
+      14.83,
+      13.86
+    ],
+    "peer_ronw_list": [
+      18.25,
+      9.51
+    ],
+    "rhp_page_peers": 145
+  },
+  "extract": {
+    "company": "Vishal Nirmiti Limited",
+    "sector": "Infrastructure, construction & real estate",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 144
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 144
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 14500.0,
+      "unit": "lakh",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "lakh",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 1500000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Vaman Prestressing Company Private Limited",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 1500000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 19800000.0,
+      "unit": "shares",
+      "page": 68
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 68
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding working capital requirements of the Company",
+        "category": "other",
+        "amount": {
+          "value": 7500.0,
+          "unit": "lakh",
+          "page": 128
+        }
+      },
+      {
+        "purpose": "Repayment and/or pre-payment, in part or full, of term loans availed by the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 1900.0,
+          "unit": "lakh",
+          "page": 128
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "lakh",
+          "page": 129
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Saffron Capital Advisors Private Limited"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "FY2026",
+    "revenue_fy2": {
+      "value": 24288.2,
+      "unit": "lakh",
+      "page": 73
+    },
+    "revenue_fy1": {
+      "value": 31851.62,
+      "unit": "lakh",
+      "page": 73
+    },
+    "revenue_fy0": {
+      "value": 33867.73,
+      "unit": "lakh",
+      "page": 73
+    },
+    "ebitda_fy2": {
+      "value": 2314.25,
+      "unit": "lakh",
+      "page": 146
+    },
+    "ebitda_fy1": {
+      "value": 4648.34,
+      "unit": "lakh",
+      "page": 146
+    },
+    "ebitda_fy0": {
+      "value": 5112.96,
+      "unit": "lakh",
+      "page": 146
+    },
+    "pat_fy2": {
+      "value": 344.56,
+      "unit": "lakh",
+      "page": 73
+    },
+    "pat_fy1": {
+      "value": 2363.59,
+      "unit": "lakh",
+      "page": 73
+    },
+    "pat_fy0": {
+      "value": 2497.5,
+      "unit": "lakh",
+      "page": 73
+    },
+    "cfo_fy2": {
+      "value": 2773.05,
+      "unit": "lakh",
+      "page": 74
+    },
+    "cfo_fy1": {
+      "value": 3820.17,
+      "unit": "lakh",
+      "page": 74
+    },
+    "cfo_fy0": {
+      "value": 2715.47,
+      "unit": "lakh",
+      "page": 74
+    },
+    "net_worth_fy0": {
+      "value": 8678.35,
+      "unit": "lakh",
+      "page": 71
+    },
+    "total_debt_fy0": {
+      "value": 8741.7,
+      "unit": "lakh",
+      "page": 405
+    },
+    "cash_fy0": {
+      "value": 16.55,
+      "unit": "lakh",
+      "page": 71
+    },
+    "eps_fy0": {
+      "value": 12.61,
+      "unit": "rupees",
+      "page": 73
+    },
+    "ronw_fy0_pct": {
+      "value": 33.87,
+      "unit": "percent",
+      "page": 144
+    },
+    "nav_per_share_fy0": {
+      "value": 43.61,
+      "unit": "rupees",
+      "page": 144
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "lakh",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "lakh",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "GPT Infraprojects Limited",
+        "nse_symbol": null,
+        "pe": 14.83,
+        "ronw_pct": 18.25,
+        "page": 145
+      },
+      {
+        "name": "Indian Hume Pipe Company Limited",
+        "nse_symbol": null,
+        "pe": 13.86,
+        "ronw_pct": 9.51,
+        "page": 145
+      }
+    ],
+    "notes": [
+      "The Restated Financial Statements are not labelled consolidated, and no subsidiaries appear on these pages, so they are treated as standalone.",
+      "The first column of the cash flow statement (p.74) is labelled 'year ended 31 March 2025', which looks like a typo for FY2026. Its PBT of 3,377.92 matches FY2026, so it is taken as FY2026.",
+      "Net worth is total equity of 8,678.35 lakh. The KPI/RoNW net worth of 8,634.40 lakh excludes amalgamation reserves of 43.95 lakh.",
+      "RoNW of 33.87% comes from Basis for Offer Price. The KPI Return on Equity for FY2026 is 33.67%.",
+      "Total debt of 8,741.70 lakh is non-current borrowings of 3,831.46 plus current borrowings of 4,910.24.",
+      "The fresh issue proceeds include 7,500 lakh for working capital, categorised as 'other'. The GCP amount is not yet fixed ([\u25cf]), capped at 25% of the Fresh Offer.",
+      "The price band, lot size, fresh issue share count and post-issue shares are all [\u25cf]. Promoter shareholding % and the retail quota % are not on the pages given. The NII portion is stated as not less than 29% of the Offer.",
+      "A 10:1 bonus issue of 1,80,00,000 shares was made on September 17, 2025, after a face-value split on February 20, 2025. No preferential, rights or private placement appears on the pages given.",
+      "Peer P/E figures are based on closing prices as on July 23, 2026."
+    ]
+  }
+}

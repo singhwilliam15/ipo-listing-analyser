@@ -1,0 +1,375 @@
+{
+  "symbol": "BLSPOLY",
+  "rhp_file": "BLSPOLY.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:15:51+00:00",
+  "pages_sent": [
+    1,
+    2,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    104,
+    105,
+    106,
+    107,
+    125,
+    126,
+    127,
+    128,
+    143,
+    144,
+    145,
+    146,
+    147,
+    426,
+    427,
+    428
+  ],
+  "n_pdf_pages": 538,
+  "usage": {
+    "input_tokens": 39671,
+    "output_tokens": 3186,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3500217,
+    "session_id": "71561559-b172-4d12-b033-920f3e9ba918"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "BLS Polymers Limited",
+    "sector": "Chemicals & materials",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "FY2026 (March 31, 2026)",
+    "stub_period_months": 3,
+    "pre_ipo_placement": null,
+    "lead_managers": "Unistone Capital Private Limited",
+    "revenue_fy2": 296.3583,
+    "rhp_page_revenue_fy2": 89,
+    "revenue_fy1": 328.43589999999995,
+    "rhp_page_revenue_fy1": 89,
+    "revenue_fy0": 349.4283,
+    "rhp_page_revenue_fy0": 89,
+    "ebitda_fy2": 21.0491,
+    "rhp_page_ebitda_fy2": 147,
+    "ebitda_fy1": 39.6631,
+    "rhp_page_ebitda_fy1": 147,
+    "ebitda_fy0": 46.5955,
+    "rhp_page_ebitda_fy0": 147,
+    "pat_fy2": 7.522,
+    "rhp_page_pat_fy2": 89,
+    "pat_fy1": 21.136,
+    "rhp_page_pat_fy1": 89,
+    "pat_fy0": 27.0094,
+    "rhp_page_pat_fy0": 89,
+    "cfo_fy2": 2.6476,
+    "rhp_page_cfo_fy2": 90,
+    "cfo_fy1": 25.1306,
+    "rhp_page_cfo_fy1": 90,
+    "cfo_fy0": 38.0613,
+    "rhp_page_cfo_fy0": 90,
+    "net_worth_fy0": 94.934,
+    "rhp_page_net_worth_fy0": 88,
+    "total_debt_fy0": null,
+    "rhp_page_total_debt_fy0": 88,
+    "cash_fy0": 0.6688,
+    "rhp_page_cash_fy0": 88,
+    "revenue_stub": 107.0255,
+    "rhp_page_revenue_stub": 89,
+    "pat_stub": 10.2298,
+    "rhp_page_pat_stub": 89,
+    "price_low": null,
+    "rhp_page_price_low": 144,
+    "price_high": null,
+    "rhp_page_price_high": 144,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "rhp_page_retail_quota_pct": 85,
+    "pre_ipo_price": null,
+    "eps_fy0": 5.99,
+    "rhp_page_eps_fy0": 89,
+    "ronw_fy0_pct": 28.45,
+    "rhp_page_ronw_fy0_pct": 145,
+    "nav_per_share_fy0": 21.08,
+    "rhp_page_nav_per_share_fy0": 145,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": 1.7,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 4.5031834,
+    "rhp_page_pre_issue_shares_cr": 85,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 85,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 77.5607,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "Kingfa Science & Technology (India) Limited; DDev Plastiks Industries Limited; Plastiblends India Limited",
+    "n_peers": 3,
+    "peer_pe_list": [
+      46.25,
+      12.97,
+      14.53
+    ],
+    "peer_ronw_list": [
+      13.24,
+      19.92,
+      8.17
+    ],
+    "rhp_page_peers": 145
+  },
+  "extract": {
+    "company": "BLS Polymers Limited",
+    "sector": "Chemicals & materials",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 144
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 144
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "lakh",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": 17000000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 45031834.0,
+      "unit": "shares",
+      "page": 85
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 85
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Capital expenditure for expansion of existing manufacturing facility at Goa (PE and XLPE capacity)",
+        "category": "capex",
+        "amount": {
+          "value": 7756.07,
+          "unit": "lakh",
+          "page": 125
+        }
+      },
+      {
+        "purpose": "Funding working capital requirements",
+        "category": "other",
+        "amount": {
+          "value": 8950.0,
+          "unit": "lakh",
+          "page": 125
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "lakh",
+          "page": 125
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 85
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Unistone Capital Private Limited"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "FY2026 (March 31, 2026)",
+    "revenue_fy2": {
+      "value": 29635.83,
+      "unit": "lakh",
+      "page": 89
+    },
+    "revenue_fy1": {
+      "value": 32843.59,
+      "unit": "lakh",
+      "page": 89
+    },
+    "revenue_fy0": {
+      "value": 34942.83,
+      "unit": "lakh",
+      "page": 89
+    },
+    "ebitda_fy2": {
+      "value": 2104.91,
+      "unit": "lakh",
+      "page": 147
+    },
+    "ebitda_fy1": {
+      "value": 3966.31,
+      "unit": "lakh",
+      "page": 147
+    },
+    "ebitda_fy0": {
+      "value": 4659.55,
+      "unit": "lakh",
+      "page": 147
+    },
+    "pat_fy2": {
+      "value": 752.2,
+      "unit": "lakh",
+      "page": 89
+    },
+    "pat_fy1": {
+      "value": 2113.6,
+      "unit": "lakh",
+      "page": 89
+    },
+    "pat_fy0": {
+      "value": 2700.94,
+      "unit": "lakh",
+      "page": 89
+    },
+    "cfo_fy2": {
+      "value": 264.76,
+      "unit": "lakh",
+      "page": 90
+    },
+    "cfo_fy1": {
+      "value": 2513.06,
+      "unit": "lakh",
+      "page": 90
+    },
+    "cfo_fy0": {
+      "value": 3806.13,
+      "unit": "lakh",
+      "page": 90
+    },
+    "net_worth_fy0": {
+      "value": 9493.4,
+      "unit": "lakh",
+      "page": 88
+    },
+    "total_debt_fy0": {
+      "value": null,
+      "unit": "lakh",
+      "page": 88
+    },
+    "cash_fy0": {
+      "value": 66.88,
+      "unit": "lakh",
+      "page": 88
+    },
+    "eps_fy0": {
+      "value": 5.99,
+      "unit": "rupees",
+      "page": 89
+    },
+    "ronw_fy0_pct": {
+      "value": 28.45,
+      "unit": "percent",
+      "page": 145
+    },
+    "nav_per_share_fy0": {
+      "value": 21.08,
+      "unit": "rupees",
+      "page": 145
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 10702.55,
+      "unit": "lakh",
+      "page": 89
+    },
+    "pat_stub": {
+      "value": 1022.98,
+      "unit": "lakh",
+      "page": 89
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Kingfa Science & Technology (India) Limited",
+        "nse_symbol": null,
+        "pe": 46.25,
+        "ronw_pct": 13.24,
+        "page": 145
+      },
+      {
+        "name": "DDev Plastiks Industries Limited",
+        "nse_symbol": null,
+        "pe": 12.97,
+        "ronw_pct": 19.92,
+        "page": 145
+      },
+      {
+        "name": "Plastiblends India Limited",
+        "nse_symbol": null,
+        "pe": 14.53,
+        "ronw_pct": 8.17,
+        "page": 145
+      }
+    ],
+    "notes": [
+      "The issue is entirely a fresh issue (OFS 'Not Applicable'), so there are no selling shareholders.",
+      "The company has no subsidiaries, so the restated financials are standalone.",
+      "Total borrowings for FY2026 are not printed as one figure. The balance sheet on page 88 shows non-current borrowings of 284.49 lakh and current borrowings of 4,887.40 lakh. These were not added together, so total_debt_fy0 is null. The capitalisation statement on page 427 gives total borrowings of 6,291.40 lakh, but only as at June 30, 2026.",
+      "The price band, lot size, issue amount, post-issue shares and retail quota are all [\u25cf] or not printed on these pages.",
+      "PAT for the June 2026 stub is 1,022.98 lakh in the profit and loss statement but 1,022.97 lakh in the KPI table.",
+      "Promoter holding percentages are not on the pages provided.",
+      "Equity share capital rose from 960.17 lakh (FY2025) to 4,503.19 lakh (FY2026), possibly from a bonus issue (EPS is described as bonus-adjusted). Details of pre-IPO allotments are not on the pages provided, so pre_ipo_placement is null.",
+      "The working capital object is categorised as 'other'. GCP will be capped at 25% of gross proceeds; the amount is [\u25cf].",
+      "Peer P/E is based on closing prices on October 12, 2026 and FY2026 diluted EPS."
+    ]
+  }
+}

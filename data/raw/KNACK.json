@@ -1,0 +1,445 @@
+{
+  "symbol": "KNACK",
+  "rhp_file": "KNACK.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:28:29+00:00",
+  "pages_sent": [
+    1,
+    2,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    117,
+    118,
+    119,
+    137,
+    138,
+    155,
+    156,
+    157,
+    377,
+    378
+  ],
+  "n_pdf_pages": 531,
+  "usage": {
+    "input_tokens": 29645,
+    "output_tokens": 3506,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.2753772,
+    "session_id": "0b623b89-f133-47d6-a6f9-ebc1fb8cec2d"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Knack Packaging Limited",
+    "sector": "Chemicals & materials",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "stub_period_months": null,
+    "pre_ipo_placement": null,
+    "lead_managers": "Systematix Corporate Services Limited; IDBI Capital Markets & Securities Limited; Pantomath Capital Advisors Private Limited",
+    "revenue_fy2": 654.559,
+    "rhp_page_revenue_fy2": 89,
+    "revenue_fy1": 736.49,
+    "rhp_page_revenue_fy1": 89,
+    "revenue_fy0": 823.434,
+    "rhp_page_revenue_fy0": 89,
+    "ebitda_fy2": 101.374,
+    "rhp_page_ebitda_fy2": 377,
+    "ebitda_fy1": 144.337,
+    "rhp_page_ebitda_fy1": 377,
+    "ebitda_fy0": 172.294,
+    "rhp_page_ebitda_fy0": 377,
+    "pat_fy2": 45.977,
+    "rhp_page_pat_fy2": 89,
+    "pat_fy1": 73.81,
+    "rhp_page_pat_fy1": 89,
+    "pat_fy0": 92.724,
+    "rhp_page_pat_fy0": 89,
+    "cfo_fy2": 32.447,
+    "rhp_page_cfo_fy2": 90,
+    "cfo_fy1": 94.054,
+    "rhp_page_cfo_fy1": 90,
+    "cfo_fy0": 91.978,
+    "rhp_page_cfo_fy0": 90,
+    "net_worth_fy0": 308.185,
+    "rhp_page_net_worth_fy0": 88,
+    "total_debt_fy0": 192.47,
+    "rhp_page_total_debt_fy0": 378,
+    "cash_fy0": 6.131,
+    "rhp_page_cash_fy0": 88,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 9.27,
+    "rhp_page_eps_fy0": 155,
+    "ronw_fy0_pct": 35.47,
+    "rhp_page_ronw_fy0_pct": 156,
+    "nav_per_share_fy0": 30.82,
+    "rhp_page_nav_per_share_fy0": 156,
+    "fresh_issue_cr": 380.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.35,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 10.0,
+    "rhp_page_pre_issue_shares_cr": 85,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 85,
+    "ofs_promoter_shares_cr": 0.32125,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 320.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "TIMETECHNO; TCPLPACK; MOLDTKPAC",
+    "n_peers": 3,
+    "peer_pe_list": [
+      17.86,
+      28.19,
+      31.83
+    ],
+    "peer_ronw_list": [
+      13.37,
+      14.34,
+      10.98
+    ],
+    "rhp_page_peers": 156
+  },
+  "extract": {
+    "company": "Knack Packaging Limited",
+    "sector": "Chemicals & materials",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 3800.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 3500000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Alpesh Tulsibhai Patel",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 675750.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Pravinkumar Ambalal Patel",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 300000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Rashminbhai Tulsibhai Patel",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 675750.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Tulsibhai Keshavlal Patel",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 362000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Patel Kamlesh Ambalal",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 307500.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Dharmisthaben Pravinbhai Patel",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 125000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Shital Alpesh Patel",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 298250.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Divyaben Rashminkumar Patel",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 298250.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Patel Jay Pravinkumar",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 170000.0,
+          "unit": "shares",
+          "page": 2
+        }
+      },
+      {
+        "name": "Shitalben Kamlesh Patel",
+        "kind": "other",
+        "shares_offered": {
+          "value": 287500.0,
+          "unit": "shares",
+          "page": 2
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 100000000.0,
+      "unit": "shares",
+      "page": 85
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 85
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Partial funding of capital expenditure towards setting up of new manufacturing facility at Borisana, Kadi, Mehsana, Gujarat",
+        "category": "capex",
+        "amount": {
+          "value": 3200.0,
+          "unit": "million",
+          "page": 137
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": null,
+          "page": 137
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lead_managers": [
+      "Systematix Corporate Services Limited",
+      "IDBI Capital Markets & Securities Limited",
+      "Pantomath Capital Advisors Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "revenue_fy2": {
+      "value": 6545.59,
+      "unit": "million",
+      "page": 89
+    },
+    "revenue_fy1": {
+      "value": 7364.9,
+      "unit": "million",
+      "page": 89
+    },
+    "revenue_fy0": {
+      "value": 8234.34,
+      "unit": "million",
+      "page": 89
+    },
+    "ebitda_fy2": {
+      "value": 1013.74,
+      "unit": "million",
+      "page": 377
+    },
+    "ebitda_fy1": {
+      "value": 1443.37,
+      "unit": "million",
+      "page": 377
+    },
+    "ebitda_fy0": {
+      "value": 1722.94,
+      "unit": "million",
+      "page": 377
+    },
+    "pat_fy2": {
+      "value": 459.77,
+      "unit": "million",
+      "page": 89
+    },
+    "pat_fy1": {
+      "value": 738.1,
+      "unit": "million",
+      "page": 89
+    },
+    "pat_fy0": {
+      "value": 927.24,
+      "unit": "million",
+      "page": 89
+    },
+    "cfo_fy2": {
+      "value": 324.47,
+      "unit": "million",
+      "page": 90
+    },
+    "cfo_fy1": {
+      "value": 940.54,
+      "unit": "million",
+      "page": 90
+    },
+    "cfo_fy0": {
+      "value": 919.78,
+      "unit": "million",
+      "page": 90
+    },
+    "net_worth_fy0": {
+      "value": 3081.85,
+      "unit": "million",
+      "page": 88
+    },
+    "total_debt_fy0": {
+      "value": 1924.7,
+      "unit": "million",
+      "page": 378
+    },
+    "cash_fy0": {
+      "value": 61.31,
+      "unit": "million",
+      "page": 88
+    },
+    "eps_fy0": {
+      "value": 9.27,
+      "unit": "rupees",
+      "page": 155
+    },
+    "ronw_fy0_pct": {
+      "value": 35.47,
+      "unit": "percent",
+      "page": 156
+    },
+    "nav_per_share_fy0": {
+      "value": 30.82,
+      "unit": "rupees",
+      "page": 156
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Time Technoplast Limited",
+        "nse_symbol": "TIMETECHNO",
+        "pe": 17.86,
+        "ronw_pct": 13.37,
+        "page": 156
+      },
+      {
+        "name": "TCPL Packaging Limited",
+        "nse_symbol": "TCPLPACK",
+        "pe": 28.19,
+        "ronw_pct": 14.34,
+        "page": 156
+      },
+      {
+        "name": "Mold-tek Packaging Limited",
+        "nse_symbol": "MOLDTKPAC",
+        "pe": 31.83,
+        "ronw_pct": 10.98,
+        "page": 156
+      }
+    ],
+    "notes": [
+      "Price band, lot size, fresh issue share count and post-offer shares are shown as [\u25cf] in the RHP pages provided.",
+      "Total debt of 1,924.70 million comes from the capitalisation statement (p.378). The balance sheet (p.88) also shows non-current 394.65 + current 1,530.05, which adds to the same total, but the split is different: the capitalisation statement moves the current maturities of long-term debt into non-current (1,339.90 / 584.80).",
+      "The pages provided do not show promoter shareholding before or after the offer, or the retail quota %.",
+      "Share capital rose from 50.00 million (FY2025) to 1,000.00 million (FY2026) because of a bonus issue; EPS is restated after the bonus. The pages provided do not say whether there was any pre-IPO placement.",
+      "The P&L prints profit before exceptional items for FY2026 as '12,70.81' (should be 1,270.81).",
+      "The 20.00 million Employee Reservation Portion is part of the offer.",
+      "NSE symbols for peers are inferred, not printed in the RHP.",
+      "Sector: packaging manufacturer mapped to Chemicals & materials."
+    ]
+  }
+}

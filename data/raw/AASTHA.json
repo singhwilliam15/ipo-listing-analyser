@@ -1,0 +1,364 @@
+{
+  "symbol": "AASTHA",
+  "rhp_file": "AASTHA.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:28:52+00:00",
+  "pages_sent": [
+    1,
+    2,
+    16,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    85,
+    86,
+    87,
+    111,
+    112,
+    129,
+    130,
+    294,
+    295,
+    305
+  ],
+  "n_pdf_pages": 412,
+  "usage": {
+    "input_tokens": 27616,
+    "output_tokens": 3807,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.2647959,
+    "session_id": "591a61b4-fb8a-41b7-8390-361e0f6a9702"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Aastha Spintex Limited",
+    "sector": "Chemicals & materials",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "stub_period_months": 9,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "BOI Merchant Bankers Limited; PNB Investment Services Limited",
+    "revenue_fy2": 239.265,
+    "rhp_page_revenue_fy2": 71,
+    "revenue_fy1": 304.8616,
+    "rhp_page_revenue_fy1": 71,
+    "revenue_fy0": 351.1602,
+    "rhp_page_revenue_fy0": 71,
+    "ebitda_fy2": 11.6002,
+    "rhp_page_ebitda_fy2": 294,
+    "ebitda_fy1": 34.2459,
+    "rhp_page_ebitda_fy1": 294,
+    "ebitda_fy0": 46.3618,
+    "rhp_page_ebitda_fy0": 294,
+    "pat_fy2": 1.0583,
+    "rhp_page_pat_fy2": 71,
+    "pat_fy1": 16.2876,
+    "rhp_page_pat_fy1": 71,
+    "pat_fy0": 22.9162,
+    "rhp_page_pat_fy0": 71,
+    "cfo_fy2": 15.4749,
+    "rhp_page_cfo_fy2": 72,
+    "cfo_fy1": 12.931300000000002,
+    "rhp_page_cfo_fy1": 72,
+    "cfo_fy0": -18.1341,
+    "rhp_page_cfo_fy0": 72,
+    "net_worth_fy0": 121.0521,
+    "rhp_page_net_worth_fy0": 70,
+    "total_debt_fy0": null,
+    "cash_fy0": 11.113699999999998,
+    "rhp_page_cash_fy0": 70,
+    "revenue_stub": 313.285,
+    "rhp_page_revenue_stub": 71,
+    "pat_stub": 17.5562,
+    "rhp_page_pat_stub": 71,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 8.29,
+    "rhp_page_eps_fy0": 71,
+    "ronw_fy0_pct": 18.93,
+    "rhp_page_ronw_fy0_pct": 129,
+    "nav_per_share_fy0": 43.8,
+    "rhp_page_nav_per_share_fy0": 129,
+    "fresh_issue_cr": 170.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 3.164219,
+    "rhp_page_pre_issue_shares_cr": 67,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 67,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "Ambika Cotton Mills Limited; Lagnam Spintex Limited; Pashupati Cotspin Limited",
+    "n_peers": 3,
+    "peer_pe_list": [
+      14.25,
+      11.15,
+      106.54
+    ],
+    "peer_ronw_list": [
+      7.27,
+      10.64,
+      8.35
+    ],
+    "rhp_page_peers": 130
+  },
+  "extract": {
+    "company": "Aastha Spintex Limited",
+    "sector": "Chemicals & materials",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 17000.0,
+      "unit": "lakh",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 31642190.0,
+      "unit": "shares",
+      "page": 67
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 67
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Part payment of purchase consideration for acquisition of Falcon Yarns Private Limited",
+        "category": "other",
+        "amount": {
+          "value": 11151.0,
+          "unit": "lakh",
+          "page": 111
+        }
+      },
+      {
+        "purpose": "Inter-corporate deposits for funding working capital requirement of Falcon Yarns Private Limited",
+        "category": "other",
+        "amount": {
+          "value": 1000.0,
+          "unit": "lakh",
+          "page": 111
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": null,
+          "page": 111
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lead_managers": [
+      "BOI Merchant Bankers Limited",
+      "PNB Investment Services Limited"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "revenue_fy2": {
+      "value": 23926.5,
+      "unit": "lakh",
+      "page": 71
+    },
+    "revenue_fy1": {
+      "value": 30486.16,
+      "unit": "lakh",
+      "page": 71
+    },
+    "revenue_fy0": {
+      "value": 35116.02,
+      "unit": "lakh",
+      "page": 71
+    },
+    "ebitda_fy2": {
+      "value": 1160.02,
+      "unit": "lakh",
+      "page": 294
+    },
+    "ebitda_fy1": {
+      "value": 3424.59,
+      "unit": "lakh",
+      "page": 294
+    },
+    "ebitda_fy0": {
+      "value": 4636.18,
+      "unit": "lakh",
+      "page": 294
+    },
+    "pat_fy2": {
+      "value": 105.83,
+      "unit": "lakh",
+      "page": 71
+    },
+    "pat_fy1": {
+      "value": 1628.76,
+      "unit": "lakh",
+      "page": 71
+    },
+    "pat_fy0": {
+      "value": 2291.62,
+      "unit": "lakh",
+      "page": 71
+    },
+    "cfo_fy2": {
+      "value": 1547.49,
+      "unit": "lakh",
+      "page": 72
+    },
+    "cfo_fy1": {
+      "value": 1293.13,
+      "unit": "lakh",
+      "page": 72
+    },
+    "cfo_fy0": {
+      "value": -1813.41,
+      "unit": "lakh",
+      "page": 72
+    },
+    "net_worth_fy0": {
+      "value": 12105.21,
+      "unit": "lakh",
+      "page": 70
+    },
+    "total_debt_fy0": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cash_fy0": {
+      "value": 1111.37,
+      "unit": "lakh",
+      "page": 70
+    },
+    "eps_fy0": {
+      "value": 8.29,
+      "unit": "rupees",
+      "page": 71
+    },
+    "ronw_fy0_pct": {
+      "value": 18.93,
+      "unit": "percent",
+      "page": 129
+    },
+    "nav_per_share_fy0": {
+      "value": 43.8,
+      "unit": "rupees",
+      "page": 129
+    },
+    "stub_period_months": 9,
+    "revenue_stub": {
+      "value": 31328.5,
+      "unit": "lakh",
+      "page": 71
+    },
+    "pat_stub": {
+      "value": 1755.62,
+      "unit": "lakh",
+      "page": 71
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Ambika Cotton Mills Limited",
+        "nse_symbol": null,
+        "pe": 14.25,
+        "ronw_pct": 7.27,
+        "page": 130
+      },
+      {
+        "name": "Lagnam Spintex Limited",
+        "nse_symbol": null,
+        "pe": 11.15,
+        "ronw_pct": 10.64,
+        "page": 130
+      },
+      {
+        "name": "Pashupati Cotspin Limited",
+        "nse_symbol": null,
+        "pe": 106.54,
+        "ronw_pct": 8.35,
+        "page": 130
+      }
+    ],
+    "notes": [
+      "Restated financials are not labelled consolidated, so they are treated as standalone. A separate pro forma consolidated statement exists for the Falcon Yarns acquisition but was not used.",
+      "The issue is a pure fresh issue; the cover page says there is no offer for sale.",
+      "Total borrowings at March 31, 2025 are not printed as a single figure. Non-current is 2,634.47 lakh and current is 6,870.65 lakh (page 70), so total_debt_fy0 is left null. Total borrowings at Dec 31, 2025 are 10,147.40 lakh (page 305).",
+      "The peer table on page 130 shows Aastha's 'Fiscal 2025' revenue as 31,328.50 lakh, which is actually the nine-month figure to Dec 31, 2025. The full-year FY2025 revenue in the P&L is 35,116.02 lakh.",
+      "Share capital rose from 2,993.62 lakh (Mar 2025) to 3,164.22 lakh (Dec 2025), so shares were allotted within roughly 12 months before the RHP. Those allotment details and prices are not on the pages given. The latest allotment shown is a rights issue on Aug 27, 2024 at Rs 82.50.",
+      "The price band, lot size, promoter holding % and retail quota % are not on the pages provided.",
+      "The acquisition consideration for Falcon Yarns totals 13,151 lakh, of which 2,000 lakh has already been paid from internal accruals. Both acquisition-related objects are categorised as 'other'.",
+      "Sector is approximate: the company is a textile/yarn spinner and the list has no textiles category."
+    ]
+  }
+}

@@ -1,0 +1,421 @@
+{
+  "symbol": "KARAMTARA",
+  "rhp_file": "KARAMTARA.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:22:04+00:00",
+  "pages_sent": [
+    1,
+    2,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    90,
+    91,
+    92,
+    117,
+    118,
+    134,
+    135,
+    136,
+    394,
+    395,
+    424
+  ],
+  "n_pdf_pages": 529,
+  "usage": {
+    "input_tokens": 36122,
+    "output_tokens": 3611,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3297754,
+    "session_id": "0e190bc2-8f1c-4ea9-b468-553bbad873b7"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Karamtara Engineering Limited",
+    "sector": "Energy, power & renewables",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "stub_period_months": null,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "JM Financial Limited; ICICI Securities Limited; IIFL Capital Services Limited",
+    "revenue_fy2": 2425.15,
+    "rhp_page_revenue_fy2": 75,
+    "revenue_fy1": 3158.445,
+    "rhp_page_revenue_fy1": 75,
+    "revenue_fy0": 4311.976,
+    "rhp_page_revenue_fy0": 75,
+    "ebitda_fy2": 262.928,
+    "rhp_page_ebitda_fy2": 394,
+    "ebitda_fy1": 346.83,
+    "rhp_page_ebitda_fy1": 394,
+    "ebitda_fy0": 498.11,
+    "rhp_page_ebitda_fy0": 394,
+    "pat_fy2": 102.65,
+    "rhp_page_pat_fy2": 75,
+    "pat_fy1": 139.332,
+    "rhp_page_pat_fy1": 75,
+    "pat_fy0": 228.754,
+    "rhp_page_pat_fy0": 75,
+    "cfo_fy2": 40.023,
+    "rhp_page_cfo_fy2": 76,
+    "cfo_fy1": 102.51500000000001,
+    "rhp_page_cfo_fy1": 76,
+    "cfo_fy0": 675.148,
+    "rhp_page_cfo_fy0": 76,
+    "net_worth_fy0": 1219.917,
+    "rhp_page_net_worth_fy0": 74,
+    "total_debt_fy0": 1030.129,
+    "rhp_page_total_debt_fy0": 424,
+    "cash_fy0": 74.85,
+    "rhp_page_cash_fy0": 74,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": 310.0,
+    "rhp_page_pre_ipo_price": 2,
+    "eps_fy0": 7.83,
+    "rhp_page_eps_fy0": 135,
+    "ronw_fy0_pct": 20.78,
+    "rhp_page_ronw_fy0_pct": 135,
+    "nav_per_share_fy0": 41.72,
+    "rhp_page_nav_per_share_fy0": 136,
+    "fresh_issue_cr": 675.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": 200.0,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 29.5247996,
+    "rhp_page_pre_issue_shares_cr": 71,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 71,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 600.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "Inox Wind Limited; Waaree Energies Limited; KP Green Engineering Limited; Suzlon Energy Limited; Premier Energies Limited; Vikram Solar Limited; Saatvik Green Energy Limited; Emmvee Photovoltaic Power Limited",
+    "n_peers": 8,
+    "peer_pe_list": [
+      27.08,
+      20.48,
+      9.65,
+      20.25,
+      30.15,
+      12.7,
+      14.23,
+      18.87
+    ],
+    "peer_ronw_list": [
+      8.32,
+      32.48,
+      32.32,
+      40.64,
+      42.35,
+      21.34,
+      41.97,
+      51.12
+    ],
+    "rhp_page_peers": 136
+  },
+  "extract": {
+    "company": "Karamtara Engineering Limited",
+    "sector": "Energy, power & renewables",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 6750.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": 2000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Tanveer Singh",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": null,
+          "page": 1
+        }
+      },
+      {
+        "name": "Rajiv Singh",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": null,
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 295247996.0,
+      "unit": "shares",
+      "page": 71
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 71
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding prepayment, repayment and/or payment obligations to lenders towards borrowings and Acceptances, in part or full",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 6000.0,
+          "unit": "million",
+          "page": 117
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": null,
+          "page": 117
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 310.0,
+      "unit": "rupees",
+      "page": 2
+    },
+    "lead_managers": [
+      "JM Financial Limited",
+      "ICICI Securities Limited",
+      "IIFL Capital Services Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "revenue_fy2": {
+      "value": 24251.5,
+      "unit": "million",
+      "page": 75
+    },
+    "revenue_fy1": {
+      "value": 31584.45,
+      "unit": "million",
+      "page": 75
+    },
+    "revenue_fy0": {
+      "value": 43119.76,
+      "unit": "million",
+      "page": 75
+    },
+    "ebitda_fy2": {
+      "value": 2629.28,
+      "unit": "million",
+      "page": 394
+    },
+    "ebitda_fy1": {
+      "value": 3468.3,
+      "unit": "million",
+      "page": 394
+    },
+    "ebitda_fy0": {
+      "value": 4981.1,
+      "unit": "million",
+      "page": 394
+    },
+    "pat_fy2": {
+      "value": 1026.5,
+      "unit": "million",
+      "page": 75
+    },
+    "pat_fy1": {
+      "value": 1393.32,
+      "unit": "million",
+      "page": 75
+    },
+    "pat_fy0": {
+      "value": 2287.54,
+      "unit": "million",
+      "page": 75
+    },
+    "cfo_fy2": {
+      "value": 400.23,
+      "unit": "million",
+      "page": 76
+    },
+    "cfo_fy1": {
+      "value": 1025.15,
+      "unit": "million",
+      "page": 76
+    },
+    "cfo_fy0": {
+      "value": 6751.48,
+      "unit": "million",
+      "page": 76
+    },
+    "net_worth_fy0": {
+      "value": 12199.17,
+      "unit": "million",
+      "page": 74
+    },
+    "total_debt_fy0": {
+      "value": 10301.29,
+      "unit": "million",
+      "page": 424
+    },
+    "cash_fy0": {
+      "value": 748.5,
+      "unit": "million",
+      "page": 74
+    },
+    "eps_fy0": {
+      "value": 7.83,
+      "unit": "rupees",
+      "page": 135
+    },
+    "ronw_fy0_pct": {
+      "value": 20.78,
+      "unit": "percent",
+      "page": 135
+    },
+    "nav_per_share_fy0": {
+      "value": 41.72,
+      "unit": "rupees",
+      "page": 136
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Inox Wind Limited",
+        "nse_symbol": null,
+        "pe": 27.08,
+        "ronw_pct": 8.32,
+        "page": 136
+      },
+      {
+        "name": "Waaree Energies Limited",
+        "nse_symbol": null,
+        "pe": 20.48,
+        "ronw_pct": 32.48,
+        "page": 136
+      },
+      {
+        "name": "KP Green Engineering Limited",
+        "nse_symbol": null,
+        "pe": 9.65,
+        "ronw_pct": 32.32,
+        "page": 136
+      },
+      {
+        "name": "Suzlon Energy Limited",
+        "nse_symbol": null,
+        "pe": 20.25,
+        "ronw_pct": 40.64,
+        "page": 136
+      },
+      {
+        "name": "Premier Energies Limited",
+        "nse_symbol": null,
+        "pe": 30.15,
+        "ronw_pct": 42.35,
+        "page": 136
+      },
+      {
+        "name": "Vikram Solar Limited",
+        "nse_symbol": null,
+        "pe": 12.7,
+        "ronw_pct": 21.34,
+        "page": 136
+      },
+      {
+        "name": "Saatvik Green Energy Limited",
+        "nse_symbol": null,
+        "pe": 14.23,
+        "ronw_pct": 41.97,
+        "page": 136
+      },
+      {
+        "name": "Emmvee Photovoltaic Power Limited",
+        "nse_symbol": null,
+        "pe": 18.87,
+        "ronw_pct": 51.12,
+        "page": 136
+      }
+    ],
+    "notes": [
+      "The price band, lot size, fresh issue/OFS share counts and post-offer shares are all printed as [\u25cf] in the RHP.",
+      "The pre-IPO placement was 2,419,355 CCPS at \u20b9310 per CCPS (\u20b9750.00 million). They were converted into 2,952,756 equity shares on August 21, 2026, so the effective price per equity share is lower than \u20b9310. The \u20b9750 million was deducted from the Fresh Issue. A preferential allotment at \u20b9310 per share (January 10, 2025) and an ESPS allotment at \u20b9310 (January 16, 2025) also took place.",
+      "net_worth_fy0 is total equity from the balance sheet (\u20b912,199.17 million). The RoNW/NAV reconciliation shows net worth of \u20b912,193.99 million.",
+      "Total debt of \u20b910,301.29 million comes from the capitalisation statement: non-current \u20b95,666.50 million plus current \u20b94,634.79 million.",
+      "The promoter shareholding percentages before and after the offer are not on the pages provided.",
+      "The retail quota is printed only as 'not less than [\u25cf] equity shares'. No percentage is printed on the pages provided.",
+      "The amount for general corporate purposes is [\u25cf], capped at 25% of gross proceeds. It has already been reduced by the Pre-IPO Placement amount.",
+      "In the industry P/E table the peer is called 'KP Green Energy Limited'; in the peer comparison table it is called 'KP Green Engineering Limited'. Peer P/E is based on closing prices on August 28, 2026.",
+      "The diluted EPS for Vikram Solar is printed as 13.6."
+    ]
+  }
+}

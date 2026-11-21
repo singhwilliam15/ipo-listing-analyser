@@ -1,0 +1,376 @@
+{
+  "symbol": "SENCO",
+  "rhp_file": "SENCO.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T20:56:16+00:00",
+  "pages_sent": [
+    1,
+    2,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    99,
+    100,
+    101,
+    102,
+    120,
+    121,
+    122,
+    123,
+    129,
+    130,
+    131,
+    132,
+    133,
+    317,
+    318,
+    319
+  ],
+  "n_pdf_pages": 499,
+  "usage": {
+    "input_tokens": 51189,
+    "output_tokens": 3105,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.44169689999999995,
+    "session_id": "6df1d911-bfd3-40b6-9120-bb046b061976"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Senco Gold Limited",
+    "sector": "Consumer & retail",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023",
+    "stub_period_months": null,
+    "pre_ipo_placement": "no",
+    "lead_managers": "IIFL Securities Limited; Ambit Private Limited; SBI Capital Markets Limited",
+    "revenue_fy2": 2660.379,
+    "rhp_page_revenue_fy2": 83,
+    "revenue_fy1": 3534.641,
+    "rhp_page_revenue_fy1": 83,
+    "revenue_fy0": 4077.404,
+    "rhp_page_revenue_fy0": 83,
+    "ebitda_fy2": 189.869,
+    "rhp_page_ebitda_fy2": 317,
+    "ebitda_fy1": 289.953,
+    "rhp_page_ebitda_fy1": 317,
+    "ebitda_fy0": 347.758,
+    "rhp_page_ebitda_fy0": 317,
+    "pat_fy2": 61.482,
+    "rhp_page_pat_fy2": 83,
+    "pat_fy1": 129.102,
+    "rhp_page_pat_fy1": 83,
+    "pat_fy0": 158.479,
+    "rhp_page_pat_fy0": 83,
+    "cfo_fy2": 180.915,
+    "rhp_page_cfo_fy2": 85,
+    "cfo_fy1": -69.886,
+    "rhp_page_cfo_fy1": 85,
+    "cfo_fy0": -76.103,
+    "rhp_page_cfo_fy0": 85,
+    "net_worth_fy0": 945.52,
+    "rhp_page_net_worth_fy0": 81,
+    "total_debt_fy0": 1177.174,
+    "rhp_page_total_debt_fy0": 319,
+    "cash_fy0": 9.483,
+    "rhp_page_cash_fy0": 81,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 129,
+    "price_high": null,
+    "rhp_page_price_high": 129,
+    "lot_size": null,
+    "rhp_page_lot_size": 2,
+    "promoter_pre_pct": 76.92,
+    "rhp_page_promoter_pre_pct": 25,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 25,
+    "retail_quota_pct": 35.0,
+    "rhp_page_retail_quota_pct": 1,
+    "pre_ipo_price": null,
+    "eps_fy0": 22.93,
+    "rhp_page_eps_fy0": 84,
+    "ronw_fy0_pct": 18.96,
+    "rhp_page_ronw_fy0_pct": 130,
+    "nav_per_share_fy0": 136.83,
+    "rhp_page_nav_per_share_fy0": 130,
+    "fresh_issue_cr": 270.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": 135.0,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 6.9145806,
+    "rhp_page_pre_issue_shares_cr": 78,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 78,
+    "ofs_promoter_shares_cr": 0,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "KALYANKJIL; TITAN",
+    "n_peers": 2,
+    "peer_pe_list": [
+      29.29,
+      81.13
+    ],
+    "peer_ronw_list": [
+      12.79,
+      30.73
+    ],
+    "rhp_page_peers": 131
+  },
+  "extract": {
+    "company": "Senco Gold Limited",
+    "sector": "Consumer & retail",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 129
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 129
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": 2
+    },
+    "fresh_issue_amount": {
+      "value": 2700.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": 1350.0,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "SAIF Partners India IV Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 69145806.0,
+      "unit": "shares",
+      "page": 78
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 78
+    },
+    "promoter_pre_pct": {
+      "value": 76.92,
+      "unit": "percent",
+      "page": 25
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 25
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding working capital requirements of the Company",
+        "category": "other",
+        "amount": {
+          "value": 1960.0,
+          "unit": "million",
+          "page": 120
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 120
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 1
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "IIFL Securities Limited",
+      "Ambit Private Limited",
+      "SBI Capital Markets Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023",
+    "revenue_fy2": {
+      "value": 26603.79,
+      "unit": "million",
+      "page": 83
+    },
+    "revenue_fy1": {
+      "value": 35346.41,
+      "unit": "million",
+      "page": 83
+    },
+    "revenue_fy0": {
+      "value": 40774.04,
+      "unit": "million",
+      "page": 83
+    },
+    "ebitda_fy2": {
+      "value": 1898.69,
+      "unit": "million",
+      "page": 317
+    },
+    "ebitda_fy1": {
+      "value": 2899.53,
+      "unit": "million",
+      "page": 317
+    },
+    "ebitda_fy0": {
+      "value": 3477.58,
+      "unit": "million",
+      "page": 317
+    },
+    "pat_fy2": {
+      "value": 614.82,
+      "unit": "million",
+      "page": 83
+    },
+    "pat_fy1": {
+      "value": 1291.02,
+      "unit": "million",
+      "page": 83
+    },
+    "pat_fy0": {
+      "value": 1584.79,
+      "unit": "million",
+      "page": 83
+    },
+    "cfo_fy2": {
+      "value": 1809.15,
+      "unit": "million",
+      "page": 85
+    },
+    "cfo_fy1": {
+      "value": -698.86,
+      "unit": "million",
+      "page": 85
+    },
+    "cfo_fy0": {
+      "value": -761.03,
+      "unit": "million",
+      "page": 85
+    },
+    "net_worth_fy0": {
+      "value": 9455.2,
+      "unit": "million",
+      "page": 81
+    },
+    "total_debt_fy0": {
+      "value": 11771.74,
+      "unit": "million",
+      "page": 319
+    },
+    "cash_fy0": {
+      "value": 94.83,
+      "unit": "million",
+      "page": 81
+    },
+    "eps_fy0": {
+      "value": 22.93,
+      "unit": "rupees",
+      "page": 84
+    },
+    "ronw_fy0_pct": {
+      "value": 18.96,
+      "unit": "percent",
+      "page": 130
+    },
+    "nav_per_share_fy0": {
+      "value": 136.83,
+      "unit": "rupees",
+      "page": 130
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Kalyan Jewellers India Limited",
+        "nse_symbol": "KALYANKJIL",
+        "pe": 29.29,
+        "ronw_pct": 12.79,
+        "page": 131
+      },
+      {
+        "name": "Titan Company Limited",
+        "nse_symbol": "TITAN",
+        "pe": 81.13,
+        "ronw_pct": 30.73,
+        "page": 131
+      }
+    ],
+    "notes": [
+      "Price band, lot size, and the share counts for the fresh issue and OFS are [\u25cf] in the RHP. Only the amounts are given: fresh issue \u20b92,700.00 million, OFS \u20b91,350.00 million, total \u20b94,050.00 million.",
+      "Promoter pre-offer holding of 76.92% is measured against the post-CCPS-conversion capital of 69,145,806 shares. Measured against capital before the CCPS conversion, it is 95.23%.",
+      "The working capital object (\u20b91,960.00 million) is classed as 'other' because the schema has no working-capital category.",
+      "Pre-IPO placement: OIJIF II was allotted 2,663,541 shares at \u20b9281.58 on April 7, 2022, which is more than 12 months before the RHP date of June 27, 2023. On June 26, 2023, SAIF's 13,296,153 CCPS were converted into equity shares; this conversion was not counted as a placement.",
+      "The \u20b91,350 million OFS is by SAIF Partners India IV Limited; its weighted average cost of acquisition is \u20b960.17 per share.",
+      "EBITDA comes from the Other Financial Information / accounting ratios table on page 317. It is not in the KPI table. EBITDA margin is calculated on total income.",
+      "Total debt of \u20b911,771.74 million is current borrowings 11,757.48 plus non-current borrowings 14.26.",
+      "NSE symbols for the peers were not printed in the RHP; they were added from general knowledge."
+    ]
+  }
+}

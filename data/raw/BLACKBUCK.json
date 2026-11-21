@@ -1,0 +1,474 @@
+{
+  "symbol": "BLACKBUCK",
+  "rhp_file": "BLACKBUCK.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-21T06:01:05+00:00",
+  "pages_sent": [
+    1,
+    2,
+    24,
+    25,
+    26,
+    27,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    92,
+    93,
+    94,
+    124,
+    125,
+    136,
+    137,
+    138,
+    354,
+    355,
+    383
+  ],
+  "n_pdf_pages": 473,
+  "usage": {
+    "input_tokens": 42790,
+    "output_tokens": 4438,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.4003254,
+    "session_id": "0af240b0-95f4-4d7b-90bf-97db9346a33c"
+  },
+  "checks": [
+    "|PAT| > revenue in fy2: unit mix-up?",
+    "|PAT| > revenue in fy1: unit mix-up?"
+  ],
+  "fields": {
+    "company_rhp": "Zinka Logistics Solutions Limited",
+    "sector": "Internet & platforms",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024 (March 31, 2024)",
+    "stub_period_months": 3,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Axis Capital Limited; Morgan Stanley India Company Private Limited; JM Financial Limited; IIFL Capital Services Limited (formerly known as IIFL Securities Limited)",
+    "revenue_fy2": 119.326,
+    "rhp_page_revenue_fy2": 76,
+    "revenue_fy1": 175.68,
+    "rhp_page_revenue_fy1": 76,
+    "revenue_fy0": 296.922,
+    "rhp_page_revenue_fy0": 76,
+    "ebitda_fy2": -197.735,
+    "rhp_page_ebitda_fy2": 354,
+    "ebitda_fy1": -213.07800000000003,
+    "rhp_page_ebitda_fy1": 354,
+    "ebitda_fy0": -138.78,
+    "rhp_page_ebitda_fy0": 354,
+    "pat_fy2": -284.564,
+    "rhp_page_pat_fy2": 76,
+    "pat_fy1": -290.498,
+    "rhp_page_pat_fy1": 76,
+    "pat_fy0": -193.949,
+    "rhp_page_pat_fy0": 76,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 311.293,
+    "rhp_page_net_worth_fy0": 75,
+    "total_debt_fy0": 173.735,
+    "rhp_page_total_debt_fy0": 26,
+    "cash_fy0": 154.735,
+    "rhp_page_cash_fy0": 75,
+    "revenue_stub": 92.166,
+    "rhp_page_revenue_stub": 76,
+    "pat_stub": 28.672,
+    "rhp_page_pat_stub": 76,
+    "price_low": null,
+    "rhp_page_price_low": 137,
+    "price_high": null,
+    "rhp_page_price_high": 137,
+    "lot_size": null,
+    "promoter_pre_pct": 32.78,
+    "rhp_page_promoter_pre_pct": 26,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 26,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": -10.52,
+    "rhp_page_eps_fy0": 77,
+    "ronw_fy0_pct": -53.64,
+    "rhp_page_ronw_fy0_pct": 138,
+    "nav_per_share_fy0": 16.89,
+    "rhp_page_nav_per_share_fy0": 138,
+    "fresh_issue_cr": 550.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 2.06858,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 15.633016,
+    "rhp_page_pre_issue_shares_cr": 72,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 72,
+    "ofs_promoter_shares_cr": 0.4523049,
+    "ofs_investor_shares_cr": 1.6033407,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "Zinka Logistics Solutions Limited",
+    "sector": "Internet & platforms",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 137
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 137
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 5500.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 20685800.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Rajesh Kumar Naidu Yabaji",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 2218822.0,
+          "unit": "shares",
+          "page": 72
+        }
+      },
+      {
+        "name": "Chanakya Hridaya",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 1109411.0,
+          "unit": "shares",
+          "page": 72
+        }
+      },
+      {
+        "name": "Ramasubramanian Balasubramaniam",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 1109411.0,
+          "unit": "shares",
+          "page": 72
+        }
+      },
+      {
+        "name": "Quickroutes International Private Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 5534341.0,
+          "unit": "shares",
+          "page": 72
+        }
+      },
+      {
+        "name": "Accel India IV (Mauritius) Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 4309350.0,
+          "unit": "shares",
+          "page": 72
+        }
+      },
+      {
+        "name": "International Finance Corporation",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 2340277.0,
+          "unit": "shares",
+          "page": 72
+        }
+      },
+      {
+        "name": "Internet Fund III Pte Ltd",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 1369149.0,
+          "unit": "shares",
+          "page": 72
+        }
+      },
+      {
+        "name": "Peak XV Partners Investments VI (formerly SCI Investments VI)",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 1126236.0,
+          "unit": "shares",
+          "page": 72
+        }
+      },
+      {
+        "name": "VEF AB (publ)",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 618373.0,
+          "unit": "shares",
+          "page": 72
+        }
+      },
+      {
+        "name": "Sands Capital Private Growth II Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 529783.0,
+          "unit": "shares",
+          "page": 72
+        }
+      },
+      {
+        "name": "Sands Capital Private Growth Limited PCC, Cell D",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 205898.0,
+          "unit": "shares",
+          "page": 72
+        }
+      },
+      {
+        "name": "Sanjiv Rangrass",
+        "kind": "other",
+        "shares_offered": {
+          "value": 129344.0,
+          "unit": "shares",
+          "page": 72
+        }
+      },
+      {
+        "name": "Rajkumari Yabaji",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 85405.0,
+          "unit": "shares",
+          "page": 72
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 156330160.0,
+      "unit": "shares",
+      "page": 72
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 72
+    },
+    "promoter_pre_pct": {
+      "value": 32.78,
+      "unit": "percent",
+      "page": 26
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 26
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding towards sales and marketing costs",
+        "category": "other",
+        "amount": {
+          "value": 2000.0,
+          "unit": "million",
+          "page": 124
+        }
+      },
+      {
+        "purpose": "Investment in Blackbuck Finserve Private Limited (NBFC subsidiary) for augmentation of its capital base",
+        "category": "other",
+        "amount": {
+          "value": 1400.0,
+          "unit": "million",
+          "page": 124
+        }
+      },
+      {
+        "purpose": "Funding of expenditure in relation to product development",
+        "category": "other",
+        "amount": {
+          "value": 750.0,
+          "unit": "million",
+          "page": 124
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 124
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Axis Capital Limited",
+      "Morgan Stanley India Company Private Limited",
+      "JM Financial Limited",
+      "IIFL Capital Services Limited (formerly known as IIFL Securities Limited)"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024 (March 31, 2024)",
+    "revenue_fy2": {
+      "value": 1193.26,
+      "unit": "million",
+      "page": 76
+    },
+    "revenue_fy1": {
+      "value": 1756.8,
+      "unit": "million",
+      "page": 76
+    },
+    "revenue_fy0": {
+      "value": 2969.22,
+      "unit": "million",
+      "page": 76
+    },
+    "ebitda_fy2": {
+      "value": -1977.35,
+      "unit": "million",
+      "page": 354
+    },
+    "ebitda_fy1": {
+      "value": -2130.78,
+      "unit": "million",
+      "page": 354
+    },
+    "ebitda_fy0": {
+      "value": -1387.8,
+      "unit": "million",
+      "page": 354
+    },
+    "pat_fy2": {
+      "value": -2845.64,
+      "unit": "million",
+      "page": 76
+    },
+    "pat_fy1": {
+      "value": -2904.98,
+      "unit": "million",
+      "page": 76
+    },
+    "pat_fy0": {
+      "value": -1939.49,
+      "unit": "million",
+      "page": 76
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 3112.93,
+      "unit": "million",
+      "page": 75
+    },
+    "total_debt_fy0": {
+      "value": 1737.35,
+      "unit": "million",
+      "page": 26
+    },
+    "cash_fy0": {
+      "value": 1547.35,
+      "unit": "million",
+      "page": 75
+    },
+    "eps_fy0": {
+      "value": -10.52,
+      "unit": "rupees",
+      "page": 77
+    },
+    "ronw_fy0_pct": {
+      "value": -53.64,
+      "unit": "percent",
+      "page": 138
+    },
+    "nav_per_share_fy0": {
+      "value": 16.89,
+      "unit": "rupees",
+      "page": 138
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 921.66,
+      "unit": "million",
+      "page": 76
+    },
+    "pat_stub": {
+      "value": 286.72,
+      "unit": "million",
+      "page": 76
+    },
+    "no_listed_peers": false,
+    "peers": [],
+    "notes": [
+      "PAT figures are total restated profit/(loss) for the year including discontinued operations (A+B). Continuing operations only: FY24 (1,669.86), FY23 (2,368.49), FY22 (2,303.49), Q1 FY25 323.78 (\u20b9 million).",
+      "EPS fy0 is basic EPS for continuing and discontinued operations combined (-10.52), to match PAT. Basic EPS from continuing operations only is (9.06), which is the figure used in the summary and in Basis for Offer Price.",
+      "Stub period of 3 months ended June 30, 2024 includes an exceptional item of 256.23 million.",
+      "The cash flow statement was not on the pages provided, so CFO is null.",
+      "Total debt FY24 = 28.46 non-current + 1,708.89 current = 1,737.35, which matches the summary on page 26.",
+      "The price band, lot size and retail quota were not on these pages (all [\u25cf] or missing).",
+      "Promoter pre-offer % (32.78%) covers only the three Promoters. Promoter Group member Rajkumari Yabaji holds a further 0.13%. A combined total is not printed.",
+      "The peer comparison table was not on the pages provided. Only industry P/E figures were given: highest 804.77, lowest 20.20, composite 305.96 (as on June 28, 2024).",
+      "No cash pre-IPO placement was found. Events before the RHP: bonus issue 550:1 on June 7, 2024; conversion of CCPS into 99,764,500 equity shares on October 7, 2024; and in October 2024 investors transferred 266,644 shares to promoter Rajesh Kumar Naidu Yabaji as a gift/\u20b91 per share.",
+      "Objects such as sales & marketing, NBFC subsidiary capital infusion and product development do not fit the capex or debt categories, so they are classified as 'other'.",
+      "EBITDA is from Other Financial Information (page 354), defined as PBT from continuing operations + finance costs + D&A \u2212 exceptional item. Adjusted EBITDA FY24 is 133.35 million."
+    ]
+  }
+}

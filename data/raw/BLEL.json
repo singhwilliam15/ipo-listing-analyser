@@ -1,0 +1,473 @@
+{
+  "symbol": "BLEL",
+  "rhp_file": "BLEL.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:25:41+00:00",
+  "pages_sent": [
+    1,
+    2,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    106,
+    107,
+    108,
+    138,
+    139,
+    160,
+    161,
+    162,
+    460,
+    461,
+    465
+  ],
+  "n_pdf_pages": 597,
+  "usage": {
+    "input_tokens": 29277,
+    "output_tokens": 4057,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.28325179999999994,
+    "session_id": "4df70e53-a2a1-4741-986f-480a43590f01"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Behari Lal Engineering Limited",
+    "sector": "Industrials & capital goods",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "FY2026",
+    "stub_period_months": null,
+    "pre_ipo_placement": null,
+    "lead_managers": "Emkay Global Financial Services Limited; Systematix Corporate Services Limited",
+    "revenue_fy2": 446.084,
+    "rhp_page_revenue_fy2": 86,
+    "revenue_fy1": 507.912,
+    "rhp_page_revenue_fy1": 86,
+    "revenue_fy0": 534.025,
+    "rhp_page_revenue_fy0": 86,
+    "ebitda_fy2": 60.986,
+    "rhp_page_ebitda_fy2": 460,
+    "ebitda_fy1": 81.312,
+    "rhp_page_ebitda_fy1": 460,
+    "ebitda_fy0": 101.328,
+    "rhp_page_ebitda_fy0": 460,
+    "pat_fy2": 35.791,
+    "rhp_page_pat_fy2": 86,
+    "pat_fy1": 52.951,
+    "rhp_page_pat_fy1": 86,
+    "pat_fy0": 64.636,
+    "rhp_page_pat_fy0": 86,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 306.099,
+    "rhp_page_net_worth_fy0": 84,
+    "total_debt_fy0": 17.777,
+    "rhp_page_total_debt_fy0": 465,
+    "cash_fy0": 1.142,
+    "rhp_page_cash_fy0": 84,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 161,
+    "price_high": null,
+    "rhp_page_price_high": 161,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "rhp_page_retail_quota_pct": 82,
+    "pre_ipo_price": null,
+    "eps_fy0": 16.56,
+    "rhp_page_eps_fy0": 86,
+    "ronw_fy0_pct": 21.12,
+    "rhp_page_ronw_fy0_pct": 161,
+    "nav_per_share_fy0": 78.41,
+    "rhp_page_nav_per_share_fy0": 162,
+    "fresh_issue_cr": 93.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.7320001,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 3.9039325,
+    "rhp_page_pre_issue_shares_cr": 82,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 82,
+    "ofs_promoter_shares_cr": 0.4587246,
+    "ofs_investor_shares_cr": 0.2732755,
+    "proceeds_debt_repayment_cr": 0.57,
+    "proceeds_capex_cr": 63.038999999999994,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "JAYNECOIND; AIAENG; STEELCAS; RHIM; VSSL; IFGLEXPOR; KENNAMET",
+    "n_peers": 7,
+    "peer_pe_list": [
+      18.48,
+      34.43,
+      37.99,
+      23.19,
+      43.46,
+      62.02
+    ],
+    "peer_ronw_list": [
+      16.39,
+      15.53,
+      21.89,
+      -10.81,
+      9.59,
+      7.93,
+      13.7
+    ],
+    "rhp_page_peers": 162
+  },
+  "extract": {
+    "company": "Behari Lal Engineering Limited",
+    "sector": "Industrials & capital goods",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 161
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 161
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 930.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 7320001.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Rajesh Garg",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 1943623.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Lovlish Garg",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 350000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Yogita Garg",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 2143623.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Dinesh Kumar Garg HUF",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 150000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "SG Tech Engineering Private Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 2732755.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 39039325.0,
+      "unit": "shares",
+      "page": 82
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 82
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Purchase and installation of new equipment/machinery (incl. computers, printers, peripherals) with civil work at Manufacturing Facility 1",
+        "category": "capex",
+        "amount": {
+          "value": 195.89,
+          "unit": "million",
+          "page": 139
+        }
+      },
+      {
+        "purpose": "Purchase and installation of roof-top solar panels at Manufacturing Facility 1",
+        "category": "capex",
+        "amount": {
+          "value": 34.0,
+          "unit": "million",
+          "page": 139
+        }
+      },
+      {
+        "purpose": "Purchase and installation of new equipment/machinery with civil work at Manufacturing Facility 2",
+        "category": "capex",
+        "amount": {
+          "value": 366.5,
+          "unit": "million",
+          "page": 139
+        }
+      },
+      {
+        "purpose": "Purchase and installation of roof-top solar panels at Manufacturing Facility 2",
+        "category": "capex",
+        "amount": {
+          "value": 34.0,
+          "unit": "million",
+          "page": 139
+        }
+      },
+      {
+        "purpose": "Repayment and/or pre-payment of certain borrowings",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 5.7,
+          "unit": "million",
+          "page": 139
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 139
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 82
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Emkay Global Financial Services Limited",
+      "Systematix Corporate Services Limited"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "FY2026",
+    "revenue_fy2": {
+      "value": 4460.84,
+      "unit": "million",
+      "page": 86
+    },
+    "revenue_fy1": {
+      "value": 5079.12,
+      "unit": "million",
+      "page": 86
+    },
+    "revenue_fy0": {
+      "value": 5340.25,
+      "unit": "million",
+      "page": 86
+    },
+    "ebitda_fy2": {
+      "value": 609.86,
+      "unit": "million",
+      "page": 460
+    },
+    "ebitda_fy1": {
+      "value": 813.12,
+      "unit": "million",
+      "page": 460
+    },
+    "ebitda_fy0": {
+      "value": 1013.28,
+      "unit": "million",
+      "page": 460
+    },
+    "pat_fy2": {
+      "value": 357.91,
+      "unit": "million",
+      "page": 86
+    },
+    "pat_fy1": {
+      "value": 529.51,
+      "unit": "million",
+      "page": 86
+    },
+    "pat_fy0": {
+      "value": 646.36,
+      "unit": "million",
+      "page": 86
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 3060.99,
+      "unit": "million",
+      "page": 84
+    },
+    "total_debt_fy0": {
+      "value": 177.77,
+      "unit": "million",
+      "page": 465
+    },
+    "cash_fy0": {
+      "value": 11.42,
+      "unit": "million",
+      "page": 84
+    },
+    "eps_fy0": {
+      "value": 16.56,
+      "unit": "rupees",
+      "page": 86
+    },
+    "ronw_fy0_pct": {
+      "value": 21.12,
+      "unit": "percent",
+      "page": 161
+    },
+    "nav_per_share_fy0": {
+      "value": 78.41,
+      "unit": "rupees",
+      "page": 162
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Jayaswal Neco Industries Limited",
+        "nse_symbol": "JAYNECOIND",
+        "pe": 18.48,
+        "ronw_pct": 16.39,
+        "page": 162
+      },
+      {
+        "name": "AIA Engineering Limited",
+        "nse_symbol": "AIAENG",
+        "pe": 34.43,
+        "ronw_pct": 15.53,
+        "page": 162
+      },
+      {
+        "name": "Steelcast Limited",
+        "nse_symbol": "STEELCAS",
+        "pe": 37.99,
+        "ronw_pct": 21.89,
+        "page": 162
+      },
+      {
+        "name": "RHI Magnesita India Limited",
+        "nse_symbol": "RHIM",
+        "pe": null,
+        "ronw_pct": -10.81,
+        "page": 162
+      },
+      {
+        "name": "Vardhman Special Steel Limited",
+        "nse_symbol": "VSSL",
+        "pe": 23.19,
+        "ronw_pct": 9.59,
+        "page": 162
+      },
+      {
+        "name": "IFGL Refractories Limited",
+        "nse_symbol": "IFGLEXPOR",
+        "pe": 43.46,
+        "ronw_pct": 7.93,
+        "page": 162
+      },
+      {
+        "name": "Kennametal India Limited",
+        "nse_symbol": "KENNAMET",
+        "pe": 62.02,
+        "ronw_pct": 13.7,
+        "page": 162
+      }
+    ],
+    "notes": [
+      "Financial statements are called 'Restated Financial Statements' and are not labelled consolidated; the peer table describes the company as 'Standalone', so financials_basis is standalone.",
+      "Price band, lot size, fresh issue share count, post-offer shares and retail quota are all printed as [\u25cf] or not given.",
+      "Cash flow statement pages were not provided, so CFO is null.",
+      "Promoter shareholding percentages are not on the pages provided.",
+      "Total debt of 177.77 is taken from the capitalisation statement. The balance sheet gives non-current 3.00 + current 174.77 = 177.77, but the capitalisation statement splits it differently: current 170.24 and non-current 7.53, with current maturities reclassified.",
+      "EPS for FY0 is 16.56 both with and without bonus adjustment. EPS for FY1/FY2 without bonus adjustment is 67.82/50.33, and after bonus adjustment is 13.56/10.07.",
+      "FY2024 net worth is 1,936.59 in the reconciliation table but total equity is 1,939.40 on the balance sheet, because 1,939.40 includes 29.49 of share capital still to be issued under the amalgamation scheme.",
+      "A bonus issue of 31,231,460 shares (4:1, record date May 1, 2025) was made. No pre-IPO placement information is on the pages provided.",
+      "Peer NSE symbols are not printed in the RHP; they were added from general knowledge.",
+      "The RHP peer table shows 'Total income' for the company as 5,340.25, which equals revenue from operations."
+    ]
+  }
+}

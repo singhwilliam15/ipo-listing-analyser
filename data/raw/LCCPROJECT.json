@@ -1,0 +1,373 @@
+{
+  "symbol": "LCCPROJECT",
+  "rhp_file": "LCCPROJECT.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:21:36+00:00",
+  "pages_sent": [
+    1,
+    2,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    87,
+    88,
+    89,
+    99,
+    100,
+    117,
+    118,
+    119,
+    336,
+    337,
+    374
+  ],
+  "n_pdf_pages": 486,
+  "usage": {
+    "input_tokens": 32960,
+    "output_tokens": 3086,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.29366180000000003,
+    "session_id": "48830c1c-f890-4622-ab20-5a8fd9031e23"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "LCC Projects Limited",
+    "sector": "Infrastructure, construction & real estate",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "stub_period_months": null,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Motilal Oswal Investment Advisors Limited",
+    "revenue_fy2": 2438.912,
+    "rhp_page_revenue_fy2": 72,
+    "revenue_fy1": 2918.294,
+    "rhp_page_revenue_fy1": 72,
+    "revenue_fy0": 3600.252,
+    "rhp_page_revenue_fy0": 72,
+    "ebitda_fy2": 241.365,
+    "rhp_page_ebitda_fy2": 119,
+    "ebitda_fy1": 401.035,
+    "rhp_page_ebitda_fy1": 119,
+    "ebitda_fy0": 519.897,
+    "rhp_page_ebitda_fy0": 119,
+    "pat_fy2": 121.997,
+    "rhp_page_pat_fy2": 72,
+    "pat_fy1": 223.625,
+    "rhp_page_pat_fy1": 72,
+    "pat_fy0": 286.441,
+    "rhp_page_pat_fy0": 72,
+    "cfo_fy2": 29.35,
+    "rhp_page_cfo_fy2": 73,
+    "cfo_fy1": 23.627,
+    "rhp_page_cfo_fy1": 73,
+    "cfo_fy0": 158.441,
+    "rhp_page_cfo_fy0": 73,
+    "net_worth_fy0": 888.411,
+    "rhp_page_net_worth_fy0": 71,
+    "total_debt_fy0": 860.654,
+    "rhp_page_total_debt_fy0": 374,
+    "cash_fy0": 172.164,
+    "rhp_page_cash_fy0": 71,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": 100.0,
+    "rhp_page_promoter_pre_pct": 89,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 89,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 10.42,
+    "rhp_page_eps_fy0": 72,
+    "ronw_fy0_pct": 32.24,
+    "rhp_page_ronw_fy0_pct": 118,
+    "nav_per_share_fy0": 32.66,
+    "rhp_page_nav_per_share_fy0": 118,
+    "fresh_issue_cr": 258.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 1.1585,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 27.2,
+    "rhp_page_pre_issue_shares_cr": 68,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 68,
+    "ofs_promoter_shares_cr": 1.1585,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 180.0,
+    "proceeds_capex_cr": 14.691,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "Vishnu Prakash R Punglia Limited; Enviro Infra Engineers Limited",
+    "n_peers": 2,
+    "peer_pe_list": [
+      19.14
+    ],
+    "peer_ronw_list": [
+      15.28
+    ],
+    "rhp_page_peers": 118
+  },
+  "extract": {
+    "company": "LCC Projects Limited",
+    "sector": "Infrastructure, construction & real estate",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 2580.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 11585000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Arjan Suja Rabari",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 5792500.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Laljibhai Arjanbhai Ahir",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 5792500.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 272000000.0,
+      "unit": "shares",
+      "page": 68
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 68
+    },
+    "promoter_pre_pct": {
+      "value": 100.0,
+      "unit": "percent",
+      "page": 89
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": 89
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Purchase of equipment",
+        "category": "capex",
+        "amount": {
+          "value": 146.91,
+          "unit": "million",
+          "page": 99
+        }
+      },
+      {
+        "purpose": "Prepayment and/or repayment of certain outstanding borrowings",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 1800.0,
+          "unit": "million",
+          "page": 99
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": null,
+          "page": 99
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lead_managers": [
+      "Motilal Oswal Investment Advisors Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "revenue_fy2": {
+      "value": 24389.12,
+      "unit": "million",
+      "page": 72
+    },
+    "revenue_fy1": {
+      "value": 29182.94,
+      "unit": "million",
+      "page": 72
+    },
+    "revenue_fy0": {
+      "value": 36002.52,
+      "unit": "million",
+      "page": 72
+    },
+    "ebitda_fy2": {
+      "value": 2413.65,
+      "unit": "million",
+      "page": 119
+    },
+    "ebitda_fy1": {
+      "value": 4010.35,
+      "unit": "million",
+      "page": 119
+    },
+    "ebitda_fy0": {
+      "value": 5198.97,
+      "unit": "million",
+      "page": 119
+    },
+    "pat_fy2": {
+      "value": 1219.97,
+      "unit": "million",
+      "page": 72
+    },
+    "pat_fy1": {
+      "value": 2236.25,
+      "unit": "million",
+      "page": 72
+    },
+    "pat_fy0": {
+      "value": 2864.41,
+      "unit": "million",
+      "page": 72
+    },
+    "cfo_fy2": {
+      "value": 293.5,
+      "unit": "million",
+      "page": 73
+    },
+    "cfo_fy1": {
+      "value": 236.27,
+      "unit": "million",
+      "page": 73
+    },
+    "cfo_fy0": {
+      "value": 1584.41,
+      "unit": "million",
+      "page": 73
+    },
+    "net_worth_fy0": {
+      "value": 8884.11,
+      "unit": "million",
+      "page": 71
+    },
+    "total_debt_fy0": {
+      "value": 8606.54,
+      "unit": "million",
+      "page": 374
+    },
+    "cash_fy0": {
+      "value": 1721.64,
+      "unit": "million",
+      "page": 71
+    },
+    "eps_fy0": {
+      "value": 10.42,
+      "unit": "rupees",
+      "page": 72
+    },
+    "ronw_fy0_pct": {
+      "value": 32.24,
+      "unit": "percent",
+      "page": 118
+    },
+    "nav_per_share_fy0": {
+      "value": 32.66,
+      "unit": "rupees",
+      "page": 118
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Vishnu Prakash R Punglia Limited",
+        "nse_symbol": null,
+        "pe": null,
+        "ronw_pct": null,
+        "page": 118
+      },
+      {
+        "name": "Enviro Infra Engineers Limited",
+        "nse_symbol": null,
+        "pe": 19.14,
+        "ronw_pct": 15.28,
+        "page": 118
+      }
+    ],
+    "notes": [
+      "Price band, lot size, fresh issue share count and post-offer shares are shown as [\u25cf] in the RHP.",
+      "Promoters alone (Arjan Suja Rabari, Laljibhai Arjanbhai Ahir, Maya Arjan Rabari) hold 82.00% before the offer; with the promoter group the total is 100.00%.",
+      "Retail quota % is not given on the pages provided; only 'Not less than [\u25cf] Equity Shares' is printed. Non-institutional investors get not less than 15%.",
+      "No equity was allotted in the 12 months before the RHP. The latest corporate actions were a share split (February 2025) and a 3:1 bonus issue (February 16, 2025).",
+      "EBITDA comes from the KPI table. That table's note says exceptional items are added back, but the note on page 332 says they are not; the printed values are the same in both places.",
+      "Total debt of 8,606.54 includes interest accrued and due. It matches current borrowings (7,943.68) plus non-current borrowings (662.86).",
+      "PAT includes the non-controlling interest; profit attributable to owners in FY2026 is 2,833.93 million.",
+      "Vishnu Prakash R Punglia has negative EPS, and its P/E and RoNW are printed as NA.",
+      "NSE symbols for the peers are not printed."
+    ]
+  }
+}

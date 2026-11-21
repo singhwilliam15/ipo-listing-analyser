@@ -1,0 +1,396 @@
+{
+  "symbol": "MEDANTA",
+  "rhp_file": "MEDANTA.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T20:52:58+00:00",
+  "pages_sent": [
+    1,
+    2,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    92,
+    93,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    125,
+    126,
+    127,
+    128,
+    150,
+    151,
+    152,
+    153,
+    160,
+    161,
+    162,
+    163,
+    164,
+    373,
+    374,
+    375
+  ],
+  "n_pdf_pages": 512,
+  "usage": {
+    "input_tokens": 49981,
+    "output_tokens": 3439,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.4385905,
+    "session_id": "755fd7e2-5847-47b3-913e-556fd0694e75"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Global Health Limited",
+    "sector": "Healthcare & pharma",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2022",
+    "stub_period_months": 3,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "Kotak Mahindra Capital Company Limited; Credit Suisse Securities (India) Private Limited; Jefferies India Private Limited; JM Financial Limited",
+    "revenue_fy2": 1500.422,
+    "rhp_page_revenue_fy2": 99,
+    "revenue_fy1": 1446.743,
+    "rhp_page_revenue_fy1": 99,
+    "revenue_fy0": 2166.589,
+    "rhp_page_revenue_fy0": 99,
+    "ebitda_fy2": 230.454,
+    "rhp_page_ebitda_fy2": 373,
+    "ebitda_fy1": 222.852,
+    "rhp_page_ebitda_fy1": 373,
+    "ebitda_fy0": 489.757,
+    "rhp_page_ebitda_fy0": 373,
+    "pat_fy2": 36.327,
+    "rhp_page_pat_fy2": 99,
+    "pat_fy1": 28.805,
+    "rhp_page_pat_fy1": 99,
+    "pat_fy0": 196.202,
+    "rhp_page_pat_fy0": 99,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 1616.011,
+    "rhp_page_net_worth_fy0": 97,
+    "total_debt_fy0": 837.8620000000001,
+    "rhp_page_total_debt_fy0": 21,
+    "cash_fy0": 119.432,
+    "rhp_page_cash_fy0": 97,
+    "revenue_stub": 617.211,
+    "rhp_page_revenue_stub": 99,
+    "pat_stub": 58.712,
+    "rhp_page_pat_stub": 99,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": 35.0,
+    "rhp_page_promoter_pre_pct": 21,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": 336.0,
+    "rhp_page_pre_ipo_price": 21,
+    "eps_fy0": 7.78,
+    "rhp_page_eps_fy0": 160,
+    "ronw_fy0_pct": 12.14,
+    "rhp_page_ronw_fy0_pct": 161,
+    "nav_per_share_fy0": 63.82,
+    "rhp_page_nav_per_share_fy0": 161,
+    "fresh_issue_cr": 500.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "fresh_issue_shares_cr": null,
+    "ofs_shares_cr": 5.0761,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 25.330393,
+    "rhp_page_pre_issue_shares_cr": 125,
+    "post_issue_shares_cr": null,
+    "ofs_promoter_shares_cr": 0,
+    "ofs_investor_shares_cr": 5.0661,
+    "proceeds_debt_repayment_cr": 375.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "APOLLOHOSP; FORTIS; MAXHEALTH; NH",
+    "n_peers": 4,
+    "peer_pe_list": [
+      58.53,
+      37.31,
+      68.55,
+      43.33
+    ],
+    "peer_ronw_list": [
+      18.86,
+      11.27,
+      9.63,
+      22.97
+    ],
+    "rhp_page_peers": 162
+  },
+  "extract": {
+    "company": "Global Health Limited",
+    "sector": "Healthcare & pharma",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 5000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "ofs_shares": {
+      "value": 50761000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Anant Investments",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 50661000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Sunil Sachdeva (jointly with Suman Sachdeva)",
+        "kind": "other",
+        "shares_offered": {
+          "value": 100000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 253303930.0,
+      "unit": "shares",
+      "page": 125
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "promoter_pre_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 21
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Investment in subsidiaries GHPPL and MHPL (debt or equity) for repayment/prepayment of their borrowings",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 3750.0,
+          "unit": "million",
+          "page": 150
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": null,
+          "page": null
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 336.0,
+      "unit": "rupees",
+      "page": 21
+    },
+    "lead_managers": [
+      "Kotak Mahindra Capital Company Limited",
+      "Credit Suisse Securities (India) Private Limited",
+      "Jefferies India Private Limited",
+      "JM Financial Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2022",
+    "revenue_fy2": {
+      "value": 15004.22,
+      "unit": "million",
+      "page": 99
+    },
+    "revenue_fy1": {
+      "value": 14467.43,
+      "unit": "million",
+      "page": 99
+    },
+    "revenue_fy0": {
+      "value": 21665.89,
+      "unit": "million",
+      "page": 99
+    },
+    "ebitda_fy2": {
+      "value": 2304.54,
+      "unit": "million",
+      "page": 373
+    },
+    "ebitda_fy1": {
+      "value": 2228.52,
+      "unit": "million",
+      "page": 373
+    },
+    "ebitda_fy0": {
+      "value": 4897.57,
+      "unit": "million",
+      "page": 373
+    },
+    "pat_fy2": {
+      "value": 363.27,
+      "unit": "million",
+      "page": 99
+    },
+    "pat_fy1": {
+      "value": 288.05,
+      "unit": "million",
+      "page": 99
+    },
+    "pat_fy0": {
+      "value": 1962.02,
+      "unit": "million",
+      "page": 99
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 16160.11,
+      "unit": "million",
+      "page": 97
+    },
+    "total_debt_fy0": {
+      "value": 8378.62,
+      "unit": "million",
+      "page": 21
+    },
+    "cash_fy0": {
+      "value": 1194.32,
+      "unit": "million",
+      "page": 97
+    },
+    "eps_fy0": {
+      "value": 7.78,
+      "unit": "rupees",
+      "page": 160
+    },
+    "ronw_fy0_pct": {
+      "value": 12.14,
+      "unit": "percent",
+      "page": 161
+    },
+    "nav_per_share_fy0": {
+      "value": 63.82,
+      "unit": "rupees",
+      "page": 161
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 6172.11,
+      "unit": "million",
+      "page": 99
+    },
+    "pat_stub": {
+      "value": 587.12,
+      "unit": "million",
+      "page": 99
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Apollo Hospitals Enterprise Limited",
+        "nse_symbol": "APOLLOHOSP",
+        "pe": 58.53,
+        "ronw_pct": 18.86,
+        "page": 162
+      },
+      {
+        "name": "Fortis Healthcare Limited",
+        "nse_symbol": "FORTIS",
+        "pe": 37.31,
+        "ronw_pct": 11.27,
+        "page": 162
+      },
+      {
+        "name": "Max Healthcare Institute Limited",
+        "nse_symbol": "MAXHEALTH",
+        "pe": 68.55,
+        "ronw_pct": 9.63,
+        "page": 162
+      },
+      {
+        "name": "Narayana Hrudayalaya Limited",
+        "nse_symbol": "NH",
+        "pe": 43.33,
+        "ronw_pct": 22.97,
+        "page": 162
+      }
+    ],
+    "notes": [
+      "Price band, lot size, retail quota and post-offer share count are [\u25cf] or not on the pages provided. The Offer Structure page (459) was not included.",
+      "The cash flow statement (page 101) is cut off partway through the operating section, so net cash from operating activities is not available for any year.",
+      "Total debt FY2022 of 8,378.62 million is taken from the offer document summary (page 21), which excludes interest accrued. It reconciles with the balance sheet: non-current 7,676.33 + current 702.29 = 8,378.62.",
+      "The pre-IPO price of \u20b9336 is a secondary transfer, not an allotment. Anant Investments agreed under share purchase agreements dated October 20, 2022 to sell 14,339,005 shares to RJ Corp, SBI MF and Novo Holdings. The last fresh allotment was a preferential issue on July 30, 2021 at \u20b9575 per \u20b910 share, made before the share split and more than 12 months before the RHP.",
+      "Promoter pre-offer holding of 35.00% assumes vested ESOPs are exercised (fully diluted).",
+      "The page 21 summary prints FY2021 net worth as '13.823.42', a typo for 13,823.42.",
+      "Pre-issue share count is printed as '253,303, 930' on page 92 and as 253,303,930 on page 125.",
+      "Peer NSE symbols are inferred; they are not printed in the RHP."
+    ]
+  }
+}

@@ -1,0 +1,410 @@
+{
+  "symbol": "BAJAJHFL",
+  "rhp_file": "BAJAJHFL.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-21T06:03:42+00:00",
+  "pages_sent": [
+    1,
+    2,
+    29,
+    30,
+    31,
+    32,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    103,
+    104,
+    105,
+    115,
+    116,
+    121,
+    122,
+    123,
+    408,
+    409,
+    445
+  ],
+  "n_pdf_pages": 547,
+  "usage": {
+    "input_tokens": 44296,
+    "output_tokens": 3569,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.39514570000000004,
+    "session_id": "83695566-5b84-43f5-9414-50f0f11fde4d"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Bajaj Housing Finance Limited",
+    "sector": "Banking & NBFC",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "FY2024",
+    "stub_period_months": 3,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "Kotak Mahindra Capital Company Limited; BofA Securities India Limited; Axis Capital Limited; Goldman Sachs (India) Securities Private Limited; SBI Capital Markets Limited; JM Financial Limited; IIFL Securities Limited",
+    "revenue_fy2": 3766.71,
+    "rhp_page_revenue_fy2": 90,
+    "revenue_fy1": 5664.73,
+    "rhp_page_revenue_fy1": 90,
+    "revenue_fy0": 7617.31,
+    "rhp_page_revenue_fy0": 90,
+    "ebitda_fy2": 3140.93,
+    "rhp_page_ebitda_fy2": 408,
+    "ebitda_fy1": 4944.78,
+    "rhp_page_ebitda_fy1": 408,
+    "ebitda_fy0": 6893.53,
+    "rhp_page_ebitda_fy0": 408,
+    "pat_fy2": 709.62,
+    "rhp_page_pat_fy2": 90,
+    "pat_fy1": 1257.8,
+    "rhp_page_pat_fy1": 90,
+    "pat_fy0": 1731.22,
+    "rhp_page_pat_fy0": 90,
+    "cfo_fy2": -12480.53,
+    "rhp_page_cfo_fy2": 91,
+    "cfo_fy1": -14331.77,
+    "rhp_page_cfo_fy1": 91,
+    "cfo_fy0": -15428.11,
+    "rhp_page_cfo_fy0": 91,
+    "net_worth_fy0": 12233.5,
+    "rhp_page_net_worth_fy0": 30,
+    "total_debt_fy0": 69129.32,
+    "rhp_page_total_debt_fy0": 30,
+    "cash_fy0": 63.86,
+    "rhp_page_cash_fy0": 89,
+    "revenue_stub": 2208.65,
+    "rhp_page_revenue_stub": 90,
+    "pat_stub": 482.61,
+    "rhp_page_pat_stub": 90,
+    "price_low": null,
+    "rhp_page_price_low": 121,
+    "price_high": null,
+    "rhp_page_price_high": 121,
+    "lot_size": null,
+    "promoter_pre_pct": 100.0,
+    "rhp_page_promoter_pre_pct": 30,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 30,
+    "retail_quota_pct": null,
+    "rhp_page_retail_quota_pct": 86,
+    "pre_ipo_price": 18.1,
+    "rhp_page_pre_ipo_price": 104,
+    "eps_fy0": 2.6,
+    "rhp_page_eps_fy0": 90,
+    "ronw_fy0_pct": 15.2,
+    "rhp_page_ronw_fy0_pct": 122,
+    "nav_per_share_fy0": 18.2,
+    "rhp_page_nav_per_share_fy0": 30,
+    "fresh_issue_cr": 3560.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": 3000.0,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 781.9575273,
+    "rhp_page_pre_issue_shares_cr": 86,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 86,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "LICHSGFIN; PNBHOUSING; CANFINHOME; AADHARHFC; AAVAS; APTUS; HOMEFIRST",
+    "n_peers": 7,
+    "peer_pe_list": [
+      7.7,
+      14.1,
+      15.0,
+      21.4,
+      26.8,
+      25.0,
+      30.3
+    ],
+    "peer_ronw_list": [
+      16.2,
+      11.6,
+      18.8,
+      18.4,
+      13.9,
+      17.2,
+      15.5
+    ],
+    "rhp_page_peers": 122
+  },
+  "extract": {
+    "company": "Bajaj Housing Finance Limited",
+    "sector": "Banking & NBFC",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 121
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 121
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 35600.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": 30000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Bajaj Finance Limited",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 7819575273.0,
+      "unit": "shares",
+      "page": 86
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 86
+    },
+    "promoter_pre_pct": {
+      "value": 100.0,
+      "unit": "percent",
+      "page": 30
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 30
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Augmenting capital base to meet future business requirements of the Company towards onward lending",
+        "category": "other",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 115
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 86
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 18.1,
+      "unit": "rupees",
+      "page": 104
+    },
+    "lead_managers": [
+      "Kotak Mahindra Capital Company Limited",
+      "BofA Securities India Limited",
+      "Axis Capital Limited",
+      "Goldman Sachs (India) Securities Private Limited",
+      "SBI Capital Markets Limited",
+      "JM Financial Limited",
+      "IIFL Securities Limited"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "FY2024",
+    "revenue_fy2": {
+      "value": 37667.1,
+      "unit": "million",
+      "page": 90
+    },
+    "revenue_fy1": {
+      "value": 56647.3,
+      "unit": "million",
+      "page": 90
+    },
+    "revenue_fy0": {
+      "value": 76173.1,
+      "unit": "million",
+      "page": 90
+    },
+    "ebitda_fy2": {
+      "value": 31409.3,
+      "unit": "million",
+      "page": 408
+    },
+    "ebitda_fy1": {
+      "value": 49447.8,
+      "unit": "million",
+      "page": 408
+    },
+    "ebitda_fy0": {
+      "value": 68935.3,
+      "unit": "million",
+      "page": 408
+    },
+    "pat_fy2": {
+      "value": 7096.2,
+      "unit": "million",
+      "page": 90
+    },
+    "pat_fy1": {
+      "value": 12578.0,
+      "unit": "million",
+      "page": 90
+    },
+    "pat_fy0": {
+      "value": 17312.2,
+      "unit": "million",
+      "page": 90
+    },
+    "cfo_fy2": {
+      "value": -124805.3,
+      "unit": "million",
+      "page": 91
+    },
+    "cfo_fy1": {
+      "value": -143317.7,
+      "unit": "million",
+      "page": 91
+    },
+    "cfo_fy0": {
+      "value": -154281.1,
+      "unit": "million",
+      "page": 91
+    },
+    "net_worth_fy0": {
+      "value": 122335.0,
+      "unit": "million",
+      "page": 30
+    },
+    "total_debt_fy0": {
+      "value": 691293.2,
+      "unit": "million",
+      "page": 30
+    },
+    "cash_fy0": {
+      "value": 638.6,
+      "unit": "million",
+      "page": 89
+    },
+    "eps_fy0": {
+      "value": 2.6,
+      "unit": "rupees",
+      "page": 90
+    },
+    "ronw_fy0_pct": {
+      "value": 15.2,
+      "unit": "percent",
+      "page": 122
+    },
+    "nav_per_share_fy0": {
+      "value": 18.2,
+      "unit": "rupees",
+      "page": 30
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 22086.5,
+      "unit": "million",
+      "page": 90
+    },
+    "pat_stub": {
+      "value": 4826.1,
+      "unit": "million",
+      "page": 90
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "LIC Housing Finance Limited",
+        "nse_symbol": "LICHSGFIN",
+        "pe": 7.7,
+        "ronw_pct": 16.2,
+        "page": 122
+      },
+      {
+        "name": "PNB Housing Finance Limited",
+        "nse_symbol": "PNBHOUSING",
+        "pe": 14.1,
+        "ronw_pct": 11.6,
+        "page": 123
+      },
+      {
+        "name": "Can Fin Homes Limited",
+        "nse_symbol": "CANFINHOME",
+        "pe": 15.0,
+        "ronw_pct": 18.8,
+        "page": 123
+      },
+      {
+        "name": "Aadhar Housing Finance",
+        "nse_symbol": "AADHARHFC",
+        "pe": 21.4,
+        "ronw_pct": 18.4,
+        "page": 123
+      },
+      {
+        "name": "Aavas Financiers",
+        "nse_symbol": "AAVAS",
+        "pe": 26.8,
+        "ronw_pct": 13.9,
+        "page": 123
+      },
+      {
+        "name": "Aptus Value Housing Finance",
+        "nse_symbol": "APTUS",
+        "pe": 25.0,
+        "ronw_pct": 17.2,
+        "page": 123
+      },
+      {
+        "name": "Home First Finance",
+        "nse_symbol": "HOMEFIRST",
+        "pe": 30.3,
+        "ronw_pct": 15.5,
+        "page": 123
+      }
+    ],
+    "notes": [
+      "The Restated Financial Information is not labelled consolidated, and the company appears to have no subsidiaries. It is treated as standalone.",
+      "The price band, lot size, share counts for the fresh issue and OFS, and post-offer shares are all printed as [\u25cf] in this RHP.",
+      "The retail quota is printed only as 'Not less than [\u25cf] Equity Shares'. No percentage is given on the pages provided.",
+      "The amount for the object 'augmenting capital base for onward lending' is [\u25cf] (100% of Net Proceeds). Gross fresh issue proceeds are up to \u20b935,600.0 million. The object is categorised as 'other' (onward lending).",
+      "Total debt is the sum of debt securities, borrowings (other than debt securities) and deposits, as stated in the summary (page 30).",
+      "Promoter pre-offer holding: Bajaj Finance Limited holds 100%. Promoter Group member Sanjivnayan Bajaj holds 100 shares jointly with it.",
+      "Pre-IPO allotment: a rights issue on April 3, 2024 allotted 1,107,419,709 shares to Bajaj Finance Limited at \u20b918.1 per share.",
+      "Offer includes an Employee Reservation Portion of up to \u20b92,000.0 million and a Shareholders Reservation Portion of up to \u20b95,000.0 million.",
+      "Peer NSE symbols are not printed in the RHP. They were inferred.",
+      "RoNW for FY2024 is 15.2% on average net worth (page 122). Page 408 also gives 15.2% for FY2024 but shows 14.3% for the stub period, against 3.6% on page 122."
+    ]
+  }
+}

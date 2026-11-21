@@ -1,0 +1,405 @@
+{
+  "symbol": "SBFC",
+  "rhp_file": "SBFC.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T20:57:16+00:00",
+  "pages_sent": [
+    1,
+    2,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    85,
+    86,
+    87,
+    88,
+    114,
+    115,
+    116,
+    117,
+    119,
+    120,
+    121,
+    122,
+    123,
+    382,
+    383,
+    384
+  ],
+  "n_pdf_pages": 576,
+  "usage": {
+    "input_tokens": 59860,
+    "output_tokens": 4029,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.5304139,
+    "session_id": "dd8462d9-8341-4e6e-b339-066ca847f556"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "SBFC Finance Limited",
+    "sector": "Banking & NBFC",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023",
+    "stub_period_months": null,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "ICICI Securities Limited; Axis Capital Limited; Kotak Mahindra Capital Company Limited",
+    "revenue_fy2": 507.099,
+    "rhp_page_revenue_fy2": 72,
+    "revenue_fy1": 529.052,
+    "rhp_page_revenue_fy1": 72,
+    "revenue_fy0": 732.812,
+    "rhp_page_revenue_fy0": 72,
+    "ebitda_fy2": 362.061,
+    "rhp_page_ebitda_fy2": 382,
+    "ebitda_fy1": 319.094,
+    "rhp_page_ebitda_fy1": 382,
+    "ebitda_fy0": 490.532,
+    "rhp_page_ebitda_fy0": 382,
+    "pat_fy2": 85.01,
+    "rhp_page_pat_fy2": 72,
+    "pat_fy1": 64.521,
+    "rhp_page_pat_fy1": 72,
+    "pat_fy0": 149.736,
+    "rhp_page_pat_fy0": 72,
+    "cfo_fy2": -275.196,
+    "rhp_page_cfo_fy2": 73,
+    "cfo_fy1": -821.6440000000001,
+    "rhp_page_cfo_fy1": 73,
+    "cfo_fy0": -1244.955,
+    "rhp_page_cfo_fy0": 73,
+    "net_worth_fy0": 1727.268,
+    "rhp_page_net_worth_fy0": 72,
+    "total_debt_fy0": 3739.062,
+    "rhp_page_total_debt_fy0": 383,
+    "cash_fy0": 183.444,
+    "rhp_page_cash_fy0": 71,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 119,
+    "price_high": null,
+    "rhp_page_price_high": 119,
+    "lot_size": null,
+    "promoter_pre_pct": 80.48,
+    "rhp_page_promoter_pre_pct": 26,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 26,
+    "retail_quota_pct": null,
+    "rhp_page_retail_quota_pct": 68,
+    "pre_ipo_price": 55.0,
+    "rhp_page_pre_ipo_price": 86,
+    "eps_fy0": 1.71,
+    "rhp_page_eps_fy0": 73,
+    "ronw_fy0_pct": 9.93,
+    "rhp_page_ronw_fy0_pct": 120,
+    "nav_per_share_fy0": 19.26,
+    "rhp_page_nav_per_share_fy0": 120,
+    "fresh_issue_cr": 600.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": 425.0,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 95.8908906,
+    "rhp_page_pre_issue_shares_cr": 68,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 68,
+    "ofs_promoter_shares_cr": 0,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "AAVAS; HOMEFIRST; APTUS; AUBANK; FIVESTAR",
+    "n_peers": 5,
+    "peer_pe_list": [
+      24.8,
+      35.01
+    ],
+    "peer_ronw_list": [],
+    "rhp_page_peers": 123
+  },
+  "extract": {
+    "company": "SBFC Finance Limited",
+    "sector": "Banking & NBFC",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 119
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 119
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 6000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": 4250.0,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Arpwood Partners Investment Advisors LLP",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Arpwood Capital Private Limited",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Eight45 Services LLP",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 958908906.0,
+      "unit": "shares",
+      "page": 68
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 68
+    },
+    "promoter_pre_pct": {
+      "value": 80.48,
+      "unit": "percent",
+      "page": 26
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 26
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Augmenting the capital base of the Company to meet future capital requirements (onward lending)",
+        "category": "other",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 26
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 68
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 55.0,
+      "unit": "rupees",
+      "page": 86
+    },
+    "lead_managers": [
+      "ICICI Securities Limited",
+      "Axis Capital Limited",
+      "Kotak Mahindra Capital Company Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023",
+    "revenue_fy2": {
+      "value": 5070.99,
+      "unit": "million",
+      "page": 72
+    },
+    "revenue_fy1": {
+      "value": 5290.52,
+      "unit": "million",
+      "page": 72
+    },
+    "revenue_fy0": {
+      "value": 7328.12,
+      "unit": "million",
+      "page": 72
+    },
+    "ebitda_fy2": {
+      "value": 3620.61,
+      "unit": "million",
+      "page": 382
+    },
+    "ebitda_fy1": {
+      "value": 3190.94,
+      "unit": "million",
+      "page": 382
+    },
+    "ebitda_fy0": {
+      "value": 4905.32,
+      "unit": "million",
+      "page": 382
+    },
+    "pat_fy2": {
+      "value": 850.1,
+      "unit": "million",
+      "page": 72
+    },
+    "pat_fy1": {
+      "value": 645.21,
+      "unit": "million",
+      "page": 72
+    },
+    "pat_fy0": {
+      "value": 1497.36,
+      "unit": "million",
+      "page": 72
+    },
+    "cfo_fy2": {
+      "value": -2751.96,
+      "unit": "million",
+      "page": 73
+    },
+    "cfo_fy1": {
+      "value": -8216.44,
+      "unit": "million",
+      "page": 73
+    },
+    "cfo_fy0": {
+      "value": -12449.55,
+      "unit": "million",
+      "page": 73
+    },
+    "net_worth_fy0": {
+      "value": 17272.68,
+      "unit": "million",
+      "page": 72
+    },
+    "total_debt_fy0": {
+      "value": 37390.62,
+      "unit": "million",
+      "page": 383
+    },
+    "cash_fy0": {
+      "value": 1834.44,
+      "unit": "million",
+      "page": 71
+    },
+    "eps_fy0": {
+      "value": 1.71,
+      "unit": "rupees",
+      "page": 73
+    },
+    "ronw_fy0_pct": {
+      "value": 9.93,
+      "unit": "percent",
+      "page": 120
+    },
+    "nav_per_share_fy0": {
+      "value": 19.26,
+      "unit": "rupees",
+      "page": 120
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Aavas Financiers Limited",
+        "nse_symbol": "AAVAS",
+        "pe": null,
+        "ronw_pct": null,
+        "page": 123
+      },
+      {
+        "name": "Home First Finance Company India Limited",
+        "nse_symbol": "HOMEFIRST",
+        "pe": null,
+        "ronw_pct": null,
+        "page": 123
+      },
+      {
+        "name": "Aptus Value Housing Finance India Limited",
+        "nse_symbol": "APTUS",
+        "pe": 24.8,
+        "ronw_pct": null,
+        "page": 120
+      },
+      {
+        "name": "AU Small Finance Bank Limited",
+        "nse_symbol": "AUBANK",
+        "pe": 35.01,
+        "ronw_pct": null,
+        "page": 120
+      },
+      {
+        "name": "Five Star Business Finance Limited",
+        "nse_symbol": "FIVESTAR",
+        "pe": null,
+        "ronw_pct": null,
+        "page": 123
+      }
+    ],
+    "notes": [
+      "FY2023 restated financials are consolidated; FY2022 and FY2021 are restated standalone (the company had no subsidiary then), so the years are not directly comparable.",
+      "Price band, lot size, share counts for the fresh issue and OFS, and post-offer shares are all printed as [\u2022]. The OFS amounts per seller are given in rupees: Arpwood Partners \u20b93,062.50 mn, Arpwood Capital \u20b9751.62 mn, Eight45 \u20b9435.88 mn.",
+      "The fresh issue was cut from \u20b97,500 mn to \u20b96,000 mn after a Pre-IPO Placement of 27,272,727 shares at \u20b955 to Amansa Investments on May 23, 2023. Later ESOP allotments were made on July 12, 2023 at \u20b940 and \u20b912.50. Promoters have also agreed secondary transfers (SPAs) at \u20b957 per share, to be completed before the bid opening date.",
+      "Retail quota % is not printed (it says 'Not less than [\u2022] Equity Shares'). The offer includes an employee reservation of \u20b9102.50 mn.",
+      "Total debt of 37,390.62 is debt securities plus borrowings (capitalisation statement). The summary 'Total borrowings' figure of 37,458.33 (page 27) also includes collateralised borrowing principal outstanding.",
+      "RoNW FY2023 is 9.93% in Basis for Offer Price (based on average net worth) but 8.67% in Other Financial Information (based on year-end net worth).",
+      "EBITDA comes from the accounting ratios on page 382. It is not a KPI in the Basis for Offer Price section.",
+      "The peer comparison table with P/E and RoNW (page 120 onwards) is not among the pages provided. Peer names come from the KPI comparison on page 123. The P/E values for AU SFB (35.01x, highest) and Aptus (24.80x, lowest) come from the Industry P/E summary on page 120; the industry average is 30.44x.",
+      "The only object of the fresh issue is augmenting the capital base for onward lending, so it is categorised as 'other'. The amount is [\u2022].",
+      "The promoter pre-offer holding is 80.48%, counting SBFC Holdings at 65.87% plus the Arpwood entities and Eight45 at 14.61%."
+    ]
+  }
+}

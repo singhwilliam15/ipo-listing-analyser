@@ -1,0 +1,449 @@
+{
+  "symbol": "WAKEFIT",
+  "rhp_file": "WAKEFIT.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:03:02+00:00",
+  "pages_sent": [
+    1,
+    2,
+    18,
+    19,
+    20,
+    21,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    86,
+    87,
+    88,
+    123,
+    124,
+    134,
+    135,
+    136,
+    334,
+    335,
+    336
+  ],
+  "n_pdf_pages": 482,
+  "usage": {
+    "input_tokens": 41223,
+    "output_tokens": 3597,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.37081280000000005,
+    "session_id": "128a236c-84a8-4f73-83b7-cd9bd5545c3f"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Wakefit Innovations Limited",
+    "sector": "Consumer & retail",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "stub_period_months": 6,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "Axis Capital Limited; IIFL Capital Services Limited; Nomura Financial Advisory and Securities (India) Private Limited",
+    "revenue_fy2": 812.62,
+    "rhp_page_revenue_fy2": 75,
+    "revenue_fy1": 986.353,
+    "rhp_page_revenue_fy1": 75,
+    "revenue_fy0": 1273.691,
+    "rhp_page_revenue_fy0": 75,
+    "ebitda_fy2": -85.752,
+    "rhp_page_ebitda_fy2": 334,
+    "ebitda_fy1": 65.849,
+    "rhp_page_ebitda_fy1": 334,
+    "ebitda_fy0": 90.83,
+    "rhp_page_ebitda_fy0": 334,
+    "pat_fy2": -145.683,
+    "rhp_page_pat_fy2": 75,
+    "pat_fy1": -15.053,
+    "rhp_page_pat_fy1": 75,
+    "pat_fy0": -35.004,
+    "rhp_page_pat_fy0": 75,
+    "cfo_fy2": -20.463,
+    "rhp_page_cfo_fy2": 76,
+    "cfo_fy1": 80.593,
+    "rhp_page_cfo_fy1": 76,
+    "cfo_fy0": 76.67,
+    "rhp_page_cfo_fy0": 76,
+    "net_worth_fy0": 520.57,
+    "rhp_page_net_worth_fy0": 74,
+    "total_debt_fy0": 0.0,
+    "rhp_page_total_debt_fy0": 20,
+    "cash_fy0": 7.119,
+    "rhp_page_cash_fy0": 74,
+    "revenue_stub": 724.003,
+    "rhp_page_revenue_stub": 75,
+    "pat_stub": 35.574,
+    "rhp_page_pat_stub": 75,
+    "price_low": null,
+    "rhp_page_price_low": 135,
+    "price_high": null,
+    "rhp_page_price_high": 135,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "rhp_page_promoter_pre_pct": 19,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 20,
+    "retail_quota_pct": null,
+    "rhp_page_retail_quota_pct": 71,
+    "pre_ipo_price": 195.0,
+    "rhp_page_pre_ipo_price": 18,
+    "eps_fy0": -1.15,
+    "rhp_page_eps_fy0": 75,
+    "ronw_fy0_pct": -6.72,
+    "rhp_page_ronw_fy0_pct": 135,
+    "nav_per_share_fy0": 16.96,
+    "rhp_page_nav_per_share_fy0": 135,
+    "fresh_issue_cr": 377.178,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 4.6754405,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 30.7486214,
+    "rhp_page_pre_issue_shares_cr": 71,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 71,
+    "ofs_promoter_shares_cr": 1.2181673,
+    "ofs_investor_shares_cr": 3.3535480000000004,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 46.25,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "SFL",
+    "n_peers": 1,
+    "peer_pe_list": [
+      77.26
+    ],
+    "peer_ronw_list": [
+      2.98
+    ],
+    "rhp_page_peers": 136
+  },
+  "extract": {
+    "company": "Wakefit Innovations Limited",
+    "sector": "Consumer & retail",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 135
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 135
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 3771.78,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 46754405.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Ankit Garg",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 7729488.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Chaitanya Ramalingegowda",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 4452185.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Nitika Goel",
+        "kind": "other",
+        "shares_offered": {
+          "value": 899205.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Peak XV Partners Investments VI",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 20374774.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Redwood Trust",
+        "kind": "other",
+        "shares_offered": {
+          "value": 138047.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Verlinvest S.A.",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 10193506.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "SAI Global India Fund I, LLP",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 413150.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Paramark KB Fund I",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 2554050.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 307486214.0,
+      "unit": "shares",
+      "page": 71
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 71
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 19
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 20
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Capital expenditure for setting up of 117 new COCO \u2013 Regular Stores",
+        "category": "capex",
+        "amount": {
+          "value": 308.42,
+          "unit": "million",
+          "page": 124
+        }
+      },
+      {
+        "purpose": "Expenditure for lease, sub-lease rent and license fee payments for existing COCO \u2013 Regular Stores",
+        "category": "other",
+        "amount": {
+          "value": 1614.69,
+          "unit": "million",
+          "page": 124
+        }
+      },
+      {
+        "purpose": "Capital expenditure for purchase of new equipment and machinery",
+        "category": "capex",
+        "amount": {
+          "value": 154.08,
+          "unit": "million",
+          "page": 124
+        }
+      },
+      {
+        "purpose": "Marketing and advertisement expenses towards enhancing brand awareness and visibility",
+        "category": "other",
+        "amount": {
+          "value": 1084.04,
+          "unit": "million",
+          "page": 124
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 124
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 71
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 195.0,
+      "unit": "rupees",
+      "page": 18
+    },
+    "lead_managers": [
+      "Axis Capital Limited",
+      "IIFL Capital Services Limited",
+      "Nomura Financial Advisory and Securities (India) Private Limited"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "revenue_fy2": {
+      "value": 8126.2,
+      "unit": "million",
+      "page": 75
+    },
+    "revenue_fy1": {
+      "value": 9863.53,
+      "unit": "million",
+      "page": 75
+    },
+    "revenue_fy0": {
+      "value": 12736.91,
+      "unit": "million",
+      "page": 75
+    },
+    "ebitda_fy2": {
+      "value": -857.52,
+      "unit": "million",
+      "page": 334
+    },
+    "ebitda_fy1": {
+      "value": 658.49,
+      "unit": "million",
+      "page": 334
+    },
+    "ebitda_fy0": {
+      "value": 908.3,
+      "unit": "million",
+      "page": 334
+    },
+    "pat_fy2": {
+      "value": -1456.83,
+      "unit": "million",
+      "page": 75
+    },
+    "pat_fy1": {
+      "value": -150.53,
+      "unit": "million",
+      "page": 75
+    },
+    "pat_fy0": {
+      "value": -350.04,
+      "unit": "million",
+      "page": 75
+    },
+    "cfo_fy2": {
+      "value": -204.63,
+      "unit": "million",
+      "page": 76
+    },
+    "cfo_fy1": {
+      "value": 805.93,
+      "unit": "million",
+      "page": 76
+    },
+    "cfo_fy0": {
+      "value": 766.7,
+      "unit": "million",
+      "page": 76
+    },
+    "net_worth_fy0": {
+      "value": 5205.7,
+      "unit": "million",
+      "page": 74
+    },
+    "total_debt_fy0": {
+      "value": 0.0,
+      "unit": "million",
+      "page": 20
+    },
+    "cash_fy0": {
+      "value": 71.19,
+      "unit": "million",
+      "page": 74
+    },
+    "eps_fy0": {
+      "value": -1.15,
+      "unit": "rupees",
+      "page": 75
+    },
+    "ronw_fy0_pct": {
+      "value": -6.72,
+      "unit": "percent",
+      "page": 135
+    },
+    "nav_per_share_fy0": {
+      "value": 16.96,
+      "unit": "rupees",
+      "page": 135
+    },
+    "stub_period_months": 6,
+    "revenue_stub": {
+      "value": 7240.03,
+      "unit": "million",
+      "page": 75
+    },
+    "pat_stub": {
+      "value": 355.74,
+      "unit": "million",
+      "page": 75
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Sheela Foam Limited",
+        "nse_symbol": "SFL",
+        "pe": 77.26,
+        "ronw_pct": 2.98,
+        "page": 136
+      }
+    ],
+    "notes": [
+      "Restated Financial Information is presented for the Company alone, with no subsidiaries mentioned; the pages do not say 'consolidated', so the basis is taken as standalone.",
+      "Price band, lot size, fresh issue share count, OFS amount, retail quota and post-offer shares are all [\u25cf] in the RHP.",
+      "Promoter pre-offer holding is printed only per person: Ankit Garg 33.03%, Chaitanya Ramalingegowda 9.98% (fully diluted), promoter group Nil. No combined total is printed, so the field is left null.",
+      "FY2025 borrowings are printed as Nil (and as '-' in the balance sheet), so they are recorded as 0. FY2024 borrowings were 73.61 million.",
+      "Pre-IPO placement: 2,871,794 shares at \u20b9195 each (\u20b9560.00 million). The fresh issue was reduced to \u20b93,771.78 million as a result.",
+      "Lease/rent payments for existing COCO stores and the marketing spend are categorised as 'other'. The general corporate purposes amount is [\u25cf].",
+      "EBITDA is taken from Other Financial Information (p.330), where it is defined as PAT + tax + finance costs + D&A.",
+      "Sheela Foam's NSE symbol was not printed in the RHP; it was filled in from outside knowledge."
+    ]
+  }
+}

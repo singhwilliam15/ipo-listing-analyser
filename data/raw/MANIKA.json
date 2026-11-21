@@ -1,0 +1,373 @@
+{
+  "symbol": "MANIKA",
+  "rhp_file": "MANIKA.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:21:07+00:00",
+  "pages_sent": [
+    1,
+    2,
+    24,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    93,
+    94,
+    95,
+    113,
+    114,
+    132,
+    133,
+    134,
+    342,
+    343,
+    374
+  ],
+  "n_pdf_pages": 503,
+  "usage": {
+    "input_tokens": 33429,
+    "output_tokens": 3043,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.2966012,
+    "session_id": "283711ce-dcdb-4f30-a9a1-f438bce7dd3c"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Manika Plastech Limited",
+    "sector": "Chemicals & materials",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "stub_period_months": 3,
+    "pre_ipo_placement": null,
+    "lead_managers": "Pantomath Capital Advisors Private Limited",
+    "revenue_fy2": 360.772,
+    "rhp_page_revenue_fy2": 77,
+    "revenue_fy1": 406.502,
+    "rhp_page_revenue_fy1": 77,
+    "revenue_fy0": 435.982,
+    "rhp_page_revenue_fy0": 77,
+    "ebitda_fy2": 30.859,
+    "rhp_page_ebitda_fy2": 134,
+    "ebitda_fy1": 45.3,
+    "rhp_page_ebitda_fy1": 134,
+    "ebitda_fy0": 58.14,
+    "rhp_page_ebitda_fy0": 134,
+    "pat_fy2": 11.533,
+    "rhp_page_pat_fy2": 77,
+    "pat_fy1": 19.331,
+    "rhp_page_pat_fy1": 77,
+    "pat_fy0": 22.402,
+    "rhp_page_pat_fy0": 77,
+    "cfo_fy2": 35.423,
+    "rhp_page_cfo_fy2": 78,
+    "cfo_fy1": 36.877,
+    "rhp_page_cfo_fy1": 78,
+    "cfo_fy0": 44.3,
+    "rhp_page_cfo_fy0": 78,
+    "net_worth_fy0": 147.617,
+    "rhp_page_net_worth_fy0": 76,
+    "total_debt_fy0": null,
+    "rhp_page_total_debt_fy0": 76,
+    "cash_fy0": 0.262,
+    "rhp_page_cash_fy0": 76,
+    "revenue_stub": 162.454,
+    "rhp_page_revenue_stub": 77,
+    "pat_stub": 13.072,
+    "rhp_page_pat_stub": 77,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 2.36,
+    "rhp_page_eps_fy0": 77,
+    "ronw_fy0_pct": 15.18,
+    "rhp_page_ronw_fy0_pct": 133,
+    "nav_per_share_fy0": 15.54,
+    "rhp_page_nav_per_share_fy0": 133,
+    "fresh_issue_cr": 92.5,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.7674418,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 9.5,
+    "rhp_page_pre_issue_shares_cr": 73,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 73,
+    "ofs_promoter_shares_cr": 0.7674418,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 15.0,
+    "proceeds_capex_cr": 54.929,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "HITECHCORP; MOLDTKPAC; SHAILY",
+    "n_peers": 3,
+    "peer_pe_list": [
+      37.85,
+      32.34,
+      88.85
+    ],
+    "peer_ronw_list": [
+      5.34,
+      10.56,
+      23.71
+    ],
+    "rhp_page_peers": 134
+  },
+  "extract": {
+    "company": "Manika Plastech Limited",
+    "sector": "Chemicals & materials",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 925.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 7674418.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "VRIDAA Holding Trust",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 7674418.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 95000000.0,
+      "unit": "shares",
+      "page": 73
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 73
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding the capital expenditure towards purchase of plant and machinery",
+        "category": "capex",
+        "amount": {
+          "value": 549.29,
+          "unit": "million",
+          "page": 114
+        }
+      },
+      {
+        "purpose": "Repayment and/or pre-payment, in part or full, of certain borrowings availed by the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 150.0,
+          "unit": "million",
+          "page": 114
+        }
+      },
+      {
+        "purpose": "General Corporate Purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": null,
+          "page": 114
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lead_managers": [
+      "Pantomath Capital Advisors Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "revenue_fy2": {
+      "value": 3607.72,
+      "unit": "million",
+      "page": 77
+    },
+    "revenue_fy1": {
+      "value": 4065.02,
+      "unit": "million",
+      "page": 77
+    },
+    "revenue_fy0": {
+      "value": 4359.82,
+      "unit": "million",
+      "page": 77
+    },
+    "ebitda_fy2": {
+      "value": 308.59,
+      "unit": "million",
+      "page": 134
+    },
+    "ebitda_fy1": {
+      "value": 453.0,
+      "unit": "million",
+      "page": 134
+    },
+    "ebitda_fy0": {
+      "value": 581.4,
+      "unit": "million",
+      "page": 134
+    },
+    "pat_fy2": {
+      "value": 115.33,
+      "unit": "million",
+      "page": 77
+    },
+    "pat_fy1": {
+      "value": 193.31,
+      "unit": "million",
+      "page": 77
+    },
+    "pat_fy0": {
+      "value": 224.02,
+      "unit": "million",
+      "page": 77
+    },
+    "cfo_fy2": {
+      "value": 354.23,
+      "unit": "million",
+      "page": 78
+    },
+    "cfo_fy1": {
+      "value": 368.77,
+      "unit": "million",
+      "page": 78
+    },
+    "cfo_fy0": {
+      "value": 443.0,
+      "unit": "million",
+      "page": 78
+    },
+    "net_worth_fy0": {
+      "value": 1476.17,
+      "unit": "million",
+      "page": 76
+    },
+    "total_debt_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": 76
+    },
+    "cash_fy0": {
+      "value": 2.62,
+      "unit": "million",
+      "page": 76
+    },
+    "eps_fy0": {
+      "value": 2.36,
+      "unit": "rupees",
+      "page": 77
+    },
+    "ronw_fy0_pct": {
+      "value": 15.18,
+      "unit": "percent",
+      "page": 133
+    },
+    "nav_per_share_fy0": {
+      "value": 15.54,
+      "unit": "rupees",
+      "page": 133
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 1624.54,
+      "unit": "million",
+      "page": 77
+    },
+    "pat_stub": {
+      "value": 130.72,
+      "unit": "million",
+      "page": 77
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Hitech Corporation Limited",
+        "nse_symbol": "HITECHCORP",
+        "pe": 37.85,
+        "ronw_pct": 5.34,
+        "page": 134
+      },
+      {
+        "name": "Mold-Tek Packaging Limited",
+        "nse_symbol": "MOLDTKPAC",
+        "pe": 32.34,
+        "ronw_pct": 10.56,
+        "page": 134
+      },
+      {
+        "name": "Shaily Engineering Plastics Limited",
+        "nse_symbol": "SHAILY",
+        "pe": 88.85,
+        "ronw_pct": 23.71,
+        "page": 134
+      }
+    ],
+    "notes": [
+      "Total debt FY2026 is not printed as a single figure. The balance sheet (page 76) shows non-current borrowings of 207.38 and current borrowings of 674.50 (\u20b9 million) as at March 31, 2026. The only printed total is 924.62 as at June 30, 2026 (capitalisation statement, page 374).",
+      "EBITDA FY2025 is 453.00 in the KPI table (page 134) but 452.99 in Other Financial Information (page 342). The KPI figure is used.",
+      "Price band, lot size, number of fresh issue shares, post-offer shares, retail quota % and promoter shareholding % are [\u25cf] or not on the pages provided.",
+      "Pre-IPO placement status could not be confirmed from the pages provided. The capital history pages shown end in 2008. The equity shares were sub-divided on February 3, 2025.",
+      "Peer NSE symbols are not printed in the RHP and are inferred.",
+      "Shaily Engineering was excluded as an outlier from the RHP's industry P/E average."
+    ]
+  }
+}

@@ -1,0 +1,397 @@
+{
+  "symbol": "FRACTAL",
+  "rhp_file": "FRACTAL.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:01:22+00:00",
+  "pages_sent": [
+    1,
+    2,
+    22,
+    23,
+    24,
+    25,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    106,
+    107,
+    108,
+    208,
+    209,
+    225,
+    226,
+    227,
+    504,
+    505,
+    538
+  ],
+  "n_pdf_pages": 652,
+  "usage": {
+    "input_tokens": 37850,
+    "output_tokens": 3920,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.34995129999999997,
+    "session_id": "92a866f3-8f48-415b-874a-ec46767cd3ce"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Fractal Analytics Limited",
+    "sector": "IT & software",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "stub_period_months": 6,
+    "pre_ipo_placement": null,
+    "lead_managers": "Kotak Mahindra Capital Company Limited; Morgan Stanley India Company Private Limited; Axis Capital Limited; Goldman Sachs (India) Securities Private Limited",
+    "revenue_fy2": 1985.4,
+    "rhp_page_revenue_fy2": 92,
+    "revenue_fy1": 2196.3,
+    "rhp_page_revenue_fy1": 92,
+    "revenue_fy0": 2765.4,
+    "rhp_page_revenue_fy0": 92,
+    "ebitda_fy2": null,
+    "ebitda_fy1": null,
+    "ebitda_fy0": null,
+    "pat_fy2": 194.4,
+    "rhp_page_pat_fy2": 92,
+    "pat_fy1": -54.7,
+    "rhp_page_pat_fy1": 92,
+    "pat_fy0": 220.6,
+    "rhp_page_pat_fy0": 92,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 1753.2,
+    "rhp_page_net_worth_fy0": 90,
+    "total_debt_fy0": 266.2,
+    "rhp_page_total_debt_fy0": 25,
+    "cash_fy0": 264.9,
+    "rhp_page_cash_fy0": 90,
+    "revenue_stub": 1559.0,
+    "rhp_page_revenue_stub": 92,
+    "pat_stub": 70.9,
+    "rhp_page_pat_stub": 92,
+    "price_low": null,
+    "rhp_page_price_low": 227,
+    "price_high": null,
+    "rhp_page_price_high": 227,
+    "lot_size": null,
+    "promoter_pre_pct": 17.87,
+    "rhp_page_promoter_pre_pct": 23,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 23,
+    "retail_quota_pct": null,
+    "rhp_page_retail_quota_pct": 87,
+    "pre_ipo_price": null,
+    "eps_fy0": 14.49,
+    "rhp_page_eps_fy0": 226,
+    "ronw_fy0_pct": 12.6,
+    "rhp_page_ronw_fy0_pct": 227,
+    "nav_per_share_fy0": 104.0,
+    "rhp_page_nav_per_share_fy0": 227,
+    "fresh_issue_cr": 1023.5,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": 1810.4,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 16.0556718,
+    "rhp_page_pre_issue_shares_cr": 87,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 87,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 264.9,
+    "proceeds_capex_cr": 178.2,
+    "proceeds_gcp_cr": 0.0,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "Fractal Analytics Limited",
+    "sector": "IT & software",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 227
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 227
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 10235.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": 18104.0,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Quinag Bidco Ltd",
+        "kind": "investor",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "TPG Fett Holdings Pte. Ltd.",
+        "kind": "investor",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Satya Kumari Remala and Rao Venkateswara Remala",
+        "kind": "other",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "GLM Family Trust",
+        "kind": "other",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 160556718.0,
+      "unit": "shares",
+      "page": 87
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 87
+    },
+    "promoter_pre_pct": {
+      "value": 17.87,
+      "unit": "percent",
+      "page": 23
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 23
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Investment in subsidiary Fractal USA for pre-payment/scheduled repayment of its borrowings",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 2649.0,
+          "unit": "million",
+          "page": 209
+        }
+      },
+      {
+        "purpose": "Purchase of laptops",
+        "category": "capex",
+        "amount": {
+          "value": 571.0,
+          "unit": "million",
+          "page": 209
+        }
+      },
+      {
+        "purpose": "Setting-up new office premises in India",
+        "category": "capex",
+        "amount": {
+          "value": 1211.0,
+          "unit": "million",
+          "page": 209
+        }
+      },
+      {
+        "purpose": "Investment in (a) research and development; and (b) sales and marketing under Fractal Alpha",
+        "category": "other",
+        "amount": {
+          "value": 3551.0,
+          "unit": "million",
+          "page": 209
+        }
+      },
+      {
+        "purpose": "Funding inorganic growth through unidentified acquisitions and other strategic initiatives, and general corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 209
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 87
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Kotak Mahindra Capital Company Limited",
+      "Morgan Stanley India Company Private Limited",
+      "Axis Capital Limited",
+      "Goldman Sachs (India) Securities Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "revenue_fy2": {
+      "value": 19854.0,
+      "unit": "million",
+      "page": 92
+    },
+    "revenue_fy1": {
+      "value": 21963.0,
+      "unit": "million",
+      "page": 92
+    },
+    "revenue_fy0": {
+      "value": 27654.0,
+      "unit": "million",
+      "page": 92
+    },
+    "ebitda_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "ebitda_fy1": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "ebitda_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_fy2": {
+      "value": 1944.0,
+      "unit": "million",
+      "page": 92
+    },
+    "pat_fy1": {
+      "value": -547.0,
+      "unit": "million",
+      "page": 92
+    },
+    "pat_fy0": {
+      "value": 2206.0,
+      "unit": "million",
+      "page": 92
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 17532.0,
+      "unit": "million",
+      "page": 90
+    },
+    "total_debt_fy0": {
+      "value": 2662.0,
+      "unit": "million",
+      "page": 25
+    },
+    "cash_fy0": {
+      "value": 2649.0,
+      "unit": "million",
+      "page": 90
+    },
+    "eps_fy0": {
+      "value": 14.49,
+      "unit": "rupees",
+      "page": 226
+    },
+    "ronw_fy0_pct": {
+      "value": 12.6,
+      "unit": "percent",
+      "page": 227
+    },
+    "nav_per_share_fy0": {
+      "value": 104.0,
+      "unit": "rupees",
+      "page": 227
+    },
+    "stub_period_months": 6,
+    "revenue_stub": {
+      "value": 15590.0,
+      "unit": "million",
+      "page": 92
+    },
+    "pat_stub": {
+      "value": 709.0,
+      "unit": "million",
+      "page": 92
+    },
+    "no_listed_peers": true,
+    "peers": [],
+    "notes": [
+      "The price band, lot size, share counts for the fresh issue and OFS, and the post-offer shares are all printed as [\u25cf]. The OFS is given only as amounts per seller, in \u20b9 million: Quinag Bidco 8,809; TPG Fett 4,500; Remala 295; GLM Family Trust 4,500.",
+      "The cover page calls every seller an 'Other Selling Shareholder'. I classed Quinag Bidco and TPG Fett as investors (PE). I classed the Remala individuals and GLM Family Trust as other.",
+      "promoter_pre_pct of 17.87% covers the Promoters only (Total A). The Promoter Group (AGI Trust and ASI Trust) holds another 0.32% (Total B). No combined figure is printed. On a fully diluted basis the figures are 17.87% and 0.30%.",
+      "Net worth here is equity attributable to owners, 17,532 million (p.90). The SEBI-defined Net Worth used for RoNW and NAV is 17,483 million (p.25/499). Total equity including NCI is 17,654 million.",
+      "total_debt_fy0 is the total borrowings figure on p.25 (2,662 million). It matches non-current 2,577 plus current 85 on p.90.",
+      "EBITDA is not reported on the pages provided. Cash flow from operations is not on the pages provided either.",
+      "The retail quota percentage is not printed on the pages provided. QIB is at least 75% of the Net Offer and NII at most 15%; the Retail Category share is printed as [\u25cf].",
+      "The offer includes an Employee Reservation Portion of up to \u20b9600 million.",
+      "No pre-IPO placement is disclosed on these pages. Recent capital changes were a 1:4 bonus issue (July 29, 2025) and conversion of 4,523,604 CCPS into 22,618,020 equity shares (January 23, 2026).",
+      "There is no peer comparison: the RHP states there are no listed companies in India or globally with a similar business model.",
+      "The 'Funding inorganic growth/unidentified acquisitions and GCP' amount is [\u25cf]. It is capped at 35% of Gross Proceeds."
+    ]
+  }
+}

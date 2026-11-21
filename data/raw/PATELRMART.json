@@ -1,0 +1,397 @@
+{
+  "symbol": "PATELRMART",
+  "rhp_file": "PATELRMART.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:11:13+00:00",
+  "pages_sent": [
+    1,
+    2,
+    32,
+    33,
+    34,
+    35,
+    116,
+    117,
+    119,
+    120,
+    121,
+    122,
+    133,
+    134,
+    135,
+    155,
+    156,
+    173,
+    174,
+    175,
+    491,
+    492,
+    520
+  ],
+  "n_pdf_pages": 659,
+  "usage": {
+    "input_tokens": 33380,
+    "output_tokens": 3690,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3091453,
+    "session_id": "97f2523d-3438-4959-a61e-bd5cff1a420c"
+  },
+  "checks": [
+    "missing fy0 revenue or PAT"
+  ],
+  "fields": {
+    "company_rhp": "Patel Retail Limited",
+    "sector": "Consumer & retail",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "FY2025",
+    "stub_period_months": null,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "Fedex Securities Private Limited",
+    "revenue_fy2": null,
+    "revenue_fy1": null,
+    "revenue_fy0": null,
+    "ebitda_fy2": 43.2396,
+    "rhp_page_ebitda_fy2": 491,
+    "ebitda_fy1": 55.8395,
+    "rhp_page_ebitda_fy1": 491,
+    "ebitda_fy0": 62.4327,
+    "rhp_page_ebitda_fy0": 491,
+    "pat_fy2": null,
+    "pat_fy1": null,
+    "pat_fy0": null,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 134.5744,
+    "rhp_page_net_worth_fy0": 520,
+    "total_debt_fy0": 180.5371,
+    "rhp_page_total_debt_fy0": 520,
+    "cash_fy0": null,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": 97.99,
+    "rhp_page_promoter_pre_pct": 35,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 35,
+    "retail_quota_pct": null,
+    "pre_ipo_price": 300.0,
+    "rhp_page_pre_ipo_price": 2,
+    "eps_fy0": 10.3,
+    "rhp_page_eps_fy0": 173,
+    "ronw_fy0_pct": 19.02,
+    "rhp_page_ronw_fy0_pct": 174,
+    "nav_per_share_fy0": 54.08,
+    "rhp_page_nav_per_share_fy0": 175,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": 0.8518,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.1002,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 2.4882528,
+    "rhp_page_pre_issue_shares_cr": 116,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 116,
+    "ofs_promoter_shares_cr": 0.1002,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 59.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "Vishal Mega Mart Limited (Consolidated); Avenue Supermarts Limited (Consolidated); Spencers Retail Limited (Consolidated); Osia Hyper Retail Limited; Aditya Consumer Marketing Limited",
+    "n_peers": 5,
+    "peer_pe_list": [
+      104.73,
+      102.33,
+      8.73
+    ],
+    "peer_ronw_list": [
+      9.87,
+      12.64,
+      -37.24,
+      4.97,
+      -18.51
+    ],
+    "rhp_page_peers": 175
+  },
+  "extract": {
+    "company": "Patel Retail Limited",
+    "sector": "Consumer & retail",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "lakh",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": 8518000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "lakh",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 1002000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Dhanji Raghavji Patel",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 768000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Bechar Raghavji Patel",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 234000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 24882528.0,
+      "unit": "shares",
+      "page": 116
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 116
+    },
+    "promoter_pre_pct": {
+      "value": 97.99,
+      "unit": "percent",
+      "page": 35
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 35
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment/prepayment, in full or part, of certain borrowings availed by the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 5900.0,
+          "unit": "lakh",
+          "page": 156
+        }
+      },
+      {
+        "purpose": "Funding of working capital requirements of the Company",
+        "category": "other",
+        "amount": {
+          "value": 11500.0,
+          "unit": "lakh",
+          "page": 156
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "lakh",
+          "page": 156
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 300.0,
+      "unit": "rupees",
+      "page": 2
+    },
+    "lead_managers": [
+      "Fedex Securities Private Limited"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "FY2025",
+    "revenue_fy2": {
+      "value": null,
+      "unit": "lakh",
+      "page": null
+    },
+    "revenue_fy1": {
+      "value": null,
+      "unit": "lakh",
+      "page": null
+    },
+    "revenue_fy0": {
+      "value": null,
+      "unit": "lakh",
+      "page": null
+    },
+    "ebitda_fy2": {
+      "value": 4323.96,
+      "unit": "lakh",
+      "page": 491
+    },
+    "ebitda_fy1": {
+      "value": 5583.95,
+      "unit": "lakh",
+      "page": 491
+    },
+    "ebitda_fy0": {
+      "value": 6243.27,
+      "unit": "lakh",
+      "page": 491
+    },
+    "pat_fy2": {
+      "value": null,
+      "unit": "lakh",
+      "page": null
+    },
+    "pat_fy1": {
+      "value": null,
+      "unit": "lakh",
+      "page": null
+    },
+    "pat_fy0": {
+      "value": null,
+      "unit": "lakh",
+      "page": null
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "lakh",
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": "lakh",
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": "lakh",
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 13457.44,
+      "unit": "lakh",
+      "page": 520
+    },
+    "total_debt_fy0": {
+      "value": 18053.71,
+      "unit": "lakh",
+      "page": 520
+    },
+    "cash_fy0": {
+      "value": null,
+      "unit": "lakh",
+      "page": null
+    },
+    "eps_fy0": {
+      "value": 10.3,
+      "unit": "rupees",
+      "page": 173
+    },
+    "ronw_fy0_pct": {
+      "value": 19.02,
+      "unit": "percent",
+      "page": 174
+    },
+    "nav_per_share_fy0": {
+      "value": 54.08,
+      "unit": "rupees",
+      "page": 175
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Vishal Mega Mart Limited (Consolidated)",
+        "nse_symbol": null,
+        "pe": 104.73,
+        "ronw_pct": 9.87,
+        "page": 175
+      },
+      {
+        "name": "Avenue Supermarts Limited (Consolidated)",
+        "nse_symbol": null,
+        "pe": 102.33,
+        "ronw_pct": 12.64,
+        "page": 175
+      },
+      {
+        "name": "Spencers Retail Limited (Consolidated)",
+        "nse_symbol": null,
+        "pe": null,
+        "ronw_pct": -37.24,
+        "page": 175
+      },
+      {
+        "name": "Osia Hyper Retail Limited",
+        "nse_symbol": null,
+        "pe": 8.73,
+        "ronw_pct": 4.97,
+        "page": 175
+      },
+      {
+        "name": "Aditya Consumer Marketing Limited",
+        "nse_symbol": null,
+        "pe": null,
+        "ronw_pct": -18.51,
+        "page": 175
+      }
+    ],
+    "notes": [
+      "The summary financial information pages (115-117) have no text, and the restated P&L and cash flow pages were not included. So revenue from operations, PAT and CFO are null. Page 32 shows only Sale of Products (FY25 81,321.93; FY24 80,344.70; FY23 1,00,818.79 lakh), which is 99.09%/98.68%/98.98% of revenue from operations. Total income is also not shown.",
+      "Financials basis taken as standalone: the company appears to have no subsidiaries and page 486 refers to standalone financial statements, but the RHP only says 'Restated Financial Statements'.",
+      "Page 119 text says the restated financial years are FY2024/2023/2022, but all other pages use FY2025/2024/2023. fy0 = FY2025 (March 31, 2025).",
+      "Price band, lot size, offer amounts, post-offer shares and retail quota are printed as [\u25cf] or not on the pages given.",
+      "Pre-IPO placement on Nov 27, 2024: 5,00,000 shares at \u20b9300 (\u20b91,500 lakh). These shares were deducted from the Fresh Issue.",
+      "Object amounts (5,900 and 11,500 lakh) are printed as 'Estimated amount from Net Proceeds and Pre-IPO Placement'. \u20b9599.98 lakh of the working capital amount was already used from the pre-IPO placement. Working capital is categorised as 'other'.",
+      "The peer table continues beyond page 175. Sheetal Universal, KN Agri Resources, Kovilpatti Lakshmi Roller Flour Mills and Madhusudhan Masala are named as peers, but their figures are not on the pages given.",
+      "EBITDA is from the accounting ratios on page 491. Adjusted EBITDA (excluding other income) is 5,713.55 / 5,231.53 / 4,198.38 lakh.",
+      "Promoter pre-offer holding: 97.99% is promoters plus promoter group. Promoters alone hold 89.37%."
+    ]
+  }
+}

@@ -1,0 +1,336 @@
+{
+  "symbol": "SHREEJISPG",
+  "rhp_file": "SHREEJISPG.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:11:23+00:00",
+  "pages_sent": [
+    1,
+    2,
+    20,
+    22,
+    30,
+    42,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    109,
+    110,
+    111,
+    121,
+    122,
+    133,
+    134,
+    331,
+    332,
+    360
+  ],
+  "n_pdf_pages": 473,
+  "usage": {
+    "input_tokens": 32333,
+    "output_tokens": 2960,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.286067,
+    "session_id": "fc69e98b-25f4-4d85-ae89-20559b814c83"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Shreeji Shipping Global Limited",
+    "sector": "Logistics & travel",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "stub_period_months": null,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "Beeline Capital Advisors Private Limited; Elara Capital (India) Private Limited",
+    "revenue_fy2": 826.997,
+    "rhp_page_revenue_fy2": 92,
+    "revenue_fy1": 731.003,
+    "rhp_page_revenue_fy1": 92,
+    "revenue_fy0": 607.613,
+    "rhp_page_revenue_fy0": 92,
+    "ebitda_fy2": 188.713,
+    "rhp_page_ebitda_fy2": 331,
+    "ebitda_fy1": 197.891,
+    "rhp_page_ebitda_fy1": 331,
+    "ebitda_fy0": 200.682,
+    "rhp_page_ebitda_fy0": 331,
+    "pat_fy2": 118.885,
+    "rhp_page_pat_fy2": 92,
+    "pat_fy1": 124.512,
+    "rhp_page_pat_fy1": 92,
+    "pat_fy0": 141.237,
+    "rhp_page_pat_fy0": 92,
+    "cfo_fy2": 152.701,
+    "rhp_page_cfo_fy2": 93,
+    "cfo_fy1": 158.558,
+    "rhp_page_cfo_fy1": 93,
+    "cfo_fy0": 138.789,
+    "rhp_page_cfo_fy0": 93,
+    "net_worth_fy0": 343.172,
+    "rhp_page_net_worth_fy0": 91,
+    "total_debt_fy0": 256.473,
+    "rhp_page_total_debt_fy0": 30,
+    "cash_fy0": 106.11500000000001,
+    "rhp_page_cash_fy0": 91,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": 360818.0,
+    "rhp_page_pre_ipo_price": 110,
+    "eps_fy0": 9.83,
+    "rhp_page_eps_fy0": 92,
+    "ronw_fy0_pct": 42.91,
+    "rhp_page_ronw_fy0_pct": 129,
+    "nav_per_share_fy0": 23.41,
+    "rhp_page_nav_per_share_fy0": 129,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": 1.6298,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 14.6620254,
+    "rhp_page_pre_issue_shares_cr": 88,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 88,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 23.0,
+    "proceeds_capex_cr": 251.179,
+    "proceeds_gcp_cr": 0.0,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "Shreeji Shipping Global Limited",
+    "sector": "Logistics & travel",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": 16298000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 146620254.0,
+      "unit": "shares",
+      "page": 88
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 88
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Acquisition of Dry Bulk Carriers in Supramax category in the secondary market",
+        "category": "capex",
+        "amount": {
+          "value": 2511.79,
+          "unit": "million",
+          "page": 121
+        }
+      },
+      {
+        "purpose": "Pre-payment/re-payment, in part or full, of certain outstanding borrowings",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 230.0,
+          "unit": "million",
+          "page": 121
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 121
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 360818.0,
+      "unit": "rupees",
+      "page": 110
+    },
+    "lead_managers": [
+      "Beeline Capital Advisors Private Limited",
+      "Elara Capital (India) Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "revenue_fy2": {
+      "value": 8269.97,
+      "unit": "million",
+      "page": 92
+    },
+    "revenue_fy1": {
+      "value": 7310.03,
+      "unit": "million",
+      "page": 92
+    },
+    "revenue_fy0": {
+      "value": 6076.13,
+      "unit": "million",
+      "page": 92
+    },
+    "ebitda_fy2": {
+      "value": 1887.13,
+      "unit": "million",
+      "page": 331
+    },
+    "ebitda_fy1": {
+      "value": 1978.91,
+      "unit": "million",
+      "page": 331
+    },
+    "ebitda_fy0": {
+      "value": 2006.82,
+      "unit": "million",
+      "page": 331
+    },
+    "pat_fy2": {
+      "value": 1188.85,
+      "unit": "million",
+      "page": 92
+    },
+    "pat_fy1": {
+      "value": 1245.12,
+      "unit": "million",
+      "page": 92
+    },
+    "pat_fy0": {
+      "value": 1412.37,
+      "unit": "million",
+      "page": 92
+    },
+    "cfo_fy2": {
+      "value": 1527.01,
+      "unit": "million",
+      "page": 93
+    },
+    "cfo_fy1": {
+      "value": 1585.58,
+      "unit": "million",
+      "page": 93
+    },
+    "cfo_fy0": {
+      "value": 1387.89,
+      "unit": "million",
+      "page": 93
+    },
+    "net_worth_fy0": {
+      "value": 3431.72,
+      "unit": "million",
+      "page": 91
+    },
+    "total_debt_fy0": {
+      "value": 2564.73,
+      "unit": "million",
+      "page": 30
+    },
+    "cash_fy0": {
+      "value": 1061.15,
+      "unit": "million",
+      "page": 91
+    },
+    "eps_fy0": {
+      "value": 9.83,
+      "unit": "rupees",
+      "page": 92
+    },
+    "ronw_fy0_pct": {
+      "value": 42.91,
+      "unit": "percent",
+      "page": 129
+    },
+    "nav_per_share_fy0": {
+      "value": 23.41,
+      "unit": "rupees",
+      "page": 129
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "no_listed_peers": true,
+    "peers": [],
+    "notes": [
+      "Pure fresh issue; no offer for sale.",
+      "Price band, lot size, retail quota and post-issue share count are not printed on the pages provided (shown as [\u25cf] or missing).",
+      "The pages provided do not include the shareholding pattern table. Before the issue, all shares appear to be held by the two promoters plus family members and family trusts who received shares as gifts (likely promoter group). Because this % is not printed, promoter_pre_pct is left null.",
+      "Pre-IPO allotment: rights issue on September 9, 2024 of 4,654 shares at Rs 360,818 per share, made by converting an unsecured loan into equity. It was followed by a 1400:1 bonus issue on September 12, 2024. The gift transfers on October 14, 2024 had no price.",
+      "The capitalisation statement (p.355) shows equity share capital of 1,466.60 million, but the balance sheet shows 1,466.20 million. This looks like a typo.",
+      "The cash flow statement shows net profit before tax as 1,907.47 (FY25), but the P&L shows PBT as 1,888.95. These do not match.",
+      "EBITDA is taken from the Other Financial Information accounting ratios (PAT + finance costs + D&A + tax - exceptional items).",
+      "The general corporate purposes amount is [\u25cf] and is capped at 25% of gross proceeds."
+    ]
+  }
+}

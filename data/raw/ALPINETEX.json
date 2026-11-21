@@ -1,0 +1,366 @@
+{
+  "symbol": "ALPINETEX",
+  "rhp_file": "ALPINETEX.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:27:52+00:00",
+  "pages_sent": [
+    1,
+    2,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    98,
+    99,
+    100,
+    127,
+    128,
+    144,
+    145,
+    146,
+    361,
+    362,
+    395
+  ],
+  "n_pdf_pages": 492,
+  "usage": {
+    "input_tokens": 34835,
+    "output_tokens": 3160,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3103313,
+    "session_id": "f0c82e83-85fe-43ad-bd75-50c29ce6fdf1"
+  },
+  "checks": [
+    "retail quota 70.0 is not 10 or 35"
+  ],
+  "fields": {
+    "company_rhp": "Alpine Texworld Limited (formerly Alpine Spinweave Limited)",
+    "sector": "Consumer & retail",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "stub_period_months": null,
+    "pre_ipo_placement": null,
+    "lead_managers": "D and A Financial Services Private Limited",
+    "revenue_fy2": 183.603,
+    "rhp_page_revenue_fy2": 82,
+    "revenue_fy1": 237.324,
+    "rhp_page_revenue_fy1": 82,
+    "revenue_fy0": 342.713,
+    "rhp_page_revenue_fy0": 82,
+    "ebitda_fy2": 19.906,
+    "rhp_page_ebitda_fy2": 361,
+    "ebitda_fy1": 27.0,
+    "rhp_page_ebitda_fy1": 361,
+    "ebitda_fy0": 47.448,
+    "rhp_page_ebitda_fy0": 361,
+    "pat_fy2": 4.881,
+    "rhp_page_pat_fy2": 82,
+    "pat_fy1": 8.626,
+    "rhp_page_pat_fy1": 82,
+    "pat_fy0": 21.716,
+    "rhp_page_pat_fy0": 82,
+    "cfo_fy2": 31.519,
+    "rhp_page_cfo_fy2": 83,
+    "cfo_fy1": 13.008000000000001,
+    "rhp_page_cfo_fy1": 83,
+    "cfo_fy0": 33.99,
+    "rhp_page_cfo_fy0": 83,
+    "net_worth_fy0": 72.884,
+    "rhp_page_net_worth_fy0": 81,
+    "total_debt_fy0": 177.595,
+    "rhp_page_total_debt_fy0": 395,
+    "cash_fy0": 0.06,
+    "rhp_page_cash_fy0": 81,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": 70.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": null,
+    "eps_fy0": 8.18,
+    "rhp_page_eps_fy0": 82,
+    "ronw_fy0_pct": 29.44,
+    "rhp_page_ronw_fy0_pct": 145,
+    "nav_per_share_fy0": 27.79,
+    "rhp_page_nav_per_share_fy0": 145,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": 1.2024,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 2.6223,
+    "rhp_page_pre_issue_shares_cr": 78,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 78,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 52.2,
+    "proceeds_capex_cr": 30.711,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "United Polyfab Gujarat Limited; Ken Enterprises Limited; Pashupati Cotspin Limited",
+    "n_peers": 3,
+    "peer_pe_list": [
+      31.6,
+      5.27,
+      145.21
+    ],
+    "peer_ronw_list": [
+      18.48,
+      12.14,
+      6.33
+    ],
+    "rhp_page_peers": 146
+  },
+  "extract": {
+    "company": "Alpine Texworld Limited (formerly Alpine Spinweave Limited)",
+    "sector": "Consumer & retail",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": 12024000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 26223000.0,
+      "unit": "shares",
+      "page": 78
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 78
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Setting up a new weaving unit at Proposed Manufacturing Unit 3 to produce Grey Fabric at Ahmedabad, Gujarat",
+        "category": "capex",
+        "amount": {
+          "value": 307.11,
+          "unit": "million",
+          "page": 127
+        }
+      },
+      {
+        "purpose": "Prepayment or repayment, in part or full, of certain outstanding borrowings",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 522.0,
+          "unit": "million",
+          "page": 127
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 127
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 70.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lead_managers": [
+      "D and A Financial Services Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "revenue_fy2": {
+      "value": 1836.03,
+      "unit": "million",
+      "page": 82
+    },
+    "revenue_fy1": {
+      "value": 2373.24,
+      "unit": "million",
+      "page": 82
+    },
+    "revenue_fy0": {
+      "value": 3427.13,
+      "unit": "million",
+      "page": 82
+    },
+    "ebitda_fy2": {
+      "value": 199.06,
+      "unit": "million",
+      "page": 361
+    },
+    "ebitda_fy1": {
+      "value": 270.0,
+      "unit": "million",
+      "page": 361
+    },
+    "ebitda_fy0": {
+      "value": 474.48,
+      "unit": "million",
+      "page": 361
+    },
+    "pat_fy2": {
+      "value": 48.81,
+      "unit": "million",
+      "page": 82
+    },
+    "pat_fy1": {
+      "value": 86.26,
+      "unit": "million",
+      "page": 82
+    },
+    "pat_fy0": {
+      "value": 217.16,
+      "unit": "million",
+      "page": 82
+    },
+    "cfo_fy2": {
+      "value": 315.19,
+      "unit": "million",
+      "page": 83
+    },
+    "cfo_fy1": {
+      "value": 130.08,
+      "unit": "million",
+      "page": 83
+    },
+    "cfo_fy0": {
+      "value": 339.9,
+      "unit": "million",
+      "page": 83
+    },
+    "net_worth_fy0": {
+      "value": 728.84,
+      "unit": "million",
+      "page": 81
+    },
+    "total_debt_fy0": {
+      "value": 1775.95,
+      "unit": "million",
+      "page": 395
+    },
+    "cash_fy0": {
+      "value": 0.6,
+      "unit": "million",
+      "page": 81
+    },
+    "eps_fy0": {
+      "value": 8.18,
+      "unit": "rupees",
+      "page": 82
+    },
+    "ronw_fy0_pct": {
+      "value": 29.44,
+      "unit": "percent",
+      "page": 145
+    },
+    "nav_per_share_fy0": {
+      "value": 27.79,
+      "unit": "rupees",
+      "page": 145
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "United Polyfab Gujarat Limited",
+        "nse_symbol": null,
+        "pe": 31.6,
+        "ronw_pct": 18.48,
+        "page": 146
+      },
+      {
+        "name": "Ken Enterprises Limited",
+        "nse_symbol": null,
+        "pe": 5.27,
+        "ronw_pct": 12.14,
+        "page": 146
+      },
+      {
+        "name": "Pashupati Cotspin Limited",
+        "nse_symbol": null,
+        "pe": 145.21,
+        "ronw_pct": 6.33,
+        "page": 146
+      }
+    ],
+    "notes": [
+      "The financials mix two bases: FY2026 and FY2025 are restated consolidated, while FY2024 is restated standalone because the subsidiary/LLP came later.",
+      "This is a pure fresh issue with no offer for sale. The price band, lot size, issue amount and post-issue shares are printed as [\u25cf].",
+      "The cover page gives the allocation as QIB not more than 1%, NII not less than 29% and retail not less than 70%. That split is unusual, but these are the printed figures.",
+      "Total debt of 1,775.95 million is taken from the capitalization statement and excludes lease liabilities.",
+      "Promoter shareholding before and after the issue is not on the pages provided.",
+      "The pages provided do not show any allotments in the 12 months before the RHP. The share capital history is incomplete, so pre_ipo_placement is set to unknown.",
+      "EBITDA is taken from Other Financial Information (p.361), not the KPI table, because the KPI table is cut off on the pages provided.",
+      "Peer NSE symbols are not printed in the RHP, so they are left blank.",
+      "Sector: the company makes grey fabric (textiles). There is no textiles category, so Consumer & retail was chosen as the closest."
+    ]
+  }
+}

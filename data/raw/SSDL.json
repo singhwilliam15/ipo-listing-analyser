@@ -1,0 +1,396 @@
+{
+  "symbol": "SSDL",
+  "rhp_file": "SSDL.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-21T06:04:41+00:00",
+  "pages_sent": [
+    1,
+    2,
+    31,
+    32,
+    33,
+    34,
+    90,
+    91,
+    93,
+    94,
+    95,
+    96,
+    106,
+    107,
+    108,
+    124,
+    125,
+    133,
+    134,
+    135,
+    276,
+    277
+  ],
+  "n_pdf_pages": 398,
+  "usage": {
+    "input_tokens": 28503,
+    "output_tokens": 3279,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.2614223,
+    "session_id": "1764ba6d-6c7f-48c1-8466-f4124753c727"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Saraswati Saree Depot Limited",
+    "sector": "Consumer & retail",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024",
+    "stub_period_months": null,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Unistone Capital Private Limited",
+    "revenue_fy2": 549.576,
+    "rhp_page_revenue_fy2": 95,
+    "revenue_fy1": 601.891,
+    "rhp_page_revenue_fy1": 95,
+    "revenue_fy0": 610.904,
+    "rhp_page_revenue_fy0": 95,
+    "ebitda_fy2": 20.846,
+    "rhp_page_ebitda_fy2": 276,
+    "ebitda_fy1": 34.053,
+    "rhp_page_ebitda_fy1": 276,
+    "ebitda_fy0": 41.141,
+    "rhp_page_ebitda_fy0": 276,
+    "pat_fy2": 12.308,
+    "rhp_page_pat_fy2": 95,
+    "pat_fy1": 22.974,
+    "rhp_page_pat_fy1": 95,
+    "pat_fy0": 29.528,
+    "rhp_page_pat_fy0": 95,
+    "cfo_fy2": -41.213,
+    "rhp_page_cfo_fy2": 96,
+    "cfo_fy1": 35.192,
+    "rhp_page_cfo_fy1": 96,
+    "cfo_fy0": -8.54,
+    "rhp_page_cfo_fy0": 96,
+    "net_worth_fy0": 64.909,
+    "rhp_page_net_worth_fy0": 94,
+    "total_debt_fy0": 43.489,
+    "rhp_page_total_debt_fy0": 94,
+    "cash_fy0": 9.868,
+    "rhp_page_cash_fy0": 94,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 134,
+    "price_high": null,
+    "rhp_page_price_high": 134,
+    "lot_size": null,
+    "promoter_pre_pct": 100.0,
+    "rhp_page_promoter_pre_pct": 33,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 8.92,
+    "rhp_page_eps_fy0": 95,
+    "ronw_fy0_pct": 45.49,
+    "rhp_page_ronw_fy0_pct": 135,
+    "nav_per_share_fy0": 19.61,
+    "rhp_page_nav_per_share_fy0": 135,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": 0.64998,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.3501,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 3.31,
+    "rhp_page_pre_issue_shares_cr": 90,
+    "post_issue_shares_cr": 3.95998,
+    "rhp_page_post_issue_shares_cr": 106,
+    "ofs_promoter_shares_cr": 0.35009999999999997,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "Go Fashion (India) Ltd",
+    "n_peers": 1,
+    "peer_pe_list": [
+      71.8
+    ],
+    "peer_ronw_list": [
+      13.71
+    ],
+    "rhp_page_peers": 135
+  },
+  "extract": {
+    "company": "Saraswati Saree Depot Limited",
+    "sector": "Consumer & retail",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 134
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 134
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": 6499800.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 3501000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Tejas Dulhani",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 700200.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Amar Dulhani",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 700200.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Shevakram Dulhani",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 700200.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Sujandas Dulhani",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 700200.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Tushar Dulhani",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 350100.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Nikhil Dulhani",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 350100.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 33100000.0,
+      "unit": "shares",
+      "page": 90
+    },
+    "post_issue_shares": {
+      "value": 39599800.0,
+      "unit": "shares",
+      "page": 106
+    },
+    "promoter_pre_pct": {
+      "value": 100.0,
+      "unit": "percent",
+      "page": 33
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding working capital requirements of our Company",
+        "category": "other",
+        "amount": {
+          "value": 810.0,
+          "unit": "million",
+          "page": 125
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 125
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Unistone Capital Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024",
+    "revenue_fy2": {
+      "value": 5495.76,
+      "unit": "million",
+      "page": 95
+    },
+    "revenue_fy1": {
+      "value": 6018.91,
+      "unit": "million",
+      "page": 95
+    },
+    "revenue_fy0": {
+      "value": 6109.04,
+      "unit": "million",
+      "page": 95
+    },
+    "ebitda_fy2": {
+      "value": 208.46,
+      "unit": "million",
+      "page": 276
+    },
+    "ebitda_fy1": {
+      "value": 340.53,
+      "unit": "million",
+      "page": 276
+    },
+    "ebitda_fy0": {
+      "value": 411.41,
+      "unit": "million",
+      "page": 276
+    },
+    "pat_fy2": {
+      "value": 123.08,
+      "unit": "million",
+      "page": 95
+    },
+    "pat_fy1": {
+      "value": 229.74,
+      "unit": "million",
+      "page": 95
+    },
+    "pat_fy0": {
+      "value": 295.28,
+      "unit": "million",
+      "page": 95
+    },
+    "cfo_fy2": {
+      "value": -412.13,
+      "unit": "million",
+      "page": 96
+    },
+    "cfo_fy1": {
+      "value": 351.92,
+      "unit": "million",
+      "page": 96
+    },
+    "cfo_fy0": {
+      "value": -85.4,
+      "unit": "million",
+      "page": 96
+    },
+    "net_worth_fy0": {
+      "value": 649.09,
+      "unit": "million",
+      "page": 94
+    },
+    "total_debt_fy0": {
+      "value": 434.89,
+      "unit": "million",
+      "page": 94
+    },
+    "cash_fy0": {
+      "value": 98.68,
+      "unit": "million",
+      "page": 94
+    },
+    "eps_fy0": {
+      "value": 8.92,
+      "unit": "rupees",
+      "page": 95
+    },
+    "ronw_fy0_pct": {
+      "value": 45.49,
+      "unit": "percent",
+      "page": 135
+    },
+    "nav_per_share_fy0": {
+      "value": 19.61,
+      "unit": "rupees",
+      "page": 135
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Go Fashion (India) Ltd",
+        "nse_symbol": null,
+        "pe": 71.8,
+        "ronw_pct": 13.71,
+        "page": 135
+      }
+    ],
+    "notes": [
+      "Price band, lot size, offer amounts and retail quota are [\u25cf] in the RHP pages provided.",
+      "The cash flow statement layout is garbled: the minus signs come after the numbers. I read operating cash flow as -85.40 (FY24), 351.92 (FY23) and -412.13 (FY22) million, which reconciles with cash generated from operations less taxes paid.",
+      "The financial statements are titled 'Restated Consolidated', but the note on page 271 says the ratios come from the 'Restated Standalone Financial Information'.",
+      "Promoters hold 42.50% and the promoter group holds 57.50%, so promoter plus group holds 100% before the offer. Post-offer holding is not given.",
+      "Working capital funding of \u20b9810.00 million is categorised as 'other'.",
+      "Only one peer (Go Fashion) appears in the peer table on the pages given. Industry P/E is shown as lowest 21.34 and average 46.57, so other peers are on pages not provided.",
+      "There is no pre-IPO placement within 12 months. The only recent allotment is a 330:1 bonus issue on June 20, 2023.",
+      "Post-issue shares of 39,599,800 assume full subscription."
+    ]
+  }
+}

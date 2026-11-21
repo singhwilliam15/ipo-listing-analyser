@@ -1,0 +1,514 @@
+{
+  "symbol": "MANKIND",
+  "rhp_file": "MANKIND.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T20:55:47+00:00",
+  "pages_sent": [
+    1,
+    2,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    118,
+    119,
+    120,
+    121,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    445,
+    446,
+    447,
+    452
+  ],
+  "n_pdf_pages": 588,
+  "usage": {
+    "input_tokens": 61120,
+    "output_tokens": 4212,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.5442788000000001,
+    "session_id": "a2471f2b-7b38-42d8-8777-f83fdccd5edc"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Mankind Pharma Limited",
+    "sector": "Healthcare & pharma",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2022 (March 31, 2022)",
+    "stub_period_months": 9,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Kotak Mahindra Capital Company Limited; Axis Capital Limited; IIFL Securities Limited; Jefferies India Private Limited; J.P. Morgan India Private Limited",
+    "revenue_fy2": 5865.234,
+    "rhp_page_revenue_fy2": 103,
+    "revenue_fy1": 6214.431,
+    "rhp_page_revenue_fy1": 103,
+    "revenue_fy0": 7781.555,
+    "rhp_page_revenue_fy0": 103,
+    "ebitda_fy2": 1448.346,
+    "rhp_page_ebitda_fy2": 146,
+    "ebitda_fy1": 1659.78,
+    "rhp_page_ebitda_fy1": 146,
+    "ebitda_fy0": 2003.8,
+    "rhp_page_ebitda_fy0": 146,
+    "pat_fy2": 1056.148,
+    "rhp_page_pat_fy2": 103,
+    "pat_fy1": 1293.034,
+    "rhp_page_pat_fy1": 103,
+    "pat_fy0": 1452.956,
+    "rhp_page_pat_fy0": 103,
+    "cfo_fy2": 1069.705,
+    "rhp_page_cfo_fy2": 104,
+    "cfo_fy1": 1137.244,
+    "rhp_page_cfo_fy1": 104,
+    "cfo_fy0": 919.776,
+    "rhp_page_cfo_fy0": 104,
+    "net_worth_fy0": 6155.229,
+    "rhp_page_net_worth_fy0": 102,
+    "total_debt_fy0": 868.028,
+    "rhp_page_total_debt_fy0": 33,
+    "cash_fy0": 302.534,
+    "rhp_page_cash_fy0": 102,
+    "revenue_stub": 6696.766,
+    "rhp_page_revenue_stub": 103,
+    "pat_stub": 1015.976,
+    "rhp_page_pat_stub": 103,
+    "price_low": null,
+    "rhp_page_price_low": 144,
+    "price_high": null,
+    "rhp_page_price_high": 144,
+    "lot_size": null,
+    "rhp_page_lot_size": 2,
+    "promoter_pre_pct": null,
+    "rhp_page_promoter_pre_pct": 32,
+    "promoter_post_pct": null,
+    "retail_quota_pct": 35.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": null,
+    "eps_fy0": 35.78,
+    "rhp_page_eps_fy0": 103,
+    "ronw_fy0_pct": 23.29,
+    "rhp_page_ronw_fy0_pct": 145,
+    "nav_per_share_fy0": 153.65,
+    "rhp_page_nav_per_share_fy0": 145,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 4.0058844,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 40.058844,
+    "rhp_page_pre_issue_shares_cr": 99,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 99,
+    "ofs_promoter_shares_cr": 1.0014711,
+    "ofs_investor_shares_cr": 3.0044133,
+    "proceeds_debt_repayment_cr": null,
+    "proceeds_capex_cr": null,
+    "proceeds_gcp_cr": null,
+    "peers": "SUNPHARMA; CIPLA; ZYDUSLIFE; TORNTPHARM; ALKEM; JBCHEPHARM; ERIS; IPCALAB; ABBOTINDIA; GLAXO; DABUR; PGHL; ZYDUSWELL",
+    "n_peers": 13,
+    "peer_pe_list": [
+      71.54,
+      28.18,
+      10.95,
+      66.25,
+      23.03,
+      39.48,
+      19.1,
+      22.38,
+      56.19,
+      57.03,
+      54.55,
+      42.27,
+      31.11
+    ],
+    "peer_ronw_list": [
+      6.82,
+      12.08,
+      26.4,
+      13.06,
+      19.05,
+      18.06,
+      21.28,
+      16.1,
+      28.32,
+      63.64,
+      20.75,
+      31.23,
+      6.38
+    ],
+    "rhp_page_peers": 148
+  },
+  "extract": {
+    "company": "Mankind Pharma Limited",
+    "sector": "Healthcare & pharma",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 144
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 144
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": 2
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 40058844.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Ramesh Juneja",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 3705443.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Rajeev Juneja",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 3505149.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Sheetal Arora",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 2804119.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Cairnhill CIPEF Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 17405559.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Cairnhill CGPE Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 2623863.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Beige Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 9964711.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Link Investment Trust",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 50000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 400588440.0,
+      "unit": "shares",
+      "page": 99
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 99
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 32
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [],
+    "retail_quota_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Kotak Mahindra Capital Company Limited",
+      "Axis Capital Limited",
+      "IIFL Securities Limited",
+      "Jefferies India Private Limited",
+      "J.P. Morgan India Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2022 (March 31, 2022)",
+    "revenue_fy2": {
+      "value": 58652.34,
+      "unit": "million",
+      "page": 103
+    },
+    "revenue_fy1": {
+      "value": 62144.31,
+      "unit": "million",
+      "page": 103
+    },
+    "revenue_fy0": {
+      "value": 77815.55,
+      "unit": "million",
+      "page": 103
+    },
+    "ebitda_fy2": {
+      "value": 14483.46,
+      "unit": "million",
+      "page": 146
+    },
+    "ebitda_fy1": {
+      "value": 16597.8,
+      "unit": "million",
+      "page": 146
+    },
+    "ebitda_fy0": {
+      "value": 20038.0,
+      "unit": "million",
+      "page": 146
+    },
+    "pat_fy2": {
+      "value": 10561.48,
+      "unit": "million",
+      "page": 103
+    },
+    "pat_fy1": {
+      "value": 12930.34,
+      "unit": "million",
+      "page": 103
+    },
+    "pat_fy0": {
+      "value": 14529.56,
+      "unit": "million",
+      "page": 103
+    },
+    "cfo_fy2": {
+      "value": 10697.05,
+      "unit": "million",
+      "page": 104
+    },
+    "cfo_fy1": {
+      "value": 11372.44,
+      "unit": "million",
+      "page": 104
+    },
+    "cfo_fy0": {
+      "value": 9197.76,
+      "unit": "million",
+      "page": 104
+    },
+    "net_worth_fy0": {
+      "value": 61552.29,
+      "unit": "million",
+      "page": 102
+    },
+    "total_debt_fy0": {
+      "value": 8680.28,
+      "unit": "million",
+      "page": 33
+    },
+    "cash_fy0": {
+      "value": 3025.34,
+      "unit": "million",
+      "page": 102
+    },
+    "eps_fy0": {
+      "value": 35.78,
+      "unit": "rupees",
+      "page": 103
+    },
+    "ronw_fy0_pct": {
+      "value": 23.29,
+      "unit": "percent",
+      "page": 145
+    },
+    "nav_per_share_fy0": {
+      "value": 153.65,
+      "unit": "rupees",
+      "page": 145
+    },
+    "stub_period_months": 9,
+    "revenue_stub": {
+      "value": 66967.66,
+      "unit": "million",
+      "page": 103
+    },
+    "pat_stub": {
+      "value": 10159.76,
+      "unit": "million",
+      "page": 103
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Sun Pharmaceuticals Industries Limited",
+        "nse_symbol": "SUNPHARMA",
+        "pe": 71.54,
+        "ronw_pct": 6.82,
+        "page": 148
+      },
+      {
+        "name": "Cipla Limited",
+        "nse_symbol": "CIPLA",
+        "pe": 28.18,
+        "ronw_pct": 12.08,
+        "page": 148
+      },
+      {
+        "name": "Zydus Lifesciences Limited",
+        "nse_symbol": "ZYDUSLIFE",
+        "pe": 10.95,
+        "ronw_pct": 26.4,
+        "page": 148
+      },
+      {
+        "name": "Torrent Pharmaceutical Limited",
+        "nse_symbol": "TORNTPHARM",
+        "pe": 66.25,
+        "ronw_pct": 13.06,
+        "page": 148
+      },
+      {
+        "name": "Alkem Laboratories",
+        "nse_symbol": "ALKEM",
+        "pe": 23.03,
+        "ronw_pct": 19.05,
+        "page": 148
+      },
+      {
+        "name": "JB Chemicals & Pharmaceuticals Limited",
+        "nse_symbol": "JBCHEPHARM",
+        "pe": 39.48,
+        "ronw_pct": 18.06,
+        "page": 148
+      },
+      {
+        "name": "Eris Lifesciences Limited",
+        "nse_symbol": "ERIS",
+        "pe": 19.1,
+        "ronw_pct": 21.28,
+        "page": 148
+      },
+      {
+        "name": "Ipca Laboratories Limited",
+        "nse_symbol": "IPCALAB",
+        "pe": 22.38,
+        "ronw_pct": 16.1,
+        "page": 148
+      },
+      {
+        "name": "Abbott India Limited",
+        "nse_symbol": "ABBOTINDIA",
+        "pe": 56.19,
+        "ronw_pct": 28.32,
+        "page": 148
+      },
+      {
+        "name": "Glaxosmithkline Pharmaceuticals Limited",
+        "nse_symbol": "GLAXO",
+        "pe": 57.03,
+        "ronw_pct": 63.64,
+        "page": 148
+      },
+      {
+        "name": "Dabur India Limited",
+        "nse_symbol": "DABUR",
+        "pe": 54.55,
+        "ronw_pct": 20.75,
+        "page": 148
+      },
+      {
+        "name": "Procter & Gamble Health Limited",
+        "nse_symbol": "PGHL",
+        "pe": 42.27,
+        "ronw_pct": 31.23,
+        "page": 148
+      },
+      {
+        "name": "Zydus Wellness Limited",
+        "nse_symbol": "ZYDUSWELL",
+        "pe": 31.11,
+        "ronw_pct": 6.38,
+        "page": 148
+      }
+    ],
+    "notes": [
+      "The offer is a pure Offer for Sale. There is no fresh issue, and the company receives no proceeds, so objects_of_offer is empty.",
+      "The price band and lot size are [\u25cf] in the RHP.",
+      "Post-offer shares are printed as [\u25cf]. Because the offer is a pure OFS, the share capital stays at 400,588,440 shares (capitalisation statement, page 452).",
+      "No aggregate pre-offer holding for promoters plus promoter group is printed. The individual holdings appear on page 32, but the only total there (96.00%) also includes the investor selling shareholders, so promoter_pre_pct is left null. Post-offer promoter % is not printed.",
+      "Cash_fy0 is the balance-sheet cash and cash equivalents of 3,025.34. The cash-flow statement figure, net of overdrafts, is 2,830.59.",
+      "PAT is restated profit for the year including non-controlling interests. Profit attributable to the parent for FY2022 is 14,334.75.",
+      "Pre-IPO: there was no allotment in the period. On April 6, 2023, Cairnhill CIPEF and Cairnhill CGPE transferred shares to their affiliates Hema CIPEF (I) and Hema CGPE (I) under SPAs dated March 31, 2023. The transfer price is not disclosed.",
+      "The stub period is the nine months ended December 31, 2022.",
+      "NSE symbols for peers are not printed in the RHP; they were inferred."
+    ]
+  }
+}

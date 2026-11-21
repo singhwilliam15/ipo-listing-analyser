@@ -1,0 +1,387 @@
+{
+  "symbol": "QUADFUTURE",
+  "rhp_file": "QUADFUTURE.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-21T05:53:52+00:00",
+  "pages_sent": [
+    1,
+    2,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    107,
+    108,
+    109,
+    125,
+    126,
+    142,
+    143,
+    144,
+    404,
+    405,
+    435
+  ],
+  "n_pdf_pages": 515,
+  "usage": {
+    "input_tokens": 34032,
+    "output_tokens": 3482,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.31026689999999996,
+    "session_id": "95d216f1-7a78-4d74-b66f-b63cc5426c1f"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Quadrant Future Tek Limited",
+    "sector": "Industrials & capital goods",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "FY2024 (March 31, 2024)",
+    "stub_period_months": 6,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Sundae Capital Advisors Private Limited",
+    "revenue_fy2": 104.25799999999998,
+    "rhp_page_revenue_fy2": 96,
+    "revenue_fy1": 152.804,
+    "rhp_page_revenue_fy1": 96,
+    "revenue_fy0": 151.756,
+    "rhp_page_revenue_fy0": 96,
+    "ebitda_fy2": 9.508,
+    "rhp_page_ebitda_fy2": 404,
+    "ebitda_fy1": 26.549,
+    "rhp_page_ebitda_fy1": 404,
+    "ebitda_fy0": 36.668,
+    "rhp_page_ebitda_fy0": 404,
+    "pat_fy2": 1.943,
+    "rhp_page_pat_fy2": 96,
+    "pat_fy1": 13.904,
+    "rhp_page_pat_fy1": 96,
+    "pat_fy0": 14.713,
+    "rhp_page_pat_fy0": 96,
+    "cfo_fy2": -4.592,
+    "rhp_page_cfo_fy2": 97,
+    "cfo_fy1": 29.892,
+    "rhp_page_cfo_fy1": 97,
+    "cfo_fy0": 18.486,
+    "rhp_page_cfo_fy0": 97,
+    "net_worth_fy0": 44.113,
+    "rhp_page_net_worth_fy0": 94,
+    "total_debt_fy0": null,
+    "rhp_page_total_debt_fy0": 94,
+    "cash_fy0": 0.235,
+    "rhp_page_cash_fy0": 94,
+    "revenue_stub": 65.137,
+    "rhp_page_revenue_stub": 96,
+    "pat_stub": -12.105,
+    "rhp_page_pat_stub": 96,
+    "price_low": null,
+    "rhp_page_price_low": 143,
+    "price_high": null,
+    "rhp_page_price_high": 143,
+    "lot_size": null,
+    "rhp_page_lot_size": 2,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": 10.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": null,
+    "eps_fy0": 4.9,
+    "rhp_page_eps_fy0": 96,
+    "ronw_fy0_pct": 33.41,
+    "rhp_page_ronw_fy0_pct": 143,
+    "nav_per_share_fy0": 14.7,
+    "rhp_page_nav_per_share_fy0": 143,
+    "fresh_issue_cr": 290.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 3.0,
+    "rhp_page_pre_issue_shares_cr": 92,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 92,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 23.619,
+    "proceeds_capex_cr": 24.375,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "Kernex Micro Systems Limited; HBL Power Systems Limited; Apar Industries Limited; Polycab India Limited",
+    "n_peers": 4,
+    "peer_pe_list": [
+      61.59,
+      49.11,
+      64.85
+    ],
+    "peer_ronw_list": [
+      -24.16,
+      22.87,
+      20.8,
+      21.9
+    ],
+    "rhp_page_peers": 144
+  },
+  "extract": {
+    "company": "Quadrant Future Tek Limited",
+    "sector": "Industrials & capital goods",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 143
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 143
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": 2
+    },
+    "fresh_issue_amount": {
+      "value": 2900.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 30000000.0,
+      "unit": "shares",
+      "page": 92
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 92
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding long-term working capital requirements (Specialty Cable Division)",
+        "category": "other",
+        "amount": {
+          "value": 1497.22,
+          "unit": "million",
+          "page": 125
+        }
+      },
+      {
+        "purpose": "Capital expenditure for development for Electronic Interlocking System",
+        "category": "capex",
+        "amount": {
+          "value": 243.75,
+          "unit": "million",
+          "page": 125
+        }
+      },
+      {
+        "purpose": "Prepayment or repayment of all or a portion of outstanding working capital term loan",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 236.19,
+          "unit": "million",
+          "page": 125
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 125
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 10.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Sundae Capital Advisors Private Limited"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "FY2024 (March 31, 2024)",
+    "revenue_fy2": {
+      "value": 1042.58,
+      "unit": "million",
+      "page": 96
+    },
+    "revenue_fy1": {
+      "value": 1528.04,
+      "unit": "million",
+      "page": 96
+    },
+    "revenue_fy0": {
+      "value": 1517.56,
+      "unit": "million",
+      "page": 96
+    },
+    "ebitda_fy2": {
+      "value": 95.08,
+      "unit": "million",
+      "page": 404
+    },
+    "ebitda_fy1": {
+      "value": 265.49,
+      "unit": "million",
+      "page": 404
+    },
+    "ebitda_fy0": {
+      "value": 366.68,
+      "unit": "million",
+      "page": 404
+    },
+    "pat_fy2": {
+      "value": 19.43,
+      "unit": "million",
+      "page": 96
+    },
+    "pat_fy1": {
+      "value": 139.04,
+      "unit": "million",
+      "page": 96
+    },
+    "pat_fy0": {
+      "value": 147.13,
+      "unit": "million",
+      "page": 96
+    },
+    "cfo_fy2": {
+      "value": -45.92,
+      "unit": "million",
+      "page": 97
+    },
+    "cfo_fy1": {
+      "value": 298.92,
+      "unit": "million",
+      "page": 97
+    },
+    "cfo_fy0": {
+      "value": 184.86,
+      "unit": "million",
+      "page": 97
+    },
+    "net_worth_fy0": {
+      "value": 441.13,
+      "unit": "million",
+      "page": 94
+    },
+    "total_debt_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": 94
+    },
+    "cash_fy0": {
+      "value": 2.35,
+      "unit": "million",
+      "page": 94
+    },
+    "eps_fy0": {
+      "value": 4.9,
+      "unit": "rupees",
+      "page": 96
+    },
+    "ronw_fy0_pct": {
+      "value": 33.41,
+      "unit": "percent",
+      "page": 143
+    },
+    "nav_per_share_fy0": {
+      "value": 14.7,
+      "unit": "rupees",
+      "page": 143
+    },
+    "stub_period_months": 6,
+    "revenue_stub": {
+      "value": 651.37,
+      "unit": "million",
+      "page": 96
+    },
+    "pat_stub": {
+      "value": -121.05,
+      "unit": "million",
+      "page": 96
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Kernex Micro Systems Limited",
+        "nse_symbol": null,
+        "pe": null,
+        "ronw_pct": -24.16,
+        "page": 144
+      },
+      {
+        "name": "HBL Power Systems Limited",
+        "nse_symbol": null,
+        "pe": 61.59,
+        "ronw_pct": 22.87,
+        "page": 144
+      },
+      {
+        "name": "Apar Industries Limited",
+        "nse_symbol": null,
+        "pe": 49.11,
+        "ronw_pct": 20.8,
+        "page": 144
+      },
+      {
+        "name": "Polycab India Limited",
+        "nse_symbol": null,
+        "pe": 64.85,
+        "ronw_pct": 21.9,
+        "page": 144
+      }
+    ],
+    "notes": [
+      "The restated statements are titled only 'Restated Financial Information'. They do not say consolidated and no subsidiaries appear, so I recorded the basis as standalone.",
+      "This is a fresh issue only: there is no offer for sale and no selling shareholders. The price band, lot size and number of fresh issue shares are [\u25cf].",
+      "No single total borrowings figure is printed for FY2024. Page 94 shows non-current borrowings of 475.53 and current borrowings of 340.61 (\u20b9 million); I left total_debt null rather than add them. The capitalisation statement gives total borrowings of 980.11 only as at Sep 30, 2024, and that figure does not match the Sep 2024 balance sheet (439.69 + 540.42).",
+      "FY2024 RoNW is printed two ways: 33.41% in the Basis for Issue Price section (page 143), and 33.31% in the peer table and accounting ratios (pages 144 and 404, based on PAT after OCI). I used 33.41%.",
+      "The peer table shows the company's FY2024 revenue as 1,518.23, which is total income. Revenue from operations is 1,517.56.",
+      "EBITDA comes from the accounting ratios on page 404.",
+      "The 2:1 bonus issue on April 15, 2024 was not a priced placement. No pre-IPO placement is disclosed.",
+      "Promoter shareholding percentages are not on the pages provided.",
+      "The working capital object is classified as 'other'.",
+      "Kernex P/E is printed as NA (negative EPS)."
+    ]
+  }
+}

@@ -1,0 +1,440 @@
+{
+  "symbol": "MEDIASSIST",
+  "rhp_file": "MEDIASSIST.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T21:03:16+00:00",
+  "pages_sent": [
+    1,
+    2,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    94,
+    95,
+    96,
+    97,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    312,
+    313,
+    314,
+    353
+  ],
+  "n_pdf_pages": 452,
+  "usage": {
+    "input_tokens": 58187,
+    "output_tokens": 4018,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.5166431,
+    "session_id": "a8dc9b26-8245-4dbb-b47d-80f1b897605f"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Medi Assist Healthcare Services Limited",
+    "sector": "Financial services",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023 (March 31, 2023)",
+    "stub_period_months": 6,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Axis Capital Limited; IIFL Securities Limited; Nuvama Wealth Management Limited; SBI Capital Markets Limited",
+    "revenue_fy2": 322.742,
+    "rhp_page_revenue_fy2": 81,
+    "revenue_fy1": 393.81,
+    "rhp_page_revenue_fy1": 81,
+    "revenue_fy0": 504.934,
+    "rhp_page_revenue_fy0": 81,
+    "ebitda_fy2": 75.595,
+    "rhp_page_ebitda_fy2": 116,
+    "ebitda_fy1": 91.221,
+    "rhp_page_ebitda_fy1": 116,
+    "ebitda_fy0": 119.346,
+    "rhp_page_ebitda_fy0": 116,
+    "pat_fy2": 26.274,
+    "rhp_page_pat_fy2": 81,
+    "pat_fy1": 64.218,
+    "rhp_page_pat_fy1": 81,
+    "pat_fy0": 74.042,
+    "rhp_page_pat_fy0": 81,
+    "cfo_fy2": 135.202,
+    "rhp_page_cfo_fy2": 82,
+    "cfo_fy1": 64.476,
+    "rhp_page_cfo_fy1": 82,
+    "cfo_fy0": 78.718,
+    "rhp_page_cfo_fy0": 82,
+    "net_worth_fy0": 376.611,
+    "rhp_page_net_worth_fy0": 80,
+    "total_debt_fy0": 0.077,
+    "rhp_page_total_debt_fy0": 80,
+    "cash_fy0": 53.944,
+    "rhp_page_cash_fy0": 80,
+    "revenue_stub": 301.956,
+    "rhp_page_revenue_stub": 81,
+    "pat_stub": 22.486,
+    "rhp_page_pat_stub": 81,
+    "price_low": null,
+    "rhp_page_price_low": 115,
+    "price_high": null,
+    "rhp_page_price_high": 115,
+    "lot_size": null,
+    "promoter_pre_pct": 67.55,
+    "rhp_page_promoter_pre_pct": 25,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 10.76,
+    "rhp_page_eps_fy0": 81,
+    "ronw_fy0_pct": 19.3,
+    "rhp_page_ronw_fy0_pct": 115,
+    "nav_per_share_fy0": 55.72,
+    "rhp_page_nav_per_share_fy0": 116,
+    "fresh_issue_cr": null,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "ofs_shares_cr": 2.8028168,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 6.8859212,
+    "rhp_page_pre_issue_shares_cr": 94,
+    "post_issue_shares_cr": 6.8859212,
+    "rhp_page_post_issue_shares_cr": 94,
+    "ofs_promoter_shares_cr": 2.1613768,
+    "ofs_investor_shares_cr": 0.6275706,
+    "proceeds_debt_repayment_cr": null,
+    "proceeds_capex_cr": null,
+    "proceeds_gcp_cr": null,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "Medi Assist Healthcare Services Limited",
+    "sector": "Financial services",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 115
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 115
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 28028168.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Dr. Vikram Jit Singh Chhatwal",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 2539092.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Medimatter Health Management Private Limited",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 12468592.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Bessemer Health Capital LLC",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 6606084.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Investcorp Private Equity Fund I",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 6275706.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Vivek Pandit",
+        "kind": "other",
+        "shares_offered": {
+          "value": 26382.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Rahul M Khanna",
+        "kind": "other",
+        "shares_offered": {
+          "value": 22613.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Shankar Rao Palepu (jointly with Palepu Neena Rao)",
+        "kind": "other",
+        "shares_offered": {
+          "value": 17337.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Pramod Manohar Ahuja (jointly with Jyoti Ahuja)",
+        "kind": "other",
+        "shares_offered": {
+          "value": 17337.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Keshav Sanghi (jointly with Vinita Keshav Sanghi)",
+        "kind": "other",
+        "shares_offered": {
+          "value": 17337.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Amitkumar Gajendrakumar Patni (jointly with Ruchi Amitkumar Patni)",
+        "kind": "other",
+        "shares_offered": {
+          "value": 13568.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Arihant Patni",
+        "kind": "other",
+        "shares_offered": {
+          "value": 13568.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Jyoti Ahuja (jointly with Pramod Manohar Ahuja)",
+        "kind": "other",
+        "shares_offered": {
+          "value": 5276.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Ranjan Surajprakash Sanghi (jointly with Jayashree Sanghi)",
+        "kind": "other",
+        "shares_offered": {
+          "value": 5276.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 68859212.0,
+      "unit": "shares",
+      "page": 94
+    },
+    "post_issue_shares": {
+      "value": 68859212.0,
+      "unit": "shares",
+      "page": 94
+    },
+    "promoter_pre_pct": {
+      "value": 67.55,
+      "unit": "percent",
+      "page": 25
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Axis Capital Limited",
+      "IIFL Securities Limited",
+      "Nuvama Wealth Management Limited",
+      "SBI Capital Markets Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023 (March 31, 2023)",
+    "revenue_fy2": {
+      "value": 3227.42,
+      "unit": "million",
+      "page": 81
+    },
+    "revenue_fy1": {
+      "value": 3938.1,
+      "unit": "million",
+      "page": 81
+    },
+    "revenue_fy0": {
+      "value": 5049.34,
+      "unit": "million",
+      "page": 81
+    },
+    "ebitda_fy2": {
+      "value": 755.95,
+      "unit": "million",
+      "page": 116
+    },
+    "ebitda_fy1": {
+      "value": 912.21,
+      "unit": "million",
+      "page": 116
+    },
+    "ebitda_fy0": {
+      "value": 1193.46,
+      "unit": "million",
+      "page": 116
+    },
+    "pat_fy2": {
+      "value": 262.74,
+      "unit": "million",
+      "page": 81
+    },
+    "pat_fy1": {
+      "value": 642.18,
+      "unit": "million",
+      "page": 81
+    },
+    "pat_fy0": {
+      "value": 740.42,
+      "unit": "million",
+      "page": 81
+    },
+    "cfo_fy2": {
+      "value": 1352.02,
+      "unit": "million",
+      "page": 82
+    },
+    "cfo_fy1": {
+      "value": 644.76,
+      "unit": "million",
+      "page": 82
+    },
+    "cfo_fy0": {
+      "value": 787.18,
+      "unit": "million",
+      "page": 82
+    },
+    "net_worth_fy0": {
+      "value": 3766.11,
+      "unit": "million",
+      "page": 80
+    },
+    "total_debt_fy0": {
+      "value": 0.77,
+      "unit": "million",
+      "page": 80
+    },
+    "cash_fy0": {
+      "value": 539.44,
+      "unit": "million",
+      "page": 80
+    },
+    "eps_fy0": {
+      "value": 10.76,
+      "unit": "rupees",
+      "page": 81
+    },
+    "ronw_fy0_pct": {
+      "value": 19.3,
+      "unit": "percent",
+      "page": 115
+    },
+    "nav_per_share_fy0": {
+      "value": 55.72,
+      "unit": "rupees",
+      "page": 116
+    },
+    "stub_period_months": 6,
+    "revenue_stub": {
+      "value": 3019.56,
+      "unit": "million",
+      "page": 81
+    },
+    "pat_stub": {
+      "value": 224.86,
+      "unit": "million",
+      "page": 81
+    },
+    "no_listed_peers": true,
+    "peers": [],
+    "notes": [
+      "The offer is a pure Offer for Sale. There is no fresh issue, the company gets no proceeds, and objects_of_offer is empty.",
+      "Price band, lot size and the retail quota % are not printed on these pages (shown as [\u25cf] or missing).",
+      "promoter_pre_pct of 67.55% covers only the named Promoters (subtotal A). The Promoter Group, Bessemer Health, holds a further 9.59% (subtotal B). The combined promoter + promoter group figure is not printed. The post-offer promoter % is not printed either.",
+      "EBITDA is the Adjusted EBITDA from the KPI table, which excludes other income and exceptional items. The unadjusted EBITDA on page 313 is 1,333.67 / 1,120.45 / 984.27 million for FY23 / FY22 / FY21.",
+      "PAT is restated profit for the year including discontinued operations. Profit from continuing operations is 753.08 / 634.67 / 380.05 million.",
+      "EPS 10.76 and RoNW 19.30% cover continuing and discontinued operations combined. On a continuing-operations basis they are EPS 10.94 and RoNW 19.63%. RoNW is calculated on net worth including non-controlling interest (total equity 3,836.72 million). The net_worth_fy0 field holds equity attributable to owners, 3,766.11 million.",
+      "Basis for Offer Price states there are no listed peers in India."
+    ]
+  }
+}

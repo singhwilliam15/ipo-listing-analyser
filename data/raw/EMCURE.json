@@ -1,0 +1,634 @@
+{
+  "symbol": "EMCURE",
+  "rhp_file": "EMCURE.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-21T06:05:50+00:00",
+  "pages_sent": [
+    1,
+    2,
+    24,
+    25,
+    26,
+    27,
+    102,
+    103,
+    105,
+    106,
+    107,
+    108,
+    121,
+    122,
+    123,
+    154,
+    155,
+    168,
+    169,
+    170,
+    414,
+    415,
+    450
+  ],
+  "n_pdf_pages": 546,
+  "usage": {
+    "input_tokens": 40155,
+    "output_tokens": 4820,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.38662499999999994,
+    "session_id": "798928ea-51e2-4f1d-92ba-aff9773ee03b"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Emcure Pharmaceuticals Limited",
+    "sector": "Healthcare & pharma",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024 (March 31, 2024)",
+    "stub_period_months": null,
+    "pre_ipo_placement": null,
+    "lead_managers": "Kotak Mahindra Capital Company Limited; Axis Capital Limited; Jefferies India Private Limited; J. P. Morgan India Private Limited",
+    "revenue_fy2": 5855.387,
+    "rhp_page_revenue_fy2": 108,
+    "revenue_fy1": 5985.811,
+    "rhp_page_revenue_fy1": 108,
+    "revenue_fy0": 6658.250999999999,
+    "rhp_page_revenue_fy0": 108,
+    "ebitda_fy2": 1393.381,
+    "rhp_page_ebitda_fy2": 170,
+    "ebitda_fy1": 1220.941,
+    "rhp_page_ebitda_fy1": 170,
+    "ebitda_fy0": 1276.782,
+    "rhp_page_ebitda_fy0": 170,
+    "pat_fy2": 702.556,
+    "rhp_page_pat_fy2": 108,
+    "pat_fy1": 561.845,
+    "rhp_page_pat_fy1": 108,
+    "pat_fy0": 527.575,
+    "rhp_page_pat_fy0": 108,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 2952.283,
+    "rhp_page_net_worth_fy0": 106,
+    "total_debt_fy0": 2091.935,
+    "rhp_page_total_debt_fy0": 26,
+    "cash_fy0": 169.0,
+    "rhp_page_cash_fy0": 106,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 168,
+    "price_high": null,
+    "rhp_page_price_high": 168,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "rhp_page_promoter_pre_pct": 25,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 25,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 27.54,
+    "rhp_page_eps_fy0": 108,
+    "ronw_fy0_pct": 16.87,
+    "rhp_page_ronw_fy0_pct": 169,
+    "nav_per_share_fy0": 163.22,
+    "rhp_page_nav_per_share_fy0": 169,
+    "fresh_issue_cr": 800.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 1.1428839,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 18.1152116,
+    "rhp_page_pre_issue_shares_cr": 102,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 102,
+    "ofs_promoter_shares_cr": 0.3081186,
+    "ofs_investor_shares_cr": 0.7234085,
+    "proceeds_debt_repayment_cr": 600.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "DRREDDY; CIPLA; ALKEM; TORNTPHARM; MANKIND; ABBOTINDIA; JBCHEPHARM",
+    "n_peers": 7,
+    "peer_pe_list": [
+      17.93,
+      30.1,
+      33.86,
+      57.74,
+      45.3,
+      47.43,
+      50.49
+    ],
+    "peer_ronw_list": [
+      19.74,
+      15.43,
+      17.41,
+      24.15,
+      20.43,
+      32.48,
+      18.9
+    ],
+    "rhp_page_peers": 169
+  },
+  "extract": {
+    "company": "Emcure Pharmaceuticals Limited",
+    "sector": "Healthcare & pharma",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 168
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 168
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 8000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 11428839.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Satish Ramanlal Mehta",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 420000.0,
+          "unit": "shares",
+          "page": 103
+        }
+      },
+      {
+        "name": "Sunil Rajanikant Mehta",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 40000.0,
+          "unit": "shares",
+          "page": 103
+        }
+      },
+      {
+        "name": "Namita Vikas Thapar",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 1268600.0,
+          "unit": "shares",
+          "page": 103
+        }
+      },
+      {
+        "name": "Samit Satish Mehta",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 10000.0,
+          "unit": "shares",
+          "page": 103
+        }
+      },
+      {
+        "name": "Pushpa Rajnikant Mehta",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 450000.0,
+          "unit": "shares",
+          "page": 103
+        }
+      },
+      {
+        "name": "Bhavana Satish Mehta",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 471400.0,
+          "unit": "shares",
+          "page": 103
+        }
+      },
+      {
+        "name": "Kamini Sunil Mehta",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 125000.0,
+          "unit": "shares",
+          "page": 103
+        }
+      },
+      {
+        "name": "Rutav Sunil Mehta",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 110000.0,
+          "unit": "shares",
+          "page": 103
+        }
+      },
+      {
+        "name": "Swati Hetalkumar Shah (jointly with Hetal Rasiklal Shah)",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 64500.0,
+          "unit": "shares",
+          "page": 103
+        }
+      },
+      {
+        "name": "Shaila Sharad Gujar",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 51686.0,
+          "unit": "shares",
+          "page": 103
+        }
+      },
+      {
+        "name": "Sanjay Rajanikant Mehta (jointly with Sonali Mehta and Manan Mehta)",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 40000.0,
+          "unit": "shares",
+          "page": 103
+        }
+      },
+      {
+        "name": "Vikas Madan Thapar",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 30000.0,
+          "unit": "shares",
+          "page": 103
+        }
+      },
+      {
+        "name": "BC Investments IV Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 7234085.0,
+          "unit": "shares",
+          "page": 103
+        }
+      },
+      {
+        "name": "Arunkumar Purshotamlal Khanna",
+        "kind": "other",
+        "shares_offered": {
+          "value": 300000.0,
+          "unit": "shares",
+          "page": 103
+        }
+      },
+      {
+        "name": "Berjis Minoo Desai",
+        "kind": "other",
+        "shares_offered": {
+          "value": 144642.0,
+          "unit": "shares",
+          "page": 103
+        }
+      },
+      {
+        "name": "Sonali Sanjay Mehta",
+        "kind": "other",
+        "shares_offered": {
+          "value": 125000.0,
+          "unit": "shares",
+          "page": 103
+        }
+      },
+      {
+        "name": "Manan Sanjay Mehta",
+        "kind": "other",
+        "shares_offered": {
+          "value": 110000.0,
+          "unit": "shares",
+          "page": 103
+        }
+      },
+      {
+        "name": "Prakash Kumar Guha",
+        "kind": "other",
+        "shares_offered": {
+          "value": 100000.0,
+          "unit": "shares",
+          "page": 103
+        }
+      },
+      {
+        "name": "Shreekant Krushnaji Bapat (jointly with Alaka Shreekant Bapat)",
+        "kind": "other",
+        "shares_offered": {
+          "value": 75000.0,
+          "unit": "shares",
+          "page": 103
+        }
+      },
+      {
+        "name": "Smita Dilip Shah",
+        "kind": "other",
+        "shares_offered": {
+          "value": 66000.0,
+          "unit": "shares",
+          "page": 103
+        }
+      },
+      {
+        "name": "Shriram Balasubramanian",
+        "kind": "other",
+        "shares_offered": {
+          "value": 25000.0,
+          "unit": "shares",
+          "page": 103
+        }
+      },
+      {
+        "name": "Usha Jashvantlal Shah",
+        "kind": "other",
+        "shares_offered": {
+          "value": 25000.0,
+          "unit": "shares",
+          "page": 103
+        }
+      },
+      {
+        "name": "Jashvantlal Chandulal Shah",
+        "kind": "other",
+        "shares_offered": {
+          "value": 20000.0,
+          "unit": "shares",
+          "page": 103
+        }
+      },
+      {
+        "name": "Devbalaji U (jointly with Himabindhu D)",
+        "kind": "other",
+        "shares_offered": {
+          "value": 17356.0,
+          "unit": "shares",
+          "page": 103
+        }
+      },
+      {
+        "name": "Hitesh Sohanlal Jain",
+        "kind": "other",
+        "shares_offered": {
+          "value": 13000.0,
+          "unit": "shares",
+          "page": 103
+        }
+      },
+      {
+        "name": "Jini Dhanrajgir",
+        "kind": "other",
+        "shares_offered": {
+          "value": 92570.0,
+          "unit": "shares",
+          "page": 103
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 181152116.0,
+      "unit": "shares",
+      "page": 102
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 102
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 25
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 25
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment and/or prepayment of all or a portion of certain outstanding borrowings availed by the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 6000.0,
+          "unit": "million",
+          "page": 154
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 154
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Kotak Mahindra Capital Company Limited",
+      "Axis Capital Limited",
+      "Jefferies India Private Limited",
+      "J. P. Morgan India Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024 (March 31, 2024)",
+    "revenue_fy2": {
+      "value": 58553.87,
+      "unit": "million",
+      "page": 108
+    },
+    "revenue_fy1": {
+      "value": 59858.11,
+      "unit": "million",
+      "page": 108
+    },
+    "revenue_fy0": {
+      "value": 66582.51,
+      "unit": "million",
+      "page": 108
+    },
+    "ebitda_fy2": {
+      "value": 13933.81,
+      "unit": "million",
+      "page": 170
+    },
+    "ebitda_fy1": {
+      "value": 12209.41,
+      "unit": "million",
+      "page": 170
+    },
+    "ebitda_fy0": {
+      "value": 12767.82,
+      "unit": "million",
+      "page": 170
+    },
+    "pat_fy2": {
+      "value": 7025.56,
+      "unit": "million",
+      "page": 108
+    },
+    "pat_fy1": {
+      "value": 5618.45,
+      "unit": "million",
+      "page": 108
+    },
+    "pat_fy0": {
+      "value": 5275.75,
+      "unit": "million",
+      "page": 108
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 29522.83,
+      "unit": "million",
+      "page": 106
+    },
+    "total_debt_fy0": {
+      "value": 20919.35,
+      "unit": "million",
+      "page": 26
+    },
+    "cash_fy0": {
+      "value": 1690.0,
+      "unit": "million",
+      "page": 106
+    },
+    "eps_fy0": {
+      "value": 27.54,
+      "unit": "rupees",
+      "page": 108
+    },
+    "ronw_fy0_pct": {
+      "value": 16.87,
+      "unit": "percent",
+      "page": 169
+    },
+    "nav_per_share_fy0": {
+      "value": 163.22,
+      "unit": "rupees",
+      "page": 169
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Dr. Reddy's Laboratories Limited",
+        "nse_symbol": "DRREDDY",
+        "pe": 17.93,
+        "ronw_pct": 19.74,
+        "page": 169
+      },
+      {
+        "name": "Cipla Limited",
+        "nse_symbol": "CIPLA",
+        "pe": 30.1,
+        "ronw_pct": 15.43,
+        "page": 169
+      },
+      {
+        "name": "Alkem Laboratories Limited",
+        "nse_symbol": "ALKEM",
+        "pe": 33.86,
+        "ronw_pct": 17.41,
+        "page": 169
+      },
+      {
+        "name": "Torrent Pharmaceuticals Limited",
+        "nse_symbol": "TORNTPHARM",
+        "pe": 57.74,
+        "ronw_pct": 24.15,
+        "page": 169
+      },
+      {
+        "name": "Mankind Pharma Limited",
+        "nse_symbol": "MANKIND",
+        "pe": 45.3,
+        "ronw_pct": 20.43,
+        "page": 170
+      },
+      {
+        "name": "Abbott India Limited",
+        "nse_symbol": "ABBOTINDIA",
+        "pe": 47.43,
+        "ronw_pct": 32.48,
+        "page": 170
+      },
+      {
+        "name": "J. B. Chemicals & Pharmaceuticals Limited",
+        "nse_symbol": "JBCHEPHARM",
+        "pe": 50.49,
+        "ronw_pct": 18.9,
+        "page": 170
+      }
+    ],
+    "notes": [
+      "Price band, lot size, fresh issue share count, OFS amount and post-offer shares are all printed as [\u25cf] in the RHP.",
+      "No combined promoter + promoter group % is printed. Page 25 shows Promoters at 54.42% and Promoter Group at 28.79% of pre-Offer capital, so promoter_pre_pct is left null. Post-offer % is [\u25cf].",
+      "Total debt of 20,919.35 million is the 'Total Borrowings' figure from the summary (includes transaction costs, excludes interest accrued). The balance sheet shows non-current 7,665.95 + current 13,207.16. The capitalisation statement shows 23,349.71 including lease liabilities.",
+      "Cash flow statement pages were not provided, so CFO is null.",
+      "The retail quota % is not on the pages provided (Retail Portion is 'not less than [\u25cf]' shares). Pre-IPO placement details were not on the pages provided. The share capital history shown ends in 2001.",
+      "Employee Reservation Portion of up to 108,900 shares.",
+      "Arunkumar Purshotamlal Khanna is classified as 'Individual Selling Shareholder' and mapped to kind=other.",
+      "NSE symbols for peers are inferred, not printed in the RHP.",
+      "Profit attributable to owners FY2024 is 4,981.83 million; pat_fy0 uses total profit for the year of 5,275.75 million.",
+      "Peer P/E is based on the BSE closing price on June 21, 2024 and diluted EPS for FY2024."
+    ]
+  }
+}

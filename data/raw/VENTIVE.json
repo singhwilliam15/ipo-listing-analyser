@@ -1,0 +1,335 @@
+{
+  "symbol": "VENTIVE",
+  "rhp_file": "VENTIVE.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-21T05:54:37+00:00",
+  "pages_sent": [
+    1,
+    2,
+    27,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    130,
+    131,
+    132,
+    145,
+    146,
+    162,
+    163,
+    164,
+    511,
+    512,
+    557
+  ],
+  "n_pdf_pages": 736,
+  "usage": {
+    "input_tokens": 34118,
+    "output_tokens": 3512,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3115642,
+    "session_id": "eca8bb8b-f246-4d7d-9d9b-38d2901b0f08"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Ventive Hospitality Limited",
+    "sector": "Logistics & travel",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024 (March 31, 2024)",
+    "stub_period_months": 6,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "JM Financial Limited; Axis Capital Limited; HSBC Securities and Capital Markets (India) Private Limited; ICICI Securities Limited; IIFL Capital Services Limited; Kotak Mahindra Capital Company Limited; SBI Capital Markets Limited",
+    "revenue_fy2": 229.17,
+    "rhp_page_revenue_fy2": 109,
+    "revenue_fy1": 430.813,
+    "rhp_page_revenue_fy1": 109,
+    "revenue_fy0": 477.98,
+    "rhp_page_revenue_fy0": 109,
+    "ebitda_fy2": 124.597,
+    "rhp_page_ebitda_fy2": 511,
+    "ebitda_fy1": 250.092,
+    "rhp_page_ebitda_fy1": 511,
+    "ebitda_fy0": 300.559,
+    "rhp_page_ebitda_fy0": 511,
+    "pat_fy2": 29.431,
+    "rhp_page_pat_fy2": 109,
+    "pat_fy1": 131.273,
+    "rhp_page_pat_fy1": 109,
+    "pat_fy0": 166.317,
+    "rhp_page_pat_fy0": 109,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 334.454,
+    "rhp_page_net_worth_fy0": 107,
+    "total_debt_fy0": 412.608,
+    "rhp_page_total_debt_fy0": 27,
+    "cash_fy0": 32.425,
+    "rhp_page_cash_fy0": 107,
+    "revenue_stub": 372.778,
+    "rhp_page_revenue_stub": 109,
+    "pat_stub": -20.762,
+    "rhp_page_pat_stub": 109,
+    "price_low": null,
+    "rhp_page_price_low": 163,
+    "price_high": null,
+    "rhp_page_price_high": 163,
+    "lot_size": null,
+    "promoter_pre_pct": 99.59,
+    "rhp_page_promoter_pre_pct": 27,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 27,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 15.92,
+    "rhp_page_eps_fy0": 109,
+    "ronw_fy0_pct": 50.31,
+    "rhp_page_ronw_fy0_pct": 27,
+    "nav_per_share_fy0": 31.65,
+    "rhp_page_nav_per_share_fy0": 27,
+    "fresh_issue_cr": 1600.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 20.865783,
+    "rhp_page_pre_issue_shares_cr": 104,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 104,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 1400.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "Ventive Hospitality Limited",
+    "sector": "Logistics & travel",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 163
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 163
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 16000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 208657830.0,
+      "unit": "shares",
+      "page": 104
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 104
+    },
+    "promoter_pre_pct": {
+      "value": 99.59,
+      "unit": "percent",
+      "page": 27
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 27
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment/prepayment, in part or full, of certain borrowings availed by the Company and step-down Subsidiaries SS & L Beach Private Limited and Maldives Property Holdings Private Limited, including interest accrued",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 14000.0,
+          "unit": "million",
+          "page": 145
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 145
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "JM Financial Limited",
+      "Axis Capital Limited",
+      "HSBC Securities and Capital Markets (India) Private Limited",
+      "ICICI Securities Limited",
+      "IIFL Capital Services Limited",
+      "Kotak Mahindra Capital Company Limited",
+      "SBI Capital Markets Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024 (March 31, 2024)",
+    "revenue_fy2": {
+      "value": 2291.7,
+      "unit": "million",
+      "page": 109
+    },
+    "revenue_fy1": {
+      "value": 4308.13,
+      "unit": "million",
+      "page": 109
+    },
+    "revenue_fy0": {
+      "value": 4779.8,
+      "unit": "million",
+      "page": 109
+    },
+    "ebitda_fy2": {
+      "value": 1245.97,
+      "unit": "million",
+      "page": 511
+    },
+    "ebitda_fy1": {
+      "value": 2500.92,
+      "unit": "million",
+      "page": 511
+    },
+    "ebitda_fy0": {
+      "value": 3005.59,
+      "unit": "million",
+      "page": 511
+    },
+    "pat_fy2": {
+      "value": 294.31,
+      "unit": "million",
+      "page": 109
+    },
+    "pat_fy1": {
+      "value": 1312.73,
+      "unit": "million",
+      "page": 109
+    },
+    "pat_fy0": {
+      "value": 1663.17,
+      "unit": "million",
+      "page": 109
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 3344.54,
+      "unit": "million",
+      "page": 107
+    },
+    "total_debt_fy0": {
+      "value": 4126.08,
+      "unit": "million",
+      "page": 27
+    },
+    "cash_fy0": {
+      "value": 324.25,
+      "unit": "million",
+      "page": 107
+    },
+    "eps_fy0": {
+      "value": 15.92,
+      "unit": "rupees",
+      "page": 109
+    },
+    "ronw_fy0_pct": {
+      "value": 50.31,
+      "unit": "percent",
+      "page": 27
+    },
+    "nav_per_share_fy0": {
+      "value": 31.65,
+      "unit": "rupees",
+      "page": 27
+    },
+    "stub_period_months": 6,
+    "revenue_stub": {
+      "value": 3727.78,
+      "unit": "million",
+      "page": 109
+    },
+    "pat_stub": {
+      "value": -207.62,
+      "unit": "million",
+      "page": 109
+    },
+    "no_listed_peers": false,
+    "peers": [],
+    "notes": [
+      "Fresh issue only (\u20b916,000 million); there is no offer for sale and no selling shareholders.",
+      "Price band, lot size, fresh issue share count and post-issue shares are printed as [\u25cf] or not on these pages.",
+      "The 'Comparison with listed industry peers' table is not on these pages. Only the industry P/E summary is shown (highest 244.86, lowest 36.68, average 78.22, page 164), so the peers list is empty.",
+      "Cash flow statement not provided; CFO is null for all years.",
+      "Net worth fy0 is equity attributable to owners (3,344.54, page 107). The SEBI-defined Net Worth printed on page 27 is 3,305.54.",
+      "Total debt fy0 = non-current 3,993.96 + current 132.12 borrowings (Borrowings 4,126.08, page 27).",
+      "Promoter pre-issue % 99.59 is Total (A+B) of promoters and promoter group from page 27.",
+      "pre_ipo_placement set true because equity share capital rose from 104.44 million (Mar 2024) to 208.66 million (Sep 2024) after the 1:10 split. This looks like allotments tied to the acquisition transactions. The allotment details and price are not on these pages.",
+      "Big acquisitions after March 2024 (goodwill and NCI appear in the Sep 2024 balance sheet), so FY2024 restated figures are not comparable with the stub. Pro forma figures also exist but were not used.",
+      "Retail quota % is not printed on these pages.",
+      "Sector: hospitality/hotels mapped to 'Logistics & travel' as the closest category."
+    ]
+  }
+}

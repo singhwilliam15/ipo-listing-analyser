@@ -1,0 +1,500 @@
+{
+  "symbol": "PRASOLCHEM",
+  "rhp_file": "PRASOLCHEM.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:22:39+00:00",
+  "pages_sent": [
+    1,
+    2,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    115,
+    116,
+    117,
+    192,
+    193,
+    203,
+    204,
+    205,
+    446,
+    447,
+    451
+  ],
+  "n_pdf_pages": 590,
+  "usage": {
+    "input_tokens": 31577,
+    "output_tokens": 4517,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.31108020000000003,
+    "session_id": "4bd71058-c8f7-47df-ba62-b1e3a6dbf185"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Prasol Chemicals Limited",
+    "sector": "Chemicals & materials",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "FY2026",
+    "stub_period_months": null,
+    "pre_ipo_placement": "no",
+    "lead_managers": "DAM Capital Advisors Limited",
+    "revenue_fy2": 876.565,
+    "rhp_page_revenue_fy2": 97,
+    "revenue_fy1": 1012.494,
+    "rhp_page_revenue_fy1": 97,
+    "revenue_fy0": 1232.593,
+    "rhp_page_revenue_fy0": 97,
+    "ebitda_fy2": 60.528,
+    "rhp_page_ebitda_fy2": 446,
+    "ebitda_fy1": 87.766,
+    "rhp_page_ebitda_fy1": 446,
+    "ebitda_fy0": 139.32,
+    "rhp_page_ebitda_fy0": 446,
+    "pat_fy2": 18.131,
+    "rhp_page_pat_fy2": 97,
+    "pat_fy1": 43.569,
+    "rhp_page_pat_fy1": 97,
+    "pat_fy0": 83.124,
+    "rhp_page_pat_fy0": 97,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 448.505,
+    "rhp_page_net_worth_fy0": 94,
+    "total_debt_fy0": 110.064,
+    "rhp_page_total_debt_fy0": 451,
+    "cash_fy0": 24.07,
+    "rhp_page_cash_fy0": 94,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 14.33,
+    "rhp_page_eps_fy0": 97,
+    "ronw_fy0_pct": 18.53,
+    "rhp_page_ronw_fy0_pct": 446,
+    "nav_per_share_fy0": 77.33,
+    "rhp_page_nav_per_share_fy0": 446,
+    "fresh_issue_cr": 80.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": 420.0,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 5.8,
+    "rhp_page_pre_issue_shares_cr": 92,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 92,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 60.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "Prasol Chemicals Limited",
+    "sector": "Chemicals & materials",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 800.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": 4200.0,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Usha Rajnikant Shah (jointly with Nishith Rajnikant Shah and Shah Sandhya Nishith)",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": null,
+          "page": 1
+        }
+      },
+      {
+        "name": "Tushar Natverlal Dharia (HUF)",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": null,
+          "unit": null,
+          "page": 1
+        }
+      },
+      {
+        "name": "Gaurang Natwarlal Parikh HUF",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": null,
+          "unit": null,
+          "page": 1
+        }
+      },
+      {
+        "name": "Bhisham Kumar Gupta (jointly with Raksha Bhisham Gupta)",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": null,
+          "unit": null,
+          "page": 1
+        }
+      },
+      {
+        "name": "Nishith Rasiklal Dharia (jointly with Sonal Nishith Dharia)",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": null,
+          "page": 1
+        }
+      },
+      {
+        "name": "Sonal Nishith Dharia (jointly with Nishith Rasiklal Dharia)",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": null,
+          "unit": null,
+          "page": 1
+        }
+      },
+      {
+        "name": "Sachin Jatin Parikh (jointly with Shruti Sachin Parikh)",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": null,
+          "page": 1
+        }
+      },
+      {
+        "name": "Suketu Navinchandra Parikh (jointly with Lina Suketu Parikh)",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": null,
+          "page": 1
+        }
+      },
+      {
+        "name": "Gaurang Natwarlal Parikh (jointly with Tanvi Gaurang Parikh)",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": null,
+          "page": 1
+        }
+      },
+      {
+        "name": "Jignasha Jay Kantawala (jointly with Jay Shailesh Kantawala)",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": null,
+          "unit": null,
+          "page": 1
+        }
+      },
+      {
+        "name": "Kinjal Pankil Dharia (jointly with Pankil Nishith Dharia)",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": null,
+          "unit": null,
+          "page": 1
+        }
+      },
+      {
+        "name": "Lina Suketu Parikh (jointly with Suketu Navinchandra Parikh)",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": null,
+          "unit": null,
+          "page": 1
+        }
+      },
+      {
+        "name": "Pushpa Navinchandra Parikh (jointly with Suketu Navinchandra Parikh)",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": null,
+          "unit": null,
+          "page": 1
+        }
+      },
+      {
+        "name": "Shruti Sachin Parikh (jointly with Sachin Jatin Parikh)",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": null,
+          "unit": null,
+          "page": 1
+        }
+      },
+      {
+        "name": "Sundeep Navinchandra Parikh (jointly with Sheetal Sandeep Parikh)",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": null,
+          "unit": null,
+          "page": 1
+        }
+      },
+      {
+        "name": "Tushar Natverlal Dharia (jointly with Ami Tushar Dharia)",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": null,
+          "unit": null,
+          "page": 1
+        }
+      },
+      {
+        "name": "Dipak Amarshi (jointly with Ushma Amarshi)",
+        "kind": "other",
+        "shares_offered": {
+          "value": null,
+          "unit": null,
+          "page": 1
+        }
+      },
+      {
+        "name": "Heta T Parikh",
+        "kind": "other",
+        "shares_offered": {
+          "value": null,
+          "unit": null,
+          "page": 1
+        }
+      },
+      {
+        "name": "Namita Tushar Parikh",
+        "kind": "other",
+        "shares_offered": {
+          "value": null,
+          "unit": null,
+          "page": 1
+        }
+      },
+      {
+        "name": "Sheetal Sandeep Parikh (jointly with Sundeep Navinchandra Parikh)",
+        "kind": "other",
+        "shares_offered": {
+          "value": null,
+          "unit": null,
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 58000000.0,
+      "unit": "shares",
+      "page": 92
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 92
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment or pre-payment, in full or in part, of certain outstanding borrowings availed by the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 600.0,
+          "unit": "million",
+          "page": 193
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": null,
+          "page": 193
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lead_managers": [
+      "DAM Capital Advisors Limited"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "FY2026",
+    "revenue_fy2": {
+      "value": 8765.65,
+      "unit": "million",
+      "page": 97
+    },
+    "revenue_fy1": {
+      "value": 10124.94,
+      "unit": "million",
+      "page": 97
+    },
+    "revenue_fy0": {
+      "value": 12325.93,
+      "unit": "million",
+      "page": 97
+    },
+    "ebitda_fy2": {
+      "value": 605.28,
+      "unit": "million",
+      "page": 446
+    },
+    "ebitda_fy1": {
+      "value": 877.66,
+      "unit": "million",
+      "page": 446
+    },
+    "ebitda_fy0": {
+      "value": 1393.2,
+      "unit": "million",
+      "page": 446
+    },
+    "pat_fy2": {
+      "value": 181.31,
+      "unit": "million",
+      "page": 97
+    },
+    "pat_fy1": {
+      "value": 435.69,
+      "unit": "million",
+      "page": 97
+    },
+    "pat_fy0": {
+      "value": 831.24,
+      "unit": "million",
+      "page": 97
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 4485.05,
+      "unit": "million",
+      "page": 94
+    },
+    "total_debt_fy0": {
+      "value": 1100.64,
+      "unit": "million",
+      "page": 451
+    },
+    "cash_fy0": {
+      "value": 240.7,
+      "unit": "million",
+      "page": 94
+    },
+    "eps_fy0": {
+      "value": 14.33,
+      "unit": "rupees",
+      "page": 97
+    },
+    "ronw_fy0_pct": {
+      "value": 18.53,
+      "unit": "percent",
+      "page": 446
+    },
+    "nav_per_share_fy0": {
+      "value": 77.33,
+      "unit": "rupees",
+      "page": 446
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [],
+    "notes": [
+      "Restated financials are mixed: Fiscal 2026 (fy0) is STANDALONE, while Fiscal 2025 and Fiscal 2024 are CONSOLIDATED. financials_basis set to standalone because fy0 has no consolidated statements.",
+      "All OFS share counts are [\u25cf]; only rupee amounts per seller are printed (e.g. Usha Rajnikant Shah \u20b91,200.00 million, Tushar Natverlal Dharia HUF \u20b9515.19 million, etc.).",
+      "Price band, lot size, promoter shareholding %, retail quota % and post-issue shares are not on the pages provided or are [\u25cf]. NII portion is 'not less than 15%'; the retail % is not printed.",
+      "Peer comparison table not included in the pages provided; peers left empty (not a statement that there are no listed peers).",
+      "Cash flow statement not provided; CFO null.",
+      "Total debt 1,100.64 from capitalisation statement; matches balance sheet non-current borrowings 470.03 + current borrowings 630.61. The capitalisation statement splits it differently (current 400.00, non-current incl. current maturities 700.64).",
+      "Net worth per NAV reconciliation = 4,485.05 for FY2026 (same as total equity).",
+      "pre_ipo_placement set false based on share capital history (no allotments since the January 2022 bonus issue); secondary transfers not covered by the pages provided."
+    ]
+  }
+}

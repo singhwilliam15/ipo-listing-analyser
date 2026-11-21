@@ -1,0 +1,370 @@
+{
+  "symbol": "KUSUMGAR",
+  "rhp_file": "KUSUMGAR.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:28:21+00:00",
+  "pages_sent": [
+    1,
+    2,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    92,
+    93,
+    94,
+    117,
+    118,
+    120,
+    121,
+    122,
+    331,
+    332,
+    333
+  ],
+  "n_pdf_pages": 493,
+  "usage": {
+    "input_tokens": 33068,
+    "output_tokens": 3480,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3024183,
+    "session_id": "66d26c48-8ac9-429b-968a-3b4ff4e40851"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Kusumgar Limited",
+    "sector": "Chemicals & materials",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "stub_period_months": null,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "Axis Capital Limited; IIFL Capital Services Limited; Motilal Oswal Investment Advisors Limited",
+    "revenue_fy2": 467.908,
+    "rhp_page_revenue_fy2": 78,
+    "revenue_fy1": 778.997,
+    "rhp_page_revenue_fy1": 78,
+    "revenue_fy0": 692.003,
+    "rhp_page_revenue_fy0": 78,
+    "ebitda_fy2": 131.847,
+    "rhp_page_ebitda_fy2": 331,
+    "ebitda_fy1": 188.389,
+    "rhp_page_ebitda_fy1": 331,
+    "ebitda_fy0": 187.85,
+    "rhp_page_ebitda_fy0": 331,
+    "pat_fy2": 84.396,
+    "rhp_page_pat_fy2": 78,
+    "pat_fy1": 111.988,
+    "rhp_page_pat_fy1": 78,
+    "pat_fy0": 98.2,
+    "rhp_page_pat_fy0": 78,
+    "cfo_fy2": 200.964,
+    "rhp_page_cfo_fy2": 79,
+    "cfo_fy1": -154.976,
+    "rhp_page_cfo_fy1": 79,
+    "cfo_fy0": 28.258,
+    "rhp_page_cfo_fy0": 79,
+    "net_worth_fy0": 502.954,
+    "rhp_page_net_worth_fy0": 76,
+    "total_debt_fy0": 223.582,
+    "rhp_page_total_debt_fy0": 333,
+    "cash_fy0": 26.829000000000004,
+    "rhp_page_cash_fy0": 76,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 117,
+    "price_high": null,
+    "rhp_page_price_high": 117,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "rhp_page_retail_quota_pct": 73,
+    "pre_ipo_price": 365.0,
+    "rhp_page_pre_ipo_price": 333,
+    "eps_fy0": 9.68,
+    "rhp_page_eps_fy0": 78,
+    "ronw_fy0_pct": 25.82,
+    "rhp_page_ronw_fy0_pct": 121,
+    "nav_per_share_fy0": 49.56,
+    "rhp_page_nav_per_share_fy0": 121,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": 650.0,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 10.4991372,
+    "rhp_page_pre_issue_shares_cr": 73,
+    "post_issue_shares_cr": 10.4991372,
+    "rhp_page_post_issue_shares_cr": 73,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": null,
+    "proceeds_capex_cr": null,
+    "proceeds_gcp_cr": null,
+    "peers": "GARFIBRES; ARVIND; SRF",
+    "n_peers": 3,
+    "peer_pe_list": [
+      39.8,
+      32.72,
+      43.77
+    ],
+    "peer_ronw_list": [
+      15.29,
+      10.91,
+      13.76
+    ],
+    "rhp_page_peers": 122
+  },
+  "extract": {
+    "company": "Kusumgar Limited",
+    "sector": "Chemicals & materials",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 117
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 117
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": 6500.0,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Siddharth Yogesh Kusumgar",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Sapna Siddharth Kusumgar",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Siddharth Yogesh Kusumgar HUF",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 104991372.0,
+      "unit": "shares",
+      "page": 73
+    },
+    "post_issue_shares": {
+      "value": 104991372.0,
+      "unit": "shares",
+      "page": 73
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 73
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 365.0,
+      "unit": "rupees",
+      "page": 333
+    },
+    "lead_managers": [
+      "Axis Capital Limited",
+      "IIFL Capital Services Limited",
+      "Motilal Oswal Investment Advisors Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "revenue_fy2": {
+      "value": 4679.08,
+      "unit": "million",
+      "page": 78
+    },
+    "revenue_fy1": {
+      "value": 7789.97,
+      "unit": "million",
+      "page": 78
+    },
+    "revenue_fy0": {
+      "value": 6920.03,
+      "unit": "million",
+      "page": 78
+    },
+    "ebitda_fy2": {
+      "value": 1318.47,
+      "unit": "million",
+      "page": 331
+    },
+    "ebitda_fy1": {
+      "value": 1883.89,
+      "unit": "million",
+      "page": 331
+    },
+    "ebitda_fy0": {
+      "value": 1878.5,
+      "unit": "million",
+      "page": 331
+    },
+    "pat_fy2": {
+      "value": 843.96,
+      "unit": "million",
+      "page": 78
+    },
+    "pat_fy1": {
+      "value": 1119.88,
+      "unit": "million",
+      "page": 78
+    },
+    "pat_fy0": {
+      "value": 982.0,
+      "unit": "million",
+      "page": 78
+    },
+    "cfo_fy2": {
+      "value": 2009.64,
+      "unit": "million",
+      "page": 79
+    },
+    "cfo_fy1": {
+      "value": -1549.76,
+      "unit": "million",
+      "page": 79
+    },
+    "cfo_fy0": {
+      "value": 282.58,
+      "unit": "million",
+      "page": 79
+    },
+    "net_worth_fy0": {
+      "value": 5029.54,
+      "unit": "million",
+      "page": 76
+    },
+    "total_debt_fy0": {
+      "value": 2235.82,
+      "unit": "million",
+      "page": 333
+    },
+    "cash_fy0": {
+      "value": 268.29,
+      "unit": "million",
+      "page": 76
+    },
+    "eps_fy0": {
+      "value": 9.68,
+      "unit": "rupees",
+      "page": 78
+    },
+    "ronw_fy0_pct": {
+      "value": 25.82,
+      "unit": "percent",
+      "page": 121
+    },
+    "nav_per_share_fy0": {
+      "value": 49.56,
+      "unit": "rupees",
+      "page": 121
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Garware Technical Fibres Limited",
+        "nse_symbol": "GARFIBRES",
+        "pe": 39.8,
+        "ronw_pct": 15.29,
+        "page": 122
+      },
+      {
+        "name": "Arvind Limited",
+        "nse_symbol": "ARVIND",
+        "pe": 32.72,
+        "ronw_pct": 10.91,
+        "page": 122
+      },
+      {
+        "name": "SRF Limited",
+        "nse_symbol": "SRF",
+        "pe": 43.77,
+        "ronw_pct": 13.76,
+        "page": 122
+      }
+    ],
+    "notes": [
+      "The offer is entirely an offer for sale (\u20b96,500 million) by promoters; there is no fresh issue, so objects_of_offer is empty. Per-seller amounts: Siddharth Yogesh Kusumgar \u20b94,200 million, Sapna Siddharth Kusumgar \u20b92,000 million, Siddharth Yogesh Kusumgar HUF \u20b9300 million. Share counts are printed as [\u25cf].",
+      "The price band, lot size and retail quota are printed as [\u25cf] or not given on these pages.",
+      "The pages say 'Restated Financial Information' without stating consolidated or standalone. 'Consolidated' is assumed because the company had subsidiaries in FY2025 and FY2026 (a note says it had none in FY2024) and a foreign currency translation reserve is shown.",
+      "RoNW for FY2026 is 25.82% in Basis for Offer Price (based on average net worth) but 19.52% in Other Financial Information (based on closing net worth). 25.82% is used.",
+      "Total debt is the 2,235.82 total borrowings figure from the capitalisation statement. The balance sheet shows non-current borrowings of 851.19 and current borrowings of 1,384.63.",
+      "Pre-IPO placement: compulsorily convertible preference shares (CCPS) were issued on September 15 and September 24, 2025 at \u20b9365 each (face value \u20b95 plus \u20b9360 premium). They were converted 1:1 into 3,501,372 equity shares on June 16, 2026.",
+      "Promoter shareholding percentages before and after the offer are not on the pages provided.",
+      "The capitalisation statement shows equity share capital of 101.49 plus instruments in the nature of equity of 17.51; the balance sheet shows equity share capital of 119.00.",
+      "Peer NSE symbols are inferred, not printed in the RHP."
+    ]
+  }
+}

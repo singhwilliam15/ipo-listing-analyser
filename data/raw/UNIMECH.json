@@ -1,0 +1,467 @@
+{
+  "symbol": "UNIMECH",
+  "rhp_file": "UNIMECH.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-21T05:54:26+00:00",
+  "pages_sent": [
+    1,
+    2,
+    18,
+    19,
+    20,
+    21,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    105,
+    106,
+    107,
+    119,
+    120,
+    149,
+    150,
+    151,
+    327,
+    328,
+    329
+  ],
+  "n_pdf_pages": 456,
+  "usage": {
+    "input_tokens": 43183,
+    "output_tokens": 4307,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.4008897,
+    "session_id": "b9916b66-4a88-4b9e-8784-e1ab983edbc2"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Unimech Aerospace and Manufacturing Limited",
+    "sector": "Industrials & capital goods",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024",
+    "stub_period_months": 6,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "Anand Rathi Advisors Limited; Equirus Capital Private Limited",
+    "revenue_fy2": 36.349,
+    "rhp_page_revenue_fy2": 92,
+    "revenue_fy1": 94.166,
+    "rhp_page_revenue_fy1": 92,
+    "revenue_fy0": 208.775,
+    "rhp_page_revenue_fy0": 92,
+    "ebitda_fy2": 7.725,
+    "rhp_page_ebitda_fy2": 327,
+    "ebitda_fy1": 34.563,
+    "rhp_page_ebitda_fy1": 327,
+    "ebitda_fy0": 79.186,
+    "rhp_page_ebitda_fy0": 327,
+    "pat_fy2": 3.392,
+    "rhp_page_pat_fy2": 92,
+    "pat_fy1": 22.813,
+    "rhp_page_pat_fy1": 92,
+    "pat_fy0": 58.134,
+    "rhp_page_pat_fy0": 92,
+    "cfo_fy2": 1.528,
+    "rhp_page_cfo_fy2": 93,
+    "cfo_fy1": 1.354,
+    "rhp_page_cfo_fy1": 93,
+    "cfo_fy0": 23.633,
+    "rhp_page_cfo_fy0": 93,
+    "net_worth_fy0": 108.595,
+    "rhp_page_net_worth_fy0": 91,
+    "total_debt_fy0": 28.856,
+    "rhp_page_total_debt_fy0": 20,
+    "cash_fy0": 7.178,
+    "rhp_page_cash_fy0": 91,
+    "revenue_stub": 120.656,
+    "rhp_page_revenue_stub": 92,
+    "pat_stub": 38.68,
+    "rhp_page_pat_stub": 92,
+    "price_low": null,
+    "rhp_page_price_low": 150,
+    "price_high": null,
+    "rhp_page_price_high": 150,
+    "lot_size": null,
+    "promoter_pre_pct": 91.83,
+    "rhp_page_promoter_pre_pct": 20,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 20,
+    "retail_quota_pct": 35.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": 681.74,
+    "rhp_page_pre_ipo_price": 107,
+    "eps_fy0": 13.23,
+    "rhp_page_eps_fy0": 92,
+    "ronw_fy0_pct": 53.53,
+    "rhp_page_ronw_fy0_pct": 327,
+    "nav_per_share_fy0": 24.71,
+    "rhp_page_nav_per_share_fy0": 327,
+    "fresh_issue_cr": 250.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": 250.0,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 4.767217,
+    "rhp_page_pre_issue_shares_cr": 88,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 88,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 40.0,
+    "proceeds_capex_cr": 80.257,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "MTARTECH; AZAD; PARAS; DYNAMATECH; DATAPATTNS",
+    "n_peers": 5,
+    "peer_pe_list": [
+      98.01,
+      157.49,
+      132.5,
+      44.24,
+      77.68
+    ],
+    "peer_ronw_list": [
+      3.32,
+      5.57,
+      5.71,
+      3.32,
+      4.67
+    ],
+    "rhp_page_peers": 151
+  },
+  "extract": {
+    "company": "Unimech Aerospace and Manufacturing Limited",
+    "sector": "Industrials & capital goods",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 150
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 150
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 2500.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": 2500.0,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Ramakrishna Kamojhala",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Mani P",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Rajanikanth Balaraman",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Preetham S V",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Rasmi Anil Kumar",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 47672170.0,
+      "unit": "shares",
+      "page": 88
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 88
+    },
+    "promoter_pre_pct": {
+      "value": 91.83,
+      "unit": "percent",
+      "page": 20
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 20
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Capital expenditure for expansion through purchase of machineries and equipment by the Company",
+        "category": "capex",
+        "amount": {
+          "value": 363.66,
+          "unit": "million",
+          "page": 120
+        }
+      },
+      {
+        "purpose": "Funding working capital requirements of the Company",
+        "category": "other",
+        "amount": {
+          "value": 252.85,
+          "unit": "million",
+          "page": 120
+        }
+      },
+      {
+        "purpose": "Investment in Material Subsidiary for capital expenditure (machineries and equipment)",
+        "category": "capex",
+        "amount": {
+          "value": 438.91,
+          "unit": "million",
+          "page": 120
+        }
+      },
+      {
+        "purpose": "Investment in Material Subsidiary for funding its working capital requirements",
+        "category": "other",
+        "amount": {
+          "value": 447.15,
+          "unit": "million",
+          "page": 120
+        }
+      },
+      {
+        "purpose": "Investment in Material Subsidiary for repayment/prepayment of certain borrowings",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 400.0,
+          "unit": "million",
+          "page": 120
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 120
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 681.74,
+      "unit": "rupees",
+      "page": 107
+    },
+    "lead_managers": [
+      "Anand Rathi Advisors Limited",
+      "Equirus Capital Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024",
+    "revenue_fy2": {
+      "value": 363.49,
+      "unit": "million",
+      "page": 92
+    },
+    "revenue_fy1": {
+      "value": 941.66,
+      "unit": "million",
+      "page": 92
+    },
+    "revenue_fy0": {
+      "value": 2087.75,
+      "unit": "million",
+      "page": 92
+    },
+    "ebitda_fy2": {
+      "value": 77.25,
+      "unit": "million",
+      "page": 327
+    },
+    "ebitda_fy1": {
+      "value": 345.63,
+      "unit": "million",
+      "page": 327
+    },
+    "ebitda_fy0": {
+      "value": 791.86,
+      "unit": "million",
+      "page": 327
+    },
+    "pat_fy2": {
+      "value": 33.92,
+      "unit": "million",
+      "page": 92
+    },
+    "pat_fy1": {
+      "value": 228.13,
+      "unit": "million",
+      "page": 92
+    },
+    "pat_fy0": {
+      "value": 581.34,
+      "unit": "million",
+      "page": 92
+    },
+    "cfo_fy2": {
+      "value": 15.28,
+      "unit": "million",
+      "page": 93
+    },
+    "cfo_fy1": {
+      "value": 13.54,
+      "unit": "million",
+      "page": 93
+    },
+    "cfo_fy0": {
+      "value": 236.33,
+      "unit": "million",
+      "page": 93
+    },
+    "net_worth_fy0": {
+      "value": 1085.95,
+      "unit": "million",
+      "page": 91
+    },
+    "total_debt_fy0": {
+      "value": 288.56,
+      "unit": "million",
+      "page": 20
+    },
+    "cash_fy0": {
+      "value": 71.78,
+      "unit": "million",
+      "page": 91
+    },
+    "eps_fy0": {
+      "value": 13.23,
+      "unit": "rupees",
+      "page": 92
+    },
+    "ronw_fy0_pct": {
+      "value": 53.53,
+      "unit": "percent",
+      "page": 327
+    },
+    "nav_per_share_fy0": {
+      "value": 24.71,
+      "unit": "rupees",
+      "page": 327
+    },
+    "stub_period_months": 6,
+    "revenue_stub": {
+      "value": 1206.56,
+      "unit": "million",
+      "page": 92
+    },
+    "pat_stub": {
+      "value": 386.8,
+      "unit": "million",
+      "page": 92
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "MTAR Technologies Limited",
+        "nse_symbol": "MTARTECH",
+        "pe": 98.01,
+        "ronw_pct": 3.32,
+        "page": 151
+      },
+      {
+        "name": "Azad Engineering Limited",
+        "nse_symbol": "AZAD",
+        "pe": 157.49,
+        "ronw_pct": 5.57,
+        "page": 151
+      },
+      {
+        "name": "Paras Defence & Space Technologies Limited",
+        "nse_symbol": "PARAS",
+        "pe": 132.5,
+        "ronw_pct": 5.71,
+        "page": 151
+      },
+      {
+        "name": "Dynamatic Technologies Limited",
+        "nse_symbol": "DYNAMATECH",
+        "pe": 44.24,
+        "ronw_pct": 3.32,
+        "page": 151
+      },
+      {
+        "name": "Data Patterns (India) Limited",
+        "nse_symbol": "DATAPATTNS",
+        "pe": 77.68,
+        "ronw_pct": 4.67,
+        "page": 151
+      }
+    ],
+    "notes": [
+      "Price band, lot size, and the share counts for the fresh issue and OFS are all printed as [\u25cf]. Only the rupee amounts are given (fresh issue \u20b92,500 million, OFS \u20b92,500 million; per seller: Ramakrishna Kamojhala \u20b9450 million, Mani P \u20b9450 million, Rajanikanth Balaraman \u20b9450 million, Preetham S V \u20b9300 million, Rasmi Anil Kumar \u20b9850 million).",
+      "PAT: the summary table on page 20 shows 'Restated profit for the year' as 580.47 / 211.87 / 33.93 for FY24/FY23/FY22. These match total comprehensive income, not profit after tax. I used the restated profit after tax from the P&L on page 92: 581.34 / 228.13 / 33.92.",
+      "The peer table gives two P/E columns: as on September 30, 2024 (H1, not annualised) and as on March 31, 2024. I used the March 31, 2024 P/E. Peer RoNW figures are for H1 FY25 and not annualised. NSE symbols are not printed in the RHP; I filled them in from general knowledge.",
+      "Working capital objects are categorised as 'other' because they are not capex, debt repayment or GCP. GCP amount is [\u25cf] and capped at 25% of gross proceeds.",
+      "Net Offer is printed as \u20b9485.00 million on pages 19 and 88. This does not reconcile with a \u20b95,000 million offer less a \u20b915 million employee reservation (it should be \u20b94,985 million), so it is likely a typo.",
+      "Pre-IPO placement: preferential allotment on July 19, 2024 of 3,667,090 shares at \u20b9681.74 to ValueQuest SCALE Fund, Evolvence India Fund IV and Steadview Capital Mauritius.",
+      "Promoter pre-offer holding of 91.83% includes the promoter group (promoters alone hold 88.60%). Post-offer holding is [\u25cf].",
+      "Retail quota is 'not less than 35% of the Net Offer'.",
+      "Total debt for FY24 (288.56) is current 163.38 plus non-current 125.18 borrowings. The balance sheet shows no separate line for equity attributable to owners or for NCI, so net worth = total equity."
+    ]
+  }
+}

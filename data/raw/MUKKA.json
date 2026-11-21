@@ -1,0 +1,393 @@
+{
+  "symbol": "MUKKA",
+  "rhp_file": "MUKKA.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:13:13+00:00",
+  "pages_sent": [
+    1,
+    2,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    126,
+    127,
+    128,
+    129,
+    141,
+    142,
+    143,
+    144,
+    155,
+    156,
+    157,
+    158,
+    159,
+    412,
+    413,
+    414,
+    421
+  ],
+  "n_pdf_pages": 554,
+  "usage": {
+    "input_tokens": 57116,
+    "output_tokens": 3169,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.4909865,
+    "session_id": "43b47dc6-7ed1-4516-8698-e6c490d2075e"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Mukka Proteins Limited",
+    "sector": "FMCG & food",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023",
+    "stub_period_months": 6,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Fedex Securities Private Limited",
+    "revenue_fy2": 603.834,
+    "rhp_page_revenue_fy2": 114,
+    "revenue_fy1": 770.503,
+    "rhp_page_revenue_fy1": 114,
+    "revenue_fy0": 1177.122,
+    "rhp_page_revenue_fy0": 114,
+    "ebitda_fy2": 31.819,
+    "rhp_page_ebitda_fy2": 159,
+    "ebitda_fy1": 54.239,
+    "rhp_page_ebitda_fy1": 159,
+    "ebitda_fy0": 94.311,
+    "rhp_page_ebitda_fy0": 159,
+    "pat_fy2": 11.01,
+    "rhp_page_pat_fy2": 114,
+    "pat_fy1": 25.819,
+    "rhp_page_pat_fy1": 114,
+    "pat_fy0": 47.525,
+    "rhp_page_pat_fy0": 114,
+    "cfo_fy2": 5.949,
+    "rhp_page_cfo_fy2": 115,
+    "cfo_fy1": 4.808,
+    "rhp_page_cfo_fy1": 115,
+    "cfo_fy0": -54.395,
+    "rhp_page_cfo_fy0": 115,
+    "net_worth_fy0": 128.916,
+    "rhp_page_net_worth_fy0": 35,
+    "total_debt_fy0": 254.829,
+    "rhp_page_total_debt_fy0": 35,
+    "cash_fy0": 26.548000000000002,
+    "rhp_page_cash_fy0": 113,
+    "revenue_stub": 606.094,
+    "rhp_page_revenue_stub": 114,
+    "pat_stub": 32.981,
+    "rhp_page_pat_stub": 114,
+    "price_low": null,
+    "rhp_page_price_low": 2,
+    "price_high": null,
+    "rhp_page_price_high": 2,
+    "lot_size": null,
+    "rhp_page_lot_size": 1,
+    "promoter_pre_pct": 100.0,
+    "rhp_page_promoter_pre_pct": 34,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 34,
+    "retail_quota_pct": 35.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": null,
+    "eps_fy0": 2.0,
+    "rhp_page_eps_fy0": 114,
+    "ronw_fy0_pct": 34.19,
+    "rhp_page_ronw_fy0_pct": 156,
+    "nav_per_share_fy0": 5.86,
+    "rhp_page_nav_per_share_fy0": 157,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": 8.0,
+    "rhp_page_fresh_issue_shares_cr": 2,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 22.0,
+    "rhp_page_pre_issue_shares_cr": 110,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 110,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "AVANTIFEED; GODREJAGRO; Zeal Aqua Limited; WATERBASE",
+    "n_peers": 4,
+    "peer_pe_list": [
+      25.0,
+      33.23,
+      20.63
+    ],
+    "peer_ronw_list": [
+      13.14,
+      10.77,
+      9.97,
+      -1.9
+    ],
+    "rhp_page_peers": 157
+  },
+  "extract": {
+    "company": "Mukka Proteins Limited",
+    "sector": "FMCG & food",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 2
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 2
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": 80000000.0,
+      "unit": "shares",
+      "page": 2
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 220000000.0,
+      "unit": "shares",
+      "page": 110
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 110
+    },
+    "promoter_pre_pct": {
+      "value": 100.0,
+      "unit": "percent",
+      "page": 34
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 34
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding working capital requirements of the Company",
+        "category": "other",
+        "amount": {
+          "value": 1200.0,
+          "unit": "million",
+          "page": 141
+        }
+      },
+      {
+        "purpose": "Investment in Associate Ento Proteins Private Limited for funding its working capital requirements",
+        "category": "other",
+        "amount": {
+          "value": 100.0,
+          "unit": "million",
+          "page": 141
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 141
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Fedex Securities Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023",
+    "revenue_fy2": {
+      "value": 6038.34,
+      "unit": "million",
+      "page": 114
+    },
+    "revenue_fy1": {
+      "value": 7705.03,
+      "unit": "million",
+      "page": 114
+    },
+    "revenue_fy0": {
+      "value": 11771.22,
+      "unit": "million",
+      "page": 114
+    },
+    "ebitda_fy2": {
+      "value": 318.19,
+      "unit": "million",
+      "page": 159
+    },
+    "ebitda_fy1": {
+      "value": 542.39,
+      "unit": "million",
+      "page": 159
+    },
+    "ebitda_fy0": {
+      "value": 943.11,
+      "unit": "million",
+      "page": 159
+    },
+    "pat_fy2": {
+      "value": 110.1,
+      "unit": "million",
+      "page": 114
+    },
+    "pat_fy1": {
+      "value": 258.19,
+      "unit": "million",
+      "page": 114
+    },
+    "pat_fy0": {
+      "value": 475.25,
+      "unit": "million",
+      "page": 114
+    },
+    "cfo_fy2": {
+      "value": 59.49,
+      "unit": "million",
+      "page": 115
+    },
+    "cfo_fy1": {
+      "value": 48.08,
+      "unit": "million",
+      "page": 115
+    },
+    "cfo_fy0": {
+      "value": -543.95,
+      "unit": "million",
+      "page": 115
+    },
+    "net_worth_fy0": {
+      "value": 1289.16,
+      "unit": "million",
+      "page": 35
+    },
+    "total_debt_fy0": {
+      "value": 2548.29,
+      "unit": "million",
+      "page": 35
+    },
+    "cash_fy0": {
+      "value": 265.48,
+      "unit": "million",
+      "page": 113
+    },
+    "eps_fy0": {
+      "value": 2.0,
+      "unit": "rupees",
+      "page": 114
+    },
+    "ronw_fy0_pct": {
+      "value": 34.19,
+      "unit": "percent",
+      "page": 156
+    },
+    "nav_per_share_fy0": {
+      "value": 5.86,
+      "unit": "rupees",
+      "page": 157
+    },
+    "stub_period_months": 6,
+    "revenue_stub": {
+      "value": 6060.94,
+      "unit": "million",
+      "page": 114
+    },
+    "pat_stub": {
+      "value": 329.81,
+      "unit": "million",
+      "page": 114
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Avanti Feeds Limited",
+        "nse_symbol": "AVANTIFEED",
+        "pe": 25.0,
+        "ronw_pct": 13.14,
+        "page": 157
+      },
+      {
+        "name": "Godrej Agrovet Limited",
+        "nse_symbol": "GODREJAGRO",
+        "pe": 33.23,
+        "ronw_pct": 10.77,
+        "page": 157
+      },
+      {
+        "name": "Zeal Aqua Limited",
+        "nse_symbol": null,
+        "pe": 20.63,
+        "ronw_pct": 9.97,
+        "page": 157
+      },
+      {
+        "name": "Waterbase Limited",
+        "nse_symbol": "WATERBASE",
+        "pe": null,
+        "ronw_pct": -1.9,
+        "page": 157
+      }
+    ],
+    "notes": [
+      "Pure fresh issue of up to 8,00,00,000 equity shares, with no offer for sale. The price band, lot size and issue size are all [\u25cf] in the RHP.",
+      "The RHP says there are no strictly comparable listed companies, but it still shows aqua feed companies as peers, so no_listed_peers is set to false. Waterbase's P/E is printed as '-' because its EPS is negative.",
+      "Promoters and promoter group hold 100% before the issue (promoters alone hold 85.22%). The post-issue holding is [\u25cf].",
+      "Both main objects are working capital (for the Company and for its associate Ento Proteins), so they are categorised as 'other'.",
+      "PAT is the restated profit including non-controlling interest. Profit attributable to owners for FY2023 is 440.75 million.",
+      "Total debt of 2,548.29 million is the sum of 53.59 non-current and 2,494.70 current borrowings.",
+      "The capital structure section states no shares were issued in the year before the RHP, so pre_ipo_placement is false. The last allotment was a bonus issue in January 2022.",
+      "NSE symbols are not printed in the RHP. They were filled in from general knowledge."
+    ]
+  }
+}

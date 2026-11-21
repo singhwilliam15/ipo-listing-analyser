@@ -1,0 +1,458 @@
+{
+  "symbol": "SENORES",
+  "rhp_file": "SENORES.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-21T05:54:43+00:00",
+  "pages_sent": [
+    1,
+    2,
+    20,
+    21,
+    22,
+    23,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    106,
+    107,
+    108,
+    129,
+    130,
+    150,
+    151,
+    152,
+    381,
+    382,
+    383
+  ],
+  "n_pdf_pages": 535,
+  "usage": {
+    "input_tokens": 41508,
+    "output_tokens": 4446,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3901033,
+    "session_id": "3a3f34ce-e0a3-4f39-b4fc-663cb28839fa"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Senores Pharmaceuticals Limited",
+    "sector": "Healthcare & pharma",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024",
+    "stub_period_months": 6,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "Equirus Capital Private Limited; Ambit Private Limited; Nuvama Wealth Management Limited",
+    "revenue_fy2": 14.17,
+    "rhp_page_revenue_fy2": 94,
+    "revenue_fy1": 35.337,
+    "rhp_page_revenue_fy1": 94,
+    "revenue_fy0": 214.52399999999997,
+    "rhp_page_revenue_fy0": 94,
+    "ebitda_fy2": 2.413,
+    "rhp_page_ebitda_fy2": 381,
+    "ebitda_fy1": 16.354,
+    "rhp_page_ebitda_fy1": 381,
+    "ebitda_fy0": 44.408,
+    "rhp_page_ebitda_fy0": 381,
+    "pat_fy2": 0.991,
+    "rhp_page_pat_fy2": 94,
+    "pat_fy1": 8.433,
+    "rhp_page_pat_fy1": 94,
+    "pat_fy0": 32.708,
+    "rhp_page_pat_fy0": 94,
+    "cfo_fy2": -10.447,
+    "rhp_page_cfo_fy2": 95,
+    "cfo_fy1": -1.079,
+    "rhp_page_cfo_fy1": 95,
+    "cfo_fy0": -19.871,
+    "rhp_page_cfo_fy0": 95,
+    "net_worth_fy0": 204.268,
+    "rhp_page_net_worth_fy0": 93,
+    "total_debt_fy0": 248.384,
+    "rhp_page_total_debt_fy0": 22,
+    "cash_fy0": 7.647,
+    "rhp_page_cash_fy0": 93,
+    "revenue_stub": 181.018,
+    "rhp_page_revenue_stub": 94,
+    "pat_stub": 23.943,
+    "rhp_page_pat_stub": 94,
+    "price_low": null,
+    "rhp_page_price_low": 150,
+    "price_high": null,
+    "rhp_page_price_high": 150,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "rhp_page_promoter_pre_pct": 21,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 21,
+    "retail_quota_pct": null,
+    "rhp_page_retail_quota_pct": 90,
+    "pre_ipo_price": null,
+    "eps_fy0": 13.67,
+    "rhp_page_eps_fy0": 94,
+    "ronw_fy0_pct": 23.6,
+    "rhp_page_ronw_fy0_pct": 151,
+    "nav_per_share_fy0": 66.96,
+    "rhp_page_nav_per_share_fy0": 151,
+    "fresh_issue_cr": 500.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.21,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 3.3265865,
+    "rhp_page_pre_issue_shares_cr": 90,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 90,
+    "ofs_promoter_shares_cr": 0.11,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 93.7,
+    "proceeds_capex_cr": 107.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "AJANTPHARM; APLLTD; CAPLIPOINT; GLAND; STAR",
+    "n_peers": 5,
+    "peer_pe_list": [
+      43.34,
+      33.9,
+      40.84,
+      37.27
+    ],
+    "peer_ronw_list": [
+      23.47,
+      13.4,
+      21.69,
+      9.26,
+      -4.44
+    ],
+    "rhp_page_peers": 151
+  },
+  "extract": {
+    "company": "Senores Pharmaceuticals Limited",
+    "sector": "Healthcare & pharma",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 150
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 150
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 5000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 2100000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Swapnil Jatinbhai Shah",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 250000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Ashokkumar Vijaysinh Barot",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 550000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Sangeeta Mukur Barot",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 300000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Prakash M Sanghvi",
+        "kind": "other",
+        "shares_offered": {
+          "value": 1000000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 33265865.0,
+      "unit": "shares",
+      "page": 90
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 90
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 21
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 21
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Investment in subsidiary Havix to fund capex for sterile injections manufacturing facility at Atlanta Facility",
+        "category": "capex",
+        "amount": {
+          "value": 1070.0,
+          "unit": "million",
+          "page": 129
+        }
+      },
+      {
+        "purpose": "Repayment/prepayment of certain borrowings of the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 734.8,
+          "unit": "million",
+          "page": 129
+        }
+      },
+      {
+        "purpose": "Investment in subsidiary Havix for repayment/prepayment of its borrowings",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 202.2,
+          "unit": "million",
+          "page": 129
+        }
+      },
+      {
+        "purpose": "Funding working capital requirements of the Company",
+        "category": "other",
+        "amount": {
+          "value": 432.59,
+          "unit": "million",
+          "page": 130
+        }
+      },
+      {
+        "purpose": "Investment in subsidiaries SPI and Ratnatris to fund their working capital requirements",
+        "category": "other",
+        "amount": {
+          "value": 594.83,
+          "unit": "million",
+          "page": 130
+        }
+      },
+      {
+        "purpose": "Funding inorganic growth through acquisition and other strategic initiatives and general corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 130
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 90
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Equirus Capital Private Limited",
+      "Ambit Private Limited",
+      "Nuvama Wealth Management Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024",
+    "revenue_fy2": {
+      "value": 141.7,
+      "unit": "million",
+      "page": 94
+    },
+    "revenue_fy1": {
+      "value": 353.37,
+      "unit": "million",
+      "page": 94
+    },
+    "revenue_fy0": {
+      "value": 2145.24,
+      "unit": "million",
+      "page": 94
+    },
+    "ebitda_fy2": {
+      "value": 24.13,
+      "unit": "million",
+      "page": 381
+    },
+    "ebitda_fy1": {
+      "value": 163.54,
+      "unit": "million",
+      "page": 381
+    },
+    "ebitda_fy0": {
+      "value": 444.08,
+      "unit": "million",
+      "page": 381
+    },
+    "pat_fy2": {
+      "value": 9.91,
+      "unit": "million",
+      "page": 94
+    },
+    "pat_fy1": {
+      "value": 84.33,
+      "unit": "million",
+      "page": 94
+    },
+    "pat_fy0": {
+      "value": 327.08,
+      "unit": "million",
+      "page": 94
+    },
+    "cfo_fy2": {
+      "value": -104.47,
+      "unit": "million",
+      "page": 95
+    },
+    "cfo_fy1": {
+      "value": -10.79,
+      "unit": "million",
+      "page": 95
+    },
+    "cfo_fy0": {
+      "value": -198.71,
+      "unit": "million",
+      "page": 95
+    },
+    "net_worth_fy0": {
+      "value": 2042.68,
+      "unit": "million",
+      "page": 93
+    },
+    "total_debt_fy0": {
+      "value": 2483.84,
+      "unit": "million",
+      "page": 22
+    },
+    "cash_fy0": {
+      "value": 76.47,
+      "unit": "million",
+      "page": 93
+    },
+    "eps_fy0": {
+      "value": 13.67,
+      "unit": "rupees",
+      "page": 94
+    },
+    "ronw_fy0_pct": {
+      "value": 23.6,
+      "unit": "percent",
+      "page": 151
+    },
+    "nav_per_share_fy0": {
+      "value": 66.96,
+      "unit": "rupees",
+      "page": 151
+    },
+    "stub_period_months": 6,
+    "revenue_stub": {
+      "value": 1810.18,
+      "unit": "million",
+      "page": 94
+    },
+    "pat_stub": {
+      "value": 239.43,
+      "unit": "million",
+      "page": 94
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Ajanta Pharma Limited",
+        "nse_symbol": "AJANTPHARM",
+        "pe": 43.34,
+        "ronw_pct": 23.47,
+        "page": 151
+      },
+      {
+        "name": "Alembic Pharmaceuticals Limited",
+        "nse_symbol": "APLLTD",
+        "pe": 33.9,
+        "ronw_pct": 13.4,
+        "page": 151
+      },
+      {
+        "name": "Caplin Point Laboratories Limited",
+        "nse_symbol": "CAPLIPOINT",
+        "pe": 40.84,
+        "ronw_pct": 21.69,
+        "page": 151
+      },
+      {
+        "name": "Gland Pharma Limited",
+        "nse_symbol": "GLAND",
+        "pe": 37.27,
+        "ronw_pct": 9.26,
+        "page": 151
+      },
+      {
+        "name": "Strides Pharma Science Limited",
+        "nse_symbol": "STAR",
+        "pe": null,
+        "ronw_pct": -4.44,
+        "page": 151
+      }
+    ],
+    "notes": [
+      "Price band, lot size, fresh issue share count, post-offer shares and OFS amount are all printed as [\u25cf] in the RHP.",
+      "Promoter pre-offer holding is not printed as one combined figure. On page 21, Promoters (A) are 23.39% and Promoter Group (C) is 43.27%. Total A+B+C of 71.10% also includes selling shareholder Prakash M Sanghvi at 4.44%. promoter_pre_pct is left null.",
+      "The retail quota % is not given in these pages; only the NII cap (not more than 15% of Net Offer) is printed. The offer is under Regulation 6(2), where retail is normally capped at 10%, but that is not stated here.",
+      "pre_ipo_placement is marked true by inference: equity share capital rose from 305.05m (Mar 2024) to 332.66m (Sep 2024), so shares were allotted within 12 months of the RHP. The allotment table shown is cut off after Aug 2023, so the price is unknown.",
+      "Cash fy0 = cash and cash equivalents on the balance sheet (76.47m). The cash flow statement and net debt reconciliation show 130.55m, which includes other bank balances.",
+      "Net worth (attributable to owners) is 2,042.68m. RoNW of 23.60% is computed on total equity including NCI (2,317.10m).",
+      "The stub P&L column header reads 'For the year ended September 30, 2024' but it is a six-month period. Some stub line items look misaligned: employee benefits are shown as (36.84), and finance costs are 267.25 in the P&L but 100.91 in the EBITDA reconciliation, where depreciation is 74.14.",
+      "Non-current borrowings at Sep 30, 2024 are 1,889.66 on the balance sheet and 1,889.65 in the reconciliation. Total borrowings are 2,420.33 / 2,420.34.",
+      "Strides Pharma P/E is printed as NM (negative EPS). NSE symbols are not in the RHP; they were added from general knowledge.",
+      "Working capital objects are categorised as 'other'."
+    ]
+  }
+}

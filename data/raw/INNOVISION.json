@@ -1,0 +1,409 @@
+{
+  "symbol": "INNOVISION",
+  "rhp_file": "INNOVISION.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T17:59:46+00:00",
+  "pages_sent": [
+    1,
+    2,
+    28,
+    29,
+    30,
+    31,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    103,
+    104,
+    105,
+    118,
+    119,
+    145,
+    146,
+    147,
+    348,
+    349,
+    351
+  ],
+  "n_pdf_pages": 488,
+  "usage": {
+    "input_tokens": 32132,
+    "output_tokens": 3743,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3000953,
+    "session_id": "3438d3f0-bf21-4fe6-8618-ef9500f86f8b"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Innovision Limited",
+    "sector": "Media, education & services",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "stub_period_months": 6,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Emkay Global Financial Services Limited",
+    "revenue_fy2": 255.565,
+    "rhp_page_revenue_fy2": 90,
+    "revenue_fy1": 510.326,
+    "rhp_page_revenue_fy1": 90,
+    "revenue_fy0": 893.131,
+    "rhp_page_revenue_fy0": 90,
+    "ebitda_fy2": 16.361,
+    "rhp_page_ebitda_fy2": 348,
+    "ebitda_fy1": 19.66,
+    "rhp_page_ebitda_fy1": 348,
+    "ebitda_fy0": 51.751,
+    "rhp_page_ebitda_fy0": 348,
+    "pat_fy2": 8.881,
+    "rhp_page_pat_fy2": 90,
+    "pat_fy1": 10.272,
+    "rhp_page_pat_fy1": 90,
+    "pat_fy0": 29.023,
+    "rhp_page_pat_fy0": 90,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 81.876,
+    "rhp_page_net_worth_fy0": 88,
+    "total_debt_fy0": 79.051,
+    "rhp_page_total_debt_fy0": 348,
+    "cash_fy0": 7.104,
+    "rhp_page_cash_fy0": 88,
+    "revenue_stub": 479.996,
+    "rhp_page_revenue_stub": 90,
+    "pat_stub": 20.004,
+    "rhp_page_pat_stub": 90,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": 100.0,
+    "rhp_page_promoter_pre_pct": 29,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 29,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 15.62,
+    "rhp_page_eps_fy0": 145,
+    "ronw_fy0_pct": 35.45,
+    "rhp_page_ronw_fy0_pct": 146,
+    "nav_per_share_fy0": 43.32,
+    "rhp_page_nav_per_share_fy0": 348,
+    "fresh_issue_cr": 255.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.1238,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 1.89,
+    "rhp_page_pre_issue_shares_cr": 85,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 85,
+    "ofs_promoter_shares_cr": 0.1238,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 51.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "Krystal Integrated Services Limited; Updater Services Limited; SIS Limited; Quess Corp Limited; Highway Infrastructure Ltd",
+    "n_peers": 5,
+    "peer_pe_list": [
+      13.47,
+      8.62,
+      401.85,
+      63.37,
+      15.15
+    ],
+    "peer_ronw_list": [
+      14.3,
+      12.33,
+      0.49,
+      4.23,
+      19.03
+    ],
+    "rhp_page_peers": 147
+  },
+  "extract": {
+    "company": "Innovision Limited",
+    "sector": "Media, education & services",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 2550.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 1238000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Lt Col Randeep Hundal",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 619000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Uday Pal Singh",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 619000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 18900000.0,
+      "unit": "shares",
+      "page": 85
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 85
+    },
+    "promoter_pre_pct": {
+      "value": 100.0,
+      "unit": "percent",
+      "page": 29
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": 29
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment or pre-payment, in part or full, of all or certain borrowings availed by the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 510.0,
+          "unit": "million",
+          "page": 118
+        }
+      },
+      {
+        "purpose": "Funding working capital requirements of the Company",
+        "category": "other",
+        "amount": {
+          "value": 1190.0,
+          "unit": "million",
+          "page": 119
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": null,
+          "page": 119
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lead_managers": [
+      "Emkay Global Financial Services Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "revenue_fy2": {
+      "value": 2555.65,
+      "unit": "million",
+      "page": 90
+    },
+    "revenue_fy1": {
+      "value": 5103.26,
+      "unit": "million",
+      "page": 90
+    },
+    "revenue_fy0": {
+      "value": 8931.31,
+      "unit": "million",
+      "page": 90
+    },
+    "ebitda_fy2": {
+      "value": 163.61,
+      "unit": "million",
+      "page": 348
+    },
+    "ebitda_fy1": {
+      "value": 196.6,
+      "unit": "million",
+      "page": 348
+    },
+    "ebitda_fy0": {
+      "value": 517.51,
+      "unit": "million",
+      "page": 348
+    },
+    "pat_fy2": {
+      "value": 88.81,
+      "unit": "million",
+      "page": 90
+    },
+    "pat_fy1": {
+      "value": 102.72,
+      "unit": "million",
+      "page": 90
+    },
+    "pat_fy0": {
+      "value": 290.23,
+      "unit": "million",
+      "page": 90
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 818.76,
+      "unit": "million",
+      "page": 88
+    },
+    "total_debt_fy0": {
+      "value": 790.51,
+      "unit": "million",
+      "page": 348
+    },
+    "cash_fy0": {
+      "value": 71.04,
+      "unit": "million",
+      "page": 88
+    },
+    "eps_fy0": {
+      "value": 15.62,
+      "unit": "rupees",
+      "page": 145
+    },
+    "ronw_fy0_pct": {
+      "value": 35.45,
+      "unit": "percent",
+      "page": 146
+    },
+    "nav_per_share_fy0": {
+      "value": 43.32,
+      "unit": "rupees",
+      "page": 348
+    },
+    "stub_period_months": 6,
+    "revenue_stub": {
+      "value": 4799.96,
+      "unit": "million",
+      "page": 90
+    },
+    "pat_stub": {
+      "value": 200.04,
+      "unit": "million",
+      "page": 90
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Krystal Integrated Services Limited",
+        "nse_symbol": null,
+        "pe": 13.47,
+        "ronw_pct": 14.3,
+        "page": 147
+      },
+      {
+        "name": "Updater Services Limited",
+        "nse_symbol": null,
+        "pe": 8.62,
+        "ronw_pct": 12.33,
+        "page": 147
+      },
+      {
+        "name": "SIS Limited",
+        "nse_symbol": null,
+        "pe": 401.85,
+        "ronw_pct": 0.49,
+        "page": 147
+      },
+      {
+        "name": "Quess Corp Limited",
+        "nse_symbol": null,
+        "pe": 63.37,
+        "ronw_pct": 4.23,
+        "page": 147
+      },
+      {
+        "name": "Highway Infrastructure Ltd",
+        "nse_symbol": null,
+        "pe": 15.15,
+        "ronw_pct": 19.03,
+        "page": 147
+      }
+    ],
+    "notes": [
+      "Price band, lot size, number of fresh issue shares, OFS amount, post-offer shares and post-offer promoter holding are all printed as [\u25cf] in the RHP.",
+      "Retail quota % is not given on these pages. The Offer is under Regulation 6(1), so the usual split would be retail not more than 35%, but no percentage is printed here.",
+      "The cash flow statement is not among the pages provided, so CFO for every year is null.",
+      "EBITDA comes from Other Financial Information (p.348). It is defined as restated profit with current tax, finance costs and depreciation added back. Deferred tax is not added back.",
+      "PAT is restated profit for the year including the non-controlling interest (290.23). Profit attributable to owners is 293.32 for FY2025. EPS is basic as printed.",
+      "Total borrowings at FY2025 = 790.51 million (non-current 59.12 + current 731.39). For Sep 30, 2025 the capitalisation statement shows 1,123.95 against 1,123.94 in the summary.",
+      "Net worth FY2025 = total equity 818.76 million. Non-controlling interest is shown as nil.",
+      "Cash fy0 is cash and cash equivalents of 71.04 million only. Other bank balances of 334.98 million are excluded.",
+      "In the industry P/E summary (p.146), Krystal Integrated is named as the lowest at 8.62. But the peer comparison table (p.147) shows 13.47 for Krystal and 8.62 for Updater Services. The p.146 note uses January 27, 2026 prices and the p.147 table uses January 28, 2026. Peer figures here are taken from the p.147 table.",
+      "In the peer table, Innovision's 'Total income' column shows 8,931.31, which is actually revenue from operations. Total income per the P&L is 8,959.46.",
+      "No pre-IPO placement appears in the share capital history. The last allotment was a bonus issue on January 6, 2024, more than 12 months before the RHP. 14 shares were transmitted to Uday Pal Singh after the death of Swadesh Vasdev.",
+      "Working capital funding of 1,190.00 million is categorised as 'other'.",
+      "Sector: the business is manpower, security, toll plaza management and skill development. 'Media, education & services' was chosen as the closest category."
+    ]
+  }
+}

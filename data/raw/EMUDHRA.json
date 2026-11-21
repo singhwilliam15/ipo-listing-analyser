@@ -1,0 +1,436 @@
+{
+  "symbol": "EMUDHRA",
+  "rhp_file": "EMUDHRA.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T20:51:20+00:00",
+  "pages_sent": [
+    1,
+    2,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    99,
+    100,
+    101,
+    102,
+    115,
+    116,
+    117,
+    118,
+    140,
+    141,
+    142,
+    143,
+    144,
+    333,
+    334,
+    335,
+    363
+  ],
+  "n_pdf_pages": 450,
+  "usage": {
+    "input_tokens": 57129,
+    "output_tokens": 4080,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.5439279,
+    "session_id": "2cb3d997-679a-4b1c-ae99-4809e6d7c7b2"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "eMudhra Limited",
+    "sector": "IT & software",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2021 (March 31, 2021)",
+    "stub_period_months": 9,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "IIFL Securities Limited; YES Securities (India) Limited; Indorient Financial Services Limited",
+    "revenue_fy2": 101.584,
+    "rhp_page_revenue_fy2": 87,
+    "revenue_fy1": 116.45,
+    "rhp_page_revenue_fy1": 87,
+    "revenue_fy0": 131.593,
+    "rhp_page_revenue_fy0": 87,
+    "ebitda_fy2": 32.31,
+    "rhp_page_ebitda_fy2": 333,
+    "ebitda_fy1": 32.288,
+    "rhp_page_ebitda_fy1": 333,
+    "ebitda_fy0": 40.787,
+    "rhp_page_ebitda_fy0": 333,
+    "pat_fy2": 17.436,
+    "rhp_page_pat_fy2": 87,
+    "pat_fy1": 18.416,
+    "rhp_page_pat_fy1": 87,
+    "pat_fy0": 25.359,
+    "rhp_page_pat_fy0": 87,
+    "cfo_fy2": 16.785,
+    "rhp_page_cfo_fy2": 89,
+    "cfo_fy1": 23.236,
+    "rhp_page_cfo_fy1": 89,
+    "cfo_fy0": 40.944,
+    "rhp_page_cfo_fy0": 89,
+    "net_worth_fy0": 107.359,
+    "rhp_page_net_worth_fy0": 27,
+    "total_debt_fy0": 27.185,
+    "rhp_page_total_debt_fy0": 28,
+    "cash_fy0": 7.713,
+    "rhp_page_cash_fy0": 85,
+    "revenue_stub": 137.244,
+    "rhp_page_revenue_stub": 87,
+    "pat_stub": 30.34,
+    "rhp_page_pat_stub": 87,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": 67.94,
+    "rhp_page_promoter_pre_pct": 27,
+    "promoter_post_pct": null,
+    "retail_quota_pct": 35.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": 243.2,
+    "rhp_page_pre_ipo_price": 100,
+    "eps_fy0": 2.49,
+    "rhp_page_eps_fy0": 88,
+    "ronw_fy0_pct": 16.26,
+    "rhp_page_ronw_fy0_pct": 141,
+    "nav_per_share_fy0": 15.3,
+    "rhp_page_nav_per_share_fy0": 141,
+    "fresh_issue_cr": 161.0,
+    "rhp_page_fresh_issue_cr": 2,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 2,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 2,
+    "ofs_shares_cr": 0.9835394,
+    "rhp_page_ofs_shares_cr": 2,
+    "pre_issue_shares_cr": 7.1783309,
+    "rhp_page_pre_issue_shares_cr": 83,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 83,
+    "ofs_promoter_shares_cr": 0.919801,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 35.0,
+    "proceeds_capex_cr": 46.364,
+    "proceeds_gcp_cr": 0.0,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "eMudhra Limited",
+    "sector": "IT & software",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 1610.0,
+      "unit": "million",
+      "page": 2
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 2
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": null,
+      "page": 2
+    },
+    "ofs_shares": {
+      "value": 9835394.0,
+      "unit": "shares",
+      "page": 2
+    },
+    "selling_shareholders": [
+      {
+        "name": "Venkatraman Srinivasan",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 3289257.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Taarav Pte. Limited",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 4516246.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Kaushik Srinivasan",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 510638.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Lakshmi Kaushik",
+        "kind": "other",
+        "shares_offered": {
+          "value": 504307.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Arvind Srinivasan",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 881869.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Aishwarya Arvind",
+        "kind": "other",
+        "shares_offered": {
+          "value": 133077.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 71783309.0,
+      "unit": "shares",
+      "page": 83
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 83
+    },
+    "promoter_pre_pct": {
+      "value": 67.94,
+      "unit": "percent",
+      "page": 27
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment or pre-payment, in full or in part, of all or certain borrowings availed by the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 350.0,
+          "unit": "million",
+          "page": 115
+        }
+      },
+      {
+        "purpose": "Funding working capital requirements of the Company",
+        "category": "other",
+        "amount": {
+          "value": 402.19,
+          "unit": "million",
+          "page": 115
+        }
+      },
+      {
+        "purpose": "Purchase of equipments and funding of other related costs for data centers proposed to be set-up in India and overseas locations",
+        "category": "capex",
+        "amount": {
+          "value": 463.64,
+          "unit": "million",
+          "page": 115
+        }
+      },
+      {
+        "purpose": "Funding of expenditure relating to product development",
+        "category": "other",
+        "amount": {
+          "value": 150.3,
+          "unit": "million",
+          "page": 115
+        }
+      },
+      {
+        "purpose": "Investment in eMudhra INC for augmenting its business development, sales, marketing and other related costs for future growth",
+        "category": "other",
+        "amount": {
+          "value": 152.67,
+          "unit": "million",
+          "page": 115
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 115
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 243.2,
+      "unit": "rupees",
+      "page": 100
+    },
+    "lead_managers": [
+      "IIFL Securities Limited",
+      "YES Securities (India) Limited",
+      "Indorient Financial Services Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2021 (March 31, 2021)",
+    "revenue_fy2": {
+      "value": 1015.84,
+      "unit": "million",
+      "page": 87
+    },
+    "revenue_fy1": {
+      "value": 1164.5,
+      "unit": "million",
+      "page": 87
+    },
+    "revenue_fy0": {
+      "value": 1315.93,
+      "unit": "million",
+      "page": 87
+    },
+    "ebitda_fy2": {
+      "value": 323.1,
+      "unit": "million",
+      "page": 333
+    },
+    "ebitda_fy1": {
+      "value": 322.88,
+      "unit": "million",
+      "page": 333
+    },
+    "ebitda_fy0": {
+      "value": 407.87,
+      "unit": "million",
+      "page": 333
+    },
+    "pat_fy2": {
+      "value": 174.36,
+      "unit": "million",
+      "page": 87
+    },
+    "pat_fy1": {
+      "value": 184.16,
+      "unit": "million",
+      "page": 87
+    },
+    "pat_fy0": {
+      "value": 253.59,
+      "unit": "million",
+      "page": 87
+    },
+    "cfo_fy2": {
+      "value": 167.85,
+      "unit": "million",
+      "page": 89
+    },
+    "cfo_fy1": {
+      "value": 232.36,
+      "unit": "million",
+      "page": 89
+    },
+    "cfo_fy0": {
+      "value": 409.44,
+      "unit": "million",
+      "page": 89
+    },
+    "net_worth_fy0": {
+      "value": 1073.59,
+      "unit": "million",
+      "page": 27
+    },
+    "total_debt_fy0": {
+      "value": 271.85,
+      "unit": "million",
+      "page": 28
+    },
+    "cash_fy0": {
+      "value": 77.13,
+      "unit": "million",
+      "page": 85
+    },
+    "eps_fy0": {
+      "value": 2.49,
+      "unit": "rupees",
+      "page": 88
+    },
+    "ronw_fy0_pct": {
+      "value": 16.26,
+      "unit": "percent",
+      "page": 141
+    },
+    "nav_per_share_fy0": {
+      "value": 15.3,
+      "unit": "rupees",
+      "page": 141
+    },
+    "stub_period_months": 9,
+    "revenue_stub": {
+      "value": 1372.44,
+      "unit": "million",
+      "page": 87
+    },
+    "pat_stub": {
+      "value": 303.4,
+      "unit": "million",
+      "page": 87
+    },
+    "no_listed_peers": true,
+    "peers": [],
+    "notes": [
+      "Price band, lot size, fresh issue share count and post-offer share count are all printed as [\u25cf] in the RHP.",
+      "promoter_pre_pct of 67.94% covers only the Promoters (Venkatraman Srinivasan 42.37% and Taarav Pte Limited 25.58%). The Promoter Group (Kaushik Srinivasan and Arvind Srinivasan) separately holds 11.25% (p27). The combined figure is not printed, so it was not calculated.",
+      "Total borrowings for FY2021 are taken from the summary table (271.85 million, p28). The restated balance sheet shows non-current borrowings of 220.91 and current borrowings of 87.15 (p85), which add up to 308.06, so the two sources do not match. The difference may be because lease liabilities or other items are classified differently.",
+      "Restated PAT for FY2021 (253.59) includes 78.99 million attributable to minority interests. The share attributable to owners is 174.60.",
+      "Net worth for FY2021 (1,073.59) is the equity attributable to shareholders. Total equity including non-controlling interests is 1,166.18 (p85).",
+      "Before the RHP, a pre-IPO placement allotted 1,603,617 shares at Rs 243.20 each, totalling Rs 390.00 million (May 5, 2022). This reduced the fresh issue from Rs 2,000 million to Rs 1,610 million.",
+      "Lakshmi Kaushik and Aishwarya Arvind are listed as 'Other Selling Shareholders' without the promoter group label, so they are classified as 'other'.",
+      "Working capital, product development and the investment in eMudhra INC are categorised as 'other'.",
+      "Basis for Offer Price states that there are no comparable listed peers in India."
+    ]
+  }
+}

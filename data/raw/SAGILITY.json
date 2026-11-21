@@ -1,0 +1,325 @@
+{
+  "symbol": "SAGILITY",
+  "rhp_file": "SAGILITY.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-21T06:01:29+00:00",
+  "pages_sent": [
+    1,
+    2,
+    25,
+    26,
+    27,
+    28,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    99,
+    100,
+    101,
+    111,
+    112,
+    113,
+    114,
+    115,
+    353,
+    354,
+    396
+  ],
+  "n_pdf_pages": 494,
+  "usage": {
+    "input_tokens": 37995,
+    "output_tokens": 2932,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.33136540000000003,
+    "session_id": "d88fdae2-6c63-4a6f-975d-293a442d3356"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Sagility India Limited",
+    "sector": "IT & software",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024 (March 31, 2024)",
+    "stub_period_months": 3,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "ICICI Securities Limited; IIFL Securities Limited; Jefferies India Private Limited; J. P. Morgan India Private Limited",
+    "revenue_fy2": 923.407,
+    "rhp_page_revenue_fy2": 84,
+    "revenue_fy1": 4218.408,
+    "rhp_page_revenue_fy1": 84,
+    "revenue_fy0": 4753.557,
+    "rhp_page_revenue_fy0": 84,
+    "ebitda_fy2": 210.57199999999997,
+    "rhp_page_ebitda_fy2": 27,
+    "ebitda_fy1": 1044.864,
+    "rhp_page_ebitda_fy1": 27,
+    "ebitda_fy0": 1116.037,
+    "rhp_page_ebitda_fy0": 27,
+    "pat_fy2": -4.671,
+    "rhp_page_pat_fy2": 84,
+    "pat_fy1": 143.572,
+    "rhp_page_pat_fy1": 84,
+    "pat_fy0": 228.266,
+    "rhp_page_pat_fy0": 84,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 6443.128,
+    "rhp_page_net_worth_fy0": 27,
+    "total_debt_fy0": 1933.518,
+    "rhp_page_total_debt_fy0": 27,
+    "cash_fy0": 344.126,
+    "rhp_page_cash_fy0": 82,
+    "revenue_stub": 1223.328,
+    "rhp_page_revenue_stub": 84,
+    "pat_stub": 22.294,
+    "rhp_page_pat_stub": 84,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": 100.0,
+    "rhp_page_promoter_pre_pct": 26,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 26,
+    "retail_quota_pct": null,
+    "pre_ipo_price": 28.3,
+    "rhp_page_pre_ipo_price": 100,
+    "eps_fy0": 0.53,
+    "rhp_page_eps_fy0": 114,
+    "ronw_fy0_pct": 3.54,
+    "rhp_page_ronw_fy0_pct": 115,
+    "nav_per_share_fy0": 15.03,
+    "rhp_page_nav_per_share_fy0": 115,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 70.2199262,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 468.1328413,
+    "rhp_page_pre_issue_shares_cr": 79,
+    "post_issue_shares_cr": 468.1328413,
+    "rhp_page_post_issue_shares_cr": 99,
+    "ofs_promoter_shares_cr": 70.2199262,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": null,
+    "proceeds_capex_cr": null,
+    "proceeds_gcp_cr": null,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "Sagility India Limited",
+    "sector": "IT & software",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 702199262.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Sagility B.V.",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 702199262.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 4681328413.0,
+      "unit": "shares",
+      "page": 79
+    },
+    "post_issue_shares": {
+      "value": 4681328413.0,
+      "unit": "shares",
+      "page": 99
+    },
+    "promoter_pre_pct": {
+      "value": 100.0,
+      "unit": "percent",
+      "page": 26
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 26
+    },
+    "objects_of_offer": [],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 28.3,
+      "unit": "rupees",
+      "page": 100
+    },
+    "lead_managers": [
+      "ICICI Securities Limited",
+      "IIFL Securities Limited",
+      "Jefferies India Private Limited",
+      "J. P. Morgan India Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024 (March 31, 2024)",
+    "revenue_fy2": {
+      "value": 9234.07,
+      "unit": "million",
+      "page": 84
+    },
+    "revenue_fy1": {
+      "value": 42184.08,
+      "unit": "million",
+      "page": 84
+    },
+    "revenue_fy0": {
+      "value": 47535.57,
+      "unit": "million",
+      "page": 84
+    },
+    "ebitda_fy2": {
+      "value": 2105.72,
+      "unit": "million",
+      "page": 27
+    },
+    "ebitda_fy1": {
+      "value": 10448.64,
+      "unit": "million",
+      "page": 27
+    },
+    "ebitda_fy0": {
+      "value": 11160.37,
+      "unit": "million",
+      "page": 27
+    },
+    "pat_fy2": {
+      "value": -46.71,
+      "unit": "million",
+      "page": 84
+    },
+    "pat_fy1": {
+      "value": 1435.72,
+      "unit": "million",
+      "page": 84
+    },
+    "pat_fy0": {
+      "value": 2282.66,
+      "unit": "million",
+      "page": 84
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 64431.28,
+      "unit": "million",
+      "page": 27
+    },
+    "total_debt_fy0": {
+      "value": 19335.18,
+      "unit": "million",
+      "page": 27
+    },
+    "cash_fy0": {
+      "value": 3441.26,
+      "unit": "million",
+      "page": 82
+    },
+    "eps_fy0": {
+      "value": 0.53,
+      "unit": "rupees",
+      "page": 114
+    },
+    "ronw_fy0_pct": {
+      "value": 3.54,
+      "unit": "percent",
+      "page": 115
+    },
+    "nav_per_share_fy0": {
+      "value": 15.03,
+      "unit": "rupees",
+      "page": 115
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 12233.28,
+      "unit": "million",
+      "page": 84
+    },
+    "pat_stub": {
+      "value": 222.94,
+      "unit": "million",
+      "page": 84
+    },
+    "no_listed_peers": true,
+    "peers": [],
+    "notes": [
+      "Pure offer for sale: no fresh issue, and the company gets no proceeds. So objects_of_offer is empty; the stated objects are listing benefits and carrying out the OFS.",
+      "fy2 is the period from July 28, 2021 (incorporation) to March 31, 2022, about 8 months, not a full 12-month year.",
+      "Stub period is the quarter ended June 30, 2024 (3 months).",
+      "Cash flow statement pages were not provided, so CFO is null for all years.",
+      "Price band, lot size, retail quota % and post-offer promoter holding are [\u25cf] or not on these pages.",
+      "Pre-IPO allotment: on May 31, 2024 the company allotted 393,991,918 shares to promoter Sagility B.V. at \u20b928.30 per share via private placement as a share swap (consideration other than cash). The March 2024 allotments were also at \u20b928.30.",
+      "Post-offer shares equal pre-offer shares (4,681,328,413) because the offer is OFS only.",
+      "The 'Basis for Offer Price' section says there are no listed peers in India or abroad that are directly comparable.",
+      "Employee reservation of up to 1,900,000 shares sits within the OFS; net offer is 700,299,262 shares.",
+      "Sector is approximate: the company does technology-enabled healthcare services and BPM for US payers and providers, so IT & software was chosen as the closest fit.",
+      "Net worth equals total equity (64,431.28 million) at March 31, 2024; the summary on page 27 says 'Net Worth' and the balance sheet on page 82 says 'Total Equity', and both show this figure."
+    ]
+  }
+}

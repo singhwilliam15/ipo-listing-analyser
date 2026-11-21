@@ -1,0 +1,566 @@
+{
+  "symbol": "ZETWERK",
+  "rhp_file": "ZETWERK.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:17:01+00:00",
+  "pages_sent": [
+    1,
+    2,
+    82,
+    83,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    127,
+    128,
+    129,
+    130,
+    205,
+    206,
+    207,
+    208,
+    252,
+    253,
+    254,
+    255,
+    256,
+    559,
+    560,
+    561,
+    602
+  ],
+  "n_pdf_pages": 762,
+  "usage": {
+    "input_tokens": 55382,
+    "output_tokens": 4927,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.5121062,
+    "session_id": "b8f5acb9-abea-4f5b-b27d-fe78621e4c17"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Zetwerk Manufacturing Businesses Limited",
+    "sector": "Industrials & capital goods",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026 (March 31, 2026)",
+    "stub_period_months": 3,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "Kotak Mahindra Capital Company Limited; Morgan Stanley India Company Private Limited; Goldman Sachs (India) Securities Private Limited; Avendus Capital Private Limited; JM Financial Limited; HSBC Securities and Capital Markets (India) Private Limited; Pantomath Capital Advisors Private Limited",
+    "revenue_fy2": 12364.372,
+    "rhp_page_revenue_fy2": 88,
+    "revenue_fy1": 11331.856,
+    "rhp_page_revenue_fy1": 88,
+    "revenue_fy0": 15913.323,
+    "rhp_page_revenue_fy0": 88,
+    "ebitda_fy2": 97.025,
+    "rhp_page_ebitda_fy2": 256,
+    "ebitda_fy1": 322.588,
+    "rhp_page_ebitda_fy1": 256,
+    "ebitda_fy0": 421.33500000000004,
+    "rhp_page_ebitda_fy0": 256,
+    "pat_fy2": -917.949,
+    "rhp_page_pat_fy2": 88,
+    "pat_fy1": -370.708,
+    "rhp_page_pat_fy1": 88,
+    "pat_fy0": -1606.171,
+    "rhp_page_pat_fy0": 88,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 4653.898,
+    "rhp_page_net_worth_fy0": 86,
+    "total_debt_fy0": null,
+    "rhp_page_total_debt_fy0": 86,
+    "cash_fy0": 1321.947,
+    "rhp_page_cash_fy0": 86,
+    "revenue_stub": 4117.877,
+    "rhp_page_revenue_stub": 88,
+    "pat_stub": -732.983,
+    "rhp_page_pat_stub": 88,
+    "price_low": null,
+    "rhp_page_price_low": 254,
+    "price_high": null,
+    "rhp_page_price_high": 254,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": -11.02,
+    "rhp_page_eps_fy0": 89,
+    "ronw_fy0_pct": -21.11,
+    "rhp_page_ronw_fy0_pct": 254,
+    "nav_per_share_fy0": 31.26,
+    "rhp_page_nav_per_share_fy0": 254,
+    "fresh_issue_cr": 2830.0,
+    "rhp_page_fresh_issue_cr": 82,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 82,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 82,
+    "ofs_shares_cr": 14.4525036,
+    "rhp_page_ofs_shares_cr": 82,
+    "pre_issue_shares_cr": 150.6772659,
+    "rhp_page_pre_issue_shares_cr": 82,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 82,
+    "ofs_promoter_shares_cr": 5.1436164,
+    "ofs_investor_shares_cr": 8.7373742,
+    "proceeds_debt_repayment_cr": 2160.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "Zetwerk Manufacturing Businesses Limited",
+    "sector": "Industrials & capital goods",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 254
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 254
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 28300.0,
+      "unit": "million",
+      "page": 82
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 82
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 82
+    },
+    "ofs_shares": {
+      "value": 144525036.0,
+      "unit": "shares",
+      "page": 82
+    },
+    "selling_shareholders": [
+      {
+        "name": "Amrit Pratik Acharya",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 14230672.0,
+          "unit": "shares",
+          "page": 83
+        }
+      },
+      {
+        "name": "Srinath Ramakkrushnan",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 14230672.0,
+          "unit": "shares",
+          "page": 83
+        }
+      },
+      {
+        "name": "Creovate Innovation Private Limited",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 22974820.0,
+          "unit": "shares",
+          "page": 83
+        }
+      },
+      {
+        "name": "Peak XV Partners Investments V",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 17611820.0,
+          "unit": "shares",
+          "page": 83
+        }
+      },
+      {
+        "name": "Lightspeed Venture Partners Select IV Mauritius",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 13529722.0,
+          "unit": "shares",
+          "page": 83
+        }
+      },
+      {
+        "name": "Kae Capital Fund II",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 12570262.0,
+          "unit": "shares",
+          "page": 83
+        }
+      },
+      {
+        "name": "Accel India V (Mauritius) Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 12016622.0,
+          "unit": "shares",
+          "page": 83
+        }
+      },
+      {
+        "name": "Lightspeed India Partners II, LLC",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 11597361.0,
+          "unit": "shares",
+          "page": 83
+        }
+      },
+      {
+        "name": "Peak XV Partners Growth Investments III",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 5797579.0,
+          "unit": "shares",
+          "page": 83
+        }
+      },
+      {
+        "name": "Kalysta Capital Fund II (Mauritius)",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 4190105.0,
+          "unit": "shares",
+          "page": 83
+        }
+      },
+      {
+        "name": "Lightspeed India Partners III, LLC",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 3145603.0,
+          "unit": "shares",
+          "page": 83
+        }
+      },
+      {
+        "name": "Saifuddin Fakhruddin Qureishi",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 2857565.0,
+          "unit": "shares",
+          "page": 83
+        }
+      },
+      {
+        "name": "Matthew Harris Arnold",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 2442738.0,
+          "unit": "shares",
+          "page": 83
+        }
+      },
+      {
+        "name": "Subbiah Vellayan",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 409182.0,
+          "unit": "shares",
+          "page": 83
+        }
+      },
+      {
+        "name": "A. Venkatachalam",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 408469.0,
+          "unit": "shares",
+          "page": 83
+        }
+      },
+      {
+        "name": "Shivraj Singh Kandhari (Guardian, Bikramjit Singh Kandhari)",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 100.0,
+          "unit": "shares",
+          "page": 83
+        }
+      },
+      {
+        "name": "Can K\u00f6seo\u011flu",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 299402.0,
+          "unit": "shares",
+          "page": 83
+        }
+      },
+      {
+        "name": "Andrew Richard Woglom",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 256630.0,
+          "unit": "shares",
+          "page": 83
+        }
+      },
+      {
+        "name": "Cem Garih Nahmiyas",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 86129.0,
+          "unit": "shares",
+          "page": 83
+        }
+      },
+      {
+        "name": "Nitin Mahajan",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 83167.0,
+          "unit": "shares",
+          "page": 83
+        }
+      },
+      {
+        "name": "Daniel Robert Bachelet",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 71286.0,
+          "unit": "shares",
+          "page": 83
+        }
+      },
+      {
+        "name": "Rahul Sharma",
+        "kind": "other",
+        "shares_offered": {
+          "value": 1714539.0,
+          "unit": "shares",
+          "page": 83
+        }
+      },
+      {
+        "name": "Vishal Chaudhary",
+        "kind": "other",
+        "shares_offered": {
+          "value": 1714539.0,
+          "unit": "shares",
+          "page": 83
+        }
+      },
+      {
+        "name": "Ankit Fatehpuria",
+        "kind": "other",
+        "shares_offered": {
+          "value": 2286052.0,
+          "unit": "shares",
+          "page": 83
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 1506772659.0,
+      "unit": "shares",
+      "page": 82
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 82
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment/prepayment of borrowings availed by the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 13000.0,
+          "unit": "million",
+          "page": 207
+        }
+      },
+      {
+        "purpose": "Repayment/prepayment of borrowings of certain Subsidiaries through investment in such Subsidiaries",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 8600.0,
+          "unit": "million",
+          "page": 207
+        }
+      },
+      {
+        "purpose": "Funding inorganic growth through unidentified acquisitions and other strategic acquisitions, and general corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 207
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Kotak Mahindra Capital Company Limited",
+      "Morgan Stanley India Company Private Limited",
+      "Goldman Sachs (India) Securities Private Limited",
+      "Avendus Capital Private Limited",
+      "JM Financial Limited",
+      "HSBC Securities and Capital Markets (India) Private Limited",
+      "Pantomath Capital Advisors Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026 (March 31, 2026)",
+    "revenue_fy2": {
+      "value": 123643.72,
+      "unit": "million",
+      "page": 88
+    },
+    "revenue_fy1": {
+      "value": 113318.56,
+      "unit": "million",
+      "page": 88
+    },
+    "revenue_fy0": {
+      "value": 159133.23,
+      "unit": "million",
+      "page": 88
+    },
+    "ebitda_fy2": {
+      "value": 970.25,
+      "unit": "million",
+      "page": 256
+    },
+    "ebitda_fy1": {
+      "value": 3225.88,
+      "unit": "million",
+      "page": 256
+    },
+    "ebitda_fy0": {
+      "value": 4213.35,
+      "unit": "million",
+      "page": 256
+    },
+    "pat_fy2": {
+      "value": -9179.49,
+      "unit": "million",
+      "page": 88
+    },
+    "pat_fy1": {
+      "value": -3707.08,
+      "unit": "million",
+      "page": 88
+    },
+    "pat_fy0": {
+      "value": -16061.71,
+      "unit": "million",
+      "page": 88
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 46538.98,
+      "unit": "million",
+      "page": 86
+    },
+    "total_debt_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": 86
+    },
+    "cash_fy0": {
+      "value": 13219.47,
+      "unit": "million",
+      "page": 86
+    },
+    "eps_fy0": {
+      "value": -11.02,
+      "unit": "rupees",
+      "page": 89
+    },
+    "ronw_fy0_pct": {
+      "value": -21.11,
+      "unit": "percent",
+      "page": 254
+    },
+    "nav_per_share_fy0": {
+      "value": 31.26,
+      "unit": "rupees",
+      "page": 254
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 41178.77,
+      "unit": "million",
+      "page": 88
+    },
+    "pat_stub": {
+      "value": -7329.83,
+      "unit": "million",
+      "page": 88
+    },
+    "no_listed_peers": true,
+    "peers": [],
+    "notes": [
+      "Price band, lot size, fresh issue share count and post-offer shares are printed as [\u25cf] or not given.",
+      "EBITDA uses Adjusted EBITDA from the KPI table (p.256). The unadjusted EBITDA on p.559 is FY26 -3,535.26, FY25 2,933.33 and FY24 -2,935.39 (\u20b9 million).",
+      "CFO is null: the cash flow pages given stop at 'Cash flow used in operations' (FY26 -6,658.47, FY25 -3,558.57, FY24 -2,029.50) and do not show net cash from operating activities.",
+      "total_debt_fy0 is null because the FY26 total is not printed. The components are non-current borrowings 4,753.28 and current borrowings 14,608.34 (\u20b9 million, p.86). Total borrowings as at June 30, 2026 is 19,421.92 (p.602).",
+      "EPS fy0 is the combined (continuing + discontinued) basic EPS of -11.02. Basic EPS from continuing operations is -6.69 and is the figure used in Basis for Offer Price.",
+      "RoNW of -21.11% uses net worth of 46,912.13 (excluding FCTR) and continuing-operations loss. Equity attributable to owners is 46,538.98.",
+      "The PAT figures include both discontinued and continuing operations. Loss from continuing operations for FY26 is -9,643.93.",
+      "Promoter shareholding % and retail quota are not on the pages provided. The offer is made under Regulation 6(2).",
+      "Pre-IPO placement: 2,339,181 Series F3 CCPS were allotted on July 3, 2026. The issue price is not on the pages provided.",
+      "The amount for GCP and unidentified acquisitions is [\u25cf]. Together they are capped at 35% of gross proceeds.",
+      "Individual sellers (Saifuddin Qureishi and others) are listed under the 'Investor Selling Shareholders' heading in the RHP and are classified as investors here."
+    ]
+  }
+}

@@ -1,0 +1,351 @@
+{
+  "symbol": "AMIRCHAND",
+  "rhp_file": "AMIRCHAND.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T17:59:09+00:00",
+  "pages_sent": [
+    1,
+    2,
+    25,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    106,
+    107,
+    108,
+    122,
+    123,
+    134,
+    135,
+    136,
+    361,
+    362
+  ],
+  "n_pdf_pages": 539,
+  "usage": {
+    "input_tokens": 30432,
+    "output_tokens": 3324,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.2779488,
+    "session_id": "af497649-9ec1-4662-bb29-d6ce48b5ae26"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Amir Chand Jagdish Kumar (Exports) Limited",
+    "sector": "FMCG & food",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "stub_period_months": 6,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "Emkay Global Financial Services Limited; Keynote Financial Services Limited",
+    "revenue_fy2": 1315.848,
+    "rhp_page_revenue_fy2": 92,
+    "revenue_fy1": 1549.524,
+    "rhp_page_revenue_fy1": 92,
+    "revenue_fy0": 2001.647,
+    "rhp_page_revenue_fy0": 92,
+    "ebitda_fy2": 79.693,
+    "rhp_page_ebitda_fy2": 361,
+    "ebitda_fy1": 109.664,
+    "rhp_page_ebitda_fy1": 361,
+    "ebitda_fy0": 163.652,
+    "rhp_page_ebitda_fy0": 361,
+    "pat_fy2": 17.496,
+    "rhp_page_pat_fy2": 92,
+    "pat_fy1": 30.405,
+    "rhp_page_pat_fy1": 92,
+    "pat_fy0": 60.822,
+    "rhp_page_pat_fy0": 92,
+    "cfo_fy2": 73.621,
+    "rhp_page_cfo_fy2": 93,
+    "cfo_fy1": -5.41,
+    "rhp_page_cfo_fy1": 93,
+    "cfo_fy0": 94.957,
+    "rhp_page_cfo_fy0": 93,
+    "net_worth_fy0": 379.184,
+    "rhp_page_net_worth_fy0": 90,
+    "total_debt_fy0": 784.058,
+    "rhp_page_total_debt_fy0": 362,
+    "cash_fy0": 5.937,
+    "rhp_page_cash_fy0": 90,
+    "revenue_stub": 1021.246,
+    "rhp_page_revenue_stub": 92,
+    "pat_stub": 48.654,
+    "rhp_page_pat_stub": 92,
+    "price_low": null,
+    "rhp_page_price_low": 135,
+    "price_high": null,
+    "rhp_page_price_high": 135,
+    "lot_size": null,
+    "promoter_pre_pct": 98.17,
+    "rhp_page_promoter_pre_pct": 25,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 25,
+    "retail_quota_pct": null,
+    "rhp_page_retail_quota_pct": 88,
+    "pre_ipo_price": 172.0,
+    "rhp_page_pre_ipo_price": 108,
+    "eps_fy0": 7.46,
+    "rhp_page_eps_fy0": 92,
+    "ronw_fy0_pct": 17.61,
+    "rhp_page_ronw_fy0_pct": 135,
+    "nav_per_share_fy0": 46.29,
+    "rhp_page_nav_per_share_fy0": 136,
+    "fresh_issue_cr": 440.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 8.279684,
+    "rhp_page_pre_issue_shares_cr": 88,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 88,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "LT Foods Limited; Sarveshwar Foods Limited",
+    "n_peers": 2,
+    "peer_pe_list": [
+      21.67,
+      11.79
+    ],
+    "peer_ronw_list": [],
+    "rhp_page_peers": 135
+  },
+  "extract": {
+    "company": "Amir Chand Jagdish Kumar (Exports) Limited",
+    "sector": "FMCG & food",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 135
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 135
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 4400.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 82796840.0,
+      "unit": "shares",
+      "page": 88
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 88
+    },
+    "promoter_pre_pct": {
+      "value": 98.17,
+      "unit": "percent",
+      "page": 25
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 25
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding working capital requirements of our Company",
+        "category": "other",
+        "amount": {
+          "value": 4000.0,
+          "unit": "million",
+          "page": 123
+        }
+      },
+      {
+        "purpose": "General Corporate Purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 123
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 88
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 172.0,
+      "unit": "rupees",
+      "page": 108
+    },
+    "lead_managers": [
+      "Emkay Global Financial Services Limited",
+      "Keynote Financial Services Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "revenue_fy2": {
+      "value": 13158.48,
+      "unit": "million",
+      "page": 92
+    },
+    "revenue_fy1": {
+      "value": 15495.24,
+      "unit": "million",
+      "page": 92
+    },
+    "revenue_fy0": {
+      "value": 20016.47,
+      "unit": "million",
+      "page": 92
+    },
+    "ebitda_fy2": {
+      "value": 796.93,
+      "unit": "million",
+      "page": 361
+    },
+    "ebitda_fy1": {
+      "value": 1096.64,
+      "unit": "million",
+      "page": 361
+    },
+    "ebitda_fy0": {
+      "value": 1636.52,
+      "unit": "million",
+      "page": 361
+    },
+    "pat_fy2": {
+      "value": 174.96,
+      "unit": "million",
+      "page": 92
+    },
+    "pat_fy1": {
+      "value": 304.05,
+      "unit": "million",
+      "page": 92
+    },
+    "pat_fy0": {
+      "value": 608.22,
+      "unit": "million",
+      "page": 92
+    },
+    "cfo_fy2": {
+      "value": 736.21,
+      "unit": "million",
+      "page": 93
+    },
+    "cfo_fy1": {
+      "value": -54.1,
+      "unit": "million",
+      "page": 93
+    },
+    "cfo_fy0": {
+      "value": 949.57,
+      "unit": "million",
+      "page": 93
+    },
+    "net_worth_fy0": {
+      "value": 3791.84,
+      "unit": "million",
+      "page": 90
+    },
+    "total_debt_fy0": {
+      "value": 7840.58,
+      "unit": "million",
+      "page": 362
+    },
+    "cash_fy0": {
+      "value": 59.37,
+      "unit": "million",
+      "page": 90
+    },
+    "eps_fy0": {
+      "value": 7.46,
+      "unit": "rupees",
+      "page": 92
+    },
+    "ronw_fy0_pct": {
+      "value": 17.61,
+      "unit": "percent",
+      "page": 135
+    },
+    "nav_per_share_fy0": {
+      "value": 46.29,
+      "unit": "rupees",
+      "page": 136
+    },
+    "stub_period_months": 6,
+    "revenue_stub": {
+      "value": 10212.46,
+      "unit": "million",
+      "page": 92
+    },
+    "pat_stub": {
+      "value": 486.54,
+      "unit": "million",
+      "page": 92
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "LT Foods Limited",
+        "nse_symbol": null,
+        "pe": 21.67,
+        "ronw_pct": null,
+        "page": 135
+      },
+      {
+        "name": "Sarveshwar Foods Limited",
+        "nse_symbol": null,
+        "pe": 11.79,
+        "ronw_pct": null,
+        "page": 135
+      }
+    ],
+    "notes": [
+      "The full peer comparison table is not on the pages provided. Only the highest P/E (LT Foods, 21.67) and lowest P/E (Sarveshwar Foods, 11.79) from the Industry P/E summary on page 135 are recorded. The industry average P/E is 15.20, which means there are other peers not listed here. Peer RoNW values are not available.",
+      "Price band, lot size, number of fresh issue shares and post-issue shares are printed as [\u25cf]. The issue is entirely a fresh issue (OFS 'Not Applicable'), so there are no selling shareholders.",
+      "The fresh issue size of \u20b94,400 million is after a \u20b9130 million reduction for the Pre-IPO Placement: 755,812 shares at \u20b9172 on August 20, 2025.",
+      "promoter_pre_pct of 98.17% covers the promoters only (Sub Total A). The promoter group holds a further 0.36% (Sub Total B). No combined figure is printed.",
+      "The CFO figures are from the line 'Cash generated from Operating Activities (A)' on page 93. They do not reconcile with the lines above them (FY25: cash before extraordinary items (536.12), tax paid 67.39, yet CFO is printed as 949.57). They were copied as printed, so treat them with caution.",
+      "Working capital funding is categorised as 'other' because none of debt_repayment, capex or gcp fits. \u20b9600 million is to be deployed in Fiscal 2026 and \u20b93,400 million in Fiscal 2027.",
+      "Retail quota % is not stated on the pages provided ('Not less than [\u25cf] Equity Shares').",
+      "The Average Equity for FY2025 in the RoNW reconciliation is printed as 6,906.62 in one row and 3,453.31 in another. The RoNW of 17.61% matches 3,453.31.",
+      "EBITDA comes from 'Other Financial Information' on page 361 and is described there as PAT + interest + taxes + depreciation."
+    ]
+  }
+}

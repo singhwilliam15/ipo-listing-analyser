@@ -1,0 +1,352 @@
+{
+  "symbol": "MVELECTRO",
+  "rhp_file": "MVELECTRO.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:26:59+00:00",
+  "pages_sent": [
+    1,
+    2,
+    77,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    107,
+    108,
+    109,
+    129,
+    130,
+    153,
+    154,
+    155,
+    376,
+    377,
+    417
+  ],
+  "n_pdf_pages": 512,
+  "usage": {
+    "input_tokens": 31014,
+    "output_tokens": 3315,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.28260300000000005,
+    "session_id": "0d1c318c-f2e5-4c64-87a4-fa4fc19675ca"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "MV Electrosystems Limited",
+    "sector": "Industrials & capital goods",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "FY2026 (March 31, 2026)",
+    "stub_period_months": null,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "Sundae Capital Advisors Private Limited",
+    "revenue_fy2": 49.957,
+    "rhp_page_revenue_fy2": 88,
+    "revenue_fy1": 62.637,
+    "rhp_page_revenue_fy1": 88,
+    "revenue_fy0": 49.428,
+    "rhp_page_revenue_fy0": 88,
+    "ebitda_fy2": 6.405,
+    "rhp_page_ebitda_fy2": 377,
+    "ebitda_fy1": 8.917,
+    "rhp_page_ebitda_fy1": 377,
+    "ebitda_fy0": -9.942,
+    "rhp_page_ebitda_fy0": 377,
+    "pat_fy2": 0.557,
+    "rhp_page_pat_fy2": 88,
+    "pat_fy1": 1.403,
+    "rhp_page_pat_fy1": 88,
+    "pat_fy0": -12.629,
+    "rhp_page_pat_fy0": 88,
+    "cfo_fy2": -5.215,
+    "rhp_page_cfo_fy2": 89,
+    "cfo_fy1": 5.039,
+    "rhp_page_cfo_fy1": 89,
+    "cfo_fy0": -57.545,
+    "rhp_page_cfo_fy0": 89,
+    "net_worth_fy0": 62.571,
+    "rhp_page_net_worth_fy0": 86,
+    "total_debt_fy0": 49.893,
+    "rhp_page_total_debt_fy0": 376,
+    "cash_fy0": 0.178,
+    "rhp_page_cash_fy0": 86,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 154,
+    "price_high": null,
+    "rhp_page_price_high": 154,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "rhp_page_retail_quota_pct": 84,
+    "pre_ipo_price": 547.0,
+    "rhp_page_pre_ipo_price": 108,
+    "eps_fy0": -6.52,
+    "rhp_page_eps_fy0": 153,
+    "ronw_fy0_pct": -20.29,
+    "rhp_page_ronw_fy0_pct": 154,
+    "nav_per_share_fy0": 30.58,
+    "rhp_page_nav_per_share_fy0": 154,
+    "fresh_issue_cr": 290.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 2.04592,
+    "rhp_page_pre_issue_shares_cr": 84,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 84,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "HIRECT",
+    "n_peers": 1,
+    "peer_pe_list": [
+      88.83
+    ],
+    "peer_ronw_list": [
+      21.37
+    ],
+    "rhp_page_peers": 155
+  },
+  "extract": {
+    "company": "MV Electrosystems Limited",
+    "sector": "Industrials & capital goods",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 154
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 154
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 2900.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 20459200.0,
+      "unit": "shares",
+      "page": 84
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 84
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding long-term working capital requirements",
+        "category": "other",
+        "amount": {
+          "value": 1800.0,
+          "unit": "million",
+          "page": 129
+        }
+      },
+      {
+        "purpose": "Investment in research design and development activities for new power electronic equipment",
+        "category": "other",
+        "amount": {
+          "value": 210.0,
+          "unit": "million",
+          "page": 129
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 129
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 84
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 547.0,
+      "unit": "rupees",
+      "page": 108
+    },
+    "lead_managers": [
+      "Sundae Capital Advisors Private Limited"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "FY2026 (March 31, 2026)",
+    "revenue_fy2": {
+      "value": 499.57,
+      "unit": "million",
+      "page": 88
+    },
+    "revenue_fy1": {
+      "value": 626.37,
+      "unit": "million",
+      "page": 88
+    },
+    "revenue_fy0": {
+      "value": 494.28,
+      "unit": "million",
+      "page": 88
+    },
+    "ebitda_fy2": {
+      "value": 64.05,
+      "unit": "million",
+      "page": 377
+    },
+    "ebitda_fy1": {
+      "value": 89.17,
+      "unit": "million",
+      "page": 377
+    },
+    "ebitda_fy0": {
+      "value": -99.42,
+      "unit": "million",
+      "page": 377
+    },
+    "pat_fy2": {
+      "value": 5.57,
+      "unit": "million",
+      "page": 88
+    },
+    "pat_fy1": {
+      "value": 14.03,
+      "unit": "million",
+      "page": 88
+    },
+    "pat_fy0": {
+      "value": -126.29,
+      "unit": "million",
+      "page": 88
+    },
+    "cfo_fy2": {
+      "value": -52.15,
+      "unit": "million",
+      "page": 89
+    },
+    "cfo_fy1": {
+      "value": 50.39,
+      "unit": "million",
+      "page": 89
+    },
+    "cfo_fy0": {
+      "value": -575.45,
+      "unit": "million",
+      "page": 89
+    },
+    "net_worth_fy0": {
+      "value": 625.71,
+      "unit": "million",
+      "page": 86
+    },
+    "total_debt_fy0": {
+      "value": 498.93,
+      "unit": "million",
+      "page": 376
+    },
+    "cash_fy0": {
+      "value": 1.78,
+      "unit": "million",
+      "page": 86
+    },
+    "eps_fy0": {
+      "value": -6.52,
+      "unit": "rupees",
+      "page": 153
+    },
+    "ronw_fy0_pct": {
+      "value": -20.29,
+      "unit": "percent",
+      "page": 154
+    },
+    "nav_per_share_fy0": {
+      "value": 30.58,
+      "unit": "rupees",
+      "page": 154
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Hind Rectifiers Limited",
+        "nse_symbol": "HIRECT",
+        "pe": 88.83,
+        "ronw_pct": 21.37,
+        "page": 155
+      }
+    ],
+    "notes": [
+      "Restated financials do not say whether they are consolidated or standalone. No subsidiaries are mentioned, so standalone is assumed.",
+      "Pure fresh issue of up to \u20b92,900.00 million; no offer for sale. The price band, lot size, number of shares offered and post-issue shares are all [\u25cf].",
+      "Promoter shareholding percentages before and after the offer are not on the pages provided.",
+      "The retail quota percentage is not printed (the RHP only says 'Not more than [\u25cf]'). The issue is made under Regulation 6(2), which normally implies retail of no more than 10%, but this is not stated on these pages.",
+      "Pre-IPO placement: private placements at \u20b9547 per share (\u20b910 face value, before the split) on August 25, 2025 and October 1, 2025. The face value was then split from \u20b910 to \u20b95 on November 10, 2025.",
+      "Profit before tax in the cash flow statement (FY26 -168.87, FY25 25.37, FY24 11.42) does not match the P&L (-167.97, 25.65, 10.16).",
+      "The Other Financial Information table shows FY25/FY24 restated profit as 13.84/6.48 (total comprehensive income) against PAT of 14.03/5.57 in the P&L. P&L PAT is used.",
+      "The capitalisation statement splits borrowings as current 372.60 + non-current 126.33 (including current maturities), while the balance sheet shows 403.50 + 95.43. Both total 498.93.",
+      "Objects: working capital (\u20b91,800 m) and R&D investment (\u20b9210 m) are classed as 'other'. The general corporate purposes amount is [\u25cf].",
+      "EBITDA is taken from the non-GAAP reconciliation table; Operating EBITDA FY26 is -103.05.",
+      "Peer P/E is the value printed in the peer table (as of June 30, 2026). The company's own P/E is NA because its EPS is negative. The NSE symbol HIRECT is not printed in the RHP."
+    ]
+  }
+}

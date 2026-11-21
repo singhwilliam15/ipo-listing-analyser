@@ -1,0 +1,422 @@
+{
+  "symbol": "KAYNES",
+  "rhp_file": "KAYNES.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T20:53:16+00:00",
+  "pages_sent": [
+    1,
+    2,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    107,
+    108,
+    109,
+    110,
+    124,
+    125,
+    126,
+    127,
+    148,
+    149,
+    150,
+    151,
+    152,
+    355,
+    356,
+    357,
+    395
+  ],
+  "n_pdf_pages": 503,
+  "usage": {
+    "input_tokens": 59626,
+    "output_tokens": 3657,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.5210771,
+    "session_id": "fe6a3872-3c0a-4b80-982c-87190af2c625"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Kaynes Technology India Limited",
+    "sector": "Electronics & EMS",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2022 (March 31, 2022)",
+    "stub_period_months": 3,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "DAM Capital Advisors Limited; IIFL Securities Limited",
+    "revenue_fy2": 368.238,
+    "rhp_page_revenue_fy2": 95,
+    "revenue_fy1": 420.62700000000007,
+    "rhp_page_revenue_fy1": 95,
+    "revenue_fy0": 706.249,
+    "rhp_page_revenue_fy0": 95,
+    "ebitda_fy2": 41.333,
+    "rhp_page_ebitda_fy2": 356,
+    "ebitda_fy1": 40.891,
+    "rhp_page_ebitda_fy1": 356,
+    "ebitda_fy0": 93.671,
+    "rhp_page_ebitda_fy0": 356,
+    "pat_fy2": 9.355,
+    "rhp_page_pat_fy2": 95,
+    "pat_fy1": 9.733,
+    "rhp_page_pat_fy1": 95,
+    "pat_fy0": 41.675,
+    "rhp_page_pat_fy0": 95,
+    "cfo_fy2": 45.247,
+    "rhp_page_cfo_fy2": 96,
+    "cfo_fy1": 27.73,
+    "rhp_page_cfo_fy1": 96,
+    "cfo_fy0": 21.109,
+    "rhp_page_cfo_fy0": 96,
+    "net_worth_fy0": 201.818,
+    "rhp_page_net_worth_fy0": 356,
+    "total_debt_fy0": 169.546,
+    "rhp_page_total_debt_fy0": 30,
+    "cash_fy0": 6.874,
+    "rhp_page_cash_fy0": 94,
+    "revenue_stub": 199.267,
+    "rhp_page_revenue_stub": 95,
+    "pat_stub": 10.046,
+    "rhp_page_pat_stub": 95,
+    "price_low": null,
+    "rhp_page_price_low": 149,
+    "price_high": null,
+    "rhp_page_price_high": 149,
+    "lot_size": null,
+    "promoter_pre_pct": 79.78,
+    "rhp_page_promoter_pre_pct": 29,
+    "promoter_post_pct": null,
+    "retail_quota_pct": 35.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": 555.85,
+    "rhp_page_pre_ipo_price": 2,
+    "eps_fy0": 9.7,
+    "rhp_page_eps_fy0": 95,
+    "ronw_fy0_pct": 20.54,
+    "rhp_page_ronw_fy0_pct": 149,
+    "nav_per_share_fy0": 43.12,
+    "rhp_page_nav_per_share_fy0": 149,
+    "fresh_issue_cr": 530.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.5584664,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 4.9113536,
+    "rhp_page_pre_issue_shares_cr": 91,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 91,
+    "ofs_promoter_shares_cr": 0.2084664,
+    "ofs_investor_shares_cr": 0.35,
+    "proceeds_debt_repayment_cr": 130.0,
+    "proceeds_capex_cr": 248.23000000000002,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "Syrma SGS Technology Limited; Dixon Technologies Limited; Amber Enterprises India Limited",
+    "n_peers": 3,
+    "peer_pe_list": [
+      63.56,
+      137.49,
+      61.72
+    ],
+    "peer_ronw_list": [
+      13.58,
+      21.9,
+      6.42
+    ],
+    "rhp_page_peers": 150
+  },
+  "extract": {
+    "company": "Kaynes Technology India Limited",
+    "sector": "Electronics & EMS",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 149
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 149
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 5300.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 5584664.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Ramesh Kunhikannan",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 2084664.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Freny Firoze Irani",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 3500000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 49113536.0,
+      "unit": "shares",
+      "page": 91
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 91
+    },
+    "promoter_pre_pct": {
+      "value": 79.78,
+      "unit": "percent",
+      "page": 29
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment/prepayment, in full or part, of certain borrowings availed by the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 1300.0,
+          "unit": "million",
+          "page": 125
+        }
+      },
+      {
+        "purpose": "Capital expenditure towards expansion of existing manufacturing facility at Mysuru and near existing facility at Manesar",
+        "category": "capex",
+        "amount": {
+          "value": 989.3,
+          "unit": "million",
+          "page": 125
+        }
+      },
+      {
+        "purpose": "Investment in wholly owned subsidiary Kaynes Electronics Manufacturing Private Limited for setting up a new facility at Chamarajanagar, Karnataka",
+        "category": "capex",
+        "amount": {
+          "value": 1493.0,
+          "unit": "million",
+          "page": 125
+        }
+      },
+      {
+        "purpose": "Funding working capital requirements of the Company",
+        "category": "other",
+        "amount": {
+          "value": 1147.4,
+          "unit": "million",
+          "page": 125
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 125
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 555.85,
+      "unit": "rupees",
+      "page": 2
+    },
+    "lead_managers": [
+      "DAM Capital Advisors Limited",
+      "IIFL Securities Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2022 (March 31, 2022)",
+    "revenue_fy2": {
+      "value": 3682.38,
+      "unit": "million",
+      "page": 95
+    },
+    "revenue_fy1": {
+      "value": 4206.27,
+      "unit": "million",
+      "page": 95
+    },
+    "revenue_fy0": {
+      "value": 7062.49,
+      "unit": "million",
+      "page": 95
+    },
+    "ebitda_fy2": {
+      "value": 413.33,
+      "unit": "million",
+      "page": 356
+    },
+    "ebitda_fy1": {
+      "value": 408.91,
+      "unit": "million",
+      "page": 356
+    },
+    "ebitda_fy0": {
+      "value": 936.71,
+      "unit": "million",
+      "page": 356
+    },
+    "pat_fy2": {
+      "value": 93.55,
+      "unit": "million",
+      "page": 95
+    },
+    "pat_fy1": {
+      "value": 97.33,
+      "unit": "million",
+      "page": 95
+    },
+    "pat_fy0": {
+      "value": 416.75,
+      "unit": "million",
+      "page": 95
+    },
+    "cfo_fy2": {
+      "value": 452.47,
+      "unit": "million",
+      "page": 96
+    },
+    "cfo_fy1": {
+      "value": 277.3,
+      "unit": "million",
+      "page": 96
+    },
+    "cfo_fy0": {
+      "value": 211.09,
+      "unit": "million",
+      "page": 96
+    },
+    "net_worth_fy0": {
+      "value": 2018.18,
+      "unit": "million",
+      "page": 356
+    },
+    "total_debt_fy0": {
+      "value": 1695.46,
+      "unit": "million",
+      "page": 30
+    },
+    "cash_fy0": {
+      "value": 68.74,
+      "unit": "million",
+      "page": 94
+    },
+    "eps_fy0": {
+      "value": 9.7,
+      "unit": "rupees",
+      "page": 95
+    },
+    "ronw_fy0_pct": {
+      "value": 20.54,
+      "unit": "percent",
+      "page": 149
+    },
+    "nav_per_share_fy0": {
+      "value": 43.12,
+      "unit": "rupees",
+      "page": 149
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 1992.67,
+      "unit": "million",
+      "page": 95
+    },
+    "pat_stub": {
+      "value": 100.46,
+      "unit": "million",
+      "page": 95
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Syrma SGS Technology Limited",
+        "nse_symbol": null,
+        "pe": 63.56,
+        "ronw_pct": 13.58,
+        "page": 150
+      },
+      {
+        "name": "Dixon Technologies Limited",
+        "nse_symbol": null,
+        "pe": 137.49,
+        "ronw_pct": 21.9,
+        "page": 150
+      },
+      {
+        "name": "Amber Enterprises India Limited",
+        "nse_symbol": null,
+        "pe": 61.72,
+        "ronw_pct": 6.42,
+        "page": 150
+      }
+    ],
+    "notes": [
+      "Price band and lot size not printed (shown as [\u25cf]) in the RHP pages given.",
+      "Net worth FY2022: 2,018.18 is the KPI 'Net Worth' (p.356), which excludes non-free reserves. Balance-sheet total equity is 2,037.17 including non-controlling interest of 11.32. The RHP does not print equity attributable to owners at March 31, 2022.",
+      "Total debt FY2022 of 1,695.46 is non-current borrowings 292.79 plus short-term borrowings 1,402.67 (p.94), as printed in the summary on p.30.",
+      "Net proceeds of 6,600 million combine the Fresh Issue (5,300) and the Pre-IPO Placement (1,300). The Pre-IPO Placement was 2,338,760 shares at \u20b9555.85 to Acacia Banyan Partners and Volrado Venture Partners Fund II in October 2022.",
+      "Working capital object is categorised as 'other'. The investment in the subsidiary for a new facility is categorised as capex.",
+      "Retail quota is not less than 35% of the Net Offer. There is also an Employee Reservation of up to \u20b915 million.",
+      "Post-offer promoter holding is not printed. Freny Firoze Irani is treated as an investor selling shareholder, as named in the RHP.",
+      "Peer P/E figures are based on closing prices on October 27, 2022. The peer table does not give NSE symbols."
+    ]
+  }
+}

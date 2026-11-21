@@ -1,0 +1,374 @@
+{
+  "symbol": "BANSALWIRE",
+  "rhp_file": "BANSALWIRE.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-21T06:05:54+00:00",
+  "pages_sent": [
+    1,
+    2,
+    29,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    103,
+    104,
+    105,
+    124,
+    125,
+    140,
+    141,
+    142,
+    353,
+    354,
+    385
+  ],
+  "n_pdf_pages": 487,
+  "usage": {
+    "input_tokens": 30431,
+    "output_tokens": 3257,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.276599,
+    "session_id": "ce49dbdc-da92-42d5-955d-74e0af178b03"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Bansal Wire Industries Limited",
+    "sector": "Chemicals & materials",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024",
+    "stub_period_months": null,
+    "pre_ipo_placement": null,
+    "lead_managers": "SBI Capital Markets Limited; DAM Capital Advisors Limited",
+    "revenue_fy2": 2198.358,
+    "rhp_page_revenue_fy2": 89,
+    "revenue_fy1": 2413.008,
+    "rhp_page_revenue_fy1": 89,
+    "revenue_fy0": 2466.031,
+    "rhp_page_revenue_fy0": 89,
+    "ebitda_fy2": 113.148,
+    "rhp_page_ebitda_fy2": 142,
+    "ebitda_fy1": 114.705,
+    "rhp_page_ebitda_fy1": 142,
+    "ebitda_fy0": 149.309,
+    "rhp_page_ebitda_fy0": 142,
+    "pat_fy2": 57.29,
+    "rhp_page_pat_fy2": 89,
+    "pat_fy1": 59.93,
+    "rhp_page_pat_fy1": 89,
+    "pat_fy0": 78.798,
+    "rhp_page_pat_fy0": 89,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 422.37,
+    "rhp_page_net_worth_fy0": 87,
+    "total_debt_fy0": 681.142,
+    "rhp_page_total_debt_fy0": 385,
+    "cash_fy0": 1.813,
+    "rhp_page_cash_fy0": 87,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 6.18,
+    "rhp_page_eps_fy0": 89,
+    "ronw_fy0_pct": 18.27,
+    "rhp_page_ronw_fy0_pct": 141,
+    "nav_per_share_fy0": 33.14,
+    "rhp_page_nav_per_share_fy0": 141,
+    "fresh_issue_cr": 745.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 12.745439,
+    "rhp_page_pre_issue_shares_cr": 84,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 84,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 546.391,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "RAJRATAN; DPWIRES; BEDMUTHA",
+    "n_peers": 3,
+    "peer_pe_list": [
+      41.68,
+      18.94,
+      37.52
+    ],
+    "peer_ronw_list": [
+      15.41,
+      17.39,
+      19.04
+    ],
+    "rhp_page_peers": 142
+  },
+  "extract": {
+    "company": "Bansal Wire Industries Limited",
+    "sector": "Chemicals & materials",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 7450.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 127454390.0,
+      "unit": "shares",
+      "page": 84
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 84
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment or prepayment of all or a portion of certain outstanding borrowings availed by the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 4526.83,
+          "unit": "million",
+          "page": 124
+        }
+      },
+      {
+        "purpose": "Investment in Subsidiary for repayment or prepayment of all or a portion of its outstanding borrowings",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 937.08,
+          "unit": "million",
+          "page": 124
+        }
+      },
+      {
+        "purpose": "Funding the working capital requirements of the Company",
+        "category": "other",
+        "amount": {
+          "value": 600.0,
+          "unit": "million",
+          "page": 124
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": null,
+          "page": 124
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lead_managers": [
+      "SBI Capital Markets Limited",
+      "DAM Capital Advisors Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024",
+    "revenue_fy2": {
+      "value": 21983.58,
+      "unit": "million",
+      "page": 89
+    },
+    "revenue_fy1": {
+      "value": 24130.08,
+      "unit": "million",
+      "page": 89
+    },
+    "revenue_fy0": {
+      "value": 24660.31,
+      "unit": "million",
+      "page": 89
+    },
+    "ebitda_fy2": {
+      "value": 1131.48,
+      "unit": "million",
+      "page": 142
+    },
+    "ebitda_fy1": {
+      "value": 1147.05,
+      "unit": "million",
+      "page": 142
+    },
+    "ebitda_fy0": {
+      "value": 1493.09,
+      "unit": "million",
+      "page": 142
+    },
+    "pat_fy2": {
+      "value": 572.9,
+      "unit": "million",
+      "page": 89
+    },
+    "pat_fy1": {
+      "value": 599.3,
+      "unit": "million",
+      "page": 89
+    },
+    "pat_fy0": {
+      "value": 787.98,
+      "unit": "million",
+      "page": 89
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 4223.7,
+      "unit": "million",
+      "page": 87
+    },
+    "total_debt_fy0": {
+      "value": 6811.42,
+      "unit": "million",
+      "page": 385
+    },
+    "cash_fy0": {
+      "value": 18.13,
+      "unit": "million",
+      "page": 87
+    },
+    "eps_fy0": {
+      "value": 6.18,
+      "unit": "rupees",
+      "page": 89
+    },
+    "ronw_fy0_pct": {
+      "value": 18.27,
+      "unit": "percent",
+      "page": 141
+    },
+    "nav_per_share_fy0": {
+      "value": 33.14,
+      "unit": "rupees",
+      "page": 141
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Rajratan Global Wire Limited",
+        "nse_symbol": "RAJRATAN",
+        "pe": 41.68,
+        "ronw_pct": 15.41,
+        "page": 142
+      },
+      {
+        "name": "DP Wires Limited",
+        "nse_symbol": "DPWIRES",
+        "pe": 18.94,
+        "ronw_pct": 17.39,
+        "page": 142
+      },
+      {
+        "name": "Bedmutha Industries Limited",
+        "nse_symbol": "BEDMUTHA",
+        "pe": 37.52,
+        "ronw_pct": 19.04,
+        "page": 142
+      }
+    ],
+    "notes": [
+      "The issue is a fresh issue only; there is no offer for sale.",
+      "Price band, lot size, retail quota, post-issue shares and promoter holding % are not given on these pages, or are printed as [\u25cf].",
+      "The cash flow statement is not on these pages, so CFO is null.",
+      "Total debt of 6,811.42 is taken from the capitalisation statement. The balance sheet gives non-current borrowings of 3,041.17 and current borrowings of 3,770.26, which add to 6,811.43 \u2013 a rounding difference of 0.01.",
+      "PAT FY2024 of 787.98 includes non-controlling interest. The profit attributable to owners is 771.72 (page 354).",
+      "RoNW FY2024 is 18.27% in the Basis for Issue Price and Other Financial Information sections, but the peer comparison table prints 18.46% for the company.",
+      "EBITDA margin is calculated on total income, not revenue from operations.",
+      "Exceptional items are 31.61 in the P&L but 31.62 in the EBITDA reconciliation.",
+      "The working capital object is categorised as 'other'. The amount for general corporate purposes is [\u25cf].",
+      "No information on pre-IPO placements is given on these pages. A bonus issue (6:1) and a share split took place in Nov/Dec 2023.",
+      "Sector: steel wire manufacturer, mapped to Chemicals & materials.",
+      "Peer NSE symbols are inferred, not printed in the RHP."
+    ]
+  }
+}

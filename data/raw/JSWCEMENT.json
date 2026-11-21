@@ -1,0 +1,374 @@
+{
+  "symbol": "JSWCEMENT",
+  "rhp_file": "JSWCEMENT.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:12:10+00:00",
+  "pages_sent": [
+    1,
+    2,
+    30,
+    31,
+    32,
+    33,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    127,
+    128,
+    129,
+    155,
+    156,
+    177,
+    178,
+    179,
+    538,
+    539,
+    570
+  ],
+  "n_pdf_pages": 774,
+  "usage": {
+    "input_tokens": 35966,
+    "output_tokens": 3542,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.327131,
+    "session_id": "4fa76cc5-243c-4737-ae30-7920bf630444"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "JSW Cement Limited",
+    "sector": "Chemicals & materials",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "stub_period_months": null,
+    "pre_ipo_placement": null,
+    "lead_managers": "JM Financial Limited; Axis Capital Limited; Citigroup Global Markets India Private Limited; DAM Capital Advisors Limited; Goldman Sachs (India) Securities Private Limited; Jefferies India Private Limited; Kotak Mahindra Capital Company Limited; SBI Capital Markets Limited",
+    "revenue_fy2": 5836.724,
+    "rhp_page_revenue_fy2": 110,
+    "revenue_fy1": 6028.103,
+    "rhp_page_revenue_fy1": 110,
+    "revenue_fy0": 5813.071,
+    "rhp_page_revenue_fy0": 110,
+    "ebitda_fy2": 826.965,
+    "rhp_page_ebitda_fy2": 538,
+    "ebitda_fy1": 1035.656,
+    "rhp_page_ebitda_fy1": 538,
+    "ebitda_fy0": 815.323,
+    "rhp_page_ebitda_fy0": 538,
+    "pat_fy2": 104.03800000000001,
+    "rhp_page_pat_fy2": 110,
+    "pat_fy1": 62.013,
+    "rhp_page_pat_fy1": 110,
+    "pat_fy0": -163.769,
+    "rhp_page_pat_fy0": 110,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 2352.554,
+    "rhp_page_net_worth_fy0": 108,
+    "total_debt_fy0": 6166.551,
+    "rhp_page_total_debt_fy0": 570,
+    "cash_fy0": 65.046,
+    "rhp_page_cash_fy0": 108,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 179,
+    "price_high": null,
+    "rhp_page_price_high": 179,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "rhp_page_promoter_pre_pct": 32,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 32,
+    "retail_quota_pct": null,
+    "rhp_page_retail_quota_pct": 105,
+    "pre_ipo_price": null,
+    "eps_fy0": -1.16,
+    "rhp_page_eps_fy0": 538,
+    "ronw_fy0_pct": -4.85,
+    "rhp_page_ronw_fy0_pct": 538,
+    "nav_per_share_fy0": 23.85,
+    "rhp_page_nav_per_share_fy0": 538,
+    "fresh_issue_cr": 1600.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": 2000.0,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 125.4521399,
+    "rhp_page_pre_issue_shares_cr": 105,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 105,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 520.0,
+    "proceeds_capex_cr": 800.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "JSW Cement Limited",
+    "sector": "Chemicals & materials",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 179
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 179
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 16000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": 20000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "AP Asia Opportunistic Holdings Pte. Ltd.",
+        "kind": "investor",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Synergy Metals Investments Holding Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "State Bank of India",
+        "kind": "investor",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 1254521399.0,
+      "unit": "shares",
+      "page": 105
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 105
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 32
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 32
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Part financing the cost of establishing a new integrated cement unit at Nagaur, Rajasthan",
+        "category": "capex",
+        "amount": {
+          "value": 8000.0,
+          "unit": "million",
+          "page": 155
+        }
+      },
+      {
+        "purpose": "Prepayment or repayment, in full or in part, of certain outstanding borrowings availed by the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 5200.0,
+          "unit": "million",
+          "page": 155
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 156
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 105
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "JM Financial Limited",
+      "Axis Capital Limited",
+      "Citigroup Global Markets India Private Limited",
+      "DAM Capital Advisors Limited",
+      "Goldman Sachs (India) Securities Private Limited",
+      "Jefferies India Private Limited",
+      "Kotak Mahindra Capital Company Limited",
+      "SBI Capital Markets Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "revenue_fy2": {
+      "value": 58367.24,
+      "unit": "million",
+      "page": 110
+    },
+    "revenue_fy1": {
+      "value": 60281.03,
+      "unit": "million",
+      "page": 110
+    },
+    "revenue_fy0": {
+      "value": 58130.71,
+      "unit": "million",
+      "page": 110
+    },
+    "ebitda_fy2": {
+      "value": 8269.65,
+      "unit": "million",
+      "page": 538
+    },
+    "ebitda_fy1": {
+      "value": 10356.56,
+      "unit": "million",
+      "page": 538
+    },
+    "ebitda_fy0": {
+      "value": 8153.23,
+      "unit": "million",
+      "page": 538
+    },
+    "pat_fy2": {
+      "value": 1040.38,
+      "unit": "million",
+      "page": 110
+    },
+    "pat_fy1": {
+      "value": 620.13,
+      "unit": "million",
+      "page": 110
+    },
+    "pat_fy0": {
+      "value": -1637.69,
+      "unit": "million",
+      "page": 110
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 23525.54,
+      "unit": "million",
+      "page": 108
+    },
+    "total_debt_fy0": {
+      "value": 61665.51,
+      "unit": "million",
+      "page": 570
+    },
+    "cash_fy0": {
+      "value": 650.46,
+      "unit": "million",
+      "page": 108
+    },
+    "eps_fy0": {
+      "value": -1.16,
+      "unit": "rupees",
+      "page": 538
+    },
+    "ronw_fy0_pct": {
+      "value": -4.85,
+      "unit": "percent",
+      "page": 538
+    },
+    "nav_per_share_fy0": {
+      "value": 23.85,
+      "unit": "rupees",
+      "page": 538
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [],
+    "notes": [
+      "Price band, lot size, share counts for fresh issue/OFS are [\u25cf] in this RHP.",
+      "Restated consolidated balance sheet page 108 has no unit header in the extract; assumed \u20b9 million consistent with P&L (page 110) and capitalisation statement (page 570).",
+      "Total debt 61,665.51 taken from capitalisation statement (page 570); balance sheet shows non-current borrowings 50,104.18 and current borrowings 11,561.33.",
+      "Cash flow statement not among provided pages; CFO null.",
+      "Peer comparison table not included in provided pages; only industry P/E summary (highest 103.50, lowest 2.38, average 59.71) on page 179. Peers named in CO2 table include UltraTech, Ambuja, Shree Cement, Dalmia Bharat, Ramco, JK Cement, India Cements.",
+      "Aggregate promoter/promoter group % not printed; individual holdings: Adarsh Advisory 69.44%, Parth Jindal 0.29%, Sajjan Jindal 0.02%, Sangita Jindal 0.02%, plus promoter group entities (page 32). Total of promoters, promoter group and selling shareholders is 97.39%.",
+      "160,000,000 CCPS converted to 235,662,477 equity shares on July 24, 2025 (pre-IPO conversion, not a fresh placement); pre_ipo_placement left null.",
+      "PAT attributable to owners FY2025 is (1,140.94) million; PAT including NCI (1,637.69) used.",
+      "Retail quota percentage not printed on the provided pages (Offer Structure page not included).",
+      "Sector chosen as Chemicals & materials (cement/building materials)."
+    ]
+  }
+}

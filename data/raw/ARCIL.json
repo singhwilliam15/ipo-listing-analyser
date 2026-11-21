@@ -1,0 +1,339 @@
+{
+  "symbol": "ARCIL",
+  "rhp_file": "ARCIL.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:22:08+00:00",
+  "pages_sent": [
+    1,
+    2,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    91,
+    92,
+    93,
+    107,
+    108,
+    109,
+    110,
+    111,
+    387,
+    388,
+    390
+  ],
+  "n_pdf_pages": 573,
+  "usage": {
+    "input_tokens": 35112,
+    "output_tokens": 3371,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3167951,
+    "session_id": "65c4ef7d-82a6-4612-8231-abaf422936e9"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Asset Reconstruction Company (India) Limited",
+    "sector": "Financial services",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "stub_period_months": null,
+    "pre_ipo_placement": null,
+    "lead_managers": "IIFL Capital Services Limited; IDBI Capital Markets & Securities Limited; JM Financial Limited",
+    "revenue_fy2": 605.824,
+    "rhp_page_revenue_fy2": 388,
+    "revenue_fy1": 581.757,
+    "rhp_page_revenue_fy1": 388,
+    "revenue_fy0": 721.692,
+    "rhp_page_revenue_fy0": 388,
+    "ebitda_fy2": 443.618,
+    "rhp_page_ebitda_fy2": 387,
+    "ebitda_fy1": 445.803,
+    "rhp_page_ebitda_fy1": 387,
+    "ebitda_fy0": 532.777,
+    "rhp_page_ebitda_fy0": 387,
+    "pat_fy2": 330.465,
+    "rhp_page_pat_fy2": 388,
+    "pat_fy1": 329.508,
+    "rhp_page_pat_fy1": 388,
+    "pat_fy0": 351.688,
+    "rhp_page_pat_fy0": 388,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 2955.214,
+    "rhp_page_net_worth_fy0": 388,
+    "total_debt_fy0": 1205.495,
+    "rhp_page_total_debt_fy0": 390,
+    "cash_fy0": null,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 10.82,
+    "rhp_page_eps_fy0": 110,
+    "ronw_fy0_pct": 12.52,
+    "rhp_page_ronw_fy0_pct": 111,
+    "nav_per_share_fy0": 90.96,
+    "rhp_page_nav_per_share_fy0": 111,
+    "fresh_issue_cr": null,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "ofs_shares_cr": 5.2731946,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 32.489714,
+    "rhp_page_pre_issue_shares_cr": 63,
+    "post_issue_shares_cr": 32.489714,
+    "rhp_page_post_issue_shares_cr": 63,
+    "ofs_promoter_shares_cr": 3.5786971999999997,
+    "ofs_investor_shares_cr": 1.6244858,
+    "proceeds_debt_repayment_cr": null,
+    "proceeds_capex_cr": null,
+    "proceeds_gcp_cr": null,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "Asset Reconstruction Company (India) Limited",
+    "sector": "Financial services",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 52731946.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Avenue India Resurgence Pte. Ltd.",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 24823910.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "State Bank of India",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 10963062.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Lathe Investment Pte. Ltd.",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 16244858.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "The Federal Bank Limited",
+        "kind": "other",
+        "shares_offered": {
+          "value": 700116.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 324897140.0,
+      "unit": "shares",
+      "page": 63
+    },
+    "post_issue_shares": {
+      "value": 324897140.0,
+      "unit": "shares",
+      "page": 63
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "objects_of_offer": [],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lead_managers": [
+      "IIFL Capital Services Limited",
+      "IDBI Capital Markets & Securities Limited",
+      "JM Financial Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "revenue_fy2": {
+      "value": 6058.24,
+      "unit": "million",
+      "page": 388
+    },
+    "revenue_fy1": {
+      "value": 5817.57,
+      "unit": "million",
+      "page": 388
+    },
+    "revenue_fy0": {
+      "value": 7216.92,
+      "unit": "million",
+      "page": 388
+    },
+    "ebitda_fy2": {
+      "value": 4436.18,
+      "unit": "million",
+      "page": 387
+    },
+    "ebitda_fy1": {
+      "value": 4458.03,
+      "unit": "million",
+      "page": 387
+    },
+    "ebitda_fy0": {
+      "value": 5327.77,
+      "unit": "million",
+      "page": 387
+    },
+    "pat_fy2": {
+      "value": 3304.65,
+      "unit": "million",
+      "page": 388
+    },
+    "pat_fy1": {
+      "value": 3295.08,
+      "unit": "million",
+      "page": 388
+    },
+    "pat_fy0": {
+      "value": 3516.88,
+      "unit": "million",
+      "page": 388
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 29552.14,
+      "unit": "million",
+      "page": 388
+    },
+    "total_debt_fy0": {
+      "value": 12054.95,
+      "unit": "million",
+      "page": 390
+    },
+    "cash_fy0": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "eps_fy0": {
+      "value": 10.82,
+      "unit": "rupees",
+      "page": 110
+    },
+    "ronw_fy0_pct": {
+      "value": 12.52,
+      "unit": "percent",
+      "page": 111
+    },
+    "nav_per_share_fy0": {
+      "value": 90.96,
+      "unit": "rupees",
+      "page": 111
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "no_listed_peers": true,
+    "peers": [],
+    "notes": [
+      "The offer is a pure Offer for Sale with no fresh issue, so the company receives no proceeds and objects_of_offer is empty.",
+      "The price band, lot size and retail quota % are [\u25cf] or not given on these pages.",
+      "The pages include only the restated standalone statements, not the full consolidated ones. Consolidated revenue, PAT and net worth come from the reconciliation tables on page 388, and consolidated borrowings from the capitalisation statement on page 390.",
+      "Consolidated CFO and cash are not on these pages, so they are null. Standalone figures (\u20b9 million): CFO FY26 1,535.76, FY25 3,201.99, FY24 2,034.82; cash and cash equivalents FY26 327.42.",
+      "Consolidated EBITDA for FY2025 does not match between pages. Page 387 (accounting ratios) shows 4,458.03 and was used; the reconciliation on page 388 shows 4,660.72. The EBITDA margins also differ between the two pages.",
+      "Standalone figures for reference: revenue from operations FY26 7,530.42; PAT FY26 4,078.44; EPS 12.55; RoNW 13.95%; NAV 94.78.",
+      "Consolidated net worth of 29,552.14 is after a negative non-controlling interest of (8,259.98). Restated consolidated profit is used as PAT.",
+      "Promoter holding is printed separately: Avenue India Resurgence 69.73% and SBI 19.95% (page 109). No combined promoter / promoter group % is printed, so it is left null and not calculated.",
+      "Post-offer shares equal pre-offer shares (324,897,140) because this is a pure OFS (page 63).",
+      "The RHP says there are no listed peers in India or globally in the same industry, so no peer comparison is given.",
+      "These pages have no information on any pre-IPO placement or allotment in the last 12 months."
+    ]
+  }
+}

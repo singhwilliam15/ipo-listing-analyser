@@ -1,0 +1,459 @@
+{
+  "symbol": "DHARMAJ",
+  "rhp_file": "DHARMAJ.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T20:53:47+00:00",
+  "pages_sent": [
+    1,
+    2,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    86,
+    87,
+    88,
+    89,
+    101,
+    102,
+    103,
+    104,
+    121,
+    122,
+    123,
+    124,
+    125,
+    275,
+    276,
+    277
+  ],
+  "n_pdf_pages": 401,
+  "usage": {
+    "input_tokens": 51992,
+    "output_tokens": 3836,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.46282399999999996,
+    "session_id": "4d1feb21-0042-48c1-ac05-0ff0a7749bc9"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Dharmaj Crop Guard Limited",
+    "sector": "Chemicals & materials",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "FY2022",
+    "stub_period_months": 4,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Elara Capital (India) Private Limited; Monarch Networth Capital Limited",
+    "revenue_fy2": 198.222,
+    "rhp_page_revenue_fy2": 74,
+    "revenue_fy1": 302.41,
+    "rhp_page_revenue_fy1": 74,
+    "revenue_fy0": 394.208,
+    "rhp_page_revenue_fy0": 74,
+    "ebitda_fy2": 18.577,
+    "rhp_page_ebitda_fy2": 124,
+    "ebitda_fy1": 32.038,
+    "rhp_page_ebitda_fy1": 124,
+    "ebitda_fy0": 46.19,
+    "rhp_page_ebitda_fy0": 124,
+    "pat_fy2": 10.759,
+    "rhp_page_pat_fy2": 74,
+    "pat_fy1": 20.96,
+    "rhp_page_pat_fy1": 74,
+    "pat_fy0": 28.69,
+    "rhp_page_pat_fy0": 74,
+    "cfo_fy2": 2.045,
+    "rhp_page_cfo_fy2": 75,
+    "cfo_fy1": 12.883000000000001,
+    "rhp_page_cfo_fy1": 75,
+    "cfo_fy0": 16.411,
+    "rhp_page_cfo_fy0": 75,
+    "net_worth_fy0": 84.918,
+    "rhp_page_net_worth_fy0": 72,
+    "total_debt_fy0": 36.928,
+    "rhp_page_total_debt_fy0": 27,
+    "cash_fy0": 0.952,
+    "rhp_page_cash_fy0": 72,
+    "revenue_stub": 220.94,
+    "rhp_page_revenue_stub": 74,
+    "pat_stub": 18.359,
+    "rhp_page_pat_stub": 74,
+    "price_low": null,
+    "rhp_page_price_low": 122,
+    "price_high": null,
+    "rhp_page_price_high": 122,
+    "lot_size": null,
+    "promoter_pre_pct": 100.0,
+    "rhp_page_promoter_pre_pct": 27,
+    "promoter_post_pct": null,
+    "retail_quota_pct": 35.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": null,
+    "eps_fy0": 11.62,
+    "rhp_page_eps_fy0": 118,
+    "ronw_fy0_pct": 34.64,
+    "rhp_page_ronw_fy0_pct": 119,
+    "nav_per_share_fy0": 33.55,
+    "rhp_page_nav_per_share_fy0": 119,
+    "fresh_issue_cr": 216.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 2,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 2,
+    "ofs_shares_cr": 0.1483,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 2.4683372,
+    "rhp_page_pre_issue_shares_cr": 70,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 70,
+    "ofs_promoter_shares_cr": 0.14830000000000002,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 10.0,
+    "proceeds_capex_cr": 104.969,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "RALLIS; IPL; PUNJABCHEM; BHARATRAS; ASTEC; HERANBA",
+    "n_peers": 6,
+    "peer_pe_list": [
+      27.45,
+      18.53,
+      17.51,
+      24.0,
+      45.92,
+      10.8
+    ],
+    "peer_ronw_list": [
+      9.68,
+      24.76,
+      36.99,
+      22.85,
+      22.66,
+      26.46
+    ],
+    "rhp_page_peers": 123
+  },
+  "extract": {
+    "company": "Dharmaj Crop Guard Limited",
+    "sector": "Chemicals & materials",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 122
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 122
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 2160.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 2
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 2
+    },
+    "ofs_shares": {
+      "value": 1483000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Manjulaben Rameshbhai Talavia",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 709500.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Muktaben Jamankumar Talavia",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 656000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Domadia Artiben",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 87500.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Ilaben Jagdishbhai Savaliya",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 30000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 24683372.0,
+      "unit": "shares",
+      "page": 70
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 70
+    },
+    "promoter_pre_pct": {
+      "value": 100.0,
+      "unit": "percent",
+      "page": 27
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding capital expenditure towards setting up of a manufacturing facility at Saykha, Bharuch, Gujarat",
+        "category": "capex",
+        "amount": {
+          "value": 1049.69,
+          "unit": "million",
+          "page": 101
+        }
+      },
+      {
+        "purpose": "Funding incremental working capital requirements",
+        "category": "other",
+        "amount": {
+          "value": 450.0,
+          "unit": "million",
+          "page": 101
+        }
+      },
+      {
+        "purpose": "Repayment and/or pre-payment of certain borrowings",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 100.0,
+          "unit": "million",
+          "page": 102
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 102
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Elara Capital (India) Private Limited",
+      "Monarch Networth Capital Limited"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "FY2022",
+    "revenue_fy2": {
+      "value": 1982.22,
+      "unit": "million",
+      "page": 74
+    },
+    "revenue_fy1": {
+      "value": 3024.1,
+      "unit": "million",
+      "page": 74
+    },
+    "revenue_fy0": {
+      "value": 3942.08,
+      "unit": "million",
+      "page": 74
+    },
+    "ebitda_fy2": {
+      "value": 185.77,
+      "unit": "million",
+      "page": 124
+    },
+    "ebitda_fy1": {
+      "value": 320.38,
+      "unit": "million",
+      "page": 124
+    },
+    "ebitda_fy0": {
+      "value": 461.9,
+      "unit": "million",
+      "page": 124
+    },
+    "pat_fy2": {
+      "value": 107.59,
+      "unit": "million",
+      "page": 74
+    },
+    "pat_fy1": {
+      "value": 209.6,
+      "unit": "million",
+      "page": 74
+    },
+    "pat_fy0": {
+      "value": 286.9,
+      "unit": "million",
+      "page": 74
+    },
+    "cfo_fy2": {
+      "value": 20.45,
+      "unit": "million",
+      "page": 75
+    },
+    "cfo_fy1": {
+      "value": 128.83,
+      "unit": "million",
+      "page": 75
+    },
+    "cfo_fy0": {
+      "value": 164.11,
+      "unit": "million",
+      "page": 75
+    },
+    "net_worth_fy0": {
+      "value": 849.18,
+      "unit": "million",
+      "page": 72
+    },
+    "total_debt_fy0": {
+      "value": 369.28,
+      "unit": "million",
+      "page": 27
+    },
+    "cash_fy0": {
+      "value": 9.52,
+      "unit": "million",
+      "page": 72
+    },
+    "eps_fy0": {
+      "value": 11.62,
+      "unit": "rupees",
+      "page": 118
+    },
+    "ronw_fy0_pct": {
+      "value": 34.64,
+      "unit": "percent",
+      "page": 119
+    },
+    "nav_per_share_fy0": {
+      "value": 33.55,
+      "unit": "rupees",
+      "page": 119
+    },
+    "stub_period_months": 4,
+    "revenue_stub": {
+      "value": 2209.4,
+      "unit": "million",
+      "page": 74
+    },
+    "pat_stub": {
+      "value": 183.59,
+      "unit": "million",
+      "page": 74
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Rallis India",
+        "nse_symbol": "RALLIS",
+        "pe": 27.45,
+        "ronw_pct": 9.68,
+        "page": 123
+      },
+      {
+        "name": "India Pesticides",
+        "nse_symbol": "IPL",
+        "pe": 18.53,
+        "ronw_pct": 24.76,
+        "page": 123
+      },
+      {
+        "name": "Punjab Chemical & Crop Protection",
+        "nse_symbol": "PUNJABCHEM",
+        "pe": 17.51,
+        "ronw_pct": 36.99,
+        "page": 123
+      },
+      {
+        "name": "Bharat Rasayan",
+        "nse_symbol": "BHARATRAS",
+        "pe": 24.0,
+        "ronw_pct": 22.85,
+        "page": 123
+      },
+      {
+        "name": "Astec Lifesciences",
+        "nse_symbol": "ASTEC",
+        "pe": 45.92,
+        "ronw_pct": 22.66,
+        "page": 123
+      },
+      {
+        "name": "Heranba Industries",
+        "nse_symbol": "HERANBA",
+        "pe": 10.8,
+        "ronw_pct": 26.46,
+        "page": 123
+      }
+    ],
+    "notes": [
+      "Only standalone restated financial information is presented; the company has no consolidated statements.",
+      "Net worth: total equity on the restated balance sheet is 849.18 million (FY2022). The summary table uses its own net worth definition and shows 828.15 million (p.27). RoNW and NAV are based on the 828.15 figure.",
+      "Total debt for FY2022 is 369.28 million (p.27). This equals non-current borrowings of 253.16 plus current borrowings of 116.12.",
+      "Basic EPS on the restated P&L summary (p.74) is 12.74 for FY2021 and 8.62 for FY2020, apparently not adjusted for bonus issues. The Basis for Offer Price section shows 8.49 and 5.75, adjusted for the bonus issue. FY2022 EPS is 11.62 in both places.",
+      "Price band, lot size, fresh issue share count and post-offer shares are not disclosed ([\u25cf]).",
+      "Promoter and promoter group hold 100% before the offer. The post-offer percentage is not disclosed.",
+      "The only allotment in the 12 months before the RHP was a bonus issue on Nov 27, 2021 at nil consideration. This is not a placement, so pre_ipo_placement is false.",
+      "The 450 million for working capital is categorised as 'other'.",
+      "The company's revenue in the peer table (2,209.4 million) and RoNW (18.15%) are for the four-month stub, even though the footnote cites FY2022.",
+      "Employee reservation of up to 55,000 shares.",
+      "NSE symbols for peers were inferred; they are not printed in the RHP."
+    ]
+  }
+}

@@ -1,0 +1,368 @@
+{
+  "symbol": "DIFFNKG",
+  "rhp_file": "DIFFNKG.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-21T06:02:23+00:00",
+  "pages_sent": [
+    1,
+    2,
+    34,
+    35,
+    36,
+    37,
+    95,
+    96,
+    98,
+    99,
+    100,
+    101,
+    112,
+    113,
+    114,
+    164,
+    165,
+    185,
+    186,
+    187,
+    373,
+    374
+  ],
+  "n_pdf_pages": 529,
+  "usage": {
+    "input_tokens": 36489,
+    "output_tokens": 2980,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3201283,
+    "session_id": "28df7359-c8f2-4caa-b06f-481eb339431b"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Diffusion Engineers Limited",
+    "sector": "Industrials & capital goods",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024",
+    "stub_period_months": null,
+    "pre_ipo_placement": null,
+    "lead_managers": "Unistone Capital Private Limited",
+    "revenue_fy2": 204.589,
+    "rhp_page_revenue_fy2": 100,
+    "revenue_fy1": 254.876,
+    "rhp_page_revenue_fy1": 100,
+    "revenue_fy0": 278.144,
+    "rhp_page_revenue_fy0": 100,
+    "ebitda_fy2": 27.522,
+    "rhp_page_ebitda_fy2": 373,
+    "ebitda_fy1": 34.797,
+    "rhp_page_ebitda_fy1": 373,
+    "ebitda_fy0": 47.388,
+    "rhp_page_ebitda_fy0": 373,
+    "pat_fy2": 17.046,
+    "rhp_page_pat_fy2": 100,
+    "pat_fy1": 22.145,
+    "rhp_page_pat_fy1": 100,
+    "pat_fy0": 30.803,
+    "rhp_page_pat_fy0": 100,
+    "cfo_fy2": 11.051,
+    "rhp_page_cfo_fy2": 101,
+    "cfo_fy1": -4.737,
+    "rhp_page_cfo_fy1": 101,
+    "cfo_fy0": 39.097,
+    "rhp_page_cfo_fy0": 101,
+    "net_worth_fy0": 190.704,
+    "rhp_page_net_worth_fy0": 99,
+    "total_debt_fy0": 34.435,
+    "rhp_page_total_debt_fy0": 36,
+    "cash_fy0": 7.813,
+    "rhp_page_cash_fy0": 99,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 186,
+    "price_high": null,
+    "rhp_page_price_high": 186,
+    "lot_size": null,
+    "promoter_pre_pct": 93.1,
+    "rhp_page_promoter_pre_pct": 35,
+    "promoter_post_pct": null,
+    "retail_quota_pct": 35.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": null,
+    "eps_fy0": 10.94,
+    "rhp_page_eps_fy0": 100,
+    "ronw_fy0_pct": 18.52,
+    "rhp_page_ronw_fy0_pct": 186,
+    "nav_per_share_fy0": 68.06,
+    "rhp_page_nav_per_share_fy0": 187,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": 0.9405,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 2.8021259,
+    "rhp_page_pre_issue_shares_cr": 95,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 95,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 101.765,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "Ador Welding Limited; AIA Engineering Limited",
+    "n_peers": 2,
+    "peer_pe_list": [
+      29.01,
+      35.88
+    ],
+    "peer_ronw_list": [
+      18.43,
+      18.41
+    ],
+    "rhp_page_peers": 187
+  },
+  "extract": {
+    "company": "Diffusion Engineers Limited",
+    "sector": "Industrials & capital goods",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 186
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 186
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": 9405000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 28021259.0,
+      "unit": "shares",
+      "page": 95
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 95
+    },
+    "promoter_pre_pct": {
+      "value": 93.1,
+      "unit": "percent",
+      "page": 35
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Capital expenditure for Proposed Expansion of existing manufacturing facility at Unit IV, Khapri (Uma), Nagpur",
+        "category": "capex",
+        "amount": {
+          "value": 713.8,
+          "unit": "million",
+          "page": 164
+        }
+      },
+      {
+        "purpose": "Setting up of a new manufacturing facility at Hingna, Sonegaon District, Nagpur (incl. recoupment of land cost)",
+        "category": "capex",
+        "amount": {
+          "value": 303.85,
+          "unit": "million",
+          "page": 164
+        }
+      },
+      {
+        "purpose": "Funding working capital requirements",
+        "category": "other",
+        "amount": {
+          "value": 220.0,
+          "unit": "million",
+          "page": 164
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 164
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Unistone Capital Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024",
+    "revenue_fy2": {
+      "value": 2045.89,
+      "unit": "million",
+      "page": 100
+    },
+    "revenue_fy1": {
+      "value": 2548.76,
+      "unit": "million",
+      "page": 100
+    },
+    "revenue_fy0": {
+      "value": 2781.44,
+      "unit": "million",
+      "page": 100
+    },
+    "ebitda_fy2": {
+      "value": 275.22,
+      "unit": "million",
+      "page": 373
+    },
+    "ebitda_fy1": {
+      "value": 347.97,
+      "unit": "million",
+      "page": 373
+    },
+    "ebitda_fy0": {
+      "value": 473.88,
+      "unit": "million",
+      "page": 373
+    },
+    "pat_fy2": {
+      "value": 170.46,
+      "unit": "million",
+      "page": 100
+    },
+    "pat_fy1": {
+      "value": 221.45,
+      "unit": "million",
+      "page": 100
+    },
+    "pat_fy0": {
+      "value": 308.03,
+      "unit": "million",
+      "page": 100
+    },
+    "cfo_fy2": {
+      "value": 110.51,
+      "unit": "million",
+      "page": 101
+    },
+    "cfo_fy1": {
+      "value": -47.37,
+      "unit": "million",
+      "page": 101
+    },
+    "cfo_fy0": {
+      "value": 390.97,
+      "unit": "million",
+      "page": 101
+    },
+    "net_worth_fy0": {
+      "value": 1907.04,
+      "unit": "million",
+      "page": 99
+    },
+    "total_debt_fy0": {
+      "value": 344.35,
+      "unit": "million",
+      "page": 36
+    },
+    "cash_fy0": {
+      "value": 78.13,
+      "unit": "million",
+      "page": 99
+    },
+    "eps_fy0": {
+      "value": 10.94,
+      "unit": "rupees",
+      "page": 100
+    },
+    "ronw_fy0_pct": {
+      "value": 18.52,
+      "unit": "percent",
+      "page": 186
+    },
+    "nav_per_share_fy0": {
+      "value": 68.06,
+      "unit": "rupees",
+      "page": 187
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Ador Welding Limited",
+        "nse_symbol": null,
+        "pe": 29.01,
+        "ronw_pct": 18.43,
+        "page": 187
+      },
+      {
+        "name": "AIA Engineering Limited",
+        "nse_symbol": null,
+        "pe": 35.88,
+        "ronw_pct": 18.41,
+        "page": 187
+      }
+    ],
+    "notes": [
+      "Issue is a pure fresh issue; no offer for sale. Price band, lot size and issue amount are [\u25cf] in the RHP.",
+      "Promoter pre-issue holding 93.10% includes promoter group (promoters alone 85.58%). Post-issue holding not given.",
+      "Total debt FY2024 = current borrowings 344.35; non-current borrowings nil (page 99).",
+      "PAT is the consolidated profit for the year including non-controlling interest (308.03); the amount attributable to owners is 306.59.",
+      "Pre-IPO placement: the FY2024 cash flow shows 'Proceeds from Issue' of 202.37 million, and a 6:1 bonus issue was made on November 29, 2023. The pages given do not include the share capital history for the 12 months before the RHP, so pre_ipo_placement and pre_ipo_price are left null.",
+      "Working capital object is categorised as 'other'. Of the 303.85 million for the new facility, 81.02 million will recoup land cost already paid from internal accruals.",
+      "Retail quota is 'not less than 35% of Net Issue'; there is also an employee reservation of 50,000 shares."
+    ]
+  }
+}

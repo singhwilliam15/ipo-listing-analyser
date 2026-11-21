@@ -1,0 +1,376 @@
+{
+  "symbol": "BCSSL",
+  "rhp_file": "BCSSL.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:15:51+00:00",
+  "pages_sent": [
+    1,
+    2,
+    36,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    105,
+    106,
+    107,
+    108,
+    123,
+    124,
+    125,
+    126,
+    134,
+    135,
+    136,
+    137,
+    138,
+    245,
+    411,
+    412,
+    413
+  ],
+  "n_pdf_pages": 599,
+  "usage": {
+    "input_tokens": 41798,
+    "output_tokens": 3310,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3697326,
+    "session_id": "ebd5ddd2-7c78-4f5f-92a0-d89fc60a9463"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Bombay Coated and Special Steels Limited",
+    "sector": "Chemicals & materials",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "FY2026 (March 31, 2026)",
+    "stub_period_months": 3,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "Smart Horizon Capital Advisors Private Limited",
+    "revenue_fy2": 755.259,
+    "rhp_page_revenue_fy2": 91,
+    "revenue_fy1": 1055.707,
+    "rhp_page_revenue_fy1": 91,
+    "revenue_fy0": 1266.818,
+    "rhp_page_revenue_fy0": 91,
+    "ebitda_fy2": 49.165,
+    "rhp_page_ebitda_fy2": 137,
+    "ebitda_fy1": 74.092,
+    "rhp_page_ebitda_fy1": 137,
+    "ebitda_fy0": 86.09,
+    "rhp_page_ebitda_fy0": 137,
+    "pat_fy2": 21.138,
+    "rhp_page_pat_fy2": 91,
+    "pat_fy1": 28.672,
+    "rhp_page_pat_fy1": 91,
+    "pat_fy0": 30.539,
+    "rhp_page_pat_fy0": 91,
+    "cfo_fy2": 11.487,
+    "rhp_page_cfo_fy2": 92,
+    "cfo_fy1": 32.09,
+    "rhp_page_cfo_fy1": 92,
+    "cfo_fy0": 10.217,
+    "rhp_page_cfo_fy0": 92,
+    "net_worth_fy0": 121.581,
+    "rhp_page_net_worth_fy0": 90,
+    "total_debt_fy0": null,
+    "rhp_page_total_debt_fy0": 90,
+    "cash_fy0": 10.931,
+    "rhp_page_cash_fy0": 90,
+    "revenue_stub": 397.08,
+    "rhp_page_revenue_stub": 91,
+    "pat_stub": 15.075,
+    "rhp_page_pat_stub": 91,
+    "price_low": null,
+    "rhp_page_price_low": 135,
+    "price_high": null,
+    "rhp_page_price_high": 135,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": 88.0,
+    "rhp_page_pre_ipo_price": 106,
+    "eps_fy0": 7.64,
+    "rhp_page_eps_fy0": 91,
+    "ronw_fy0_pct": 25.12,
+    "rhp_page_ronw_fy0_pct": 135,
+    "nav_per_share_fy0": 30.41,
+    "rhp_page_nav_per_share_fy0": 136,
+    "fresh_issue_cr": 183.057,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 4.0500091,
+    "rhp_page_pre_issue_shares_cr": 87,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 87,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 125.0,
+    "proceeds_capex_cr": 15.77,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "BMW Industries Limited; Manaksia Coated Metals & Industries Limited; Shiv Aum Steels Limited",
+    "n_peers": 3,
+    "peer_pe_list": [
+      14.98,
+      31.03,
+      98.54
+    ],
+    "peer_ronw_list": [
+      10.15,
+      11.96,
+      4.73
+    ],
+    "rhp_page_peers": 136
+  },
+  "extract": {
+    "company": "Bombay Coated and Special Steels Limited",
+    "sector": "Chemicals & materials",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 135
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 135
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 1830.57,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 40500091.0,
+      "unit": "shares",
+      "page": 87
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 87
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment/pre-payment, in full or in part, of certain borrowings availed by the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 1250.0,
+          "unit": "million",
+          "page": 123
+        }
+      },
+      {
+        "purpose": "Financing the cost towards acquisition of capital equipment under existing lease arrangements with Siemens Financial Services Private Limited",
+        "category": "capex",
+        "amount": {
+          "value": 157.7,
+          "unit": "million",
+          "page": 123
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 123
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 88.0,
+      "unit": "rupees",
+      "page": 106
+    },
+    "lead_managers": [
+      "Smart Horizon Capital Advisors Private Limited"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "FY2026 (March 31, 2026)",
+    "revenue_fy2": {
+      "value": 7552.59,
+      "unit": "million",
+      "page": 91
+    },
+    "revenue_fy1": {
+      "value": 10557.07,
+      "unit": "million",
+      "page": 91
+    },
+    "revenue_fy0": {
+      "value": 12668.18,
+      "unit": "million",
+      "page": 91
+    },
+    "ebitda_fy2": {
+      "value": 491.65,
+      "unit": "million",
+      "page": 137
+    },
+    "ebitda_fy1": {
+      "value": 740.92,
+      "unit": "million",
+      "page": 137
+    },
+    "ebitda_fy0": {
+      "value": 860.9,
+      "unit": "million",
+      "page": 137
+    },
+    "pat_fy2": {
+      "value": 211.38,
+      "unit": "million",
+      "page": 91
+    },
+    "pat_fy1": {
+      "value": 286.72,
+      "unit": "million",
+      "page": 91
+    },
+    "pat_fy0": {
+      "value": 305.39,
+      "unit": "million",
+      "page": 91
+    },
+    "cfo_fy2": {
+      "value": 114.87,
+      "unit": "million",
+      "page": 92
+    },
+    "cfo_fy1": {
+      "value": 320.9,
+      "unit": "million",
+      "page": 92
+    },
+    "cfo_fy0": {
+      "value": 102.17,
+      "unit": "million",
+      "page": 92
+    },
+    "net_worth_fy0": {
+      "value": 1215.81,
+      "unit": "million",
+      "page": 90
+    },
+    "total_debt_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": 90
+    },
+    "cash_fy0": {
+      "value": 109.31,
+      "unit": "million",
+      "page": 90
+    },
+    "eps_fy0": {
+      "value": 7.64,
+      "unit": "rupees",
+      "page": 91
+    },
+    "ronw_fy0_pct": {
+      "value": 25.12,
+      "unit": "percent",
+      "page": 135
+    },
+    "nav_per_share_fy0": {
+      "value": 30.41,
+      "unit": "rupees",
+      "page": 136
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 3970.8,
+      "unit": "million",
+      "page": 91
+    },
+    "pat_stub": {
+      "value": 150.75,
+      "unit": "million",
+      "page": 91
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "BMW Industries Limited",
+        "nse_symbol": null,
+        "pe": 14.98,
+        "ronw_pct": 10.15,
+        "page": 136
+      },
+      {
+        "name": "Manaksia Coated Metals & Industries Limited",
+        "nse_symbol": null,
+        "pe": 31.03,
+        "ronw_pct": 11.96,
+        "page": 136
+      },
+      {
+        "name": "Shiv Aum Steels Limited",
+        "nse_symbol": null,
+        "pe": 98.54,
+        "ronw_pct": 4.73,
+        "page": 136
+      }
+    ],
+    "notes": [
+      "The issue is a pure fresh issue with no offer for sale ('Not Applicable'), so there are no selling shareholders.",
+      "Price band, lot size, share count of the fresh issue and post-issue shares are shown as [\u25cf] in the RHP.",
+      "Financial statements are titled 'Restated Financial Information' with no consolidated label, and the audited statements are referred to as standalone. Treated as standalone, although the risk factors mention 'Associates on a consolidated basis'.",
+      "No total borrowings figure is printed for March 31, 2026. The components on page 90 are non-current borrowings 522.89 and current borrowings 2,861.65 (\u20b9 million); KPI debt/equity is 2.78. Total borrowings of 2,736.90 is printed only for June 30, 2026 (page 413).",
+      "EBITDA is the 'Adjusted EBITDA' from the KPIs (PBT + finance costs + D&A \u2212 other income).",
+      "Promoter shareholding percentages and the retail quota percentage are not on the pages provided.",
+      "Pre-IPO placement: 900,091 shares allotted at \u20b988 on October 28, 2025 (originally approved as pre-IPO placement, later reclassified as private placement).",
+      "Peer P/E and RoNW are on a standalone basis for FY2026. NSE symbols are not printed."
+    ]
+  }
+}

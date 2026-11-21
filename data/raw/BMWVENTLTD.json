@@ -1,0 +1,340 @@
+{
+  "symbol": "BMWVENTLTD",
+  "rhp_file": "BMWVENTLTD.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:07:47+00:00",
+  "pages_sent": [
+    1,
+    2,
+    28,
+    97,
+    98,
+    99,
+    100,
+    101,
+    110,
+    111,
+    112,
+    134,
+    135,
+    146,
+    147,
+    148,
+    327,
+    328
+  ],
+  "n_pdf_pages": 487,
+  "usage": {
+    "input_tokens": 25829,
+    "output_tokens": 3333,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.24084299999999997,
+    "session_id": "834daa99-39f6-413c-80e2-70e7e2b8d368"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "BMW Ventures Limited",
+    "sector": "Chemicals & materials",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "Fiscal 2025",
+    "stub_period_months": null,
+    "pre_ipo_placement": null,
+    "lead_managers": "Sarthi Capital Advisors Private Limited",
+    "revenue_fy2": 2015.0972,
+    "rhp_page_revenue_fy2": 100,
+    "revenue_fy1": 1938.1963,
+    "rhp_page_revenue_fy1": 100,
+    "revenue_fy0": 2062.0352,
+    "rhp_page_revenue_fy0": 100,
+    "ebitda_fy2": 67.8459,
+    "rhp_page_ebitda_fy2": 148,
+    "ebitda_fy1": 72.5566,
+    "rhp_page_ebitda_fy1": 148,
+    "ebitda_fy0": 87.39299999999999,
+    "rhp_page_ebitda_fy0": 148,
+    "pat_fy2": 32.6586,
+    "rhp_page_pat_fy2": 100,
+    "pat_fy1": 29.9354,
+    "rhp_page_pat_fy1": 100,
+    "pat_fy0": 32.8233,
+    "rhp_page_pat_fy0": 100,
+    "cfo_fy2": -83.50459999999998,
+    "rhp_page_cfo_fy2": 101,
+    "cfo_fy1": -53.0489,
+    "rhp_page_cfo_fy1": 101,
+    "cfo_fy0": 50.228,
+    "rhp_page_cfo_fy0": 101,
+    "net_worth_fy0": 209.65080000000003,
+    "rhp_page_net_worth_fy0": 99,
+    "total_debt_fy0": 428.38550000000004,
+    "rhp_page_total_debt_fy0": 328,
+    "cash_fy0": 13.2336,
+    "rhp_page_cash_fy0": 99,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 147,
+    "price_high": null,
+    "rhp_page_price_high": 147,
+    "lot_size": null,
+    "promoter_pre_pct": 97.52,
+    "rhp_page_promoter_pre_pct": 28,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 28,
+    "retail_quota_pct": null,
+    "rhp_page_retail_quota_pct": 97,
+    "pre_ipo_price": null,
+    "eps_fy0": 5.18,
+    "rhp_page_eps_fy0": 100,
+    "ronw_fy0_pct": 16.54,
+    "rhp_page_ronw_fy0_pct": 147,
+    "nav_per_share_fy0": 33.19,
+    "rhp_page_nav_per_share_fy0": 147,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": 2.34,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 6.3315,
+    "rhp_page_pre_issue_shares_cr": 97,
+    "post_issue_shares_cr": 8.6715,
+    "rhp_page_post_issue_shares_cr": 97,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 173.75,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "Shiv Aum Steel Limited",
+    "n_peers": 1,
+    "peer_pe_list": [
+      43.46
+    ],
+    "peer_ronw_list": [
+      8.36
+    ],
+    "rhp_page_peers": 148
+  },
+  "extract": {
+    "company": "BMW Ventures Limited",
+    "sector": "Chemicals & materials",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 147
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 147
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "lakh",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": 23400000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "lakh",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 63315000.0,
+      "unit": "shares",
+      "page": 97
+    },
+    "post_issue_shares": {
+      "value": 86715000.0,
+      "unit": "shares",
+      "page": 97
+    },
+    "promoter_pre_pct": {
+      "value": 97.52,
+      "unit": "percent",
+      "page": 28
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 28
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment/pre-payment, in full or in part, of certain outstanding borrowings availed by the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 17375.0,
+          "unit": "lakh",
+          "page": 134
+        }
+      },
+      {
+        "purpose": "General Corporate Purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "lakh",
+          "page": 134
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 97
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Sarthi Capital Advisors Private Limited"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "Fiscal 2025",
+    "revenue_fy2": {
+      "value": 201509.72,
+      "unit": "lakh",
+      "page": 100
+    },
+    "revenue_fy1": {
+      "value": 193819.63,
+      "unit": "lakh",
+      "page": 100
+    },
+    "revenue_fy0": {
+      "value": 206203.52,
+      "unit": "lakh",
+      "page": 100
+    },
+    "ebitda_fy2": {
+      "value": 6784.59,
+      "unit": "lakh",
+      "page": 148
+    },
+    "ebitda_fy1": {
+      "value": 7255.66,
+      "unit": "lakh",
+      "page": 148
+    },
+    "ebitda_fy0": {
+      "value": 8739.3,
+      "unit": "lakh",
+      "page": 148
+    },
+    "pat_fy2": {
+      "value": 3265.86,
+      "unit": "lakh",
+      "page": 100
+    },
+    "pat_fy1": {
+      "value": 2993.54,
+      "unit": "lakh",
+      "page": 100
+    },
+    "pat_fy0": {
+      "value": 3282.33,
+      "unit": "lakh",
+      "page": 100
+    },
+    "cfo_fy2": {
+      "value": -8350.46,
+      "unit": "lakh",
+      "page": 101
+    },
+    "cfo_fy1": {
+      "value": -5304.89,
+      "unit": "lakh",
+      "page": 101
+    },
+    "cfo_fy0": {
+      "value": 5022.8,
+      "unit": "lakh",
+      "page": 101
+    },
+    "net_worth_fy0": {
+      "value": 20965.08,
+      "unit": "lakh",
+      "page": 99
+    },
+    "total_debt_fy0": {
+      "value": 42838.55,
+      "unit": "lakh",
+      "page": 328
+    },
+    "cash_fy0": {
+      "value": 1323.36,
+      "unit": "lakh",
+      "page": 99
+    },
+    "eps_fy0": {
+      "value": 5.18,
+      "unit": "rupees",
+      "page": 100
+    },
+    "ronw_fy0_pct": {
+      "value": 16.54,
+      "unit": "percent",
+      "page": 147
+    },
+    "nav_per_share_fy0": {
+      "value": 33.19,
+      "unit": "rupees",
+      "page": 147
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "lakh",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "lakh",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Shiv Aum Steel Limited",
+        "nse_symbol": null,
+        "pe": 43.46,
+        "ronw_pct": 8.36,
+        "page": 148
+      }
+    ],
+    "notes": [
+      "Financial statements are labelled only 'Restated Financial Statements' (not stated as consolidated); treated as standalone, though page 135 refers to total borrowings 'on a consolidated basis'.",
+      "Net worth for FY2025 is inconsistent: balance sheet total equity 20,965.08 lakh (p.99), KPI/capitalisation 21,011.78 lakh (p.148/328), summary on p.28 shows 14,680.28 lakh (which appears to be reserves). Used balance sheet total equity.",
+      "RoNW FY2025 is 16.54% in Basis for Issue Price (p.147/148) but 15.62% in Other Financial Information / KPI RoE (p.327/148).",
+      "Peer P/E in comparison table is 43.46 for Shiv Aum Steel, but the Industry P/E summary (p.147) shows highest 40.13, lowest 33.44, composite 35.90 \u2013 figures don't reconcile.",
+      "Company's own sales in peer table (206,733.21) is total income, not revenue from operations.",
+      "Cash and cash equivalents per balance sheet 1,323.36 lakh vs cash flow statement closing 1,220.36/1,243.43 lakh.",
+      "Promoter pre-issue holding 97.52% is Promoters only; Promoter Group holds a further 2.48% (p.28). Combined total not printed as a single figure.",
+      "Price band, lot size, issue amount, retail quota not disclosed on given pages ([\u25cf]). Issue is entirely fresh; no OFS.",
+      "Pre-IPO placement information not available in provided pages."
+    ]
+  }
+}

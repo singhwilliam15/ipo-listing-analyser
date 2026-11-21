@@ -1,0 +1,403 @@
+{
+  "symbol": "GERMAN",
+  "rhp_file": "GERMAN.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:18:49+00:00",
+  "pages_sent": [
+    1,
+    2,
+    78,
+    79,
+    81,
+    82,
+    83,
+    84,
+    85,
+    106,
+    107,
+    108,
+    141,
+    142,
+    181,
+    182,
+    183,
+    457,
+    458,
+    479
+  ],
+  "n_pdf_pages": 601,
+  "usage": {
+    "input_tokens": 31293,
+    "output_tokens": 3399,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.2864209,
+    "session_id": "a1aa71af-cbbf-4d13-b709-765d126c4239"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "German Green Steel and Power Limited",
+    "sector": "Chemicals & materials",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "stub_period_months": null,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "Systematix Corporate Services Limited; Emkay Global Financial Services Limited; Pantomath Capital Advisors Private Limited",
+    "revenue_fy2": 1129.7818,
+    "rhp_page_revenue_fy2": 84,
+    "revenue_fy1": 1507.5713,
+    "rhp_page_revenue_fy1": 84,
+    "revenue_fy0": 1678.9817000000003,
+    "rhp_page_revenue_fy0": 84,
+    "ebitda_fy2": 79.3332,
+    "rhp_page_ebitda_fy2": 183,
+    "ebitda_fy1": 116.8075,
+    "rhp_page_ebitda_fy1": 183,
+    "ebitda_fy0": 166.95669999999998,
+    "rhp_page_ebitda_fy0": 183,
+    "pat_fy2": 41.6666,
+    "rhp_page_pat_fy2": 84,
+    "pat_fy1": 59.9436,
+    "rhp_page_pat_fy1": 84,
+    "pat_fy0": 79.8887,
+    "rhp_page_pat_fy0": 84,
+    "cfo_fy2": 28.3554,
+    "rhp_page_cfo_fy2": 85,
+    "cfo_fy1": 74.4288,
+    "rhp_page_cfo_fy1": 85,
+    "cfo_fy0": 140.804,
+    "rhp_page_cfo_fy0": 85,
+    "net_worth_fy0": 421.54519999999997,
+    "rhp_page_net_worth_fy0": 82,
+    "total_debt_fy0": 334.36550000000005,
+    "rhp_page_total_debt_fy0": 479,
+    "cash_fy0": 1.2588,
+    "rhp_page_cash_fy0": 82,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 181,
+    "price_high": null,
+    "rhp_page_price_high": 181,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": 270.0,
+    "rhp_page_pre_ipo_price": 2,
+    "eps_fy0": 14.91,
+    "rhp_page_eps_fy0": 84,
+    "ronw_fy0_pct": 18.86,
+    "rhp_page_ronw_fy0_pct": 182,
+    "nav_per_share_fy0": 77.76,
+    "rhp_page_nav_per_share_fy0": 182,
+    "fresh_issue_cr": 290.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.1,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 5.4485888,
+    "rhp_page_pre_issue_shares_cr": 78,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 78,
+    "ofs_promoter_shares_cr": 0.1,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 7.6999,
+    "proceeds_capex_cr": 226.3305,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "Beekay Steel Industries Ltd; Gallant Ispat Limited; Kamdhenu Limited; MSP Steel & Power Limited; VMS TMT Limited",
+    "n_peers": 5,
+    "peer_pe_list": [
+      22.54,
+      27.8,
+      14.57,
+      61.57,
+      8.92
+    ],
+    "peer_ronw_list": [
+      3.49,
+      14.6,
+      19.77,
+      3.28,
+      9.22
+    ],
+    "rhp_page_peers": 182
+  },
+  "extract": {
+    "company": "German Green Steel and Power Limited",
+    "sector": "Chemicals & materials",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 181
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 181
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 29000.0,
+      "unit": "lakh",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "lakh",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 1000000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Inamulhaq Shamsulhaq Iraki",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 500000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Abdulhaq Shamsulhaq Iraki",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 500000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 54485888.0,
+      "unit": "shares",
+      "page": 78
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 78
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Capital expenditure for expansion of manufacturing facility at Samakhiyali, Kutch, Gujarat and hybrid wind and solar power plant",
+        "category": "capex",
+        "amount": {
+          "value": 22633.05,
+          "unit": "lakh",
+          "page": 142
+        }
+      },
+      {
+        "purpose": "Prepayment or repayment of certain outstanding borrowings",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 769.99,
+          "unit": "lakh",
+          "page": 142
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "lakh",
+          "page": 142
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 270.0,
+      "unit": "rupees",
+      "page": 2
+    },
+    "lead_managers": [
+      "Systematix Corporate Services Limited",
+      "Emkay Global Financial Services Limited",
+      "Pantomath Capital Advisors Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "revenue_fy2": {
+      "value": 112978.18,
+      "unit": "lakh",
+      "page": 84
+    },
+    "revenue_fy1": {
+      "value": 150757.13,
+      "unit": "lakh",
+      "page": 84
+    },
+    "revenue_fy0": {
+      "value": 167898.17,
+      "unit": "lakh",
+      "page": 84
+    },
+    "ebitda_fy2": {
+      "value": 7933.32,
+      "unit": "lakh",
+      "page": 183
+    },
+    "ebitda_fy1": {
+      "value": 11680.75,
+      "unit": "lakh",
+      "page": 183
+    },
+    "ebitda_fy0": {
+      "value": 16695.67,
+      "unit": "lakh",
+      "page": 183
+    },
+    "pat_fy2": {
+      "value": 4166.66,
+      "unit": "lakh",
+      "page": 84
+    },
+    "pat_fy1": {
+      "value": 5994.36,
+      "unit": "lakh",
+      "page": 84
+    },
+    "pat_fy0": {
+      "value": 7988.87,
+      "unit": "lakh",
+      "page": 84
+    },
+    "cfo_fy2": {
+      "value": 2835.54,
+      "unit": "lakh",
+      "page": 85
+    },
+    "cfo_fy1": {
+      "value": 7442.88,
+      "unit": "lakh",
+      "page": 85
+    },
+    "cfo_fy0": {
+      "value": 14080.4,
+      "unit": "lakh",
+      "page": 85
+    },
+    "net_worth_fy0": {
+      "value": 42154.52,
+      "unit": "lakh",
+      "page": 82
+    },
+    "total_debt_fy0": {
+      "value": 33436.55,
+      "unit": "lakh",
+      "page": 479
+    },
+    "cash_fy0": {
+      "value": 125.88,
+      "unit": "lakh",
+      "page": 82
+    },
+    "eps_fy0": {
+      "value": 14.91,
+      "unit": "rupees",
+      "page": 84
+    },
+    "ronw_fy0_pct": {
+      "value": 18.86,
+      "unit": "percent",
+      "page": 182
+    },
+    "nav_per_share_fy0": {
+      "value": 77.76,
+      "unit": "rupees",
+      "page": 182
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "lakh",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "lakh",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Beekay Steel Industries Ltd",
+        "nse_symbol": null,
+        "pe": 22.54,
+        "ronw_pct": 3.49,
+        "page": 182
+      },
+      {
+        "name": "Gallant Ispat Limited",
+        "nse_symbol": null,
+        "pe": 27.8,
+        "ronw_pct": 14.6,
+        "page": 182
+      },
+      {
+        "name": "Kamdhenu Limited",
+        "nse_symbol": null,
+        "pe": 14.57,
+        "ronw_pct": 19.77,
+        "page": 182
+      },
+      {
+        "name": "MSP Steel & Power Limited",
+        "nse_symbol": null,
+        "pe": 61.57,
+        "ronw_pct": 3.28,
+        "page": 182
+      },
+      {
+        "name": "VMS TMT Limited",
+        "nse_symbol": null,
+        "pe": 8.92,
+        "ronw_pct": 9.22,
+        "page": 182
+      }
+    ],
+    "notes": [
+      "Price band, lot size, fresh issue share count and post-offer shares are shown as [\u25cf] in the RHP.",
+      "Promoter shareholding percentages are not on the pages provided.",
+      "Pre-IPO Placement: 18,38,000 shares at \u20b9270 each (\u20b94,962.60 lakhs) on September 26, 2025. This is just under 12 months before the RHP dated September 21, 2026. The Fresh Issue was reduced by this amount to \u20b929,000.00 lakhs.",
+      "Total debt from the capitalisation statement (\u20b933,436.55 lakhs) matches non-current borrowings (15,456.23) plus current borrowings (17,980.32) on the balance sheet. The capitalisation statement splits it differently because it moves current maturities of long-term debt into non-current.",
+      "The general corporate purposes amount is [\u25cf]. Of the pre-IPO proceeds, \u20b92,672.63 lakhs went to the capex Project and \u20b92,289.97 lakhs to GCP.",
+      "The peer table includes both listed and unlisted peers. NSE symbols are not printed. The company is in steel (TMT bars), so it is mapped to 'Chemicals & materials' as the closest sector."
+    ]
+  }
+}

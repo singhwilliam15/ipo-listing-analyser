@@ -1,0 +1,462 @@
+{
+  "symbol": "NOVAAGRI",
+  "rhp_file": "NOVAAGRI.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T21:03:36+00:00",
+  "pages_sent": [
+    1,
+    2,
+    19,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    86,
+    87,
+    88,
+    89,
+    98,
+    99,
+    100,
+    101,
+    119,
+    120,
+    325,
+    326,
+    327,
+    362
+  ],
+  "n_pdf_pages": 462,
+  "usage": {
+    "input_tokens": 55477,
+    "output_tokens": 4154,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.49741029999999997,
+    "session_id": "cd522757-46e7-4509-b490-980d47295aa3"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Nova Agritech Limited",
+    "sector": "Chemicals & materials",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023 (March 31, 2023)",
+    "stub_period_months": 6,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Keynote Financial Services Limited; Bajaj Capital Limited",
+    "revenue_fy2": 160.5774,
+    "rhp_page_revenue_fy2": 73,
+    "revenue_fy1": 185.5677,
+    "rhp_page_revenue_fy1": 73,
+    "revenue_fy0": 210.5554,
+    "rhp_page_revenue_fy0": 73,
+    "ebitda_fy2": 17.7997,
+    "rhp_page_ebitda_fy2": 325,
+    "ebitda_fy1": 27.7773,
+    "rhp_page_ebitda_fy1": 325,
+    "ebitda_fy0": 38.7188,
+    "rhp_page_ebitda_fy0": 325,
+    "pat_fy2": 6.3,
+    "rhp_page_pat_fy2": 73,
+    "pat_fy1": 13.6893,
+    "rhp_page_pat_fy1": 73,
+    "pat_fy0": 20.489499999999996,
+    "rhp_page_pat_fy0": 73,
+    "cfo_fy2": 5.1813,
+    "rhp_page_cfo_fy2": 75,
+    "cfo_fy1": 2.4818,
+    "rhp_page_cfo_fy1": 75,
+    "cfo_fy0": 5.449400000000001,
+    "rhp_page_cfo_fy0": 75,
+    "net_worth_fy0": 63.8797,
+    "rhp_page_net_worth_fy0": 71,
+    "total_debt_fy0": 70.9551,
+    "rhp_page_total_debt_fy0": 27,
+    "cash_fy0": 3.3518,
+    "rhp_page_cash_fy0": 71,
+    "revenue_stub": 103.216,
+    "rhp_page_revenue_stub": 73,
+    "pat_stub": 10.3822,
+    "rhp_page_pat_stub": 73,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": 84.27,
+    "rhp_page_promoter_pre_pct": 27,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 89,
+    "retail_quota_pct": 35.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": null,
+    "eps_fy0": 3.27,
+    "rhp_page_eps_fy0": 73,
+    "ronw_fy0_pct": 32.08,
+    "rhp_page_ronw_fy0_pct": 115,
+    "nav_per_share_fy0": 10.19,
+    "rhp_page_nav_per_share_fy0": 115,
+    "fresh_issue_cr": 112.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.775862,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 6.520274,
+    "rhp_page_pre_issue_shares_cr": 69,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 69,
+    "ofs_promoter_shares_cr": 0,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 24.6906,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "Aries Agro Ltd; Aimco Pesticides Limited; Basant Agrotech Limited; Best Agrolife Limited; Bhagiradha Chemicals & Industries Ltd; Heranba Industries Limited; India Pesticides Limited; Madras Fertilizers Limited; Dharmaj Crop Guard Limited",
+    "n_peers": 9,
+    "peer_pe_list": [
+      15.44,
+      10.54,
+      41.93,
+      11.3,
+      13.56,
+      29.51,
+      9.35,
+      21.89
+    ],
+    "peer_ronw_list": [
+      6.82,
+      -4.52,
+      11.34,
+      14.02,
+      17.95,
+      14.39,
+      20.44,
+      -46.77,
+      16.3
+    ],
+    "rhp_page_peers": 120
+  },
+  "extract": {
+    "company": "Nova Agritech Limited",
+    "sector": "Chemicals & materials",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 11200.0,
+      "unit": "lakh",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 7758620.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Nutalapati Venkatasubbarao",
+        "kind": "other",
+        "shares_offered": {
+          "value": 7758620.0,
+          "unit": "shares",
+          "page": 27
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 65202740.0,
+      "unit": "shares",
+      "page": 69
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 69
+    },
+    "promoter_pre_pct": {
+      "value": 84.27,
+      "unit": "percent",
+      "page": 27
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": 89
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Investment in subsidiary Nova Agri Sciences Private Limited for setting-up a new formulation plant",
+        "category": "capex",
+        "amount": {
+          "value": 1420.11,
+          "unit": "lakh",
+          "page": 98
+        }
+      },
+      {
+        "purpose": "Capital expenditure towards expansion of existing formulation plant",
+        "category": "capex",
+        "amount": {
+          "value": 1048.95,
+          "unit": "lakh",
+          "page": 98
+        }
+      },
+      {
+        "purpose": "Funding working capital requirement of the Company",
+        "category": "other",
+        "amount": {
+          "value": 2665.47,
+          "unit": "lakh",
+          "page": 98
+        }
+      },
+      {
+        "purpose": "Investment in subsidiary Nova Agri Sciences Private Limited for funding working capital requirements",
+        "category": "other",
+        "amount": {
+          "value": 4335.85,
+          "unit": "lakh",
+          "page": 98
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": null,
+          "page": 98
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lead_managers": [
+      "Keynote Financial Services Limited",
+      "Bajaj Capital Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023 (March 31, 2023)",
+    "revenue_fy2": {
+      "value": 16057.74,
+      "unit": "lakh",
+      "page": 73
+    },
+    "revenue_fy1": {
+      "value": 18556.77,
+      "unit": "lakh",
+      "page": 73
+    },
+    "revenue_fy0": {
+      "value": 21055.54,
+      "unit": "lakh",
+      "page": 73
+    },
+    "ebitda_fy2": {
+      "value": 1779.97,
+      "unit": "lakh",
+      "page": 325
+    },
+    "ebitda_fy1": {
+      "value": 2777.73,
+      "unit": "lakh",
+      "page": 325
+    },
+    "ebitda_fy0": {
+      "value": 3871.88,
+      "unit": "lakh",
+      "page": 325
+    },
+    "pat_fy2": {
+      "value": 630.0,
+      "unit": "lakh",
+      "page": 73
+    },
+    "pat_fy1": {
+      "value": 1368.93,
+      "unit": "lakh",
+      "page": 73
+    },
+    "pat_fy0": {
+      "value": 2048.95,
+      "unit": "lakh",
+      "page": 73
+    },
+    "cfo_fy2": {
+      "value": 518.13,
+      "unit": "lakh",
+      "page": 75
+    },
+    "cfo_fy1": {
+      "value": 248.18,
+      "unit": "lakh",
+      "page": 75
+    },
+    "cfo_fy0": {
+      "value": 544.94,
+      "unit": "lakh",
+      "page": 75
+    },
+    "net_worth_fy0": {
+      "value": 6387.97,
+      "unit": "lakh",
+      "page": 71
+    },
+    "total_debt_fy0": {
+      "value": 7095.51,
+      "unit": "lakh",
+      "page": 27
+    },
+    "cash_fy0": {
+      "value": 335.18,
+      "unit": "lakh",
+      "page": 71
+    },
+    "eps_fy0": {
+      "value": 3.27,
+      "unit": "rupees",
+      "page": 73
+    },
+    "ronw_fy0_pct": {
+      "value": 32.08,
+      "unit": "percent",
+      "page": 115
+    },
+    "nav_per_share_fy0": {
+      "value": 10.19,
+      "unit": "rupees",
+      "page": 115
+    },
+    "stub_period_months": 6,
+    "revenue_stub": {
+      "value": 10321.6,
+      "unit": "lakh",
+      "page": 73
+    },
+    "pat_stub": {
+      "value": 1038.22,
+      "unit": "lakh",
+      "page": 73
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Aries Agro Ltd",
+        "nse_symbol": null,
+        "pe": 15.44,
+        "ronw_pct": 6.82,
+        "page": 120
+      },
+      {
+        "name": "Aimco Pesticides Limited",
+        "nse_symbol": null,
+        "pe": null,
+        "ronw_pct": -4.52,
+        "page": 120
+      },
+      {
+        "name": "Basant Agrotech Limited",
+        "nse_symbol": null,
+        "pe": 10.54,
+        "ronw_pct": 11.34,
+        "page": 120
+      },
+      {
+        "name": "Best Agrolife Limited",
+        "nse_symbol": null,
+        "pe": 41.93,
+        "ronw_pct": 14.02,
+        "page": 120
+      },
+      {
+        "name": "Bhagiradha Chemicals & Industries Ltd",
+        "nse_symbol": null,
+        "pe": 11.3,
+        "ronw_pct": 17.95,
+        "page": 120
+      },
+      {
+        "name": "Heranba Industries Limited",
+        "nse_symbol": null,
+        "pe": 13.56,
+        "ronw_pct": 14.39,
+        "page": 120
+      },
+      {
+        "name": "India Pesticides Limited",
+        "nse_symbol": null,
+        "pe": 29.51,
+        "ronw_pct": 20.44,
+        "page": 120
+      },
+      {
+        "name": "Madras Fertilizers Limited",
+        "nse_symbol": null,
+        "pe": 9.35,
+        "ronw_pct": -46.77,
+        "page": 120
+      },
+      {
+        "name": "Dharmaj Crop Guard Limited",
+        "nse_symbol": null,
+        "pe": 21.89,
+        "ronw_pct": 16.3,
+        "page": 120
+      }
+    ],
+    "notes": [
+      "The price band, lot size, fresh issue share count, OFS amount and post-offer share count are all shown as [\u25cf] in this RHP.",
+      "The peer table gives Nova's RoNW as 38.27% and NAV as 10.09. Elsewhere the RHP gives RoNW for FY2023 as 32.08% and NAV as 10.19 (pages 115 and 325). The 32.08% and 10.19 figures were used.",
+      "Aimco Pesticides P/E is printed as (56.62), a negative figure, so it was set to null.",
+      "Pre-offer shares are 6,52,02,740 and paid-up capital on page 86 is \u20b91,304.05 lakh. The restated balance sheet shows share capital of only \u20b91,254.05 lakh. The difference is probably the 5,00,000 ESOP-trust shares (\u20b910 face value, before the sub-division) being treated as treasury shares.",
+      "The last allotment was the ESOP allotment of 5,00,000 shares at \u20b915 (\u20b910 face value) on January 6, 2023, a few days more than 12 months before the RHP date of January 12, 2024. The Yeluri Family Trust's gift transfer was December 13, 2022, also outside that window. The company also states that it does not plan a pre-IPO placement. pre_ipo_placement was therefore set to false.",
+      "Total borrowings for FY2023 (7,095.51) are taken from the summary on page 27. This equals long-term borrowings of 1,635.73 plus short-term borrowings of 5,459.78 on page 71.",
+      "The working-capital objects (for the company and for the subsidiary NASPL) were classed as 'other'. The investment in NASPL for its new formulation plant was classed as capex.",
+      "Total income in the peer table and on page 325 is printed as 21.093.35, which looks like a typo for 21,093.35."
+    ]
+  }
+}

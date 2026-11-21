@@ -1,0 +1,394 @@
+{
+  "symbol": "DEEPA",
+  "rhp_file": "DEEPA.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:22:59+00:00",
+  "pages_sent": [
+    1,
+    2,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    91,
+    92,
+    93,
+    105,
+    106,
+    118,
+    119,
+    120,
+    304,
+    305
+  ],
+  "n_pdf_pages": 433,
+  "usage": {
+    "input_tokens": 27585,
+    "output_tokens": 3378,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.2559659,
+    "session_id": "ae7db877-5350-43f4-9043-e34254a24f16"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Deepa Jewellers Limited",
+    "sector": "Consumer & retail",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "FY2026",
+    "stub_period_months": null,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Emkay Global Financial Services Limited; Valmiki Leela Capital Private Limited",
+    "revenue_fy2": 1024.568,
+    "rhp_page_revenue_fy2": 74,
+    "revenue_fy1": 1397.01,
+    "rhp_page_revenue_fy1": 74,
+    "revenue_fy0": 1926.676,
+    "rhp_page_revenue_fy0": 74,
+    "ebitda_fy2": 35.771,
+    "rhp_page_ebitda_fy2": 120,
+    "ebitda_fy1": 56.006,
+    "rhp_page_ebitda_fy1": 120,
+    "ebitda_fy0": 146.337,
+    "rhp_page_ebitda_fy0": 120,
+    "pat_fy2": 24.347,
+    "rhp_page_pat_fy2": 74,
+    "pat_fy1": 40.58,
+    "rhp_page_pat_fy1": 74,
+    "pat_fy0": 104.78800000000001,
+    "rhp_page_pat_fy0": 74,
+    "cfo_fy2": 4.845,
+    "rhp_page_cfo_fy2": 75,
+    "cfo_fy1": -9.864,
+    "rhp_page_cfo_fy1": 75,
+    "cfo_fy0": -14.73,
+    "rhp_page_cfo_fy0": 75,
+    "net_worth_fy0": 238.07,
+    "rhp_page_net_worth_fy0": 73,
+    "total_debt_fy0": 111.115,
+    "rhp_page_total_debt_fy0": 305,
+    "cash_fy0": 0.104,
+    "rhp_page_cash_fy0": 73,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 118,
+    "price_high": null,
+    "rhp_page_price_high": 118,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "rhp_page_retail_quota_pct": 70,
+    "pre_ipo_price": null,
+    "eps_fy0": 12.78,
+    "rhp_page_eps_fy0": 74,
+    "ronw_fy0_pct": 56.45,
+    "rhp_page_ronw_fy0_pct": 119,
+    "nav_per_share_fy0": 29.03,
+    "rhp_page_nav_per_share_fy0": 119,
+    "fresh_issue_cr": 250.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 1.184834,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 8.2,
+    "rhp_page_pre_issue_shares_cr": 70,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 70,
+    "ofs_promoter_shares_cr": 1.184834,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "Sky Gold and Diamonds Limited; Shanti Gold International Limited; Shringar House of Mangalsutra Limited; RBZ Jewellers Ltd; Khazanchi Jewellers Limited",
+    "n_peers": 5,
+    "peer_pe_list": [
+      57.56,
+      12.72,
+      17.02,
+      10.08,
+      22.22
+    ],
+    "peer_ronw_list": [
+      23.88,
+      37.34,
+      26.29,
+      20.11,
+      32.45
+    ],
+    "rhp_page_peers": 119
+  },
+  "extract": {
+    "company": "Deepa Jewellers Limited",
+    "sector": "Consumer & retail",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 118
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 118
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 2500.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 11848340.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Ashish Agarwal",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 5924170.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Seema Agarwal",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 5924170.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 82000000.0,
+      "unit": "shares",
+      "page": 70
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 70
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding long-term working capital requirements towards procurement, maintenance and scaling up of inventory",
+        "category": "other",
+        "amount": {
+          "value": 2150.0,
+          "unit": "million",
+          "page": 105
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 105
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 70
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Emkay Global Financial Services Limited",
+      "Valmiki Leela Capital Private Limited"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "FY2026",
+    "revenue_fy2": {
+      "value": 10245.68,
+      "unit": "million",
+      "page": 74
+    },
+    "revenue_fy1": {
+      "value": 13970.1,
+      "unit": "million",
+      "page": 74
+    },
+    "revenue_fy0": {
+      "value": 19266.76,
+      "unit": "million",
+      "page": 74
+    },
+    "ebitda_fy2": {
+      "value": 357.71,
+      "unit": "million",
+      "page": 120
+    },
+    "ebitda_fy1": {
+      "value": 560.06,
+      "unit": "million",
+      "page": 120
+    },
+    "ebitda_fy0": {
+      "value": 1463.37,
+      "unit": "million",
+      "page": 120
+    },
+    "pat_fy2": {
+      "value": 243.47,
+      "unit": "million",
+      "page": 74
+    },
+    "pat_fy1": {
+      "value": 405.8,
+      "unit": "million",
+      "page": 74
+    },
+    "pat_fy0": {
+      "value": 1047.88,
+      "unit": "million",
+      "page": 74
+    },
+    "cfo_fy2": {
+      "value": 48.45,
+      "unit": "million",
+      "page": 75
+    },
+    "cfo_fy1": {
+      "value": -98.64,
+      "unit": "million",
+      "page": 75
+    },
+    "cfo_fy0": {
+      "value": -147.3,
+      "unit": "million",
+      "page": 75
+    },
+    "net_worth_fy0": {
+      "value": 2380.7,
+      "unit": "million",
+      "page": 73
+    },
+    "total_debt_fy0": {
+      "value": 1111.15,
+      "unit": "million",
+      "page": 305
+    },
+    "cash_fy0": {
+      "value": 1.04,
+      "unit": "million",
+      "page": 73
+    },
+    "eps_fy0": {
+      "value": 12.78,
+      "unit": "rupees",
+      "page": 74
+    },
+    "ronw_fy0_pct": {
+      "value": 56.45,
+      "unit": "percent",
+      "page": 119
+    },
+    "nav_per_share_fy0": {
+      "value": 29.03,
+      "unit": "rupees",
+      "page": 119
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Sky Gold and Diamonds Limited",
+        "nse_symbol": null,
+        "pe": 57.56,
+        "ronw_pct": 23.88,
+        "page": 119
+      },
+      {
+        "name": "Shanti Gold International Limited",
+        "nse_symbol": null,
+        "pe": 12.72,
+        "ronw_pct": 37.34,
+        "page": 119
+      },
+      {
+        "name": "Shringar House of Mangalsutra Limited",
+        "nse_symbol": null,
+        "pe": 17.02,
+        "ronw_pct": 26.29,
+        "page": 119
+      },
+      {
+        "name": "RBZ Jewellers Ltd",
+        "nse_symbol": null,
+        "pe": 10.08,
+        "ronw_pct": 20.11,
+        "page": 119
+      },
+      {
+        "name": "Khazanchi Jewellers Limited",
+        "nse_symbol": null,
+        "pe": 22.22,
+        "ronw_pct": 32.45,
+        "page": 119
+      }
+    ],
+    "notes": [
+      "The pages call the financials 'Restated Financial Information' and never say consolidated. No subsidiaries are mentioned, so the basis was recorded as standalone.",
+      "Price band, lot size, fresh issue share count, OFS amount and post-offer shares are all printed as [\u25cf], so they are null.",
+      "The retail quota percentage is not printed on these pages. Page 66 says only 'Not less than [\u25cf] Equity Shares'. The non-institutional portion is not less than 15%.",
+      "Promoter shareholding percentages before and after the offer are not on the pages provided.",
+      "The only allotment in the 12 months before the RHP was a bonus issue (3:1) on November 28, 2025, with no payment. Before that, on November 10, 2025, the \u20b910 shares were split into \u20b92 shares. There was no priced placement, preferential allotment or rights allotment, so pre_ipo_placement is false and pre_ipo_price is null.",
+      "The working capital object (\u20b92,150.00 million for inventory) does not fit debt repayment, capex or general corporate purposes, so it is categorised as other. The general corporate purposes amount is [\u25cf] and is capped at 25% of gross proceeds.",
+      "Total debt is 1,111.15 = 674.61 current borrowings + 436.54 non-current borrowings, per the capitalisation statement.",
+      "NAV per share is \u20b929.03 as printed. The company says it was computed using the weighted average number of shares.",
+      "Peer P/E and RoNW are on a standalone basis and use the closing price on August 21, 2026. NSE symbols are not printed."
+    ]
+  }
+}

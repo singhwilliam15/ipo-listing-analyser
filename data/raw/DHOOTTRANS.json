@@ -1,0 +1,406 @@
+{
+  "symbol": "DHOOTTRANS",
+  "rhp_file": "DHOOTTRANS.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:26:04+00:00",
+  "pages_sent": [
+    1,
+    2,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    100,
+    101,
+    102,
+    121,
+    122,
+    167,
+    168,
+    169,
+    461,
+    462,
+    483
+  ],
+  "n_pdf_pages": 592,
+  "usage": {
+    "input_tokens": 35955,
+    "output_tokens": 3526,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3267243,
+    "session_id": "5b151095-fe3e-44f3-97da-61ff09abf02d"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Dhoot Transmission Limited",
+    "sector": "Auto & auto components",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "stub_period_months": null,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "Axis Capital Limited; Jefferies India Private Limited; Kotak Mahindra Capital Company Limited; Nomura Financial Advisory and Securities (India) Private Limited; SBI Capital Markets Limited; 360 ONE WAM Limited",
+    "revenue_fy2": 2797.726,
+    "rhp_page_revenue_fy2": 80,
+    "revenue_fy1": 3444.863,
+    "rhp_page_revenue_fy1": 80,
+    "revenue_fy0": 4524.955,
+    "rhp_page_revenue_fy0": 80,
+    "ebitda_fy2": 512.398,
+    "rhp_page_ebitda_fy2": 169,
+    "ebitda_fy1": 590.963,
+    "rhp_page_ebitda_fy1": 169,
+    "ebitda_fy0": 710.989,
+    "rhp_page_ebitda_fy0": 169,
+    "pat_fy2": 298.748,
+    "rhp_page_pat_fy2": 80,
+    "pat_fy1": 353.887,
+    "rhp_page_pat_fy1": 80,
+    "pat_fy0": 396.842,
+    "rhp_page_pat_fy0": 80,
+    "cfo_fy2": 241.086,
+    "rhp_page_cfo_fy2": 81,
+    "cfo_fy1": 320.214,
+    "rhp_page_cfo_fy1": 81,
+    "cfo_fy0": 347.657,
+    "rhp_page_cfo_fy0": 81,
+    "net_worth_fy0": 2434.342,
+    "rhp_page_net_worth_fy0": 78,
+    "total_debt_fy0": 841.392,
+    "rhp_page_total_debt_fy0": 483,
+    "cash_fy0": 1084.282,
+    "rhp_page_cash_fy0": 78,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": 461.22,
+    "rhp_page_pre_ipo_price": 1,
+    "eps_fy0": 24.4,
+    "rhp_page_eps_fy0": 80,
+    "ronw_fy0_pct": 16.55,
+    "rhp_page_ronw_fy0_pct": 164,
+    "nav_per_share_fy0": 149.74,
+    "rhp_page_nav_per_share_fy0": 164,
+    "fresh_issue_cr": 1400.0,
+    "rhp_page_fresh_issue_cr": 75,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 75,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 75,
+    "ofs_shares_cr": 1.9137602,
+    "rhp_page_ofs_shares_cr": 75,
+    "pre_issue_shares_cr": 18.8467612,
+    "rhp_page_pre_issue_shares_cr": 75,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 75,
+    "ofs_promoter_shares_cr": 1.9137602,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 766.575,
+    "proceeds_capex_cr": 150.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "MINDACORP; UNOMINDA; MSUMI; SONACOMS",
+    "n_peers": 4,
+    "peer_pe_list": [
+      46.49,
+      56.87,
+      43.24,
+      74.64
+    ],
+    "peer_ronw_list": [
+      13.63,
+      17.53,
+      28.92,
+      10.7
+    ],
+    "rhp_page_peers": 168
+  },
+  "extract": {
+    "company": "Dhoot Transmission Limited",
+    "sector": "Auto & auto components",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 14000.0,
+      "unit": "million",
+      "page": 75
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 75
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": null,
+      "page": 75
+    },
+    "ofs_shares": {
+      "value": 19137602.0,
+      "unit": "shares",
+      "page": 75
+    },
+    "selling_shareholders": [
+      {
+        "name": "BC Asia Investments XV Limited",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 16018769.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Mangalam Capital Private Limited (formerly Mangalam Coils Private Limited)",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 3118833.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 188467612.0,
+      "unit": "shares",
+      "page": 75
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 75
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment/prepayment of outstanding borrowings availed by the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 4648.02,
+          "unit": "million",
+          "page": 121
+        }
+      },
+      {
+        "purpose": "Investment in subsidiaries (Dhoot Autocomponents, Dhoot Automotive Systems, Dhoot Transmission UK) for repayment/prepayment of their borrowings",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 3017.73,
+          "unit": "million",
+          "page": 121
+        }
+      },
+      {
+        "purpose": "Setting up new wiring harness manufacturing plants at Jhajjar, Haryana and Hosur, Tamil Nadu",
+        "category": "capex",
+        "amount": {
+          "value": 1500.0,
+          "unit": "million",
+          "page": 122
+        }
+      },
+      {
+        "purpose": "Funding inorganic growth through unidentified acquisitions and general corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": null,
+          "page": 122
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 461.22,
+      "unit": "rupees",
+      "page": 1
+    },
+    "lead_managers": [
+      "Axis Capital Limited",
+      "Jefferies India Private Limited",
+      "Kotak Mahindra Capital Company Limited",
+      "Nomura Financial Advisory and Securities (India) Private Limited",
+      "SBI Capital Markets Limited",
+      "360 ONE WAM Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "revenue_fy2": {
+      "value": 27977.26,
+      "unit": "million",
+      "page": 80
+    },
+    "revenue_fy1": {
+      "value": 34448.63,
+      "unit": "million",
+      "page": 80
+    },
+    "revenue_fy0": {
+      "value": 45249.55,
+      "unit": "million",
+      "page": 80
+    },
+    "ebitda_fy2": {
+      "value": 5123.98,
+      "unit": "million",
+      "page": 169
+    },
+    "ebitda_fy1": {
+      "value": 5909.63,
+      "unit": "million",
+      "page": 169
+    },
+    "ebitda_fy0": {
+      "value": 7109.89,
+      "unit": "million",
+      "page": 169
+    },
+    "pat_fy2": {
+      "value": 2987.48,
+      "unit": "million",
+      "page": 80
+    },
+    "pat_fy1": {
+      "value": 3538.87,
+      "unit": "million",
+      "page": 80
+    },
+    "pat_fy0": {
+      "value": 3968.42,
+      "unit": "million",
+      "page": 80
+    },
+    "cfo_fy2": {
+      "value": 2410.86,
+      "unit": "million",
+      "page": 81
+    },
+    "cfo_fy1": {
+      "value": 3202.14,
+      "unit": "million",
+      "page": 81
+    },
+    "cfo_fy0": {
+      "value": 3476.57,
+      "unit": "million",
+      "page": 81
+    },
+    "net_worth_fy0": {
+      "value": 24343.42,
+      "unit": "million",
+      "page": 78
+    },
+    "total_debt_fy0": {
+      "value": 8413.92,
+      "unit": "million",
+      "page": 483
+    },
+    "cash_fy0": {
+      "value": 10842.82,
+      "unit": "million",
+      "page": 78
+    },
+    "eps_fy0": {
+      "value": 24.4,
+      "unit": "rupees",
+      "page": 80
+    },
+    "ronw_fy0_pct": {
+      "value": 16.55,
+      "unit": "percent",
+      "page": 164
+    },
+    "nav_per_share_fy0": {
+      "value": 149.74,
+      "unit": "rupees",
+      "page": 164
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Minda Corporation Limited",
+        "nse_symbol": "MINDACORP",
+        "pe": 46.49,
+        "ronw_pct": 13.63,
+        "page": 168
+      },
+      {
+        "name": "Uno Minda Limited",
+        "nse_symbol": "UNOMINDA",
+        "pe": 56.87,
+        "ronw_pct": 17.53,
+        "page": 168
+      },
+      {
+        "name": "Motherson Sumi Wiring India Limited",
+        "nse_symbol": "MSUMI",
+        "pe": 43.24,
+        "ronw_pct": 28.92,
+        "page": 168
+      },
+      {
+        "name": "Sona BLW Precision Forgings Limited",
+        "nse_symbol": "SONACOMS",
+        "pe": 74.64,
+        "ronw_pct": 10.7,
+        "page": 168
+      }
+    ],
+    "notes": [
+      "Price band, lot size, fresh issue share count, post-offer shares and retail quota % are [\u25cf] or not on the pages provided.",
+      "Promoter pre/post-offer shareholding % not on the pages provided.",
+      "Pre-IPO placement: BC Asia Tranche 2 issuance on March 20, 2026 of 22,170,945 shares at \u20b9461.22 per share. Also 11,500 ESOP shares allotted after March 31, 2026.",
+      "Net worth is reported as equity attributable to owners (24,343.42 million). The RHP's own Net Worth figure, which excludes capital reserve and FCTR, is 23,971.51 million (p461).",
+      "Total debt of 8,413.92 million is from the capitalisation statement. It matches balance-sheet non-current borrowings 2,462.85 plus current borrowings 5,951.07.",
+      "Amount for acquisitions/GCP is [\u25cf], capped at 35% of gross proceeds.",
+      "Peer NSE symbols are not printed in the RHP. I filled them in from my own knowledge, so please check them.",
+      "FY2026 PAT includes an exceptional item of (202.59) million."
+    ]
+  }
+}

@@ -1,0 +1,341 @@
+{
+  "symbol": "CMRGREEN",
+  "rhp_file": "CMRGREEN.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:29:43+00:00",
+  "pages_sent": [
+    1,
+    2,
+    103,
+    104,
+    106,
+    107,
+    108,
+    109,
+    141,
+    142,
+    143,
+    161,
+    162,
+    165,
+    166,
+    167,
+    473,
+    487,
+    488,
+    489
+  ],
+  "n_pdf_pages": 694,
+  "usage": {
+    "input_tokens": 36822,
+    "output_tokens": 3013,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.32348540000000003,
+    "session_id": "126d6578-81f5-46f3-a2d6-d6a07dc728e1"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "CMR Green Technologies Limited",
+    "sector": "Chemicals & materials",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "stub_period_months": 9,
+    "pre_ipo_placement": null,
+    "lead_managers": "Equirus Capital Limited; ICICI Securities Limited; Motilal Oswal Investment Advisors Limited",
+    "revenue_fy2": 5868.507,
+    "rhp_page_revenue_fy2": 108,
+    "revenue_fy1": 5952.442,
+    "rhp_page_revenue_fy1": 108,
+    "revenue_fy0": 6666.485000000001,
+    "rhp_page_revenue_fy0": 108,
+    "ebitda_fy2": 207.01399999999998,
+    "rhp_page_ebitda_fy2": 487,
+    "ebitda_fy1": 217.404,
+    "rhp_page_ebitda_fy1": 487,
+    "ebitda_fy0": 303.717,
+    "rhp_page_ebitda_fy0": 487,
+    "pat_fy2": 104.50699999999999,
+    "rhp_page_pat_fy2": 108,
+    "pat_fy1": -838.557,
+    "rhp_page_pat_fy1": 108,
+    "pat_fy0": 155.038,
+    "rhp_page_pat_fy0": 108,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 1372.649,
+    "rhp_page_net_worth_fy0": 107,
+    "total_debt_fy0": null,
+    "cash_fy0": 1.768,
+    "rhp_page_cash_fy0": 106,
+    "revenue_stub": 6275.524,
+    "rhp_page_revenue_stub": 108,
+    "pat_stub": 162.394,
+    "rhp_page_pat_stub": 108,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 6.5,
+    "rhp_page_eps_fy0": 108,
+    "ronw_fy0_pct": 31.08,
+    "rhp_page_ronw_fy0_pct": 487,
+    "nav_per_share_fy0": 20.93,
+    "rhp_page_nav_per_share_fy0": 487,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 3.2858323,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 21.9055489,
+    "rhp_page_pre_issue_shares_cr": 103,
+    "post_issue_shares_cr": 21.9055489,
+    "rhp_page_post_issue_shares_cr": 141,
+    "ofs_promoter_shares_cr": 0.6459428,
+    "ofs_investor_shares_cr": 2.6398895,
+    "proceeds_debt_repayment_cr": null,
+    "proceeds_capex_cr": null,
+    "proceeds_gcp_cr": null,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "CMR Green Technologies Limited",
+    "sector": "Chemicals & materials",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 32858323.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Mohan Agarwal",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 4959428.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Gauri Shankar Agarwala HUF (through its karta)",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 1000000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Mohan Agarwal HUF (through its karta)",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 500000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Global Scrap Processors Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 26398895.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 219055489.0,
+      "unit": "shares",
+      "page": 103
+    },
+    "post_issue_shares": {
+      "value": 219055489.0,
+      "unit": "shares",
+      "page": 141
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "objects_of_offer": [],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lead_managers": [
+      "Equirus Capital Limited",
+      "ICICI Securities Limited",
+      "Motilal Oswal Investment Advisors Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "revenue_fy2": {
+      "value": 58685.07,
+      "unit": "million",
+      "page": 108
+    },
+    "revenue_fy1": {
+      "value": 59524.42,
+      "unit": "million",
+      "page": 108
+    },
+    "revenue_fy0": {
+      "value": 66664.85,
+      "unit": "million",
+      "page": 108
+    },
+    "ebitda_fy2": {
+      "value": 2070.14,
+      "unit": "million",
+      "page": 487
+    },
+    "ebitda_fy1": {
+      "value": 2174.04,
+      "unit": "million",
+      "page": 487
+    },
+    "ebitda_fy0": {
+      "value": 3037.17,
+      "unit": "million",
+      "page": 487
+    },
+    "pat_fy2": {
+      "value": 1045.07,
+      "unit": "million",
+      "page": 108
+    },
+    "pat_fy1": {
+      "value": -8385.57,
+      "unit": "million",
+      "page": 108
+    },
+    "pat_fy0": {
+      "value": 1550.38,
+      "unit": "million",
+      "page": 108
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 13726.49,
+      "unit": "million",
+      "page": 107
+    },
+    "total_debt_fy0": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cash_fy0": {
+      "value": 17.68,
+      "unit": "million",
+      "page": 106
+    },
+    "eps_fy0": {
+      "value": 6.5,
+      "unit": "rupees",
+      "page": 108
+    },
+    "ronw_fy0_pct": {
+      "value": 31.08,
+      "unit": "percent",
+      "page": 487
+    },
+    "nav_per_share_fy0": {
+      "value": 20.93,
+      "unit": "rupees",
+      "page": 487
+    },
+    "stub_period_months": 9,
+    "revenue_stub": {
+      "value": 62755.24,
+      "unit": "million",
+      "page": 108
+    },
+    "pat_stub": {
+      "value": 1623.94,
+      "unit": "million",
+      "page": 108
+    },
+    "no_listed_peers": false,
+    "peers": [],
+    "notes": [
+      "Pure Offer for Sale: there is no fresh issue, so the company receives no proceeds and objects_of_offer is empty.",
+      "Price band and lot size are not on the pages provided (price band shown as [\u25cf]).",
+      "Total borrowings at March 31, 2025 have no printed total. The balance sheet on page 107 shows non-current borrowings of 2,142.55 and current borrowings of 6,797.78 (\u20b9 million). The capitalisation statement prints total borrowings of 13,032.17 only as at Dec 31, 2025.",
+      "Operating cash flow (consolidated) is not on the pages provided.",
+      "Promoter shareholding percentages, any pre-IPO placement and the peer comparison table (Industry Peer Group P/E on page 167 is cut off) are not on the pages provided.",
+      "FY2024 loss is due to a goodwill write-off of \u20b912,396.27 million booked as an exceptional item; FY2024 EPS is (38.32) and RoNW is (265.90%).",
+      "Post-offer shares are the same as pre-offer (219,055,489) because the offer is entirely an OFS (capital structure, page 141).",
+      "Employee reservation portion is up to \u20b925.00 million; the retail quota % is not stated on these pages."
+    ]
+  }
+}

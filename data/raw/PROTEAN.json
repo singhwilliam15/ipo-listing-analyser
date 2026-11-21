@@ -1,0 +1,416 @@
+{
+  "symbol": "PROTEAN",
+  "rhp_file": "PROTEAN.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-21T05:53:06+00:00",
+  "pages_sent": [
+    1,
+    2,
+    23,
+    24,
+    25,
+    26,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    77,
+    78,
+    79,
+    95,
+    96,
+    97,
+    98,
+    99,
+    267,
+    268,
+    269
+  ],
+  "n_pdf_pages": 382,
+  "usage": {
+    "input_tokens": 44410,
+    "output_tokens": 3829,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.4012691,
+    "session_id": "94eda301-497d-4cc4-be06-94b22d7c713d"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Protean eGov Technologies Limited",
+    "sector": "IT & software",
+    "exchange": "BSE",
+    "financials_basis": "consolidated",
+    "fy0_label": "March 31, 2023",
+    "stub_period_months": 3,
+    "pre_ipo_placement": "no",
+    "lead_managers": "ICICI Securities Limited; Equirus Capital Private Limited; IIFL Securities Limited; Nomura Financial Advisory and Securities (India) Private Limited",
+    "revenue_fy2": 603.132,
+    "rhp_page_revenue_fy2": 66,
+    "revenue_fy1": 690.909,
+    "rhp_page_revenue_fy1": 66,
+    "revenue_fy0": 742.206,
+    "rhp_page_revenue_fy0": 66,
+    "ebitda_fy2": 84.843,
+    "rhp_page_ebitda_fy2": 99,
+    "ebitda_fy1": 123.834,
+    "rhp_page_ebitda_fy1": 99,
+    "ebitda_fy0": 117.964,
+    "rhp_page_ebitda_fy0": 99,
+    "pat_fy2": 92.187,
+    "rhp_page_pat_fy2": 66,
+    "pat_fy1": 143.937,
+    "rhp_page_pat_fy1": 66,
+    "pat_fy0": 107.04200000000002,
+    "rhp_page_pat_fy0": 66,
+    "cfo_fy2": 100.119,
+    "rhp_page_cfo_fy2": 67,
+    "cfo_fy1": 94.269,
+    "rhp_page_cfo_fy1": 67,
+    "cfo_fy0": 137.021,
+    "rhp_page_cfo_fy0": 67,
+    "net_worth_fy0": 857.1360000000001,
+    "rhp_page_net_worth_fy0": 65,
+    "total_debt_fy0": 0.0,
+    "rhp_page_total_debt_fy0": 24,
+    "cash_fy0": 17.141,
+    "rhp_page_cash_fy0": 65,
+    "revenue_stub": 220.403,
+    "rhp_page_revenue_stub": 66,
+    "pat_stub": 32.211,
+    "rhp_page_pat_stub": 66,
+    "price_low": null,
+    "rhp_page_price_low": 98,
+    "price_high": null,
+    "rhp_page_price_high": 98,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 26.5,
+    "rhp_page_eps_fy0": 66,
+    "ronw_fy0_pct": 12.49,
+    "rhp_page_ronw_fy0_pct": 98,
+    "nav_per_share_fy0": 212.0,
+    "rhp_page_nav_per_share_fy0": 98,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.6191,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 4.0446732,
+    "rhp_page_pre_issue_shares_cr": 62,
+    "post_issue_shares_cr": 4.0446732,
+    "rhp_page_post_issue_shares_cr": 62,
+    "ofs_promoter_shares_cr": 0,
+    "ofs_investor_shares_cr": 0.6191,
+    "proceeds_debt_repayment_cr": null,
+    "proceeds_capex_cr": null,
+    "proceeds_gcp_cr": null,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "Protean eGov Technologies Limited",
+    "sector": "IT & software",
+    "exchanges": "BSE",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 98
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 98
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 6191000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "360 One Special Opportunities Fund",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 459617.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "360 One Special Opportunities Fund \u2013 Series 2",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 320177.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "360 One Special Opportunities Fund \u2013 Series 3",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 148197.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "360 One Special Opportunities Fund \u2013 Series 4",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 396843.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "360 One Special Opportunities Fund \u2013 Series 5",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 309225.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "NSE Investments Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 1783395.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Administrator of the Specified Undertaking of the Unit Trust of India",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 243175.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "HDFC Bank Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 705674.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Axis Bank Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 712077.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Deutsche Bank A.G.",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 712077.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Union Bank of India",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 400543.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 40446732.0,
+      "unit": "shares",
+      "page": 62
+    },
+    "post_issue_shares": {
+      "value": 40446732.0,
+      "unit": "shares",
+      "page": 62
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "ICICI Securities Limited",
+      "Equirus Capital Private Limited",
+      "IIFL Securities Limited",
+      "Nomura Financial Advisory and Securities (India) Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "March 31, 2023",
+    "revenue_fy2": {
+      "value": 6031.32,
+      "unit": "million",
+      "page": 66
+    },
+    "revenue_fy1": {
+      "value": 6909.09,
+      "unit": "million",
+      "page": 66
+    },
+    "revenue_fy0": {
+      "value": 7422.06,
+      "unit": "million",
+      "page": 66
+    },
+    "ebitda_fy2": {
+      "value": 848.43,
+      "unit": "million",
+      "page": 99
+    },
+    "ebitda_fy1": {
+      "value": 1238.34,
+      "unit": "million",
+      "page": 99
+    },
+    "ebitda_fy0": {
+      "value": 1179.64,
+      "unit": "million",
+      "page": 99
+    },
+    "pat_fy2": {
+      "value": 921.87,
+      "unit": "million",
+      "page": 66
+    },
+    "pat_fy1": {
+      "value": 1439.37,
+      "unit": "million",
+      "page": 66
+    },
+    "pat_fy0": {
+      "value": 1070.42,
+      "unit": "million",
+      "page": 66
+    },
+    "cfo_fy2": {
+      "value": 1001.19,
+      "unit": "million",
+      "page": 67
+    },
+    "cfo_fy1": {
+      "value": 942.69,
+      "unit": "million",
+      "page": 67
+    },
+    "cfo_fy0": {
+      "value": 1370.21,
+      "unit": "million",
+      "page": 67
+    },
+    "net_worth_fy0": {
+      "value": 8571.36,
+      "unit": "million",
+      "page": 65
+    },
+    "total_debt_fy0": {
+      "value": 0.0,
+      "unit": "million",
+      "page": 24
+    },
+    "cash_fy0": {
+      "value": 171.41,
+      "unit": "million",
+      "page": 65
+    },
+    "eps_fy0": {
+      "value": 26.5,
+      "unit": "rupees",
+      "page": 66
+    },
+    "ronw_fy0_pct": {
+      "value": 12.49,
+      "unit": "percent",
+      "page": 98
+    },
+    "nav_per_share_fy0": {
+      "value": 212.0,
+      "unit": "rupees",
+      "page": 98
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 2204.03,
+      "unit": "million",
+      "page": 66
+    },
+    "pat_stub": {
+      "value": 322.11,
+      "unit": "million",
+      "page": 66
+    },
+    "no_listed_peers": true,
+    "peers": [],
+    "notes": [
+      "Pure offer for sale: the company gets no proceeds, so objects_of_offer is empty and there are no fresh issue shares. Pre- and post-offer share count are the same (40,446,732).",
+      "The company is professionally managed and has no identifiable promoter, so promoter holding is null.",
+      "Price band, lot size and retail quota are not printed on these pages (shown as [\u25cf] or absent).",
+      "EBITDA uses 'Adjusted EBITDA' from the KPI table (p.99). This figure excludes other income. The Non-GAAP section (p.267-268) also reports a separate EBITDA: 1,596.30 (FY23), 2,031.01 (FY22) and 1,337.38 (FY21) \u20b9 million.",
+      "Net worth is equity attributable to owners, 8,571.36 (p.65). Total equity including non-controlling interest is 8,569.43, and the Summary and RoNW sections use that figure as Net Worth.",
+      "Total borrowings are printed as 'Nil' (p.24, p.269), so they are recorded as 0.",
+      "Listing is on BSE only. The in-principle approval is from BSE, and BSE is the Designated Stock Exchange.",
+      "Pre-IPO placement is set to false: the only recent allotments are ESOP exercises (e.g. 25,338 shares on August 8, 2023), and no preferential or private placement is shown on these pages.",
+      "FY21 profit before tax is printed as 1,160.04 in the P&L but 1,160.02 in the cash flow statement. FY21 profit attributable to owners is 921.85, while profit for the year is 921.87.",
+      "All sellers are classified as investors: the 360 One funds, NSE Investments, the Specified Undertaking of UTI (SUUTI) and the banks."
+    ]
+  }
+}

@@ -1,0 +1,383 @@
+{
+  "symbol": "SMT",
+  "rhp_file": "SMT.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:16:57+00:00",
+  "pages_sent": [
+    1,
+    2,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    96,
+    97,
+    98,
+    99,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    420,
+    421,
+    422
+  ],
+  "n_pdf_pages": 569,
+  "usage": {
+    "input_tokens": 44218,
+    "output_tokens": 3510,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3933351,
+    "session_id": "c4da548f-0dd2-4b8c-9502-a94b0e65f1df"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Sahajanand Medical Technologies Limited",
+    "sector": "Healthcare & pharma",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026 (March 31, 2026)",
+    "stub_period_months": 3,
+    "pre_ipo_placement": null,
+    "lead_managers": "Motilal Oswal Investment Advisors Limited; Avendus Capital Private Limited; HSBC Securities and Capital Markets (India) Private Limited; Nuvama Wealth Management Limited",
+    "revenue_fy2": 901.604,
+    "rhp_page_revenue_fy2": 76,
+    "revenue_fy1": 1024.879,
+    "rhp_page_revenue_fy1": 76,
+    "revenue_fy0": 1210.504,
+    "rhp_page_revenue_fy0": 76,
+    "ebitda_fy2": 110.047,
+    "rhp_page_ebitda_fy2": 141,
+    "ebitda_fy1": 128.021,
+    "rhp_page_ebitda_fy1": 141,
+    "ebitda_fy0": 170.655,
+    "rhp_page_ebitda_fy0": 141,
+    "pat_fy2": -7.354,
+    "rhp_page_pat_fy2": 76,
+    "pat_fy1": 25.152,
+    "rhp_page_pat_fy1": 76,
+    "pat_fy0": 69.082,
+    "rhp_page_pat_fy0": 76,
+    "cfo_fy2": 41.101,
+    "rhp_page_cfo_fy2": 77,
+    "cfo_fy1": 73.523,
+    "rhp_page_cfo_fy1": 77,
+    "cfo_fy0": 105.18900000000001,
+    "rhp_page_cfo_fy0": 77,
+    "net_worth_fy0": 695.462,
+    "rhp_page_net_worth_fy0": 75,
+    "total_debt_fy0": null,
+    "rhp_page_total_debt_fy0": 75,
+    "cash_fy0": 74.094,
+    "rhp_page_cash_fy0": 75,
+    "revenue_stub": 351.669,
+    "rhp_page_revenue_stub": 76,
+    "pat_stub": 15.087,
+    "rhp_page_pat_stub": 76,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 6.67,
+    "rhp_page_eps_fy0": 76,
+    "ronw_fy0_pct": 10.6,
+    "rhp_page_ronw_fy0_pct": 140,
+    "nav_per_share_fy0": 62.76,
+    "rhp_page_nav_per_share_fy0": 140,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 1.3822116,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 10.1646778,
+    "rhp_page_pre_issue_shares_cr": 72,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 72,
+    "ofs_promoter_shares_cr": 0.47000000000000003,
+    "ofs_investor_shares_cr": 0.9122116,
+    "proceeds_debt_repayment_cr": null,
+    "proceeds_capex_cr": null,
+    "proceeds_gcp_cr": null,
+    "peers": "POLYMED; LAXMIDENTL",
+    "n_peers": 2,
+    "peer_pe_list": [
+      51.4,
+      36.35
+    ],
+    "peer_ronw_list": [
+      10.37,
+      11.91
+    ],
+    "rhp_page_peers": 141
+  },
+  "extract": {
+    "company": "Sahajanand Medical Technologies Limited",
+    "sector": "Healthcare & pharma",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 13822116.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Shree Hari Trust",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 2700000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Dhirajkumar Savjibhai Vasoya",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 2000000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Samara Capital Markets Holding Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 6479063.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Kotak Pre-IPO Opportunities Fund",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 1307875.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "NHPEA Sparkle Holding B.V.",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 1335178.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 101646778.0,
+      "unit": "shares",
+      "page": 72
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 72
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "objects_of_offer": [],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lead_managers": [
+      "Motilal Oswal Investment Advisors Limited",
+      "Avendus Capital Private Limited",
+      "HSBC Securities and Capital Markets (India) Private Limited",
+      "Nuvama Wealth Management Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026 (March 31, 2026)",
+    "revenue_fy2": {
+      "value": 9016.04,
+      "unit": "million",
+      "page": 76
+    },
+    "revenue_fy1": {
+      "value": 10248.79,
+      "unit": "million",
+      "page": 76
+    },
+    "revenue_fy0": {
+      "value": 12105.04,
+      "unit": "million",
+      "page": 76
+    },
+    "ebitda_fy2": {
+      "value": 1100.47,
+      "unit": "million",
+      "page": 141
+    },
+    "ebitda_fy1": {
+      "value": 1280.21,
+      "unit": "million",
+      "page": 141
+    },
+    "ebitda_fy0": {
+      "value": 1706.55,
+      "unit": "million",
+      "page": 141
+    },
+    "pat_fy2": {
+      "value": -73.54,
+      "unit": "million",
+      "page": 76
+    },
+    "pat_fy1": {
+      "value": 251.52,
+      "unit": "million",
+      "page": 76
+    },
+    "pat_fy0": {
+      "value": 690.82,
+      "unit": "million",
+      "page": 76
+    },
+    "cfo_fy2": {
+      "value": 411.01,
+      "unit": "million",
+      "page": 77
+    },
+    "cfo_fy1": {
+      "value": 735.23,
+      "unit": "million",
+      "page": 77
+    },
+    "cfo_fy0": {
+      "value": 1051.89,
+      "unit": "million",
+      "page": 77
+    },
+    "net_worth_fy0": {
+      "value": 6954.62,
+      "unit": "million",
+      "page": 75
+    },
+    "total_debt_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": 75
+    },
+    "cash_fy0": {
+      "value": 740.94,
+      "unit": "million",
+      "page": 75
+    },
+    "eps_fy0": {
+      "value": 6.67,
+      "unit": "rupees",
+      "page": 76
+    },
+    "ronw_fy0_pct": {
+      "value": 10.6,
+      "unit": "percent",
+      "page": 140
+    },
+    "nav_per_share_fy0": {
+      "value": 62.76,
+      "unit": "rupees",
+      "page": 140
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 3516.69,
+      "unit": "million",
+      "page": 76
+    },
+    "pat_stub": {
+      "value": 150.87,
+      "unit": "million",
+      "page": 76
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Poly Medicure Limited",
+        "nse_symbol": "POLYMED",
+        "pe": 51.4,
+        "ronw_pct": 10.37,
+        "page": 141
+      },
+      {
+        "name": "Laxmi Dental Limited",
+        "nse_symbol": "LAXMIDENTL",
+        "pe": 36.35,
+        "ronw_pct": 11.91,
+        "page": 141
+      }
+    ],
+    "notes": [
+      "The offer is a pure Offer for Sale. There is no fresh issue, so the company receives no proceeds and objects_of_offer is empty.",
+      "Price band, lot size, post-offer shares and OFS amount are printed as [\u25cf] or not given. The retail portion is 'not less than [\u25cf]', so no % is shown.",
+      "Promoter shareholding % before and after the offer is not on the pages provided.",
+      "There is no single printed total borrowings figure for March 31, 2026. The balance sheet shows non-current borrowings of 494.82 and current borrowings of 2,200.44 (\u20b9 million, page 75). Their sum was not calculated. The total printed for June 30, 2026 is 3,206.33.",
+      "net_worth_fy0 uses 'Equity attributable to owners of the Company' from the balance sheet (6,954.62). The 'Other Financial Information' table (page 420) gives a different net worth of 6,160.51 for FY26, because it excludes capital reserve and foreign currency translation reserve. RoNW and NAV are based on that lower figure.",
+      "Pre-offer shares of 101,646,778 include 3,515,335 shares held by the SMT ESOP Trust.",
+      "In the FY26 cash flow, proceeds from issue of shares were \u20b99.60 million (probably ESOP-related). The pages provided do not show the details of any pre-IPO placement.",
+      "The figure for FY2024 PAT includes \u20b9288.85 million of tax related to earlier years. FY2025 has an exceptional item of \u20b9150.29 million.",
+      "The NSE symbols for the peers come from general knowledge, not from the RHP."
+    ]
+  }
+}

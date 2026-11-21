@@ -1,0 +1,395 @@
+{
+  "symbol": "SANSTAR",
+  "rhp_file": "SANSTAR.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-21T06:05:28+00:00",
+  "pages_sent": [
+    1,
+    2,
+    28,
+    29,
+    30,
+    31,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    97,
+    98,
+    99,
+    115,
+    116,
+    132,
+    133,
+    134,
+    359,
+    360
+  ],
+  "n_pdf_pages": 510,
+  "usage": {
+    "input_tokens": 39767,
+    "output_tokens": 3499,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.35705929999999997,
+    "session_id": "b8f2f2df-aa43-43f1-b16d-9d67bcfee309"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Sanstar Limited",
+    "sector": "FMCG & food",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024",
+    "stub_period_months": null,
+    "pre_ipo_placement": null,
+    "lead_managers": "Pantomath Capital Advisors Private Limited",
+    "revenue_fy2": 504.402,
+    "rhp_page_revenue_fy2": 85,
+    "revenue_fy1": 1205.067,
+    "rhp_page_revenue_fy1": 85,
+    "revenue_fy0": 1067.271,
+    "rhp_page_revenue_fy0": 85,
+    "ebitda_fy2": 39.72,
+    "rhp_page_ebitda_fy2": 359,
+    "ebitda_fy1": 72.447,
+    "rhp_page_ebitda_fy1": 359,
+    "ebitda_fy0": 98.141,
+    "rhp_page_ebitda_fy0": 359,
+    "pat_fy2": 15.921,
+    "rhp_page_pat_fy2": 85,
+    "pat_fy1": 41.805,
+    "rhp_page_pat_fy1": 85,
+    "pat_fy0": 66.767,
+    "rhp_page_pat_fy0": 85,
+    "cfo_fy2": 29.714,
+    "rhp_page_cfo_fy2": 86,
+    "cfo_fy1": -6.017,
+    "rhp_page_cfo_fy1": 86,
+    "cfo_fy0": 28.597,
+    "rhp_page_cfo_fy0": 86,
+    "net_worth_fy0": 215.912,
+    "rhp_page_net_worth_fy0": 30,
+    "total_debt_fy0": 127.636,
+    "rhp_page_total_debt_fy0": 30,
+    "cash_fy0": 3.175,
+    "rhp_page_cash_fy0": 84,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": 90.0,
+    "rhp_page_price_low": 1,
+    "price_high": 95.0,
+    "rhp_page_price_high": 1,
+    "lot_size": 150.0,
+    "rhp_page_lot_size": 1,
+    "promoter_pre_pct": 99.77,
+    "rhp_page_promoter_pre_pct": 30,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 30,
+    "retail_quota_pct": 35.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": null,
+    "eps_fy0": 4.75,
+    "rhp_page_eps_fy0": 128,
+    "ronw_fy0_pct": 30.92,
+    "rhp_page_ronw_fy0_pct": 129,
+    "nav_per_share_fy0": 15.37,
+    "rhp_page_nav_per_share_fy0": 130,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": 4.18,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 1.19,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 14.044425,
+    "rhp_page_pre_issue_shares_cr": 81,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 81,
+    "ofs_promoter_shares_cr": 1.19,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 100.0,
+    "proceeds_capex_cr": 181.555,
+    "proceeds_gcp_cr": 0.0,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "Sanstar Limited",
+    "sector": "FMCG & food",
+    "exchanges": "both",
+    "price_low": {
+      "value": 90.0,
+      "unit": "rupees",
+      "page": 1
+    },
+    "price_high": {
+      "value": 95.0,
+      "unit": "rupees",
+      "page": 1
+    },
+    "lot_size": {
+      "value": 150.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": 41800000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 11900000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Gouthamchand Sohanlal Chowdhary",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 500000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Rani Gouthamchand Chowdhary",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 3800000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Sambhav Gautam Chowdhary",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 500000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Shreyans Gautam Chowdhary",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 500000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Richa Sambhav Chowdhary",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 3300000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Samiksha Shreyans Chowdhary",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 3300000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 140444250.0,
+      "unit": "shares",
+      "page": 81
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 81
+    },
+    "promoter_pre_pct": {
+      "value": 99.77,
+      "unit": "percent",
+      "page": 30
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 30
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding the capital expenditure requirement for expansion of Dhule Facility",
+        "category": "capex",
+        "amount": {
+          "value": 1815.55,
+          "unit": "million",
+          "page": 116
+        }
+      },
+      {
+        "purpose": "Repayment and/or pre-payment, in part or full, of certain borrowings",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 1000.0,
+          "unit": "million",
+          "page": 116
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 116
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Pantomath Capital Advisors Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024",
+    "revenue_fy2": {
+      "value": 5044.02,
+      "unit": "million",
+      "page": 85
+    },
+    "revenue_fy1": {
+      "value": 12050.67,
+      "unit": "million",
+      "page": 85
+    },
+    "revenue_fy0": {
+      "value": 10672.71,
+      "unit": "million",
+      "page": 85
+    },
+    "ebitda_fy2": {
+      "value": 397.2,
+      "unit": "million",
+      "page": 359
+    },
+    "ebitda_fy1": {
+      "value": 724.47,
+      "unit": "million",
+      "page": 359
+    },
+    "ebitda_fy0": {
+      "value": 981.41,
+      "unit": "million",
+      "page": 359
+    },
+    "pat_fy2": {
+      "value": 159.21,
+      "unit": "million",
+      "page": 85
+    },
+    "pat_fy1": {
+      "value": 418.05,
+      "unit": "million",
+      "page": 85
+    },
+    "pat_fy0": {
+      "value": 667.67,
+      "unit": "million",
+      "page": 85
+    },
+    "cfo_fy2": {
+      "value": 297.14,
+      "unit": "million",
+      "page": 86
+    },
+    "cfo_fy1": {
+      "value": -60.17,
+      "unit": "million",
+      "page": 86
+    },
+    "cfo_fy0": {
+      "value": 285.97,
+      "unit": "million",
+      "page": 86
+    },
+    "net_worth_fy0": {
+      "value": 2159.12,
+      "unit": "million",
+      "page": 30
+    },
+    "total_debt_fy0": {
+      "value": 1276.36,
+      "unit": "million",
+      "page": 30
+    },
+    "cash_fy0": {
+      "value": 31.75,
+      "unit": "million",
+      "page": 84
+    },
+    "eps_fy0": {
+      "value": 4.75,
+      "unit": "rupees",
+      "page": 128
+    },
+    "ronw_fy0_pct": {
+      "value": 30.92,
+      "unit": "percent",
+      "page": 129
+    },
+    "nav_per_share_fy0": {
+      "value": 15.37,
+      "unit": "rupees",
+      "page": 130
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [],
+    "notes": [
+      "Net worth of 2,159.12 million (ICDR definition, p.30/359) differs from total equity of 2,537.62 million in restated balance sheet (p.84); the reported net worth figure was used. The balance sheet shows no separate non-controlling interest.",
+      "Total debt 1,276.36 = non-current borrowings 309.20 + current borrowings 967.16 (p.84).",
+      "EPS for FV \u20b92 is 4.75 (basic & diluted, p.30/85/128). The p.359 table labels 23.77 as basic EPS, but that figure is based on FV \u20b910 share count \u2014 inconsistent labelling.",
+      "NAV FY2023 is printed as 10.63 on p.30/130 and 10.64 on p.359.",
+      "The peer comparison table page was not provided. Industry P/E is shown as high 73.31, low 15.01, composite 35.66 (p.129), so listed peers exist but individual peer data is unavailable.",
+      "Pre-IPO placement information is not in the pages provided. The last allotment was the amalgamation allotment of Nov 25, 2023 (no issue price).",
+      "GCP amount is [\u25cf]; fresh issue and OFS amounts are [\u25cf]. The retail quota is 'not less than 35%'.",
+      "Sector choice is approximate: the company makes maize-based speciality products/ingredients (starches) for food, animal nutrition and industrial uses \u2014 it could also be classed as Chemicals & materials."
+    ]
+  }
+}

@@ -1,0 +1,370 @@
+{
+  "symbol": "RAMBHAJO",
+  "rhp_file": "RAMBHAJO.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:29:18+00:00",
+  "pages_sent": [
+    1,
+    2,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    100,
+    101,
+    102,
+    113,
+    114,
+    134,
+    135,
+    136,
+    326,
+    327,
+    354
+  ],
+  "n_pdf_pages": 467,
+  "usage": {
+    "input_tokens": 34990,
+    "output_tokens": 3416,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.31670729999999997,
+    "session_id": "0db7140c-adc9-4185-bdcf-d19f10006302"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Advit Jewels Limited",
+    "sector": "Consumer & retail",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "stub_period_months": 9,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "Holani Consultants Private Limited",
+    "revenue_fy2": 46.6041,
+    "rhp_page_revenue_fy2": 85,
+    "revenue_fy1": 69.4426,
+    "rhp_page_revenue_fy1": 85,
+    "revenue_fy0": 124.9373,
+    "rhp_page_revenue_fy0": 85,
+    "ebitda_fy2": 12.7743,
+    "rhp_page_ebitda_fy2": 326,
+    "ebitda_fy1": 18.9517,
+    "rhp_page_ebitda_fy1": 326,
+    "ebitda_fy0": 37.1467,
+    "rhp_page_ebitda_fy0": 326,
+    "pat_fy2": 10.3898,
+    "rhp_page_pat_fy2": 85,
+    "pat_fy1": 14.7104,
+    "rhp_page_pat_fy1": 85,
+    "pat_fy0": 25.3671,
+    "rhp_page_pat_fy0": 85,
+    "cfo_fy2": -2.7725,
+    "rhp_page_cfo_fy2": 86,
+    "cfo_fy1": -10.4933,
+    "rhp_page_cfo_fy1": 86,
+    "cfo_fy0": -36.9769,
+    "rhp_page_cfo_fy0": 86,
+    "net_worth_fy0": 58.1342,
+    "rhp_page_net_worth_fy0": 84,
+    "total_debt_fy0": null,
+    "rhp_page_total_debt_fy0": 84,
+    "cash_fy0": 2.6317,
+    "rhp_page_cash_fy0": 84,
+    "revenue_stub": 123.7901,
+    "rhp_page_revenue_stub": 85,
+    "pat_stub": 25.442399999999996,
+    "rhp_page_pat_stub": 85,
+    "price_low": null,
+    "rhp_page_price_low": 133,
+    "price_high": null,
+    "rhp_page_price_high": 133,
+    "lot_size": null,
+    "rhp_page_lot_size": 2,
+    "promoter_pre_pct": null,
+    "rhp_page_promoter_pre_pct": 100,
+    "promoter_post_pct": null,
+    "retail_quota_pct": 35.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": 125.0,
+    "rhp_page_pre_ipo_price": 102,
+    "eps_fy0": 7.92,
+    "rhp_page_eps_fy0": 135,
+    "ronw_fy0_pct": 43.64,
+    "rhp_page_ronw_fy0_pct": 135,
+    "nav_per_share_fy0": 18.16,
+    "rhp_page_nav_per_share_fy0": 136,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": 1.1968,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 3.3842,
+    "rhp_page_pre_issue_shares_cr": 82,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 82,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 65.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "Bluestone Jewellery and Lifestyle Limited; RBZ Jewellers Limited; Radhika Jeweltech Limited",
+    "n_peers": 3,
+    "peer_pe_list": [
+      12.86,
+      11.1
+    ],
+    "peer_ronw_list": [
+      -24.0,
+      15.83,
+      18.63
+    ],
+    "rhp_page_peers": 136
+  },
+  "extract": {
+    "company": "Advit Jewels Limited",
+    "sector": "Consumer & retail",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 133
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 133
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": 2
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "lakh",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": 11968000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "lakh",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 33842000.0,
+      "unit": "shares",
+      "page": 82
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 82
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 100
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding incremental working capital requirements",
+        "category": "other",
+        "amount": {
+          "value": 6500.0,
+          "unit": "lakh",
+          "page": 113
+        }
+      },
+      {
+        "purpose": "Repayment/pre-payment of certain outstanding borrowings from scheduled commercial banks",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 6500.0,
+          "unit": "lakh",
+          "page": 113
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "lakh",
+          "page": 113
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 125.0,
+      "unit": "rupees",
+      "page": 102
+    },
+    "lead_managers": [
+      "Holani Consultants Private Limited"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "revenue_fy2": {
+      "value": 4660.41,
+      "unit": "lakh",
+      "page": 85
+    },
+    "revenue_fy1": {
+      "value": 6944.26,
+      "unit": "lakh",
+      "page": 85
+    },
+    "revenue_fy0": {
+      "value": 12493.73,
+      "unit": "lakh",
+      "page": 85
+    },
+    "ebitda_fy2": {
+      "value": 1277.43,
+      "unit": "lakh",
+      "page": 326
+    },
+    "ebitda_fy1": {
+      "value": 1895.17,
+      "unit": "lakh",
+      "page": 326
+    },
+    "ebitda_fy0": {
+      "value": 3714.67,
+      "unit": "lakh",
+      "page": 326
+    },
+    "pat_fy2": {
+      "value": 1038.98,
+      "unit": "lakh",
+      "page": 85
+    },
+    "pat_fy1": {
+      "value": 1471.04,
+      "unit": "lakh",
+      "page": 85
+    },
+    "pat_fy0": {
+      "value": 2536.71,
+      "unit": "lakh",
+      "page": 85
+    },
+    "cfo_fy2": {
+      "value": -277.25,
+      "unit": "lakh",
+      "page": 86
+    },
+    "cfo_fy1": {
+      "value": -1049.33,
+      "unit": "lakh",
+      "page": 86
+    },
+    "cfo_fy0": {
+      "value": -3697.69,
+      "unit": "lakh",
+      "page": 86
+    },
+    "net_worth_fy0": {
+      "value": 5813.42,
+      "unit": "lakh",
+      "page": 84
+    },
+    "total_debt_fy0": {
+      "value": null,
+      "unit": "lakh",
+      "page": 84
+    },
+    "cash_fy0": {
+      "value": 263.17,
+      "unit": "lakh",
+      "page": 84
+    },
+    "eps_fy0": {
+      "value": 7.92,
+      "unit": "rupees",
+      "page": 135
+    },
+    "ronw_fy0_pct": {
+      "value": 43.64,
+      "unit": "percent",
+      "page": 135
+    },
+    "nav_per_share_fy0": {
+      "value": 18.16,
+      "unit": "rupees",
+      "page": 136
+    },
+    "stub_period_months": 9,
+    "revenue_stub": {
+      "value": 12379.01,
+      "unit": "lakh",
+      "page": 85
+    },
+    "pat_stub": {
+      "value": 2544.24,
+      "unit": "lakh",
+      "page": 85
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Bluestone Jewellery and Lifestyle Limited",
+        "nse_symbol": null,
+        "pe": null,
+        "ronw_pct": -24.0,
+        "page": 136
+      },
+      {
+        "name": "RBZ Jewellers Limited",
+        "nse_symbol": null,
+        "pe": 12.86,
+        "ronw_pct": 15.83,
+        "page": 136
+      },
+      {
+        "name": "Radhika Jeweltech Limited",
+        "nse_symbol": null,
+        "pe": 11.1,
+        "ronw_pct": 18.63,
+        "page": 136
+      }
+    ],
+    "notes": [
+      "Financials are labelled 'Restated Financial Information'; the capitalisation statement calls them 'Restated Standalone' and no consolidated statements are shown, so financials_basis is set to standalone.",
+      "Fresh issue only (no OFS). The issue was cut from 1,38,00,000 to 1,19,68,000 shares after a pre-IPO placement of 18,32,000 shares at \u20b9125 (\u20b92,290 lakhs) on May 13, 2026.",
+      "The price band, lot size, issue amount and post-issue shares are all printed as [\u25cf].",
+      "EPS for FY2025 is the bonus-adjusted figure of \u20b97.92. The unadjusted basic EPS printed is \u20b925,367.07, because of the 3200:1 bonus issue in August 2025.",
+      "Total debt for FY2025 is not printed as a single total. The parts are long-term borrowings of 1,060.27 lakh and short-term borrowings of 6,419.57 lakh (page 84). Total borrowings as at Dec 31, 2025 are 6,491.61 lakh (page 354).",
+      "No promoter shareholding percentage is printed. Promoters hold 1,57,48,920 + 79,70,490 + 79,70,490 + 2,24,070 shares (page 100). Promoter group holdings are not shown.",
+      "The working capital object is categorised as 'other'. General corporate purposes is [\u25cf], and the pre-IPO proceeds will go to general corporate purposes.",
+      "The peer table shows Total Revenue for the company as 12,494.47 lakh, which is total income. Revenue from operations of 12,493.73 lakh is used here instead. Bluestone's P/E is NA because its EPS is negative.",
+      "Retail quota is 'not less than 35% of the Net Issue'."
+    ]
+  }
+}

@@ -1,0 +1,436 @@
+{
+  "symbol": "PARASHLTH",
+  "rhp_file": "PARASHLTH.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:16:28+00:00",
+  "pages_sent": [
+    1,
+    2,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    106,
+    107,
+    108,
+    109,
+    129,
+    130,
+    131,
+    132,
+    145,
+    146,
+    147,
+    148,
+    149,
+    442,
+    443,
+    444,
+    486
+  ],
+  "n_pdf_pages": 651,
+  "usage": {
+    "input_tokens": 41554,
+    "output_tokens": 3875,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3790556,
+    "session_id": "f9c71af3-7609-4347-8e7b-89f1c2b80b7d"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Paras Healthcare Limited",
+    "sector": "Healthcare & pharma",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026 (March 31, 2026)",
+    "stub_period_months": 3,
+    "pre_ipo_placement": "no",
+    "lead_managers": "JM Financial Limited; BofA Securities India Limited; Nuvama Wealth Management Limited",
+    "revenue_fy2": 1129.039,
+    "rhp_page_revenue_fy2": 88,
+    "revenue_fy1": 1294.063,
+    "rhp_page_revenue_fy1": 88,
+    "revenue_fy0": 1605.952,
+    "rhp_page_revenue_fy0": 88,
+    "ebitda_fy2": 154.411,
+    "rhp_page_ebitda_fy2": 442,
+    "ebitda_fy1": 156.461,
+    "rhp_page_ebitda_fy1": 442,
+    "ebitda_fy0": 335.577,
+    "rhp_page_ebitda_fy0": 442,
+    "pat_fy2": -15.331,
+    "rhp_page_pat_fy2": 88,
+    "pat_fy1": -57.983,
+    "rhp_page_pat_fy1": 88,
+    "pat_fy0": 43.834,
+    "rhp_page_pat_fy0": 88,
+    "cfo_fy2": 92.477,
+    "rhp_page_cfo_fy2": 89,
+    "cfo_fy1": 86.191,
+    "rhp_page_cfo_fy1": 89,
+    "cfo_fy0": 163.512,
+    "rhp_page_cfo_fy0": 89,
+    "net_worth_fy0": 394.941,
+    "rhp_page_net_worth_fy0": 86,
+    "total_debt_fy0": null,
+    "rhp_page_total_debt_fy0": 86,
+    "cash_fy0": 47.205,
+    "rhp_page_cash_fy0": 86,
+    "revenue_stub": 470.278,
+    "rhp_page_revenue_stub": 88,
+    "pat_stub": 49.682,
+    "rhp_page_pat_stub": 88,
+    "price_low": null,
+    "rhp_page_price_low": 147,
+    "price_high": null,
+    "rhp_page_price_high": 147,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 4.34,
+    "rhp_page_eps_fy0": 146,
+    "ronw_fy0_pct": 12.98,
+    "rhp_page_ronw_fy0_pct": 147,
+    "nav_per_share_fy0": 39.11,
+    "rhp_page_nav_per_share_fy0": 442,
+    "fresh_issue_cr": 500.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": 950.0,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 10.0986187,
+    "rhp_page_pre_issue_shares_cr": 83,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 83,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 375.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "Aster DM Quality Care Limited; Apollo Hospitals Enterprise Limited; Fortis Healthcare Limited; Global Health Limited; Jupiter Lifeline Hospitals Limited; Krishna Institute of Medical Sciences Limited; Manipal Health Enterprises Limited; Max Healthcare Institute Limited; Narayana Hrudayalaya Limited; Yatharth Hospital and Trauma Care Services Limited",
+    "n_peers": 10,
+    "peer_pe_list": [],
+    "peer_ronw_list": [],
+    "rhp_page_peers": 148
+  },
+  "extract": {
+    "company": "Paras Healthcare Limited",
+    "sector": "Healthcare & pharma",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 147
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 147
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 5000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": 9500.0,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Dr. Dharminder Kumar Nagar",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Commelina Ltd",
+        "kind": "investor",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 100986187.0,
+      "unit": "shares",
+      "page": 83
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 83
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Prepayment or scheduled re-payment, in full or part, of certain outstanding borrowings availed by the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 3209.0,
+          "unit": "million",
+          "page": 129
+        }
+      },
+      {
+        "purpose": "Investment in wholly owned Subsidiary PMHPL for repayment/prepayment of its borrowings",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 541.0,
+          "unit": "million",
+          "page": 129
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 129
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "JM Financial Limited",
+      "BofA Securities India Limited",
+      "Nuvama Wealth Management Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026 (March 31, 2026)",
+    "revenue_fy2": {
+      "value": 11290.39,
+      "unit": "million",
+      "page": 88
+    },
+    "revenue_fy1": {
+      "value": 12940.63,
+      "unit": "million",
+      "page": 88
+    },
+    "revenue_fy0": {
+      "value": 16059.52,
+      "unit": "million",
+      "page": 88
+    },
+    "ebitda_fy2": {
+      "value": 1544.11,
+      "unit": "million",
+      "page": 442
+    },
+    "ebitda_fy1": {
+      "value": 1564.61,
+      "unit": "million",
+      "page": 442
+    },
+    "ebitda_fy0": {
+      "value": 3355.77,
+      "unit": "million",
+      "page": 442
+    },
+    "pat_fy2": {
+      "value": -153.31,
+      "unit": "million",
+      "page": 88
+    },
+    "pat_fy1": {
+      "value": -579.83,
+      "unit": "million",
+      "page": 88
+    },
+    "pat_fy0": {
+      "value": 438.34,
+      "unit": "million",
+      "page": 88
+    },
+    "cfo_fy2": {
+      "value": 924.77,
+      "unit": "million",
+      "page": 89
+    },
+    "cfo_fy1": {
+      "value": 861.91,
+      "unit": "million",
+      "page": 89
+    },
+    "cfo_fy0": {
+      "value": 1635.12,
+      "unit": "million",
+      "page": 89
+    },
+    "net_worth_fy0": {
+      "value": 3949.41,
+      "unit": "million",
+      "page": 86
+    },
+    "total_debt_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": 86
+    },
+    "cash_fy0": {
+      "value": 472.05,
+      "unit": "million",
+      "page": 86
+    },
+    "eps_fy0": {
+      "value": 4.34,
+      "unit": "rupees",
+      "page": 146
+    },
+    "ronw_fy0_pct": {
+      "value": 12.98,
+      "unit": "percent",
+      "page": 147
+    },
+    "nav_per_share_fy0": {
+      "value": 39.11,
+      "unit": "rupees",
+      "page": 442
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 4702.78,
+      "unit": "million",
+      "page": 88
+    },
+    "pat_stub": {
+      "value": 496.82,
+      "unit": "million",
+      "page": 88
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Aster DM Quality Care Limited",
+        "nse_symbol": null,
+        "pe": null,
+        "ronw_pct": null,
+        "page": 148
+      },
+      {
+        "name": "Apollo Hospitals Enterprise Limited",
+        "nse_symbol": null,
+        "pe": null,
+        "ronw_pct": null,
+        "page": 148
+      },
+      {
+        "name": "Fortis Healthcare Limited",
+        "nse_symbol": null,
+        "pe": null,
+        "ronw_pct": null,
+        "page": 148
+      },
+      {
+        "name": "Global Health Limited",
+        "nse_symbol": null,
+        "pe": null,
+        "ronw_pct": null,
+        "page": 148
+      },
+      {
+        "name": "Jupiter Lifeline Hospitals Limited",
+        "nse_symbol": null,
+        "pe": null,
+        "ronw_pct": null,
+        "page": 148
+      },
+      {
+        "name": "Krishna Institute of Medical Sciences Limited",
+        "nse_symbol": null,
+        "pe": null,
+        "ronw_pct": null,
+        "page": 148
+      },
+      {
+        "name": "Manipal Health Enterprises Limited",
+        "nse_symbol": null,
+        "pe": null,
+        "ronw_pct": null,
+        "page": 148
+      },
+      {
+        "name": "Max Healthcare Institute Limited",
+        "nse_symbol": null,
+        "pe": null,
+        "ronw_pct": null,
+        "page": 148
+      },
+      {
+        "name": "Narayana Hrudayalaya Limited",
+        "nse_symbol": null,
+        "pe": null,
+        "ronw_pct": null,
+        "page": 148
+      },
+      {
+        "name": "Yatharth Hospital and Trauma Care Services Limited",
+        "nse_symbol": null,
+        "pe": null,
+        "ronw_pct": null,
+        "page": 148
+      }
+    ],
+    "notes": [
+      "The pages provided list peer names only. The peer comparison table with each peer's P/E and RoNW is not included, so peer P/E and RoNW are null. Industry P/E on page 147: highest 116.41, lowest 42.92, average 67.81.",
+      "Total borrowings at March 31, 2026 are not printed as one figure. The balance sheet on page 86 shows non-current borrowings of 4,542.10 million and current borrowings of 3,998.91 million, so total_debt_fy0 is left null. Total borrowings at June 30, 2026 are 8,888.93 million (page 486).",
+      "Price band, lot size, share counts for the fresh issue and offer for sale, and post-offer shares are all printed as [\u25cf].",
+      "Promoter shareholding before and after the offer is not on the pages provided. Retail quota percentage is not stated on the pages provided.",
+      "The most recent allotments were preferential allotments at \u20b9237 per share on April 9 and April 16, 2025, to 360 ONE Special Opportunities Fund and Axis New Opportunities AIF. Both are more than 12 months before the RHP date of October 14, 2026, so pre_ipo_placement is false. Secondary transfers are not covered on the pages provided.",
+      "EBITDA comes from Other Financial Information (page 442): profit before tax plus finance costs plus depreciation.",
+      "The stub period is the 3 months ended June 30, 2026. NAV at June 30, 2026 is \u20b944.06.",
+      "The investment in subsidiary PMHPL (541.00 million) is for repaying PMHPL's borrowings, so it is categorised as debt_repayment. The amount for general corporate purposes is [\u25cf]."
+    ]
+  }
+}

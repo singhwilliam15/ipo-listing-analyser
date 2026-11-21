@@ -1,0 +1,451 @@
+{
+  "symbol": "BIKAJI",
+  "rhp_file": "BIKAJI.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T20:52:46+00:00",
+  "pages_sent": [
+    1,
+    2,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    103,
+    104,
+    105,
+    106,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    294,
+    295,
+    296
+  ],
+  "n_pdf_pages": 463,
+  "usage": {
+    "input_tokens": 50595,
+    "output_tokens": 3973,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.4542465,
+    "session_id": "998ae4bc-c976-43e1-b53b-0151d644a332"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Bikaji Foods International Limited",
+    "sector": "FMCG & food",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2022 (March 31, 2022)",
+    "stub_period_months": 3,
+    "pre_ipo_placement": "no",
+    "lead_managers": "JM Financial Limited; Axis Capital Limited; IIFL Securities Limited; Intensive Fiscal Services Private Limited; Kotak Mahindra Capital Company Limited",
+    "revenue_fy2": 1074.551,
+    "rhp_page_revenue_fy2": 89,
+    "revenue_fy1": 1310.749,
+    "rhp_page_revenue_fy1": 89,
+    "revenue_fy0": 1610.961,
+    "rhp_page_revenue_fy0": 89,
+    "ebitda_fy2": 94.6,
+    "rhp_page_ebitda_fy2": 294,
+    "ebitda_fy1": 144.765,
+    "rhp_page_ebitda_fy1": 294,
+    "ebitda_fy0": 139.544,
+    "rhp_page_ebitda_fy0": 294,
+    "pat_fy2": 56.371,
+    "rhp_page_pat_fy2": 89,
+    "pat_fy1": 90.336,
+    "rhp_page_pat_fy1": 89,
+    "pat_fy0": 76.027,
+    "rhp_page_pat_fy0": 89,
+    "cfo_fy2": 60.674,
+    "rhp_page_cfo_fy2": 90,
+    "cfo_fy1": 117.194,
+    "rhp_page_cfo_fy1": 90,
+    "cfo_fy0": 57.476,
+    "rhp_page_cfo_fy0": 90,
+    "net_worth_fy0": 820.752,
+    "rhp_page_net_worth_fy0": 88,
+    "total_debt_fy0": 141.226,
+    "rhp_page_total_debt_fy0": 25,
+    "cash_fy0": 2.505,
+    "rhp_page_cash_fy0": 88,
+    "revenue_stub": 419.1569999999999,
+    "rhp_page_revenue_stub": 89,
+    "pat_stub": 15.698,
+    "rhp_page_pat_stub": 89,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": 77.97,
+    "rhp_page_promoter_pre_pct": 24,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 3.15,
+    "rhp_page_eps_fy0": 89,
+    "ronw_fy0_pct": 9.51,
+    "rhp_page_ronw_fy0_pct": 127,
+    "nav_per_share_fy0": 32.83,
+    "rhp_page_nav_per_share_fy0": 128,
+    "fresh_issue_cr": null,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 85,
+    "fresh_issue_shares_cr": null,
+    "ofs_shares_cr": 2.9373984,
+    "rhp_page_ofs_shares_cr": 85,
+    "pre_issue_shares_cr": 24.950988,
+    "rhp_page_pre_issue_shares_cr": 85,
+    "post_issue_shares_cr": 24.950988,
+    "rhp_page_post_issue_shares_cr": 85,
+    "ofs_promoter_shares_cr": 0.5,
+    "ofs_investor_shares_cr": 2.4373983999999997,
+    "proceeds_debt_repayment_cr": null,
+    "proceeds_capex_cr": null,
+    "proceeds_gcp_cr": null,
+    "peers": "PRATAAP; DFMFOODS; NESTLEIND; BRITANNIA",
+    "n_peers": 4,
+    "peer_pe_list": [
+      748.91,
+      86.85,
+      59.75
+    ],
+    "peer_ronw_list": [
+      0.47,
+      -16.21,
+      102.9,
+      60.08
+    ],
+    "rhp_page_peers": 128
+  },
+  "extract": {
+    "company": "Bikaji Foods International Limited",
+    "sector": "FMCG & food",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 85
+    },
+    "ofs_shares": {
+      "value": 29373984.0,
+      "unit": "shares",
+      "page": 85
+    },
+    "selling_shareholders": [
+      {
+        "name": "Shiv Ratan Agarwal",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 2500000.0,
+          "unit": "shares",
+          "page": 23
+        }
+      },
+      {
+        "name": "Deepak Agarwal",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 2500000.0,
+          "unit": "shares",
+          "page": 23
+        }
+      },
+      {
+        "name": "India 2020 Maharaja, Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 12110967.0,
+          "unit": "shares",
+          "page": 23
+        }
+      },
+      {
+        "name": "Intensive Softshare Private Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 50000.0,
+          "unit": "shares",
+          "page": 23
+        }
+      },
+      {
+        "name": "IIFL Special Opportunities Fund",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 3110056.0,
+          "unit": "shares",
+          "page": 23
+        }
+      },
+      {
+        "name": "IIFL Special Opportunities Fund - Series 2",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 1995552.0,
+          "unit": "shares",
+          "page": 23
+        }
+      },
+      {
+        "name": "IIFL Special Opportunities Fund - Series 3",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 976179.0,
+          "unit": "shares",
+          "page": 23
+        }
+      },
+      {
+        "name": "IIFL Special Opportunities Fund - Series 4",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 2753339.0,
+          "unit": "shares",
+          "page": 23
+        }
+      },
+      {
+        "name": "IIFL Special Opportunities Fund - Series 5",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 2162226.0,
+          "unit": "shares",
+          "page": 23
+        }
+      },
+      {
+        "name": "Avendus Future Leaders Fund I",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 1215665.0,
+          "unit": "shares",
+          "page": 23
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 249509880.0,
+      "unit": "shares",
+      "page": 85
+    },
+    "post_issue_shares": {
+      "value": 249509880.0,
+      "unit": "shares",
+      "page": 85
+    },
+    "promoter_pre_pct": {
+      "value": 77.97,
+      "unit": "percent",
+      "page": 24
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "objects_of_offer": [],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lead_managers": [
+      "JM Financial Limited",
+      "Axis Capital Limited",
+      "IIFL Securities Limited",
+      "Intensive Fiscal Services Private Limited",
+      "Kotak Mahindra Capital Company Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2022 (March 31, 2022)",
+    "revenue_fy2": {
+      "value": 10745.51,
+      "unit": "million",
+      "page": 89
+    },
+    "revenue_fy1": {
+      "value": 13107.49,
+      "unit": "million",
+      "page": 89
+    },
+    "revenue_fy0": {
+      "value": 16109.61,
+      "unit": "million",
+      "page": 89
+    },
+    "ebitda_fy2": {
+      "value": 946.0,
+      "unit": "million",
+      "page": 294
+    },
+    "ebitda_fy1": {
+      "value": 1447.65,
+      "unit": "million",
+      "page": 294
+    },
+    "ebitda_fy0": {
+      "value": 1395.44,
+      "unit": "million",
+      "page": 294
+    },
+    "pat_fy2": {
+      "value": 563.71,
+      "unit": "million",
+      "page": 89
+    },
+    "pat_fy1": {
+      "value": 903.36,
+      "unit": "million",
+      "page": 89
+    },
+    "pat_fy0": {
+      "value": 760.27,
+      "unit": "million",
+      "page": 89
+    },
+    "cfo_fy2": {
+      "value": 606.74,
+      "unit": "million",
+      "page": 90
+    },
+    "cfo_fy1": {
+      "value": 1171.94,
+      "unit": "million",
+      "page": 90
+    },
+    "cfo_fy0": {
+      "value": 574.76,
+      "unit": "million",
+      "page": 90
+    },
+    "net_worth_fy0": {
+      "value": 8207.52,
+      "unit": "million",
+      "page": 88
+    },
+    "total_debt_fy0": {
+      "value": 1412.26,
+      "unit": "million",
+      "page": 25
+    },
+    "cash_fy0": {
+      "value": 25.05,
+      "unit": "million",
+      "page": 88
+    },
+    "eps_fy0": {
+      "value": 3.15,
+      "unit": "rupees",
+      "page": 89
+    },
+    "ronw_fy0_pct": {
+      "value": 9.51,
+      "unit": "percent",
+      "page": 127
+    },
+    "nav_per_share_fy0": {
+      "value": 32.83,
+      "unit": "rupees",
+      "page": 128
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 4191.57,
+      "unit": "million",
+      "page": 89
+    },
+    "pat_stub": {
+      "value": 156.98,
+      "unit": "million",
+      "page": 89
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Prataap Snacks Limited",
+        "nse_symbol": "PRATAAP",
+        "pe": 748.91,
+        "ronw_pct": 0.47,
+        "page": 128
+      },
+      {
+        "name": "DFM Foods Limited",
+        "nse_symbol": "DFMFOODS",
+        "pe": null,
+        "ronw_pct": -16.21,
+        "page": 128
+      },
+      {
+        "name": "Nestle India Limited",
+        "nse_symbol": "NESTLEIND",
+        "pe": 86.85,
+        "ronw_pct": 102.9,
+        "page": 128
+      },
+      {
+        "name": "Britannia Industries Limited",
+        "nse_symbol": "BRITANNIA",
+        "pe": 59.75,
+        "ronw_pct": 60.08,
+        "page": 128
+      }
+    ],
+    "notes": [
+      "Pure offer for sale: no fresh issue, company receives no proceeds, so objects_of_offer is empty.",
+      "Price band, lot size and retail quota % are not on the pages provided (shown as [\u25cf]).",
+      "Net worth: total equity attributable to owners on the balance sheet is 8,207.52 million; the RHP's defined 'Net worth' (excluding capital reserve/FCTR) is 8,192.60 million and is the figure used for RoNW/NAV.",
+      "PAT fy0 760.27 million includes NCI; attributable to owners is 779.50 million.",
+      "Cash and cash equivalents on the balance sheet are 25.05 million; the cash flow statement shows net cash of (282.57) million after overdrafts/loans repayable on demand. Other bank balances are 876.85 million.",
+      "DFM Foods P/E is printed as (77.84), a negative number, so it is set to null.",
+      "Last preferential allotment was on Aug 11, 2021 at Rs 2,200.44 per share (Rs 10 face value, before the split). That is more than 12 months before the RHP date of Oct 25, 2022. There was a buyback on Feb 16, 2022 at Rs 280.06, which is not a placement. So pre_ipo_placement is set to false; secondary transfers were not reviewed.",
+      "Promoter post-offer holding is not stated. The 77.97% pre-offer figure includes the promoter group.",
+      "IIFL Securities and Intensive Fiscal Services are associates of the company and handle marketing only."
+    ]
+  }
+}

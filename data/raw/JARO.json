@@ -1,0 +1,352 @@
+{
+  "symbol": "JARO",
+  "rhp_file": "JARO.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:08:13+00:00",
+  "pages_sent": [
+    1,
+    2,
+    26,
+    27,
+    28,
+    29,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    102,
+    103,
+    104,
+    148,
+    149,
+    160,
+    161,
+    162,
+    371,
+    372,
+    409
+  ],
+  "n_pdf_pages": 511,
+  "usage": {
+    "input_tokens": 34900,
+    "output_tokens": 3178,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3112162,
+    "session_id": "04d177a3-41f2-456e-a839-a4a0b86f63eb"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Jaro Institute of Technology Management and Research Limited",
+    "sector": "Media, education & services",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "stub_period_months": null,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Nuvama Wealth Management Limited; Motilal Oswal Investment Advisors Limited; Systematix Corporate Services Limited",
+    "revenue_fy2": 122.145,
+    "rhp_page_revenue_fy2": 86,
+    "revenue_fy1": 199.046,
+    "rhp_page_revenue_fy1": 86,
+    "revenue_fy0": 252.263,
+    "rhp_page_revenue_fy0": 86,
+    "ebitda_fy2": 25.553,
+    "rhp_page_ebitda_fy2": 162,
+    "ebitda_fy1": 63.559,
+    "rhp_page_ebitda_fy1": 162,
+    "ebitda_fy0": 83.581,
+    "rhp_page_ebitda_fy0": 162,
+    "pat_fy2": 11.654,
+    "rhp_page_pat_fy2": 28,
+    "pat_fy1": 37.972,
+    "rhp_page_pat_fy1": 28,
+    "pat_fy0": 51.666,
+    "rhp_page_pat_fy0": 28,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 171.547,
+    "rhp_page_net_worth_fy0": 88,
+    "total_debt_fy0": 51.108,
+    "rhp_page_total_debt_fy0": 28,
+    "cash_fy0": 5.078,
+    "rhp_page_cash_fy0": 87,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 160,
+    "price_high": null,
+    "rhp_page_price_high": 160,
+    "lot_size": null,
+    "promoter_pre_pct": 77.69,
+    "rhp_page_promoter_pre_pct": 27,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 28,
+    "retail_quota_pct": null,
+    "rhp_page_retail_quota_pct": 83,
+    "pre_ipo_price": null,
+    "eps_fy0": 25.53,
+    "rhp_page_eps_fy0": 160,
+    "ronw_fy0_pct": 30.12,
+    "rhp_page_ronw_fy0_pct": 161,
+    "nav_per_share_fy0": 84.77,
+    "rhp_page_nav_per_share_fy0": 161,
+    "fresh_issue_cr": 170.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": 280.0,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 2.0246177,
+    "rhp_page_pre_issue_shares_cr": 83,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 83,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 45.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "Jaro Institute of Technology Management and Research Limited",
+    "sector": "Media, education & services",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 160
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 160
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 1700.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": 2800.0,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Sanjay Namdeo Salunkhe",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 83
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 20246177.0,
+      "unit": "shares",
+      "page": 83
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 83
+    },
+    "promoter_pre_pct": {
+      "value": 77.69,
+      "unit": "percent",
+      "page": 27
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 28
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Marketing, brand building and advertising activities",
+        "category": "other",
+        "amount": {
+          "value": 810.0,
+          "unit": "million",
+          "page": 148
+        }
+      },
+      {
+        "purpose": "Prepayment or scheduled re-payment of a portion of certain outstanding borrowings availed by the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 450.0,
+          "unit": "million",
+          "page": 148
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 148
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 83
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Nuvama Wealth Management Limited",
+      "Motilal Oswal Investment Advisors Limited",
+      "Systematix Corporate Services Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "revenue_fy2": {
+      "value": 1221.45,
+      "unit": "million",
+      "page": 86
+    },
+    "revenue_fy1": {
+      "value": 1990.46,
+      "unit": "million",
+      "page": 86
+    },
+    "revenue_fy0": {
+      "value": 2522.63,
+      "unit": "million",
+      "page": 86
+    },
+    "ebitda_fy2": {
+      "value": 255.53,
+      "unit": "million",
+      "page": 162
+    },
+    "ebitda_fy1": {
+      "value": 635.59,
+      "unit": "million",
+      "page": 162
+    },
+    "ebitda_fy0": {
+      "value": 835.81,
+      "unit": "million",
+      "page": 162
+    },
+    "pat_fy2": {
+      "value": 116.54,
+      "unit": "million",
+      "page": 28
+    },
+    "pat_fy1": {
+      "value": 379.72,
+      "unit": "million",
+      "page": 28
+    },
+    "pat_fy0": {
+      "value": 516.66,
+      "unit": "million",
+      "page": 28
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 1715.47,
+      "unit": "million",
+      "page": 88
+    },
+    "total_debt_fy0": {
+      "value": 511.08,
+      "unit": "million",
+      "page": 28
+    },
+    "cash_fy0": {
+      "value": 50.78,
+      "unit": "million",
+      "page": 87
+    },
+    "eps_fy0": {
+      "value": 25.53,
+      "unit": "rupees",
+      "page": 160
+    },
+    "ronw_fy0_pct": {
+      "value": 30.12,
+      "unit": "percent",
+      "page": 161
+    },
+    "nav_per_share_fy0": {
+      "value": 84.77,
+      "unit": "rupees",
+      "page": 161
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": true,
+    "peers": [],
+    "notes": [
+      "Mixed basis: FY2025 restated figures are standalone (company had no subsidiaries as of March 31, 2025); FY2024 and FY2023 are consolidated.",
+      "Revenue from operations taken from the revenue-by-state Grand Total on page 86 (Net Revenue), since the restated P&L page was not provided. KPI table Net Revenue for FY2024 is 1,990.45 vs 1,990.46 on page 86.",
+      "Total income (page 28): FY25 2,540.19, FY24 2,025.67, FY23 1,245.85 million.",
+      "Price band, lot size, share counts for fresh issue/OFS and post-offer shares are [\u25cf] in the RHP.",
+      "Promoter pre-offer holding of 77.69% is on a fully diluted basis (page 27). On the Price Band advertisement basis (page 28) the figures are 71.53+2.26+2.25+2.25.",
+      "Cash flow statement not included in the pages provided, so CFO is null.",
+      "Total borrowings 511.08 = current 507.27 + non-current 3.81 (balance sheet); capitalisation statement splits it as 505.53 + 5.55.",
+      "FY2023 net worth attributable to owners is 778.45; total equity incl. NCI is 835.66.",
+      "Only ESOP allotments (at \u20b910) and bonus issues in the last 12 months; no pre-IPO placement or preferential issue disclosed.",
+      "Retail quota % not stated on the pages provided (only 'Not less than [\u25cf] Equity Shares').",
+      "Marketing/brand building object classified as 'other'."
+    ]
+  }
+}

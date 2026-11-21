@@ -1,0 +1,344 @@
+{
+  "symbol": "ARISINFRA",
+  "rhp_file": "ARISINFRA.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:15:19+00:00",
+  "pages_sent": [
+    1,
+    2,
+    30,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    116,
+    117,
+    118,
+    184,
+    185,
+    208,
+    209,
+    210,
+    440,
+    441,
+    473
+  ],
+  "n_pdf_pages": 673,
+  "usage": {
+    "input_tokens": 31440,
+    "output_tokens": 3106,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.2817517,
+    "session_id": "24d62a4c-2c49-40de-b294-265ec7995ffb"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "ArisInfra Solutions Limited",
+    "sector": "Internet & platforms",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024",
+    "stub_period_months": 9,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "JM Financial Limited; IIFL Capital Services Limited; Nuvama Wealth Management Limited",
+    "revenue_fy2": 452.348,
+    "rhp_page_revenue_fy2": 100,
+    "revenue_fy1": 746.071,
+    "rhp_page_revenue_fy1": 100,
+    "revenue_fy0": 696.842,
+    "rhp_page_revenue_fy0": 100,
+    "ebitda_fy2": -1.066,
+    "rhp_page_ebitda_fy2": 440,
+    "ebitda_fy1": -0.109,
+    "rhp_page_ebitda_fy1": 440,
+    "ebitda_fy0": 13.016999999999998,
+    "rhp_page_ebitda_fy0": 440,
+    "pat_fy2": -6.487000000000001,
+    "rhp_page_pat_fy2": 100,
+    "pat_fy1": -15.392,
+    "rhp_page_pat_fy1": 100,
+    "pat_fy0": -17.298,
+    "rhp_page_pat_fy0": 100,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 141.604,
+    "rhp_page_net_worth_fy0": 98,
+    "total_debt_fy0": null,
+    "cash_fy0": 0.594,
+    "rhp_page_cash_fy0": 98,
+    "revenue_stub": 546.523,
+    "rhp_page_revenue_stub": 100,
+    "pat_stub": 6.526000000000001,
+    "rhp_page_pat_stub": 100,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": 10.0,
+    "rhp_page_retail_quota_pct": 96,
+    "pre_ipo_price": null,
+    "eps_fy0": -5.3,
+    "rhp_page_eps_fy0": 208,
+    "ronw_fy0_pct": -13.14,
+    "rhp_page_ronw_fy0_pct": 209,
+    "nav_per_share_fy0": 25.78,
+    "rhp_page_nav_per_share_fy0": 209,
+    "fresh_issue_cr": 499.596,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 5.8544202,
+    "rhp_page_pre_issue_shares_cr": 95,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 95,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 204.6,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 69.996,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "ArisInfra Solutions Limited",
+    "sector": "Internet & platforms",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 4995.96,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 58544202.0,
+      "unit": "shares",
+      "page": 95
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 95
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment/prepayment of certain outstanding borrowings of the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 2046.0,
+          "unit": "million",
+          "page": 184
+        }
+      },
+      {
+        "purpose": "Funding working capital requirements of the Company",
+        "category": "other",
+        "amount": {
+          "value": 1770.0,
+          "unit": "million",
+          "page": 184
+        }
+      },
+      {
+        "purpose": "Investment in Subsidiary Buildmex-Infra Private Limited for its working capital requirements",
+        "category": "other",
+        "amount": {
+          "value": 480.0,
+          "unit": "million",
+          "page": 184
+        }
+      },
+      {
+        "purpose": "General corporate purposes and unidentified inorganic acquisitions (acquisitions not exceeding \u20b9600 million)",
+        "category": "gcp",
+        "amount": {
+          "value": 699.96,
+          "unit": "million",
+          "page": 184
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 10.0,
+      "unit": "percent",
+      "page": 96
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lead_managers": [
+      "JM Financial Limited",
+      "IIFL Capital Services Limited",
+      "Nuvama Wealth Management Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024",
+    "revenue_fy2": {
+      "value": 4523.48,
+      "unit": "million",
+      "page": 100
+    },
+    "revenue_fy1": {
+      "value": 7460.71,
+      "unit": "million",
+      "page": 100
+    },
+    "revenue_fy0": {
+      "value": 6968.42,
+      "unit": "million",
+      "page": 100
+    },
+    "ebitda_fy2": {
+      "value": -10.66,
+      "unit": "million",
+      "page": 440
+    },
+    "ebitda_fy1": {
+      "value": -1.09,
+      "unit": "million",
+      "page": 440
+    },
+    "ebitda_fy0": {
+      "value": 130.17,
+      "unit": "million",
+      "page": 440
+    },
+    "pat_fy2": {
+      "value": -64.87,
+      "unit": "million",
+      "page": 100
+    },
+    "pat_fy1": {
+      "value": -153.92,
+      "unit": "million",
+      "page": 100
+    },
+    "pat_fy0": {
+      "value": -172.98,
+      "unit": "million",
+      "page": 100
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 1416.04,
+      "unit": "million",
+      "page": 98
+    },
+    "total_debt_fy0": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cash_fy0": {
+      "value": 5.94,
+      "unit": "million",
+      "page": 98
+    },
+    "eps_fy0": {
+      "value": -5.3,
+      "unit": "rupees",
+      "page": 208
+    },
+    "ronw_fy0_pct": {
+      "value": -13.14,
+      "unit": "percent",
+      "page": 209
+    },
+    "nav_per_share_fy0": {
+      "value": 25.78,
+      "unit": "rupees",
+      "page": 209
+    },
+    "stub_period_months": 9,
+    "revenue_stub": {
+      "value": 5465.23,
+      "unit": "million",
+      "page": 100
+    },
+    "pat_stub": {
+      "value": 65.26,
+      "unit": "million",
+      "page": 100
+    },
+    "no_listed_peers": true,
+    "peers": [],
+    "notes": [
+      "Price band, lot size, and number of fresh issue shares are not given ([\u25cf]); the issue is entirely fresh, with no offer for sale.",
+      "Pre-IPO placement of \u20b9800.04 million was completed and deducted from the fresh issue. The placement price per share is not given on these pages.",
+      "Total borrowings as at March 31, 2024 are not printed as a single total. The parts are non-current \u20b9678.30 million and current \u20b92,061.51 million (page 99). The only printed total is \u20b93,228.16 million, as at Dec 31, 2024 (page 473).",
+      "Cash flow statement pages were not provided, so CFO is null.",
+      "Promoter shareholding percentages are not on the pages provided.",
+      "Stub period is the nine months ended December 31, 2024.",
+      "EBITDA is taken from Other Financial Information (page 440) and is defined as PBT plus finance cost plus D&A less interest income.",
+      "Sector is a judgement call: the company is a B2B tech platform for buying construction materials. 'Infrastructure, construction & real estate' would also fit.",
+      "Working capital objects (\u20b91,770 million for the Company and \u20b9480 million for subsidiary Buildmex) are categorised as 'other'.",
+      "The RHP says there are no listed peers in India or globally."
+    ]
+  }
+}

@@ -1,0 +1,550 @@
+{
+  "symbol": "SWIGGY",
+  "rhp_file": "SWIGGY.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-21T06:01:21+00:00",
+  "pages_sent": [
+    1,
+    2,
+    22,
+    23,
+    24,
+    25,
+    76,
+    77,
+    79,
+    80,
+    81,
+    82,
+    97,
+    98,
+    99,
+    147,
+    148,
+    167,
+    168,
+    169,
+    362,
+    363,
+    396
+  ],
+  "n_pdf_pages": 541,
+  "usage": {
+    "input_tokens": 38714,
+    "output_tokens": 4816,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3748683,
+    "session_id": "b23828d3-aff1-4d26-86ba-46ffd2ebeec9"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Swiggy Limited",
+    "sector": "Internet & platforms",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024 (March 31, 2024)",
+    "stub_period_months": 3,
+    "pre_ipo_placement": null,
+    "lead_managers": "Kotak Mahindra Capital Company Limited; J.P. Morgan India Private Limited; Citigroup Global Markets India Private Limited; BofA Securities India Limited; Jefferies India Private Limited; ICICI Securities Limited; Avendus Capital Private Limited",
+    "revenue_fy2": 5704.897,
+    "rhp_page_revenue_fy2": 82,
+    "revenue_fy1": 8264.596,
+    "rhp_page_revenue_fy1": 82,
+    "revenue_fy0": 11247.39,
+    "rhp_page_revenue_fy0": 82,
+    "ebitda_fy2": -3410.4300000000003,
+    "rhp_page_ebitda_fy2": 362,
+    "ebitda_fy1": -3835.327,
+    "rhp_page_ebitda_fy1": 362,
+    "ebitda_fy0": -1858.255,
+    "rhp_page_ebitda_fy0": 362,
+    "pat_fy2": -3628.896,
+    "rhp_page_pat_fy2": 82,
+    "pat_fy1": -4179.305,
+    "rhp_page_pat_fy1": 82,
+    "pat_fy0": -2350.243,
+    "rhp_page_pat_fy0": 82,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 7791.461,
+    "rhp_page_net_worth_fy0": 24,
+    "total_debt_fy0": 211.18600000000004,
+    "rhp_page_total_debt_fy0": 24,
+    "cash_fy0": 887.051,
+    "rhp_page_cash_fy0": 80,
+    "revenue_stub": 3222.217,
+    "rhp_page_revenue_stub": 82,
+    "pat_stub": -611.007,
+    "rhp_page_pat_stub": 82,
+    "price_low": null,
+    "rhp_page_price_low": 168,
+    "price_high": null,
+    "rhp_page_price_high": 168,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": -10.7,
+    "rhp_page_eps_fy0": 168,
+    "ronw_fy0_pct": -30.16,
+    "rhp_page_ronw_fy0_pct": 169,
+    "nav_per_share_fy0": 35.48,
+    "rhp_page_nav_per_share_fy0": 169,
+    "fresh_issue_cr": 4499.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 17.5087863,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 212.3066748,
+    "rhp_page_pre_issue_shares_cr": 76,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 76,
+    "ofs_promoter_shares_cr": 0,
+    "ofs_investor_shares_cr": 17.0266046,
+    "proceeds_debt_repayment_cr": 164.8,
+    "proceeds_capex_cr": 755.4,
+    "proceeds_gcp_cr": 0.0,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "Swiggy Limited",
+    "sector": "Internet & platforms",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 168
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 168
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 44990.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 175087863.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Accel India IV (Mauritius) Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 10572706.0,
+          "unit": "shares",
+          "page": 76
+        }
+      },
+      {
+        "name": "Alpha Wave Ventures, LP",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 5573473.0,
+          "unit": "shares",
+          "page": 76
+        }
+      },
+      {
+        "name": "Apoletto Asia Ltd",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 1696504.0,
+          "unit": "shares",
+          "page": 76
+        }
+      },
+      {
+        "name": "Baron Emerging Markets Fund",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 1241816.0,
+          "unit": "shares",
+          "page": 76
+        }
+      },
+      {
+        "name": "Coatue PE Asia XI LLC",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 3885413.0,
+          "unit": "shares",
+          "page": 76
+        }
+      },
+      {
+        "name": "DST Asia VI",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 1031116.0,
+          "unit": "shares",
+          "page": 77
+        }
+      },
+      {
+        "name": "DST EuroAsia V B.V.",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 5621668.0,
+          "unit": "shares",
+          "page": 77
+        }
+      },
+      {
+        "name": "Elevation Capital V Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 7396253.0,
+          "unit": "shares",
+          "page": 77
+        }
+      },
+      {
+        "name": "Goldman Sachs Asia Strategic Pte. Ltd.",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 134868.0,
+          "unit": "shares",
+          "page": 77
+        }
+      },
+      {
+        "name": "Harmony Partners (Mauritius) Ltd.",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 626729.0,
+          "unit": "shares",
+          "page": 77
+        }
+      },
+      {
+        "name": "HH BTPL Holdings II Pte. Ltd.",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 2021171.0,
+          "unit": "shares",
+          "page": 77
+        }
+      },
+      {
+        "name": "Inspired Elite Investments Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 6747246.0,
+          "unit": "shares",
+          "page": 77
+        }
+      },
+      {
+        "name": "Lynks Shareholders' Trust",
+        "kind": "other",
+        "shares_offered": {
+          "value": 138975.0,
+          "unit": "shares",
+          "page": 77
+        }
+      },
+      {
+        "name": "MIH India Food Holdings B.V.",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 109096540.0,
+          "unit": "shares",
+          "page": 77
+        }
+      },
+      {
+        "name": "Norwest Venture Partners VII-A-Mauritius",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 6406307.0,
+          "unit": "shares",
+          "page": 77
+        }
+      },
+      {
+        "name": "Tencent Cloud Europe B.V.",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 6327243.0,
+          "unit": "shares",
+          "page": 77
+        }
+      },
+      {
+        "name": "Times Internet Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 1123320.0,
+          "unit": "shares",
+          "page": 77
+        }
+      },
+      {
+        "name": "West Street Global Growth Partners (Singapore) Pte. Ltd.",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 698477.0,
+          "unit": "shares",
+          "page": 77
+        }
+      },
+      {
+        "name": "West Street Global Growth Partners Emp (Singapore) Pte. Ltd.",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 65196.0,
+          "unit": "shares",
+          "page": 77
+        }
+      },
+      {
+        "name": "Lakshmi Nandan Reddy Obul",
+        "kind": "other",
+        "shares_offered": {
+          "value": 1745746.0,
+          "unit": "shares",
+          "page": 77
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 2123066748.0,
+      "unit": "shares",
+      "page": 76
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 76
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Investment in Material Subsidiary Scootsy for repayment/pre-payment of its borrowings",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 1648.0,
+          "unit": "million",
+          "page": 148
+        }
+      },
+      {
+        "purpose": "Investment in Scootsy for expansion of Dark Store network (setting up Dark Stores)",
+        "category": "capex",
+        "amount": {
+          "value": 7554.0,
+          "unit": "million",
+          "page": 148
+        }
+      },
+      {
+        "purpose": "Investment in Scootsy for lease/license payments for Dark Stores",
+        "category": "other",
+        "amount": {
+          "value": 4233.0,
+          "unit": "million",
+          "page": 148
+        }
+      },
+      {
+        "purpose": "Investment in technology and cloud infrastructure",
+        "category": "other",
+        "amount": {
+          "value": 7034.0,
+          "unit": "million",
+          "page": 148
+        }
+      },
+      {
+        "purpose": "Brand marketing and business promotion expenses",
+        "category": "other",
+        "amount": {
+          "value": 11153.0,
+          "unit": "million",
+          "page": 148
+        }
+      },
+      {
+        "purpose": "Funding inorganic growth through unidentified acquisitions and general corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 148
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Kotak Mahindra Capital Company Limited",
+      "J.P. Morgan India Private Limited",
+      "Citigroup Global Markets India Private Limited",
+      "BofA Securities India Limited",
+      "Jefferies India Private Limited",
+      "ICICI Securities Limited",
+      "Avendus Capital Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024 (March 31, 2024)",
+    "revenue_fy2": {
+      "value": 57048.97,
+      "unit": "million",
+      "page": 82
+    },
+    "revenue_fy1": {
+      "value": 82645.96,
+      "unit": "million",
+      "page": 82
+    },
+    "revenue_fy0": {
+      "value": 112473.9,
+      "unit": "million",
+      "page": 82
+    },
+    "ebitda_fy2": {
+      "value": -34104.3,
+      "unit": "million",
+      "page": 362
+    },
+    "ebitda_fy1": {
+      "value": -38353.27,
+      "unit": "million",
+      "page": 362
+    },
+    "ebitda_fy0": {
+      "value": -18582.55,
+      "unit": "million",
+      "page": 362
+    },
+    "pat_fy2": {
+      "value": -36288.96,
+      "unit": "million",
+      "page": 82
+    },
+    "pat_fy1": {
+      "value": -41793.05,
+      "unit": "million",
+      "page": 82
+    },
+    "pat_fy0": {
+      "value": -23502.43,
+      "unit": "million",
+      "page": 82
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 77914.61,
+      "unit": "million",
+      "page": 24
+    },
+    "total_debt_fy0": {
+      "value": 2111.86,
+      "unit": "million",
+      "page": 24
+    },
+    "cash_fy0": {
+      "value": 8870.51,
+      "unit": "million",
+      "page": 80
+    },
+    "eps_fy0": {
+      "value": -10.7,
+      "unit": "rupees",
+      "page": 168
+    },
+    "ronw_fy0_pct": {
+      "value": -30.16,
+      "unit": "percent",
+      "page": 169
+    },
+    "nav_per_share_fy0": {
+      "value": 35.48,
+      "unit": "rupees",
+      "page": 169
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 32222.17,
+      "unit": "million",
+      "page": 82
+    },
+    "pat_stub": {
+      "value": -6110.07,
+      "unit": "million",
+      "page": 82
+    },
+    "no_listed_peers": false,
+    "peers": [],
+    "notes": [
+      "The company has no identifiable promoter, so promoter_pre_pct and promoter_post_pct are null.",
+      "The price band, lot size, fresh issue share count, retail quota % and post-issue shares are not printed or are shown as [\u25cf].",
+      "The selling shareholder list on pages 76-77 is cut off after Lakshmi Nandan Reddy Obul. The page 23 table also names Rahul Jaimini, Samina Hamied and Sriharsha Majety as selling shareholders, but their offered share counts are not on the pages given, so they are left out. The 20 sellers listed add up to less than the total OFS of 175,087,863 shares.",
+      "The peer comparison table with peer names is not on the pages given. Page 169 shows only a single industry peer P/E of 634.50 (highest = lowest = composite), so the peers list is empty.",
+      "Operating cash flow (CFO) is not on the pages given.",
+      "Total debt for FY2024 is 2,111.86 million (current 1,152.09 + non-current 959.77, page 81). Net worth is total equity including instruments entirely equity in nature.",
+      "Technology and cloud infrastructure spending is categorised as 'other' because it is largely cloud and technology spending rather than plant or machinery; it could also be treated as capex. Lease/licence payments for Dark Stores are also categorised as 'other'.",
+      "The CCPS conversion into equity shares in October 2024 is not a priced placement. Whether there was any pre-IPO placement cannot be determined from these pages."
+    ]
+  }
+}

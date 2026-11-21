@@ -1,0 +1,398 @@
+{
+  "symbol": "JYOTICNC",
+  "rhp_file": "JYOTICNC.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T21:03:02+00:00",
+  "pages_sent": [
+    1,
+    2,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    111,
+    112,
+    113,
+    114,
+    142,
+    143,
+    144,
+    145,
+    158,
+    159,
+    160,
+    161,
+    162,
+    362,
+    363,
+    364,
+    378
+  ],
+  "n_pdf_pages": 511,
+  "usage": {
+    "input_tokens": 39602,
+    "output_tokens": 3292,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.351584,
+    "session_id": "e0305266-98f5-4ea5-9333-648c89edd31f"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Jyoti CNC Automation Limited",
+    "sector": "Industrials & capital goods",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023 (March 31, 2023)",
+    "stub_period_months": 6,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "Equirus Capital Private Limited; ICICI Securities Limited; SBI Capital Markets Limited",
+    "revenue_fy2": 580.059,
+    "rhp_page_revenue_fy2": 96,
+    "revenue_fy1": 746.487,
+    "rhp_page_revenue_fy1": 96,
+    "revenue_fy0": 929.259,
+    "rhp_page_revenue_fy0": 96,
+    "ebitda_fy2": 31.689,
+    "rhp_page_ebitda_fy2": 161,
+    "ebitda_fy1": 72.662,
+    "rhp_page_ebitda_fy1": 161,
+    "ebitda_fy0": 97.379,
+    "rhp_page_ebitda_fy0": 161,
+    "pat_fy2": -70.029,
+    "rhp_page_pat_fy2": 96,
+    "pat_fy1": -48.3,
+    "rhp_page_pat_fy1": 96,
+    "pat_fy0": 15.06,
+    "rhp_page_pat_fy0": 96,
+    "cfo_fy2": 26.418,
+    "rhp_page_cfo_fy2": 98,
+    "cfo_fy1": 38.544,
+    "rhp_page_cfo_fy1": 98,
+    "cfo_fy0": 11.667,
+    "rhp_page_cfo_fy0": 98,
+    "net_worth_fy0": 82.063,
+    "rhp_page_net_worth_fy0": 94,
+    "total_debt_fy0": null,
+    "rhp_page_total_debt_fy0": 94,
+    "cash_fy0": 16.092,
+    "rhp_page_cash_fy0": 94,
+    "revenue_stub": 509.822,
+    "rhp_page_revenue_stub": 96,
+    "pat_stub": 3.3520000000000003,
+    "rhp_page_pat_stub": 96,
+    "price_low": null,
+    "rhp_page_price_low": 158,
+    "price_high": null,
+    "rhp_page_price_high": 158,
+    "lot_size": null,
+    "rhp_page_lot_size": 2,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": 10.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": null,
+    "eps_fy0": 1.02,
+    "rhp_page_eps_fy0": 97,
+    "ronw_fy0_pct": 18.35,
+    "rhp_page_ronw_fy0_pct": 159,
+    "nav_per_share_fy0": 5.57,
+    "rhp_page_nav_per_share_fy0": 160,
+    "fresh_issue_cr": 1000.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 19.7204447,
+    "rhp_page_pre_issue_shares_cr": 92,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 92,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 475.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "ELGIEQUIP; LAXMIMACH; TRITURBINE; TDPOWERSYS; MACPOWER",
+    "n_peers": 5,
+    "peer_pe_list": [
+      44.3,
+      37.69,
+      67.76,
+      46.66,
+      51.31
+    ],
+    "peer_ronw_list": [
+      27.04,
+      16.42,
+      25.32,
+      16.01,
+      13.34
+    ],
+    "rhp_page_peers": 160
+  },
+  "extract": {
+    "company": "Jyoti CNC Automation Limited",
+    "sector": "Industrials & capital goods",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 158
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 158
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": 2
+    },
+    "fresh_issue_amount": {
+      "value": 10000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 197204447.0,
+      "unit": "shares",
+      "page": 92
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 92
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment and/or pre-payment, in full or part, of certain borrowings availed by the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 4750.0,
+          "unit": "million",
+          "page": 142
+        }
+      },
+      {
+        "purpose": "Funding long-term working capital requirements of the Company",
+        "category": "other",
+        "amount": {
+          "value": 3600.0,
+          "unit": "million",
+          "page": 142
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 142
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 10.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Equirus Capital Private Limited",
+      "ICICI Securities Limited",
+      "SBI Capital Markets Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023 (March 31, 2023)",
+    "revenue_fy2": {
+      "value": 5800.59,
+      "unit": "million",
+      "page": 96
+    },
+    "revenue_fy1": {
+      "value": 7464.87,
+      "unit": "million",
+      "page": 96
+    },
+    "revenue_fy0": {
+      "value": 9292.59,
+      "unit": "million",
+      "page": 96
+    },
+    "ebitda_fy2": {
+      "value": 316.89,
+      "unit": "million",
+      "page": 161
+    },
+    "ebitda_fy1": {
+      "value": 726.62,
+      "unit": "million",
+      "page": 161
+    },
+    "ebitda_fy0": {
+      "value": 973.79,
+      "unit": "million",
+      "page": 161
+    },
+    "pat_fy2": {
+      "value": -700.29,
+      "unit": "million",
+      "page": 96
+    },
+    "pat_fy1": {
+      "value": -483.0,
+      "unit": "million",
+      "page": 96
+    },
+    "pat_fy0": {
+      "value": 150.6,
+      "unit": "million",
+      "page": 96
+    },
+    "cfo_fy2": {
+      "value": 264.18,
+      "unit": "million",
+      "page": 98
+    },
+    "cfo_fy1": {
+      "value": 385.44,
+      "unit": "million",
+      "page": 98
+    },
+    "cfo_fy0": {
+      "value": 116.67,
+      "unit": "million",
+      "page": 98
+    },
+    "net_worth_fy0": {
+      "value": 820.63,
+      "unit": "million",
+      "page": 94
+    },
+    "total_debt_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": 94
+    },
+    "cash_fy0": {
+      "value": 160.92,
+      "unit": "million",
+      "page": 94
+    },
+    "eps_fy0": {
+      "value": 1.02,
+      "unit": "rupees",
+      "page": 97
+    },
+    "ronw_fy0_pct": {
+      "value": 18.35,
+      "unit": "percent",
+      "page": 159
+    },
+    "nav_per_share_fy0": {
+      "value": 5.57,
+      "unit": "rupees",
+      "page": 160
+    },
+    "stub_period_months": 6,
+    "revenue_stub": {
+      "value": 5098.22,
+      "unit": "million",
+      "page": 96
+    },
+    "pat_stub": {
+      "value": 33.52,
+      "unit": "million",
+      "page": 96
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Elgi Equipments Limited",
+        "nse_symbol": "ELGIEQUIP",
+        "pe": 44.3,
+        "ronw_pct": 27.04,
+        "page": 160
+      },
+      {
+        "name": "Lakshmi Machine Works Limited",
+        "nse_symbol": "LAXMIMACH",
+        "pe": 37.69,
+        "ronw_pct": 16.42,
+        "page": 160
+      },
+      {
+        "name": "Triveni Turbine Limited",
+        "nse_symbol": "TRITURBINE",
+        "pe": 67.76,
+        "ronw_pct": 25.32,
+        "page": 160
+      },
+      {
+        "name": "TD Power Systems Limited",
+        "nse_symbol": "TDPOWERSYS",
+        "pe": 46.66,
+        "ronw_pct": 16.01,
+        "page": 160
+      },
+      {
+        "name": "Macpower CNC Machines Ltd",
+        "nse_symbol": "MACPOWER",
+        "pe": 51.31,
+        "ronw_pct": 13.34,
+        "page": 160
+      }
+    ],
+    "notes": [
+      "Issue is 100% fresh issue (\u20b910,000.00 million); no offer for sale.",
+      "Price band, lot size, share count of the issue and post-issue shares are [\u25cf] in the RHP.",
+      "Total borrowings at March 31, 2023 are not printed as a single total. The balance sheet on page 94-95 shows non-current borrowings of 1,274.65 and current borrowings of 7,075.09 (\u20b9 million), so total_debt_fy0 is left null. The capitalisation statement gives total borrowings of 8,214.04 million as at Sep 30, 2023.",
+      "Funding of long-term working capital (\u20b93,600 million) is categorised as 'other'.",
+      "Pre-IPO placement: the company issued shares including premium of \u20b91,658.77 million in H1 FY2024, and on Dec 4, 2023 converted 1,964,275 CCPS into 1,447,357 equity shares. The issue price per share for these is not on the pages provided.",
+      "Promoter shareholding percentages are not on the pages provided.",
+      "Retail quota is 'not more than 10% of the Net Issue' (Regulation 6(2) issue). There is also an employee reservation of \u20b950 million.",
+      "FY2023 PAT includes an exceptional gain of \u20b9304.50 million from a loan waiver at a subsidiary.",
+      "NAV per share is computed by the company on weighted average diluted shares.",
+      "NSE symbols for peers are inferred and are not printed in the RHP."
+    ]
+  }
+}

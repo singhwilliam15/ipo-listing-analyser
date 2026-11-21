@@ -1,0 +1,408 @@
+{
+  "symbol": "STANLEY",
+  "rhp_file": "STANLEY.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-21T06:06:22+00:00",
+  "pages_sent": [
+    1,
+    2,
+    24,
+    25,
+    26,
+    27,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    94,
+    95,
+    96,
+    108,
+    109,
+    136,
+    137,
+    138,
+    347,
+    348,
+    354
+  ],
+  "n_pdf_pages": 468,
+  "usage": {
+    "input_tokens": 39584,
+    "output_tokens": 3500,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3555976,
+    "session_id": "ea592d0d-c3fa-414b-bf80-c3613057658b"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Stanley Lifestyles Limited",
+    "sector": "Consumer & retail",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "March 31, 2023",
+    "stub_period_months": 9,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Axis Capital Limited; ICICI Securities Limited; JM Financial Limited; SBI Capital Markets Limited",
+    "revenue_fy2": 195.78,
+    "rhp_page_revenue_fy2": 82,
+    "revenue_fy1": 292.204,
+    "rhp_page_revenue_fy1": 82,
+    "revenue_fy0": 418.99799999999993,
+    "rhp_page_revenue_fy0": 82,
+    "ebitda_fy2": 29.775,
+    "rhp_page_ebitda_fy2": 138,
+    "ebitda_fy1": 59.008,
+    "rhp_page_ebitda_fy1": 138,
+    "ebitda_fy0": 82.717,
+    "rhp_page_ebitda_fy0": 138,
+    "pat_fy2": 1.923,
+    "rhp_page_pat_fy2": 82,
+    "pat_fy1": 23.219,
+    "rhp_page_pat_fy1": 82,
+    "pat_fy0": 34.977,
+    "rhp_page_pat_fy0": 82,
+    "cfo_fy2": 32.98,
+    "rhp_page_cfo_fy2": 83,
+    "cfo_fy1": 28.523,
+    "rhp_page_cfo_fy1": 83,
+    "cfo_fy0": 67.971,
+    "rhp_page_cfo_fy0": 83,
+    "net_worth_fy0": 216.502,
+    "rhp_page_net_worth_fy0": 81,
+    "total_debt_fy0": 9.37,
+    "rhp_page_total_debt_fy0": 26,
+    "cash_fy0": 9.668,
+    "rhp_page_cash_fy0": 81,
+    "revenue_stub": 313.311,
+    "rhp_page_revenue_stub": 82,
+    "pat_stub": 18.697,
+    "rhp_page_pat_stub": 82,
+    "price_low": null,
+    "rhp_page_price_low": 136,
+    "price_high": null,
+    "rhp_page_price_high": 136,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "rhp_page_promoter_pre_pct": 25,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 6.37,
+    "rhp_page_eps_fy0": 136,
+    "ronw_fy0_pct": 15.18,
+    "rhp_page_ronw_fy0_pct": 137,
+    "nav_per_share_fy0": 41.96,
+    "rhp_page_nav_per_share_fy0": 137,
+    "fresh_issue_cr": 200.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.9133454,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 5.1597168,
+    "rhp_page_pre_issue_shares_cr": 78,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 78,
+    "ofs_promoter_shares_cr": 0.2364,
+    "ofs_investor_shares_cr": 0.5544454,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 146.81599999999997,
+    "proceeds_gcp_cr": 0.0,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "Stanley Lifestyles Limited",
+    "sector": "Consumer & retail",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 136
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 136
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 2000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 9133454.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Sunil Suresh",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 1182000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Shubha Sunil",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 1182000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Oman India Joint Investment Fund II",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 5544454.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Kiran Bhanu Vuppalapati",
+        "kind": "other",
+        "shares_offered": {
+          "value": 1000000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Sridevi Venkata Vuppalapati",
+        "kind": "other",
+        "shares_offered": {
+          "value": 225000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 51597168.0,
+      "unit": "shares",
+      "page": 78
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 78
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 25
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Investment in Subsidiaries for opening of New Stores",
+        "category": "capex",
+        "amount": {
+          "value": 901.27,
+          "unit": "million",
+          "page": 24
+        }
+      },
+      {
+        "purpose": "Investment in Subsidiaries for opening Anchor Stores",
+        "category": "capex",
+        "amount": {
+          "value": 399.9,
+          "unit": "million",
+          "page": 24
+        }
+      },
+      {
+        "purpose": "Investment in Subsidiaries for renovation of Existing Stores",
+        "category": "capex",
+        "amount": {
+          "value": 100.4,
+          "unit": "million",
+          "page": 24
+        }
+      },
+      {
+        "purpose": "Capital expenditure for purchase of new machinery and equipment by the Company and Material Subsidiary Stanley OEM Sofas Limited",
+        "category": "capex",
+        "amount": {
+          "value": 66.59,
+          "unit": "million",
+          "page": 25
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 25
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Axis Capital Limited",
+      "ICICI Securities Limited",
+      "JM Financial Limited",
+      "SBI Capital Markets Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "March 31, 2023",
+    "revenue_fy2": {
+      "value": 1957.8,
+      "unit": "million",
+      "page": 82
+    },
+    "revenue_fy1": {
+      "value": 2922.04,
+      "unit": "million",
+      "page": 82
+    },
+    "revenue_fy0": {
+      "value": 4189.98,
+      "unit": "million",
+      "page": 82
+    },
+    "ebitda_fy2": {
+      "value": 297.75,
+      "unit": "million",
+      "page": 138
+    },
+    "ebitda_fy1": {
+      "value": 590.08,
+      "unit": "million",
+      "page": 138
+    },
+    "ebitda_fy0": {
+      "value": 827.17,
+      "unit": "million",
+      "page": 138
+    },
+    "pat_fy2": {
+      "value": 19.23,
+      "unit": "million",
+      "page": 82
+    },
+    "pat_fy1": {
+      "value": 232.19,
+      "unit": "million",
+      "page": 82
+    },
+    "pat_fy0": {
+      "value": 349.77,
+      "unit": "million",
+      "page": 82
+    },
+    "cfo_fy2": {
+      "value": 329.8,
+      "unit": "million",
+      "page": 83
+    },
+    "cfo_fy1": {
+      "value": 285.23,
+      "unit": "million",
+      "page": 83
+    },
+    "cfo_fy0": {
+      "value": 679.71,
+      "unit": "million",
+      "page": 83
+    },
+    "net_worth_fy0": {
+      "value": 2165.02,
+      "unit": "million",
+      "page": 81
+    },
+    "total_debt_fy0": {
+      "value": 93.7,
+      "unit": "million",
+      "page": 26
+    },
+    "cash_fy0": {
+      "value": 96.68,
+      "unit": "million",
+      "page": 81
+    },
+    "eps_fy0": {
+      "value": 6.37,
+      "unit": "rupees",
+      "page": 136
+    },
+    "ronw_fy0_pct": {
+      "value": 15.18,
+      "unit": "percent",
+      "page": 137
+    },
+    "nav_per_share_fy0": {
+      "value": 41.96,
+      "unit": "rupees",
+      "page": 137
+    },
+    "stub_period_months": 9,
+    "revenue_stub": {
+      "value": 3133.11,
+      "unit": "million",
+      "page": 82
+    },
+    "pat_stub": {
+      "value": 186.97,
+      "unit": "million",
+      "page": 82
+    },
+    "no_listed_peers": true,
+    "peers": [],
+    "notes": [
+      "Price band, lot size, number of fresh issue shares, post-offer shares and GCP amount are printed as [\u25cf] in the RHP.",
+      "No single aggregate figure for promoter + promoter group pre-offer holding is printed. On a fully diluted basis Sunil Suresh holds 33.64% and Shubha Sunil holds 33.64% (page 25); Suresh S (promoter group) holds a negligible stake. promoter_pre_pct left null to avoid calculating.",
+      "Retail quota % not on the pages provided (the Offer Structure page is not included).",
+      "Cash_fy0 is cash and cash equivalents only (96.68). Bank balances other than cash of 637.32 million are excluded.",
+      "Only pre-IPO share activity in the last 12 months: a share split (June 19, 2023) and a bonus issue (June 23, 2023). No placement for cash, so pre_ipo_placement = false.",
+      "EPS and RoNW are based on profit attributable to owners (328.75 million for FY2023). pat_fy0 is total restated profit including NCI (349.77 million).",
+      "Page 131 says there are no listed peers in India or globally, so no peer comparison is given.",
+      "SBI Capital Markets is an associate of the Investor Selling Shareholder and is involved only in marketing the offer.",
+      "PAT growth for FY2022 is printed as 1,107.60% on page 138 but 1,107.44% on page 348."
+    ]
+  }
+}

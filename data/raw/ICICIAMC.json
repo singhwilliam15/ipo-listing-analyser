@@ -1,0 +1,339 @@
+{
+  "symbol": "ICICIAMC",
+  "rhp_file": "ICICIAMC.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:02:16+00:00",
+  "pages_sent": [
+    1,
+    2,
+    19,
+    20,
+    21,
+    22,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    88,
+    89,
+    90,
+    101,
+    102,
+    104,
+    105,
+    106,
+    348,
+    349,
+    380
+  ],
+  "n_pdf_pages": 493,
+  "usage": {
+    "input_tokens": 46103,
+    "output_tokens": 3285,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.4041021,
+    "session_id": "ec4c2993-d8ab-42df-a82f-63c5045c032b"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "ICICI Prudential Asset Management Company Limited",
+    "sector": "Financial services",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "stub_period_months": 6,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Citigroup Global Markets India Private Limited; ICICI Securities Limited; Morgan Stanley India Company Private Limited; Goldman Sachs (India) Securities Private Limited; BofA Securities India Limited; Avendus Capital Private Limited; Axis Capital Limited; BNP Paribas; CLSA India Private Limited; HDFC Bank Limited; IIFL Capital Services Limited; JM Financial Limited; Kotak Mahindra Capital Company Limited; Motilal Oswal Investment Advisors Limited; Nomura Financial Advisory and Securities (India) Private Limited; Nuvama Wealth Management Limited; SBI Capital Markets Limited; UBS Securities India Private Limited",
+    "revenue_fy2": 2837.35,
+    "rhp_page_revenue_fy2": 75,
+    "revenue_fy1": 3758.23,
+    "rhp_page_revenue_fy1": 75,
+    "revenue_fy0": 4977.33,
+    "rhp_page_revenue_fy0": 75,
+    "ebitda_fy2": 2072.58,
+    "rhp_page_ebitda_fy2": 348,
+    "ebitda_fy1": 2780.01,
+    "rhp_page_ebitda_fy1": 348,
+    "ebitda_fy0": 3636.99,
+    "rhp_page_ebitda_fy0": 348,
+    "pat_fy2": 1515.78,
+    "rhp_page_pat_fy2": 75,
+    "pat_fy1": 2049.73,
+    "rhp_page_pat_fy1": 75,
+    "pat_fy0": 2650.66,
+    "rhp_page_pat_fy0": 75,
+    "cfo_fy2": 1399.96,
+    "rhp_page_cfo_fy2": 76,
+    "cfo_fy1": 1764.54,
+    "rhp_page_cfo_fy1": 76,
+    "cfo_fy0": 2573.5,
+    "rhp_page_cfo_fy0": 76,
+    "net_worth_fy0": 3516.94,
+    "rhp_page_net_worth_fy0": 21,
+    "total_debt_fy0": 0.0,
+    "rhp_page_total_debt_fy0": 21,
+    "cash_fy0": 15.44,
+    "rhp_page_cash_fy0": 74,
+    "revenue_stub": 2949.38,
+    "rhp_page_revenue_stub": 75,
+    "pat_stub": 1617.74,
+    "rhp_page_pat_stub": 75,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": 100.0,
+    "rhp_page_promoter_pre_pct": 20,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 20,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 53.6,
+    "rhp_page_eps_fy0": 21,
+    "ronw_fy0_pct": 82.8,
+    "rhp_page_ronw_fy0_pct": 21,
+    "nav_per_share_fy0": 71.2,
+    "rhp_page_nav_per_share_fy0": 21,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 4.8972994,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 49.425852,
+    "rhp_page_pre_issue_shares_cr": 71,
+    "post_issue_shares_cr": 49.425852,
+    "rhp_page_post_issue_shares_cr": 71,
+    "ofs_promoter_shares_cr": 4.8972994,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": null,
+    "proceeds_capex_cr": null,
+    "proceeds_gcp_cr": null,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "ICICI Prudential Asset Management Company Limited",
+    "sector": "Financial services",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 48972994.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Prudential Corporation Holdings Limited",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 48972994.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 494258520.0,
+      "unit": "shares",
+      "page": 71
+    },
+    "post_issue_shares": {
+      "value": 494258520.0,
+      "unit": "shares",
+      "page": 71
+    },
+    "promoter_pre_pct": {
+      "value": 100.0,
+      "unit": "percent",
+      "page": 20
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 20
+    },
+    "objects_of_offer": [],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lead_managers": [
+      "Citigroup Global Markets India Private Limited",
+      "ICICI Securities Limited",
+      "Morgan Stanley India Company Private Limited",
+      "Goldman Sachs (India) Securities Private Limited",
+      "BofA Securities India Limited",
+      "Avendus Capital Private Limited",
+      "Axis Capital Limited",
+      "BNP Paribas",
+      "CLSA India Private Limited",
+      "HDFC Bank Limited",
+      "IIFL Capital Services Limited",
+      "JM Financial Limited",
+      "Kotak Mahindra Capital Company Limited",
+      "Motilal Oswal Investment Advisors Limited",
+      "Nomura Financial Advisory and Securities (India) Private Limited",
+      "Nuvama Wealth Management Limited",
+      "SBI Capital Markets Limited",
+      "UBS Securities India Private Limited"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "revenue_fy2": {
+      "value": 28373.5,
+      "unit": "million",
+      "page": 75
+    },
+    "revenue_fy1": {
+      "value": 37582.3,
+      "unit": "million",
+      "page": 75
+    },
+    "revenue_fy0": {
+      "value": 49773.3,
+      "unit": "million",
+      "page": 75
+    },
+    "ebitda_fy2": {
+      "value": 20725.8,
+      "unit": "million",
+      "page": 348
+    },
+    "ebitda_fy1": {
+      "value": 27800.1,
+      "unit": "million",
+      "page": 348
+    },
+    "ebitda_fy0": {
+      "value": 36369.9,
+      "unit": "million",
+      "page": 348
+    },
+    "pat_fy2": {
+      "value": 15157.8,
+      "unit": "million",
+      "page": 75
+    },
+    "pat_fy1": {
+      "value": 20497.3,
+      "unit": "million",
+      "page": 75
+    },
+    "pat_fy0": {
+      "value": 26506.6,
+      "unit": "million",
+      "page": 75
+    },
+    "cfo_fy2": {
+      "value": 13999.6,
+      "unit": "million",
+      "page": 76
+    },
+    "cfo_fy1": {
+      "value": 17645.4,
+      "unit": "million",
+      "page": 76
+    },
+    "cfo_fy0": {
+      "value": 25735.0,
+      "unit": "million",
+      "page": 76
+    },
+    "net_worth_fy0": {
+      "value": 35169.4,
+      "unit": "million",
+      "page": 21
+    },
+    "total_debt_fy0": {
+      "value": 0.0,
+      "unit": "million",
+      "page": 21
+    },
+    "cash_fy0": {
+      "value": 154.4,
+      "unit": "million",
+      "page": 74
+    },
+    "eps_fy0": {
+      "value": 53.6,
+      "unit": "rupees",
+      "page": 21
+    },
+    "ronw_fy0_pct": {
+      "value": 82.8,
+      "unit": "percent",
+      "page": 21
+    },
+    "nav_per_share_fy0": {
+      "value": 71.2,
+      "unit": "rupees",
+      "page": 21
+    },
+    "stub_period_months": 6,
+    "revenue_stub": {
+      "value": 29493.8,
+      "unit": "million",
+      "page": 75
+    },
+    "pat_stub": {
+      "value": 16177.4,
+      "unit": "million",
+      "page": 75
+    },
+    "no_listed_peers": false,
+    "peers": [],
+    "notes": [
+      "The offer is a pure Offer for Sale by Prudential Corporation Holdings Limited (promoter). There is no fresh issue, the company receives no proceeds, so objects_of_offer is empty.",
+      "The Price Band, lot size and OFS amount are not printed or show [\u25cf] on these pages.",
+      "Financials are 'Restated Financial Information' of the Company. The pages do not call them consolidated, and the audited standalone statements are referenced, so the basis is taken as standalone.",
+      "Total borrowings are stated as nil in the Restated Financial Information (page 21 note iii; capitalisation statement page 380). They are recorded as 0 because the document states them, not because they are missing. Lease liabilities are excluded.",
+      "Before the offer, the two promoters (ICICI Bank 51.0%, Prudential 49.0%) hold 100% of the shares. Post-offer holding is not disclosed ([\u25cf]). The share count stays at 494,258,520 because there is no fresh issue.",
+      "The offer includes an ICICI Bank Shareholders Reservation Portion of up to 2,448,649 shares (5.0% of the offer). The retail quota percentage is not stated on these pages.",
+      "The 'Comparison with listed industry peers' table is not on the pages provided. The peers list is left empty; that does not mean the RHP says there are no listed peers.",
+      "A 1.8:1 bonus issue was allotted on November 5, 2025 (nil consideration), and the shares were sub-divided from \u20b910 to \u20b91 face value on June 4, 2025. Neither is a priced pre-IPO placement. EPS and NAV figures are adjusted for both.",
+      "The stub period is the six months ended September 30, 2025. The return on net worth for the stub (86.8%) is annualised."
+    ]
+  }
+}

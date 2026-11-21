@@ -1,0 +1,413 @@
+{
+  "symbol": "SURAJEST",
+  "rhp_file": "SURAJEST.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T21:02:04+00:00",
+  "pages_sent": [
+    1,
+    2,
+    27,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    121,
+    122,
+    123,
+    124,
+    133,
+    134,
+    135,
+    136,
+    148,
+    149,
+    150,
+    151,
+    152,
+    369,
+    370,
+    371
+  ],
+  "n_pdf_pages": 532,
+  "usage": {
+    "input_tokens": 42529,
+    "output_tokens": 3599,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.38143409999999994,
+    "session_id": "5fda8a90-e33c-4720-870a-0bab24f6f279"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Suraj Estate Developers Limited",
+    "sector": "Infrastructure, construction & real estate",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023 (March 31, 2023)",
+    "stub_period_months": 3,
+    "pre_ipo_placement": "no",
+    "lead_managers": "ITI Capital Limited; Anand Rathi Advisors Limited",
+    "revenue_fy2": 239.987,
+    "rhp_page_revenue_fy2": 108,
+    "revenue_fy1": 272.718,
+    "rhp_page_revenue_fy1": 108,
+    "revenue_fy0": 305.744,
+    "rhp_page_revenue_fy0": 108,
+    "ebitda_fy2": 86.629,
+    "rhp_page_ebitda_fy2": 150,
+    "ebitda_fy1": 131.733,
+    "rhp_page_ebitda_fy1": 150,
+    "ebitda_fy0": 151.003,
+    "rhp_page_ebitda_fy0": 150,
+    "pat_fy2": 6.277,
+    "rhp_page_pat_fy2": 108,
+    "pat_fy1": 26.504,
+    "rhp_page_pat_fy1": 108,
+    "pat_fy0": 32.064,
+    "rhp_page_pat_fy0": 108,
+    "cfo_fy2": -14.931,
+    "rhp_page_cfo_fy2": 109,
+    "cfo_fy1": 69.757,
+    "rhp_page_cfo_fy1": 109,
+    "cfo_fy0": 188.525,
+    "rhp_page_cfo_fy0": 109,
+    "net_worth_fy0": 71.392,
+    "rhp_page_net_worth_fy0": 107,
+    "total_debt_fy0": 593.093,
+    "rhp_page_total_debt_fy0": 27,
+    "cash_fy0": 12.105,
+    "rhp_page_cash_fy0": 107,
+    "revenue_stub": 102.40999999999998,
+    "rhp_page_revenue_stub": 108,
+    "pat_stub": 14.528,
+    "rhp_page_pat_stub": 108,
+    "price_low": null,
+    "rhp_page_price_low": 148,
+    "price_high": null,
+    "rhp_page_price_high": 148,
+    "lot_size": null,
+    "promoter_pre_pct": 100.0,
+    "rhp_page_promoter_pre_pct": 27,
+    "promoter_post_pct": null,
+    "retail_quota_pct": 35.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": null,
+    "eps_fy0": 10.1,
+    "rhp_page_eps_fy0": 148,
+    "ronw_fy0_pct": 58.18,
+    "rhp_page_ronw_fy0_pct": 149,
+    "nav_per_share_fy0": 22.49,
+    "rhp_page_nav_per_share_fy0": 149,
+    "fresh_issue_cr": 400.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 3.325,
+    "rhp_page_pre_issue_shares_cr": 104,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 104,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 285.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "OBEROIRLTY; SUNTECK; RUSTOMJEE; SHRIRAMPPS; MAHLIFE; DBREALTY; HUBTOWN",
+    "n_peers": 7,
+    "peer_pe_list": [
+      25.63,
+      4536.0,
+      70.83,
+      27.42,
+      77.87,
+      16.16
+    ],
+    "peer_ronw_list": [
+      16.83,
+      0.62,
+      6.29,
+      5.63,
+      5.64,
+      -5.93,
+      2.03
+    ],
+    "rhp_page_peers": 150
+  },
+  "extract": {
+    "company": "Suraj Estate Developers Limited",
+    "sector": "Infrastructure, construction & real estate",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 148
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 148
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 4000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 33250000.0,
+      "unit": "shares",
+      "page": 104
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 104
+    },
+    "promoter_pre_pct": {
+      "value": 100.0,
+      "unit": "percent",
+      "page": 27
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment/prepayment of outstanding borrowings of the Company and Subsidiaries Accord Estates, Iconic Property Developers and Skyline Realty",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 2850.0,
+          "unit": "million",
+          "page": 133
+        }
+      },
+      {
+        "purpose": "Acquisition of land or land development rights",
+        "category": "other",
+        "amount": {
+          "value": 350.0,
+          "unit": "million",
+          "page": 133
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 133
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "ITI Capital Limited",
+      "Anand Rathi Advisors Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023 (March 31, 2023)",
+    "revenue_fy2": {
+      "value": 2399.87,
+      "unit": "million",
+      "page": 108
+    },
+    "revenue_fy1": {
+      "value": 2727.18,
+      "unit": "million",
+      "page": 108
+    },
+    "revenue_fy0": {
+      "value": 3057.44,
+      "unit": "million",
+      "page": 108
+    },
+    "ebitda_fy2": {
+      "value": 866.29,
+      "unit": "million",
+      "page": 150
+    },
+    "ebitda_fy1": {
+      "value": 1317.33,
+      "unit": "million",
+      "page": 150
+    },
+    "ebitda_fy0": {
+      "value": 1510.03,
+      "unit": "million",
+      "page": 150
+    },
+    "pat_fy2": {
+      "value": 62.77,
+      "unit": "million",
+      "page": 108
+    },
+    "pat_fy1": {
+      "value": 265.04,
+      "unit": "million",
+      "page": 108
+    },
+    "pat_fy0": {
+      "value": 320.64,
+      "unit": "million",
+      "page": 108
+    },
+    "cfo_fy2": {
+      "value": -149.31,
+      "unit": "million",
+      "page": 109
+    },
+    "cfo_fy1": {
+      "value": 697.57,
+      "unit": "million",
+      "page": 109
+    },
+    "cfo_fy0": {
+      "value": 1885.25,
+      "unit": "million",
+      "page": 109
+    },
+    "net_worth_fy0": {
+      "value": 713.92,
+      "unit": "million",
+      "page": 107
+    },
+    "total_debt_fy0": {
+      "value": 5930.93,
+      "unit": "million",
+      "page": 27
+    },
+    "cash_fy0": {
+      "value": 121.05,
+      "unit": "million",
+      "page": 107
+    },
+    "eps_fy0": {
+      "value": 10.1,
+      "unit": "rupees",
+      "page": 148
+    },
+    "ronw_fy0_pct": {
+      "value": 58.18,
+      "unit": "percent",
+      "page": 149
+    },
+    "nav_per_share_fy0": {
+      "value": 22.49,
+      "unit": "rupees",
+      "page": 149
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 1024.1,
+      "unit": "million",
+      "page": 108
+    },
+    "pat_stub": {
+      "value": 145.28,
+      "unit": "million",
+      "page": 108
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Oberoi Realty Limited",
+        "nse_symbol": "OBEROIRLTY",
+        "pe": 25.63,
+        "ronw_pct": 16.83,
+        "page": 150
+      },
+      {
+        "name": "Sunteck Realty Limited",
+        "nse_symbol": "SUNTECK",
+        "pe": 4536.0,
+        "ronw_pct": 0.62,
+        "page": 150
+      },
+      {
+        "name": "Keystone Realtors Limited",
+        "nse_symbol": "RUSTOMJEE",
+        "pe": 70.83,
+        "ronw_pct": 6.29,
+        "page": 150
+      },
+      {
+        "name": "Shriram Properties Limited",
+        "nse_symbol": "SHRIRAMPPS",
+        "pe": 27.42,
+        "ronw_pct": 5.63,
+        "page": 150
+      },
+      {
+        "name": "Mahindra Lifespace Developers Limited",
+        "nse_symbol": "MAHLIFE",
+        "pe": 77.87,
+        "ronw_pct": 5.64,
+        "page": 150
+      },
+      {
+        "name": "D B Realty Limited",
+        "nse_symbol": "DBREALTY",
+        "pe": null,
+        "ronw_pct": -5.93,
+        "page": 150
+      },
+      {
+        "name": "Hubtown Limited",
+        "nse_symbol": "HUBTOWN",
+        "pe": 16.16,
+        "ronw_pct": 2.03,
+        "page": 150
+      }
+    ],
+    "notes": [
+      "The issue is a fresh issue only (no offer for sale). Price band, lot size and share counts are shown as [\u25cf] in the RHP.",
+      "promoter_pre_pct of 100.00% is the promoter plus promoter group total, and it includes Accord Estates Private Limited (4.51%), a subsidiary that is disclosed under the promoter group. The promoter, Rajan Meenathakonil Thomas, holds 82.05% on his own.",
+      "The pre-issue table lists 33,249,800 shares, but the capital structure gives 33,250,000 shares outstanding.",
+      "total_debt_fy0 of 5,930.93 is from the summary on page 27. It matches non-current borrowings of 3,457.27 plus short-term borrowings of 2,473.66 on page 107.",
+      "cash_fy0 is the balance-sheet cash and cash equivalents figure (121.05). The cash flow statement shows closing cash of 118.13, and other bank balances are 159.15.",
+      "Acquisition of land or land development rights (\u20b9350 million) is put under 'other'; for a real estate developer this is closer to inventory than to capex.",
+      "D B Realty's P/E is printed as -72.09 (negative), so it is set to null. Sunteck's P/E is printed as 4536.00, and the industry high on page 149 is printed as '4.536.00'.",
+      "EBITDA is taken from the KPI table: PBT plus finance cost plus D&A, less other income.",
+      "NSE symbols are not printed in the RHP; they were added from general knowledge."
+    ]
+  }
+}

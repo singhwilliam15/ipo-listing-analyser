@@ -1,0 +1,386 @@
+{
+  "symbol": "MOTISONS",
+  "rhp_file": "MOTISONS.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T21:01:35+00:00",
+  "pages_sent": [
+    1,
+    2,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    112,
+    113,
+    114,
+    115,
+    128,
+    129,
+    130,
+    131,
+    143,
+    144,
+    145,
+    146,
+    147,
+    354,
+    355,
+    356
+  ],
+  "n_pdf_pages": 492,
+  "usage": {
+    "input_tokens": 42653,
+    "output_tokens": 3399,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.37843659999999996,
+    "session_id": "d5e46453-6007-4d6d-ba93-67041070656d"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Motisons Jewellers Limited",
+    "sector": "Consumer & retail",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "FY2023 (March 31, 2023)",
+    "stub_period_months": 3,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "Holani Consultants Private Limited",
+    "revenue_fy2": 213.04009999999997,
+    "rhp_page_revenue_fy2": 100,
+    "revenue_fy1": 314.3301,
+    "rhp_page_revenue_fy1": 100,
+    "revenue_fy0": 366.1961,
+    "rhp_page_revenue_fy0": 100,
+    "ebitda_fy2": 31.1231,
+    "rhp_page_ebitda_fy2": 147,
+    "ebitda_fy1": 38.7477,
+    "rhp_page_ebitda_fy1": 147,
+    "ebitda_fy0": 49.6016,
+    "rhp_page_ebitda_fy0": 147,
+    "pat_fy2": 9.6717,
+    "rhp_page_pat_fy2": 100,
+    "pat_fy1": 14.7472,
+    "rhp_page_pat_fy1": 100,
+    "pat_fy0": 22.1958,
+    "rhp_page_pat_fy0": 100,
+    "cfo_fy2": 17.1344,
+    "rhp_page_cfo_fy2": 101,
+    "cfo_fy1": 6.110599999999999,
+    "rhp_page_cfo_fy1": 101,
+    "cfo_fy0": 3.8447,
+    "rhp_page_cfo_fy0": 101,
+    "net_worth_fy0": 137.3998,
+    "rhp_page_net_worth_fy0": 99,
+    "total_debt_fy0": null,
+    "rhp_page_total_debt_fy0": 99,
+    "cash_fy0": 2.6036,
+    "rhp_page_cash_fy0": 99,
+    "revenue_stub": 86.7283,
+    "rhp_page_revenue_stub": 100,
+    "pat_stub": 5.4776,
+    "rhp_page_pat_stub": 100,
+    "price_low": null,
+    "rhp_page_price_low": 144,
+    "price_high": null,
+    "rhp_page_price_high": 144,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": 35.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": 55.0,
+    "rhp_page_pre_ipo_price": 113,
+    "eps_fy0": 3.42,
+    "rhp_page_eps_fy0": 100,
+    "ronw_fy0_pct": 16.15,
+    "rhp_page_ronw_fy0_pct": 144,
+    "nav_per_share_fy0": 21.15,
+    "rhp_page_nav_per_share_fy0": 145,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": 2.7471,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 7.0975,
+    "rhp_page_pre_issue_shares_cr": 96,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 96,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 58.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "GOLDIAM; DPABHUSHAN; THANGAMAYL; RGL",
+    "n_peers": 4,
+    "peer_pe_list": [
+      27.55,
+      29.09,
+      24.08,
+      48.0
+    ],
+    "peer_ronw_list": [
+      20.9,
+      25.03,
+      20.51,
+      3.68
+    ],
+    "rhp_page_peers": 145
+  },
+  "extract": {
+    "company": "Motisons Jewellers Limited",
+    "sector": "Consumer & retail",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 144
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 144
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "lakh",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": 27471000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "lakh",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 70975000.0,
+      "unit": "shares",
+      "page": 96
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 96
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment of existing borrowings availed from scheduled commercial banks",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 5800.0,
+          "unit": "lakh",
+          "page": 128
+        }
+      },
+      {
+        "purpose": "Funding the working capital requirement of the Company",
+        "category": "other",
+        "amount": {
+          "value": 7100.0,
+          "unit": "lakh",
+          "page": 129
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "lakh",
+          "page": 129
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 55.0,
+      "unit": "rupees",
+      "page": 113
+    },
+    "lead_managers": [
+      "Holani Consultants Private Limited"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "FY2023 (March 31, 2023)",
+    "revenue_fy2": {
+      "value": 21304.01,
+      "unit": "lakh",
+      "page": 100
+    },
+    "revenue_fy1": {
+      "value": 31433.01,
+      "unit": "lakh",
+      "page": 100
+    },
+    "revenue_fy0": {
+      "value": 36619.61,
+      "unit": "lakh",
+      "page": 100
+    },
+    "ebitda_fy2": {
+      "value": 3112.31,
+      "unit": "lakh",
+      "page": 147
+    },
+    "ebitda_fy1": {
+      "value": 3874.77,
+      "unit": "lakh",
+      "page": 147
+    },
+    "ebitda_fy0": {
+      "value": 4960.16,
+      "unit": "lakh",
+      "page": 147
+    },
+    "pat_fy2": {
+      "value": 967.17,
+      "unit": "lakh",
+      "page": 100
+    },
+    "pat_fy1": {
+      "value": 1474.72,
+      "unit": "lakh",
+      "page": 100
+    },
+    "pat_fy0": {
+      "value": 2219.58,
+      "unit": "lakh",
+      "page": 100
+    },
+    "cfo_fy2": {
+      "value": 1713.44,
+      "unit": "lakh",
+      "page": 101
+    },
+    "cfo_fy1": {
+      "value": 611.06,
+      "unit": "lakh",
+      "page": 101
+    },
+    "cfo_fy0": {
+      "value": 384.47,
+      "unit": "lakh",
+      "page": 101
+    },
+    "net_worth_fy0": {
+      "value": 13739.98,
+      "unit": "lakh",
+      "page": 99
+    },
+    "total_debt_fy0": {
+      "value": null,
+      "unit": "lakh",
+      "page": 99
+    },
+    "cash_fy0": {
+      "value": 260.36,
+      "unit": "lakh",
+      "page": 99
+    },
+    "eps_fy0": {
+      "value": 3.42,
+      "unit": "rupees",
+      "page": 100
+    },
+    "ronw_fy0_pct": {
+      "value": 16.15,
+      "unit": "percent",
+      "page": 144
+    },
+    "nav_per_share_fy0": {
+      "value": 21.15,
+      "unit": "rupees",
+      "page": 145
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 8672.83,
+      "unit": "lakh",
+      "page": 100
+    },
+    "pat_stub": {
+      "value": 547.76,
+      "unit": "lakh",
+      "page": 100
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Goldiam International Limited",
+        "nse_symbol": "GOLDIAM",
+        "pe": 27.55,
+        "ronw_pct": 20.9,
+        "page": 145
+      },
+      {
+        "name": "DP Abhushan Limited",
+        "nse_symbol": "DPABHUSHAN",
+        "pe": 29.09,
+        "ronw_pct": 25.03,
+        "page": 145
+      },
+      {
+        "name": "Thangamayil Jewellery Limited",
+        "nse_symbol": "THANGAMAYL",
+        "pe": 24.08,
+        "ronw_pct": 20.51,
+        "page": 145
+      },
+      {
+        "name": "Renaissance Global Limited",
+        "nse_symbol": "RGL",
+        "pe": 48.0,
+        "ronw_pct": 3.68,
+        "page": 145
+      }
+    ],
+    "notes": [
+      "Company has no subsidiary; restated financials are standalone (capitalisation statement on p.354 refers to Restated Standalone).",
+      "Issue is 100% fresh issue; no offer for sale. Price band, lot size and post-issue shares are [\u25cf] in the RHP.",
+      "Total debt FY2023 is not printed as one figure: long-term borrowings 1,288.54 lakh and short-term borrowings 15,165.30 lakh (p.99). Left null so no calculation is made. Capitalisation statement shows total borrowings 17,229.81 lakh as of June 30, 2023 (p.356).",
+      "Pre-IPO placement: 60,00,000 equity shares at \u20b955 each (\u20b93,300 lakh), allotted October 19, 2023. This reduced the fresh issue from 3,34,71,000 to 2,74,71,000 shares and lowers the general corporate purposes amount by the same sum.",
+      "Working capital funding (7,100 lakh) categorised as 'other'; GCP amount is [\u25cf].",
+      "Promoter shareholding % is not on the pages provided.",
+      "Industry composite P/E is printed as 81.55. This does not match the four peer P/Es (24.08\u201348.00), whose arithmetic average would be about 32.",
+      "The RoNW table on p.144 labels the third year as March 31, 2022 twice. This is probably a typo for 2021 (9.58%).",
+      "Weighted average shares used for EPS/NAV is 6,49,75,000 and excludes the 60,00,000 pre-IPO placement shares.",
+      "NSE symbols for peers are inferred, not printed in the RHP."
+    ]
+  }
+}

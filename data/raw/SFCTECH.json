@@ -1,0 +1,459 @@
+{
+  "symbol": "SFCTECH",
+  "rhp_file": "SFCTECH.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:15:57+00:00",
+  "pages_sent": [
+    1,
+    2,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    127,
+    128,
+    129,
+    130,
+    168,
+    169,
+    170,
+    171,
+    183,
+    184,
+    185,
+    186,
+    187,
+    513,
+    514,
+    515
+  ],
+  "n_pdf_pages": 658,
+  "usage": {
+    "input_tokens": 42594,
+    "output_tokens": 3981,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.38959979999999994,
+    "session_id": "6e26791d-2a21-4181-92c3-1367f2ffe046"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "SFC Environmental Technologies Limited",
+    "sector": "Industrials & capital goods",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026 (March 31, 2026)",
+    "stub_period_months": 3,
+    "pre_ipo_placement": null,
+    "lead_managers": "IIFL Capital Services Limited; JM Financial Limited; Nuvama Wealth Management Limited",
+    "revenue_fy2": 657.495,
+    "rhp_page_revenue_fy2": 94,
+    "revenue_fy1": 697.858,
+    "rhp_page_revenue_fy1": 94,
+    "revenue_fy0": 803.629,
+    "rhp_page_revenue_fy0": 94,
+    "ebitda_fy2": 193.254,
+    "rhp_page_ebitda_fy2": 513,
+    "ebitda_fy1": 207.48000000000002,
+    "rhp_page_ebitda_fy1": 513,
+    "ebitda_fy0": 235.812,
+    "rhp_page_ebitda_fy0": 513,
+    "pat_fy2": 144.173,
+    "rhp_page_pat_fy2": 94,
+    "pat_fy1": 152.008,
+    "rhp_page_pat_fy1": 94,
+    "pat_fy0": 160.213,
+    "rhp_page_pat_fy0": 94,
+    "cfo_fy2": -11.694,
+    "rhp_page_cfo_fy2": 96,
+    "cfo_fy1": 65.509,
+    "rhp_page_cfo_fy1": 96,
+    "cfo_fy0": -25.801999999999996,
+    "rhp_page_cfo_fy0": 96,
+    "net_worth_fy0": 804.173,
+    "rhp_page_net_worth_fy0": 92,
+    "total_debt_fy0": null,
+    "rhp_page_total_debt_fy0": 92,
+    "cash_fy0": 40.506,
+    "rhp_page_cash_fy0": 92,
+    "revenue_stub": 133.944,
+    "rhp_page_revenue_stub": 94,
+    "pat_stub": 1.484,
+    "rhp_page_pat_stub": 94,
+    "price_low": null,
+    "rhp_page_price_low": 185,
+    "price_high": null,
+    "rhp_page_price_high": 185,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "rhp_page_retail_quota_pct": 90,
+    "pre_ipo_price": null,
+    "eps_fy0": 16.52,
+    "rhp_page_eps_fy0": 95,
+    "ronw_fy0_pct": 21.25,
+    "rhp_page_ronw_fy0_pct": 185,
+    "nav_per_share_fy0": 86.09,
+    "rhp_page_nav_per_share_fy0": 186,
+    "fresh_issue_cr": 150.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 1.568275,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 9.341127,
+    "rhp_page_pre_issue_shares_cr": 90,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 90,
+    "ofs_promoter_shares_cr": 0.46699999999999997,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 42.228,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "THERMAX; PRAJIND; IONEXCHANG",
+    "n_peers": 3,
+    "peer_pe_list": [
+      52.01,
+      220.77,
+      31.34
+    ],
+    "peer_ronw_list": [
+      13.74,
+      1.77,
+      11.2
+    ],
+    "rhp_page_peers": 186
+  },
+  "extract": {
+    "company": "SFC Environmental Technologies Limited",
+    "sector": "Industrials & capital goods",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 185
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 185
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 1500.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 15682750.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Sandeep Sudhakar Asolkar (held jointly with Priya Sandeep Asolkar)",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 934000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Saketchandrasingh Pratapsingh Dhandoriya",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 3736000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Sarvesh Kumar Garg",
+        "kind": "other",
+        "shares_offered": {
+          "value": 3565000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Sandeep Sambhaji Parab",
+        "kind": "other",
+        "shares_offered": {
+          "value": 2136000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Rajesh Kesavan Nambisan",
+        "kind": "other",
+        "shares_offered": {
+          "value": 2136000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Kumaraguru Madurakavi",
+        "kind": "other",
+        "shares_offered": {
+          "value": 2136000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Veera Venkata Satyanarayana Yannamani",
+        "kind": "other",
+        "shares_offered": {
+          "value": 933000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Jayshree Harit Shah (held jointly with Harit Pragji Shah)",
+        "kind": "other",
+        "shares_offered": {
+          "value": 70000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Hardik Suresh Matalia",
+        "kind": "other",
+        "shares_offered": {
+          "value": 36750.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 93411270.0,
+      "unit": "shares",
+      "page": 90
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 90
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Prepayment of all or a portion of certain outstanding borrowings of the Company and wholly owned subsidiary Vasudha Waste Treatment Private Limited",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 422.28,
+          "unit": "million",
+          "page": 169
+        }
+      },
+      {
+        "purpose": "Funding working capital requirements",
+        "category": "other",
+        "amount": {
+          "value": 749.17,
+          "unit": "million",
+          "page": 169
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 169
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 90
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "IIFL Capital Services Limited",
+      "JM Financial Limited",
+      "Nuvama Wealth Management Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026 (March 31, 2026)",
+    "revenue_fy2": {
+      "value": 6574.95,
+      "unit": "million",
+      "page": 94
+    },
+    "revenue_fy1": {
+      "value": 6978.58,
+      "unit": "million",
+      "page": 94
+    },
+    "revenue_fy0": {
+      "value": 8036.29,
+      "unit": "million",
+      "page": 94
+    },
+    "ebitda_fy2": {
+      "value": 1932.54,
+      "unit": "million",
+      "page": 513
+    },
+    "ebitda_fy1": {
+      "value": 2074.8,
+      "unit": "million",
+      "page": 513
+    },
+    "ebitda_fy0": {
+      "value": 2358.12,
+      "unit": "million",
+      "page": 513
+    },
+    "pat_fy2": {
+      "value": 1441.73,
+      "unit": "million",
+      "page": 94
+    },
+    "pat_fy1": {
+      "value": 1520.08,
+      "unit": "million",
+      "page": 94
+    },
+    "pat_fy0": {
+      "value": 1602.13,
+      "unit": "million",
+      "page": 94
+    },
+    "cfo_fy2": {
+      "value": -116.94,
+      "unit": "million",
+      "page": 96
+    },
+    "cfo_fy1": {
+      "value": 655.09,
+      "unit": "million",
+      "page": 96
+    },
+    "cfo_fy0": {
+      "value": -258.02,
+      "unit": "million",
+      "page": 96
+    },
+    "net_worth_fy0": {
+      "value": 8041.73,
+      "unit": "million",
+      "page": 92
+    },
+    "total_debt_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": 92
+    },
+    "cash_fy0": {
+      "value": 405.06,
+      "unit": "million",
+      "page": 92
+    },
+    "eps_fy0": {
+      "value": 16.52,
+      "unit": "rupees",
+      "page": 95
+    },
+    "ronw_fy0_pct": {
+      "value": 21.25,
+      "unit": "percent",
+      "page": 185
+    },
+    "nav_per_share_fy0": {
+      "value": 86.09,
+      "unit": "rupees",
+      "page": 186
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 1339.44,
+      "unit": "million",
+      "page": 94
+    },
+    "pat_stub": {
+      "value": 14.84,
+      "unit": "million",
+      "page": 94
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Thermax Limited",
+        "nse_symbol": "THERMAX",
+        "pe": 52.01,
+        "ronw_pct": 13.74,
+        "page": 186
+      },
+      {
+        "name": "Praj Industries Limited",
+        "nse_symbol": "PRAJIND",
+        "pe": 220.77,
+        "ronw_pct": 1.77,
+        "page": 186
+      },
+      {
+        "name": "Ion Exchange (India) Limited",
+        "nse_symbol": "IONEXCHANG",
+        "pe": 31.34,
+        "ronw_pct": 11.2,
+        "page": 186
+      }
+    ],
+    "notes": [
+      "Total borrowings for March 31, 2026 are not printed as one figure. The balance sheet (pages 92-93) shows non-current borrowings of 390.89 and current borrowings of 1,565.47 (\u20b9 million), so total_debt_fy0 is left null rather than calculated. The capitalisation statement gives total borrowings of 2,047.65 as of June 30, 2026 (stub), with a non-current/current split of 469.18/1,578.47. That split differs from the June 30, 2026 balance sheet (364.84/1,682.81), although the totals match.",
+      "The price band, lot size, fresh issue share count and post-offer shares are all [\u25cf] (not yet fixed) in the RHP.",
+      "Promoter shareholding before and after the offer is not on the pages provided.",
+      "The retail quota percentage is not stated on the pages provided (Offer Structure on page 590 is not included).",
+      "EBITDA is the 'Operating EBITDA' figure from Other Financial Information / KPIs. It excludes other income and share of profit of joint ventures and associate.",
+      "PAT is restated profit after tax including non-controlling interests. Profit attributable to owners for FY2026 is 1,543.61.",
+      "The working capital object is put under 'other'.",
+      "Whether there was any pre-IPO placement cannot be determined from the pages provided. The capital history pages are incomplete.",
+      "NSE symbols for the peers are inferred; they are not printed in the RHP."
+    ]
+  }
+}

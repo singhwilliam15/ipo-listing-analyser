@@ -1,0 +1,416 @@
+{
+  "symbol": "PWL",
+  "rhp_file": "PWL.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:04:45+00:00",
+  "pages_sent": [
+    1,
+    2,
+    30,
+    31,
+    32,
+    33,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    136,
+    137,
+    138,
+    163,
+    164,
+    191,
+    192,
+    193,
+    487,
+    488,
+    489
+  ],
+  "n_pdf_pages": 669,
+  "usage": {
+    "input_tokens": 36988,
+    "output_tokens": 3983,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3442314,
+    "session_id": "0610343f-df31-461c-81a2-f520be13f02a"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "PhysicsWallah Limited",
+    "sector": "Media, education & services",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "stub_period_months": 3,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "Kotak Mahindra Capital Company Limited; J.P. Morgan India Private Limited; Goldman Sachs (India) Securities Private Limited; Axis Capital Limited",
+    "revenue_fy2": 744.318,
+    "rhp_page_revenue_fy2": 121,
+    "revenue_fy1": 1940.71,
+    "rhp_page_revenue_fy1": 121,
+    "revenue_fy0": 2886.643,
+    "rhp_page_revenue_fy0": 121,
+    "ebitda_fy2": 13.858,
+    "rhp_page_ebitda_fy2": 487,
+    "ebitda_fy1": -829.3459999999999,
+    "rhp_page_ebitda_fy1": 487,
+    "ebitda_fy0": 193.195,
+    "rhp_page_ebitda_fy0": 487,
+    "pat_fy2": -84.075,
+    "rhp_page_pat_fy2": 121,
+    "pat_fy1": -1131.13,
+    "rhp_page_pat_fy1": 121,
+    "pat_fy0": -243.258,
+    "rhp_page_pat_fy0": 121,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 1524.554,
+    "rhp_page_net_worth_fy0": 119,
+    "total_debt_fy0": null,
+    "rhp_page_total_debt_fy0": 119,
+    "cash_fy0": 53.709,
+    "rhp_page_cash_fy0": 119,
+    "revenue_stub": 847.0879999999999,
+    "rhp_page_revenue_stub": 121,
+    "pat_stub": -127.009,
+    "rhp_page_pat_stub": 121,
+    "price_low": null,
+    "rhp_page_price_low": 193,
+    "price_high": null,
+    "rhp_page_price_high": 193,
+    "lot_size": null,
+    "promoter_pre_pct": 80.62,
+    "rhp_page_promoter_pre_pct": 32,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 33,
+    "retail_quota_pct": null,
+    "pre_ipo_price": 3032.65,
+    "rhp_page_pre_ipo_price": 138,
+    "eps_fy0": -0.86,
+    "rhp_page_eps_fy0": 192,
+    "ronw_fy0_pct": -12.5,
+    "rhp_page_ronw_fy0_pct": 193,
+    "nav_per_share_fy0": 7.73,
+    "rhp_page_nav_per_share_fy0": 193,
+    "fresh_issue_cr": 3100.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": 380.0,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 257.5223963,
+    "rhp_page_pre_issue_shares_cr": 116,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 116,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 492.199,
+    "proceeds_gcp_cr": 0.0,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "PhysicsWallah Limited",
+    "sector": "Media, education & services",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 193
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 193
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 31000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": 3800.0,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Alakh Pandey",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Prateek Boob",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 2575223963.0,
+      "unit": "shares",
+      "page": 116
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 116
+    },
+    "promoter_pre_pct": {
+      "value": 80.62,
+      "unit": "percent",
+      "page": 32
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 33
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Capital expenditure for fit-outs of new offline and hybrid centers of the Company",
+        "category": "capex",
+        "amount": {
+          "value": 4605.51,
+          "unit": "million",
+          "page": 163
+        }
+      },
+      {
+        "purpose": "Lease payments of existing identified offline and hybrid centers",
+        "category": "other",
+        "amount": {
+          "value": 5483.08,
+          "unit": "million",
+          "page": 163
+        }
+      },
+      {
+        "purpose": "Investment in Xylem Learning: capex for fit-outs of new Xylem offline centers",
+        "category": "capex",
+        "amount": {
+          "value": 316.48,
+          "unit": "million",
+          "page": 163
+        }
+      },
+      {
+        "purpose": "Investment in Xylem Learning: lease payments for existing offline centers and hostels",
+        "category": "other",
+        "amount": {
+          "value": 155.2,
+          "unit": "million",
+          "page": 163
+        }
+      },
+      {
+        "purpose": "Investment in Utkarsh Classes for lease payments of existing offline centers",
+        "category": "other",
+        "amount": {
+          "value": 280.02,
+          "unit": "million",
+          "page": 163
+        }
+      },
+      {
+        "purpose": "Server and cloud related infrastructure costs",
+        "category": "other",
+        "amount": {
+          "value": 2001.06,
+          "unit": "million",
+          "page": 163
+        }
+      },
+      {
+        "purpose": "Marketing initiatives",
+        "category": "other",
+        "amount": {
+          "value": 7100.0,
+          "unit": "million",
+          "page": 163
+        }
+      },
+      {
+        "purpose": "Acquisition of additional shareholding in Utkarsh Classes & Edutech",
+        "category": "other",
+        "amount": {
+          "value": 265.0,
+          "unit": "million",
+          "page": 163
+        }
+      },
+      {
+        "purpose": "Inorganic growth through unidentified acquisitions and general corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 163
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 3032.65,
+      "unit": "rupees",
+      "page": 138
+    },
+    "lead_managers": [
+      "Kotak Mahindra Capital Company Limited",
+      "J.P. Morgan India Private Limited",
+      "Goldman Sachs (India) Securities Private Limited",
+      "Axis Capital Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "revenue_fy2": {
+      "value": 7443.18,
+      "unit": "million",
+      "page": 121
+    },
+    "revenue_fy1": {
+      "value": 19407.1,
+      "unit": "million",
+      "page": 121
+    },
+    "revenue_fy0": {
+      "value": 28866.43,
+      "unit": "million",
+      "page": 121
+    },
+    "ebitda_fy2": {
+      "value": 138.58,
+      "unit": "million",
+      "page": 487
+    },
+    "ebitda_fy1": {
+      "value": -8293.46,
+      "unit": "million",
+      "page": 487
+    },
+    "ebitda_fy0": {
+      "value": 1931.95,
+      "unit": "million",
+      "page": 487
+    },
+    "pat_fy2": {
+      "value": -840.75,
+      "unit": "million",
+      "page": 121
+    },
+    "pat_fy1": {
+      "value": -11311.3,
+      "unit": "million",
+      "page": 121
+    },
+    "pat_fy0": {
+      "value": -2432.58,
+      "unit": "million",
+      "page": 121
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 15245.54,
+      "unit": "million",
+      "page": 119
+    },
+    "total_debt_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": 119
+    },
+    "cash_fy0": {
+      "value": 537.09,
+      "unit": "million",
+      "page": 119
+    },
+    "eps_fy0": {
+      "value": -0.86,
+      "unit": "rupees",
+      "page": 192
+    },
+    "ronw_fy0_pct": {
+      "value": -12.5,
+      "unit": "percent",
+      "page": 193
+    },
+    "nav_per_share_fy0": {
+      "value": 7.73,
+      "unit": "rupees",
+      "page": 193
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 8470.88,
+      "unit": "million",
+      "page": 121
+    },
+    "pat_stub": {
+      "value": -1270.09,
+      "unit": "million",
+      "page": 121
+    },
+    "no_listed_peers": true,
+    "peers": [],
+    "notes": [
+      "Price band, lot size, and share counts for the fresh issue and OFS are not in these pages (printed as [\u25cf]). Each promoter is selling shares worth up to \u20b91,900 million.",
+      "Total borrowings at March 31, 2025 are not printed as a single total. The balance sheet on page 119 shows non-current borrowings of 2.40 and current borrowings of 0.87 (\u20b9 million), so total_debt_fy0 is left null. The capitalisation statement gives total borrowings of 15.46 for June 30, 2025.",
+      "Cash flow statement pages were not provided, so CFO is null for all years.",
+      "Promoter holding of 80.62% is pre-offer on a fully diluted basis, which assumes 32,732,975 ESOP shares are issued. Post-offer holding is [\u25cf].",
+      "Retail quota % is not printed in these pages. Only the 'not more than 15%' Non-Institutional cap appears.",
+      "Pre-IPO: on Dec 23, 2024, 101,200 shares were issued at \u20b93,032.65 per share for consideration other than cash. This was before the 35:1 bonus. There were also ESOP allotments and a conversion of preference shares into 367,314,263 equity shares in October 2025.",
+      "The Basis for Offer Price section says there are no comparable listed peers in India or abroad.",
+      "Net worth fy0 is 'equity attributable to equity holders of the parent'. Total equity including NCI is 15,535.11. RoNW for FY2024 is NA because net worth was negative.",
+      "The Xylem investment of 471.68 is split into capex (316.48) and lease payments (155.20). Lease, server/cloud, marketing and acquisition objects are classed as 'other'."
+    ]
+  }
+}

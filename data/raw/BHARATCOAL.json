@@ -1,0 +1,346 @@
+{
+  "symbol": "BHARATCOAL",
+  "rhp_file": "BHARATCOAL.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:01:48+00:00",
+  "pages_sent": [
+    1,
+    2,
+    28,
+    29,
+    30,
+    31,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    110,
+    111,
+    112,
+    124,
+    125,
+    127,
+    128,
+    129,
+    425,
+    426,
+    465
+  ],
+  "n_pdf_pages": 598,
+  "usage": {
+    "input_tokens": 45967,
+    "output_tokens": 3205,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.4014016,
+    "session_id": "6e1c824b-cc46-48ab-bcf8-ad2eadeabb2c"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Bharat Coking Coal Limited",
+    "sector": "Energy, power & renewables",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "stub_period_months": 6,
+    "pre_ipo_placement": "no",
+    "lead_managers": "IDBI Capital Markets & Securities Limited; ICICI Securities Limited",
+    "revenue_fy2": 12624.06,
+    "rhp_page_revenue_fy2": 94,
+    "revenue_fy1": 14245.86,
+    "rhp_page_revenue_fy1": 94,
+    "revenue_fy0": 13802.55,
+    "rhp_page_revenue_fy0": 94,
+    "ebitda_fy2": 891.31,
+    "rhp_page_ebitda_fy2": 425,
+    "ebitda_fy1": 2493.89,
+    "rhp_page_ebitda_fy1": 425,
+    "ebitda_fy0": 2356.06,
+    "rhp_page_ebitda_fy0": 425,
+    "pat_fy2": 664.78,
+    "rhp_page_pat_fy2": 94,
+    "pat_fy1": 1564.46,
+    "rhp_page_pat_fy1": 94,
+    "pat_fy0": 1240.19,
+    "rhp_page_pat_fy0": 94,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 6462.73,
+    "rhp_page_net_worth_fy0": 93,
+    "total_debt_fy0": 0.0,
+    "rhp_page_total_debt_fy0": 30,
+    "cash_fy0": 167.54,
+    "rhp_page_cash_fy0": 92,
+    "revenue_stub": 5659.02,
+    "rhp_page_revenue_stub": 94,
+    "pat_stub": 123.88,
+    "rhp_page_pat_stub": 94,
+    "price_low": null,
+    "rhp_page_price_low": 128,
+    "price_high": null,
+    "rhp_page_price_high": 128,
+    "lot_size": null,
+    "promoter_pre_pct": 100.0,
+    "rhp_page_promoter_pre_pct": 29,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 30,
+    "retail_quota_pct": 35.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": null,
+    "eps_fy0": 2.66,
+    "rhp_page_eps_fy0": 127,
+    "ronw_fy0_pct": 20.83,
+    "rhp_page_ronw_fy0_pct": 128,
+    "nav_per_share_fy0": 14.07,
+    "rhp_page_nav_per_share_fy0": 128,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 46.57,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 465.7,
+    "rhp_page_pre_issue_shares_cr": 89,
+    "post_issue_shares_cr": 465.7,
+    "rhp_page_post_issue_shares_cr": 89,
+    "ofs_promoter_shares_cr": 46.57,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": null,
+    "proceeds_capex_cr": null,
+    "proceeds_gcp_cr": null,
+    "peers": "Alpha Metallurgical Resources, Inc; Warrior Met Coal, Inc.",
+    "n_peers": 2,
+    "peer_pe_list": [
+      14.87,
+      19.44
+    ],
+    "peer_ronw_list": [
+      11.48,
+      12.82
+    ],
+    "rhp_page_peers": 129
+  },
+  "extract": {
+    "company": "Bharat Coking Coal Limited",
+    "sector": "Energy, power & renewables",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 128
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 128
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 465700000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Coal India Limited",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 465700000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 4657000000.0,
+      "unit": "shares",
+      "page": 89
+    },
+    "post_issue_shares": {
+      "value": 4657000000.0,
+      "unit": "shares",
+      "page": 89
+    },
+    "promoter_pre_pct": {
+      "value": 100.0,
+      "unit": "percent",
+      "page": 29
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 30
+    },
+    "objects_of_offer": [],
+    "retail_quota_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "IDBI Capital Markets & Securities Limited",
+      "ICICI Securities Limited"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "revenue_fy2": {
+      "value": 126240.6,
+      "unit": "million",
+      "page": 94
+    },
+    "revenue_fy1": {
+      "value": 142458.6,
+      "unit": "million",
+      "page": 94
+    },
+    "revenue_fy0": {
+      "value": 138025.5,
+      "unit": "million",
+      "page": 94
+    },
+    "ebitda_fy2": {
+      "value": 8913.1,
+      "unit": "million",
+      "page": 425
+    },
+    "ebitda_fy1": {
+      "value": 24938.9,
+      "unit": "million",
+      "page": 425
+    },
+    "ebitda_fy0": {
+      "value": 23560.6,
+      "unit": "million",
+      "page": 425
+    },
+    "pat_fy2": {
+      "value": 6647.8,
+      "unit": "million",
+      "page": 94
+    },
+    "pat_fy1": {
+      "value": 15644.6,
+      "unit": "million",
+      "page": 94
+    },
+    "pat_fy0": {
+      "value": 12401.9,
+      "unit": "million",
+      "page": 94
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 64627.3,
+      "unit": "million",
+      "page": 93
+    },
+    "total_debt_fy0": {
+      "value": 0.0,
+      "unit": "million",
+      "page": 30
+    },
+    "cash_fy0": {
+      "value": 1675.4,
+      "unit": "million",
+      "page": 92
+    },
+    "eps_fy0": {
+      "value": 2.66,
+      "unit": "rupees",
+      "page": 127
+    },
+    "ronw_fy0_pct": {
+      "value": 20.83,
+      "unit": "percent",
+      "page": 128
+    },
+    "nav_per_share_fy0": {
+      "value": 14.07,
+      "unit": "rupees",
+      "page": 128
+    },
+    "stub_period_months": 6,
+    "revenue_stub": {
+      "value": 56590.2,
+      "unit": "million",
+      "page": 94
+    },
+    "pat_stub": {
+      "value": 1238.8,
+      "unit": "million",
+      "page": 94
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Alpha Metallurgical Resources, Inc",
+        "nse_symbol": null,
+        "pe": 14.87,
+        "ronw_pct": 11.48,
+        "page": 129
+      },
+      {
+        "name": "Warrior Met Coal, Inc.",
+        "nse_symbol": null,
+        "pe": 19.44,
+        "ronw_pct": 12.82,
+        "page": 129
+      }
+    ],
+    "notes": [
+      "Pure offer for sale by Coal India Limited (promoter); no fresh issue, so the company gets no proceeds and objects_of_offer is left empty.",
+      "Price band, lot size, offer amount and post-offer promoter holding are shown as [\u25cf] in the RHP.",
+      "The pages call the financials 'Restated Financial Information' and never say 'consolidated'. Non-controlling interest is nil and no subsidiaries appear, so the basis is treated as standalone. This is an assumption.",
+      "Total borrowings for FY2025 are printed as 'Nil' in the summary (p.30) and as '-' in the balance sheet (p.93), so the value is recorded as 0. Borrowings at Sep 30, 2025 are 15,591.30 million.",
+      "Net worth uses total equity attributable to owners, 64,627.30 million (p.93). The summary table shows net worth as 65,512.30 million (p.30), which excludes the OCI re-measurement reserve.",
+      "Cash flow statement pages were not provided, so CFO is null.",
+      "There are no Indian listed peers. The peers are NYSE-listed Alpha Metallurgical Resources and Warrior Met Coal, with figures converted from US$, and they have no NSE symbols.",
+      "Retail quota is 'not less than 35% of the Net Offer'. Employee reservation is 23,285,000 shares and shareholder reservation is 46,570,000 shares.",
+      "No allotments in the last 12 months. The face value was sub-divided from \u20b91,000 to \u20b910 in April 2025; this is not a placement.",
+      "Promoter holding is 100% held by Coal India Limited, including 600 shares held by nominees."
+    ]
+  }
+}

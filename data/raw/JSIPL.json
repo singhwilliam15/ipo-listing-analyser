@@ -1,0 +1,367 @@
+{
+  "symbol": "JSIPL",
+  "rhp_file": "JSIPL.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:20:43+00:00",
+  "pages_sent": [
+    1,
+    2,
+    23,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    78,
+    79,
+    80,
+    97,
+    98,
+    106,
+    107,
+    108,
+    287,
+    288
+  ],
+  "n_pdf_pages": 400,
+  "usage": {
+    "input_tokens": 30427,
+    "output_tokens": 3402,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.2794659,
+    "session_id": "596e96cb-380a-46ca-b7ee-1bc023b3c106"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Jindal Supreme (India) Limited",
+    "sector": "Chemicals & materials",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "Fiscal 2026 (March 31, 2026)",
+    "stub_period_months": 3,
+    "pre_ipo_placement": null,
+    "lead_managers": "Sarthi Capital Advisors Private Limited",
+    "revenue_fy2": 645.4398,
+    "rhp_page_revenue_fy2": 65,
+    "revenue_fy1": 586.3993,
+    "rhp_page_revenue_fy1": 65,
+    "revenue_fy0": 675.3872,
+    "rhp_page_revenue_fy0": 65,
+    "ebitda_fy2": 21.1086,
+    "rhp_page_ebitda_fy2": 108,
+    "ebitda_fy1": 25.9217,
+    "rhp_page_ebitda_fy1": 108,
+    "ebitda_fy0": 41.62899999999999,
+    "rhp_page_ebitda_fy0": 108,
+    "pat_fy2": 12.8728,
+    "rhp_page_pat_fy2": 65,
+    "pat_fy1": 24.2684,
+    "rhp_page_pat_fy1": 65,
+    "pat_fy0": 22.5291,
+    "rhp_page_pat_fy0": 65,
+    "cfo_fy2": 20.2002,
+    "rhp_page_cfo_fy2": 66,
+    "cfo_fy1": 5.7398,
+    "rhp_page_cfo_fy1": 66,
+    "cfo_fy0": -5.6873,
+    "rhp_page_cfo_fy0": 66,
+    "net_worth_fy0": 96.8248,
+    "rhp_page_net_worth_fy0": 64,
+    "total_debt_fy0": null,
+    "rhp_page_total_debt_fy0": 64,
+    "cash_fy0": 0.012,
+    "rhp_page_cash_fy0": 64,
+    "revenue_stub": 190.93650000000002,
+    "rhp_page_revenue_stub": 65,
+    "pat_stub": 8.2758,
+    "rhp_page_pat_stub": 65,
+    "price_low": null,
+    "rhp_page_price_low": 107,
+    "price_high": null,
+    "rhp_page_price_high": 107,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 5.59,
+    "rhp_page_eps_fy0": 65,
+    "ronw_fy0_pct": 26.28,
+    "rhp_page_ronw_fy0_pct": 107,
+    "nav_per_share_fy0": 24.04,
+    "rhp_page_nav_per_share_fy0": 107,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": 1.0741149,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.2686851,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 4.028262,
+    "rhp_page_pre_issue_shares_cr": 61,
+    "post_issue_shares_cr": 5.1023769,
+    "rhp_page_post_issue_shares_cr": 61,
+    "ofs_promoter_shares_cr": 0.2686851,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 71.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "Vibhor Steel Tubes Limited; Sambhv Steel Tubes Limited; Hi-Tech Pipes Limited",
+    "n_peers": 3,
+    "peer_pe_list": [
+      23.06,
+      65.55,
+      22.31
+    ],
+    "peer_ronw_list": [
+      4.57,
+      18.35,
+      6.07
+    ],
+    "rhp_page_peers": 108
+  },
+  "extract": {
+    "company": "Jindal Supreme (India) Limited",
+    "sector": "Chemicals & materials",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": 107
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": 107
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "lakh",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": 10741149.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "lakh",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 2686851.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "VVJ Enterprise Private Limited (previously known as J J Jindal Infin Private Limited)",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 2686851.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 40282620.0,
+      "unit": "shares",
+      "page": 61
+    },
+    "post_issue_shares": {
+      "value": 51023769.0,
+      "unit": "shares",
+      "page": 61
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment/pre-payment, in full or in part, of certain outstanding borrowings availed by the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 7100.0,
+          "unit": "lakh",
+          "page": 97
+        }
+      },
+      {
+        "purpose": "General Corporate Purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "lakh",
+          "page": 97
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lead_managers": [
+      "Sarthi Capital Advisors Private Limited"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "Fiscal 2026 (March 31, 2026)",
+    "revenue_fy2": {
+      "value": 64543.98,
+      "unit": "lakh",
+      "page": 65
+    },
+    "revenue_fy1": {
+      "value": 58639.93,
+      "unit": "lakh",
+      "page": 65
+    },
+    "revenue_fy0": {
+      "value": 67538.72,
+      "unit": "lakh",
+      "page": 65
+    },
+    "ebitda_fy2": {
+      "value": 2110.86,
+      "unit": "lakh",
+      "page": 108
+    },
+    "ebitda_fy1": {
+      "value": 2592.17,
+      "unit": "lakh",
+      "page": 108
+    },
+    "ebitda_fy0": {
+      "value": 4162.9,
+      "unit": "lakh",
+      "page": 108
+    },
+    "pat_fy2": {
+      "value": 1287.28,
+      "unit": "lakh",
+      "page": 65
+    },
+    "pat_fy1": {
+      "value": 2426.84,
+      "unit": "lakh",
+      "page": 65
+    },
+    "pat_fy0": {
+      "value": 2252.91,
+      "unit": "lakh",
+      "page": 65
+    },
+    "cfo_fy2": {
+      "value": 2020.02,
+      "unit": "lakh",
+      "page": 66
+    },
+    "cfo_fy1": {
+      "value": 573.98,
+      "unit": "lakh",
+      "page": 66
+    },
+    "cfo_fy0": {
+      "value": -568.73,
+      "unit": "lakh",
+      "page": 66
+    },
+    "net_worth_fy0": {
+      "value": 9682.48,
+      "unit": "lakh",
+      "page": 64
+    },
+    "total_debt_fy0": {
+      "value": null,
+      "unit": "lakh",
+      "page": 64
+    },
+    "cash_fy0": {
+      "value": 1.2,
+      "unit": "lakh",
+      "page": 64
+    },
+    "eps_fy0": {
+      "value": 5.59,
+      "unit": "rupees",
+      "page": 65
+    },
+    "ronw_fy0_pct": {
+      "value": 26.28,
+      "unit": "percent",
+      "page": 107
+    },
+    "nav_per_share_fy0": {
+      "value": 24.04,
+      "unit": "rupees",
+      "page": 107
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 19093.65,
+      "unit": "lakh",
+      "page": 65
+    },
+    "pat_stub": {
+      "value": 827.58,
+      "unit": "lakh",
+      "page": 65
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Vibhor Steel Tubes Limited",
+        "nse_symbol": null,
+        "pe": 23.06,
+        "ronw_pct": 4.57,
+        "page": 108
+      },
+      {
+        "name": "Sambhv Steel Tubes Limited",
+        "nse_symbol": null,
+        "pe": 65.55,
+        "ronw_pct": 18.35,
+        "page": 108
+      },
+      {
+        "name": "Hi-Tech Pipes Limited",
+        "nse_symbol": null,
+        "pe": 22.31,
+        "ronw_pct": 6.07,
+        "page": 108
+      }
+    ],
+    "notes": [
+      "The financial statements are called 'Restated Financial Information' and are never labelled consolidated, and no subsidiaries are mentioned, so I treated them as standalone.",
+      "total_debt_fy0 is left null because no single total-borrowings figure is printed for March 31, 2026. The balance sheet gives non-current borrowings of 2,041.38 lakh and current borrowings of 9,945.44 lakh (page 64). Total borrowings at June 30, 2026 were 9,246.07 lakh (pages 98 and 288).",
+      "The price band, lot size, issue amounts, retail quota and promoter holding percentages are not printed on these pages, or are shown as [\u25cf].",
+      "In the peer table, the company's FY2026 sales are given as 67,597.04 lakh. Total income in the profit and loss statement is 67,594.04 lakh and revenue from operations is 67,538.72 lakh.",
+      "The KPI table gives FY2024 EPS as 3.17, but the profit and loss statement and the EPS table give 3.20.",
+      "Page 107 says peer financials are sourced from Fiscal 2025 annual reports, but page 108 says they are based on audited Fiscal 2026 results.",
+      "Share capital rose from 191.82 lakh (FY2025) to 4,028.26 lakh (FY2026), possibly from a bonus issue. The allotment details on the pages provided stop at 1977, so I could not confirm whether there was a pre-IPO placement.",
+      "No NSE symbols are given for the peers."
+    ]
+  }
+}

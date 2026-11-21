@@ -1,0 +1,374 @@
+{
+  "symbol": "AWFIS",
+  "rhp_file": "AWFIS.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-21T06:06:51+00:00",
+  "pages_sent": [
+    1,
+    2,
+    27,
+    28,
+    29,
+    30,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    90,
+    91,
+    92,
+    118,
+    119,
+    134,
+    135,
+    136,
+    366,
+    367,
+    393
+  ],
+  "n_pdf_pages": 506,
+  "usage": {
+    "input_tokens": 39380,
+    "output_tokens": 3498,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.353907,
+    "session_id": "69ab92fa-7969-4bcf-a2e8-5d0da3f03651"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Awfis Space Solutions Limited",
+    "sector": "Infrastructure, construction & real estate",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023 (March 31, 2023)",
+    "stub_period_months": 9,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "ICICI Securities Limited; Axis Capital Limited; IIFL Securities Limited; Emkay Global Financial Services Limited",
+    "revenue_fy2": 178.36,
+    "rhp_page_revenue_fy2": 78,
+    "revenue_fy1": 257.045,
+    "rhp_page_revenue_fy1": 78,
+    "revenue_fy0": 545.282,
+    "rhp_page_revenue_fy0": 78,
+    "ebitda_fy2": 90.749,
+    "rhp_page_ebitda_fy2": 366,
+    "ebitda_fy1": 89.996,
+    "rhp_page_ebitda_fy1": 366,
+    "ebitda_fy0": 176.063,
+    "rhp_page_ebitda_fy0": 366,
+    "pat_fy2": -42.642,
+    "rhp_page_pat_fy2": 78,
+    "pat_fy1": -57.156,
+    "rhp_page_pat_fy1": 78,
+    "pat_fy0": -46.637,
+    "rhp_page_pat_fy0": 78,
+    "cfo_fy2": 57.444,
+    "rhp_page_cfo_fy2": 79,
+    "cfo_fy1": 82.694,
+    "rhp_page_cfo_fy1": 79,
+    "cfo_fy0": 195.188,
+    "rhp_page_cfo_fy0": 79,
+    "net_worth_fy0": 169.364,
+    "rhp_page_net_worth_fy0": 29,
+    "total_debt_fy0": 10.923,
+    "rhp_page_total_debt_fy0": 29,
+    "cash_fy0": 5.6,
+    "rhp_page_cash_fy0": 76,
+    "revenue_stub": 616.499,
+    "rhp_page_revenue_stub": 78,
+    "pat_stub": -18.942,
+    "rhp_page_pat_stub": 78,
+    "price_low": null,
+    "rhp_page_price_low": 134,
+    "price_high": null,
+    "rhp_page_price_high": 134,
+    "lot_size": null,
+    "promoter_pre_pct": 41.05,
+    "rhp_page_promoter_pre_pct": 28,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": 144.27,
+    "rhp_page_pre_ipo_price": 92,
+    "eps_fy0": -8.11,
+    "rhp_page_eps_fy0": 78,
+    "ronw_fy0_pct": -27.54,
+    "rhp_page_ronw_fy0_pct": 135,
+    "nav_per_share_fy0": 56.2,
+    "rhp_page_nav_per_share_fy0": 135,
+    "fresh_issue_cr": 128.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 1.2295699,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 6.6075779,
+    "rhp_page_pre_issue_shares_cr": 74,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 74,
+    "ofs_promoter_shares_cr": 0.6615586,
+    "ofs_investor_shares_cr": 0.5680113,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 42.03,
+    "proceeds_gcp_cr": 0.0,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "Awfis Space Solutions Limited",
+    "sector": "Infrastructure, construction & real estate",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 134
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 134
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 1280.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 12295699.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Peak XV Partners Investments V (formerly SCI Investments V)",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 6615586.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Bisque Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 5594912.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Link Investment Trust",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 85201.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 66075779.0,
+      "unit": "shares",
+      "page": 74
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 74
+    },
+    "promoter_pre_pct": {
+      "value": 41.05,
+      "unit": "percent",
+      "page": 28
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding capital expenditure towards establishment of new centers",
+        "category": "capex",
+        "amount": {
+          "value": 420.3,
+          "unit": "million",
+          "page": 118
+        }
+      },
+      {
+        "purpose": "Funding working capital requirements",
+        "category": "other",
+        "amount": {
+          "value": 543.7,
+          "unit": "million",
+          "page": 118
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 118
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 144.27,
+      "unit": "rupees",
+      "page": 92
+    },
+    "lead_managers": [
+      "ICICI Securities Limited",
+      "Axis Capital Limited",
+      "IIFL Securities Limited",
+      "Emkay Global Financial Services Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023 (March 31, 2023)",
+    "revenue_fy2": {
+      "value": 1783.6,
+      "unit": "million",
+      "page": 78
+    },
+    "revenue_fy1": {
+      "value": 2570.45,
+      "unit": "million",
+      "page": 78
+    },
+    "revenue_fy0": {
+      "value": 5452.82,
+      "unit": "million",
+      "page": 78
+    },
+    "ebitda_fy2": {
+      "value": 907.49,
+      "unit": "million",
+      "page": 366
+    },
+    "ebitda_fy1": {
+      "value": 899.96,
+      "unit": "million",
+      "page": 366
+    },
+    "ebitda_fy0": {
+      "value": 1760.63,
+      "unit": "million",
+      "page": 366
+    },
+    "pat_fy2": {
+      "value": -426.42,
+      "unit": "million",
+      "page": 78
+    },
+    "pat_fy1": {
+      "value": -571.56,
+      "unit": "million",
+      "page": 78
+    },
+    "pat_fy0": {
+      "value": -466.37,
+      "unit": "million",
+      "page": 78
+    },
+    "cfo_fy2": {
+      "value": 574.44,
+      "unit": "million",
+      "page": 79
+    },
+    "cfo_fy1": {
+      "value": 826.94,
+      "unit": "million",
+      "page": 79
+    },
+    "cfo_fy0": {
+      "value": 1951.88,
+      "unit": "million",
+      "page": 79
+    },
+    "net_worth_fy0": {
+      "value": 1693.64,
+      "unit": "million",
+      "page": 29
+    },
+    "total_debt_fy0": {
+      "value": 109.23,
+      "unit": "million",
+      "page": 29
+    },
+    "cash_fy0": {
+      "value": 56.0,
+      "unit": "million",
+      "page": 76
+    },
+    "eps_fy0": {
+      "value": -8.11,
+      "unit": "rupees",
+      "page": 78
+    },
+    "ronw_fy0_pct": {
+      "value": -27.54,
+      "unit": "percent",
+      "page": 135
+    },
+    "nav_per_share_fy0": {
+      "value": 56.2,
+      "unit": "rupees",
+      "page": 135
+    },
+    "stub_period_months": 9,
+    "revenue_stub": {
+      "value": 6164.99,
+      "unit": "million",
+      "page": 78
+    },
+    "pat_stub": {
+      "value": -189.42,
+      "unit": "million",
+      "page": 78
+    },
+    "no_listed_peers": true,
+    "peers": [],
+    "notes": [
+      "Revenue is shown as 'Revenue from contract with customers' (the company's revenue from operations line), not total income.",
+      "Stub period is the nine months ended December 31, 2023. FY0 is FY2023.",
+      "The RHP says there are no comparable listed peers. The comparison table on page 136 covers only unlisted entities (WeWork, CoWrks, Smartworks, Table Space), so no peers were recorded.",
+      "The 41.05% promoter pre-offer holding is on a fully diluted basis (Amit Ramani 18.19% plus Peak XV 22.86%). Post-offer holding is not printed.",
+      "Bisque Limited and Link Investment Trust are called 'Other Selling Shareholder' in the RHP. They are recorded here as investors.",
+      "Price band, lot size, retail quota and post-issue shares are [\u25cf] or not on the pages given.",
+      "Pre-IPO placement: a private placement on Aug 16, 2023 and a Series F CCCPS conversion on Sep 20, 2023 were both at \u20b9144.27. On April 25, 2024 all CCCPS/CCDs were converted into 46,748,831 equity shares.",
+      "Working capital funding is categorised as 'other'.",
+      "Total borrowings for Dec 31, 2023 are printed as 237.21 on page 29 and as 237.20 on pages 367 and 393. The FY23 figure of 109.23 matches the balance sheet (39.69 + 69.54).",
+      "The \u20b91,280.00 million fresh issue includes an employee reservation of up to \u20b920.00 million."
+    ]
+  }
+}

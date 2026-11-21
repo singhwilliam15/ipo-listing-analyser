@@ -1,0 +1,438 @@
+{
+  "symbol": "RKSWAMY",
+  "rhp_file": "RKSWAMY.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:13:16+00:00",
+  "pages_sent": [
+    1,
+    2,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    87,
+    88,
+    89,
+    90,
+    102,
+    103,
+    104,
+    105,
+    125,
+    126,
+    127,
+    128,
+    129,
+    368,
+    369,
+    370
+  ],
+  "n_pdf_pages": 503,
+  "usage": {
+    "input_tokens": 53941,
+    "output_tokens": 3558,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.4730494,
+    "session_id": "c5ccee67-2be9-47f3-87f6-b9e28971afd4"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "R K Swamy Limited",
+    "sector": "Media, education & services",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023 (March 31, 2023)",
+    "stub_period_months": 6,
+    "pre_ipo_placement": "no",
+    "lead_managers": "SBI Capital Markets Limited; IIFL Securities Limited; Motilal Oswal Investment Advisors Limited",
+    "revenue_fy2": 173.546,
+    "rhp_page_revenue_fy2": 75,
+    "revenue_fy1": 234.413,
+    "rhp_page_revenue_fy1": 75,
+    "revenue_fy0": 292.613,
+    "rhp_page_revenue_fy0": 75,
+    "ebitda_fy2": 28.826,
+    "rhp_page_ebitda_fy2": 128,
+    "ebitda_fy1": 44.422,
+    "rhp_page_ebitda_fy1": 128,
+    "ebitda_fy0": 62.906,
+    "rhp_page_ebitda_fy0": 128,
+    "pat_fy2": 3.077,
+    "rhp_page_pat_fy2": 75,
+    "pat_fy1": 19.255,
+    "rhp_page_pat_fy1": 75,
+    "pat_fy0": 31.258,
+    "rhp_page_pat_fy0": 75,
+    "cfo_fy2": 49.945,
+    "rhp_page_cfo_fy2": 76,
+    "cfo_fy1": 64.009,
+    "rhp_page_cfo_fy1": 76,
+    "cfo_fy0": 29.165,
+    "rhp_page_cfo_fy0": 76,
+    "net_worth_fy0": 140.814,
+    "rhp_page_net_worth_fy0": 24,
+    "total_debt_fy0": 4.505,
+    "rhp_page_total_debt_fy0": 24,
+    "cash_fy0": 9.235,
+    "rhp_page_cash_fy0": 74,
+    "revenue_stub": 141.097,
+    "rhp_page_revenue_stub": 75,
+    "pat_stub": 7.931,
+    "rhp_page_pat_stub": 75,
+    "price_low": null,
+    "rhp_page_price_low": 125,
+    "price_high": null,
+    "rhp_page_price_high": 125,
+    "lot_size": null,
+    "promoter_pre_pct": 78.73,
+    "rhp_page_promoter_pre_pct": 23,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 7.03,
+    "rhp_page_eps_fy0": 75,
+    "ronw_fy0_pct": 22.2,
+    "rhp_page_ronw_fy0_pct": 126,
+    "nav_per_share_fy0": 31.67,
+    "rhp_page_nav_per_share_fy0": 126,
+    "fresh_issue_cr": 173.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.87,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 4.445714,
+    "rhp_page_pre_issue_shares_cr": 71,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 71,
+    "ofs_promoter_shares_cr": 0.3576186,
+    "ofs_investor_shares_cr": 0.5123814,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 66.063,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "AFFLE; LATENTVIEW; VERTOZ",
+    "n_peers": 3,
+    "peer_pe_list": [
+      66.74,
+      63.7,
+      78.07
+    ],
+    "peer_ronw_list": [
+      16.73,
+      12.87,
+      10.77
+    ],
+    "rhp_page_peers": 127
+  },
+  "extract": {
+    "company": "R K Swamy Limited",
+    "sector": "Media, education & services",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 125
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 125
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 1730.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 8700000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Srinivasan K Swamy",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 1788093.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Narasimhan Krishnaswamy",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 1788093.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Evanston Pioneer Fund L.P.",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 4445714.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Prem Marketing Ventures LLP",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 678100.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 44457140.0,
+      "unit": "shares",
+      "page": 71
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 71
+    },
+    "promoter_pre_pct": {
+      "value": 78.73,
+      "unit": "percent",
+      "page": 23
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding working capital requirements of the Company",
+        "category": "other",
+        "amount": {
+          "value": 540.0,
+          "unit": "million",
+          "page": 102
+        }
+      },
+      {
+        "purpose": "Capital expenditure for setting up a digital video content production studio (DVCP Studio)",
+        "category": "capex",
+        "amount": {
+          "value": 109.85,
+          "unit": "million",
+          "page": 102
+        }
+      },
+      {
+        "purpose": "Investment in IT infrastructure development of the Company and Material Subsidiaries Hansa Research and Hansa Customer Equity",
+        "category": "capex",
+        "amount": {
+          "value": 333.42,
+          "unit": "million",
+          "page": 102
+        }
+      },
+      {
+        "purpose": "Setting up new customer experience centres (CEC) and computer aided telephonic interview centres (CATI)",
+        "category": "capex",
+        "amount": {
+          "value": 217.36,
+          "unit": "million",
+          "page": 102
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 102
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "SBI Capital Markets Limited",
+      "IIFL Securities Limited",
+      "Motilal Oswal Investment Advisors Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023 (March 31, 2023)",
+    "revenue_fy2": {
+      "value": 1735.46,
+      "unit": "million",
+      "page": 75
+    },
+    "revenue_fy1": {
+      "value": 2344.13,
+      "unit": "million",
+      "page": 75
+    },
+    "revenue_fy0": {
+      "value": 2926.13,
+      "unit": "million",
+      "page": 75
+    },
+    "ebitda_fy2": {
+      "value": 288.26,
+      "unit": "million",
+      "page": 128
+    },
+    "ebitda_fy1": {
+      "value": 444.22,
+      "unit": "million",
+      "page": 128
+    },
+    "ebitda_fy0": {
+      "value": 629.06,
+      "unit": "million",
+      "page": 128
+    },
+    "pat_fy2": {
+      "value": 30.77,
+      "unit": "million",
+      "page": 75
+    },
+    "pat_fy1": {
+      "value": 192.55,
+      "unit": "million",
+      "page": 75
+    },
+    "pat_fy0": {
+      "value": 312.58,
+      "unit": "million",
+      "page": 75
+    },
+    "cfo_fy2": {
+      "value": 499.45,
+      "unit": "million",
+      "page": 76
+    },
+    "cfo_fy1": {
+      "value": 640.09,
+      "unit": "million",
+      "page": 76
+    },
+    "cfo_fy0": {
+      "value": 291.65,
+      "unit": "million",
+      "page": 76
+    },
+    "net_worth_fy0": {
+      "value": 1408.14,
+      "unit": "million",
+      "page": 24
+    },
+    "total_debt_fy0": {
+      "value": 45.05,
+      "unit": "million",
+      "page": 24
+    },
+    "cash_fy0": {
+      "value": 92.35,
+      "unit": "million",
+      "page": 74
+    },
+    "eps_fy0": {
+      "value": 7.03,
+      "unit": "rupees",
+      "page": 75
+    },
+    "ronw_fy0_pct": {
+      "value": 22.2,
+      "unit": "percent",
+      "page": 126
+    },
+    "nav_per_share_fy0": {
+      "value": 31.67,
+      "unit": "rupees",
+      "page": 126
+    },
+    "stub_period_months": 6,
+    "revenue_stub": {
+      "value": 1410.97,
+      "unit": "million",
+      "page": 75
+    },
+    "pat_stub": {
+      "value": 79.31,
+      "unit": "million",
+      "page": 75
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Affle (India) Limited",
+        "nse_symbol": "AFFLE",
+        "pe": 66.74,
+        "ronw_pct": 16.73,
+        "page": 127
+      },
+      {
+        "name": "Latent View Analytics Limited",
+        "nse_symbol": "LATENTVIEW",
+        "pe": 63.7,
+        "ronw_pct": 12.87,
+        "page": 127
+      },
+      {
+        "name": "Vertoz Advertising Limited",
+        "nse_symbol": "VERTOZ",
+        "pe": 78.07,
+        "ronw_pct": 10.77,
+        "page": 127
+      }
+    ],
+    "notes": [
+      "Price band, lot size, fresh issue share count, post-offer shares and OFS amount are [\u2022] in the RHP.",
+      "Net worth for FY2023 is printed as 1,408.14 in the summary table and 1,408.13 in the reconciliation note (page 24). The restated balance sheet on page 74 shows Total Equity of 452.31 (Other Equity 407.85), which does not match the net worth figure. The gap is likely due to how the demerger scheme was accounted for.",
+      "promoter_pre_pct of 78.73% covers the Promoters only. The Promoter Group holds a further 4.30% (page 23); the combined figure is not printed.",
+      "PAT is restated profit after tax including NCI. The FY2022 profit attributable to owners is 191.73 and FY2021 is 29.32.",
+      "The retail quota % is not printed in the pages given. The offer is under Reg 6(2), and NIIs get not more than 15%.",
+      "Working capital is classed as 'other'. The three IT, studio and CEC/CATI objects are classed as capex.",
+      "No preferential or private placement appears in the 12 months before the RHP. The July 2023 bonus issue (4:1) and the sub-division are not placements.",
+      "NSE symbols for the peers are inferred, not printed."
+    ]
+  }
+}

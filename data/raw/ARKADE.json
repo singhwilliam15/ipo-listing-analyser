@@ -1,0 +1,368 @@
+{
+  "symbol": "ARKADE",
+  "rhp_file": "ARKADE.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-21T06:02:52+00:00",
+  "pages_sent": [
+    1,
+    2,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    86,
+    87,
+    88,
+    110,
+    111,
+    124,
+    125,
+    126,
+    349,
+    350,
+    356
+  ],
+  "n_pdf_pages": 499,
+  "usage": {
+    "input_tokens": 33972,
+    "output_tokens": 3294,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.30601929999999994,
+    "session_id": "e578bd10-a29f-41c5-8aa4-81ed75afe907"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Arkade Developers Limited",
+    "sector": "Infrastructure, construction & real estate",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024",
+    "stub_period_months": null,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "Unistone Capital Private Limited",
+    "revenue_fy2": 228.934,
+    "rhp_page_revenue_fy2": 75,
+    "revenue_fy1": 220.152,
+    "rhp_page_revenue_fy1": 75,
+    "revenue_fy0": 634.736,
+    "rhp_page_revenue_fy0": 75,
+    "ebitda_fy2": 69.972,
+    "rhp_page_ebitda_fy2": 349,
+    "ebitda_fy1": 68.325,
+    "rhp_page_ebitda_fy1": 349,
+    "ebitda_fy0": 169.375,
+    "rhp_page_ebitda_fy0": 349,
+    "pat_fy2": 50.844,
+    "rhp_page_pat_fy2": 75,
+    "pat_fy1": 50.766,
+    "rhp_page_pat_fy1": 75,
+    "pat_fy0": 122.808,
+    "rhp_page_pat_fy0": 75,
+    "cfo_fy2": -123.183,
+    "rhp_page_cfo_fy2": 76,
+    "cfo_fy1": -98.704,
+    "rhp_page_cfo_fy1": 76,
+    "cfo_fy0": 101.488,
+    "rhp_page_cfo_fy0": 76,
+    "net_worth_fy0": 323.402,
+    "rhp_page_net_worth_fy0": 73,
+    "total_debt_fy0": 69.41,
+    "rhp_page_total_debt_fy0": 356,
+    "cash_fy0": 23.303,
+    "rhp_page_cash_fy0": 73,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 2,
+    "price_high": null,
+    "rhp_page_price_high": 2,
+    "lot_size": null,
+    "rhp_page_lot_size": 2,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": 35.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": 123.0,
+    "rhp_page_pre_ipo_price": 1,
+    "eps_fy0": 8.08,
+    "rhp_page_eps_fy0": 75,
+    "ronw_fy0_pct": 46.9,
+    "rhp_page_ronw_fy0_pct": 125,
+    "nav_per_share_fy0": 21.28,
+    "rhp_page_nav_per_share_fy0": 125,
+    "fresh_issue_cr": 410.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 15.3626016,
+    "rhp_page_pre_issue_shares_cr": 71,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 71,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 250.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "RUSTOMJEE; GODREJPROP; LODHA; SURAJEST",
+    "n_peers": 4,
+    "peer_pe_list": [
+      74.85,
+      111.53,
+      78.46,
+      40.92
+    ],
+    "peer_ronw_list": [
+      6.4,
+      7.76,
+      10.32,
+      22.97
+    ],
+    "rhp_page_peers": 126
+  },
+  "extract": {
+    "company": "Arkade Developers Limited",
+    "sector": "Infrastructure, construction & real estate",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 2
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 2
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": 2
+    },
+    "fresh_issue_amount": {
+      "value": 4100.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 153626016.0,
+      "unit": "shares",
+      "page": 71
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 71
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding part of development costs of Ongoing Projects (Arkade Nest, Prachi CHSL, C-Unit)",
+        "category": "capex",
+        "amount": {
+          "value": 2500.0,
+          "unit": "million",
+          "page": 110
+        }
+      },
+      {
+        "purpose": "Funding acquisition of yet-to-be identified land for real estate projects and general corporate purposes",
+        "category": "other",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 110
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 123.0,
+      "unit": "rupees",
+      "page": 1
+    },
+    "lead_managers": [
+      "Unistone Capital Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024",
+    "revenue_fy2": {
+      "value": 2289.34,
+      "unit": "million",
+      "page": 75
+    },
+    "revenue_fy1": {
+      "value": 2201.52,
+      "unit": "million",
+      "page": 75
+    },
+    "revenue_fy0": {
+      "value": 6347.36,
+      "unit": "million",
+      "page": 75
+    },
+    "ebitda_fy2": {
+      "value": 699.72,
+      "unit": "million",
+      "page": 349
+    },
+    "ebitda_fy1": {
+      "value": 683.25,
+      "unit": "million",
+      "page": 349
+    },
+    "ebitda_fy0": {
+      "value": 1693.75,
+      "unit": "million",
+      "page": 349
+    },
+    "pat_fy2": {
+      "value": 508.44,
+      "unit": "million",
+      "page": 75
+    },
+    "pat_fy1": {
+      "value": 507.66,
+      "unit": "million",
+      "page": 75
+    },
+    "pat_fy0": {
+      "value": 1228.08,
+      "unit": "million",
+      "page": 75
+    },
+    "cfo_fy2": {
+      "value": -1231.83,
+      "unit": "million",
+      "page": 76
+    },
+    "cfo_fy1": {
+      "value": -987.04,
+      "unit": "million",
+      "page": 76
+    },
+    "cfo_fy0": {
+      "value": 1014.88,
+      "unit": "million",
+      "page": 76
+    },
+    "net_worth_fy0": {
+      "value": 3234.02,
+      "unit": "million",
+      "page": 73
+    },
+    "total_debt_fy0": {
+      "value": 694.1,
+      "unit": "million",
+      "page": 356
+    },
+    "cash_fy0": {
+      "value": 233.03,
+      "unit": "million",
+      "page": 73
+    },
+    "eps_fy0": {
+      "value": 8.08,
+      "unit": "rupees",
+      "page": 75
+    },
+    "ronw_fy0_pct": {
+      "value": 46.9,
+      "unit": "percent",
+      "page": 125
+    },
+    "nav_per_share_fy0": {
+      "value": 21.28,
+      "unit": "rupees",
+      "page": 125
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Keystone Realtors Limited",
+        "nse_symbol": "RUSTOMJEE",
+        "pe": 74.85,
+        "ronw_pct": 6.4,
+        "page": 126
+      },
+      {
+        "name": "Godrej Properties Limited",
+        "nse_symbol": "GODREJPROP",
+        "pe": 111.53,
+        "ronw_pct": 7.76,
+        "page": 126
+      },
+      {
+        "name": "Macrotech Developers Limited",
+        "nse_symbol": "LODHA",
+        "pe": 78.46,
+        "ronw_pct": 10.32,
+        "page": 126
+      },
+      {
+        "name": "Suraj Estate Developers Limited",
+        "nse_symbol": "SURAJEST",
+        "pe": 40.92,
+        "ronw_pct": 22.97,
+        "page": 126
+      }
+    ],
+    "notes": [
+      "Issue is 100% fresh issue (no offer for sale); total issue up to \u20b94,100.00 million after the fresh issue was cut from \u20b94,300 million because of the \u20b9200 million pre-IPO placement (1,626,016 shares at \u20b9123, allotted July 22, 2024).",
+      "Price band, lot size, fresh issue share count, post-issue shares and the land acquisition/GCP amount are all shown as [\u25cf] in the RHP.",
+      "Promoter (Amit Mangilal Jain) shareholding % is not on the pages provided.",
+      "Total borrowings of 694.10 = non-current 290.42 + current 403.68 from the balance sheet. The net debt table footnote says it 'includes lease liabilities', but these figures leave lease liabilities (14.34 + 3.86) out. The capitalisation statement splits the total differently (current 402.44 / non-current 291.66).",
+      "Peer table note 2 says P/E is based on diluted EPS 'as on March 31, 2023', while the industry P/E note says March 31, 2024. The P/E values are copied as printed.",
+      "Arkade's own P/E in the peer table is printed as N.A.",
+      "Profit for the year 1,228.08 includes the non-controlling interest; the share for owners is 1,228.40.",
+      "Development expenses for ongoing projects are categorised as capex; land acquisition + GCP is categorised as other (combined object, amount [\u25cf], capped at 35% of gross proceeds with GCP capped at 25%).",
+      "NSE symbols for peers are not in the RHP; they were inferred."
+    ]
+  }
+}

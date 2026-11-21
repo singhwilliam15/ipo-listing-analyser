@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+# RHP PDFs are 5-20 MB each; keep them out of git
+rhp/*.pdf
+rhp/*.pages.json
+data/nse_detail/
+# run logs
+data/extract_*.txt
+data/missing_rhp.txt

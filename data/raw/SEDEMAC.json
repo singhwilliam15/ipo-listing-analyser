@@ -1,0 +1,523 @@
+{
+  "symbol": "SEDEMAC",
+  "rhp_file": "SEDEMAC.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:00:13+00:00",
+  "pages_sent": [
+    1,
+    2,
+    20,
+    21,
+    22,
+    23,
+    84,
+    85,
+    87,
+    88,
+    89,
+    90,
+    100,
+    101,
+    102,
+    144,
+    145,
+    147,
+    148,
+    149,
+    431,
+    432,
+    462
+  ],
+  "n_pdf_pages": 582,
+  "usage": {
+    "input_tokens": 47413,
+    "output_tokens": 4555,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.4402588,
+    "session_id": "788ad2f0-a281-4f0e-a55c-2309d9937766"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Sedemac Mechatronics Limited",
+    "sector": "Auto & auto components",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "stub_period_months": 9,
+    "pre_ipo_placement": null,
+    "lead_managers": "ICICI Securities Limited; Avendus Capital Private Limited; Axis Capital Limited",
+    "revenue_fy2": 423.02799999999996,
+    "rhp_page_revenue_fy2": 89,
+    "revenue_fy1": 530.653,
+    "rhp_page_revenue_fy1": 89,
+    "revenue_fy0": 658.363,
+    "rhp_page_revenue_fy0": 89,
+    "ebitda_fy2": 54.24,
+    "rhp_page_ebitda_fy2": 149,
+    "ebitda_fy1": 83.124,
+    "rhp_page_ebitda_fy1": 149,
+    "ebitda_fy0": 125.068,
+    "rhp_page_ebitda_fy0": 149,
+    "pat_fy2": 8.573,
+    "rhp_page_pat_fy2": 89,
+    "pat_fy1": 5.878,
+    "rhp_page_pat_fy1": 89,
+    "pat_fy0": 47.045,
+    "rhp_page_pat_fy0": 89,
+    "cfo_fy2": 77.674,
+    "rhp_page_cfo_fy2": 90,
+    "cfo_fy1": 60.749,
+    "rhp_page_cfo_fy1": 90,
+    "cfo_fy0": 90.913,
+    "rhp_page_cfo_fy0": 90,
+    "net_worth_fy0": 303.381,
+    "rhp_page_net_worth_fy0": 88,
+    "total_debt_fy0": 49.618,
+    "rhp_page_total_debt_fy0": 23,
+    "cash_fy0": 2.536,
+    "rhp_page_cash_fy0": 88,
+    "revenue_stub": 770.665,
+    "rhp_page_revenue_stub": 89,
+    "pat_stub": 71.498,
+    "rhp_page_pat_stub": 89,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": 22.26,
+    "rhp_page_promoter_pre_pct": 22,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 22,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 10.93,
+    "rhp_page_eps_fy0": 89,
+    "ronw_fy0_pct": 15.48,
+    "rhp_page_ronw_fy0_pct": 148,
+    "nav_per_share_fy0": 71.57,
+    "rhp_page_nav_per_share_fy0": 148,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.80433,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 4.41615,
+    "rhp_page_pre_issue_shares_cr": 84,
+    "post_issue_shares_cr": 4.41615,
+    "rhp_page_post_issue_shares_cr": 84,
+    "ofs_promoter_shares_cr": 0.01125,
+    "ofs_investor_shares_cr": 0.771195,
+    "proceeds_debt_repayment_cr": null,
+    "proceeds_capex_cr": null,
+    "proceeds_gcp_cr": null,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "Sedemac Mechatronics Limited",
+    "sector": "Auto & auto components",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 8043300.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Manish Sharma",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 45000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Ashwini Amit Dixit",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 67500.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "A91 Emerging Fund II LLP",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 2410650.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "NRJN Family Trust (represented by Entrust Family Office Legal & Trusteeship Services Private Limited)",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 1050000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Xponentia Opportunities Fund II",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 1043550.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Mace Private Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 765900.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "360 One Special Opportunities Fund \u2013 Series 8",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 680850.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "360 One Monopolistic Market Intermediaries Fund",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 472500.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "HDFC Life Insurance Company Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 425700.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Xponentia Opportunities Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 425250.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Society for Innovation and Entrepreneurship",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 204000.0,
+          "unit": "shares",
+          "page": 21
+        }
+      },
+      {
+        "name": "Cyrus Jamshed Guzder",
+        "kind": "other",
+        "shares_offered": {
+          "value": 132000.0,
+          "unit": "shares",
+          "page": 21
+        }
+      },
+      {
+        "name": "Capri Global Holdings Private Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 85050.0,
+          "unit": "shares",
+          "page": 21
+        }
+      },
+      {
+        "name": "SVS Trust No IV",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 85050.0,
+          "unit": "shares",
+          "page": 21
+        }
+      },
+      {
+        "name": "Venktesh Investment and Trading Company Private Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 63450.0,
+          "unit": "shares",
+          "page": 21
+        }
+      },
+      {
+        "name": "Himanshu Kantilal Sanghavi HUF",
+        "kind": "other",
+        "shares_offered": {
+          "value": 25200.0,
+          "unit": "shares",
+          "page": 21
+        }
+      },
+      {
+        "name": "Devang Mehta",
+        "kind": "other",
+        "shares_offered": {
+          "value": 16650.0,
+          "unit": "shares",
+          "page": 21
+        }
+      },
+      {
+        "name": "Atul Hiralal Shah",
+        "kind": "other",
+        "shares_offered": {
+          "value": 12600.0,
+          "unit": "shares",
+          "page": 21
+        }
+      },
+      {
+        "name": "Bakul Hiralal Shah",
+        "kind": "other",
+        "shares_offered": {
+          "value": 12600.0,
+          "unit": "shares",
+          "page": 21
+        }
+      },
+      {
+        "name": "Devinjit Singh",
+        "kind": "other",
+        "shares_offered": {
+          "value": 6750.0,
+          "unit": "shares",
+          "page": 21
+        }
+      },
+      {
+        "name": "Perumal Ramamurthy Srinivasan",
+        "kind": "other",
+        "shares_offered": {
+          "value": 6750.0,
+          "unit": "shares",
+          "page": 21
+        }
+      },
+      {
+        "name": "Bhavya Kapoor",
+        "kind": "other",
+        "shares_offered": {
+          "value": 4500.0,
+          "unit": "shares",
+          "page": 21
+        }
+      },
+      {
+        "name": "Rahul Bahri",
+        "kind": "other",
+        "shares_offered": {
+          "value": 1800.0,
+          "unit": "shares",
+          "page": 21
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 44161500.0,
+      "unit": "shares",
+      "page": 84
+    },
+    "post_issue_shares": {
+      "value": 44161500.0,
+      "unit": "shares",
+      "page": 84
+    },
+    "promoter_pre_pct": {
+      "value": 22.26,
+      "unit": "percent",
+      "page": 22
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": 22
+    },
+    "objects_of_offer": [],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lead_managers": [
+      "ICICI Securities Limited",
+      "Avendus Capital Private Limited",
+      "Axis Capital Limited"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "revenue_fy2": {
+      "value": 4230.28,
+      "unit": "million",
+      "page": 89
+    },
+    "revenue_fy1": {
+      "value": 5306.53,
+      "unit": "million",
+      "page": 89
+    },
+    "revenue_fy0": {
+      "value": 6583.63,
+      "unit": "million",
+      "page": 89
+    },
+    "ebitda_fy2": {
+      "value": 542.4,
+      "unit": "million",
+      "page": 149
+    },
+    "ebitda_fy1": {
+      "value": 831.24,
+      "unit": "million",
+      "page": 149
+    },
+    "ebitda_fy0": {
+      "value": 1250.68,
+      "unit": "million",
+      "page": 149
+    },
+    "pat_fy2": {
+      "value": 85.73,
+      "unit": "million",
+      "page": 89
+    },
+    "pat_fy1": {
+      "value": 58.78,
+      "unit": "million",
+      "page": 89
+    },
+    "pat_fy0": {
+      "value": 470.45,
+      "unit": "million",
+      "page": 89
+    },
+    "cfo_fy2": {
+      "value": 776.74,
+      "unit": "million",
+      "page": 90
+    },
+    "cfo_fy1": {
+      "value": 607.49,
+      "unit": "million",
+      "page": 90
+    },
+    "cfo_fy0": {
+      "value": 909.13,
+      "unit": "million",
+      "page": 90
+    },
+    "net_worth_fy0": {
+      "value": 3033.81,
+      "unit": "million",
+      "page": 88
+    },
+    "total_debt_fy0": {
+      "value": 496.18,
+      "unit": "million",
+      "page": 23
+    },
+    "cash_fy0": {
+      "value": 25.36,
+      "unit": "million",
+      "page": 88
+    },
+    "eps_fy0": {
+      "value": 10.93,
+      "unit": "rupees",
+      "page": 89
+    },
+    "ronw_fy0_pct": {
+      "value": 15.48,
+      "unit": "percent",
+      "page": 148
+    },
+    "nav_per_share_fy0": {
+      "value": 71.57,
+      "unit": "rupees",
+      "page": 148
+    },
+    "stub_period_months": 9,
+    "revenue_stub": {
+      "value": 7706.65,
+      "unit": "million",
+      "page": 89
+    },
+    "pat_stub": {
+      "value": 714.98,
+      "unit": "million",
+      "page": 89
+    },
+    "no_listed_peers": false,
+    "peers": [],
+    "notes": [
+      "The offer is entirely an Offer for Sale, with no fresh issue. The company receives no proceeds, so objects_of_offer is empty and the pre- and post-offer share counts are the same (44,161,500).",
+      "Financials basis: the Restated Financial Information shows no subsidiaries or consolidation. Page 427 refers to the company's audited standalone financial statements, so the basis is recorded as standalone.",
+      "The price band, lot size and retail quota % are all [\u25cf] or not printed on the pages provided.",
+      "promoter_pre_pct of 22.26% covers the Promoters only, on a fully diluted basis (page 22). The Promoter Group holds a further 4.17%. A combined promoter + promoter group figure is not printed.",
+      "net_worth_fy0 uses Total equity of 3,033.81. The RHP's own 'Net Worth' definition gives 3,038.76 (page 431).",
+      "total_debt_fy0 of 496.18 is total borrowings, current + non-current (256.88 + 239.30), as printed on page 23. It excludes lease liabilities.",
+      "The peer comparison table (point 8 of Basis for Offer Price) is not on the pages provided. The industry P/E section names Schaeffler India (highest P/E 64.73) and Bosch Limited (lowest P/E 51.54), with an average of 58.14, so listed peers do exist.",
+      "Pre-IPO placement could not be determined. 'Proceeds from issue of share capital' of 354.40 million in the nine months to December 2025 appears in the cash flow statement, but the share capital history pages for 2024-25 are not provided.",
+      "A 1,499:1 bonus issue was made in September 2025. EPS and NAV are adjusted for it.",
+      "The selling shareholder 'kind' is assigned as follows: individuals and the HUF are 'other', while the funds, trusts and corporates are 'investor'. The RHP itself lists all of them as Investor Selling Shareholders."
+    ]
+  }
+}

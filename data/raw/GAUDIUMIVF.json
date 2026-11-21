@@ -1,0 +1,370 @@
+{
+  "symbol": "GAUDIUMIVF",
+  "rhp_file": "GAUDIUMIVF.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:00:41+00:00",
+  "pages_sent": [
+    1,
+    2,
+    27,
+    28,
+    29,
+    30,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    93,
+    94,
+    95,
+    103,
+    104,
+    125,
+    126,
+    127,
+    283,
+    284,
+    323
+  ],
+  "n_pdf_pages": 479,
+  "usage": {
+    "input_tokens": 33502,
+    "output_tokens": 3095,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.29823489999999997,
+    "session_id": "9b325210-3e86-4fec-a008-abba385a757b"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Gaudium IVF and Women Health Limited",
+    "sector": "Healthcare & pharma",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "stub_period_months": 6,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Sarthi Capital Advisors Private Limited",
+    "revenue_fy2": 44.23689999999999,
+    "rhp_page_revenue_fy2": 82,
+    "revenue_fy1": 47.8901,
+    "rhp_page_revenue_fy1": 82,
+    "revenue_fy0": 70.724,
+    "rhp_page_revenue_fy0": 82,
+    "ebitda_fy2": 20.0655,
+    "rhp_page_ebitda_fy2": 127,
+    "ebitda_fy1": 19.2747,
+    "rhp_page_ebitda_fy1": 127,
+    "ebitda_fy0": 28.6259,
+    "rhp_page_ebitda_fy0": 127,
+    "pat_fy2": 13.5254,
+    "rhp_page_pat_fy2": 82,
+    "pat_fy1": 10.3169,
+    "rhp_page_pat_fy1": 82,
+    "pat_fy0": 19.1274,
+    "rhp_page_pat_fy0": 82,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 46.2974,
+    "rhp_page_net_worth_fy0": 80,
+    "total_debt_fy0": 18.9344,
+    "rhp_page_total_debt_fy0": 30,
+    "cash_fy0": 7.215,
+    "rhp_page_cash_fy0": 80,
+    "revenue_stub": 49.4988,
+    "rhp_page_revenue_stub": 82,
+    "pat_stub": 12.5056,
+    "rhp_page_pat_stub": 82,
+    "price_low": null,
+    "rhp_page_price_low": 126,
+    "price_high": null,
+    "rhp_page_price_high": 126,
+    "lot_size": null,
+    "promoter_pre_pct": 99.98,
+    "rhp_page_promoter_pre_pct": 28,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 29,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 3.12,
+    "rhp_page_eps_fy0": 82,
+    "ronw_fy0_pct": 41.71,
+    "rhp_page_ronw_fy0_pct": 126,
+    "nav_per_share_fy0": 7.54,
+    "rhp_page_nav_per_share_fy0": 126,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": 1.13925,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.94937,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 6.1394384,
+    "rhp_page_pre_issue_shares_cr": 77,
+    "post_issue_shares_cr": 7.2786884,
+    "rhp_page_post_issue_shares_cr": 77,
+    "ofs_promoter_shares_cr": 0.94937,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 20.0,
+    "proceeds_capex_cr": 50.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "Progyny Inc.; Inspire IVF Public Company Limited",
+    "n_peers": 2,
+    "peer_pe_list": [
+      41.56,
+      11.43
+    ],
+    "peer_ronw_list": [
+      12.9,
+      3.97
+    ],
+    "rhp_page_peers": 127
+  },
+  "extract": {
+    "company": "Gaudium IVF and Women Health Limited",
+    "sector": "Healthcare & pharma",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 126
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 126
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "lakh",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": 11392500.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "lakh",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 9493700.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Dr. Manika Khanna",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 9493700.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 61394384.0,
+      "unit": "shares",
+      "page": 77
+    },
+    "post_issue_shares": {
+      "value": 72786884.0,
+      "unit": "shares",
+      "page": 77
+    },
+    "promoter_pre_pct": {
+      "value": 99.98,
+      "unit": "percent",
+      "page": 28
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 29
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding capital expenditure towards establishment of New IVF Centers",
+        "category": "capex",
+        "amount": {
+          "value": 5000.0,
+          "unit": "lakh",
+          "page": 104
+        }
+      },
+      {
+        "purpose": "Repayment/pre-payment, in full or in part, of certain outstanding loans",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 2000.0,
+          "unit": "lakh",
+          "page": 104
+        }
+      },
+      {
+        "purpose": "General Corporate Purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "lakh",
+          "page": 104
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Sarthi Capital Advisors Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "revenue_fy2": {
+      "value": 4423.69,
+      "unit": "lakh",
+      "page": 82
+    },
+    "revenue_fy1": {
+      "value": 4789.01,
+      "unit": "lakh",
+      "page": 82
+    },
+    "revenue_fy0": {
+      "value": 7072.4,
+      "unit": "lakh",
+      "page": 82
+    },
+    "ebitda_fy2": {
+      "value": 2006.55,
+      "unit": "lakh",
+      "page": 127
+    },
+    "ebitda_fy1": {
+      "value": 1927.47,
+      "unit": "lakh",
+      "page": 127
+    },
+    "ebitda_fy0": {
+      "value": 2862.59,
+      "unit": "lakh",
+      "page": 127
+    },
+    "pat_fy2": {
+      "value": 1352.54,
+      "unit": "lakh",
+      "page": 82
+    },
+    "pat_fy1": {
+      "value": 1031.69,
+      "unit": "lakh",
+      "page": 82
+    },
+    "pat_fy0": {
+      "value": 1912.74,
+      "unit": "lakh",
+      "page": 82
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "lakh",
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": "lakh",
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": "lakh",
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 4629.74,
+      "unit": "lakh",
+      "page": 80
+    },
+    "total_debt_fy0": {
+      "value": 1893.44,
+      "unit": "lakh",
+      "page": 30
+    },
+    "cash_fy0": {
+      "value": 721.5,
+      "unit": "lakh",
+      "page": 80
+    },
+    "eps_fy0": {
+      "value": 3.12,
+      "unit": "rupees",
+      "page": 82
+    },
+    "ronw_fy0_pct": {
+      "value": 41.71,
+      "unit": "percent",
+      "page": 126
+    },
+    "nav_per_share_fy0": {
+      "value": 7.54,
+      "unit": "rupees",
+      "page": 126
+    },
+    "stub_period_months": 6,
+    "revenue_stub": {
+      "value": 4949.88,
+      "unit": "lakh",
+      "page": 82
+    },
+    "pat_stub": {
+      "value": 1250.56,
+      "unit": "lakh",
+      "page": 82
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Progyny Inc.",
+        "nse_symbol": null,
+        "pe": 41.56,
+        "ronw_pct": 12.9,
+        "page": 127
+      },
+      {
+        "name": "Inspire IVF Public Company Limited",
+        "nse_symbol": null,
+        "pe": 11.43,
+        "ronw_pct": 3.97,
+        "page": 127
+      }
+    ],
+    "notes": [
+      "Price band, lot size, issue amounts and post-issue promoter holding are shown as [\u25cf] in the RHP.",
+      "Cash flow statement not included in pages provided; CFO null.",
+      "Retail quota % not on the pages provided (Offer Structure page not included).",
+      "RoNW FY2025 is 41.71% in Basis for Offer Price (p.126) but 41.31% in KPI table/Other Financial Information (p.127/283) as RoE/RoNW.",
+      "Total debt FY2025 1,893.44 lakh = non-current 172.73 + current 1,720.71 (p.80).",
+      "No allotments in last 12 months before RHP; last allotment was a bonus issue on Sep 26, 2024; secondary transfers on Sep 3, 2024 at \u20b9450 per share (face value \u20b910, pre-split), outside 12-month window.",
+      "Peers are foreign-listed (NASDAQ and Stock Exchange of Thailand), so they have no NSE symbols; peer figures are for fiscal 2024, converted to INR.",
+      "P/E table on p.126 refers to 'Basic EPS for FY 2023-24', probably a typo."
+    ]
+  }
+}

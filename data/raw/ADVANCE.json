@@ -1,0 +1,371 @@
+{
+  "symbol": "ADVANCE",
+  "rhp_file": "ADVANCE.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:06:44+00:00",
+  "pages_sent": [
+    1,
+    2,
+    35,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    114,
+    115,
+    116,
+    137,
+    138,
+    147,
+    148,
+    149,
+    346,
+    347
+  ],
+  "n_pdf_pages": 488,
+  "usage": {
+    "input_tokens": 27030,
+    "output_tokens": 3042,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.24474959999999998,
+    "session_id": "32a7ae38-4ee8-431f-b2ab-9850deda0029"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Advance Agrolife Limited",
+    "sector": "Chemicals & materials",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "Fiscal 2025",
+    "stub_period_months": null,
+    "pre_ipo_placement": null,
+    "lead_managers": "Choice Capital Advisors Private Limited",
+    "revenue_fy2": 397.806,
+    "rhp_page_revenue_fy2": 101,
+    "revenue_fy1": 455.899,
+    "rhp_page_revenue_fy1": 101,
+    "revenue_fy0": 502.26,
+    "rhp_page_revenue_fy0": 101,
+    "ebitda_fy2": 25.223,
+    "rhp_page_ebitda_fy2": 149,
+    "ebitda_fy1": 40.211,
+    "rhp_page_ebitda_fy1": 149,
+    "ebitda_fy0": 48.245,
+    "rhp_page_ebitda_fy0": 149,
+    "pat_fy2": 14.868,
+    "rhp_page_pat_fy2": 101,
+    "pat_fy1": 24.732,
+    "rhp_page_pat_fy1": 101,
+    "pat_fy0": 25.638,
+    "rhp_page_pat_fy0": 101,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 100.873,
+    "rhp_page_net_worth_fy0": 99,
+    "total_debt_fy0": 80.453,
+    "rhp_page_total_debt_fy0": 347,
+    "cash_fy0": 0.577,
+    "rhp_page_cash_fy0": 99,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 148,
+    "price_high": null,
+    "rhp_page_price_high": 148,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 5.7,
+    "rhp_page_eps_fy0": 147,
+    "ronw_fy0_pct": 29.11,
+    "rhp_page_ronw_fy0_pct": 148,
+    "nav_per_share_fy0": 22.42,
+    "rhp_page_nav_per_share_fy0": 148,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": 1.928572,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 4.5,
+    "rhp_page_pre_issue_shares_cr": 96,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 96,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "Dharmaj Crop Guard Limited; Insecticides India Limited; Heranba Industries Limited; PI Industries Limited; Sharda Cropchem Limited",
+    "n_peers": 5,
+    "peer_pe_list": [
+      34.6,
+      16.99,
+      34.29,
+      30.33
+    ],
+    "peer_ronw_list": [
+      9.24,
+      13.55,
+      0.37,
+      17.58,
+      12.85
+    ],
+    "rhp_page_peers": 148
+  },
+  "extract": {
+    "company": "Advance Agrolife Limited",
+    "sector": "Chemicals & materials",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 148
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 148
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": 19285720.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 45000000.0,
+      "unit": "shares",
+      "page": 96
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 96
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding working capital requirements of the Company",
+        "category": "other",
+        "amount": {
+          "value": 1350.0,
+          "unit": "million",
+          "page": 137
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 137
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Choice Capital Advisors Private Limited"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "Fiscal 2025",
+    "revenue_fy2": {
+      "value": 3978.06,
+      "unit": "million",
+      "page": 101
+    },
+    "revenue_fy1": {
+      "value": 4558.99,
+      "unit": "million",
+      "page": 101
+    },
+    "revenue_fy0": {
+      "value": 5022.6,
+      "unit": "million",
+      "page": 101
+    },
+    "ebitda_fy2": {
+      "value": 252.23,
+      "unit": "million",
+      "page": 149
+    },
+    "ebitda_fy1": {
+      "value": 402.11,
+      "unit": "million",
+      "page": 149
+    },
+    "ebitda_fy0": {
+      "value": 482.45,
+      "unit": "million",
+      "page": 149
+    },
+    "pat_fy2": {
+      "value": 148.68,
+      "unit": "million",
+      "page": 101
+    },
+    "pat_fy1": {
+      "value": 247.32,
+      "unit": "million",
+      "page": 101
+    },
+    "pat_fy0": {
+      "value": 256.38,
+      "unit": "million",
+      "page": 101
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 1008.73,
+      "unit": "million",
+      "page": 99
+    },
+    "total_debt_fy0": {
+      "value": 804.53,
+      "unit": "million",
+      "page": 347
+    },
+    "cash_fy0": {
+      "value": 5.77,
+      "unit": "million",
+      "page": 99
+    },
+    "eps_fy0": {
+      "value": 5.7,
+      "unit": "rupees",
+      "page": 147
+    },
+    "ronw_fy0_pct": {
+      "value": 29.11,
+      "unit": "percent",
+      "page": 148
+    },
+    "nav_per_share_fy0": {
+      "value": 22.42,
+      "unit": "rupees",
+      "page": 148
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Dharmaj Crop Guard Limited",
+        "nse_symbol": null,
+        "pe": 34.6,
+        "ronw_pct": 9.24,
+        "page": 148
+      },
+      {
+        "name": "Insecticides India Limited",
+        "nse_symbol": null,
+        "pe": 16.99,
+        "ronw_pct": 13.55,
+        "page": 148
+      },
+      {
+        "name": "Heranba Industries Limited",
+        "nse_symbol": null,
+        "pe": null,
+        "ronw_pct": 0.37,
+        "page": 149
+      },
+      {
+        "name": "PI Industries Limited",
+        "nse_symbol": null,
+        "pe": 34.29,
+        "ronw_pct": 17.58,
+        "page": 149
+      },
+      {
+        "name": "Sharda Cropchem Limited",
+        "nse_symbol": null,
+        "pe": 30.33,
+        "ronw_pct": 12.85,
+        "page": 149
+      }
+    ],
+    "notes": [
+      "Financials are the Company's Restated Financial Statements. No consolidated statements are shown and none are referred to, so the basis was taken as standalone.",
+      "The offer is a pure fresh issue with no offer for sale. Of the 19,285,720 shares, 30,000 are an Employee Reservation Portion and the Net Issue is 19,255,720 shares.",
+      "The price band, lot size, issue amount and post-issue share count are printed as [\u25cf].",
+      "Total debt of 804.53 million is 'Total Borrowings' from the capitalisation statement and summary, and it includes lease liabilities. Balance-sheet borrowings alone are 147.88 million non-current and 644.56 million current.",
+      "The balance sheet's Total Non-Current Liabilities line for FY2025 is printed as 147.88, the same as non-current borrowings alone. It does not reconcile with the line items above it (147.88 + 2.27 + 6.28).",
+      "Share capital rose from 45.00 million to 450.00 million in FY2025, which suggests a bonus issue. Details of allotments in the last 12 months are not on these pages, so pre_ipo_placement is null.",
+      "None of the pages given include the cash flow statement, promoter shareholding percentages or retail quota percentage.",
+      "Working capital funding was categorised as 'other'.",
+      "Heranba Industries' P/E is printed as '-', so it was recorded as null. Peer RoNW is printed with % signs.",
+      "Dharmaj Crop Guard's diluted EPS is printed as 10.3."
+    ]
+  }
+}

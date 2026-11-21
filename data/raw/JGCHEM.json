@@ -1,0 +1,441 @@
+{
+  "symbol": "JGCHEM",
+  "rhp_file": "JGCHEM.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:13:21+00:00",
+  "pages_sent": [
+    1,
+    2,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    69,
+    70,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    91,
+    92,
+    93,
+    94,
+    106,
+    107,
+    108,
+    109,
+    124,
+    125,
+    126,
+    127,
+    128,
+    292,
+    294,
+    295,
+    296
+  ],
+  "n_pdf_pages": 433,
+  "usage": {
+    "input_tokens": 51652,
+    "output_tokens": 3577,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.45489019999999997,
+    "session_id": "f30ff47b-4c79-4226-9e50-b4faa441ffb6"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "J.G.Chemicals Limited",
+    "sector": "Chemicals & materials",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023",
+    "stub_period_months": 9,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Centrum Capital Limited; Emkay Global Financial Services Limited; Keynote Financial Services Limited",
+    "revenue_fy2": 435.298,
+    "rhp_page_revenue_fy2": 75,
+    "revenue_fy1": 612.83,
+    "rhp_page_revenue_fy1": 75,
+    "revenue_fy0": 784.576,
+    "rhp_page_revenue_fy0": 75,
+    "ebitda_fy2": 48.607,
+    "rhp_page_ebitda_fy2": 127,
+    "ebitda_fy1": 66.378,
+    "rhp_page_ebitda_fy1": 127,
+    "ebitda_fy0": 85.117,
+    "rhp_page_ebitda_fy0": 127,
+    "pat_fy2": 28.799,
+    "rhp_page_pat_fy2": 75,
+    "pat_fy1": 43.126,
+    "rhp_page_pat_fy1": 75,
+    "pat_fy0": 56.793,
+    "rhp_page_pat_fy0": 75,
+    "cfo_fy2": -7.346,
+    "rhp_page_cfo_fy2": 77,
+    "cfo_fy1": 6.752,
+    "rhp_page_cfo_fy1": 77,
+    "cfo_fy0": 31.166,
+    "rhp_page_cfo_fy0": 77,
+    "net_worth_fy0": 199.896,
+    "rhp_page_net_worth_fy0": 26,
+    "total_debt_fy0": 70.351,
+    "rhp_page_total_debt_fy0": 27,
+    "cash_fy0": 3.548,
+    "rhp_page_cash_fy0": 73,
+    "revenue_stub": 486.322,
+    "rhp_page_revenue_stub": 75,
+    "pat_stub": 18.51,
+    "rhp_page_pat_stub": 75,
+    "price_low": null,
+    "rhp_page_price_low": 125,
+    "price_high": null,
+    "rhp_page_price_high": 125,
+    "lot_size": null,
+    "rhp_page_lot_size": 2,
+    "promoter_pre_pct": 100.0,
+    "rhp_page_promoter_pre_pct": 26,
+    "promoter_post_pct": null,
+    "retail_quota_pct": 35.0,
+    "rhp_page_retail_quota_pct": 1,
+    "pre_ipo_price": null,
+    "eps_fy0": 17.32,
+    "rhp_page_eps_fy0": 76,
+    "ronw_fy0_pct": 27.49,
+    "rhp_page_ronw_fy0_pct": 125,
+    "nav_per_share_fy0": 63.02,
+    "rhp_page_nav_per_share_fy0": 125,
+    "fresh_issue_cr": 165.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.39,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 3.172,
+    "rhp_page_pre_issue_shares_cr": 69,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 69,
+    "ofs_promoter_shares_cr": 0.39,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 25.0,
+    "proceeds_capex_cr": 6.058,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "RAJRATAN; NOCIL; YASHO",
+    "n_peers": 3,
+    "peer_pe_list": [
+      33.43,
+      30.97,
+      30.03
+    ],
+    "peer_ronw_list": [
+      22.79,
+      9.61,
+      28.52
+    ],
+    "rhp_page_peers": 126
+  },
+  "extract": {
+    "company": "J.G.Chemicals Limited",
+    "sector": "Chemicals & materials",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 125
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 125
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": 2
+    },
+    "fresh_issue_amount": {
+      "value": 1650.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 3900000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Vision Projects & Finvest Private Limited",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 2028900.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Jayanti Commercial Limited",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 1100.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Suresh Kumar Jhunjhunwala (HUF)",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 1260000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Anirudh Jhunjhunwala (HUF)",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 610000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 31720000.0,
+      "unit": "shares",
+      "page": 69
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 69
+    },
+    "promoter_pre_pct": {
+      "value": 100.0,
+      "unit": "percent",
+      "page": 26
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Investment in Material Subsidiary BDJ Oxides for repayment/pre-payment of its borrowings",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 250.0,
+          "unit": "million",
+          "page": 107
+        }
+      },
+      {
+        "purpose": "Investment in BDJ Oxides for capital expenditure for setting up R&D centre at Naidupeta, Andhra Pradesh",
+        "category": "capex",
+        "amount": {
+          "value": 60.58,
+          "unit": "million",
+          "page": 107
+        }
+      },
+      {
+        "purpose": "Investment in BDJ Oxides for funding its long-term working capital requirements",
+        "category": "other",
+        "amount": {
+          "value": 600.0,
+          "unit": "million",
+          "page": 107
+        }
+      },
+      {
+        "purpose": "Funding long-term working capital requirements of the Company",
+        "category": "other",
+        "amount": {
+          "value": 350.0,
+          "unit": "million",
+          "page": 107
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 107
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 1
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Centrum Capital Limited",
+      "Emkay Global Financial Services Limited",
+      "Keynote Financial Services Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023",
+    "revenue_fy2": {
+      "value": 4352.98,
+      "unit": "million",
+      "page": 75
+    },
+    "revenue_fy1": {
+      "value": 6128.3,
+      "unit": "million",
+      "page": 75
+    },
+    "revenue_fy0": {
+      "value": 7845.76,
+      "unit": "million",
+      "page": 75
+    },
+    "ebitda_fy2": {
+      "value": 486.07,
+      "unit": "million",
+      "page": 127
+    },
+    "ebitda_fy1": {
+      "value": 663.78,
+      "unit": "million",
+      "page": 127
+    },
+    "ebitda_fy0": {
+      "value": 851.17,
+      "unit": "million",
+      "page": 127
+    },
+    "pat_fy2": {
+      "value": 287.99,
+      "unit": "million",
+      "page": 75
+    },
+    "pat_fy1": {
+      "value": 431.26,
+      "unit": "million",
+      "page": 75
+    },
+    "pat_fy0": {
+      "value": 567.93,
+      "unit": "million",
+      "page": 75
+    },
+    "cfo_fy2": {
+      "value": -73.46,
+      "unit": "million",
+      "page": 77
+    },
+    "cfo_fy1": {
+      "value": 67.52,
+      "unit": "million",
+      "page": 77
+    },
+    "cfo_fy0": {
+      "value": 311.66,
+      "unit": "million",
+      "page": 77
+    },
+    "net_worth_fy0": {
+      "value": 1998.96,
+      "unit": "million",
+      "page": 26
+    },
+    "total_debt_fy0": {
+      "value": 703.51,
+      "unit": "million",
+      "page": 27
+    },
+    "cash_fy0": {
+      "value": 35.48,
+      "unit": "million",
+      "page": 73
+    },
+    "eps_fy0": {
+      "value": 17.32,
+      "unit": "rupees",
+      "page": 76
+    },
+    "ronw_fy0_pct": {
+      "value": 27.49,
+      "unit": "percent",
+      "page": 125
+    },
+    "nav_per_share_fy0": {
+      "value": 63.02,
+      "unit": "rupees",
+      "page": 125
+    },
+    "stub_period_months": 9,
+    "revenue_stub": {
+      "value": 4863.22,
+      "unit": "million",
+      "page": 75
+    },
+    "pat_stub": {
+      "value": 185.1,
+      "unit": "million",
+      "page": 75
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Rajratan Global Wire Limited",
+        "nse_symbol": "RAJRATAN",
+        "pe": 33.43,
+        "ronw_pct": 22.79,
+        "page": 126
+      },
+      {
+        "name": "NOCIL Limited",
+        "nse_symbol": "NOCIL",
+        "pe": 30.97,
+        "ronw_pct": 9.61,
+        "page": 126
+      },
+      {
+        "name": "Yasho Industries Limited",
+        "nse_symbol": "YASHO",
+        "pe": 30.03,
+        "ronw_pct": 28.52,
+        "page": 126
+      }
+    ],
+    "notes": [
+      "The price band and lot size are printed as [\u25cf] in this RHP, so they are null.",
+      "FY2023 net worth (excluding non-controlling interests) is 1,998.96 million in the summary on page 26 but 1,998.86 million in the KPI table on page 127. The page 26 figure was used.",
+      "Total debt for FY2023 is 703.51 million, made up of non-current borrowings of 67.15 million plus current borrowings of 636.36 million (balance sheet, page 73).",
+      "Promoters and promoter group hold 100% before the offer. The post-offer holding is not printed.",
+      "No pre-IPO placement within 12 months of the RHP. The only allotment since 2010 is the 25:1 bonus issue on June 21, 2022, which was more than 12 months before the RHP.",
+      "The NSE symbols for the peers are not printed in the RHP; they come from general knowledge.",
+      "PAT figures are the restated profit for the year including non-controlling interests. Profit attributable to owners in FY2023 was 549.93 million.",
+      "Interest paid for FY2023 is printed as 49.83 without brackets in the cash flow statement on page 77. This looks like a typo in the source."
+    ]
+  }
+}

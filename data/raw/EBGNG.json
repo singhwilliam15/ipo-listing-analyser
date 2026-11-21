@@ -1,0 +1,370 @@
+{
+  "symbol": "EBGNG",
+  "rhp_file": "EBGNG.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:13:39+00:00",
+  "pages_sent": [
+    1,
+    2,
+    22,
+    23,
+    24,
+    25,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    84,
+    85,
+    86,
+    95,
+    96,
+    105,
+    106,
+    107,
+    294,
+    295,
+    315
+  ],
+  "n_pdf_pages": 407,
+  "usage": {
+    "input_tokens": 37874,
+    "output_tokens": 3370,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3391476,
+    "session_id": "fcf46607-b12a-4a03-be46-aa20848afe3a"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "GNG Electronics Limited",
+    "sector": "Electronics & EMS",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "stub_period_months": null,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Motilal Oswal Investment Advisors Limited; IIFL Capital Services Limited; JM Financial Limited",
+    "revenue_fy2": 659.542,
+    "rhp_page_revenue_fy2": 73,
+    "revenue_fy1": 1138.138,
+    "rhp_page_revenue_fy1": 73,
+    "revenue_fy0": 1411.11,
+    "rhp_page_revenue_fy0": 73,
+    "ebitda_fy2": 50.04,
+    "rhp_page_ebitda_fy2": 107,
+    "ebitda_fy1": 84.904,
+    "rhp_page_ebitda_fy1": 107,
+    "ebitda_fy0": 126.144,
+    "rhp_page_ebitda_fy0": 107,
+    "pat_fy2": 32.428,
+    "rhp_page_pat_fy2": 73,
+    "pat_fy1": 52.30499999999999,
+    "rhp_page_pat_fy1": 73,
+    "pat_fy0": 69.033,
+    "rhp_page_pat_fy0": 73,
+    "cfo_fy2": 24.959,
+    "rhp_page_cfo_fy2": 74,
+    "cfo_fy1": 97.457,
+    "rhp_page_cfo_fy1": 74,
+    "cfo_fy0": 24.525,
+    "rhp_page_cfo_fy0": 74,
+    "net_worth_fy0": 226.455,
+    "rhp_page_net_worth_fy0": 72,
+    "total_debt_fy0": 434.357,
+    "rhp_page_total_debt_fy0": 315,
+    "cash_fy0": 5.051,
+    "rhp_page_cash_fy0": 72,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": 95.01,
+    "rhp_page_promoter_pre_pct": 23,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 23,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 7.09,
+    "rhp_page_eps_fy0": 73,
+    "ronw_fy0_pct": 30.4,
+    "rhp_page_ronw_fy0_pct": 106,
+    "nav_per_share_fy0": 23.31,
+    "rhp_page_nav_per_share_fy0": 106,
+    "fresh_issue_cr": 400.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.255,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 9.713388,
+    "rhp_page_pre_issue_shares_cr": 69,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 69,
+    "ofs_promoter_shares_cr": 0.255,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 320.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "Newjaisa Technologies Limited",
+    "n_peers": 1,
+    "peer_pe_list": [],
+    "peer_ronw_list": [
+      -1.45
+    ],
+    "rhp_page_peers": 106
+  },
+  "extract": {
+    "company": "GNG Electronics Limited",
+    "sector": "Electronics & EMS",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 4000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 2550000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Sharad Khandelwal",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 35000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Vidhi Sharad Khandelwal",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 35000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Amiable Electronics Private Limited",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 2480000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 97133880.0,
+      "unit": "shares",
+      "page": 69
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 69
+    },
+    "promoter_pre_pct": {
+      "value": 95.01,
+      "unit": "percent",
+      "page": 23
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": 23
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Prepayment and/or repayment of certain outstanding borrowings of the Company and Material Subsidiary Electronics Bazaar FZC",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 3200.0,
+          "unit": "million",
+          "page": 95
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": null,
+          "page": 95
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lead_managers": [
+      "Motilal Oswal Investment Advisors Limited",
+      "IIFL Capital Services Limited",
+      "JM Financial Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "revenue_fy2": {
+      "value": 6595.42,
+      "unit": "million",
+      "page": 73
+    },
+    "revenue_fy1": {
+      "value": 11381.38,
+      "unit": "million",
+      "page": 73
+    },
+    "revenue_fy0": {
+      "value": 14111.1,
+      "unit": "million",
+      "page": 73
+    },
+    "ebitda_fy2": {
+      "value": 500.4,
+      "unit": "million",
+      "page": 107
+    },
+    "ebitda_fy1": {
+      "value": 849.04,
+      "unit": "million",
+      "page": 107
+    },
+    "ebitda_fy0": {
+      "value": 1261.44,
+      "unit": "million",
+      "page": 107
+    },
+    "pat_fy2": {
+      "value": 324.28,
+      "unit": "million",
+      "page": 73
+    },
+    "pat_fy1": {
+      "value": 523.05,
+      "unit": "million",
+      "page": 73
+    },
+    "pat_fy0": {
+      "value": 690.33,
+      "unit": "million",
+      "page": 73
+    },
+    "cfo_fy2": {
+      "value": 249.59,
+      "unit": "million",
+      "page": 74
+    },
+    "cfo_fy1": {
+      "value": 974.57,
+      "unit": "million",
+      "page": 74
+    },
+    "cfo_fy0": {
+      "value": 245.25,
+      "unit": "million",
+      "page": 74
+    },
+    "net_worth_fy0": {
+      "value": 2264.55,
+      "unit": "million",
+      "page": 72
+    },
+    "total_debt_fy0": {
+      "value": 4343.57,
+      "unit": "million",
+      "page": 315
+    },
+    "cash_fy0": {
+      "value": 50.51,
+      "unit": "million",
+      "page": 72
+    },
+    "eps_fy0": {
+      "value": 7.09,
+      "unit": "rupees",
+      "page": 73
+    },
+    "ronw_fy0_pct": {
+      "value": 30.4,
+      "unit": "percent",
+      "page": 106
+    },
+    "nav_per_share_fy0": {
+      "value": 23.31,
+      "unit": "rupees",
+      "page": 106
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Newjaisa Technologies Limited",
+        "nse_symbol": null,
+        "pe": null,
+        "ronw_pct": -1.45,
+        "page": 106
+      }
+    ],
+    "notes": [
+      "Total borrowings for FY2025 disagree across the RHP. The balance sheet (p72) and capitalisation statement (p315) give 4,343.57 million (non-current 727.99 + current 3,615.58). The financial summary (p24) gives 4,469.21 million. Objects of the Offer (p96) gives 5,827.55 million total and 4,469.21 million of working capital facilities. The extract uses 4,343.57.",
+      "Other equity is 2,070.28 million on the balance sheet (p72) but 2,072.92 million in the capitalisation statement (p315). Total equity is 2,271.29 vs 2,267.19 million on the same two pages.",
+      "Cash is cash and cash equivalents only (50.51 million). The cash flow statement also counts other bank balances (557.30 million), giving 607.81 million.",
+      "Price band, lot size, fresh issue share count and post-offer shares are [\u25cf] in the RHP.",
+      "Retail quota % is not stated on the pages provided. The non-institutional portion is not less than 15%.",
+      "Promoter pre-offer % of 95.01 includes the promoter group (promoters alone are 94.29%). Kay Kay Overseas Corporation holds no shares.",
+      "In the 12 months before the RHP there was no placement; the only share movements were a 500:1 bonus issue (Dec 5, 2024), a share split, and gift transfers at nil consideration (Sep 2024). So pre_ipo_placement is set to false.",
+      "Peer Newjaisa Technologies has a negative EPS, so its P/E is NA. Its figures are standalone.",
+      "EBITDA definitions differ: the KPI note (p107) says PBT plus finance costs plus D&A, while p290 also deducts other income. Both pages print the same values (1,261.44 / 849.04 / 500.40 million)."
+    ]
+  }
+}

@@ -1,0 +1,390 @@
+{
+  "symbol": "OMPOWER",
+  "rhp_file": "OMPOWER.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T17:58:41+00:00",
+  "pages_sent": [
+    1,
+    2,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    102,
+    103,
+    104,
+    117,
+    118,
+    139,
+    140,
+    141,
+    374,
+    375,
+    378
+  ],
+  "n_pdf_pages": 530,
+  "usage": {
+    "input_tokens": 30474,
+    "output_tokens": 3507,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.31656229999999996,
+    "session_id": "47b34d3c-d745-4c61-adc7-4d74cc2a3758"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Om Power Transmission Limited",
+    "sector": "Infrastructure, construction & real estate",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "stub_period_months": 9,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "Beeline Capital Advisors Private Limited",
+    "revenue_fy2": 120.2363,
+    "rhp_page_revenue_fy2": 85,
+    "revenue_fy1": 182.7616,
+    "rhp_page_revenue_fy1": 85,
+    "revenue_fy0": 279.4351,
+    "rhp_page_revenue_fy0": 85,
+    "ebitda_fy2": 11.9294,
+    "rhp_page_ebitda_fy2": 374,
+    "ebitda_fy1": 14.4663,
+    "rhp_page_ebitda_fy1": 374,
+    "ebitda_fy0": 35.656,
+    "rhp_page_ebitda_fy0": 374,
+    "pat_fy2": 6.2372,
+    "rhp_page_pat_fy2": 85,
+    "pat_fy1": 7.4124,
+    "rhp_page_pat_fy1": 85,
+    "pat_fy0": 22.0848,
+    "rhp_page_pat_fy0": 85,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 72.6542,
+    "rhp_page_net_worth_fy0": 83,
+    "total_debt_fy0": null,
+    "rhp_page_total_debt_fy0": 83,
+    "cash_fy0": 0.6858,
+    "rhp_page_cash_fy0": 83,
+    "revenue_stub": 274.5428,
+    "rhp_page_revenue_stub": 85,
+    "pat_stub": 23.368000000000002,
+    "rhp_page_pat_stub": 85,
+    "price_low": null,
+    "rhp_page_price_low": 140,
+    "price_high": null,
+    "rhp_page_price_high": 140,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": 116.0,
+    "rhp_page_pre_ipo_price": 103,
+    "eps_fy0": 8.98,
+    "rhp_page_eps_fy0": 140,
+    "ronw_fy0_pct": 30.4,
+    "rhp_page_ronw_fy0_pct": 141,
+    "nav_per_share_fy0": 29.53,
+    "rhp_page_nav_per_share_fy0": 374,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": 0.7575,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.1,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 2.667,
+    "rhp_page_pre_issue_shares_cr": 80,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 80,
+    "ofs_promoter_shares_cr": 0.1,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 25.0,
+    "proceeds_capex_cr": 11.2094,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "Advait Energy Transitions Limited; Rajesh Power Services Limited",
+    "n_peers": 2,
+    "peer_pe_list": [
+      57.52,
+      16.38
+    ],
+    "peer_ronw_list": [],
+    "rhp_page_peers": 141
+  },
+  "extract": {
+    "company": "Om Power Transmission Limited",
+    "sector": "Infrastructure, construction & real estate",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 140
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 140
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "lakh",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": 7575000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "lakh",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 1000000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Kalpesh Dhanjibhai Patel",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 350000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Kanubhai Patel",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 350000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Vasantkumar Narayanbhai Patel",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 300000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 26670000.0,
+      "unit": "shares",
+      "page": 80
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 80
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding of capital expenditure requirements towards purchase of machinery and equipment",
+        "category": "capex",
+        "amount": {
+          "value": 1120.94,
+          "unit": "lakh",
+          "page": 118
+        }
+      },
+      {
+        "purpose": "Pre-payment/re-payment, in part or full, of certain outstanding borrowings",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 2500.0,
+          "unit": "lakh",
+          "page": 118
+        }
+      },
+      {
+        "purpose": "Funding long-term working capital requirement",
+        "category": "other",
+        "amount": {
+          "value": 5500.0,
+          "unit": "lakh",
+          "page": 118
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "lakh",
+          "page": 118
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 116.0,
+      "unit": "rupees",
+      "page": 103
+    },
+    "lead_managers": [
+      "Beeline Capital Advisors Private Limited"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "revenue_fy2": {
+      "value": 12023.63,
+      "unit": "lakh",
+      "page": 85
+    },
+    "revenue_fy1": {
+      "value": 18276.16,
+      "unit": "lakh",
+      "page": 85
+    },
+    "revenue_fy0": {
+      "value": 27943.51,
+      "unit": "lakh",
+      "page": 85
+    },
+    "ebitda_fy2": {
+      "value": 1192.94,
+      "unit": "lakh",
+      "page": 374
+    },
+    "ebitda_fy1": {
+      "value": 1446.63,
+      "unit": "lakh",
+      "page": 374
+    },
+    "ebitda_fy0": {
+      "value": 3565.6,
+      "unit": "lakh",
+      "page": 374
+    },
+    "pat_fy2": {
+      "value": 623.72,
+      "unit": "lakh",
+      "page": 85
+    },
+    "pat_fy1": {
+      "value": 741.24,
+      "unit": "lakh",
+      "page": 85
+    },
+    "pat_fy0": {
+      "value": 2208.48,
+      "unit": "lakh",
+      "page": 85
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "lakh",
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": "lakh",
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": "lakh",
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 7265.42,
+      "unit": "lakh",
+      "page": 83
+    },
+    "total_debt_fy0": {
+      "value": null,
+      "unit": "lakh",
+      "page": 83
+    },
+    "cash_fy0": {
+      "value": 68.58,
+      "unit": "lakh",
+      "page": 83
+    },
+    "eps_fy0": {
+      "value": 8.98,
+      "unit": "rupees",
+      "page": 140
+    },
+    "ronw_fy0_pct": {
+      "value": 30.4,
+      "unit": "percent",
+      "page": 141
+    },
+    "nav_per_share_fy0": {
+      "value": 29.53,
+      "unit": "rupees",
+      "page": 374
+    },
+    "stub_period_months": 9,
+    "revenue_stub": {
+      "value": 27454.28,
+      "unit": "lakh",
+      "page": 85
+    },
+    "pat_stub": {
+      "value": 2336.8,
+      "unit": "lakh",
+      "page": 85
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Advait Energy Transitions Limited",
+        "nse_symbol": null,
+        "pe": 57.52,
+        "ronw_pct": null,
+        "page": 141
+      },
+      {
+        "name": "Rajesh Power Services Limited",
+        "nse_symbol": null,
+        "pe": 16.38,
+        "ronw_pct": null,
+        "page": 141
+      }
+    ],
+    "notes": [
+      "Financials are 'Restated Financial Statements' with no mention of consolidation or subsidiaries; treated as standalone.",
+      "Price band, lot size, issue amounts and post-offer shares are [\u25cf] in the RHP.",
+      "Total debt for FY2025 is not printed as a single total: non-current borrowings 104.05 lakh and current borrowings 1,786.41 lakh (page 83). Total borrowings at Dec 31, 2025 = 3,846.75 lakh (page 378).",
+      "Cash flow statement pages were not provided, so CFO is null.",
+      "The full peer comparison table (Point H) was not provided. Only the highest and lowest peer P/E from section D are captured (average 33.02). Peer RoNW is not available.",
+      "Promoter shareholding % and the retail quota % are not printed on these pages. Before the Sep 2025 private placement, the promoters held 2,46,00,000 shares.",
+      "Pre-IPO: private placement of 20,70,000 shares at \u20b9116 on September 06, 2025. Bonus issue 40:1 on July 25, 2025.",
+      "Long-term working capital (5,500 lakh) is categorised as 'other'.",
+      "Stub period is the nine months ended December 31, 2025 (EBITDA 3,424.45 lakh)."
+    ]
+  }
+}

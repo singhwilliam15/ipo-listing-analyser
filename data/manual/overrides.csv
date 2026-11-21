@@ -1,0 +1,6 @@
+# Hand corrections and data with no public historical source. One row per value; these win over every automatic source.
+# field = any column name in src/schema.py, or rhp_url. Dates as DD-MM-YYYY. Examples:
+# TATATECH,gmp_last_rs,330,last GMP quoted on issue close day (source: ...)
+# TATATECH,anchor_cr,791,anchor allotment notice
+# TATATECH,rhp_url,https://www.sebi.gov.in/.../rhp.pdf,
+symbol,field,value,note

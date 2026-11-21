@@ -1,0 +1,361 @@
+{
+  "symbol": "INDOFARM",
+  "rhp_file": "INDOFARM.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-21T05:54:08+00:00",
+  "pages_sent": [
+    1,
+    2,
+    21,
+    22,
+    23,
+    24,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    80,
+    81,
+    82,
+    92,
+    93,
+    108,
+    109,
+    110,
+    338,
+    339
+  ],
+  "n_pdf_pages": 466,
+  "usage": {
+    "input_tokens": 39996,
+    "output_tokens": 3074,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3504156,
+    "session_id": "87ee4425-5340-4faa-9cbe-251fbd762706"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Indo Farm Equipment Limited",
+    "sector": "Industrials & capital goods",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024 (March 31, 2024)",
+    "stub_period_months": 3,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "Aryaman Financial Services Limited",
+    "revenue_fy2": 352.084,
+    "rhp_page_revenue_fy2": 70,
+    "revenue_fy1": 370.759,
+    "rhp_page_revenue_fy1": 70,
+    "revenue_fy0": 375.232,
+    "rhp_page_revenue_fy0": 70,
+    "ebitda_fy2": 52.069,
+    "rhp_page_ebitda_fy2": 110,
+    "ebitda_fy1": 58.718,
+    "rhp_page_ebitda_fy1": 110,
+    "ebitda_fy0": 62.516,
+    "rhp_page_ebitda_fy0": 110,
+    "pat_fy2": 13.719,
+    "rhp_page_pat_fy2": 70,
+    "pat_fy1": 15.372,
+    "rhp_page_pat_fy1": 70,
+    "pat_fy0": 15.595,
+    "rhp_page_pat_fy0": 70,
+    "cfo_fy2": 9.977,
+    "rhp_page_cfo_fy2": 71,
+    "cfo_fy1": 30.175,
+    "rhp_page_cfo_fy1": 71,
+    "cfo_fy0": 40.587,
+    "rhp_page_cfo_fy0": 71,
+    "net_worth_fy0": 317.062,
+    "rhp_page_net_worth_fy0": 68,
+    "total_debt_fy0": 270.539,
+    "rhp_page_total_debt_fy0": 23,
+    "cash_fy0": 14.056,
+    "rhp_page_cash_fy0": 68,
+    "revenue_stub": 74.959,
+    "rhp_page_revenue_stub": 70,
+    "pat_stub": 2.454,
+    "rhp_page_pat_stub": 70,
+    "price_low": null,
+    "rhp_page_price_low": 109,
+    "price_high": null,
+    "rhp_page_price_high": 109,
+    "lot_size": null,
+    "promoter_pre_pct": 93.45,
+    "rhp_page_promoter_pre_pct": 22,
+    "promoter_post_pct": 69.44,
+    "rhp_page_promoter_post_pct": 22,
+    "retail_quota_pct": 35.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": 185.0,
+    "rhp_page_pre_ipo_price": 81,
+    "eps_fy0": 4.15,
+    "rhp_page_eps_fy0": 70,
+    "ronw_fy0_pct": 4.92,
+    "rhp_page_ronw_fy0_pct": 109,
+    "nav_per_share_fy0": 84.43,
+    "rhp_page_nav_per_share_fy0": 338,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": 0.86,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.35,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 3.94516,
+    "rhp_page_pre_issue_shares_cr": 66,
+    "post_issue_shares_cr": 4.80516,
+    "rhp_page_post_issue_shares_cr": 66,
+    "ofs_promoter_shares_cr": 0.35,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 50.0,
+    "proceeds_capex_cr": 70.074,
+    "proceeds_gcp_cr": 0.0,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "Indo Farm Equipment Limited",
+    "sector": "Industrials & capital goods",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 109
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 109
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": 8600000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 3500000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Ranbir Singh Khadwalia",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 3500000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 39451600.0,
+      "unit": "shares",
+      "page": 66
+    },
+    "post_issue_shares": {
+      "value": 48051600.0,
+      "unit": "shares",
+      "page": 66
+    },
+    "promoter_pre_pct": {
+      "value": 93.45,
+      "unit": "percent",
+      "page": 22
+    },
+    "promoter_post_pct": {
+      "value": 69.44,
+      "unit": "percent",
+      "page": 22
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Setting up new Dedicated Unit for Expansion of Pick & Carry Cranes Manufacturing Capacity",
+        "category": "capex",
+        "amount": {
+          "value": 700.74,
+          "unit": "million",
+          "page": 22
+        }
+      },
+      {
+        "purpose": "Repayment or pre-payment, in full or part, of certain borrowings",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 500.0,
+          "unit": "million",
+          "page": 22
+        }
+      },
+      {
+        "purpose": "Further investment in NBFC subsidiary Barota Finance Ltd. to augment capital base",
+        "category": "other",
+        "amount": {
+          "value": 450.0,
+          "unit": "million",
+          "page": 22
+        }
+      },
+      {
+        "purpose": "General Corporate Purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 22
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 185.0,
+      "unit": "rupees",
+      "page": 81
+    },
+    "lead_managers": [
+      "Aryaman Financial Services Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024 (March 31, 2024)",
+    "revenue_fy2": {
+      "value": 3520.84,
+      "unit": "million",
+      "page": 70
+    },
+    "revenue_fy1": {
+      "value": 3707.59,
+      "unit": "million",
+      "page": 70
+    },
+    "revenue_fy0": {
+      "value": 3752.32,
+      "unit": "million",
+      "page": 70
+    },
+    "ebitda_fy2": {
+      "value": 520.69,
+      "unit": "million",
+      "page": 110
+    },
+    "ebitda_fy1": {
+      "value": 587.18,
+      "unit": "million",
+      "page": 110
+    },
+    "ebitda_fy0": {
+      "value": 625.16,
+      "unit": "million",
+      "page": 110
+    },
+    "pat_fy2": {
+      "value": 137.19,
+      "unit": "million",
+      "page": 70
+    },
+    "pat_fy1": {
+      "value": 153.72,
+      "unit": "million",
+      "page": 70
+    },
+    "pat_fy0": {
+      "value": 155.95,
+      "unit": "million",
+      "page": 70
+    },
+    "cfo_fy2": {
+      "value": 99.77,
+      "unit": "million",
+      "page": 71
+    },
+    "cfo_fy1": {
+      "value": 301.75,
+      "unit": "million",
+      "page": 71
+    },
+    "cfo_fy0": {
+      "value": 405.87,
+      "unit": "million",
+      "page": 71
+    },
+    "net_worth_fy0": {
+      "value": 3170.62,
+      "unit": "million",
+      "page": 68
+    },
+    "total_debt_fy0": {
+      "value": 2705.39,
+      "unit": "million",
+      "page": 23
+    },
+    "cash_fy0": {
+      "value": 140.56,
+      "unit": "million",
+      "page": 68
+    },
+    "eps_fy0": {
+      "value": 4.15,
+      "unit": "rupees",
+      "page": 70
+    },
+    "ronw_fy0_pct": {
+      "value": 4.92,
+      "unit": "percent",
+      "page": 109
+    },
+    "nav_per_share_fy0": {
+      "value": 84.43,
+      "unit": "rupees",
+      "page": 338
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 749.59,
+      "unit": "million",
+      "page": 70
+    },
+    "pat_stub": {
+      "value": 24.54,
+      "unit": "million",
+      "page": 70
+    },
+    "no_listed_peers": false,
+    "peers": [],
+    "notes": [
+      "Price band, lot size and issue amounts are printed as [\u25cf] in the RHP pages provided.",
+      "The peer comparison table is not on the pages provided. Page 109 shows only the industry P/E: highest 47.42, lowest 36.79, average 42.10. The list of peers is left empty.",
+      "Pre-IPO placement: 1,900,000 shares at \u20b9185 each (\u20b9351.50 million), allotted April\u2013May 2024. This cut the fresh issue from 10,500,000 to 8,600,000 shares.",
+      "Footnote 12 on page 82 cites a board resolution of May 24, 2024 for the May 29, 2024 allotment of 54,100 shares to Udit Sehgal. Footnote 11 also lists 54,100 shares to Mohd Jazib Khan. These do not reconcile cleanly.",
+      "total_debt_fy0 is taken from the summary on page 23 (2,705.39). It matches non-current 836.57 + current 1,868.82 on page 68.",
+      "RoE in the KPI table (5.13%, on average equity) is different from RoNW (4.92%, on closing net worth). RoNW is used.",
+      "The \u20b9450 million investment in the NBFC subsidiary is categorised as 'other'.",
+      "Sector: the company makes tractors and pick & carry cranes, so it was classified as Industrials & capital goods."
+    ]
+  }
+}

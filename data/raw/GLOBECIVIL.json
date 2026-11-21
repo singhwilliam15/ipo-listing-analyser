@@ -1,0 +1,377 @@
+{
+  "symbol": "GLOBECIVIL",
+  "rhp_file": "GLOBECIVIL.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:14:53+00:00",
+  "pages_sent": [
+    1,
+    2,
+    22,
+    32,
+    53,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    116,
+    130,
+    131,
+    132,
+    148,
+    149,
+    167,
+    174,
+    450,
+    451,
+    489
+  ],
+  "n_pdf_pages": 604,
+  "usage": {
+    "input_tokens": 34563,
+    "output_tokens": 3582,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3165671,
+    "session_id": "e4828514-5ae8-4b2d-bd78-13f6c4d807fe"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Globe Civil Projects Limited",
+    "sector": "Infrastructure, construction & real estate",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024",
+    "stub_period_months": 9,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "Mefcom Capital Markets Limited",
+    "revenue_fy2": 285.709,
+    "rhp_page_revenue_fy2": 116,
+    "revenue_fy1": 233.345,
+    "rhp_page_revenue_fy1": 116,
+    "revenue_fy0": 332.162,
+    "rhp_page_revenue_fy0": 116,
+    "ebitda_fy2": 22.91,
+    "rhp_page_ebitda_fy2": 451,
+    "ebitda_fy1": 20.798,
+    "rhp_page_ebitda_fy1": 451,
+    "ebitda_fy0": 44.652,
+    "rhp_page_ebitda_fy0": 451,
+    "pat_fy2": 5.201,
+    "rhp_page_pat_fy2": 116,
+    "pat_fy1": 4.851,
+    "rhp_page_pat_fy1": 116,
+    "pat_fy0": 15.378,
+    "rhp_page_pat_fy0": 116,
+    "cfo_fy2": 7.41,
+    "rhp_page_cfo_fy2": 112,
+    "cfo_fy1": -11.222,
+    "rhp_page_cfo_fy1": 112,
+    "cfo_fy0": 4.199,
+    "rhp_page_cfo_fy0": 112,
+    "net_worth_fy0": 77.669,
+    "rhp_page_net_worth_fy0": 450,
+    "total_debt_fy0": null,
+    "rhp_page_total_debt_fy0": 113,
+    "cash_fy0": 0.20299999999999999,
+    "rhp_page_cash_fy0": 113,
+    "revenue_stub": 254.657,
+    "rhp_page_revenue_stub": 116,
+    "pat_stub": 17.789,
+    "rhp_page_pat_stub": 116,
+    "price_low": null,
+    "rhp_page_price_low": 167,
+    "price_high": null,
+    "rhp_page_price_high": 167,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": 960.0,
+    "rhp_page_pre_ipo_price": 132,
+    "eps_fy0": 3.58,
+    "rhp_page_eps_fy0": 450,
+    "ronw_fy0_pct": 19.8,
+    "rhp_page_ronw_fy0_pct": 450,
+    "nav_per_share_fy0": 18.1,
+    "rhp_page_nav_per_share_fy0": 451,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "fresh_issue_shares_cr": 1.676056,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "pre_issue_shares_cr": 4.2958439,
+    "rhp_page_pre_issue_shares_cr": 109,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 109,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 14.255,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "B L Kashyap and Sons Limited; Ceigall India Limited; PSP Projects Limited; Capacit'e Infraprojects Limited; Ahluwalia Contracts (India) Limited",
+    "n_peers": 5,
+    "peer_pe_list": [
+      29.57,
+      12.88
+    ],
+    "peer_ronw_list": [],
+    "rhp_page_peers": 167
+  },
+  "extract": {
+    "company": "Globe Civil Projects Limited",
+    "sector": "Infrastructure, construction & real estate",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 167
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 167
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": 16760560.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 42958439.0,
+      "unit": "shares",
+      "page": 109
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 109
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding working capital requirements of our Company",
+        "category": "other",
+        "amount": {
+          "value": 750.0,
+          "unit": "million",
+          "page": 148
+        }
+      },
+      {
+        "purpose": "Capital expenditure towards purchase of construction equipment/machineries",
+        "category": "capex",
+        "amount": {
+          "value": 142.55,
+          "unit": "million",
+          "page": 148
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 148
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 960.0,
+      "unit": "rupees",
+      "page": 132
+    },
+    "lead_managers": [
+      "Mefcom Capital Markets Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024",
+    "revenue_fy2": {
+      "value": 2857.09,
+      "unit": "million",
+      "page": 116
+    },
+    "revenue_fy1": {
+      "value": 2333.45,
+      "unit": "million",
+      "page": 116
+    },
+    "revenue_fy0": {
+      "value": 3321.62,
+      "unit": "million",
+      "page": 116
+    },
+    "ebitda_fy2": {
+      "value": 229.1,
+      "unit": "million",
+      "page": 451
+    },
+    "ebitda_fy1": {
+      "value": 207.98,
+      "unit": "million",
+      "page": 451
+    },
+    "ebitda_fy0": {
+      "value": 446.52,
+      "unit": "million",
+      "page": 451
+    },
+    "pat_fy2": {
+      "value": 52.01,
+      "unit": "million",
+      "page": 116
+    },
+    "pat_fy1": {
+      "value": 48.51,
+      "unit": "million",
+      "page": 116
+    },
+    "pat_fy0": {
+      "value": 153.78,
+      "unit": "million",
+      "page": 116
+    },
+    "cfo_fy2": {
+      "value": 74.1,
+      "unit": "million",
+      "page": 112
+    },
+    "cfo_fy1": {
+      "value": -112.22,
+      "unit": "million",
+      "page": 112
+    },
+    "cfo_fy0": {
+      "value": 41.99,
+      "unit": "million",
+      "page": 112
+    },
+    "net_worth_fy0": {
+      "value": 776.69,
+      "unit": "million",
+      "page": 450
+    },
+    "total_debt_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": 113
+    },
+    "cash_fy0": {
+      "value": 2.03,
+      "unit": "million",
+      "page": 113
+    },
+    "eps_fy0": {
+      "value": 3.58,
+      "unit": "rupees",
+      "page": 450
+    },
+    "ronw_fy0_pct": {
+      "value": 19.8,
+      "unit": "percent",
+      "page": 450
+    },
+    "nav_per_share_fy0": {
+      "value": 18.1,
+      "unit": "rupees",
+      "page": 451
+    },
+    "stub_period_months": 9,
+    "revenue_stub": {
+      "value": 2546.57,
+      "unit": "million",
+      "page": 116
+    },
+    "pat_stub": {
+      "value": 177.89,
+      "unit": "million",
+      "page": 116
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "B L Kashyap and Sons Limited",
+        "nse_symbol": null,
+        "pe": 29.57,
+        "ronw_pct": null,
+        "page": 167
+      },
+      {
+        "name": "Ceigall India Limited",
+        "nse_symbol": null,
+        "pe": 12.88,
+        "ronw_pct": null,
+        "page": 167
+      },
+      {
+        "name": "PSP Projects Limited",
+        "nse_symbol": null,
+        "pe": null,
+        "ronw_pct": null,
+        "page": 174
+      },
+      {
+        "name": "Capacit'e Infraprojects Limited",
+        "nse_symbol": null,
+        "pe": null,
+        "ronw_pct": null,
+        "page": 174
+      },
+      {
+        "name": "Ahluwalia Contracts (India) Limited",
+        "nse_symbol": null,
+        "pe": null,
+        "ronw_pct": null,
+        "page": 174
+      }
+    ],
+    "notes": [
+      "The full peer comparison table (page 168) is not in the pages provided. The P/Es for B L Kashyap (29.57, highest) and Ceigall (12.88, lowest) come from the industry P/E summary on page 167. The other P/Es and the FY2024 RoNWs of all peers are not available. Page 174 shows only Fiscal 2022 RoNW for peers.",
+      "The industry average P/E is printed as 19.96 on page 167 but as 18.96 in risk factor 10 on page 53. The two do not match.",
+      "Total borrowings for FY2024 are not printed as a single total. The components are non-current 121.07 and current 1,123.71 (\u20b9 million, pages 113-114), so total_debt_fy0 is left null. Total debt at Dec 31, 2024 is printed as 1,379.69 (page 489).",
+      "The issue is entirely a fresh issue; there is no offer for sale.",
+      "Price band, lot size, retail quota and post-issue shares are [\u25cf] or not given on these pages. Promoter holding % is not on these pages either.",
+      "Pre-IPO placement: preferential allotment of 52,100 shares at \u20b9960 on July 9, 2024, before the 16:1 bonus issue of July 20, 2024.",
+      "Net worth at Dec 31, 2024 is shown as 998.28 in the summary and accounting ratios but as 998.29 in the balance sheet and capitalisation statement.",
+      "Working capital funding of \u20b9750.00 million is categorised as 'other'."
+    ]
+  }
+}

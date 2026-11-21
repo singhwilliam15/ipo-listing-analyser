@@ -1,0 +1,401 @@
+{
+  "symbol": "URBANCO",
+  "rhp_file": "URBANCO.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:10:00+00:00",
+  "pages_sent": [
+    1,
+    2,
+    26,
+    27,
+    28,
+    29,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    109,
+    110,
+    111,
+    163,
+    164,
+    174,
+    175,
+    176,
+    410,
+    411,
+    445
+  ],
+  "n_pdf_pages": 577,
+  "usage": {
+    "input_tokens": 40439,
+    "output_tokens": 3680,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.36612120000000004,
+    "session_id": "1d078890-57ae-4ce9-ba32-94a07b1f78ca"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Urban Company Limited",
+    "sector": "Internet & platforms",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "stub_period_months": 3,
+    "pre_ipo_placement": null,
+    "lead_managers": "Kotak Mahindra Capital Company Limited; Morgan Stanley India Company Private Limited; Goldman Sachs (India) Securities Private Limited; JM Financial Limited",
+    "revenue_fy2": 636.597,
+    "rhp_page_revenue_fy2": 96,
+    "revenue_fy1": 828.018,
+    "rhp_page_revenue_fy1": 96,
+    "revenue_fy0": 1144.465,
+    "rhp_page_revenue_fy0": 96,
+    "ebitda_fy2": -297.692,
+    "rhp_page_ebitda_fy2": 176,
+    "ebitda_fy1": -119.012,
+    "rhp_page_ebitda_fy1": 176,
+    "ebitda_fy0": 12.091,
+    "rhp_page_ebitda_fy0": 176,
+    "pat_fy2": -312.484,
+    "rhp_page_pat_fy2": 96,
+    "pat_fy1": -92.772,
+    "rhp_page_pat_fy1": 96,
+    "pat_fy0": 239.765,
+    "rhp_page_pat_fy0": 96,
+    "cfo_fy2": null,
+    "rhp_page_cfo_fy2": 97,
+    "cfo_fy1": null,
+    "rhp_page_cfo_fy1": 97,
+    "cfo_fy0": null,
+    "rhp_page_cfo_fy0": 97,
+    "net_worth_fy0": 1795.821,
+    "rhp_page_net_worth_fy0": 95,
+    "total_debt_fy0": 0.0,
+    "rhp_page_total_debt_fy0": 29,
+    "cash_fy0": 61.097,
+    "rhp_page_cash_fy0": 95,
+    "revenue_stub": 367.267,
+    "rhp_page_revenue_stub": 96,
+    "pat_stub": 6.938,
+    "rhp_page_pat_stub": 96,
+    "price_low": null,
+    "rhp_page_price_low": 175,
+    "price_high": null,
+    "rhp_page_price_high": 175,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "rhp_page_promoter_pre_pct": 27,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 27,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 1.66,
+    "rhp_page_eps_fy0": 96,
+    "ronw_fy0_pct": 13.35,
+    "rhp_page_ronw_fy0_pct": 175,
+    "nav_per_share_fy0": 12.46,
+    "rhp_page_nav_per_share_fy0": 175,
+    "fresh_issue_cr": 472.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": 1428.0,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 139.005345,
+    "rhp_page_pre_issue_shares_cr": 92,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 92,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 190.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "Urban Company Limited",
+    "sector": "Internet & platforms",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 175
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 175
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 4720.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": 14280.0,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Accel India IV (Mauritius) Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 92
+        }
+      },
+      {
+        "name": "Bessemer India Capital Holdings II Ltd.",
+        "kind": "investor",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 92
+        }
+      },
+      {
+        "name": "Elevation Capital V Limited (formerly SAIF Partners India V Limited)",
+        "kind": "investor",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 92
+        }
+      },
+      {
+        "name": "Internet Fund V Pte. Ltd.",
+        "kind": "investor",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 92
+        }
+      },
+      {
+        "name": "VYC11 Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 92
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 1390053450.0,
+      "unit": "shares",
+      "page": 92
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 92
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 27
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 27
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Expenditure for new technology development and cloud infrastructure",
+        "category": "capex",
+        "amount": {
+          "value": 1900.0,
+          "unit": "million",
+          "page": 163
+        }
+      },
+      {
+        "purpose": "Expenditure for lease payments for our offices",
+        "category": "other",
+        "amount": {
+          "value": 750.0,
+          "unit": "million",
+          "page": 163
+        }
+      },
+      {
+        "purpose": "Expenditure towards marketing activities",
+        "category": "other",
+        "amount": {
+          "value": 900.0,
+          "unit": "million",
+          "page": 163
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 163
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Kotak Mahindra Capital Company Limited",
+      "Morgan Stanley India Company Private Limited",
+      "Goldman Sachs (India) Securities Private Limited",
+      "JM Financial Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "revenue_fy2": {
+      "value": 6365.97,
+      "unit": "million",
+      "page": 96
+    },
+    "revenue_fy1": {
+      "value": 8280.18,
+      "unit": "million",
+      "page": 96
+    },
+    "revenue_fy0": {
+      "value": 11444.65,
+      "unit": "million",
+      "page": 96
+    },
+    "ebitda_fy2": {
+      "value": -2976.92,
+      "unit": "million",
+      "page": 176
+    },
+    "ebitda_fy1": {
+      "value": -1190.12,
+      "unit": "million",
+      "page": 176
+    },
+    "ebitda_fy0": {
+      "value": 120.91,
+      "unit": "million",
+      "page": 176
+    },
+    "pat_fy2": {
+      "value": -3124.84,
+      "unit": "million",
+      "page": 96
+    },
+    "pat_fy1": {
+      "value": -927.72,
+      "unit": "million",
+      "page": 96
+    },
+    "pat_fy0": {
+      "value": 2397.65,
+      "unit": "million",
+      "page": 96
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": 97
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": "million",
+      "page": 97
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": 97
+    },
+    "net_worth_fy0": {
+      "value": 17958.21,
+      "unit": "million",
+      "page": 95
+    },
+    "total_debt_fy0": {
+      "value": 0.0,
+      "unit": "million",
+      "page": 29
+    },
+    "cash_fy0": {
+      "value": 610.97,
+      "unit": "million",
+      "page": 95
+    },
+    "eps_fy0": {
+      "value": 1.66,
+      "unit": "rupees",
+      "page": 96
+    },
+    "ronw_fy0_pct": {
+      "value": 13.35,
+      "unit": "percent",
+      "page": 175
+    },
+    "nav_per_share_fy0": {
+      "value": 12.46,
+      "unit": "rupees",
+      "page": 175
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 3672.67,
+      "unit": "million",
+      "page": 96
+    },
+    "pat_stub": {
+      "value": 69.38,
+      "unit": "million",
+      "page": 96
+    },
+    "no_listed_peers": true,
+    "peers": [],
+    "notes": [
+      "Price band, lot size, share counts for fresh issue/OFS and per-seller offered shares are all printed as [\u25cf] in the RHP; only amounts are given. Per-seller OFS amounts (\u20b9 million): Accel 3,900; Bessemer 1,730; Elevation 3,460; Internet Fund V 3,030; VYC11 2,160 (page 92).",
+      "EBITDA taken as 'Adjusted EBITDA' from the KPI table (p.176). Other Financial Information (p.410) reports a separately defined EBITDA: FY25 (315.40), FY24 (1,467.01), FY23 (3,642.40) \u20b9 million.",
+      "Net cash from operating activities is not on the pages provided; the cash flow statement on p.97 stops before the working capital section ends.",
+      "Total borrowings shown as '-' (nil) in the summary financials (p.29); the capitalisation statement shows Nil as at June 30, 2025. Recorded as 0.",
+      "Aggregate promoter holding is not printed. Each promoter (Abhiraj Singh Bhal, Raghav Chandra, Varun Khaitan) holds 97,762,500 shares, 7.03% of pre-Offer capital; the promoter group trusts' holdings are negligible (p.27). Post-offer % is [\u25cf].",
+      "FY2025 PAT includes a one-time deferred tax credit of \u20b92,112.12 million.",
+      "Retail quota % is not stated on the pages provided (NII is not more than 15% of the Net Offer). Offer is under Reg 6(2) of the SEBI ICDR Regulations.",
+      "Lease payments and marketing objects are categorised as 'other'; technology/cloud infrastructure is categorised as capex.",
+      "Pre-IPO placement status cannot be determined from the pages provided; CCPS converted into equity shares on August 24, 2025.",
+      "RHP states there are no listed peers in India or globally."
+    ]
+  }
+}

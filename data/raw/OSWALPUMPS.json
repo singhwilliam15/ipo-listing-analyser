@@ -1,0 +1,419 @@
+{
+  "symbol": "OSWALPUMPS",
+  "rhp_file": "OSWALPUMPS.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:15:42+00:00",
+  "pages_sent": [
+    1,
+    2,
+    24,
+    25,
+    26,
+    27,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    106,
+    107,
+    108,
+    125,
+    126,
+    166,
+    167,
+    168,
+    426,
+    427,
+    428
+  ],
+  "n_pdf_pages": 582,
+  "usage": {
+    "input_tokens": 33916,
+    "output_tokens": 3755,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.31478649999999997,
+    "session_id": "1477292a-9985-46f9-a941-685d1cc1f29d"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Oswal Pumps Limited",
+    "sector": "Industrials & capital goods",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024 (March 31, 2024)",
+    "stub_period_months": 9,
+    "pre_ipo_placement": null,
+    "lead_managers": "IIFL Capital Services Limited; Axis Capital Limited; CLSA India Private Limited; JM Financial Limited; Nuvama Wealth Management Limited",
+    "revenue_fy2": 360.384,
+    "rhp_page_revenue_fy2": 93,
+    "revenue_fy1": 385.036,
+    "rhp_page_revenue_fy1": 93,
+    "revenue_fy0": 758.571,
+    "rhp_page_revenue_fy0": 93,
+    "ebitda_fy2": 38.523,
+    "rhp_page_ebitda_fy2": 426,
+    "ebitda_fy1": 57.819,
+    "rhp_page_ebitda_fy1": 426,
+    "ebitda_fy0": 150.124,
+    "rhp_page_ebitda_fy0": 426,
+    "pat_fy2": 16.929,
+    "rhp_page_pat_fy2": 93,
+    "pat_fy1": 34.199,
+    "rhp_page_pat_fy1": 93,
+    "pat_fy0": 97.665,
+    "rhp_page_pat_fy0": 93,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 179.271,
+    "rhp_page_net_worth_fy0": 91,
+    "total_debt_fy0": 75.422,
+    "rhp_page_total_debt_fy0": 27,
+    "cash_fy0": 0.416,
+    "rhp_page_cash_fy0": 91,
+    "revenue_stub": 1065.671,
+    "rhp_page_revenue_stub": 93,
+    "pat_stub": 216.709,
+    "rhp_page_pat_stub": 93,
+    "price_low": null,
+    "rhp_page_price_low": 163,
+    "price_high": null,
+    "rhp_page_price_high": 163,
+    "lot_size": null,
+    "promoter_pre_pct": 99.88,
+    "rhp_page_promoter_pre_pct": 26,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 26,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 9.82,
+    "rhp_page_eps_fy0": 93,
+    "ronw_fy0_pct": 88.73,
+    "rhp_page_ronw_fy0_pct": 163,
+    "nav_per_share_fy0": 16.1,
+    "rhp_page_nav_per_share_fy0": 164,
+    "fresh_issue_cr": 890.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.81,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 9.94823,
+    "rhp_page_pre_issue_shares_cr": 88,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 88,
+    "ofs_promoter_shares_cr": 0.81,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 311.0,
+    "proceeds_capex_cr": 362.618,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "KIRLOSBROS; SHAKTIPUMP; WPIL Limited; KSB; ROTO",
+    "n_peers": 5,
+    "peer_pe_list": [
+      41.94,
+      66.72,
+      27.31,
+      66.79,
+      42.08
+    ],
+    "peer_ronw_list": [
+      22.3,
+      24.15,
+      18.78,
+      17.07,
+      21.95
+    ],
+    "rhp_page_peers": 168
+  },
+  "extract": {
+    "company": "Oswal Pumps Limited",
+    "sector": "Industrials & capital goods",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 163
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 163
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 8900.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 8100000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Vivek Gupta",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 8100000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 99482300.0,
+      "unit": "shares",
+      "page": 88
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 88
+    },
+    "promoter_pre_pct": {
+      "value": 99.88,
+      "unit": "percent",
+      "page": 26
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 26
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding certain capital expenditure of the Company",
+        "category": "capex",
+        "amount": {
+          "value": 898.6,
+          "unit": "million",
+          "page": 126
+        }
+      },
+      {
+        "purpose": "Investment in wholly-owned subsidiary Oswal Solar (equity) for setting up new manufacturing units at Karnal, Haryana",
+        "category": "capex",
+        "amount": {
+          "value": 2727.58,
+          "unit": "million",
+          "page": 126
+        }
+      },
+      {
+        "purpose": "Pre-payment/re-payment of certain outstanding borrowings of the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 2800.0,
+          "unit": "million",
+          "page": 126
+        }
+      },
+      {
+        "purpose": "Investment in Oswal Solar (equity) for repayment/prepayment of its borrowings",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 310.0,
+          "unit": "million",
+          "page": 126
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 126
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "IIFL Capital Services Limited",
+      "Axis Capital Limited",
+      "CLSA India Private Limited",
+      "JM Financial Limited",
+      "Nuvama Wealth Management Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024 (March 31, 2024)",
+    "revenue_fy2": {
+      "value": 3603.84,
+      "unit": "million",
+      "page": 93
+    },
+    "revenue_fy1": {
+      "value": 3850.36,
+      "unit": "million",
+      "page": 93
+    },
+    "revenue_fy0": {
+      "value": 7585.71,
+      "unit": "million",
+      "page": 93
+    },
+    "ebitda_fy2": {
+      "value": 385.23,
+      "unit": "million",
+      "page": 426
+    },
+    "ebitda_fy1": {
+      "value": 578.19,
+      "unit": "million",
+      "page": 426
+    },
+    "ebitda_fy0": {
+      "value": 1501.24,
+      "unit": "million",
+      "page": 426
+    },
+    "pat_fy2": {
+      "value": 169.29,
+      "unit": "million",
+      "page": 93
+    },
+    "pat_fy1": {
+      "value": 341.99,
+      "unit": "million",
+      "page": 93
+    },
+    "pat_fy0": {
+      "value": 976.65,
+      "unit": "million",
+      "page": 93
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 1792.71,
+      "unit": "million",
+      "page": 91
+    },
+    "total_debt_fy0": {
+      "value": 754.22,
+      "unit": "million",
+      "page": 27
+    },
+    "cash_fy0": {
+      "value": 4.16,
+      "unit": "million",
+      "page": 91
+    },
+    "eps_fy0": {
+      "value": 9.82,
+      "unit": "rupees",
+      "page": 93
+    },
+    "ronw_fy0_pct": {
+      "value": 88.73,
+      "unit": "percent",
+      "page": 163
+    },
+    "nav_per_share_fy0": {
+      "value": 16.1,
+      "unit": "rupees",
+      "page": 164
+    },
+    "stub_period_months": 9,
+    "revenue_stub": {
+      "value": 10656.71,
+      "unit": "million",
+      "page": 93
+    },
+    "pat_stub": {
+      "value": 2167.09,
+      "unit": "million",
+      "page": 93
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Kirloskar Brothers Limited",
+        "nse_symbol": "KIRLOSBROS",
+        "pe": 41.94,
+        "ronw_pct": 22.3,
+        "page": 168
+      },
+      {
+        "name": "Shakti Pumps (India) Limited",
+        "nse_symbol": "SHAKTIPUMP",
+        "pe": 66.72,
+        "ronw_pct": 24.15,
+        "page": 168
+      },
+      {
+        "name": "WPIL Limited",
+        "nse_symbol": null,
+        "pe": 27.31,
+        "ronw_pct": 18.78,
+        "page": 168
+      },
+      {
+        "name": "KSB Limited",
+        "nse_symbol": "KSB",
+        "pe": 66.79,
+        "ronw_pct": 17.07,
+        "page": 168
+      },
+      {
+        "name": "Roto Pumps Limited",
+        "nse_symbol": "ROTO",
+        "pe": 42.08,
+        "ronw_pct": 21.95,
+        "page": 168
+      }
+    ],
+    "notes": [
+      "Price band, lot size, fresh issue share count, OFS amount and post-offer shares are printed as [\u25cf] in the RHP.",
+      "Net worth for FY2024: the balance sheet shows equity attributable to owners of 1,792.71 million (page 91). The summary table on page 27 instead gives 'Net worth' as 1,601.69 million, using the SEBI definition that leaves out some reserves. The balance sheet figure was used.",
+      "Cash flow statement pages were not provided, so CFO is null for all years.",
+      "Retail quota: the Offer Structure page was not provided, so the retail percentage is null.",
+      "Pre-IPO placement: the capital history provided ends at 2009. A share split and a 7:10 bonus issue took place in August 2024; neither is a priced placement. Whether any placement happened in the 12 months before the RHP could not be confirmed.",
+      "Promoter pre-offer holding of 99.88% includes the promoter group; promoters alone hold 97.66%.",
+      "The FY2024 PAT of 976.65 million equals profit attributable to owners; there is no minority interest.",
+      "WPIL's EPS and RoNW are based on profit from continuing operations. KSB's figures are for the year ended Dec 31, 2023. The NSE symbol for WPIL is not given and was left null; the other peer NSE symbols come from general knowledge, not from the RHP."
+    ]
+  }
+}

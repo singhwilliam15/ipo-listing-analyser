@@ -1,0 +1,346 @@
+{
+  "symbol": "LEAP",
+  "rhp_file": "LEAP.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:26:13+00:00",
+  "pages_sent": [
+    1,
+    2,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    79,
+    80,
+    81,
+    121,
+    122,
+    131,
+    132,
+    133,
+    352,
+    353,
+    383
+  ],
+  "n_pdf_pages": 474,
+  "usage": {
+    "input_tokens": 34025,
+    "output_tokens": 2836,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.2972875,
+    "session_id": "eab40928-7dc7-45b4-9479-3337c22612ac"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Leap India Limited",
+    "sector": "Logistics & travel",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "stub_period_months": null,
+    "pre_ipo_placement": null,
+    "lead_managers": "JM Financial Limited; Avendus Capital Private Limited; IIFL Capital Services Limited; UBS Securities India Private Limited",
+    "revenue_fy2": 364.971,
+    "rhp_page_revenue_fy2": 65,
+    "revenue_fy1": 466.472,
+    "rhp_page_revenue_fy1": 65,
+    "revenue_fy0": 729.533,
+    "rhp_page_revenue_fy0": 65,
+    "ebitda_fy2": 209.91799999999998,
+    "rhp_page_ebitda_fy2": 133,
+    "ebitda_fy1": 273.797,
+    "rhp_page_ebitda_fy1": 133,
+    "ebitda_fy0": 378.829,
+    "rhp_page_ebitda_fy0": 133,
+    "pat_fy2": 37.174,
+    "rhp_page_pat_fy2": 65,
+    "pat_fy1": 37.558,
+    "rhp_page_pat_fy1": 65,
+    "pat_fy0": 62.341,
+    "rhp_page_pat_fy0": 65,
+    "cfo_fy2": 149.106,
+    "rhp_page_cfo_fy2": 66,
+    "cfo_fy1": 255.02,
+    "rhp_page_cfo_fy1": 66,
+    "cfo_fy0": 268.266,
+    "rhp_page_cfo_fy0": 66,
+    "net_worth_fy0": 1006.332,
+    "rhp_page_net_worth_fy0": 64,
+    "total_debt_fy0": 1017.725,
+    "rhp_page_total_debt_fy0": 383,
+    "cash_fy0": 6.139,
+    "rhp_page_cash_fy0": 64,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 132,
+    "price_high": null,
+    "rhp_page_price_high": 132,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 1.52,
+    "rhp_page_eps_fy0": 65,
+    "ronw_fy0_pct": 6.19,
+    "rhp_page_ronw_fy0_pct": 132,
+    "nav_per_share_fy0": 24.52,
+    "rhp_page_nav_per_share_fy0": 132,
+    "fresh_issue_cr": 480.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": 2000.0,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 41.034778,
+    "rhp_page_pre_issue_shares_cr": 61,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 61,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 360.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "Leap India Limited",
+    "sector": "Logistics & travel",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 132
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 132
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 4800.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": 20000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Vertical Holdings II Pte. Ltd.",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "KIA EBT Scheme 3 (acting through its trustee, Catalyst Trusteeship Limited)",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 410347780.0,
+      "unit": "shares",
+      "page": 61
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 61
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment / prepayment, in full or in part, of certain borrowings availed by the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 3600.0,
+          "unit": "million",
+          "page": 121
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 121
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "JM Financial Limited",
+      "Avendus Capital Private Limited",
+      "IIFL Capital Services Limited",
+      "UBS Securities India Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "revenue_fy2": {
+      "value": 3649.71,
+      "unit": "million",
+      "page": 65
+    },
+    "revenue_fy1": {
+      "value": 4664.72,
+      "unit": "million",
+      "page": 65
+    },
+    "revenue_fy0": {
+      "value": 7295.33,
+      "unit": "million",
+      "page": 65
+    },
+    "ebitda_fy2": {
+      "value": 2099.18,
+      "unit": "million",
+      "page": 133
+    },
+    "ebitda_fy1": {
+      "value": 2737.97,
+      "unit": "million",
+      "page": 133
+    },
+    "ebitda_fy0": {
+      "value": 3788.29,
+      "unit": "million",
+      "page": 133
+    },
+    "pat_fy2": {
+      "value": 371.74,
+      "unit": "million",
+      "page": 65
+    },
+    "pat_fy1": {
+      "value": 375.58,
+      "unit": "million",
+      "page": 65
+    },
+    "pat_fy0": {
+      "value": 623.41,
+      "unit": "million",
+      "page": 65
+    },
+    "cfo_fy2": {
+      "value": 1491.06,
+      "unit": "million",
+      "page": 66
+    },
+    "cfo_fy1": {
+      "value": 2550.2,
+      "unit": "million",
+      "page": 66
+    },
+    "cfo_fy0": {
+      "value": 2682.66,
+      "unit": "million",
+      "page": 66
+    },
+    "net_worth_fy0": {
+      "value": 10063.32,
+      "unit": "million",
+      "page": 64
+    },
+    "total_debt_fy0": {
+      "value": 10177.25,
+      "unit": "million",
+      "page": 383
+    },
+    "cash_fy0": {
+      "value": 61.39,
+      "unit": "million",
+      "page": 64
+    },
+    "eps_fy0": {
+      "value": 1.52,
+      "unit": "rupees",
+      "page": 65
+    },
+    "ronw_fy0_pct": {
+      "value": 6.19,
+      "unit": "percent",
+      "page": 132
+    },
+    "nav_per_share_fy0": {
+      "value": 24.52,
+      "unit": "rupees",
+      "page": 132
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": true,
+    "peers": [],
+    "notes": [
+      "Price band, lot size, share counts for fresh issue/OFS and post-offer shares are [\u25cf] in the RHP.",
+      "The OFS is given only as amounts: Vertical Holdings II Pte. Ltd. up to \u20b919,986.23 million and KIA EBT Scheme 3 up to \u20b913.77 million. Share counts are [\u25cf].",
+      "The pages provided do not show promoter shareholding percentages, the retail quota percentage or pre-IPO placement details. The capital history (page 81) is cut off.",
+      "Before the RHP, all CCPS were converted into up to 289,617,484 equity shares (board circular resolutions dated July 15/16, 2026). This explains why the 410,347,780 pre-offer shares differ from the equity share capital of \u20b9120.73 million at March 31, 2026.",
+      "EBITDA comes from the KPI table and is calculated as PBT + finance costs + D&A. EBITDA margin is computed on total income.",
+      "Total debt = current borrowings 2,083.29 + non-current borrowings 8,093.96, taken from the capitalisation statement.",
+      "The amount for general corporate purposes is [\u25cf] and capped at 25% of gross proceeds.",
+      "Sector chosen: Logistics & travel. The company does supply-chain asset pooling (pallets, containers, MHE)."
+    ]
+  }
+}

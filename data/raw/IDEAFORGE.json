@@ -1,0 +1,517 @@
+{
+  "symbol": "IDEAFORGE",
+  "rhp_file": "IDEAFORGE.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T20:56:10+00:00",
+  "pages_sent": [
+    1,
+    2,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    80,
+    81,
+    82,
+    83,
+    107,
+    108,
+    109,
+    110,
+    122,
+    123,
+    124,
+    125,
+    126,
+    333,
+    334,
+    335,
+    370
+  ],
+  "n_pdf_pages": 459,
+  "usage": {
+    "input_tokens": 56932,
+    "output_tokens": 4049,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.5070972999999999,
+    "session_id": "e1209891-5d8c-43e0-8e28-93e51fb28cfb"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "ideaForge Technology Limited",
+    "sector": "Industrials & capital goods",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023",
+    "stub_period_months": null,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "JM Financial Limited; IIFL Securities Limited",
+    "revenue_fy2": 34.718,
+    "rhp_page_revenue_fy2": 69,
+    "revenue_fy1": 159.439,
+    "rhp_page_revenue_fy1": 69,
+    "revenue_fy0": 186.007,
+    "rhp_page_revenue_fy0": 69,
+    "ebitda_fy2": -9.251,
+    "rhp_page_ebitda_fy2": 125,
+    "ebitda_fy1": 75.131,
+    "rhp_page_ebitda_fy1": 125,
+    "ebitda_fy0": 57.488,
+    "rhp_page_ebitda_fy0": 125,
+    "pat_fy2": -14.626,
+    "rhp_page_pat_fy2": 69,
+    "pat_fy1": 44.006,
+    "rhp_page_pat_fy1": 69,
+    "pat_fy0": 31.988,
+    "rhp_page_pat_fy0": 69,
+    "cfo_fy2": -30.813,
+    "rhp_page_cfo_fy2": 70,
+    "cfo_fy1": 66.52,
+    "rhp_page_cfo_fy1": 70,
+    "cfo_fy0": -53.23,
+    "rhp_page_cfo_fy0": 70,
+    "net_worth_fy0": 324.721,
+    "rhp_page_net_worth_fy0": 68,
+    "total_debt_fy0": 86.504,
+    "rhp_page_total_debt_fy0": 26,
+    "cash_fy0": 4.504,
+    "rhp_page_cash_fy0": 68,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": 27.89,
+    "rhp_page_promoter_pre_pct": 25,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": 672.0,
+    "rhp_page_pre_ipo_price": 2,
+    "eps_fy0": 8.55,
+    "rhp_page_eps_fy0": 69,
+    "ronw_fy0_pct": 9.85,
+    "rhp_page_ronw_fy0_pct": 123,
+    "nav_per_share_fy0": 86.81,
+    "rhp_page_nav_per_share_fy0": 123,
+    "fresh_issue_cr": 240.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.4869712,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 3.8098559,
+    "rhp_page_pre_issue_shares_cr": 65,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 65,
+    "ofs_promoter_shares_cr": 0.03616,
+    "ofs_investor_shares_cr": 0.440257,
+    "proceeds_debt_repayment_cr": 50.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "MTARTECH; DATAPATTNS; ASTRAMICRO",
+    "n_peers": 3,
+    "peer_pe_list": [
+      57.08,
+      72.83,
+      43.88
+    ],
+    "peer_ronw_list": [
+      16.68,
+      10.62,
+      10.87
+    ],
+    "rhp_page_peers": 124
+  },
+  "extract": {
+    "company": "ideaForge Technology Limited",
+    "sector": "Industrials & capital goods",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 2400.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 4869712.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Ashish Bhat",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 158200.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Amarpreet Singh",
+        "kind": "other",
+        "shares_offered": {
+          "value": 8362.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Nambirajan Seshadri",
+        "kind": "other",
+        "shares_offered": {
+          "value": 22600.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Naresh Malhotra",
+        "kind": "other",
+        "shares_offered": {
+          "value": 22600.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Sujata Vemuri",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 203400.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Sundararajan K Pandalgudi",
+        "kind": "other",
+        "shares_offered": {
+          "value": 51980.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "A&E Investment LLC",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 135600.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Agarwal Trademart Private Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 53200.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Celesta Capital II Mauritius",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 1106722.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Celesta Capital II-B Mauritius",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 131758.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Export Import Bank of India",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 202044.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Indusage Technology Venture Fund I",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 1695000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Qualcomm Asia Pacific Pte. Ltd.",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 1055646.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Society for Innovation and Entrepreneurship",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 22600.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 38098559.0,
+      "unit": "shares",
+      "page": 65
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 65
+    },
+    "promoter_pre_pct": {
+      "value": 27.89,
+      "unit": "percent",
+      "page": 25
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment/prepayment of certain indebtedness availed by our Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 500.0,
+          "unit": "million",
+          "page": 107
+        }
+      },
+      {
+        "purpose": "Funding working capital gap",
+        "category": "other",
+        "amount": {
+          "value": 1350.0,
+          "unit": "million",
+          "page": 107
+        }
+      },
+      {
+        "purpose": "Investment in product development",
+        "category": "other",
+        "amount": {
+          "value": 400.0,
+          "unit": "million",
+          "page": 107
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": null,
+          "page": 107
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 672.0,
+      "unit": "rupees",
+      "page": 2
+    },
+    "lead_managers": [
+      "JM Financial Limited",
+      "IIFL Securities Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023",
+    "revenue_fy2": {
+      "value": 347.18,
+      "unit": "million",
+      "page": 69
+    },
+    "revenue_fy1": {
+      "value": 1594.39,
+      "unit": "million",
+      "page": 69
+    },
+    "revenue_fy0": {
+      "value": 1860.07,
+      "unit": "million",
+      "page": 69
+    },
+    "ebitda_fy2": {
+      "value": -92.51,
+      "unit": "million",
+      "page": 125
+    },
+    "ebitda_fy1": {
+      "value": 751.31,
+      "unit": "million",
+      "page": 125
+    },
+    "ebitda_fy0": {
+      "value": 574.88,
+      "unit": "million",
+      "page": 125
+    },
+    "pat_fy2": {
+      "value": -146.26,
+      "unit": "million",
+      "page": 69
+    },
+    "pat_fy1": {
+      "value": 440.06,
+      "unit": "million",
+      "page": 69
+    },
+    "pat_fy0": {
+      "value": 319.88,
+      "unit": "million",
+      "page": 69
+    },
+    "cfo_fy2": {
+      "value": -308.13,
+      "unit": "million",
+      "page": 70
+    },
+    "cfo_fy1": {
+      "value": 665.2,
+      "unit": "million",
+      "page": 70
+    },
+    "cfo_fy0": {
+      "value": -532.3,
+      "unit": "million",
+      "page": 70
+    },
+    "net_worth_fy0": {
+      "value": 3247.21,
+      "unit": "million",
+      "page": 68
+    },
+    "total_debt_fy0": {
+      "value": 865.04,
+      "unit": "million",
+      "page": 26
+    },
+    "cash_fy0": {
+      "value": 45.04,
+      "unit": "million",
+      "page": 68
+    },
+    "eps_fy0": {
+      "value": 8.55,
+      "unit": "rupees",
+      "page": 69
+    },
+    "ronw_fy0_pct": {
+      "value": 9.85,
+      "unit": "percent",
+      "page": 123
+    },
+    "nav_per_share_fy0": {
+      "value": 86.81,
+      "unit": "rupees",
+      "page": 123
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "MTAR Technologies Limited",
+        "nse_symbol": "MTARTECH",
+        "pe": 57.08,
+        "ronw_pct": 16.68,
+        "page": 124
+      },
+      {
+        "name": "Data Patterns India Limited",
+        "nse_symbol": "DATAPATTNS",
+        "pe": 72.83,
+        "ronw_pct": 10.62,
+        "page": 124
+      },
+      {
+        "name": "Astra Microwave Products",
+        "nse_symbol": "ASTRAMICRO",
+        "pe": 43.88,
+        "ronw_pct": 10.87,
+        "page": 124
+      }
+    ],
+    "notes": [
+      "Price band, lot size, fresh issue share count, post-offer shares and GCP amount are [\u25cf] in the RHP.",
+      "promoter_pre_pct 27.89% is for the Promoters alone (fully diluted basis). The Promoter Group holds a further 5.47% (page 25). The combined figure is not printed.",
+      "Pre-IPO Placement: 892,857 shares at Rs 672, aggregating Rs 600.00 million. The Fresh Issue was cut from Rs 3,000 million to Rs 2,400 million. The objects amounts include the Pre-IPO proceeds.",
+      "The 'Funding working capital gap' and 'Investment in product development' objects are categorised as other.",
+      "PAT in the KPI table is 319.87; the restated P&L shows 319.88 (the P&L figure is used).",
+      "Equity share capital is 213.37 in the balance sheet and 213.36 in the capitalisation statement.",
+      "Retail quota % is not printed on these pages. The offer is under Regulation 6(2), so retail is 'not more than [\u25cf]'.",
+      "Peer NSE symbols are inferred, not printed in the RHP.",
+      "Note 3 on page 122 states a bonus ratio of 255:1, but the capital history says 225 \u2014 the RHP is inconsistent here."
+    ]
+  }
+}

@@ -1,0 +1,426 @@
+{
+  "symbol": "EIEL",
+  "rhp_file": "EIEL.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-21T06:00:43+00:00",
+  "pages_sent": [
+    1,
+    2,
+    28,
+    29,
+    30,
+    31,
+    89,
+    90,
+    92,
+    93,
+    94,
+    95,
+    108,
+    109,
+    110,
+    122,
+    123,
+    139,
+    140,
+    141,
+    390,
+    391
+  ],
+  "n_pdf_pages": 531,
+  "usage": {
+    "input_tokens": 35326,
+    "output_tokens": 3954,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3301887,
+    "session_id": "2d5ce418-6d65-4779-89a5-d18bed8ab7ce"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Enviro Infra Engineers Limited",
+    "sector": "Infrastructure, construction & real estate",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024 (March 31, 2024)",
+    "stub_period_months": 3,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Hem Securities Limited",
+    "revenue_fy2": 223.5251,
+    "rhp_page_revenue_fy2": 95,
+    "revenue_fy1": 338.102,
+    "rhp_page_revenue_fy1": 95,
+    "revenue_fy0": 728.915,
+    "rhp_page_revenue_fy0": 95,
+    "ebitda_fy2": 50.0226,
+    "rhp_page_ebitda_fy2": 390,
+    "ebitda_fy1": 81.6874,
+    "rhp_page_ebitda_fy1": 390,
+    "ebitda_fy0": 169.3225,
+    "rhp_page_ebitda_fy0": 390,
+    "pat_fy2": 34.5486,
+    "rhp_page_pat_fy2": 95,
+    "pat_fy1": 55.3389,
+    "rhp_page_pat_fy1": 95,
+    "pat_fy0": 108.5695,
+    "rhp_page_pat_fy0": 95,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 292.1837,
+    "rhp_page_net_worth_fy0": 93,
+    "total_debt_fy0": 233.5949,
+    "rhp_page_total_debt_fy0": 30,
+    "cash_fy0": 0.8674,
+    "rhp_page_cash_fy0": 93,
+    "revenue_stub": 205.1802,
+    "rhp_page_revenue_stub": 95,
+    "pat_stub": 29.9681,
+    "rhp_page_pat_stub": 95,
+    "price_low": null,
+    "rhp_page_price_low": 140,
+    "price_high": null,
+    "rhp_page_price_high": 140,
+    "lot_size": null,
+    "promoter_pre_pct": 93.66,
+    "rhp_page_promoter_pre_pct": 29,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 122,
+    "retail_quota_pct": null,
+    "rhp_page_retail_quota_pct": 89,
+    "pre_ipo_price": null,
+    "eps_fy0": 8.13,
+    "rhp_page_eps_fy0": 139,
+    "ronw_fy0_pct": 37.83,
+    "rhp_page_ronw_fy0_pct": 140,
+    "nav_per_share_fy0": 21.48,
+    "rhp_page_nav_per_share_fy0": 141,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": 3.868,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.5268,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 13.685,
+    "rhp_page_pre_issue_shares_cr": 89,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 89,
+    "ofs_promoter_shares_cr": 0.5268,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 120.0,
+    "proceeds_capex_cr": 30.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "EMS Limited; ION Exchange Limited; Va Tech Wabag Limited; Vishnu Prakash R Punglia Limited",
+    "n_peers": 4,
+    "peer_pe_list": [
+      25.92,
+      38.68,
+      43.9,
+      25.31
+    ],
+    "peer_ronw_list": [
+      19.09,
+      19.23,
+      13.5,
+      16.95
+    ],
+    "rhp_page_peers": 141
+  },
+  "extract": {
+    "company": "Enviro Infra Engineers Limited",
+    "sector": "Infrastructure, construction & real estate",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 140
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 140
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "lakh",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": 38680000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "lakh",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 5268000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Sanjay Jain",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 2134000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Manish Jain",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 2134000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Ritu Jain",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 500000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Shachi Jain",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 500000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 136850000.0,
+      "unit": "shares",
+      "page": 89
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 89
+    },
+    "promoter_pre_pct": {
+      "value": 93.66,
+      "unit": "percent",
+      "page": 29
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 122
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "To meet the Working Capital Requirements",
+        "category": "other",
+        "amount": {
+          "value": 18100.0,
+          "unit": "lakh",
+          "page": 123
+        }
+      },
+      {
+        "purpose": "Infusion of funds in subsidiary EIEL Mathura Infra Engineers Private Limited to build 60 MLD STP under Mathura Sewerage Scheme (HAM PPP)",
+        "category": "capex",
+        "amount": {
+          "value": 3000.0,
+          "unit": "lakh",
+          "page": 123
+        }
+      },
+      {
+        "purpose": "Repayment/prepayment in full or in part of certain outstanding borrowings",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 12000.0,
+          "unit": "lakh",
+          "page": 123
+        }
+      },
+      {
+        "purpose": "Funding inorganic growth through unidentified acquisitions and general corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "lakh",
+          "page": 123
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 89
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Hem Securities Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024 (March 31, 2024)",
+    "revenue_fy2": {
+      "value": 22352.51,
+      "unit": "lakh",
+      "page": 95
+    },
+    "revenue_fy1": {
+      "value": 33810.2,
+      "unit": "lakh",
+      "page": 95
+    },
+    "revenue_fy0": {
+      "value": 72891.5,
+      "unit": "lakh",
+      "page": 95
+    },
+    "ebitda_fy2": {
+      "value": 5002.26,
+      "unit": "lakh",
+      "page": 390
+    },
+    "ebitda_fy1": {
+      "value": 8168.74,
+      "unit": "lakh",
+      "page": 390
+    },
+    "ebitda_fy0": {
+      "value": 16932.25,
+      "unit": "lakh",
+      "page": 390
+    },
+    "pat_fy2": {
+      "value": 3454.86,
+      "unit": "lakh",
+      "page": 95
+    },
+    "pat_fy1": {
+      "value": 5533.89,
+      "unit": "lakh",
+      "page": 95
+    },
+    "pat_fy0": {
+      "value": 10856.95,
+      "unit": "lakh",
+      "page": 95
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "lakh",
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": "lakh",
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": "lakh",
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 29218.37,
+      "unit": "lakh",
+      "page": 93
+    },
+    "total_debt_fy0": {
+      "value": 23359.49,
+      "unit": "lakh",
+      "page": 30
+    },
+    "cash_fy0": {
+      "value": 86.74,
+      "unit": "lakh",
+      "page": 93
+    },
+    "eps_fy0": {
+      "value": 8.13,
+      "unit": "rupees",
+      "page": 139
+    },
+    "ronw_fy0_pct": {
+      "value": 37.83,
+      "unit": "percent",
+      "page": 140
+    },
+    "nav_per_share_fy0": {
+      "value": 21.48,
+      "unit": "rupees",
+      "page": 141
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 20518.02,
+      "unit": "lakh",
+      "page": 95
+    },
+    "pat_stub": {
+      "value": 2996.81,
+      "unit": "lakh",
+      "page": 95
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "EMS Limited",
+        "nse_symbol": null,
+        "pe": 25.92,
+        "ronw_pct": 19.09,
+        "page": 141
+      },
+      {
+        "name": "ION Exchange Limited",
+        "nse_symbol": null,
+        "pe": 38.68,
+        "ronw_pct": 19.23,
+        "page": 141
+      },
+      {
+        "name": "Va Tech Wabag Limited",
+        "nse_symbol": null,
+        "pe": 43.9,
+        "ronw_pct": 13.5,
+        "page": 141
+      },
+      {
+        "name": "Vishnu Prakash R Punglia Limited",
+        "nse_symbol": null,
+        "pe": 25.31,
+        "ronw_pct": 16.95,
+        "page": 141
+      }
+    ],
+    "notes": [
+      "Price band, lot size, issue amounts and post-offer shares all printed as [\u25cf] in the RHP pages provided.",
+      "PAT figures are restated profit for the year including non-controlling interest (FY24 10,856.95 lakh). Profit attributable to owners is 11,054.41 (FY24), 5,497.81 (FY23), 3,455.03 (FY22), 3,077.77 (Q1 FY25); EPS and RoNW are based on these owner figures.",
+      "Cash flow statement not among provided pages; CFO left null.",
+      "Cash_fy0 is cash and cash equivalents only (86.74 lakh); other bank balances of 14,765.44 lakh are not included.",
+      "Total debt FY24 23,359.49 lakh = non-current 9,009.51 + current 14,349.97 (page 93).",
+      "Retail percentage not printed. Retail portion is up to 1,53,46,800 shares out of a Net Offer of 4,38,48,000 shares; QIB is not more than 2,19,24,000 and NII up to 65,77,200. Employee reservation is up to 1,00,000 shares.",
+      "Last private placement was Sept 16/23, 2023 at \u20b9332 per share (before the 4:1 bonus on March 30, 2024). That is more than 12 months before the RHP date (Nov 16, 2024), so pre_ipo_placement is set false.",
+      "Working capital object (18,100 lakh) categorised as 'other'; Mathura subsidiary infusion for STP construction categorised as capex.",
+      "Promoter pre-offer holding: 93.60% promoters alone; 93.66% including promoter group.",
+      "Peer NSE symbols not printed in the RHP."
+    ]
+  }
+}

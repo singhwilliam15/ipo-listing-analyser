@@ -1,0 +1,353 @@
+{
+  "symbol": "PACEDIGITK",
+  "rhp_file": "PACEDIGITK.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:07:18+00:00",
+  "pages_sent": [
+    1,
+    2,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    111,
+    112,
+    113,
+    148,
+    149,
+    172,
+    173,
+    174,
+    468,
+    469,
+    472
+  ],
+  "n_pdf_pages": 599,
+  "usage": {
+    "input_tokens": 27514,
+    "output_tokens": 3363,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.25508970000000003,
+    "session_id": "3f9a55f9-e39d-4113-9642-8e81f03f235c"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Pace Digitek Limited",
+    "sector": "Industrials & capital goods",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "stub_period_months": null,
+    "pre_ipo_placement": null,
+    "lead_managers": "Unistone Capital Private Limited",
+    "revenue_fy2": 503.196,
+    "rhp_page_revenue_fy2": 98,
+    "revenue_fy1": 2434.489,
+    "rhp_page_revenue_fy1": 98,
+    "revenue_fy0": 2438.78,
+    "rhp_page_revenue_fy0": 98,
+    "ebitda_fy2": 39.748,
+    "rhp_page_ebitda_fy2": 468,
+    "ebitda_fy1": 423.745,
+    "rhp_page_ebitda_fy1": 468,
+    "ebitda_fy0": 505.128,
+    "rhp_page_ebitda_fy0": 468,
+    "pat_fy2": 16.533,
+    "rhp_page_pat_fy2": 98,
+    "pat_fy1": 229.871,
+    "rhp_page_pat_fy1": 98,
+    "pat_fy0": 279.102,
+    "rhp_page_pat_fy0": 98,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 1169.895,
+    "rhp_page_net_worth_fy0": 96,
+    "total_debt_fy0": 160.699,
+    "rhp_page_total_debt_fy0": 472,
+    "cash_fy0": 78.354,
+    "rhp_page_cash_fy0": 96,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 173,
+    "price_high": null,
+    "rhp_page_price_high": 173,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "rhp_page_retail_quota_pct": 93,
+    "pre_ipo_price": 4200.0,
+    "rhp_page_pre_ipo_price": 113,
+    "eps_fy0": 16.3,
+    "rhp_page_eps_fy0": 172,
+    "ronw_fy0_pct": 22.87,
+    "rhp_page_ronw_fy0_pct": 173,
+    "nav_per_share_fy0": 71.24,
+    "rhp_page_nav_per_share_fy0": 173,
+    "fresh_issue_cr": 819.148,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 17.844228,
+    "rhp_page_pre_issue_shares_cr": 93,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 93,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 630.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "HFCL; EXICOM; BONDADA",
+    "n_peers": 3,
+    "peer_pe_list": [
+      60.07,
+      37.76
+    ],
+    "peer_ronw_list": [
+      4.35,
+      -17.93,
+      25.05
+    ],
+    "rhp_page_peers": 174
+  },
+  "extract": {
+    "company": "Pace Digitek Limited",
+    "sector": "Industrials & capital goods",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 173
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 173
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 8191.48,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 178442280.0,
+      "unit": "shares",
+      "page": 93
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 93
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Capital expenditure via investment in subsidiary Pace Renewable Energies Private Limited for setting up BESS for MSEDCL project",
+        "category": "capex",
+        "amount": {
+          "value": 6300.0,
+          "unit": "million",
+          "page": 148
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 148
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 93
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": 4200.0,
+      "unit": "rupees",
+      "page": 113
+    },
+    "lead_managers": [
+      "Unistone Capital Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "revenue_fy2": {
+      "value": 5031.96,
+      "unit": "million",
+      "page": 98
+    },
+    "revenue_fy1": {
+      "value": 24344.89,
+      "unit": "million",
+      "page": 98
+    },
+    "revenue_fy0": {
+      "value": 24387.8,
+      "unit": "million",
+      "page": 98
+    },
+    "ebitda_fy2": {
+      "value": 397.48,
+      "unit": "million",
+      "page": 468
+    },
+    "ebitda_fy1": {
+      "value": 4237.45,
+      "unit": "million",
+      "page": 468
+    },
+    "ebitda_fy0": {
+      "value": 5051.28,
+      "unit": "million",
+      "page": 468
+    },
+    "pat_fy2": {
+      "value": 165.33,
+      "unit": "million",
+      "page": 98
+    },
+    "pat_fy1": {
+      "value": 2298.71,
+      "unit": "million",
+      "page": 98
+    },
+    "pat_fy0": {
+      "value": 2791.02,
+      "unit": "million",
+      "page": 98
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 11698.95,
+      "unit": "million",
+      "page": 96
+    },
+    "total_debt_fy0": {
+      "value": 1606.99,
+      "unit": "million",
+      "page": 472
+    },
+    "cash_fy0": {
+      "value": 783.54,
+      "unit": "million",
+      "page": 96
+    },
+    "eps_fy0": {
+      "value": 16.3,
+      "unit": "rupees",
+      "page": 172
+    },
+    "ronw_fy0_pct": {
+      "value": 22.87,
+      "unit": "percent",
+      "page": 173
+    },
+    "nav_per_share_fy0": {
+      "value": 71.24,
+      "unit": "rupees",
+      "page": 173
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "HFCL Limited",
+        "nse_symbol": "HFCL",
+        "pe": 60.07,
+        "ronw_pct": 4.35,
+        "page": 174
+      },
+      {
+        "name": "Exicom Tele-Systems Limited",
+        "nse_symbol": "EXICOM",
+        "pe": null,
+        "ronw_pct": -17.93,
+        "page": 174
+      },
+      {
+        "name": "Bondada Engineering Limited",
+        "nse_symbol": "BONDADA",
+        "pe": 37.76,
+        "ronw_pct": 25.05,
+        "page": 174
+      }
+    ],
+    "notes": [
+      "Pure fresh issue (no OFS); includes Employee Reservation Portion up to \u20b920.00 million; Net Issue \u20b98,171.48 million.",
+      "Price band, lot size, number of fresh-issue shares and post-issue shares are [\u25cf] in RHP.",
+      "EBITDA taken from accounting ratios table (p.468): 5,051.28 / 4,237.45 / 397.48 = PAT + tax + D&A + finance cost (other income not deducted despite note). Reconciliation table on p.469 shows 'Operating EBITDA' (after deducting other income) of 4,817.05 / 3,979.68 / 282.85. The KPI table with EBITDA values was not among the pages provided.",
+      "Total debt 1,606.99 million per capitalisation statement (p.472), equal to non-current borrowings 241.75 + current borrowings 1,365.24 per balance sheet.",
+      "Cash flow statement not in provided pages; CFO null.",
+      "Pre-IPO price 4,200 (face value \u20b910) is from the private placement of August 1, 2024, more than 12 months before the RHP date of September 19, 2025. The rest of the share capital history (later allotments, split to \u20b92, bonus) was not in the pages provided, so pre_ipo_placement is left null.",
+      "Promoter shareholding % and retail quota % not printed on provided pages (retail portion shown only as 'not less than [\u25cf]').",
+      "NSE symbols for peers are inferred from the names; they are not printed in the RHP."
+    ]
+  }
+}

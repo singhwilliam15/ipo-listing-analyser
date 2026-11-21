@@ -1,0 +1,397 @@
+{
+  "symbol": "VPRPL",
+  "rhp_file": "VPRPL.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T20:57:17+00:00",
+  "pages_sent": [
+    1,
+    2,
+    41,
+    105,
+    106,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    127,
+    128,
+    129,
+    130,
+    143,
+    144,
+    145,
+    146,
+    159,
+    160,
+    161,
+    162,
+    163,
+    376,
+    377,
+    378
+  ],
+  "n_pdf_pages": 549,
+  "usage": {
+    "input_tokens": 41897,
+    "output_tokens": 3287,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.37007609999999996,
+    "session_id": "a0e43dae-b7b2-4a30-a5c3-bbcc6298cc2a"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Vishnu Prakash R Punglia Limited",
+    "sector": "Infrastructure, construction & real estate",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "FY2023",
+    "stub_period_months": null,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "Choice Capital Advisors Private Limited; Pantomath Capital Advisors Private Limited",
+    "revenue_fy2": 485.731,
+    "rhp_page_revenue_fy2": 111,
+    "revenue_fy1": 785.613,
+    "rhp_page_revenue_fy1": 111,
+    "revenue_fy0": 1168.404,
+    "rhp_page_revenue_fy0": 111,
+    "ebitda_fy2": 47.321,
+    "rhp_page_ebitda_fy2": 162,
+    "ebitda_fy1": 88.641,
+    "rhp_page_ebitda_fy1": 162,
+    "ebitda_fy0": 159.643,
+    "rhp_page_ebitda_fy0": 162,
+    "pat_fy2": 18.982,
+    "rhp_page_pat_fy2": 111,
+    "pat_fy1": 44.847,
+    "rhp_page_pat_fy1": 111,
+    "pat_fy0": 90.643,
+    "rhp_page_pat_fy0": 111,
+    "cfo_fy2": 34.839,
+    "rhp_page_cfo_fy2": 113,
+    "cfo_fy1": -3.3270000000000004,
+    "rhp_page_cfo_fy1": 113,
+    "cfo_fy0": -8.406,
+    "rhp_page_cfo_fy0": 113,
+    "net_worth_fy0": 314.507,
+    "rhp_page_net_worth_fy0": 109,
+    "total_debt_fy0": 250.374,
+    "rhp_page_total_debt_fy0": 41,
+    "cash_fy0": 15.001,
+    "rhp_page_cash_fy0": 109,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 159,
+    "price_high": null,
+    "rhp_page_price_high": 159,
+    "lot_size": null,
+    "rhp_page_lot_size": 2,
+    "promoter_pre_pct": 90.45,
+    "rhp_page_promoter_pre_pct": 41,
+    "promoter_post_pct": null,
+    "retail_quota_pct": 35.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": 215.0,
+    "rhp_page_pre_ipo_price": 128,
+    "eps_fy0": 10.41,
+    "rhp_page_eps_fy0": 112,
+    "ronw_fy0_pct": 38.31,
+    "rhp_page_ronw_fy0_pct": 160,
+    "nav_per_share_fy0": 36.11,
+    "rhp_page_nav_per_share_fy0": 161,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": 3.12,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 9.3444,
+    "rhp_page_pre_issue_shares_cr": 105,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 105,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 62.177,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "PNCINFRA; HGINFRA; NCC; RVNL; ITDCEM",
+    "n_peers": 5,
+    "peer_pe_list": [
+      13.48,
+      12.56,
+      16.24,
+      18.22,
+      25.62
+    ],
+    "peer_ronw_list": [
+      16.64,
+      29.38,
+      10.98,
+      20.7,
+      10.53
+    ],
+    "rhp_page_peers": 161
+  },
+  "extract": {
+    "company": "Vishnu Prakash R Punglia Limited",
+    "sector": "Infrastructure, construction & real estate",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 159
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 159
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": 2
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": 31200000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 93444000.0,
+      "unit": "shares",
+      "page": 105
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 105
+    },
+    "promoter_pre_pct": {
+      "value": 90.45,
+      "unit": "percent",
+      "page": 41
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding capital expenditure requirements for the purchase of equipment/machineries",
+        "category": "capex",
+        "amount": {
+          "value": 621.77,
+          "unit": "million",
+          "page": 143
+        }
+      },
+      {
+        "purpose": "Funding the working capital requirements of the Company",
+        "category": "other",
+        "amount": {
+          "value": 1500.0,
+          "unit": "million",
+          "page": 143
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 143
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 215.0,
+      "unit": "rupees",
+      "page": 128
+    },
+    "lead_managers": [
+      "Choice Capital Advisors Private Limited",
+      "Pantomath Capital Advisors Private Limited"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "FY2023",
+    "revenue_fy2": {
+      "value": 4857.31,
+      "unit": "million",
+      "page": 111
+    },
+    "revenue_fy1": {
+      "value": 7856.13,
+      "unit": "million",
+      "page": 111
+    },
+    "revenue_fy0": {
+      "value": 11684.04,
+      "unit": "million",
+      "page": 111
+    },
+    "ebitda_fy2": {
+      "value": 473.21,
+      "unit": "million",
+      "page": 162
+    },
+    "ebitda_fy1": {
+      "value": 886.41,
+      "unit": "million",
+      "page": 162
+    },
+    "ebitda_fy0": {
+      "value": 1596.43,
+      "unit": "million",
+      "page": 162
+    },
+    "pat_fy2": {
+      "value": 189.82,
+      "unit": "million",
+      "page": 111
+    },
+    "pat_fy1": {
+      "value": 448.47,
+      "unit": "million",
+      "page": 111
+    },
+    "pat_fy0": {
+      "value": 906.43,
+      "unit": "million",
+      "page": 111
+    },
+    "cfo_fy2": {
+      "value": 348.39,
+      "unit": "million",
+      "page": 113
+    },
+    "cfo_fy1": {
+      "value": -33.27,
+      "unit": "million",
+      "page": 113
+    },
+    "cfo_fy0": {
+      "value": -84.06,
+      "unit": "million",
+      "page": 113
+    },
+    "net_worth_fy0": {
+      "value": 3145.07,
+      "unit": "million",
+      "page": 109
+    },
+    "total_debt_fy0": {
+      "value": 2503.74,
+      "unit": "million",
+      "page": 41
+    },
+    "cash_fy0": {
+      "value": 150.01,
+      "unit": "million",
+      "page": 109
+    },
+    "eps_fy0": {
+      "value": 10.41,
+      "unit": "rupees",
+      "page": 112
+    },
+    "ronw_fy0_pct": {
+      "value": 38.31,
+      "unit": "percent",
+      "page": 160
+    },
+    "nav_per_share_fy0": {
+      "value": 36.11,
+      "unit": "rupees",
+      "page": 161
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "PNC Infratech Ltd",
+        "nse_symbol": "PNCINFRA",
+        "pe": 13.48,
+        "ronw_pct": 16.64,
+        "page": 161
+      },
+      {
+        "name": "H.G. Infra Engineering Ltd",
+        "nse_symbol": "HGINFRA",
+        "pe": 12.56,
+        "ronw_pct": 29.38,
+        "page": 161
+      },
+      {
+        "name": "NCC Limited",
+        "nse_symbol": "NCC",
+        "pe": 16.24,
+        "ronw_pct": 10.98,
+        "page": 161
+      },
+      {
+        "name": "Rail Vikas Nigam Ltd",
+        "nse_symbol": "RVNL",
+        "pe": 18.22,
+        "ronw_pct": 20.7,
+        "page": 161
+      },
+      {
+        "name": "ITD Cementation India Ltd",
+        "nse_symbol": "ITDCEM",
+        "pe": 25.62,
+        "ronw_pct": 10.53,
+        "page": 161
+      }
+    ],
+    "notes": [
+      "The restated financial information is not labelled consolidated or standalone. There seem to be no subsidiaries, so it is recorded as standalone.",
+      "The price band and lot size are not printed ([\u25cf]) in this RHP.",
+      "The issue is entirely a fresh issue. There is no offer for sale.",
+      "Promoter pre-issue holding is taken from 'Total (A+B)' on page 41 (84,519,000 shares, 90.45%). The table heading was cut off, so it is assumed to be promoters plus promoter group.",
+      "Total borrowings of 2,503.74 = long-term 602.97 + short-term 1,900.77 on the balance sheet. The capitalisation statement splits it differently, as current 1,558.63 and non-current 945.11, because it moves current maturities of long-term debt into non-current.",
+      "Pre-IPO placement: 3,000,000 shares were issued by private placement at \u20b9215 on Dec 14, 2022. A 2:1 bonus issue followed on Feb 14, 2023, so \u20b9215 is the pre-bonus price.",
+      "Working capital requirement of \u20b91,500 million is categorised as 'other'. The general corporate purposes amount is [\u25cf].",
+      "Retail quota is not less than 35% of the Net Issue. The Employee Reservation Portion is 300,000 shares.",
+      "Peer NSE symbols are inferred; they are not printed in the RHP.",
+      "RoNW is computed on average net worth. NAV per share uses the weighted average share count."
+    ]
+  }
+}

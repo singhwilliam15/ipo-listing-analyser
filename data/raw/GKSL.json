@@ -1,0 +1,375 @@
+{
+  "symbol": "GKSL",
+  "rhp_file": "GKSL.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:01:57+00:00",
+  "pages_sent": [
+    1,
+    2,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    106,
+    107,
+    108,
+    119,
+    120,
+    148,
+    149,
+    150,
+    251,
+    352,
+    353,
+    474
+  ],
+  "n_pdf_pages": 594,
+  "usage": {
+    "input_tokens": 34533,
+    "output_tokens": 3668,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3180445,
+    "session_id": "01c19984-d9be-40d4-82c9-f96e3ef9790e"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Gujarat Kidney and Super Speciality Limited",
+    "sector": "Healthcare & pharma",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "stub_period_months": 3,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "Nirbhay Capital Services Private Limited",
+    "revenue_fy2": null,
+    "rhp_page_revenue_fy2": 87,
+    "revenue_fy1": 4.7743,
+    "rhp_page_revenue_fy1": 87,
+    "revenue_fy0": 40.2421,
+    "rhp_page_revenue_fy0": 87,
+    "ebitda_fy2": -0.0062,
+    "rhp_page_ebitda_fy2": 352,
+    "ebitda_fy1": 1.9509,
+    "rhp_page_ebitda_fy1": 352,
+    "ebitda_fy0": 16.547,
+    "rhp_page_ebitda_fy0": 352,
+    "pat_fy2": -0.0062,
+    "rhp_page_pat_fy2": 87,
+    "pat_fy1": 1.714,
+    "rhp_page_pat_fy1": 87,
+    "pat_fy0": 9.4994,
+    "rhp_page_pat_fy0": 87,
+    "cfo_fy2": 0.0001,
+    "rhp_page_cfo_fy2": 88,
+    "cfo_fy1": 1.2128,
+    "rhp_page_cfo_fy1": 88,
+    "cfo_fy0": 13.608,
+    "rhp_page_cfo_fy0": 88,
+    "net_worth_fy0": 25.9362,
+    "rhp_page_net_worth_fy0": 86,
+    "total_debt_fy0": null,
+    "rhp_page_total_debt_fy0": 86,
+    "cash_fy0": 2.5960000000000005,
+    "rhp_page_cash_fy0": 86,
+    "revenue_stub": 15.2602,
+    "rhp_page_revenue_stub": 87,
+    "pat_stub": 5.403200000000001,
+    "rhp_page_pat_stub": 87,
+    "price_low": null,
+    "rhp_page_price_low": 149,
+    "price_high": null,
+    "rhp_page_price_high": 149,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": 10.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": 125.0,
+    "rhp_page_pre_ipo_price": 108,
+    "eps_fy0": 1.85,
+    "rhp_page_eps_fy0": 87,
+    "ronw_fy0_pct": 36.61,
+    "rhp_page_ronw_fy0_pct": 150,
+    "nav_per_share_fy0": 5.04,
+    "rhp_page_nav_per_share_fy0": 352,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": 2.2,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 5.684325,
+    "rhp_page_pre_issue_shares_cr": 83,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 83,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 1.2,
+    "proceeds_capex_cr": 36.9223,
+    "proceeds_gcp_cr": 0.0,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "Gujarat Kidney and Super Speciality Limited",
+    "sector": "Healthcare & pharma",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 149
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 149
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "lakh",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": 22000000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "lakh",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 56843250.0,
+      "unit": "shares",
+      "page": 83
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 83
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Proposed acquisition of Parekhs Hospital Private Limited, Ahmedabad",
+        "category": "other",
+        "amount": {
+          "value": 7700.0,
+          "unit": "lakh",
+          "page": 119
+        }
+      },
+      {
+        "purpose": "Part-payment of purchase consideration for already acquired Ashwini Medical Centre",
+        "category": "other",
+        "amount": {
+          "value": 1240.0,
+          "unit": "lakh",
+          "page": 119
+        }
+      },
+      {
+        "purpose": "Acquisition of additional shareholding in subsidiary Harmony Medicare Private Limited, Bharuch",
+        "category": "other",
+        "amount": {
+          "value": 1078.0,
+          "unit": "lakh",
+          "page": 119
+        }
+      },
+      {
+        "purpose": "Capital expenditure for setting up a new women's health care hospital in Vadodara",
+        "category": "capex",
+        "amount": {
+          "value": 3009.73,
+          "unit": "lakh",
+          "page": 119
+        }
+      },
+      {
+        "purpose": "Buying robotics equipment for Gujarat Kidney & Super Speciality hospital, Vadodara",
+        "category": "capex",
+        "amount": {
+          "value": 682.5,
+          "unit": "lakh",
+          "page": 119
+        }
+      },
+      {
+        "purpose": "Full or part repayment/prepayment of certain outstanding secured borrowings",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 120.0,
+          "unit": "lakh",
+          "page": 119
+        }
+      },
+      {
+        "purpose": "Funding inorganic growth through unidentified acquisitions and general corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "lakh",
+          "page": 120
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 10.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 125.0,
+      "unit": "rupees",
+      "page": 108
+    },
+    "lead_managers": [
+      "Nirbhay Capital Services Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "revenue_fy2": {
+      "value": null,
+      "unit": "lakh",
+      "page": 87
+    },
+    "revenue_fy1": {
+      "value": 477.43,
+      "unit": "lakh",
+      "page": 87
+    },
+    "revenue_fy0": {
+      "value": 4024.21,
+      "unit": "lakh",
+      "page": 87
+    },
+    "ebitda_fy2": {
+      "value": -0.62,
+      "unit": "lakh",
+      "page": 352
+    },
+    "ebitda_fy1": {
+      "value": 195.09,
+      "unit": "lakh",
+      "page": 352
+    },
+    "ebitda_fy0": {
+      "value": 1654.7,
+      "unit": "lakh",
+      "page": 352
+    },
+    "pat_fy2": {
+      "value": -0.62,
+      "unit": "lakh",
+      "page": 87
+    },
+    "pat_fy1": {
+      "value": 171.4,
+      "unit": "lakh",
+      "page": 87
+    },
+    "pat_fy0": {
+      "value": 949.94,
+      "unit": "lakh",
+      "page": 87
+    },
+    "cfo_fy2": {
+      "value": 0.01,
+      "unit": "lakh",
+      "page": 88
+    },
+    "cfo_fy1": {
+      "value": 121.28,
+      "unit": "lakh",
+      "page": 88
+    },
+    "cfo_fy0": {
+      "value": 1360.8,
+      "unit": "lakh",
+      "page": 88
+    },
+    "net_worth_fy0": {
+      "value": 2593.62,
+      "unit": "lakh",
+      "page": 86
+    },
+    "total_debt_fy0": {
+      "value": null,
+      "unit": "lakh",
+      "page": 86
+    },
+    "cash_fy0": {
+      "value": 259.6,
+      "unit": "lakh",
+      "page": 86
+    },
+    "eps_fy0": {
+      "value": 1.85,
+      "unit": "rupees",
+      "page": 87
+    },
+    "ronw_fy0_pct": {
+      "value": 36.61,
+      "unit": "percent",
+      "page": 150
+    },
+    "nav_per_share_fy0": {
+      "value": 5.04,
+      "unit": "rupees",
+      "page": 352
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 1526.02,
+      "unit": "lakh",
+      "page": 87
+    },
+    "pat_stub": {
+      "value": 540.32,
+      "unit": "lakh",
+      "page": 87
+    },
+    "no_listed_peers": false,
+    "peers": [],
+    "notes": [
+      "Fresh issue only; no offer for sale. Price band, lot size, issue amount and post-issue shares are [\u25cf] in the RHP.",
+      "Revenue from operations for FY2023 is shown as '-' (nil), so revenue_fy2 is left null. Total income for FY2023 was 0.01 lakh.",
+      "The FY2025 total debt figure is not printed as one number. Balance sheet borrowings at March 31, 2025 are 214.41 lakh non-current and 173.60 lakh current (page 86). The total borrowings of 402.82 lakh on page 474 is as at June 30, 2025, which is the stub period.",
+      "Net worth: the balance sheet shows Total Equity of 2,593.62 lakh at FY2025, with non-controlling interests shown separately. Note 55 (page 352) gives Net Worth of 2,570.97 lakh. These do not reconcile.",
+      "The pre-IPO placement is a rights issue of 1,52,000 shares at \u20b9125, allotted February 25, 2025 to Vivek Laxmanbhai Patel. There were also earlier rights issues at \u20b91,000 (pre-bonus) in September 2024 and January 2025, and a bonus issue on February 6, 2025.",
+      "The peer comparison table was not among the pages provided. Page 150 gives the industry P/E: highest 55.84, lowest 24.51, composite 44.34 (based on Fiscal 2024).",
+      "Promoter shareholding percentages are not on the pages provided.",
+      "Note 55 shows EPS of 0.49 for FY2024 using 3,50,00,000 weighted shares post-bonus, while it shows 10,00,000 shares outstanding. This looks inconsistent with the share history.",
+      "Several objects are acquisitions (Parekhs Hospital, Ashwini Medical Centre, Harmony stake); these are categorised as 'other'."
+    ]
+  }
+}

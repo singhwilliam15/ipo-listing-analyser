@@ -1,0 +1,361 @@
+{
+  "symbol": "TRUALT",
+  "rhp_file": "TRUALT.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:07:37+00:00",
+  "pages_sent": [
+    1,
+    2,
+    23,
+    24,
+    25,
+    26,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    117,
+    118,
+    119,
+    135,
+    136,
+    160,
+    161,
+    162,
+    522,
+    523,
+    525
+  ],
+  "n_pdf_pages": 678,
+  "usage": {
+    "input_tokens": 45023,
+    "output_tokens": 3189,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3934339,
+    "session_id": "2f3b00e5-4ab9-4563-aa77-5f4ba1ee0ca8"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "TruAlt Bioenergy Limited",
+    "sector": "Energy, power & renewables",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "stub_period_months": null,
+    "pre_ipo_placement": "no",
+    "lead_managers": "DAM Capital Advisors Limited; SBI Capital Markets Limited",
+    "revenue_fy2": 762.3803,
+    "rhp_page_revenue_fy2": 92,
+    "revenue_fy1": 1223.4047,
+    "rhp_page_revenue_fy1": 92,
+    "revenue_fy0": 1907.724,
+    "rhp_page_revenue_fy0": 92,
+    "ebitda_fy2": 105.0465,
+    "rhp_page_ebitda_fy2": 522,
+    "ebitda_fy1": 188.08509999999998,
+    "rhp_page_ebitda_fy1": 522,
+    "ebitda_fy0": 309.1437,
+    "rhp_page_ebitda_fy0": 522,
+    "pat_fy2": 35.4599,
+    "rhp_page_pat_fy2": 92,
+    "pat_fy1": 31.8079,
+    "rhp_page_pat_fy1": 92,
+    "pat_fy0": 146.6385,
+    "rhp_page_pat_fy0": 92,
+    "cfo_fy2": 233.4932,
+    "rhp_page_cfo_fy2": 93,
+    "cfo_fy1": 35.4771,
+    "rhp_page_cfo_fy1": 93,
+    "cfo_fy0": 329.2294,
+    "rhp_page_cfo_fy0": 93,
+    "net_worth_fy0": 768.9989999999999,
+    "rhp_page_net_worth_fy0": 91,
+    "total_debt_fy0": 1549.6781,
+    "rhp_page_total_debt_fy0": 525,
+    "cash_fy0": 149.7764,
+    "rhp_page_cash_fy0": 91,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 2,
+    "price_high": null,
+    "rhp_page_price_high": 2,
+    "lot_size": null,
+    "rhp_page_lot_size": 2,
+    "promoter_pre_pct": 88.2,
+    "rhp_page_promoter_pre_pct": 24,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 24,
+    "retail_quota_pct": 35.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": 491.0,
+    "rhp_page_pre_ipo_price": 119,
+    "eps_fy0": 20.94,
+    "rhp_page_eps_fy0": 92,
+    "ronw_fy0_pct": 19.07,
+    "rhp_page_ronw_fy0_pct": 522,
+    "nav_per_share_fy0": 110.22,
+    "rhp_page_nav_per_share_fy0": 25,
+    "fresh_issue_cr": 750.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.18,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 7.0631624,
+    "rhp_page_pre_issue_shares_cr": 88,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 88,
+    "ofs_promoter_shares_cr": 0.18,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 150.68,
+    "proceeds_gcp_cr": 0.0,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "TruAlt Bioenergy Limited",
+    "sector": "Energy, power & renewables",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 2
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 2
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": 2
+    },
+    "fresh_issue_amount": {
+      "value": 75000.0,
+      "unit": "lakh",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "lakh",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 1800000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Dhraksayani Sangamesh Nirani",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 900000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Sangamesh Rudrappa Nirani",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 900000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 70631624.0,
+      "unit": "shares",
+      "page": 88
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 88
+    },
+    "promoter_pre_pct": {
+      "value": 88.2,
+      "unit": "percent",
+      "page": 24
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 24
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Capital expenditure for multi-feed stock operations (grains) at TBL Unit 4 ethanol plant of 300 KLPD",
+        "category": "capex",
+        "amount": {
+          "value": 15068.0,
+          "unit": "lakh",
+          "page": 135
+        }
+      },
+      {
+        "purpose": "Funding working capital requirements",
+        "category": "other",
+        "amount": {
+          "value": 42500.0,
+          "unit": "lakh",
+          "page": 136
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "lakh",
+          "page": 136
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": 491.0,
+      "unit": "rupees",
+      "page": 119
+    },
+    "lead_managers": [
+      "DAM Capital Advisors Limited",
+      "SBI Capital Markets Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "revenue_fy2": {
+      "value": 76238.03,
+      "unit": "lakh",
+      "page": 92
+    },
+    "revenue_fy1": {
+      "value": 122340.47,
+      "unit": "lakh",
+      "page": 92
+    },
+    "revenue_fy0": {
+      "value": 190772.4,
+      "unit": "lakh",
+      "page": 92
+    },
+    "ebitda_fy2": {
+      "value": 10504.65,
+      "unit": "lakh",
+      "page": 522
+    },
+    "ebitda_fy1": {
+      "value": 18808.51,
+      "unit": "lakh",
+      "page": 522
+    },
+    "ebitda_fy0": {
+      "value": 30914.37,
+      "unit": "lakh",
+      "page": 522
+    },
+    "pat_fy2": {
+      "value": 3545.99,
+      "unit": "lakh",
+      "page": 92
+    },
+    "pat_fy1": {
+      "value": 3180.79,
+      "unit": "lakh",
+      "page": 92
+    },
+    "pat_fy0": {
+      "value": 14663.85,
+      "unit": "lakh",
+      "page": 92
+    },
+    "cfo_fy2": {
+      "value": 23349.32,
+      "unit": "lakh",
+      "page": 93
+    },
+    "cfo_fy1": {
+      "value": 3547.71,
+      "unit": "lakh",
+      "page": 93
+    },
+    "cfo_fy0": {
+      "value": 32922.94,
+      "unit": "lakh",
+      "page": 93
+    },
+    "net_worth_fy0": {
+      "value": 76899.9,
+      "unit": "lakh",
+      "page": 91
+    },
+    "total_debt_fy0": {
+      "value": 154967.81,
+      "unit": "lakh",
+      "page": 525
+    },
+    "cash_fy0": {
+      "value": 14977.64,
+      "unit": "lakh",
+      "page": 91
+    },
+    "eps_fy0": {
+      "value": 20.94,
+      "unit": "rupees",
+      "page": 92
+    },
+    "ronw_fy0_pct": {
+      "value": 19.07,
+      "unit": "percent",
+      "page": 522
+    },
+    "nav_per_share_fy0": {
+      "value": 110.22,
+      "unit": "rupees",
+      "page": 25
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "lakh",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "lakh",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [],
+    "notes": [
+      "FY2025 and FY2024 figures are restated consolidated; FY2023 (fy2) figures are restated standalone, because the subsidiary was acquired in FY2024.",
+      "The price band, lot size, fresh issue share count, OFS amount and post-offer shares are all printed as [\u25cf] in the RHP.",
+      "The 'Comparison with listed industry peers' table was not in the pages provided (pages 160-162 only cover qualitative factors), so peers are left empty. no_listed_peers is set to false because the pages never say there are no peers.",
+      "Total borrowings FY2025: 1,54,967.81 lakh (non-current 1,11,715.50 + current 43,252.31 on balance sheet p.91; same total on p.25 and p.525).",
+      "Pre-IPO: the most recent allotment was the CCPS conversion on May 3, 2024 at \u20b9491. The most recent secondary transfers were on Aug 8 and Aug 12, 2024 at \u20b9491. Both are more than 12 months before the RHP date (Sep 19, 2025), so pre_ipo_placement is false. \u20b9491 is reported as the latest transfer price.",
+      "The FY2023 operating cash flow statement shows PBT of 4,898.83, which does not match the 4,898.51 in the P&L. The difference is minor.",
+      "The funding of working capital (42,500 lakh) is categorised as 'other'."
+    ]
+  }
+}

@@ -1,0 +1,422 @@
+{
+  "symbol": "PARKHOTELS",
+  "rhp_file": "PARKHOTELS.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T21:03:55+00:00",
+  "pages_sent": [
+    1,
+    2,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    123,
+    124,
+    125,
+    126,
+    139,
+    140,
+    141,
+    142,
+    158,
+    159,
+    160,
+    161,
+    162,
+    413,
+    414,
+    415,
+    460
+  ],
+  "n_pdf_pages": 564,
+  "usage": {
+    "input_tokens": 53944,
+    "output_tokens": 3739,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.47669680000000003,
+    "session_id": "8b2396d9-665c-41f0-b84b-2edd5b2d9b04"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Apeejay Surrendra Park Hotels Limited",
+    "sector": "Logistics & travel",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "March 31, 2023",
+    "stub_period_months": 6,
+    "pre_ipo_placement": "no",
+    "lead_managers": "JM Financial Limited; Axis Capital Limited; ICICI Securities Limited",
+    "revenue_fy2": 178.83,
+    "rhp_page_revenue_fy2": 111,
+    "revenue_fy1": 255.02,
+    "rhp_page_revenue_fy1": 111,
+    "revenue_fy0": 506.13,
+    "rhp_page_revenue_fy0": 111,
+    "ebitda_fy2": 22.846,
+    "rhp_page_ebitda_fy2": 161,
+    "ebitda_fy1": 58.293,
+    "rhp_page_ebitda_fy1": 161,
+    "ebitda_fy0": 177.095,
+    "rhp_page_ebitda_fy0": 161,
+    "pat_fy2": -75.884,
+    "rhp_page_pat_fy2": 111,
+    "pat_fy1": -28.202,
+    "rhp_page_pat_fy1": 111,
+    "pat_fy0": 48.062,
+    "rhp_page_pat_fy0": 111,
+    "cfo_fy2": 26.606,
+    "rhp_page_cfo_fy2": 112,
+    "cfo_fy1": 58.112,
+    "rhp_page_cfo_fy1": 112,
+    "cfo_fy0": 176.325,
+    "rhp_page_cfo_fy0": 112,
+    "net_worth_fy0": 555.682,
+    "rhp_page_net_worth_fy0": 109,
+    "total_debt_fy0": 566.88,
+    "rhp_page_total_debt_fy0": 30,
+    "cash_fy0": 16.87,
+    "rhp_page_cash_fy0": 109,
+    "revenue_stub": 264.412,
+    "rhp_page_revenue_stub": 111,
+    "pat_stub": 22.95,
+    "rhp_page_pat_stub": 111,
+    "price_low": null,
+    "rhp_page_price_low": 158,
+    "price_high": null,
+    "rhp_page_price_high": 158,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "rhp_page_promoter_pre_pct": 29,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "rhp_page_retail_quota_pct": 106,
+    "pre_ipo_price": null,
+    "eps_fy0": 2.75,
+    "rhp_page_eps_fy0": 111,
+    "ronw_fy0_pct": 8.65,
+    "rhp_page_ronw_fy0_pct": 413,
+    "nav_per_share_fy0": 31.81,
+    "rhp_page_nav_per_share_fy0": 159,
+    "fresh_issue_cr": 600.0,
+    "rhp_page_fresh_issue_cr": 28,
+    "ofs_cr": 320.0,
+    "rhp_page_ofs_cr": 28,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 28,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 28,
+    "pre_issue_shares_cr": 17.466176,
+    "rhp_page_pre_issue_shares_cr": 106,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 106,
+    "ofs_promoter_shares_cr": 0,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 550.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "CHALET; LEMONTREE; INDHOTEL; EIHOTEL; SAMHI",
+    "n_peers": 5,
+    "peer_pe_list": [
+      79.78,
+      92.34,
+      65.67,
+      56.59
+    ],
+    "peer_ronw_list": [
+      12.03,
+      16.46,
+      13.19,
+      9.75
+    ],
+    "rhp_page_peers": 160
+  },
+  "extract": {
+    "company": "Apeejay Surrendra Park Hotels Limited",
+    "sector": "Logistics & travel",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 158
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 158
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 6000.0,
+      "unit": "million",
+      "page": 28
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 28
+    },
+    "ofs_amount": {
+      "value": 3200.0,
+      "unit": "million",
+      "page": 28
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 28
+    },
+    "selling_shareholders": [
+      {
+        "name": "Apeejay Private Limited",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 107
+        }
+      },
+      {
+        "name": "RECP IV Park Hotel Investors Ltd",
+        "kind": "investor",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 107
+        }
+      },
+      {
+        "name": "RECP IV Park Hotel Co-Investors Ltd",
+        "kind": "investor",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 107
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 174661760.0,
+      "unit": "shares",
+      "page": 106
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 106
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 29
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment/prepayment, in full or in part, of certain outstanding borrowings availed by the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 5500.0,
+          "unit": "million",
+          "page": 139
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 139
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 106
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "JM Financial Limited",
+      "Axis Capital Limited",
+      "ICICI Securities Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "March 31, 2023",
+    "revenue_fy2": {
+      "value": 1788.3,
+      "unit": "million",
+      "page": 111
+    },
+    "revenue_fy1": {
+      "value": 2550.2,
+      "unit": "million",
+      "page": 111
+    },
+    "revenue_fy0": {
+      "value": 5061.3,
+      "unit": "million",
+      "page": 111
+    },
+    "ebitda_fy2": {
+      "value": 228.46,
+      "unit": "million",
+      "page": 161
+    },
+    "ebitda_fy1": {
+      "value": 582.93,
+      "unit": "million",
+      "page": 161
+    },
+    "ebitda_fy0": {
+      "value": 1770.95,
+      "unit": "million",
+      "page": 161
+    },
+    "pat_fy2": {
+      "value": -758.84,
+      "unit": "million",
+      "page": 111
+    },
+    "pat_fy1": {
+      "value": -282.02,
+      "unit": "million",
+      "page": 111
+    },
+    "pat_fy0": {
+      "value": 480.62,
+      "unit": "million",
+      "page": 111
+    },
+    "cfo_fy2": {
+      "value": 266.06,
+      "unit": "million",
+      "page": 112
+    },
+    "cfo_fy1": {
+      "value": 581.12,
+      "unit": "million",
+      "page": 112
+    },
+    "cfo_fy0": {
+      "value": 1763.25,
+      "unit": "million",
+      "page": 112
+    },
+    "net_worth_fy0": {
+      "value": 5556.82,
+      "unit": "million",
+      "page": 109
+    },
+    "total_debt_fy0": {
+      "value": 5668.8,
+      "unit": "million",
+      "page": 30
+    },
+    "cash_fy0": {
+      "value": 168.7,
+      "unit": "million",
+      "page": 109
+    },
+    "eps_fy0": {
+      "value": 2.75,
+      "unit": "rupees",
+      "page": 111
+    },
+    "ronw_fy0_pct": {
+      "value": 8.65,
+      "unit": "percent",
+      "page": 413
+    },
+    "nav_per_share_fy0": {
+      "value": 31.81,
+      "unit": "rupees",
+      "page": 159
+    },
+    "stub_period_months": 6,
+    "revenue_stub": {
+      "value": 2644.12,
+      "unit": "million",
+      "page": 111
+    },
+    "pat_stub": {
+      "value": 229.5,
+      "unit": "million",
+      "page": 111
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Chalet Hotels Limited",
+        "nse_symbol": "CHALET",
+        "pe": 79.78,
+        "ronw_pct": 12.03,
+        "page": 160
+      },
+      {
+        "name": "Lemon Tree Hotels Limited",
+        "nse_symbol": "LEMONTREE",
+        "pe": 92.34,
+        "ronw_pct": 16.46,
+        "page": 160
+      },
+      {
+        "name": "Indian Hotels Company Limited",
+        "nse_symbol": "INDHOTEL",
+        "pe": 65.67,
+        "ronw_pct": 13.19,
+        "page": 160
+      },
+      {
+        "name": "EIH Limited",
+        "nse_symbol": "EIHOTEL",
+        "pe": 56.59,
+        "ronw_pct": 9.75,
+        "page": 160
+      },
+      {
+        "name": "SAMHI Hotels Limited",
+        "nse_symbol": "SAMHI",
+        "pe": null,
+        "ronw_pct": null,
+        "page": 160
+      }
+    ],
+    "notes": [
+      "The price band, lot size, share counts for the fresh issue and OFS, and post-offer shares are all [\u25cf] in this RHP.",
+      "Each seller's OFS amount is printed but not its share count: Apeejay Private Limited up to \u20b92,960 million; RECP IV Park Hotel Investors Ltd up to \u20b9230 million; RECP IV Park Hotel Co-Investors Ltd up to \u20b910 million (page 107).",
+      "Promoter pre-offer holding is not printed as one combined figure. Promoters hold 47.24% and the Promoter Group holds 46.94% (page 29). These were not added together because the rules say not to calculate.",
+      "Revenue from operations is printed as 'Revenue from contracts with customers' (page 111). The peer table labels the same 5,061.30 figure 'Revenue from operations'.",
+      "RoNW for FY2023 is 8.65% on year-end net worth (pages 154 and 413). The weighted-average RoNW table on page 159 shows 9.03% on average net worth.",
+      "Cash and cash equivalents are 168.70 on the balance sheet. The cash flow statement shows 165.70, which is net of book overdrafts.",
+      "The retail quota % is not printed on these pages ('Not more than [\u25cf] Equity Shares'). The non-institutional quota is not more than 15% of the Net Offer. The offer is made under Regulation 6(2).",
+      "The restated loss for FY2021 is shown as (758.83) in the KPI table and (758.84) in the financial statements. The statements figure was used.",
+      "NSE symbols for peers are not printed in the RHP; they were inferred.",
+      "No pre-IPO placement was undertaken and no shares were issued in the one year before the RHP (page 33)."
+    ]
+  }
+}

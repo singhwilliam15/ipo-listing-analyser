@@ -1,0 +1,375 @@
+{
+  "symbol": "TOLINS",
+  "rhp_file": "TOLINS.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-21T06:03:18+00:00",
+  "pages_sent": [
+    1,
+    2,
+    29,
+    30,
+    31,
+    32,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    115,
+    116,
+    117,
+    133,
+    134,
+    151,
+    152,
+    153,
+    385,
+    386
+  ],
+  "n_pdf_pages": 548,
+  "usage": {
+    "input_tokens": 43529,
+    "output_tokens": 3267,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3828921,
+    "session_id": "1384b623-96d5-466d-9751-8cd6444aa7a8"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Tolins Tyres Limited",
+    "sector": "Auto & auto components",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024",
+    "stub_period_months": null,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "Saffron Capital Advisors Private Limited",
+    "revenue_fy2": 113.365,
+    "rhp_page_revenue_fy2": 104,
+    "revenue_fy1": 118.246,
+    "rhp_page_revenue_fy1": 104,
+    "revenue_fy0": 227.218,
+    "rhp_page_revenue_fy0": 104,
+    "ebitda_fy2": 6.09,
+    "rhp_page_ebitda_fy2": 385,
+    "ebitda_fy1": 12.261,
+    "rhp_page_ebitda_fy1": 385,
+    "ebitda_fy0": 46.374,
+    "rhp_page_ebitda_fy0": 385,
+    "pat_fy2": 0.631,
+    "rhp_page_pat_fy2": 104,
+    "pat_fy1": 4.992,
+    "rhp_page_pat_fy1": 104,
+    "pat_fy0": 26.006,
+    "rhp_page_pat_fy0": 104,
+    "cfo_fy2": 2.53,
+    "rhp_page_cfo_fy2": 105,
+    "cfo_fy1": 1.815,
+    "rhp_page_cfo_fy1": 105,
+    "cfo_fy0": -3.59,
+    "rhp_page_cfo_fy0": 105,
+    "net_worth_fy0": 100.533,
+    "rhp_page_net_worth_fy0": 102,
+    "total_debt_fy0": 78.772,
+    "rhp_page_total_debt_fy0": 298,
+    "cash_fy0": 0.881,
+    "rhp_page_cash_fy0": 102,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": 92.64,
+    "rhp_page_promoter_pre_pct": 31,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 31,
+    "retail_quota_pct": 35.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": 118.0,
+    "rhp_page_pre_ipo_price": 117,
+    "eps_fy0": 9.52,
+    "rhp_page_eps_fy0": 104,
+    "ronw_fy0_pct": 25.87,
+    "rhp_page_ronw_fy0_pct": 149,
+    "nav_per_share_fy0": 36.8,
+    "rhp_page_nav_per_share_fy0": 149,
+    "fresh_issue_cr": 200.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": 30.0,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 3.0659272,
+    "rhp_page_pre_issue_shares_cr": 100,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 100,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 85.12299999999999,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "Tolins Tyres Limited",
+    "sector": "Auto & auto components",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 2000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": 300.0,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Dr. Kalamparambil Varkey Tolin",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": null,
+          "page": 1
+        }
+      },
+      {
+        "name": "Jerin Tolin",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": null,
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 30659272.0,
+      "unit": "shares",
+      "page": 100
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 100
+    },
+    "promoter_pre_pct": {
+      "value": 92.64,
+      "unit": "percent",
+      "page": 31
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": 31
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment/prepayment of certain outstanding loans availed by the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 699.69,
+          "unit": "million",
+          "page": 134
+        }
+      },
+      {
+        "purpose": "Augmentation of long-term working capital requirements of the Company",
+        "category": "other",
+        "amount": {
+          "value": 750.0,
+          "unit": "million",
+          "page": 134
+        }
+      },
+      {
+        "purpose": "Investment in WOS Tolin Rubbers Pvt Ltd for repayment/prepayment of its loans",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 151.54,
+          "unit": "million",
+          "page": 134
+        }
+      },
+      {
+        "purpose": "Investment in WOS Tolin Rubbers Pvt Ltd for augmentation of its long-term working capital",
+        "category": "other",
+        "amount": {
+          "value": 80.0,
+          "unit": "million",
+          "page": 134
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": null,
+          "page": 134
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 118.0,
+      "unit": "rupees",
+      "page": 117
+    },
+    "lead_managers": [
+      "Saffron Capital Advisors Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024",
+    "revenue_fy2": {
+      "value": 1133.65,
+      "unit": "million",
+      "page": 104
+    },
+    "revenue_fy1": {
+      "value": 1182.46,
+      "unit": "million",
+      "page": 104
+    },
+    "revenue_fy0": {
+      "value": 2272.18,
+      "unit": "million",
+      "page": 104
+    },
+    "ebitda_fy2": {
+      "value": 60.9,
+      "unit": "million",
+      "page": 385
+    },
+    "ebitda_fy1": {
+      "value": 122.61,
+      "unit": "million",
+      "page": 385
+    },
+    "ebitda_fy0": {
+      "value": 463.74,
+      "unit": "million",
+      "page": 385
+    },
+    "pat_fy2": {
+      "value": 6.31,
+      "unit": "million",
+      "page": 104
+    },
+    "pat_fy1": {
+      "value": 49.92,
+      "unit": "million",
+      "page": 104
+    },
+    "pat_fy0": {
+      "value": 260.06,
+      "unit": "million",
+      "page": 104
+    },
+    "cfo_fy2": {
+      "value": 25.3,
+      "unit": "million",
+      "page": 105
+    },
+    "cfo_fy1": {
+      "value": 18.15,
+      "unit": "million",
+      "page": 105
+    },
+    "cfo_fy0": {
+      "value": -35.9,
+      "unit": "million",
+      "page": 105
+    },
+    "net_worth_fy0": {
+      "value": 1005.33,
+      "unit": "million",
+      "page": 102
+    },
+    "total_debt_fy0": {
+      "value": 787.72,
+      "unit": "million",
+      "page": 298
+    },
+    "cash_fy0": {
+      "value": 8.81,
+      "unit": "million",
+      "page": 102
+    },
+    "eps_fy0": {
+      "value": 9.52,
+      "unit": "rupees",
+      "page": 104
+    },
+    "ronw_fy0_pct": {
+      "value": 25.87,
+      "unit": "percent",
+      "page": 149
+    },
+    "nav_per_share_fy0": {
+      "value": 36.8,
+      "unit": "rupees",
+      "page": 149
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [],
+    "notes": [
+      "FY2024 figures are restated consolidated; FY2023 and FY2022 are restated standalone, because the subsidiaries (Tolin Rubbers Pvt Ltd, Tolins Tyres LLC) were acquired with effect from April 1, 2023. So the years are not directly comparable.",
+      "Price band, lot size and share counts for the fresh issue and OFS are printed as [\u25cf] in the RHP. Only amounts are given: fresh issue \u20b92,000 mn, OFS \u20b9300 mn (\u20b9150 mn per promoter).",
+      "The peer comparison table (page 151) is not among the pages provided. Page 153 gives only industry P/E: highest 45.12, lowest 24.07, average 34.17. It mentions Elgi Rubber Company as a peer.",
+      "Promoter pre-offer holding of 92.64% is promoters (83.31%) plus promoter group (9.33%).",
+      "Pre-IPO placement: rights and preferential allotments at \u20b9118 per share from October to December 2023. The latest was 3,430,025 shares on December 28, 2023, issued under a share swap to acquire the subsidiaries.",
+      "Working-capital objects (\u20b9750 mn for the company, \u20b980 mn for TRPL) are classified as 'other'. The \u20b9231.54 mn subsidiary investment is split into 151.54 debt repayment and 80.00 working capital. GCP is [\u25cf].",
+      "NAV per share is computed by the company using weighted average shares, not period-end shares.",
+      "The cash flow add-back for finance cost in FY2023/FY2022 (36.91/30.12) differs from the P&L finance costs (50.52/42.96)."
+    ]
+  }
+}

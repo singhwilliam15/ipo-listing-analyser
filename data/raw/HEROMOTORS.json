@@ -1,0 +1,405 @@
+{
+  "symbol": "HEROMOTORS",
+  "rhp_file": "HEROMOTORS.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:21:06+00:00",
+  "pages_sent": [
+    1,
+    2,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    89,
+    90,
+    91,
+    119,
+    120,
+    131,
+    132,
+    133,
+    443,
+    444,
+    450
+  ],
+  "n_pdf_pages": 582,
+  "usage": {
+    "input_tokens": 35010,
+    "output_tokens": 3489,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3183284,
+    "session_id": "127745ac-94b0-4586-a849-eab262fe2bcf"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Hero Motors Limited",
+    "sector": "Auto & auto components",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026 (March 31, 2026)",
+    "stub_period_months": null,
+    "pre_ipo_placement": null,
+    "lead_managers": "ICICI Securities Limited; DAM Capital Advisors Limited; JM Financial Limited",
+    "revenue_fy2": 1064.386,
+    "rhp_page_revenue_fy2": 73,
+    "revenue_fy1": 1089.593,
+    "rhp_page_revenue_fy1": 73,
+    "revenue_fy0": 1188.351,
+    "rhp_page_revenue_fy0": 73,
+    "ebitda_fy2": 86.276,
+    "rhp_page_ebitda_fy2": 443,
+    "ebitda_fy1": 114.004,
+    "rhp_page_ebitda_fy1": 443,
+    "ebitda_fy0": 147.782,
+    "rhp_page_ebitda_fy0": 443,
+    "pat_fy2": 17.035,
+    "rhp_page_pat_fy2": 73,
+    "pat_fy1": 32.796,
+    "rhp_page_pat_fy1": 73,
+    "pat_fy0": 41.168,
+    "rhp_page_pat_fy0": 73,
+    "cfo_fy2": 131.966,
+    "rhp_page_cfo_fy2": 74,
+    "cfo_fy1": 48.343,
+    "rhp_page_cfo_fy1": 74,
+    "cfo_fy0": 144.042,
+    "rhp_page_cfo_fy0": 74,
+    "net_worth_fy0": 474.656,
+    "rhp_page_net_worth_fy0": 72,
+    "total_debt_fy0": 400.789,
+    "rhp_page_total_debt_fy0": 450,
+    "cash_fy0": 22.392,
+    "rhp_page_cash_fy0": 72,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 132,
+    "price_high": null,
+    "rhp_page_price_high": 132,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "rhp_page_retail_quota_pct": 69,
+    "pre_ipo_price": null,
+    "eps_fy0": 1.15,
+    "rhp_page_eps_fy0": 132,
+    "ronw_fy0_pct": 8.53,
+    "rhp_page_ronw_fy0_pct": 133,
+    "nav_per_share_fy0": 12.72,
+    "rhp_page_nav_per_share_fy0": 133,
+    "fresh_issue_cr": 600.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": 400.0,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 38.2787005,
+    "rhp_page_pre_issue_shares_cr": 69,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 69,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 190.0,
+    "proceeds_capex_cr": 200.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "CIE Automotive India Limited; Endurance Technologies Limited; Sona BLW Precision Forgings Limited; UNO Minda Limited; Varroc Engineering Limited",
+    "n_peers": 5,
+    "peer_pe_list": [
+      17.68,
+      40.84,
+      76.5,
+      59.84,
+      56.15
+    ],
+    "peer_ronw_list": [
+      13.18,
+      15.29,
+      10.77,
+      19.59,
+      18.7
+    ],
+    "rhp_page_peers": 133
+  },
+  "extract": {
+    "company": "Hero Motors Limited",
+    "sector": "Auto & auto components",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": 132
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": 132
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 6000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": 4000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "O P Munjal Holdings",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": null,
+          "page": 1
+        }
+      },
+      {
+        "name": "Hero Cycles Limited",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": null,
+          "unit": null,
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 382787005.0,
+      "unit": "shares",
+      "page": 69
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 69
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment/prepayment/redemption, in full or in part, of certain outstanding borrowings",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 1900.0,
+          "unit": "million",
+          "page": 119
+        }
+      },
+      {
+        "purpose": "Capital expenditure for purchase of equipment for capacity expansion at Gautam Buddha Nagar, Uttar Pradesh facility",
+        "category": "capex",
+        "amount": {
+          "value": 2000.0,
+          "unit": "million",
+          "page": 120
+        }
+      },
+      {
+        "purpose": "Funding inorganic growth through unidentified acquisitions and other strategic initiatives and general corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": null,
+          "page": 120
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": null,
+      "page": 69
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lead_managers": [
+      "ICICI Securities Limited",
+      "DAM Capital Advisors Limited",
+      "JM Financial Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026 (March 31, 2026)",
+    "revenue_fy2": {
+      "value": 10643.86,
+      "unit": "million",
+      "page": 73
+    },
+    "revenue_fy1": {
+      "value": 10895.93,
+      "unit": "million",
+      "page": 73
+    },
+    "revenue_fy0": {
+      "value": 11883.51,
+      "unit": "million",
+      "page": 73
+    },
+    "ebitda_fy2": {
+      "value": 862.76,
+      "unit": "million",
+      "page": 443
+    },
+    "ebitda_fy1": {
+      "value": 1140.04,
+      "unit": "million",
+      "page": 443
+    },
+    "ebitda_fy0": {
+      "value": 1477.82,
+      "unit": "million",
+      "page": 443
+    },
+    "pat_fy2": {
+      "value": 170.35,
+      "unit": "million",
+      "page": 73
+    },
+    "pat_fy1": {
+      "value": 327.96,
+      "unit": "million",
+      "page": 73
+    },
+    "pat_fy0": {
+      "value": 411.68,
+      "unit": "million",
+      "page": 73
+    },
+    "cfo_fy2": {
+      "value": 1319.66,
+      "unit": "million",
+      "page": 74
+    },
+    "cfo_fy1": {
+      "value": 483.43,
+      "unit": "million",
+      "page": 74
+    },
+    "cfo_fy0": {
+      "value": 1440.42,
+      "unit": "million",
+      "page": 74
+    },
+    "net_worth_fy0": {
+      "value": 4746.56,
+      "unit": "million",
+      "page": 72
+    },
+    "total_debt_fy0": {
+      "value": 4007.89,
+      "unit": "million",
+      "page": 450
+    },
+    "cash_fy0": {
+      "value": 223.92,
+      "unit": "million",
+      "page": 72
+    },
+    "eps_fy0": {
+      "value": 1.15,
+      "unit": "rupees",
+      "page": 132
+    },
+    "ronw_fy0_pct": {
+      "value": 8.53,
+      "unit": "percent",
+      "page": 133
+    },
+    "nav_per_share_fy0": {
+      "value": 12.72,
+      "unit": "rupees",
+      "page": 133
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "CIE Automotive India Limited",
+        "nse_symbol": null,
+        "pe": 17.68,
+        "ronw_pct": 13.18,
+        "page": 133
+      },
+      {
+        "name": "Endurance Technologies Limited",
+        "nse_symbol": null,
+        "pe": 40.84,
+        "ronw_pct": 15.29,
+        "page": 133
+      },
+      {
+        "name": "Sona BLW Precision Forgings Limited",
+        "nse_symbol": null,
+        "pe": 76.5,
+        "ronw_pct": 10.77,
+        "page": 133
+      },
+      {
+        "name": "UNO Minda Limited",
+        "nse_symbol": null,
+        "pe": 59.84,
+        "ronw_pct": 19.59,
+        "page": 133
+      },
+      {
+        "name": "Varroc Engineering Limited",
+        "nse_symbol": null,
+        "pe": 56.15,
+        "ronw_pct": 18.7,
+        "page": 133
+      }
+    ],
+    "notes": [
+      "The price band, lot size, share counts for the fresh issue and OFS, and post-offer shares are all printed as [\u25cf]. Only the amounts are given: fresh issue \u20b96,000 million, OFS \u20b94,000 million (O P Munjal Holdings \u20b93,950 million, Hero Cycles \u20b950 million).",
+      "Total promoter and promoter group holding is not given on these pages. Only the selling shareholders' stakes appear: O P Munjal Holdings 70.60% and Hero Cycles Limited (promoter group) 2.00% of pre-offer capital, calculated including vested ESOP 2022 options. Holdings of the other promoters (Pankaj, Charu and Abhishek Munjal) are not shown, so promoter_pre_pct is left null.",
+      "The retail quota is printed as 'Not less than [\u25cf] Equity Shares'. No percentage is given on these pages.",
+      "The amount for inorganic growth and general corporate purposes is [\u25cf]. It is capped at 35% of gross proceeds combined, and 25% each.",
+      "PAT is the restated profit for the year including non-controlling interest. Profit attributable to owners for FY2026 is \u20b9435.68 million.",
+      "EBITDA is as reported (PAT + tax + finance cost + D&A). The RHP also reports Adjusted EBITDA: 1,602.44 / 1,288.21 / 1,257.38 for FY26 / FY25 / FY24.",
+      "Total debt is current plus non-current borrowings from the capitalisation statement and excludes lease liabilities.",
+      "Pre-IPO placement status is unclear. The share capital history pages provided only cover allotments up to 2004. FY2026 shows \u20b99.53 million of equity issue proceeds, likely from ESOPs.",
+      "Peer P/E is based on NSE closing prices on September 7, 2026. For CIE Automotive, FY2026 means calendar year 2025."
+    ]
+  }
+}

@@ -1,0 +1,368 @@
+{
+  "symbol": "PREMIERENE",
+  "rhp_file": "PREMIERENE.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-21T06:04:14+00:00",
+  "pages_sent": [
+    1,
+    2,
+    26,
+    27,
+    28,
+    29,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    119,
+    120,
+    121,
+    143,
+    144,
+    163,
+    164,
+    165,
+    403,
+    404,
+    457
+  ],
+  "n_pdf_pages": 558,
+  "usage": {
+    "input_tokens": 41050,
+    "output_tokens": 3739,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3722507,
+    "session_id": "eefbcc15-5feb-4d43-8f89-f41331783b74"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Premier Energies Limited",
+    "sector": "Energy, power & renewables",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024",
+    "stub_period_months": 3,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Kotak Mahindra Capital Company Limited; J.P. Morgan India Private Limited; ICICI Securities Limited",
+    "revenue_fy2": 742.871,
+    "rhp_page_revenue_fy2": 107,
+    "revenue_fy1": 1428.534,
+    "rhp_page_revenue_fy1": 107,
+    "revenue_fy0": 3143.793,
+    "rhp_page_revenue_fy0": 107,
+    "ebitda_fy2": 53.738,
+    "rhp_page_ebitda_fy2": 403,
+    "ebitda_fy1": 112.881,
+    "rhp_page_ebitda_fy1": 403,
+    "ebitda_fy0": 505.318,
+    "rhp_page_ebitda_fy0": 403,
+    "pat_fy2": -14.408,
+    "rhp_page_pat_fy2": 107,
+    "pat_fy1": -13.336000000000002,
+    "rhp_page_pat_fy1": 107,
+    "pat_fy0": 231.36,
+    "rhp_page_pat_fy0": 107,
+    "cfo_fy2": 4.964,
+    "rhp_page_cfo_fy2": 108,
+    "cfo_fy1": 36.685,
+    "rhp_page_cfo_fy1": 108,
+    "cfo_fy0": 90.154,
+    "rhp_page_cfo_fy0": 108,
+    "net_worth_fy0": 646.851,
+    "rhp_page_net_worth_fy0": 106,
+    "total_debt_fy0": null,
+    "cash_fy0": 257.001,
+    "rhp_page_cash_fy0": 106,
+    "revenue_stub": 1657.3669999999997,
+    "rhp_page_revenue_stub": 107,
+    "pat_stub": 198.16,
+    "rhp_page_pat_stub": 107,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": 68.74,
+    "rhp_page_promoter_pre_pct": 29,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 29,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 6.93,
+    "rhp_page_eps_fy0": 107,
+    "ronw_fy0_pct": 37.46,
+    "rhp_page_ronw_fy0_pct": 164,
+    "nav_per_share_fy0": 14.63,
+    "rhp_page_nav_per_share_fy0": 164,
+    "fresh_issue_cr": 1291.4,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 3.42,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 42.2065168,
+    "rhp_page_pre_issue_shares_cr": 103,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 103,
+    "ofs_promoter_shares_cr": 0.72,
+    "ofs_investor_shares_cr": 2.7,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 968.603,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "Websol Energy System Limited",
+    "n_peers": 1,
+    "peer_pe_list": [],
+    "peer_ronw_list": [],
+    "rhp_page_peers": 165
+  },
+  "extract": {
+    "company": "Premier Energies Limited",
+    "sector": "Energy, power & renewables",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 12914.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 34200000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "South Asia Growth Fund II Holdings LLC",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 26827200.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "South Asia EBT Trust",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 172800.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Chiranjeev Singh Saluja",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 7200000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 422065168.0,
+      "unit": "shares",
+      "page": 103
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 103
+    },
+    "promoter_pre_pct": {
+      "value": 68.74,
+      "unit": "percent",
+      "page": 29
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": 29
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Investment in Subsidiary Premier Energies Global Environment Private Limited for part-financing 4 GW Solar PV TOPCon Cell and 4 GW TOPCon Module manufacturing facility in Hyderabad",
+        "category": "capex",
+        "amount": {
+          "value": 9686.03,
+          "unit": "million",
+          "page": 29
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": null,
+          "page": 29
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lead_managers": [
+      "Kotak Mahindra Capital Company Limited",
+      "J.P. Morgan India Private Limited",
+      "ICICI Securities Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024",
+    "revenue_fy2": {
+      "value": 7428.71,
+      "unit": "million",
+      "page": 107
+    },
+    "revenue_fy1": {
+      "value": 14285.34,
+      "unit": "million",
+      "page": 107
+    },
+    "revenue_fy0": {
+      "value": 31437.93,
+      "unit": "million",
+      "page": 107
+    },
+    "ebitda_fy2": {
+      "value": 537.38,
+      "unit": "million",
+      "page": 403
+    },
+    "ebitda_fy1": {
+      "value": 1128.81,
+      "unit": "million",
+      "page": 403
+    },
+    "ebitda_fy0": {
+      "value": 5053.18,
+      "unit": "million",
+      "page": 403
+    },
+    "pat_fy2": {
+      "value": -144.08,
+      "unit": "million",
+      "page": 107
+    },
+    "pat_fy1": {
+      "value": -133.36,
+      "unit": "million",
+      "page": 107
+    },
+    "pat_fy0": {
+      "value": 2313.6,
+      "unit": "million",
+      "page": 107
+    },
+    "cfo_fy2": {
+      "value": 49.64,
+      "unit": "million",
+      "page": 108
+    },
+    "cfo_fy1": {
+      "value": 366.85,
+      "unit": "million",
+      "page": 108
+    },
+    "cfo_fy0": {
+      "value": 901.54,
+      "unit": "million",
+      "page": 108
+    },
+    "net_worth_fy0": {
+      "value": 6468.51,
+      "unit": "million",
+      "page": 106
+    },
+    "total_debt_fy0": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cash_fy0": {
+      "value": 2570.01,
+      "unit": "million",
+      "page": 106
+    },
+    "eps_fy0": {
+      "value": 6.93,
+      "unit": "rupees",
+      "page": 107
+    },
+    "ronw_fy0_pct": {
+      "value": 37.46,
+      "unit": "percent",
+      "page": 164
+    },
+    "nav_per_share_fy0": {
+      "value": 14.63,
+      "unit": "rupees",
+      "page": 164
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 16573.67,
+      "unit": "million",
+      "page": 107
+    },
+    "pat_stub": {
+      "value": 1981.6,
+      "unit": "million",
+      "page": 107
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Websol Energy System Limited",
+        "nse_symbol": null,
+        "pe": null,
+        "ronw_pct": null,
+        "page": 165
+      }
+    ],
+    "notes": [
+      "Price band, lot size, fresh issue share count, post-offer shares and retail quota are not printed on these pages ([\u25cf]).",
+      "promoter_pre_pct 68.74% is for Promoters only (Total A), as a share of the current 422,065,168 pre-offer shares. Promoter Group (Total B) holds another 3.48%. The same table also shows 86.85%/4.40%, which use the capital before the CCD conversion.",
+      "total_debt_fy0 is not printed as a total for March 31, 2024. Non-current borrowings were 8,783.83 and current borrowings 5,138.57 (\u20b9 million, page 106). The only printed total is 12,001.57 at June 30, 2024 (page 457).",
+      "net_worth_fy0 is equity attributable to owners (6,468.51). The SEBI-defined net worth on page 28 is 6,176.12.",
+      "pre_ipo_placement is set to false: in the last 12 months there was a bonus issue (April 2024, 0.268:1) and CCDs were converted on August 16, 2024 (88,000,000 shares). Those CCDs came from a preferential allotment on September 28, 2021, more than 12 months earlier.",
+      "The only peer is Websol Energy System Limited. Its P/E, RoNW and NAV are printed as NA (loss-making, diluted EPS -29.99). Its NSE symbol is not printed.",
+      "For FY2023 and FY2022, PAT including minority interest is used. PAT attributable to owners was -128.05 and -143.60.",
+      "Gross proceeds are 12,914 million, but only 9,686.03 million is assigned to the capex object. The general corporate purposes amount is [\u25cf]."
+    ]
+  }
+}

@@ -1,0 +1,362 @@
+{
+  "symbol": "MILKYMIST",
+  "rhp_file": "MILKYMIST.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:25:49+00:00",
+  "pages_sent": [
+    1,
+    2,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    100,
+    101,
+    102,
+    128,
+    129,
+    149,
+    150,
+    151,
+    372,
+    373,
+    375
+  ],
+  "n_pdf_pages": 544,
+  "usage": {
+    "input_tokens": 31783,
+    "output_tokens": 3206,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.2865311,
+    "session_id": "b60b9c40-0c41-40a4-994e-84fdb52f9a41"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Milky Mist Dairy Food Limited",
+    "sector": "FMCG & food",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "stub_period_months": null,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "JM Financial Limited; Axis Capital Limited; IIFL Capital Services Limited",
+    "revenue_fy2": 1821.609,
+    "rhp_page_revenue_fy2": 83,
+    "revenue_fy1": 2349.503,
+    "rhp_page_revenue_fy1": 83,
+    "revenue_fy0": 3138.364,
+    "rhp_page_revenue_fy0": 83,
+    "ebitda_fy2": 222.33,
+    "rhp_page_ebitda_fy2": 372,
+    "ebitda_fy1": 310.346,
+    "rhp_page_ebitda_fy1": 372,
+    "ebitda_fy0": 435.219,
+    "rhp_page_ebitda_fy0": 372,
+    "pat_fy2": 19.444,
+    "rhp_page_pat_fy2": 83,
+    "pat_fy1": 46.074,
+    "rhp_page_pat_fy1": 83,
+    "pat_fy0": 127.009,
+    "rhp_page_pat_fy0": 83,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 463.015,
+    "rhp_page_net_worth_fy0": 81,
+    "total_debt_fy0": 1671.8529999999998,
+    "rhp_page_total_debt_fy0": 375,
+    "cash_fy0": 10.544,
+    "rhp_page_cash_fy0": 81,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 151,
+    "price_high": null,
+    "rhp_page_price_high": 151,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": 139.76,
+    "rhp_page_pre_ipo_price": 2,
+    "eps_fy0": 1.98,
+    "rhp_page_eps_fy0": 83,
+    "ronw_fy0_pct": 33.6,
+    "rhp_page_ronw_fy0_pct": 151,
+    "nav_per_share_fy0": 5.87,
+    "rhp_page_nav_per_share_fy0": 372,
+    "fresh_issue_cr": 1428.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": 125.0,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 66.7828789,
+    "rhp_page_pre_issue_shares_cr": 78,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 78,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 496.861,
+    "proceeds_capex_cr": 624.553,
+    "proceeds_gcp_cr": 0.0,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "Milky Mist Dairy Food Limited",
+    "sector": "FMCG & food",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 151
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 151
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 14280.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": 1250.0,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Sathishkumar T",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Anitha S",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 667828789.0,
+      "unit": "shares",
+      "page": 78
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 78
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment/prepayment, in full or in part, of certain outstanding borrowings",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 4968.61,
+          "unit": "million",
+          "page": 129
+        }
+      },
+      {
+        "purpose": "Capital expenditure for expansion and modernisation of Perundurai Manufacturing Facility",
+        "category": "capex",
+        "amount": {
+          "value": 4692.4,
+          "unit": "million",
+          "page": 129
+        }
+      },
+      {
+        "purpose": "Deployment of visi coolers, ice cream freezers and chocolate coolers",
+        "category": "capex",
+        "amount": {
+          "value": 1553.13,
+          "unit": "million",
+          "page": 129
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 129
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 139.76,
+      "unit": "rupees",
+      "page": 2
+    },
+    "lead_managers": [
+      "JM Financial Limited",
+      "Axis Capital Limited",
+      "IIFL Capital Services Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "revenue_fy2": {
+      "value": 18216.09,
+      "unit": "million",
+      "page": 83
+    },
+    "revenue_fy1": {
+      "value": 23495.03,
+      "unit": "million",
+      "page": 83
+    },
+    "revenue_fy0": {
+      "value": 31383.64,
+      "unit": "million",
+      "page": 83
+    },
+    "ebitda_fy2": {
+      "value": 2223.3,
+      "unit": "million",
+      "page": 372
+    },
+    "ebitda_fy1": {
+      "value": 3103.46,
+      "unit": "million",
+      "page": 372
+    },
+    "ebitda_fy0": {
+      "value": 4352.19,
+      "unit": "million",
+      "page": 372
+    },
+    "pat_fy2": {
+      "value": 194.44,
+      "unit": "million",
+      "page": 83
+    },
+    "pat_fy1": {
+      "value": 460.74,
+      "unit": "million",
+      "page": 83
+    },
+    "pat_fy0": {
+      "value": 1270.09,
+      "unit": "million",
+      "page": 83
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 4630.15,
+      "unit": "million",
+      "page": 81
+    },
+    "total_debt_fy0": {
+      "value": 16718.53,
+      "unit": "million",
+      "page": 375
+    },
+    "cash_fy0": {
+      "value": 105.44,
+      "unit": "million",
+      "page": 81
+    },
+    "eps_fy0": {
+      "value": 1.98,
+      "unit": "rupees",
+      "page": 83
+    },
+    "ronw_fy0_pct": {
+      "value": 33.6,
+      "unit": "percent",
+      "page": 151
+    },
+    "nav_per_share_fy0": {
+      "value": 5.87,
+      "unit": "rupees",
+      "page": 372
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [],
+    "notes": [
+      "Price band, lot size, share counts for fresh issue/OFS and post-offer shares are [\u25cf] in the RHP pages given.",
+      "OFS amounts: Sathishkumar T up to \u20b9750.00 million, Anitha S up to \u20b9500.00 million (share numbers [\u25cf]).",
+      "Pre-IPO placement on April 30, 2026 to Jongsong Investments Pte. Ltd.: 543,789 equity shares + 25,000,000 CCPS at \u20b9139.76 each, \u20b93,570.00 million total; fresh issue was cut from \u20b917,850.00 million to \u20b914,280.00 million.",
+      "net_worth_fy0 is total equity (4,630.15) from the balance sheet. The RHP's own 'Net Worth' figure is 3,779.95 million, which excludes \u20b9850.20 million of fair valuation of land; RoNW 33.60% and NAV 5.87 are calculated on that adjusted net worth.",
+      "Total debt of 16,718.53 comes from the capitalisation statement and matches balance sheet borrowings: non-current 12,406.73 + current 4,311.80.",
+      "Cash flow statement not among provided pages; CFO null.",
+      "Peer comparison table (page 149) not provided; only industry P/E summary shown: highest 79.76, lowest 21.28, average 52.56.",
+      "Promoter shareholding % and retail quota % not on provided pages.",
+      "Deployment of visi coolers/freezers categorised as capex. GCP amount is [\u25cf]; \u20b91,902.04 million from the pre-IPO placement has already been used for GCP."
+    ]
+  }
+}

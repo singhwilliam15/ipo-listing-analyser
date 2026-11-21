@@ -1,0 +1,350 @@
+{
+  "symbol": "MPIMANIPAL",
+  "rhp_file": "MPIMANIPAL.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:21:34+00:00",
+  "pages_sent": [
+    1,
+    2,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    93,
+    94,
+    95,
+    121,
+    122,
+    137,
+    138,
+    139,
+    432,
+    433,
+    462
+  ],
+  "n_pdf_pages": 555,
+  "usage": {
+    "input_tokens": 34080,
+    "output_tokens": 3197,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.304956,
+    "session_id": "bf2f300a-4146-4cd7-aeec-99005b8570e3"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Manipal Payment and Identity Solutions Limited",
+    "sector": "Industrials & capital goods",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "stub_period_months": null,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Motilal Oswal Investment Advisors Limited; Axis Capital Limited; ICICI Securities Limited; IIFL Capital Services Limited; Nuvama Wealth Management Limited",
+    "revenue_fy2": 1247.522,
+    "rhp_page_revenue_fy2": 72,
+    "revenue_fy1": 1256.071,
+    "rhp_page_revenue_fy1": 72,
+    "revenue_fy0": 1326.753,
+    "rhp_page_revenue_fy0": 72,
+    "ebitda_fy2": 355.572,
+    "rhp_page_ebitda_fy2": 139,
+    "ebitda_fy1": 408.766,
+    "rhp_page_ebitda_fy1": 139,
+    "ebitda_fy0": 455.832,
+    "rhp_page_ebitda_fy0": 139,
+    "pat_fy2": 249.165,
+    "rhp_page_pat_fy2": 72,
+    "pat_fy1": 282.214,
+    "rhp_page_pat_fy1": 72,
+    "pat_fy0": 253.462,
+    "rhp_page_pat_fy0": 72,
+    "cfo_fy2": 308.567,
+    "rhp_page_cfo_fy2": 73,
+    "cfo_fy1": 284.38,
+    "rhp_page_cfo_fy1": 73,
+    "cfo_fy0": 207.66799999999998,
+    "rhp_page_cfo_fy0": 73,
+    "net_worth_fy0": 791.9,
+    "rhp_page_net_worth_fy0": 71,
+    "total_debt_fy0": 0.416,
+    "rhp_page_total_debt_fy0": 462,
+    "cash_fy0": 155.136,
+    "rhp_page_cash_fy0": 71,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 137,
+    "price_high": null,
+    "rhp_page_price_high": 137,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 11.53,
+    "rhp_page_eps_fy0": 72,
+    "ronw_fy0_pct": 22.93,
+    "rhp_page_ronw_fy0_pct": 138,
+    "nav_per_share_fy0": 48.84,
+    "rhp_page_nav_per_share_fy0": 138,
+    "fresh_issue_cr": 320.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 1.4306785,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 22.2365,
+    "rhp_page_pre_issue_shares_cr": 68,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 68,
+    "ofs_promoter_shares_cr": 1.4306785,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 238.426,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "Seshaasai Technologies Limited",
+    "n_peers": 1,
+    "peer_pe_list": [
+      24.97
+    ],
+    "peer_ronw_list": [
+      16.81
+    ],
+    "rhp_page_peers": 138
+  },
+  "extract": {
+    "company": "Manipal Payment and Identity Solutions Limited",
+    "sector": "Industrials & capital goods",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 137
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 137
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 3200.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 14306785.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Manipal Technologies Limited",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 14306785.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 222365000.0,
+      "unit": "shares",
+      "page": 68
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 68
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Capital expenditure on new and second-hand equipment at card manufacturing, personalization bureau, cheque printing, card processing and Smart Tagging/IoT facilities",
+        "category": "capex",
+        "amount": {
+          "value": 2384.26,
+          "unit": "million",
+          "page": 122
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 122
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Motilal Oswal Investment Advisors Limited",
+      "Axis Capital Limited",
+      "ICICI Securities Limited",
+      "IIFL Capital Services Limited",
+      "Nuvama Wealth Management Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "revenue_fy2": {
+      "value": 12475.22,
+      "unit": "million",
+      "page": 72
+    },
+    "revenue_fy1": {
+      "value": 12560.71,
+      "unit": "million",
+      "page": 72
+    },
+    "revenue_fy0": {
+      "value": 13267.53,
+      "unit": "million",
+      "page": 72
+    },
+    "ebitda_fy2": {
+      "value": 3555.72,
+      "unit": "million",
+      "page": 139
+    },
+    "ebitda_fy1": {
+      "value": 4087.66,
+      "unit": "million",
+      "page": 139
+    },
+    "ebitda_fy0": {
+      "value": 4558.32,
+      "unit": "million",
+      "page": 139
+    },
+    "pat_fy2": {
+      "value": 2491.65,
+      "unit": "million",
+      "page": 72
+    },
+    "pat_fy1": {
+      "value": 2822.14,
+      "unit": "million",
+      "page": 72
+    },
+    "pat_fy0": {
+      "value": 2534.62,
+      "unit": "million",
+      "page": 72
+    },
+    "cfo_fy2": {
+      "value": 3085.67,
+      "unit": "million",
+      "page": 73
+    },
+    "cfo_fy1": {
+      "value": 2843.8,
+      "unit": "million",
+      "page": 73
+    },
+    "cfo_fy0": {
+      "value": 2076.68,
+      "unit": "million",
+      "page": 73
+    },
+    "net_worth_fy0": {
+      "value": 7919.0,
+      "unit": "million",
+      "page": 71
+    },
+    "total_debt_fy0": {
+      "value": 4.16,
+      "unit": "million",
+      "page": 462
+    },
+    "cash_fy0": {
+      "value": 1551.36,
+      "unit": "million",
+      "page": 71
+    },
+    "eps_fy0": {
+      "value": 11.53,
+      "unit": "rupees",
+      "page": 72
+    },
+    "ronw_fy0_pct": {
+      "value": 22.93,
+      "unit": "percent",
+      "page": 138
+    },
+    "nav_per_share_fy0": {
+      "value": 48.84,
+      "unit": "rupees",
+      "page": 138
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Seshaasai Technologies Limited",
+        "nse_symbol": null,
+        "pe": 24.97,
+        "ronw_pct": 16.81,
+        "page": 138
+      }
+    ],
+    "notes": [
+      "The statements are labelled only 'Restated Financial Information' and are not explicitly called consolidated. I marked them consolidated because they show OCI on foreign operations and an owners/non-controlling interest split. Audited standalone statements are mentioned separately.",
+      "Net worth here is total equity from the balance sheet (7,919.00 million). The RoNW and NAV workings use a different 'net worth' of 11,053.78 million for FY2026, which does not match balance-sheet equity.",
+      "The price band, lot size, number of fresh issue shares, post-issue shares and general corporate purposes amount are all shown as [\u25cf] or not given.",
+      "Promoter shareholding before and after the offer is not on the pages provided. The retail quota percentage is also not given; the Offer Structure section was not provided.",
+      "The most recent allotment found is 15,560,000 shares on May 28, 2025, from converting optionally convertible debentures (premium \u20b9126.53). This is more than 12 months before the RHP date (Sep 3, 2026), so pre_ipo_placement is set to false.",
+      "The peer P/E (24.97) is based on diluted EPS. The NSE symbol for Seshaasai Technologies is not printed.",
+      "The sector is ambiguous: payment card and identity solutions manufacturing. Industrials & capital goods was chosen; Electronics & EMS was the alternative."
+    ]
+  }
+}

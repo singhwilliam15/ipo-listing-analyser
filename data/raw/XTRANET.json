@@ -1,0 +1,366 @@
+{
+  "symbol": "XTRANET",
+  "rhp_file": "XTRANET.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:27:26+00:00",
+  "pages_sent": [
+    1,
+    2,
+    81,
+    82,
+    84,
+    85,
+    86,
+    87,
+    88,
+    99,
+    100,
+    101,
+    132,
+    133,
+    147,
+    148,
+    149,
+    354,
+    355,
+    356,
+    357,
+    423,
+    424,
+    427
+  ],
+  "n_pdf_pages": 559,
+  "usage": {
+    "input_tokens": 32876,
+    "output_tokens": 3114,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.2935433,
+    "session_id": "f0b531e2-5c47-49e3-9701-184af1123477"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Xtranet Technologies Limited",
+    "sector": "IT & software",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026 (March 31, 2026)",
+    "stub_period_months": null,
+    "pre_ipo_placement": null,
+    "lead_managers": "Share India Capital Services Private Limited",
+    "revenue_fy2": 232.9407,
+    "rhp_page_revenue_fy2": 356,
+    "revenue_fy1": 276.0815,
+    "rhp_page_revenue_fy1": 356,
+    "revenue_fy0": 365.2874,
+    "rhp_page_revenue_fy0": 356,
+    "ebitda_fy2": 18.8617,
+    "rhp_page_ebitda_fy2": 423,
+    "ebitda_fy1": 47.19890000000001,
+    "rhp_page_ebitda_fy1": 423,
+    "ebitda_fy0": 63.1785,
+    "rhp_page_ebitda_fy0": 423,
+    "pat_fy2": 10.9425,
+    "rhp_page_pat_fy2": 356,
+    "pat_fy1": 30.0347,
+    "rhp_page_pat_fy1": 356,
+    "pat_fy0": 40.7276,
+    "rhp_page_pat_fy0": 356,
+    "cfo_fy2": -1.1601,
+    "rhp_page_cfo_fy2": 87,
+    "cfo_fy1": 8.6179,
+    "rhp_page_cfo_fy1": 87,
+    "cfo_fy0": 27.5739,
+    "rhp_page_cfo_fy0": 87,
+    "net_worth_fy0": 136.0118,
+    "rhp_page_net_worth_fy0": 354,
+    "total_debt_fy0": 85.4482,
+    "rhp_page_total_debt_fy0": 424,
+    "cash_fy0": 1.4575,
+    "rhp_page_cash_fy0": 354,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 10.4,
+    "rhp_page_eps_fy0": 357,
+    "ronw_fy0_pct": 29.6,
+    "rhp_page_ronw_fy0_pct": 149,
+    "nav_per_share_fy0": 34.74,
+    "rhp_page_nav_per_share_fy0": 149,
+    "fresh_issue_cr": 170.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 3.91517,
+    "rhp_page_pre_issue_shares_cr": 81,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 81,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 20.196,
+    "proceeds_capex_cr": 8.4806,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "Silver Touch Technologies Limited; Dynacons Systems & Solutions",
+    "n_peers": 2,
+    "peer_pe_list": [
+      63.65,
+      20.2
+    ],
+    "peer_ronw_list": [
+      21.06,
+      26.89
+    ],
+    "rhp_page_peers": 149
+  },
+  "extract": {
+    "company": "Xtranet Technologies Limited",
+    "sector": "IT & software",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 17000.0,
+      "unit": "lakh",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 39151700.0,
+      "unit": "shares",
+      "page": 81
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 81
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment/pre-payment, in full or in part, of certain outstanding borrowings",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 2019.6,
+          "unit": "lakh",
+          "page": 132
+        }
+      },
+      {
+        "purpose": "Capital expenditure for purchase and installation of systems and hardware",
+        "category": "capex",
+        "amount": {
+          "value": 848.06,
+          "unit": "lakh",
+          "page": 132
+        }
+      },
+      {
+        "purpose": "Working capital requirements",
+        "category": "other",
+        "amount": {
+          "value": 10200.0,
+          "unit": "lakh",
+          "page": 132
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": null,
+          "page": 132
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lead_managers": [
+      "Share India Capital Services Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026 (March 31, 2026)",
+    "revenue_fy2": {
+      "value": 23294.07,
+      "unit": "lakh",
+      "page": 356
+    },
+    "revenue_fy1": {
+      "value": 27608.15,
+      "unit": "lakh",
+      "page": 356
+    },
+    "revenue_fy0": {
+      "value": 36528.74,
+      "unit": "lakh",
+      "page": 356
+    },
+    "ebitda_fy2": {
+      "value": 1886.17,
+      "unit": "lakh",
+      "page": 423
+    },
+    "ebitda_fy1": {
+      "value": 4719.89,
+      "unit": "lakh",
+      "page": 423
+    },
+    "ebitda_fy0": {
+      "value": 6317.85,
+      "unit": "lakh",
+      "page": 423
+    },
+    "pat_fy2": {
+      "value": 1094.25,
+      "unit": "lakh",
+      "page": 356
+    },
+    "pat_fy1": {
+      "value": 3003.47,
+      "unit": "lakh",
+      "page": 356
+    },
+    "pat_fy0": {
+      "value": 4072.76,
+      "unit": "lakh",
+      "page": 356
+    },
+    "cfo_fy2": {
+      "value": -116.01,
+      "unit": "lakh",
+      "page": 87
+    },
+    "cfo_fy1": {
+      "value": 861.79,
+      "unit": "lakh",
+      "page": 87
+    },
+    "cfo_fy0": {
+      "value": 2757.39,
+      "unit": "lakh",
+      "page": 87
+    },
+    "net_worth_fy0": {
+      "value": 13601.18,
+      "unit": "lakh",
+      "page": 354
+    },
+    "total_debt_fy0": {
+      "value": 8544.82,
+      "unit": "lakh",
+      "page": 424
+    },
+    "cash_fy0": {
+      "value": 145.75,
+      "unit": "lakh",
+      "page": 354
+    },
+    "eps_fy0": {
+      "value": 10.4,
+      "unit": "rupees",
+      "page": 357
+    },
+    "ronw_fy0_pct": {
+      "value": 29.6,
+      "unit": "percent",
+      "page": 149
+    },
+    "nav_per_share_fy0": {
+      "value": 34.74,
+      "unit": "rupees",
+      "page": 149
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Silver Touch Technologies Limited",
+        "nse_symbol": null,
+        "pe": 63.65,
+        "ronw_pct": 21.06,
+        "page": 149
+      },
+      {
+        "name": "Dynacons Systems & Solutions",
+        "nse_symbol": null,
+        "pe": 20.2,
+        "ronw_pct": 26.89,
+        "page": 149
+      }
+    ],
+    "notes": [
+      "Issue is entirely a fresh issue (Rs 17,000.00 lakh); there is no offer for sale, so there are no selling shareholders.",
+      "Price band, lot size, post-issue shares and promoter shareholding are not printed on the pages provided (shown as [\u25cf] or missing).",
+      "Basic EPS for FY2026 is 10.40 in the restated P&L but 10.28 (bonus-adjusted) in Basis for Issue Price and Other Financial Information. FY2025 is 8.15 vs 8.07 and FY2024 is 3.17 vs 3.19. The restated P&L figure is used.",
+      "Total debt of 8,544.82 lakh is borrowings only. The capitalisation statement shows 8,561.01 lakh because it adds lease liabilities of 16.19 lakh.",
+      "Working capital requirement of 10,200 lakh is categorised as 'other'. The general corporate purposes amount is [\u25cf] and capped at 25% of gross proceeds.",
+      "Retail quota percentage is not stated on the pages provided; only 'not less than [\u25cf]' and 'not less than 15%' for NII are given.",
+      "Pre-IPO placement status in the 12 months before the RHP cannot be determined from the pages provided. A share issue with premium happened in FY2025, and a bonus issue in FY2025-26."
+    ]
+  }
+}

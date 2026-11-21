@@ -1,0 +1,361 @@
+{
+  "symbol": "AEROFLEX",
+  "rhp_file": "AEROFLEX.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T20:57:08+00:00",
+  "pages_sent": [
+    1,
+    2,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    72,
+    73,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    87,
+    88,
+    89,
+    90,
+    102,
+    103,
+    104,
+    105,
+    116,
+    117,
+    118,
+    119,
+    120,
+    275,
+    276,
+    277
+  ],
+  "n_pdf_pages": 444,
+  "usage": {
+    "input_tokens": 57773,
+    "output_tokens": 3009,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.49310919999999997,
+    "session_id": "9884129a-6392-417f-82af-21d32c19981e"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Aeroflex Industries Limited",
+    "sector": "Industrials & capital goods",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023",
+    "stub_period_months": null,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Pantomath Capital Advisors Private Limited",
+    "revenue_fy2": 144.774,
+    "rhp_page_revenue_fy2": 76,
+    "revenue_fy1": 240.8,
+    "rhp_page_revenue_fy1": 76,
+    "revenue_fy0": 269.461,
+    "rhp_page_revenue_fy0": 76,
+    "ebitda_fy2": 22.335,
+    "rhp_page_ebitda_fy2": 119,
+    "ebitda_fy1": 46.692,
+    "rhp_page_ebitda_fy1": 119,
+    "ebitda_fy0": 54.033,
+    "rhp_page_ebitda_fy0": 119,
+    "pat_fy2": 6.011,
+    "rhp_page_pat_fy2": 76,
+    "pat_fy1": 27.506,
+    "rhp_page_pat_fy1": 76,
+    "pat_fy0": 30.152,
+    "rhp_page_pat_fy0": 76,
+    "cfo_fy2": 12.088,
+    "rhp_page_cfo_fy2": 77,
+    "cfo_fy1": 32.063,
+    "rhp_page_cfo_fy1": 77,
+    "cfo_fy0": 3.788,
+    "rhp_page_cfo_fy0": 77,
+    "net_worth_fy0": 114.093,
+    "rhp_page_net_worth_fy0": 75,
+    "total_debt_fy0": 45.006,
+    "rhp_page_total_debt_fy0": 277,
+    "cash_fy0": 6.132,
+    "rhp_page_cash_fy0": 75,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": 102.0,
+    "rhp_page_price_low": 1,
+    "price_high": 108.0,
+    "rhp_page_price_high": 1,
+    "lot_size": 130.0,
+    "rhp_page_lot_size": 1,
+    "promoter_pre_pct": 91.09,
+    "rhp_page_promoter_pre_pct": 34,
+    "promoter_post_pct": null,
+    "retail_quota_pct": 35.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": 87.56,
+    "rhp_page_pre_ipo_price": 38,
+    "eps_fy0": 2.64,
+    "rhp_page_eps_fy0": 76,
+    "ronw_fy0_pct": 26.43,
+    "rhp_page_ronw_fy0_pct": 117,
+    "nav_per_share_fy0": 9.98,
+    "rhp_page_nav_per_share_fy0": 118,
+    "fresh_issue_cr": 162.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 1.75,
+    "rhp_page_ofs_shares_cr": 2,
+    "pre_issue_shares_cr": 11.432037,
+    "rhp_page_pre_issue_shares_cr": 72,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 72,
+    "ofs_promoter_shares_cr": 1.75,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 32.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "Aeroflex Industries Limited",
+    "sector": "Industrials & capital goods",
+    "exchanges": "both",
+    "price_low": {
+      "value": 102.0,
+      "unit": "rupees",
+      "page": 1
+    },
+    "price_high": {
+      "value": 108.0,
+      "unit": "rupees",
+      "page": 1
+    },
+    "lot_size": {
+      "value": 130.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "fresh_issue_amount": {
+      "value": 1620.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 17500000.0,
+      "unit": "shares",
+      "page": 2
+    },
+    "selling_shareholders": [
+      {
+        "name": "Sat Industries Limited",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 17500000.0,
+          "unit": "shares",
+          "page": 2
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 114320370.0,
+      "unit": "shares",
+      "page": 72
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 72
+    },
+    "promoter_pre_pct": {
+      "value": 91.09,
+      "unit": "percent",
+      "page": 34
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Full or part repayment and/or prepayment of certain outstanding secured borrowings",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 320.0,
+          "unit": "million",
+          "page": 103
+        }
+      },
+      {
+        "purpose": "Funding working capital requirements",
+        "category": "other",
+        "amount": {
+          "value": 840.0,
+          "unit": "million",
+          "page": 103
+        }
+      },
+      {
+        "purpose": "General corporate purposes and unidentified inorganic acquisitions",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": null,
+          "page": 103
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": 87.56,
+      "unit": "rupees",
+      "page": 38
+    },
+    "lead_managers": [
+      "Pantomath Capital Advisors Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023",
+    "revenue_fy2": {
+      "value": 1447.74,
+      "unit": "million",
+      "page": 76
+    },
+    "revenue_fy1": {
+      "value": 2408.0,
+      "unit": "million",
+      "page": 76
+    },
+    "revenue_fy0": {
+      "value": 2694.61,
+      "unit": "million",
+      "page": 76
+    },
+    "ebitda_fy2": {
+      "value": 223.35,
+      "unit": "million",
+      "page": 119
+    },
+    "ebitda_fy1": {
+      "value": 466.92,
+      "unit": "million",
+      "page": 119
+    },
+    "ebitda_fy0": {
+      "value": 540.33,
+      "unit": "million",
+      "page": 119
+    },
+    "pat_fy2": {
+      "value": 60.11,
+      "unit": "million",
+      "page": 76
+    },
+    "pat_fy1": {
+      "value": 275.06,
+      "unit": "million",
+      "page": 76
+    },
+    "pat_fy0": {
+      "value": 301.52,
+      "unit": "million",
+      "page": 76
+    },
+    "cfo_fy2": {
+      "value": 120.88,
+      "unit": "million",
+      "page": 77
+    },
+    "cfo_fy1": {
+      "value": 320.63,
+      "unit": "million",
+      "page": 77
+    },
+    "cfo_fy0": {
+      "value": 37.88,
+      "unit": "million",
+      "page": 77
+    },
+    "net_worth_fy0": {
+      "value": 1140.93,
+      "unit": "million",
+      "page": 75
+    },
+    "total_debt_fy0": {
+      "value": 450.06,
+      "unit": "million",
+      "page": 277
+    },
+    "cash_fy0": {
+      "value": 61.32,
+      "unit": "million",
+      "page": 75
+    },
+    "eps_fy0": {
+      "value": 2.64,
+      "unit": "rupees",
+      "page": 76
+    },
+    "ronw_fy0_pct": {
+      "value": 26.43,
+      "unit": "percent",
+      "page": 117
+    },
+    "nav_per_share_fy0": {
+      "value": 9.98,
+      "unit": "rupees",
+      "page": 118
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "no_listed_peers": true,
+    "peers": [],
+    "notes": [
+      "RHP states there are no listed Indian peers; it compares against global listed companies Parker Hannifin Corporation (NYSE) and Senior PLC (LSE) only. P/E and RoNW for those were not on the pages provided, so the peers list is left empty.",
+      "Fresh issue share count, OFS amount, post-issue shares and the GCP amount are printed as [\u25cf].",
+      "Total borrowings FY2023 = 196.86 non-current + 253.20 current = 450.06 (balance sheet p.75); the capitalisation statement on p.277 shows the same total.",
+      "Promoter pre-offer % 91.09 covers Sat Industries (84.57%) and promoter group member Italica Global FZC (6.52%).",
+      "No primary allotment in the last 12 months. pre_ipo_price is the secondary transfer price of \u20b987.56 from Sat Industries in May/June 2023. The disclosed range over the last year goes up to \u20b9105.00.",
+      "Working capital object is categorised as 'other'.",
+      "Summary table on p.34 shows FY2022 EPS 12.03 (pre-split); after the split EPS is 2.41.",
+      "Holding Company Eligible Shareholder reservation of up to 500,000 shares."
+    ]
+  }
+}

@@ -1,0 +1,403 @@
+{
+  "symbol": "TRANSRAILL",
+  "rhp_file": "TRANSRAILL.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-21T05:59:34+00:00",
+  "pages_sent": [
+    1,
+    2,
+    19,
+    20,
+    21,
+    22,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    87,
+    88,
+    89,
+    105,
+    106,
+    120,
+    121,
+    122,
+    337,
+    338,
+    341
+  ],
+  "n_pdf_pages": 473,
+  "usage": {
+    "input_tokens": 90035,
+    "output_tokens": 3715,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.7693832999999999,
+    "session_id": "fcb96025-cc7e-492f-9f68-32ededfb3314"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Transrail Lighting Limited",
+    "sector": "Infrastructure, construction & real estate",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024 (March 31, 2024)",
+    "stub_period_months": 3,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "Inga Ventures Private Limited; Axis Capital Limited; HDFC Bank Limited; IDBI Capital Markets & Securities Limited",
+    "revenue_fy2": 2284.142,
+    "rhp_page_revenue_fy2": 76,
+    "revenue_fy1": 3086.137,
+    "rhp_page_revenue_fy1": 76,
+    "revenue_fy0": 4009.23,
+    "rhp_page_revenue_fy0": 76,
+    "ebitda_fy2": 205.66799999999998,
+    "rhp_page_ebitda_fy2": 337,
+    "ebitda_fy1": 293.935,
+    "rhp_page_ebitda_fy1": 337,
+    "ebitda_fy0": 477.558,
+    "rhp_page_ebitda_fy0": 337,
+    "pat_fy2": 64.707,
+    "rhp_page_pat_fy2": 76,
+    "pat_fy1": 107.568,
+    "rhp_page_pat_fy1": 76,
+    "pat_fy0": 233.205,
+    "rhp_page_pat_fy0": 76,
+    "cfo_fy2": 50.162,
+    "rhp_page_cfo_fy2": 77,
+    "cfo_fy1": 142.679,
+    "rhp_page_cfo_fy1": 77,
+    "cfo_fy0": 35.485,
+    "rhp_page_cfo_fy0": 77,
+    "net_worth_fy0": 1075.868,
+    "rhp_page_net_worth_fy0": 21,
+    "total_debt_fy0": 643.187,
+    "rhp_page_total_debt_fy0": 21,
+    "cash_fy0": 109.846,
+    "rhp_page_cash_fy0": 75,
+    "revenue_stub": 896.903,
+    "rhp_page_revenue_stub": 76,
+    "pat_stub": 51.74400000000001,
+    "rhp_page_pat_stub": 76,
+    "price_low": null,
+    "rhp_page_price_low": 121,
+    "price_high": null,
+    "rhp_page_price_high": 121,
+    "lot_size": null,
+    "promoter_pre_pct": 84.52,
+    "rhp_page_promoter_pre_pct": 21,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": 484.0,
+    "rhp_page_pre_ipo_price": 20,
+    "eps_fy0": 19.59,
+    "rhp_page_eps_fy0": 76,
+    "ronw_fy0_pct": 21.68,
+    "rhp_page_ronw_fy0_pct": 121,
+    "nav_per_share_fy0": 86.79,
+    "rhp_page_nav_per_share_fy0": 121,
+    "fresh_issue_cr": 400.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 1.016,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 12.4996767,
+    "rhp_page_pre_issue_shares_cr": 72,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 72,
+    "ofs_promoter_shares_cr": 1.016,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 90.725,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "KEC; KPIL; SKIPPER; PATELENG; BAJEL",
+    "n_peers": 5,
+    "peer_pe_list": [
+      91.95,
+      36.72,
+      75.97,
+      15.57,
+      702.97
+    ],
+    "peer_ronw_list": [
+      8.5,
+      10.0,
+      9.1,
+      9.56,
+      0.8
+    ],
+    "rhp_page_peers": 122
+  },
+  "extract": {
+    "company": "Transrail Lighting Limited",
+    "sector": "Infrastructure, construction & real estate",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 121
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 121
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 4000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 10160000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Ajanma Holdings Private Limited",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 10160000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 124996767.0,
+      "unit": "shares",
+      "page": 72
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 72
+    },
+    "promoter_pre_pct": {
+      "value": 84.52,
+      "unit": "percent",
+      "page": 21
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding incremental working capital requirements of the Company",
+        "category": "other",
+        "amount": {
+          "value": 2500.0,
+          "unit": "million",
+          "page": 106
+        }
+      },
+      {
+        "purpose": "Funding capital expenditure of the Company",
+        "category": "capex",
+        "amount": {
+          "value": 907.25,
+          "unit": "million",
+          "page": 106
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 106
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 484.0,
+      "unit": "rupees",
+      "page": 20
+    },
+    "lead_managers": [
+      "Inga Ventures Private Limited",
+      "Axis Capital Limited",
+      "HDFC Bank Limited",
+      "IDBI Capital Markets & Securities Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024 (March 31, 2024)",
+    "revenue_fy2": {
+      "value": 22841.42,
+      "unit": "million",
+      "page": 76
+    },
+    "revenue_fy1": {
+      "value": 30861.37,
+      "unit": "million",
+      "page": 76
+    },
+    "revenue_fy0": {
+      "value": 40092.3,
+      "unit": "million",
+      "page": 76
+    },
+    "ebitda_fy2": {
+      "value": 2056.68,
+      "unit": "million",
+      "page": 337
+    },
+    "ebitda_fy1": {
+      "value": 2939.35,
+      "unit": "million",
+      "page": 337
+    },
+    "ebitda_fy0": {
+      "value": 4775.58,
+      "unit": "million",
+      "page": 337
+    },
+    "pat_fy2": {
+      "value": 647.07,
+      "unit": "million",
+      "page": 76
+    },
+    "pat_fy1": {
+      "value": 1075.68,
+      "unit": "million",
+      "page": 76
+    },
+    "pat_fy0": {
+      "value": 2332.05,
+      "unit": "million",
+      "page": 76
+    },
+    "cfo_fy2": {
+      "value": 501.62,
+      "unit": "million",
+      "page": 77
+    },
+    "cfo_fy1": {
+      "value": 1426.79,
+      "unit": "million",
+      "page": 77
+    },
+    "cfo_fy0": {
+      "value": 354.85,
+      "unit": "million",
+      "page": 77
+    },
+    "net_worth_fy0": {
+      "value": 10758.68,
+      "unit": "million",
+      "page": 21
+    },
+    "total_debt_fy0": {
+      "value": 6431.87,
+      "unit": "million",
+      "page": 21
+    },
+    "cash_fy0": {
+      "value": 1098.46,
+      "unit": "million",
+      "page": 75
+    },
+    "eps_fy0": {
+      "value": 19.59,
+      "unit": "rupees",
+      "page": 76
+    },
+    "ronw_fy0_pct": {
+      "value": 21.68,
+      "unit": "percent",
+      "page": 121
+    },
+    "nav_per_share_fy0": {
+      "value": 86.79,
+      "unit": "rupees",
+      "page": 121
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 8969.03,
+      "unit": "million",
+      "page": 76
+    },
+    "pat_stub": {
+      "value": 517.44,
+      "unit": "million",
+      "page": 76
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "KEC International Limited",
+        "nse_symbol": "KEC",
+        "pe": 91.95,
+        "ronw_pct": 8.5,
+        "page": 122
+      },
+      {
+        "name": "Kalpataru Projects International Limited",
+        "nse_symbol": "KPIL",
+        "pe": 36.72,
+        "ronw_pct": 10.0,
+        "page": 122
+      },
+      {
+        "name": "Skipper Limited",
+        "nse_symbol": "SKIPPER",
+        "pe": 75.97,
+        "ronw_pct": 9.1,
+        "page": 122
+      },
+      {
+        "name": "Patel Engineering Limited",
+        "nse_symbol": "PATELENG",
+        "pe": 15.57,
+        "ronw_pct": 9.56,
+        "page": 122
+      },
+      {
+        "name": "Bajel Projects Limited",
+        "nse_symbol": "BAJEL",
+        "pe": 702.97,
+        "ronw_pct": 0.8,
+        "page": 122
+      }
+    ],
+    "notes": [
+      "The price band, lot size, number of fresh issue shares and post-offer share count are all [\u25cf] in this RHP.",
+      "The fresh issue was cut from \u20b94,500 million to \u20b94,000 million after a \u20b9500 million pre-IPO placement at \u20b9484.00 per share to Volrado Venture Partners Fund IV Gamma, Shyamsundar B. Asawa, Saurabh Sanjay Agrawal and Divyam Sanjay Agrawal.",
+      "Objects amounts on page 106 cover Net Proceeds plus the pre-IPO placement combined. \u20b9329.80 million of the \u20b92,500 million working capital amount has already been used from the pre-IPO placement. The working capital object is categorised as 'other'.",
+      "Bajel Projects Limited is shown on a standalone basis with a P/E of 702.97. The RHP leaves it out of the industry P/E because the ratio is extraordinarily high. The printed value is kept here.",
+      "Promoter pre-offer holding of 84.52% (105,638,484 shares) is the figure printed in the summary on page 21.",
+      "Net worth excludes capital reserve and the ESOP outstanding reserve. Total equity at FY2024 was 11,391.23 million.",
+      "Retail quota % is not on the pages provided (the Offer Structure page was not included). An employee reservation of \u20b9190.00 million applies.",
+      "Cash flow statement on page 77 starts from profit before tax (labelled 'Profit/(loss) for the year')."
+    ]
+  }
+}

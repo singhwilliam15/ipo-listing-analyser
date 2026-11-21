@@ -1,0 +1,372 @@
+{
+  "symbol": "CAPILLARY",
+  "rhp_file": "CAPILLARY.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:04:07+00:00",
+  "pages_sent": [
+    1,
+    2,
+    26,
+    27,
+    28,
+    29,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    124,
+    125,
+    126,
+    162,
+    163,
+    184,
+    185,
+    186,
+    469,
+    470,
+    524
+  ],
+  "n_pdf_pages": 637,
+  "usage": {
+    "input_tokens": 41761,
+    "output_tokens": 3645,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.37613060000000004,
+    "session_id": "c9eafdb1-cf06-49d8-85b5-67ec1a226fc7"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Capillary Technologies India Limited",
+    "sector": "IT & software",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "stub_period_months": 6,
+    "pre_ipo_placement": null,
+    "lead_managers": "JM Financial Limited; IIFL Capital Services Limited; Nomura Financial Advisory and Securities (India) Private Limited",
+    "revenue_fy2": 255.372,
+    "rhp_page_revenue_fy2": 28,
+    "revenue_fy1": 525.1,
+    "rhp_page_revenue_fy1": 28,
+    "revenue_fy0": 598.259,
+    "rhp_page_revenue_fy0": 28,
+    "ebitda_fy2": -58.339,
+    "rhp_page_ebitda_fy2": 469,
+    "ebitda_fy1": -1.491,
+    "rhp_page_ebitda_fy1": 469,
+    "ebitda_fy0": 78.573,
+    "rhp_page_ebitda_fy0": 469,
+    "pat_fy2": -87.719,
+    "rhp_page_pat_fy2": 28,
+    "pat_fy1": -59.378,
+    "rhp_page_pat_fy1": 28,
+    "pat_fy0": 13.280000000000001,
+    "rhp_page_pat_fy0": 28,
+    "cfo_fy2": -20.058,
+    "rhp_page_cfo_fy2": 112,
+    "cfo_fy1": 97.135,
+    "rhp_page_cfo_fy1": 112,
+    "cfo_fy0": -46.199,
+    "rhp_page_cfo_fy0": 112,
+    "net_worth_fy0": 481.424,
+    "rhp_page_net_worth_fy0": 28,
+    "total_debt_fy0": 100.094,
+    "rhp_page_total_debt_fy0": 29,
+    "cash_fy0": 214.071,
+    "rhp_page_cash_fy0": 110,
+    "revenue_stub": 359.218,
+    "rhp_page_revenue_stub": 28,
+    "pat_stub": 1.033,
+    "rhp_page_pat_stub": 28,
+    "price_low": null,
+    "rhp_page_price_low": 186,
+    "price_high": null,
+    "rhp_page_price_high": 186,
+    "lot_size": null,
+    "promoter_pre_pct": 67.83,
+    "rhp_page_promoter_pre_pct": 28,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 28,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 1.93,
+    "rhp_page_eps_fy0": 29,
+    "ronw_fy0_pct": 2.85,
+    "rhp_page_ronw_fy0_pct": 186,
+    "nav_per_share_fy0": 65.03,
+    "rhp_page_nav_per_share_fy0": 186,
+    "fresh_issue_cr": 345.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.9228796,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 7.3329138,
+    "rhp_page_pre_issue_shares_cr": 107,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 107,
+    "ofs_promoter_shares_cr": 0.8540738,
+    "ofs_investor_shares_cr": 0.0688058,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 10.342,
+    "proceeds_gcp_cr": 0.0,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "Capillary Technologies India Limited",
+    "sector": "IT & software",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 186
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 186
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 3450.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 9228796.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Capillary Technologies International Pte. Ltd.",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 8540738.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Trudy Holdings",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 688058.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 73329138.0,
+      "unit": "shares",
+      "page": 107
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 107
+    },
+    "promoter_pre_pct": {
+      "value": 67.83,
+      "unit": "percent",
+      "page": 28
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 28
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding cloud infrastructure cost",
+        "category": "other",
+        "amount": {
+          "value": 1430.0,
+          "unit": "million",
+          "page": 162
+        }
+      },
+      {
+        "purpose": "Investment in research, designing and development of products and platform",
+        "category": "other",
+        "amount": {
+          "value": 715.81,
+          "unit": "million",
+          "page": 162
+        }
+      },
+      {
+        "purpose": "Investment in purchase of computer systems for business",
+        "category": "capex",
+        "amount": {
+          "value": 103.42,
+          "unit": "million",
+          "page": 162
+        }
+      },
+      {
+        "purpose": "Funding inorganic growth through unidentified acquisitions and general corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 162
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "JM Financial Limited",
+      "IIFL Capital Services Limited",
+      "Nomura Financial Advisory and Securities (India) Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "revenue_fy2": {
+      "value": 2553.72,
+      "unit": "million",
+      "page": 28
+    },
+    "revenue_fy1": {
+      "value": 5251.0,
+      "unit": "million",
+      "page": 28
+    },
+    "revenue_fy0": {
+      "value": 5982.59,
+      "unit": "million",
+      "page": 28
+    },
+    "ebitda_fy2": {
+      "value": -583.39,
+      "unit": "million",
+      "page": 469
+    },
+    "ebitda_fy1": {
+      "value": -14.91,
+      "unit": "million",
+      "page": 469
+    },
+    "ebitda_fy0": {
+      "value": 785.73,
+      "unit": "million",
+      "page": 469
+    },
+    "pat_fy2": {
+      "value": -877.19,
+      "unit": "million",
+      "page": 28
+    },
+    "pat_fy1": {
+      "value": -593.78,
+      "unit": "million",
+      "page": 28
+    },
+    "pat_fy0": {
+      "value": 132.8,
+      "unit": "million",
+      "page": 28
+    },
+    "cfo_fy2": {
+      "value": -200.58,
+      "unit": "million",
+      "page": 112
+    },
+    "cfo_fy1": {
+      "value": 971.35,
+      "unit": "million",
+      "page": 112
+    },
+    "cfo_fy0": {
+      "value": -461.99,
+      "unit": "million",
+      "page": 112
+    },
+    "net_worth_fy0": {
+      "value": 4814.24,
+      "unit": "million",
+      "page": 28
+    },
+    "total_debt_fy0": {
+      "value": 1000.94,
+      "unit": "million",
+      "page": 29
+    },
+    "cash_fy0": {
+      "value": 2140.71,
+      "unit": "million",
+      "page": 110
+    },
+    "eps_fy0": {
+      "value": 1.93,
+      "unit": "rupees",
+      "page": 29
+    },
+    "ronw_fy0_pct": {
+      "value": 2.85,
+      "unit": "percent",
+      "page": 186
+    },
+    "nav_per_share_fy0": {
+      "value": 65.03,
+      "unit": "rupees",
+      "page": 186
+    },
+    "stub_period_months": 6,
+    "revenue_stub": {
+      "value": 3592.18,
+      "unit": "million",
+      "page": 28
+    },
+    "pat_stub": {
+      "value": 10.33,
+      "unit": "million",
+      "page": 28
+    },
+    "no_listed_peers": false,
+    "peers": [],
+    "notes": [
+      "The 'Comparison with listed industry peers' table is not in the pages provided. Page 186 gives only the industry P/E summary: highest 40.07, lowest 28.60, average 34.33. Braze Inc. and HubSpot, Inc. are mentioned as peers, so peers is left empty.",
+      "Price band, lot size, fresh issue share count, OFS amount, post-offer shares and post-offer promoter holding are all printed as [\u25cf] or not given.",
+      "promoter_pre_pct of 67.83% covers the two Promoters only (CTIPL 65.47% and Aneesh Reddy Boddu 2.36%). The Promoter Group holds a further 0.12% (page 28). No combined figure is printed.",
+      "Net worth for FY2025 is the RHP-defined 'Net Worth' of 4,814.24 million. Total equity on the balance sheet is 5,682.47 million (page 110), and no non-controlling interest is shown.",
+      "EPS of 1.93 is basic EPS from continuing operations. Basic EPS from continuing and discontinued operations combined is 1.81 (page 111).",
+      "PAT is restated profit for the year including discontinued operations. Profit from continuing operations for FY2025 is 141.54 million.",
+      "Cloud infrastructure cost and R&D investment are classed as 'other' because they are operating spend, not plant or machinery capex.",
+      "The retail quota % is not printed on the pages provided. The pages also do not show whether there was a pre-IPO placement in the last 12 months: the capital history shown ends in October 2021.",
+      "The issue is made under Regulation 6(2) of the SEBI ICDR Regulations."
+    ]
+  }
+}

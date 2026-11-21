@@ -1,0 +1,398 @@
+{
+  "symbol": "LASERPOWER",
+  "rhp_file": "LASERPOWER.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:28:20+00:00",
+  "pages_sent": [
+    1,
+    2,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    106,
+    107,
+    108,
+    140,
+    141,
+    150,
+    151,
+    152,
+    385,
+    386,
+    433
+  ],
+  "n_pdf_pages": 535,
+  "usage": {
+    "input_tokens": 36009,
+    "output_tokens": 3543,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3275018,
+    "session_id": "1b731e71-8c67-4178-bc7d-d1837df48ce8"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Laser Power & Infra Limited",
+    "sector": "Industrials & capital goods",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "stub_period_months": null,
+    "pre_ipo_placement": null,
+    "lead_managers": "IIFL Capital Services Limited; ICICI Securities Limited",
+    "revenue_fy2": 1747.578,
+    "rhp_page_revenue_fy2": 152,
+    "revenue_fy1": 2570.397,
+    "rhp_page_revenue_fy1": 152,
+    "revenue_fy0": 2326.104,
+    "rhp_page_revenue_fy0": 152,
+    "ebitda_fy2": 156.104,
+    "rhp_page_ebitda_fy2": 152,
+    "ebitda_fy1": 250.387,
+    "rhp_page_ebitda_fy1": 152,
+    "ebitda_fy0": 301.442,
+    "rhp_page_ebitda_fy0": 152,
+    "pat_fy2": 40.409,
+    "rhp_page_pat_fy2": 152,
+    "pat_fy1": 106.754,
+    "rhp_page_pat_fy1": 152,
+    "pat_fy0": 151.591,
+    "rhp_page_pat_fy0": 152,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 725.413,
+    "rhp_page_net_worth_fy0": 80,
+    "total_debt_fy0": 828.234,
+    "rhp_page_total_debt_fy0": 433,
+    "cash_fy0": 26.875,
+    "rhp_page_cash_fy0": 80,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": 35.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": null,
+    "eps_fy0": 13.18,
+    "rhp_page_eps_fy0": 150,
+    "ronw_fy0_pct": 20.9,
+    "rhp_page_ronw_fy0_pct": 151,
+    "nav_per_share_fy0": 63.06,
+    "rhp_page_nav_per_share_fy0": 151,
+    "fresh_issue_cr": 542.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": 200.0,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 11.504124,
+    "rhp_page_pre_issue_shares_cr": 77,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 77,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 490.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "APARINDS; POLYCAB; KEI; DYCL; UNIVCABLES",
+    "n_peers": 5,
+    "peer_pe_list": [
+      67.05,
+      56.98,
+      58.64,
+      21.05,
+      27.09
+    ],
+    "peer_ronw_list": [
+      18.11,
+      22.25,
+      13.78,
+      18.47,
+      8.63
+    ],
+    "rhp_page_peers": 151
+  },
+  "extract": {
+    "company": "Laser Power & Infra Limited",
+    "sector": "Industrials & capital goods",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 5420.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": 2000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Deepak Goel",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": null,
+          "page": 1
+        }
+      },
+      {
+        "name": "Rakhi Goel",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": null,
+          "page": 1
+        }
+      },
+      {
+        "name": "Devesh Goel",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": null,
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 115041240.0,
+      "unit": "shares",
+      "page": 77
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 77
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Pre-payment or re-payment, in full or in part, of all or a portion of certain outstanding borrowings availed by the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 4900.0,
+          "unit": "million",
+          "page": 140
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": null,
+          "page": 140
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lead_managers": [
+      "IIFL Capital Services Limited",
+      "ICICI Securities Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "revenue_fy2": {
+      "value": 17475.78,
+      "unit": "million",
+      "page": 152
+    },
+    "revenue_fy1": {
+      "value": 25703.97,
+      "unit": "million",
+      "page": 152
+    },
+    "revenue_fy0": {
+      "value": 23261.04,
+      "unit": "million",
+      "page": 152
+    },
+    "ebitda_fy2": {
+      "value": 1561.04,
+      "unit": "million",
+      "page": 152
+    },
+    "ebitda_fy1": {
+      "value": 2503.87,
+      "unit": "million",
+      "page": 152
+    },
+    "ebitda_fy0": {
+      "value": 3014.42,
+      "unit": "million",
+      "page": 152
+    },
+    "pat_fy2": {
+      "value": 404.09,
+      "unit": "million",
+      "page": 152
+    },
+    "pat_fy1": {
+      "value": 1067.54,
+      "unit": "million",
+      "page": 152
+    },
+    "pat_fy0": {
+      "value": 1515.91,
+      "unit": "million",
+      "page": 152
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 7254.13,
+      "unit": "million",
+      "page": 80
+    },
+    "total_debt_fy0": {
+      "value": 8282.34,
+      "unit": "million",
+      "page": 433
+    },
+    "cash_fy0": {
+      "value": 268.75,
+      "unit": "million",
+      "page": 80
+    },
+    "eps_fy0": {
+      "value": 13.18,
+      "unit": "rupees",
+      "page": 150
+    },
+    "ronw_fy0_pct": {
+      "value": 20.9,
+      "unit": "percent",
+      "page": 151
+    },
+    "nav_per_share_fy0": {
+      "value": 63.06,
+      "unit": "rupees",
+      "page": 151
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Apar Industries Limited",
+        "nse_symbol": "APARINDS",
+        "pe": 67.05,
+        "ronw_pct": 18.11,
+        "page": 151
+      },
+      {
+        "name": "Polycab India Limited",
+        "nse_symbol": "POLYCAB",
+        "pe": 56.98,
+        "ronw_pct": 22.25,
+        "page": 151
+      },
+      {
+        "name": "KEI Industries Limited",
+        "nse_symbol": "KEI",
+        "pe": 58.64,
+        "ronw_pct": 13.78,
+        "page": 151
+      },
+      {
+        "name": "Dynamic Cables Limited",
+        "nse_symbol": "DYCL",
+        "pe": 21.05,
+        "ronw_pct": 18.47,
+        "page": 151
+      },
+      {
+        "name": "Universal Cables Limited",
+        "nse_symbol": "UNIVCABLES",
+        "pe": 27.09,
+        "ronw_pct": 8.63,
+        "page": 151
+      }
+    ],
+    "notes": [
+      "Price band, lot size and share counts for the fresh issue and OFS are printed as [\u25cf]. OFS amounts in \u20b9 million: Deepak Goel 1,125.00, Rakhi Goel 250.00, Devesh Goel 625.00 (page 1).",
+      "Cash flow statement pages were not provided, so CFO is null.",
+      "The pages given do not show the promoter shareholding percentage.",
+      "Pre-IPO placement is unknown. An 8:1 bonus issue (Aug 2025) and a split from \u20b9100 to \u20b95 face value took place within 12 months, but neither is a priced placement. The company also has 876,252 preference shares of \u20b910 each outstanding.",
+      "Total equity of 7,254.13 is all attributable to owners in FY2026 (non-controlling interest is nil). PAT FY2024/FY2025 include NCI share (owners' share 399.25/1,035.63).",
+      "Total borrowings of 8,282.34 = non-current 1,123.66 + current 7,158.68 per balance sheet; the capitalisation statement splits it as 6,816.95 current + 1,465.39 non-current including current maturities.",
+      "The GCP amount is [\u25cf] and is capped at 25% of gross proceeds.",
+      "Peer NSE symbols were inferred, not printed in the RHP."
+    ]
+  }
+}

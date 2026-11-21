@@ -1,0 +1,385 @@
+{
+  "symbol": "VALIANTLAB",
+  "rhp_file": "VALIANTLAB.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T20:59:38+00:00",
+  "pages_sent": [
+    1,
+    2,
+    53,
+    80,
+    81,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    102,
+    103,
+    104,
+    105,
+    122,
+    123,
+    124,
+    125,
+    136,
+    137,
+    138,
+    139,
+    140,
+    307,
+    308,
+    309
+  ],
+  "n_pdf_pages": 440,
+  "usage": {
+    "input_tokens": 40565,
+    "output_tokens": 3659,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3667232999999999,
+    "session_id": "197c18a8-07f1-4873-9527-8087bb2f0f46"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Valiant Laboratories Limited",
+    "sector": "Healthcare & pharma",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "FY2023",
+    "stub_period_months": null,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Unistone Capital Private Limited",
+    "revenue_fy2": 182.369,
+    "rhp_page_revenue_fy2": 88,
+    "revenue_fy1": 291.523,
+    "rhp_page_revenue_fy1": 88,
+    "revenue_fy0": 333.91,
+    "rhp_page_revenue_fy0": 88,
+    "ebitda_fy2": 50.002,
+    "rhp_page_ebitda_fy2": 140,
+    "ebitda_fy1": 42.318,
+    "rhp_page_ebitda_fy1": 140,
+    "ebitda_fy0": 35.091,
+    "rhp_page_ebitda_fy0": 140,
+    "pat_fy2": 30.593,
+    "rhp_page_pat_fy2": 88,
+    "pat_fy1": 27.496,
+    "rhp_page_pat_fy1": 88,
+    "pat_fy0": 28.998,
+    "rhp_page_pat_fy0": 88,
+    "cfo_fy2": 9.109,
+    "rhp_page_cfo_fy2": 89,
+    "cfo_fy1": 2.251,
+    "rhp_page_cfo_fy1": 89,
+    "cfo_fy0": 22.956,
+    "rhp_page_cfo_fy0": 89,
+    "net_worth_fy0": 100.49,
+    "rhp_page_net_worth_fy0": 87,
+    "total_debt_fy0": 59.4,
+    "rhp_page_total_debt_fy0": 87,
+    "cash_fy0": 0.376,
+    "rhp_page_cash_fy0": 87,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 133,
+    "price_high": null,
+    "rhp_page_price_high": 133,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": 35.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": null,
+    "eps_fy0": 8.91,
+    "rhp_page_eps_fy0": 88,
+    "ronw_fy0_pct": 28.86,
+    "rhp_page_ronw_fy0_pct": 137,
+    "nav_per_share_fy0": 30.86,
+    "rhp_page_nav_per_share_fy0": 138,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": 1.089,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 3.256,
+    "rhp_page_pre_issue_shares_cr": 102,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 102,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 80.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "GRANULES; JAGSNPHARM; ALKYLAMINE; LXCHEM",
+    "n_peers": 4,
+    "peer_pe_list": [
+      15.06,
+      41.54,
+      55.59,
+      66.07
+    ],
+    "peer_ronw_list": [
+      18.22,
+      16.82,
+      19.56,
+      8.83
+    ],
+    "rhp_page_peers": 138
+  },
+  "extract": {
+    "company": "Valiant Laboratories Limited",
+    "sector": "Healthcare & pharma",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 133
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 133
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": 10890000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 32560000.0,
+      "unit": "shares",
+      "page": 102
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 102
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Investment in wholly-owned subsidiary VASPL for part-financing capital expenditure for setting up speciality chemicals manufacturing facility at Saykha, Bharuch, Gujarat",
+        "category": "capex",
+        "amount": {
+          "value": 800.0,
+          "unit": "million",
+          "page": 122
+        }
+      },
+      {
+        "purpose": "Investment in VASPL for funding its working capital requirements",
+        "category": "other",
+        "amount": {
+          "value": 450.0,
+          "unit": "million",
+          "page": 123
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 123
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Unistone Capital Private Limited"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "FY2023",
+    "revenue_fy2": {
+      "value": 1823.69,
+      "unit": "million",
+      "page": 88
+    },
+    "revenue_fy1": {
+      "value": 2915.23,
+      "unit": "million",
+      "page": 88
+    },
+    "revenue_fy0": {
+      "value": 3339.1,
+      "unit": "million",
+      "page": 88
+    },
+    "ebitda_fy2": {
+      "value": 500.02,
+      "unit": "million",
+      "page": 140
+    },
+    "ebitda_fy1": {
+      "value": 423.18,
+      "unit": "million",
+      "page": 140
+    },
+    "ebitda_fy0": {
+      "value": 350.91,
+      "unit": "million",
+      "page": 140
+    },
+    "pat_fy2": {
+      "value": 305.93,
+      "unit": "million",
+      "page": 88
+    },
+    "pat_fy1": {
+      "value": 274.96,
+      "unit": "million",
+      "page": 88
+    },
+    "pat_fy0": {
+      "value": 289.98,
+      "unit": "million",
+      "page": 88
+    },
+    "cfo_fy2": {
+      "value": 91.09,
+      "unit": "million",
+      "page": 89
+    },
+    "cfo_fy1": {
+      "value": 22.51,
+      "unit": "million",
+      "page": 89
+    },
+    "cfo_fy0": {
+      "value": 229.56,
+      "unit": "million",
+      "page": 89
+    },
+    "net_worth_fy0": {
+      "value": 1004.9,
+      "unit": "million",
+      "page": 87
+    },
+    "total_debt_fy0": {
+      "value": 594.0,
+      "unit": "million",
+      "page": 87
+    },
+    "cash_fy0": {
+      "value": 3.76,
+      "unit": "million",
+      "page": 87
+    },
+    "eps_fy0": {
+      "value": 8.91,
+      "unit": "rupees",
+      "page": 88
+    },
+    "ronw_fy0_pct": {
+      "value": 28.86,
+      "unit": "percent",
+      "page": 137
+    },
+    "nav_per_share_fy0": {
+      "value": 30.86,
+      "unit": "rupees",
+      "page": 138
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Granules India Ltd",
+        "nse_symbol": "GRANULES",
+        "pe": 15.06,
+        "ronw_pct": 18.22,
+        "page": 138
+      },
+      {
+        "name": "Jagsonpal Pharmaceuticals Limited",
+        "nse_symbol": "JAGSNPHARM",
+        "pe": 41.54,
+        "ronw_pct": 16.82,
+        "page": 138
+      },
+      {
+        "name": "Alkyl Amines Chemicals Ltd",
+        "nse_symbol": "ALKYLAMINE",
+        "pe": 55.59,
+        "ronw_pct": 19.56,
+        "page": 138
+      },
+      {
+        "name": "Laxmi Organic Industries Limited",
+        "nse_symbol": "LXCHEM",
+        "pe": 66.07,
+        "ronw_pct": 8.83,
+        "page": 138
+      }
+    ],
+    "notes": [
+      "I used the restated standalone financials because they are the only restated statements covering all three years (FY2021 to FY2023). The consolidated statements (pages 90-91) cover only FY2023, since the subsidiary VASPL was incorporated on July 8, 2022. Consolidated FY2023 figures: revenue and PAT match standalone, total equity 1,004.91, cash 12.62 million.",
+      "FY2022 and FY2021 restated figures include the partnership-firm period up to August 15, 2021. FY2022 revenue and PAT are the combined full-year columns.",
+      "Basic EPS for FY2023 is 8.91 in the restated P&L and Basis for Issue Price, but 8.86 in Other Financial Information (page 307).",
+      "RoNW for FY2023 is 28.86% on pages 137 and 307, but 28.90% in the peer comparison table and 33.73% as ROE in the KPI table.",
+      "EBITDA is reported as 'Operating EBITDA' in the KPIs.",
+      "The issue is entirely a fresh issue with no offer for sale. The price band, lot size and issue amount are not yet printed ([\u25cf]).",
+      "Promoter pre-/post-issue shareholding % is not on the pages provided.",
+      "The last cash allotment was a rights issue on February 6, 2022 at \u20b989.30, more than 12 months before the RHP. The February 23, 2023 allotment was a 1:1 bonus issue, not a placement.",
+      "Working capital investment in VASPL is categorised as 'other'. General corporate purposes amount is [\u25cf].",
+      "The industry P/E 'Lowest' is printed as 14.89, but the lowest peer P/E in the table is 15.06.",
+      "NSE symbols are not printed in the RHP. They were inferred."
+    ]
+  }
+}

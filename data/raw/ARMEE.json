@@ -1,0 +1,386 @@
+{
+  "symbol": "ARMEE",
+  "rhp_file": "ARMEE.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:20:13+00:00",
+  "pages_sent": [
+    1,
+    2,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    85,
+    86,
+    87,
+    100,
+    101,
+    118,
+    119,
+    120,
+    353,
+    354
+  ],
+  "n_pdf_pages": 464,
+  "usage": {
+    "input_tokens": 33031,
+    "output_tokens": 3248,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.2974788,
+    "session_id": "6f6cf4d9-8fd4-4773-83d0-95ed2d64bda4"
+  },
+  "checks": [
+    "retail quota 52.5 is not 10 or 35"
+  ],
+  "fields": {
+    "company_rhp": "ArMee Infotech Limited",
+    "sector": "IT & software",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "stub_period_months": null,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Khandwala Securities Limited; Saffron Capital Advisors Private Limited",
+    "revenue_fy2": 1020.5747,
+    "rhp_page_revenue_fy2": 70,
+    "revenue_fy1": 1313.3137,
+    "rhp_page_revenue_fy1": 70,
+    "revenue_fy0": 1396.6260999999997,
+    "rhp_page_revenue_fy0": 70,
+    "ebitda_fy2": 71.5758,
+    "rhp_page_ebitda_fy2": 353,
+    "ebitda_fy1": 58.6426,
+    "rhp_page_ebitda_fy1": 353,
+    "ebitda_fy0": 75.6377,
+    "rhp_page_ebitda_fy0": 353,
+    "pat_fy2": 50.1304,
+    "rhp_page_pat_fy2": 70,
+    "pat_fy1": 41.6664,
+    "rhp_page_pat_fy1": 70,
+    "pat_fy0": 45.466499999999996,
+    "rhp_page_pat_fy0": 70,
+    "cfo_fy2": 55.186,
+    "rhp_page_cfo_fy2": 71,
+    "cfo_fy1": -17.9814,
+    "rhp_page_cfo_fy1": 71,
+    "cfo_fy0": 12.4758,
+    "rhp_page_cfo_fy0": 71,
+    "net_worth_fy0": 182.182,
+    "rhp_page_net_worth_fy0": 69,
+    "total_debt_fy0": 174.3607,
+    "rhp_page_total_debt_fy0": 354,
+    "cash_fy0": 21.3081,
+    "rhp_page_cash_fy0": 69,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 118,
+    "price_high": null,
+    "rhp_page_price_high": 118,
+    "lot_size": null,
+    "rhp_page_lot_size": 2,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": 52.5,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": null,
+    "eps_fy0": 19.16,
+    "rhp_page_eps_fy0": 70,
+    "ronw_fy0_pct": 24.96,
+    "rhp_page_ronw_fy0_pct": 119,
+    "nav_per_share_fy0": 76.77,
+    "rhp_page_nav_per_share_fy0": 119,
+    "fresh_issue_cr": 300.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 2.3731386,
+    "rhp_page_pre_issue_shares_cr": 66,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 66,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 6.5,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "Dynacons Systems & Solutions Limited; Orient Technologies Limited; KPI Green Energy Limited; Oriana Power Limited (SME Board)",
+    "n_peers": 4,
+    "peer_pe_list": [
+      16.41,
+      243.15,
+      12.77,
+      9.62
+    ],
+    "peer_ronw_list": [
+      26.9,
+      1.36,
+      16.14,
+      32.72
+    ],
+    "rhp_page_peers": 120
+  },
+  "extract": {
+    "company": "ArMee Infotech Limited",
+    "sector": "IT & software",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 118
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 118
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": 2
+    },
+    "fresh_issue_amount": {
+      "value": 30000.0,
+      "unit": "lakh",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "lakh",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 23731386.0,
+      "unit": "shares",
+      "page": 66
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 66
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funds for the purpose of securing PBGs for expansion of business",
+        "category": "other",
+        "amount": {
+          "value": 15500.0,
+          "unit": "lakh",
+          "page": 100
+        }
+      },
+      {
+        "purpose": "Funding working capital requirements",
+        "category": "other",
+        "amount": {
+          "value": 6000.0,
+          "unit": "lakh",
+          "page": 100
+        }
+      },
+      {
+        "purpose": "Prepayment or repayment of certain outstanding borrowings",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 650.0,
+          "unit": "lakh",
+          "page": 100
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "lakh",
+          "page": 100
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 52.5,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Khandwala Securities Limited",
+      "Saffron Capital Advisors Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "revenue_fy2": {
+      "value": 102057.47,
+      "unit": "lakh",
+      "page": 70
+    },
+    "revenue_fy1": {
+      "value": 131331.37,
+      "unit": "lakh",
+      "page": 70
+    },
+    "revenue_fy0": {
+      "value": 139662.61,
+      "unit": "lakh",
+      "page": 70
+    },
+    "ebitda_fy2": {
+      "value": 7157.58,
+      "unit": "lakh",
+      "page": 353
+    },
+    "ebitda_fy1": {
+      "value": 5864.26,
+      "unit": "lakh",
+      "page": 353
+    },
+    "ebitda_fy0": {
+      "value": 7563.77,
+      "unit": "lakh",
+      "page": 353
+    },
+    "pat_fy2": {
+      "value": 5013.04,
+      "unit": "lakh",
+      "page": 70
+    },
+    "pat_fy1": {
+      "value": 4166.64,
+      "unit": "lakh",
+      "page": 70
+    },
+    "pat_fy0": {
+      "value": 4546.65,
+      "unit": "lakh",
+      "page": 70
+    },
+    "cfo_fy2": {
+      "value": 5518.6,
+      "unit": "lakh",
+      "page": 71
+    },
+    "cfo_fy1": {
+      "value": -1798.14,
+      "unit": "lakh",
+      "page": 71
+    },
+    "cfo_fy0": {
+      "value": 1247.58,
+      "unit": "lakh",
+      "page": 71
+    },
+    "net_worth_fy0": {
+      "value": 18218.2,
+      "unit": "lakh",
+      "page": 69
+    },
+    "total_debt_fy0": {
+      "value": 17436.07,
+      "unit": "lakh",
+      "page": 354
+    },
+    "cash_fy0": {
+      "value": 2130.81,
+      "unit": "lakh",
+      "page": 69
+    },
+    "eps_fy0": {
+      "value": 19.16,
+      "unit": "rupees",
+      "page": 70
+    },
+    "ronw_fy0_pct": {
+      "value": 24.96,
+      "unit": "percent",
+      "page": 119
+    },
+    "nav_per_share_fy0": {
+      "value": 76.77,
+      "unit": "rupees",
+      "page": 119
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "lakh",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "lakh",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Dynacons Systems & Solutions Limited",
+        "nse_symbol": null,
+        "pe": 16.41,
+        "ronw_pct": 26.9,
+        "page": 120
+      },
+      {
+        "name": "Orient Technologies Limited",
+        "nse_symbol": null,
+        "pe": 243.15,
+        "ronw_pct": 1.36,
+        "page": 120
+      },
+      {
+        "name": "KPI Green Energy Limited",
+        "nse_symbol": null,
+        "pe": 12.77,
+        "ronw_pct": 16.14,
+        "page": 120
+      },
+      {
+        "name": "Oriana Power Limited (SME Board)",
+        "nse_symbol": null,
+        "pe": 9.62,
+        "ronw_pct": 32.72,
+        "page": 120
+      }
+    ],
+    "notes": [
+      "Price band, lot size, fresh issue share count and post-issue shares are [\u25cf] in the RHP pages provided.",
+      "Issue is entirely a fresh issue (up to \u20b930,000 lakhs); there is no offer for sale.",
+      "Promoter shareholding percentages are not on the pages provided.",
+      "Total debt of 17,436.07 lakh comes from the capitalisation statement. The balance sheet shows non-current borrowings of 9,669.69 and current borrowings of 7,766.38, which add up to the same total.",
+      "PBG funding (15,500 lakh) and working capital (6,000 lakh) are categorised as 'other'. The amount for general corporate purposes is [\u25cf].",
+      "Peer table issues: the industry P/E summary gives a lowest of 9.16 and an average of 70.63, but the peer table shows a lowest of 9.62 (Oriana) and averages to about 70.49. Orient Technologies' P/E (243.15) is the same as its printed closing price (243.15), which is doubtful given its printed EPS of 1.00.",
+      "No equity allotments in the 12 months before the RHP. The last allotment was a bonus issue on Feb 12, 2024.",
+      "Business spans IT infrastructure/managed services and renewable EPC; sector chosen as IT & software."
+    ]
+  }
+}

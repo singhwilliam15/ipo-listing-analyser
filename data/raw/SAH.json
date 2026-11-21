@@ -1,0 +1,400 @@
+{
+  "symbol": "SAH",
+  "rhp_file": "SAH.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T20:54:54+00:00",
+  "pages_sent": [
+    1,
+    2,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    82,
+    83,
+    84,
+    85,
+    94,
+    95,
+    96,
+    97,
+    113,
+    114,
+    115,
+    116,
+    117,
+    186,
+    187,
+    213,
+    214,
+    215
+  ],
+  "n_pdf_pages": 377,
+  "usage": {
+    "input_tokens": 45524,
+    "output_tokens": 3934,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.41239110000000007,
+    "session_id": "11a570df-25f8-4ef3-8708-8b3182180950"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Sah Polymers Limited",
+    "sector": "Chemicals & materials",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2022 (March 31, 2022)",
+    "stub_period_months": 3,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Pantomath Capital Advisors Private Limited",
+    "revenue_fy2": 49.1007,
+    "rhp_page_revenue_fy2": 72,
+    "revenue_fy1": 55.0699,
+    "rhp_page_revenue_fy1": 72,
+    "revenue_fy0": 80.5114,
+    "rhp_page_revenue_fy0": 72,
+    "ebitda_fy2": 2.6131,
+    "rhp_page_ebitda_fy2": 116,
+    "ebitda_fy1": 3.2970999999999995,
+    "rhp_page_ebitda_fy1": 116,
+    "ebitda_fy0": 7.734,
+    "rhp_page_ebitda_fy0": 116,
+    "pat_fy2": 0.2968,
+    "rhp_page_pat_fy2": 72,
+    "pat_fy1": 1.2723,
+    "rhp_page_pat_fy1": 72,
+    "pat_fy0": 4.3754,
+    "rhp_page_pat_fy0": 72,
+    "cfo_fy2": 2.591,
+    "rhp_page_cfo_fy2": 73,
+    "cfo_fy1": 1.3891999999999998,
+    "rhp_page_cfo_fy1": 73,
+    "cfo_fy0": -0.7922,
+    "rhp_page_cfo_fy0": 73,
+    "net_worth_fy0": 26.6481,
+    "rhp_page_net_worth_fy0": 213,
+    "total_debt_fy0": null,
+    "rhp_page_total_debt_fy0": 71,
+    "cash_fy0": 1.8978,
+    "rhp_page_cash_fy0": 71,
+    "revenue_stub": 27.2231,
+    "rhp_page_revenue_stub": 72,
+    "pat_stub": 1.2513,
+    "rhp_page_pat_stub": 72,
+    "price_low": null,
+    "rhp_page_price_low": 114,
+    "price_high": null,
+    "rhp_page_price_high": 114,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": 10.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": null,
+    "eps_fy0": 2.81,
+    "rhp_page_eps_fy0": 72,
+    "ronw_fy0_pct": 16.42,
+    "rhp_page_ronw_fy0_pct": 114,
+    "nav_per_share_fy0": 17.09,
+    "rhp_page_nav_per_share_fy0": 114,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "fresh_issue_shares_cr": 1.02,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "pre_issue_shares_cr": 1.5596,
+    "rhp_page_pre_issue_shares_cr": 68,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 68,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 19.6615,
+    "proceeds_capex_cr": 8.1718,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "Rishi Techtex Limited; Jumbo Bag Limited; SMVD Poly Pack Limited; EMMBI Industries Limited; Commercial Syn Bags Limited",
+    "n_peers": 5,
+    "peer_pe_list": [
+      15.67,
+      17.37,
+      7.17,
+      8.6,
+      21.2
+    ],
+    "peer_ronw_list": [
+      4.46,
+      3.35,
+      6.01,
+      12.41,
+      17.32
+    ],
+    "rhp_page_peers": 115
+  },
+  "extract": {
+    "company": "Sah Polymers Limited",
+    "sector": "Chemicals & materials",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 114
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 114
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "lakh",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": 10200000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 15596000.0,
+      "unit": "shares",
+      "page": 68
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 68
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Setting up of a new manufacturing facility to manufacture new variant of FIBC",
+        "category": "capex",
+        "amount": {
+          "value": 817.18,
+          "unit": "lakh",
+          "page": 94
+        }
+      },
+      {
+        "purpose": "Repayment of certain secured and unsecured borrowings in full",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 1966.15,
+          "unit": "lakh",
+          "page": 94
+        }
+      },
+      {
+        "purpose": "Funding the working capital requirements",
+        "category": "other",
+        "amount": {
+          "value": 1495.81,
+          "unit": "lakh",
+          "page": 94
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "lakh",
+          "page": 94
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 10.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Pantomath Capital Advisors Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2022 (March 31, 2022)",
+    "revenue_fy2": {
+      "value": 4910.07,
+      "unit": "lakh",
+      "page": 72
+    },
+    "revenue_fy1": {
+      "value": 5506.99,
+      "unit": "lakh",
+      "page": 72
+    },
+    "revenue_fy0": {
+      "value": 8051.14,
+      "unit": "lakh",
+      "page": 72
+    },
+    "ebitda_fy2": {
+      "value": 261.31,
+      "unit": "lakh",
+      "page": 116
+    },
+    "ebitda_fy1": {
+      "value": 329.71,
+      "unit": "lakh",
+      "page": 116
+    },
+    "ebitda_fy0": {
+      "value": 773.4,
+      "unit": "lakh",
+      "page": 116
+    },
+    "pat_fy2": {
+      "value": 29.68,
+      "unit": "lakh",
+      "page": 72
+    },
+    "pat_fy1": {
+      "value": 127.23,
+      "unit": "lakh",
+      "page": 72
+    },
+    "pat_fy0": {
+      "value": 437.54,
+      "unit": "lakh",
+      "page": 72
+    },
+    "cfo_fy2": {
+      "value": 259.1,
+      "unit": "lakh",
+      "page": 73
+    },
+    "cfo_fy1": {
+      "value": 138.92,
+      "unit": "lakh",
+      "page": 73
+    },
+    "cfo_fy0": {
+      "value": -79.22,
+      "unit": "lakh",
+      "page": 73
+    },
+    "net_worth_fy0": {
+      "value": 2664.81,
+      "unit": "lakh",
+      "page": 213
+    },
+    "total_debt_fy0": {
+      "value": null,
+      "unit": "lakh",
+      "page": 71
+    },
+    "cash_fy0": {
+      "value": 189.78,
+      "unit": "lakh",
+      "page": 71
+    },
+    "eps_fy0": {
+      "value": 2.81,
+      "unit": "rupees",
+      "page": 72
+    },
+    "ronw_fy0_pct": {
+      "value": 16.42,
+      "unit": "percent",
+      "page": 114
+    },
+    "nav_per_share_fy0": {
+      "value": 17.09,
+      "unit": "rupees",
+      "page": 114
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 2722.31,
+      "unit": "lakh",
+      "page": 72
+    },
+    "pat_stub": {
+      "value": 125.13,
+      "unit": "lakh",
+      "page": 72
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Rishi Techtex Limited",
+        "nse_symbol": null,
+        "pe": 15.67,
+        "ronw_pct": 4.46,
+        "page": 115
+      },
+      {
+        "name": "Jumbo Bag Limited",
+        "nse_symbol": null,
+        "pe": 17.37,
+        "ronw_pct": 3.35,
+        "page": 115
+      },
+      {
+        "name": "SMVD Poly Pack Limited",
+        "nse_symbol": null,
+        "pe": 7.17,
+        "ronw_pct": 6.01,
+        "page": 115
+      },
+      {
+        "name": "EMMBI Industries Limited",
+        "nse_symbol": null,
+        "pe": 8.6,
+        "ronw_pct": 12.41,
+        "page": 115
+      },
+      {
+        "name": "Commercial Syn Bags Limited",
+        "nse_symbol": null,
+        "pe": 21.2,
+        "ronw_pct": 17.32,
+        "page": 115
+      }
+    ],
+    "notes": [
+      "The financials use mixed bases: FY2022 and the 3-month stub to June 30, 2022 are restated consolidated, while FY2021 and FY2020 are restated standalone, because the subsidiary Fibcorp Polyweave was acquired on January 05, 2022.",
+      "Net worth for FY2022 is the 'Total Equity' figure of 2,664.81 lakh. It includes the non-controlling interest of 260.16 lakh. Equity attributable to owners is not printed as a single total: share capital is 1,559.60 and other equity attributable to owners is 845.05. NAV of 17.09 and RoNW of 16.42% are also based on total equity.",
+      "Total debt for FY2022 is not printed as one total, so it is left blank. The components are non-current borrowings of 145.23 lakh and current borrowings of 2,908.62 lakh (page 71). The capitalisation table gives total borrowings of 3,314.94 lakh only as at June 30, 2022. That table shows current borrowings of 3,164.06, while the balance sheet shows 3,146.06.",
+      "FY2020 PAT is 29.68 lakh in the profit and loss statement but 29.67 in the KPI table. FY2020 RoNW is 1.58% on page 114 but 1.41% on page 213.",
+      "The price band, lot size, issue amount, post-issue shares and general corporate purposes amount are all [\u25cf] in the RHP.",
+      "Promoter shareholding percentages are not on the pages provided. The promoter is SAT Industries Limited.",
+      "The issue is entirely a fresh issue; there is no offer for sale. The quotas are at least 75% for QIBs, up to 15% for non-institutional investors and up to 10% for retail.",
+      "Funding working capital (1,495.81 lakh) is classed as 'other'.",
+      "Peer P/E and RoNW figures are as printed in the peer comparison table on page 115."
+    ]
+  }
+}

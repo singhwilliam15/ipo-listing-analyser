@@ -1,0 +1,420 @@
+{
+  "symbol": "LALITHAA",
+  "rhp_file": "LALITHAA.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:25:08+00:00",
+  "pages_sent": [
+    1,
+    2,
+    74,
+    75,
+    77,
+    78,
+    79,
+    80,
+    101,
+    102,
+    103,
+    126,
+    127,
+    140,
+    141,
+    142,
+    380,
+    381,
+    383
+  ],
+  "n_pdf_pages": 519,
+  "usage": {
+    "input_tokens": 30630,
+    "output_tokens": 3262,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.2783123,
+    "session_id": "32268725-2bb0-43dd-bf2c-60abadf0e0ce"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Lalithaa Jewellery Mart Limited",
+    "sector": "Consumer & retail",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "stub_period_months": null,
+    "pre_ipo_placement": null,
+    "lead_managers": "Anand Rathi Advisors Limited; Equirus Capital Limited",
+    "revenue_fy2": 16788.052,
+    "rhp_page_revenue_fy2": 79,
+    "revenue_fy1": 16897.317,
+    "rhp_page_revenue_fy1": 79,
+    "revenue_fy0": 25023.927,
+    "rhp_page_revenue_fy0": 79,
+    "ebitda_fy2": 680.167,
+    "rhp_page_ebitda_fy2": 380,
+    "ebitda_fy1": 740.359,
+    "rhp_page_ebitda_fy1": 380,
+    "ebitda_fy0": 1673.504,
+    "rhp_page_ebitda_fy0": 380,
+    "pat_fy2": 359.833,
+    "rhp_page_pat_fy2": 79,
+    "pat_fy1": 364.726,
+    "rhp_page_pat_fy1": 79,
+    "pat_fy0": 1009.817,
+    "rhp_page_pat_fy0": 79,
+    "cfo_fy2": -18.002,
+    "rhp_page_cfo_fy2": 80,
+    "cfo_fy1": 288.731,
+    "rhp_page_cfo_fy1": 80,
+    "cfo_fy0": -397.762,
+    "rhp_page_cfo_fy0": 80,
+    "net_worth_fy0": 2929.725,
+    "rhp_page_net_worth_fy0": 78,
+    "total_debt_fy0": 1604.136,
+    "rhp_page_total_debt_fy0": 383,
+    "cash_fy0": 16.109,
+    "rhp_page_cash_fy0": 78,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 140,
+    "price_high": null,
+    "rhp_page_price_high": 140,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 20.2,
+    "rhp_page_eps_fy0": 79,
+    "ronw_fy0_pct": 39.9,
+    "rhp_page_ronw_fy0_pct": 141,
+    "nav_per_share_fy0": 58.6,
+    "rhp_page_nav_per_share_fy0": 141,
+    "fresh_issue_cr": 1200.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": 500.0,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 49.9977156,
+    "rhp_page_pre_issue_shares_cr": 74,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 74,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 34.55,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "KALYANKJIL; MVGJL; PCJEWELLER; PNGJL; SENCO; THANGAMAYL; TITAN; TBZ",
+    "n_peers": 8,
+    "peer_pe_list": [
+      46.85,
+      7.12,
+      9.26,
+      22.18,
+      11.5,
+      46.26,
+      85.25,
+      9.14
+    ],
+    "peer_ronw_list": [
+      24.63,
+      14.82,
+      10.32,
+      23.21,
+      26.07,
+      27.93,
+      36.48,
+      27.06
+    ],
+    "rhp_page_peers": 142
+  },
+  "extract": {
+    "company": "Lalithaa Jewellery Mart Limited",
+    "sector": "Consumer & retail",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": 140
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": 140
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 12000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": 5000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "M. Kiran Kumar Jain",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": null,
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 499977156.0,
+      "unit": "shares",
+      "page": 74
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 74
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Capital expenditure for fit-outs (furniture and fixtures, equipment, IT hardware and software) for 10 New Stores",
+        "category": "capex",
+        "amount": {
+          "value": 345.5,
+          "unit": "million",
+          "page": 127
+        }
+      },
+      {
+        "purpose": "Expenditure towards inventory costs for setting up of New Stores",
+        "category": "other",
+        "amount": {
+          "value": 9986.81,
+          "unit": "million",
+          "page": 127
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": null,
+          "page": 127
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lead_managers": [
+      "Anand Rathi Advisors Limited",
+      "Equirus Capital Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "revenue_fy2": {
+      "value": 167880.52,
+      "unit": "million",
+      "page": 79
+    },
+    "revenue_fy1": {
+      "value": 168973.17,
+      "unit": "million",
+      "page": 79
+    },
+    "revenue_fy0": {
+      "value": 250239.27,
+      "unit": "million",
+      "page": 79
+    },
+    "ebitda_fy2": {
+      "value": 6801.67,
+      "unit": "million",
+      "page": 380
+    },
+    "ebitda_fy1": {
+      "value": 7403.59,
+      "unit": "million",
+      "page": 380
+    },
+    "ebitda_fy0": {
+      "value": 16735.04,
+      "unit": "million",
+      "page": 380
+    },
+    "pat_fy2": {
+      "value": 3598.33,
+      "unit": "million",
+      "page": 79
+    },
+    "pat_fy1": {
+      "value": 3647.26,
+      "unit": "million",
+      "page": 79
+    },
+    "pat_fy0": {
+      "value": 10098.17,
+      "unit": "million",
+      "page": 79
+    },
+    "cfo_fy2": {
+      "value": -180.02,
+      "unit": "million",
+      "page": 80
+    },
+    "cfo_fy1": {
+      "value": 2887.31,
+      "unit": "million",
+      "page": 80
+    },
+    "cfo_fy0": {
+      "value": -3977.62,
+      "unit": "million",
+      "page": 80
+    },
+    "net_worth_fy0": {
+      "value": 29297.25,
+      "unit": "million",
+      "page": 78
+    },
+    "total_debt_fy0": {
+      "value": 16041.36,
+      "unit": "million",
+      "page": 383
+    },
+    "cash_fy0": {
+      "value": 161.09,
+      "unit": "million",
+      "page": 78
+    },
+    "eps_fy0": {
+      "value": 20.2,
+      "unit": "rupees",
+      "page": 79
+    },
+    "ronw_fy0_pct": {
+      "value": 39.9,
+      "unit": "percent",
+      "page": 141
+    },
+    "nav_per_share_fy0": {
+      "value": 58.6,
+      "unit": "rupees",
+      "page": 141
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Kalyan Jewellers India Limited",
+        "nse_symbol": "KALYANKJIL",
+        "pe": 46.85,
+        "ronw_pct": 24.63,
+        "page": 142
+      },
+      {
+        "name": "Manoj Vaibhav Gems N Jewellers Limited",
+        "nse_symbol": "MVGJL",
+        "pe": 7.12,
+        "ronw_pct": 14.82,
+        "page": 142
+      },
+      {
+        "name": "PC Jeweller Limited",
+        "nse_symbol": "PCJEWELLER",
+        "pe": 9.26,
+        "ronw_pct": 10.32,
+        "page": 142
+      },
+      {
+        "name": "P N Gadgil Jewellers Limited",
+        "nse_symbol": "PNGJL",
+        "pe": 22.18,
+        "ronw_pct": 23.21,
+        "page": 142
+      },
+      {
+        "name": "Senco Gold Limited",
+        "nse_symbol": "SENCO",
+        "pe": 11.5,
+        "ronw_pct": 26.07,
+        "page": 142
+      },
+      {
+        "name": "Thangamayil Jewellery Limited",
+        "nse_symbol": "THANGAMAYL",
+        "pe": 46.26,
+        "ronw_pct": 27.93,
+        "page": 142
+      },
+      {
+        "name": "Titan Company Limited",
+        "nse_symbol": "TITAN",
+        "pe": 85.25,
+        "ronw_pct": 36.48,
+        "page": 142
+      },
+      {
+        "name": "Tribhovandas Bhimji Zaveri Limited",
+        "nse_symbol": "TBZ",
+        "pe": 9.14,
+        "ronw_pct": 27.06,
+        "page": 142
+      }
+    ],
+    "notes": [
+      "Price band, lot size, share counts for fresh issue/OFS and post-offer shares are [\u25cf] in the RHP.",
+      "Promoter pre/post-offer shareholding, retail quota % and pre-IPO placement details are not on the pages provided.",
+      "EBITDA is 'Operating EBITDA' (PBT + finance cost + D&A - other income) from Other Financial Information, p.380/381.",
+      "Total debt 16,041.36 million = current 15,772.72 + non-current 268.64 on the balance sheet; the capitalisation statement splits it as 15,725.83 + 315.53 because current maturities of long-term borrowings are counted as non-current.",
+      "Inventory cost for new stores (9,986.81 million) is categorised as 'other' (working capital/inventory), not capex.",
+      "The offer includes an Employee Reservation Portion of up to \u20b960 million.",
+      "NSE symbols for peers were not printed in the RHP; I filled them in from general knowledge and they should be checked.",
+      "The cash flow statement shows the FY2026 increase in other current liabilities as '19, 256.27' (printing artefact)."
+    ]
+  }
+}

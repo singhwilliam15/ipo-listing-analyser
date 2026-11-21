@@ -1,0 +1,506 @@
+{
+  "symbol": "ETHOSLTD",
+  "rhp_file": "ETHOSLTD.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T17:48:58+00:00",
+  "pages_sent": [
+    1,
+    2,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    81,
+    82,
+    100,
+    101,
+    102,
+    103,
+    129,
+    130,
+    131,
+    132,
+    144,
+    145,
+    146,
+    147,
+    148,
+    302,
+    303,
+    304,
+    305,
+    306,
+    383,
+    384,
+    385,
+    386,
+    400,
+    401,
+    417,
+    418
+  ],
+  "n_pdf_pages": 565,
+  "usage": {
+    "input_tokens": 62829,
+    "output_tokens": 4111,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.5565433999999999,
+    "session_id": "406238c9-6e1f-4cfd-8ec4-ae1dd18db046"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Ethos Limited",
+    "sector": "Consumer & retail",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2021 (March 31, 2021)",
+    "stub_period_months": 9,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "Emkay Global Financial Services Limited; InCred Capital Wealth Portfolio Managers Private Limited",
+    "revenue_fy2": 443.529,
+    "rhp_page_revenue_fy2": 303,
+    "revenue_fy1": 457.8491,
+    "rhp_page_revenue_fy1": 303,
+    "revenue_fy0": 386.5707,
+    "rhp_page_revenue_fy0": 303,
+    "ebitda_fy2": 58.2595,
+    "rhp_page_ebitda_fy2": 383,
+    "ebitda_fy1": 54.4036,
+    "rhp_page_ebitda_fy1": 383,
+    "ebitda_fy0": 56.4385,
+    "rhp_page_ebitda_fy0": 383,
+    "pat_fy2": 9.8888,
+    "rhp_page_pat_fy2": 303,
+    "pat_fy1": -1.334,
+    "rhp_page_pat_fy1": 303,
+    "pat_fy0": 5.7853,
+    "rhp_page_pat_fy0": 303,
+    "cfo_fy2": -1.1564,
+    "rhp_page_cfo_fy2": 304,
+    "cfo_fy1": 36.9832,
+    "rhp_page_cfo_fy1": 304,
+    "cfo_fy0": 63.4682,
+    "rhp_page_cfo_fy0": 304,
+    "net_worth_fy0": 155.6136,
+    "rhp_page_net_worth_fy0": 302,
+    "total_debt_fy0": 51.9883,
+    "rhp_page_total_debt_fy0": 25,
+    "cash_fy0": 18.3083,
+    "rhp_page_cash_fy0": 302,
+    "revenue_stub": 418.5931,
+    "rhp_page_revenue_stub": 303,
+    "pat_stub": 15.9878,
+    "rhp_page_pat_stub": 303,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": 81.02,
+    "rhp_page_promoter_pre_pct": 25,
+    "promoter_post_pct": null,
+    "retail_quota_pct": 35.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": null,
+    "eps_fy0": 3.18,
+    "rhp_page_eps_fy0": 303,
+    "ronw_fy0_pct": 3.72,
+    "rhp_page_ronw_fy0_pct": 145,
+    "nav_per_share_fy0": 85.43,
+    "rhp_page_nav_per_share_fy0": 145,
+    "fresh_issue_cr": 375.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "fresh_issue_shares_cr": null,
+    "ofs_shares_cr": 0.1108037,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 1.9078163,
+    "rhp_page_pre_issue_shares_cr": 81,
+    "post_issue_shares_cr": null,
+    "ofs_promoter_shares_cr": 0.10605,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 29.8909,
+    "proceeds_capex_cr": 35.2529,
+    "proceeds_gcp_cr": 0.0,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "Ethos Limited",
+    "sector": "Consumer & retail",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 37500.0,
+      "unit": "lakh",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "ofs_shares": {
+      "value": 1108037.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Yashovardhan Saboo",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 275000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "KDDL Limited",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 500000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Mahen Distribution Limited",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 50000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Saboo Ventures LLP",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 150000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Anuradha Saboo",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 60000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Jai Vardhan Saboo",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 15000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "VBL Innovations Private Limited",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 10500.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Anil Khanna",
+        "kind": "other",
+        "shares_offered": {
+          "value": 6250.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Nagarajan Subramanian",
+        "kind": "other",
+        "shares_offered": {
+          "value": 19231.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "C. Raja Sekhar",
+        "kind": "other",
+        "shares_offered": {
+          "value": 10556.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Karan Singh Bhandari",
+        "kind": "other",
+        "shares_offered": {
+          "value": 3000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Harsh Vardhan Bhuwalka",
+        "kind": "other",
+        "shares_offered": {
+          "value": 2125.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Anand Vardhan Bhuwalka",
+        "kind": "other",
+        "shares_offered": {
+          "value": 2125.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Shalini Bhuwalka",
+        "kind": "other",
+        "shares_offered": {
+          "value": 2125.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Manju Bhuwalka",
+        "kind": "other",
+        "shares_offered": {
+          "value": 2125.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 19078163.0,
+      "unit": "shares",
+      "page": 81
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "promoter_pre_pct": {
+      "value": 81.02,
+      "unit": "percent",
+      "page": 25
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment or pre-payment, in full or in part, of all or certain borrowings",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 2989.09,
+          "unit": "lakh",
+          "page": 130
+        }
+      },
+      {
+        "purpose": "Funding working capital requirements",
+        "category": "other",
+        "amount": {
+          "value": 23496.22,
+          "unit": "lakh",
+          "page": 130
+        }
+      },
+      {
+        "purpose": "Financing the establishment of new stores and renovation of certain existing stores",
+        "category": "capex",
+        "amount": {
+          "value": 3327.28,
+          "unit": "lakh",
+          "page": 130
+        }
+      },
+      {
+        "purpose": "Financing the upgradation of ERP",
+        "category": "capex",
+        "amount": {
+          "value": 198.01,
+          "unit": "lakh",
+          "page": 130
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": null,
+          "page": 130
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lead_managers": [
+      "Emkay Global Financial Services Limited",
+      "InCred Capital Wealth Portfolio Managers Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2021 (March 31, 2021)",
+    "revenue_fy2": {
+      "value": 44352.9,
+      "unit": "lakh",
+      "page": 303
+    },
+    "revenue_fy1": {
+      "value": 45784.91,
+      "unit": "lakh",
+      "page": 303
+    },
+    "revenue_fy0": {
+      "value": 38657.07,
+      "unit": "lakh",
+      "page": 303
+    },
+    "ebitda_fy2": {
+      "value": 5825.95,
+      "unit": "lakh",
+      "page": 383
+    },
+    "ebitda_fy1": {
+      "value": 5440.36,
+      "unit": "lakh",
+      "page": 383
+    },
+    "ebitda_fy0": {
+      "value": 5643.85,
+      "unit": "lakh",
+      "page": 383
+    },
+    "pat_fy2": {
+      "value": 988.88,
+      "unit": "lakh",
+      "page": 303
+    },
+    "pat_fy1": {
+      "value": -133.4,
+      "unit": "lakh",
+      "page": 303
+    },
+    "pat_fy0": {
+      "value": 578.53,
+      "unit": "lakh",
+      "page": 303
+    },
+    "cfo_fy2": {
+      "value": -115.64,
+      "unit": "lakh",
+      "page": 304
+    },
+    "cfo_fy1": {
+      "value": 3698.32,
+      "unit": "lakh",
+      "page": 304
+    },
+    "cfo_fy0": {
+      "value": 6346.82,
+      "unit": "lakh",
+      "page": 304
+    },
+    "net_worth_fy0": {
+      "value": 15561.36,
+      "unit": "lakh",
+      "page": 302
+    },
+    "total_debt_fy0": {
+      "value": 5198.83,
+      "unit": "lakh",
+      "page": 25
+    },
+    "cash_fy0": {
+      "value": 1830.83,
+      "unit": "lakh",
+      "page": 302
+    },
+    "eps_fy0": {
+      "value": 3.18,
+      "unit": "rupees",
+      "page": 303
+    },
+    "ronw_fy0_pct": {
+      "value": 3.72,
+      "unit": "percent",
+      "page": 145
+    },
+    "nav_per_share_fy0": {
+      "value": 85.43,
+      "unit": "rupees",
+      "page": 145
+    },
+    "stub_period_months": 9,
+    "revenue_stub": {
+      "value": 41859.31,
+      "unit": "lakh",
+      "page": 303
+    },
+    "pat_stub": {
+      "value": 1598.78,
+      "unit": "lakh",
+      "page": 303
+    },
+    "no_listed_peers": true,
+    "peers": [],
+    "notes": [
+      "fy0 is FY2021 (year ended March 31, 2021); the nine months ended December 31, 2021 are treated as the stub period.",
+      "Net worth fy0: 'Equity attributable to owners' is 15,561.36 lakhs (p.302). The RHP's net worth, which excludes the capital reserve of 1.67, is 15,559.69 lakhs (p.25/384).",
+      "Total debt fy0 of 5,198.83 lakhs is from the summary on p.25. It matches the balance sheet: non-current 1,708.22 + current 3,490.61.",
+      "Pre-IPO placement: 3,02,663 shares aggregating \u20b92,500 lakhs, allotted March 28, 2022. The price per share is not printed on these pages, so it is left null.",
+      "Price band, lot size, number of fresh issue shares and post-issue shares are [\u25cf] in the RHP.",
+      "General corporate purposes amount is [\u25cf]. Working capital (23,496.22 lakhs) is categorised as 'other'. The object amounts are to be funded from the Net Proceeds and the Pre-IPO Placement together.",
+      "Retail quota is 'not less than 35%'.",
+      "Nagarajan Subramanian and Anil Khanna are Directors and the remaining individual sellers are public shareholders; all of them are classified as 'other'.",
+      "The RHP states that there are no listed peers in India."
+    ]
+  }
+}

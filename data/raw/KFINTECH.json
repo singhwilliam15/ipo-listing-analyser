@@ -1,0 +1,351 @@
+{
+  "symbol": "KFINTECH",
+  "rhp_file": "KFINTECH.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T20:54:15+00:00",
+  "pages_sent": [
+    1,
+    2,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    95,
+    96,
+    97,
+    98,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    382,
+    383,
+    384,
+    420
+  ],
+  "n_pdf_pages": 572,
+  "usage": {
+    "input_tokens": 58913,
+    "output_tokens": 3059,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.5033431,
+    "session_id": "fe10a605-4cb0-482e-9a95-5709d5a04342"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "KFin Technologies Limited",
+    "sector": "Financial services",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2022 (March 31, 2022)",
+    "stub_period_months": 6,
+    "pre_ipo_placement": "no",
+    "lead_managers": "ICICI Securities Limited; Kotak Mahindra Capital Company Limited; J.P. Morgan India Private Limited; IIFL Securities Limited; Jefferies India Private Limited",
+    "revenue_fy2": 449.871,
+    "rhp_page_revenue_fy2": 83,
+    "revenue_fy1": 481.144,
+    "rhp_page_revenue_fy1": 83,
+    "revenue_fy0": 639.507,
+    "rhp_page_revenue_fy0": 83,
+    "ebitda_fy2": 164.021,
+    "rhp_page_ebitda_fy2": 382,
+    "ebitda_fy1": 217.451,
+    "rhp_page_ebitda_fy1": 382,
+    "ebitda_fy0": 293.908,
+    "rhp_page_ebitda_fy0": 382,
+    "pat_fy2": 4.523,
+    "rhp_page_pat_fy2": 83,
+    "pat_fy1": -64.507,
+    "rhp_page_pat_fy1": 83,
+    "pat_fy0": 148.549,
+    "rhp_page_pat_fy0": 83,
+    "cfo_fy2": 101.436,
+    "rhp_page_cfo_fy2": 84,
+    "cfo_fy1": 204.634,
+    "rhp_page_cfo_fy1": 84,
+    "cfo_fy0": 252.637,
+    "rhp_page_cfo_fy0": 84,
+    "net_worth_fy0": 644.343,
+    "rhp_page_net_worth_fy0": 82,
+    "total_debt_fy0": 122.514,
+    "rhp_page_total_debt_fy0": 25,
+    "cash_fy0": 45.033,
+    "rhp_page_cash_fy0": 82,
+    "revenue_stub": 348.768,
+    "rhp_page_revenue_stub": 83,
+    "pat_stub": 85.345,
+    "rhp_page_pat_stub": 83,
+    "price_low": null,
+    "rhp_page_price_low": 129,
+    "price_high": null,
+    "rhp_page_price_high": 129,
+    "lot_size": null,
+    "rhp_page_lot_size": 2,
+    "promoter_pre_pct": 74.37,
+    "rhp_page_promoter_pre_pct": 24,
+    "promoter_post_pct": null,
+    "retail_quota_pct": 10.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": null,
+    "eps_fy0": 9.44,
+    "rhp_page_eps_fy0": 83,
+    "ronw_fy0_pct": 29.99,
+    "rhp_page_ronw_fy0_pct": 129,
+    "nav_per_share_fy0": 38.45,
+    "rhp_page_nav_per_share_fy0": 129,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": 1500.0,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 16.7568883,
+    "rhp_page_pre_issue_shares_cr": 79,
+    "post_issue_shares_cr": 16.7568883,
+    "rhp_page_post_issue_shares_cr": 79,
+    "ofs_promoter_shares_cr": 0,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": null,
+    "proceeds_capex_cr": null,
+    "proceeds_gcp_cr": null,
+    "peers": "CAMS",
+    "n_peers": 1,
+    "peer_pe_list": [
+      39.37
+    ],
+    "peer_ronw_list": [
+      49.32
+    ],
+    "rhp_page_peers": 132
+  },
+  "extract": {
+    "company": "KFin Technologies Limited",
+    "sector": "Financial services",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 129
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 129
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": 2
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": 15000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "General Atlantic Singapore Fund Pte. Ltd.",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 167568883.0,
+      "unit": "shares",
+      "page": 79
+    },
+    "post_issue_shares": {
+      "value": 167568883.0,
+      "unit": "shares",
+      "page": 79
+    },
+    "promoter_pre_pct": {
+      "value": 74.37,
+      "unit": "percent",
+      "page": 24
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [],
+    "retail_quota_pct": {
+      "value": 10.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "ICICI Securities Limited",
+      "Kotak Mahindra Capital Company Limited",
+      "J.P. Morgan India Private Limited",
+      "IIFL Securities Limited",
+      "Jefferies India Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2022 (March 31, 2022)",
+    "revenue_fy2": {
+      "value": 4498.71,
+      "unit": "million",
+      "page": 83
+    },
+    "revenue_fy1": {
+      "value": 4811.44,
+      "unit": "million",
+      "page": 83
+    },
+    "revenue_fy0": {
+      "value": 6395.07,
+      "unit": "million",
+      "page": 83
+    },
+    "ebitda_fy2": {
+      "value": 1640.21,
+      "unit": "million",
+      "page": 382
+    },
+    "ebitda_fy1": {
+      "value": 2174.51,
+      "unit": "million",
+      "page": 382
+    },
+    "ebitda_fy0": {
+      "value": 2939.08,
+      "unit": "million",
+      "page": 382
+    },
+    "pat_fy2": {
+      "value": 45.23,
+      "unit": "million",
+      "page": 83
+    },
+    "pat_fy1": {
+      "value": -645.07,
+      "unit": "million",
+      "page": 83
+    },
+    "pat_fy0": {
+      "value": 1485.49,
+      "unit": "million",
+      "page": 83
+    },
+    "cfo_fy2": {
+      "value": 1014.36,
+      "unit": "million",
+      "page": 84
+    },
+    "cfo_fy1": {
+      "value": 2046.34,
+      "unit": "million",
+      "page": 84
+    },
+    "cfo_fy0": {
+      "value": 2526.37,
+      "unit": "million",
+      "page": 84
+    },
+    "net_worth_fy0": {
+      "value": 6443.43,
+      "unit": "million",
+      "page": 82
+    },
+    "total_debt_fy0": {
+      "value": 1225.14,
+      "unit": "million",
+      "page": 25
+    },
+    "cash_fy0": {
+      "value": 450.33,
+      "unit": "million",
+      "page": 82
+    },
+    "eps_fy0": {
+      "value": 9.44,
+      "unit": "rupees",
+      "page": 83
+    },
+    "ronw_fy0_pct": {
+      "value": 29.99,
+      "unit": "percent",
+      "page": 129
+    },
+    "nav_per_share_fy0": {
+      "value": 38.45,
+      "unit": "rupees",
+      "page": 129
+    },
+    "stub_period_months": 6,
+    "revenue_stub": {
+      "value": 3487.68,
+      "unit": "million",
+      "page": 83
+    },
+    "pat_stub": {
+      "value": 853.45,
+      "unit": "million",
+      "page": 83
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Computer Age Management Services Limited",
+        "nse_symbol": "CAMS",
+        "pe": 39.37,
+        "ronw_pct": 49.32,
+        "page": 132
+      }
+    ],
+    "notes": [
+      "Pure offer for sale (up to \u20b915,000 million by promoter General Atlantic Singapore Fund Pte. Ltd.); no fresh issue, so company receives no proceeds and objects_of_offer is empty.",
+      "Price band, lot size and OFS share count shown as [\u25cf] in RHP.",
+      "Post-issue shares equal pre-issue shares (167,568,883) as stated on page 79 since no fresh issue.",
+      "Promoter post-offer holding not disclosed (depends on number of shares sold).",
+      "Total debt FY2022 = non-current borrowings 1,225.14 (current borrowings nil); figure from summary 'Total Borrowings (net-off transaction costs)' on page 25; includes redeemable preference share premium liability.",
+      "EBITDA is as reported on page 382 (PAT + tax + finance costs + D&A); RHP also reports Adjusted EBITDA (FY22 2,878.51) and Operating EBITDA (FY22 2,733.34) on page 384.",
+      "Pre-IPO placement: last preferential allotment to Kotak Mahindra Bank at \u20b9185.35 on November 10, 2021, about 13 months before RHP date; only ESOP allotments (\u20b970.36/\u20b991.98) on Jan 18, 2022 within 12 months. Company states no pre-IPO placement contemplated.",
+      "FY2021 loss driven by deferred tax charge of 1,296.44 million."
+    ]
+  }
+}

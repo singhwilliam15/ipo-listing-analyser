@@ -1,0 +1,460 @@
+{
+  "symbol": "AVALON",
+  "rhp_file": "AVALON.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T20:55:38+00:00",
+  "pages_sent": [
+    1,
+    2,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    105,
+    106,
+    107,
+    108,
+    124,
+    125,
+    126,
+    127,
+    141,
+    142,
+    143,
+    144,
+    145,
+    441,
+    442,
+    443,
+    444
+  ],
+  "n_pdf_pages": 588,
+  "usage": {
+    "input_tokens": 52638,
+    "output_tokens": 4055,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.47243399999999997,
+    "session_id": "2066e6cd-efb3-44e1-aeda-39e2485efb3a"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Avalon Technologies Limited",
+    "sector": "Electronics & EMS",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2022 (March 31, 2022)",
+    "stub_period_months": 8,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "JM Financial Limited; DAM Capital Advisors Limited; IIFL Securities Limited; Nomura Financial Advisory and Securities (India) Private Limited",
+    "revenue_fy2": 641.867,
+    "rhp_page_revenue_fy2": 88,
+    "revenue_fy1": 690.471,
+    "rhp_page_revenue_fy1": 88,
+    "revenue_fy0": 840.718,
+    "rhp_page_revenue_fy0": 88,
+    "ebitda_fy2": 64.479,
+    "rhp_page_ebitda_fy2": 144,
+    "ebitda_fy1": 66.144,
+    "rhp_page_ebitda_fy1": 144,
+    "ebitda_fy0": 97.549,
+    "rhp_page_ebitda_fy0": 144,
+    "pat_fy2": 12.326,
+    "rhp_page_pat_fy2": 88,
+    "pat_fy1": 23.082,
+    "rhp_page_pat_fy1": 88,
+    "pat_fy0": 68.164,
+    "rhp_page_pat_fy0": 88,
+    "cfo_fy2": 65.725,
+    "rhp_page_cfo_fy2": 89,
+    "cfo_fy1": 5.516,
+    "rhp_page_cfo_fy1": 89,
+    "cfo_fy0": 13.859,
+    "rhp_page_cfo_fy0": 89,
+    "net_worth_fy0": 87.191,
+    "rhp_page_net_worth_fy0": 87,
+    "total_debt_fy0": 294.053,
+    "rhp_page_total_debt_fy0": 26,
+    "cash_fy0": 7.759,
+    "rhp_page_cash_fy0": 87,
+    "revenue_stub": 584.786,
+    "rhp_page_revenue_stub": 88,
+    "pat_stub": 34.186,
+    "rhp_page_pat_stub": 88,
+    "price_low": null,
+    "rhp_page_price_low": 141,
+    "price_high": null,
+    "rhp_page_price_high": 141,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "rhp_page_promoter_pre_pct": 25,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": 426.06,
+    "rhp_page_pre_ipo_price": 108,
+    "eps_fy0": 11.3,
+    "rhp_page_eps_fy0": 88,
+    "ronw_fy0_pct": 85.86,
+    "rhp_page_ronw_fy0_pct": 142,
+    "nav_per_share_fy0": 15.6,
+    "rhp_page_nav_per_share_fy0": 142,
+    "fresh_issue_cr": 320.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": 545.0,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 5.7953128,
+    "rhp_page_pre_issue_shares_cr": 84,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 84,
+    "ofs_promoter_shares_cr": 0,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 145.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "DIXON; AMBER; SYRMA; KAYNES",
+    "n_peers": 4,
+    "peer_pe_list": [
+      89.61,
+      59.5,
+      49.91,
+      106.55
+    ],
+    "peer_ronw_list": [
+      21.93,
+      6.54,
+      13.04,
+      24.29
+    ],
+    "rhp_page_peers": 142
+  },
+  "extract": {
+    "company": "Avalon Technologies Limited",
+    "sector": "Electronics & EMS",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 141
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 141
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 3200.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": 5450.0,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Kunhamed Bicha",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Bhaskar Srinivasan",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "T P Imbichammad",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Mariyam Bicha",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Anand Kumar",
+        "kind": "other",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Sareday Seshu Kumar",
+        "kind": "other",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Luquman Veedu Ediyanam",
+        "kind": "other",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 57953128.0,
+      "unit": "shares",
+      "page": 84
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 84
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 25
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Prepayment or repayment of all or a portion of certain outstanding borrowings availed by the Company and Material Subsidiary ATSPL",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 1450.0,
+          "unit": "million",
+          "page": 125
+        }
+      },
+      {
+        "purpose": "Funding the working capital requirements of the Company",
+        "category": "other",
+        "amount": {
+          "value": 900.0,
+          "unit": "million",
+          "page": 125
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 125
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 426.06,
+      "unit": "rupees",
+      "page": 108
+    },
+    "lead_managers": [
+      "JM Financial Limited",
+      "DAM Capital Advisors Limited",
+      "IIFL Securities Limited",
+      "Nomura Financial Advisory and Securities (India) Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2022 (March 31, 2022)",
+    "revenue_fy2": {
+      "value": 6418.67,
+      "unit": "million",
+      "page": 88
+    },
+    "revenue_fy1": {
+      "value": 6904.71,
+      "unit": "million",
+      "page": 88
+    },
+    "revenue_fy0": {
+      "value": 8407.18,
+      "unit": "million",
+      "page": 88
+    },
+    "ebitda_fy2": {
+      "value": 644.79,
+      "unit": "million",
+      "page": 144
+    },
+    "ebitda_fy1": {
+      "value": 661.44,
+      "unit": "million",
+      "page": 144
+    },
+    "ebitda_fy0": {
+      "value": 975.49,
+      "unit": "million",
+      "page": 144
+    },
+    "pat_fy2": {
+      "value": 123.26,
+      "unit": "million",
+      "page": 88
+    },
+    "pat_fy1": {
+      "value": 230.82,
+      "unit": "million",
+      "page": 88
+    },
+    "pat_fy0": {
+      "value": 681.64,
+      "unit": "million",
+      "page": 88
+    },
+    "cfo_fy2": {
+      "value": 657.25,
+      "unit": "million",
+      "page": 89
+    },
+    "cfo_fy1": {
+      "value": 55.16,
+      "unit": "million",
+      "page": 89
+    },
+    "cfo_fy0": {
+      "value": 138.59,
+      "unit": "million",
+      "page": 89
+    },
+    "net_worth_fy0": {
+      "value": 871.91,
+      "unit": "million",
+      "page": 87
+    },
+    "total_debt_fy0": {
+      "value": 2940.53,
+      "unit": "million",
+      "page": 26
+    },
+    "cash_fy0": {
+      "value": 77.59,
+      "unit": "million",
+      "page": 87
+    },
+    "eps_fy0": {
+      "value": 11.3,
+      "unit": "rupees",
+      "page": 88
+    },
+    "ronw_fy0_pct": {
+      "value": 85.86,
+      "unit": "percent",
+      "page": 142
+    },
+    "nav_per_share_fy0": {
+      "value": 15.6,
+      "unit": "rupees",
+      "page": 142
+    },
+    "stub_period_months": 8,
+    "revenue_stub": {
+      "value": 5847.86,
+      "unit": "million",
+      "page": 88
+    },
+    "pat_stub": {
+      "value": 341.86,
+      "unit": "million",
+      "page": 88
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Dixon Technologies (India) Limited",
+        "nse_symbol": "DIXON",
+        "pe": 89.61,
+        "ronw_pct": 21.93,
+        "page": 142
+      },
+      {
+        "name": "Amber Enterprises India Limited",
+        "nse_symbol": "AMBER",
+        "pe": 59.5,
+        "ronw_pct": 6.54,
+        "page": 142
+      },
+      {
+        "name": "Syrma SGS Technology Limited",
+        "nse_symbol": "SYRMA",
+        "pe": 49.91,
+        "ronw_pct": 13.04,
+        "page": 143
+      },
+      {
+        "name": "Kaynes Technology India Limited",
+        "nse_symbol": "KAYNES",
+        "pe": 106.55,
+        "ronw_pct": 24.29,
+        "page": 143
+      }
+    ],
+    "notes": [
+      "Price band, lot size, share counts for the fresh issue and the OFS, and post-offer shares are all printed as [\u25cf]. Selling shareholders' offers are given only as amounts: Kunhamed Bicha \u20b91,310m, Bhaskar Srinivasan \u20b91,720m, T P Imbichammad \u20b9160m, Mariyam Bicha \u20b9100m, Anand Kumar \u20b9755m, Sareday Seshu Kumar \u20b9650m, Luquman Veedu Ediyanam \u20b9755m.",
+      "No combined promoter plus promoter group pre-offer % is printed. Page 25 shows Promoters at 53.38% and page 26 shows the Promoter Group at 17.37%, so promoter_pre_pct is left null.",
+      "The fresh issue was cut from \u20b94,000m to \u20b93,200m after two pre-IPO placements of about \u20b9300m and \u20b9500m. The two placements were: UNIFI Financial at \u20b9375.78 on Oct 20, 2022, and Ashoka India Equity Investment Trust at \u20b9426.06 on Feb 20, 2023.",
+      "The retail quota % is not printed on the pages provided. The Offer Structure page 514 was not included. The issue is under Reg 6(2).",
+      "EBITDA for FY2022 is 975.49 in the KPI table (page 144) but 975.48 in Other Financial Information (page 442).",
+      "Total borrowings (2,940.53 for FY2022) include preference share capital classified as a financial liability. Non-current 741.83 plus current 2,198.70 on the balance sheet gives 2,940.53.",
+      "Net worth for FY2022 is total equity of 871.91. Non-controlling interest was nil at March 31, 2022 (equity share capital 15.97 + other equity 855.94).",
+      "Working capital funding (\u20b9900m) is categorised as 'other'.",
+      "The stub period is the eight months ended November 30, 2022. Profit attributable to the parent for FY2022 is 631.63; restated profit for the year including NCI is 681.64."
+    ]
+  }
+}

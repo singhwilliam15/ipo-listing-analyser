@@ -1,0 +1,366 @@
+{
+  "symbol": "HEXT",
+  "rhp_file": "HEXT.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-21T05:52:30+00:00",
+  "pages_sent": [
+    1,
+    2,
+    20,
+    21,
+    22,
+    23,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    96,
+    97,
+    98,
+    252,
+    253,
+    255,
+    256,
+    257,
+    492,
+    493,
+    498
+  ],
+  "n_pdf_pages": 644,
+  "usage": {
+    "input_tokens": 39156,
+    "output_tokens": 3143,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3796072,
+    "session_id": "209efd2d-6a70-413d-90dc-4631a07c028f"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Hexaware Technologies Limited",
+    "sector": "IT & software",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "December 31, 2023",
+    "stub_period_months": 9,
+    "pre_ipo_placement": null,
+    "lead_managers": "Kotak Mahindra Capital Company Limited; Citigroup Global Markets India Private Limited; J.P. Morgan India Private Limited; HSBC Securities and Capital Markets (India) Private Limited; IIFL Capital Services Limited",
+    "revenue_fy2": 7177.7,
+    "rhp_page_revenue_fy2": 83,
+    "revenue_fy1": 9199.6,
+    "rhp_page_revenue_fy1": 83,
+    "revenue_fy0": 10380.3,
+    "rhp_page_revenue_fy0": 83,
+    "ebitda_fy2": 1199.8,
+    "rhp_page_ebitda_fy2": 493,
+    "ebitda_fy1": 1400.9,
+    "rhp_page_ebitda_fy1": 493,
+    "ebitda_fy0": 1589.9,
+    "rhp_page_ebitda_fy0": 493,
+    "pat_fy2": 748.8,
+    "rhp_page_pat_fy2": 83,
+    "pat_fy1": 884.2,
+    "rhp_page_pat_fy1": 83,
+    "pat_fy0": 997.6,
+    "rhp_page_pat_fy0": 83,
+    "cfo_fy2": 979.8,
+    "rhp_page_cfo_fy2": 84,
+    "cfo_fy1": 820.6,
+    "rhp_page_cfo_fy1": 84,
+    "cfo_fy0": 1515.6,
+    "rhp_page_cfo_fy0": 84,
+    "net_worth_fy0": 4635.2,
+    "rhp_page_net_worth_fy0": 82,
+    "total_debt_fy0": 0.0,
+    "rhp_page_total_debt_fy0": 82,
+    "cash_fy0": 1773.4,
+    "rhp_page_cash_fy0": 82,
+    "revenue_stub": 8820.0,
+    "rhp_page_revenue_stub": 83,
+    "pat_stub": 853.3,
+    "rhp_page_pat_stub": 83,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": 95.03,
+    "rhp_page_promoter_pre_pct": 21,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 21,
+    "retail_quota_pct": null,
+    "rhp_page_retail_quota_pct": 79,
+    "pre_ipo_price": null,
+    "eps_fy0": 16.45,
+    "rhp_page_eps_fy0": 83,
+    "ronw_fy0_pct": 23.6,
+    "rhp_page_ronw_fy0_pct": 256,
+    "nav_per_share_fy0": 69.77,
+    "rhp_page_nav_per_share_fy0": 257,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": 8750.0,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 60.7694668,
+    "rhp_page_pre_issue_shares_cr": 96,
+    "post_issue_shares_cr": 60.7694668,
+    "rhp_page_post_issue_shares_cr": 96,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": null,
+    "proceeds_capex_cr": null,
+    "proceeds_gcp_cr": null,
+    "peers": "PERSISTENT; COFORGE; LTIM; MPHASIS",
+    "n_peers": 4,
+    "peer_pe_list": [
+      84.0,
+      64.0,
+      38.0,
+      34.0
+    ],
+    "peer_ronw_list": [
+      22.1,
+      23.0,
+      22.9,
+      17.7
+    ],
+    "rhp_page_peers": 257
+  },
+  "extract": {
+    "company": "Hexaware Technologies Limited",
+    "sector": "IT & software",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": 87500.0,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "CA Magnum Holdings",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 607694668.0,
+      "unit": "shares",
+      "page": 96
+    },
+    "post_issue_shares": {
+      "value": 607694668.0,
+      "unit": "shares",
+      "page": 96
+    },
+    "promoter_pre_pct": {
+      "value": 95.03,
+      "unit": "percent",
+      "page": 21
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 21
+    },
+    "objects_of_offer": [],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 79
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lead_managers": [
+      "Kotak Mahindra Capital Company Limited",
+      "Citigroup Global Markets India Private Limited",
+      "J.P. Morgan India Private Limited",
+      "HSBC Securities and Capital Markets (India) Private Limited",
+      "IIFL Capital Services Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "December 31, 2023",
+    "revenue_fy2": {
+      "value": 71777.0,
+      "unit": "million",
+      "page": 83
+    },
+    "revenue_fy1": {
+      "value": 91996.0,
+      "unit": "million",
+      "page": 83
+    },
+    "revenue_fy0": {
+      "value": 103803.0,
+      "unit": "million",
+      "page": 83
+    },
+    "ebitda_fy2": {
+      "value": 11998.0,
+      "unit": "million",
+      "page": 493
+    },
+    "ebitda_fy1": {
+      "value": 14009.0,
+      "unit": "million",
+      "page": 493
+    },
+    "ebitda_fy0": {
+      "value": 15899.0,
+      "unit": "million",
+      "page": 493
+    },
+    "pat_fy2": {
+      "value": 7488.0,
+      "unit": "million",
+      "page": 83
+    },
+    "pat_fy1": {
+      "value": 8842.0,
+      "unit": "million",
+      "page": 83
+    },
+    "pat_fy0": {
+      "value": 9976.0,
+      "unit": "million",
+      "page": 83
+    },
+    "cfo_fy2": {
+      "value": 9798.0,
+      "unit": "million",
+      "page": 84
+    },
+    "cfo_fy1": {
+      "value": 8206.0,
+      "unit": "million",
+      "page": 84
+    },
+    "cfo_fy0": {
+      "value": 15156.0,
+      "unit": "million",
+      "page": 84
+    },
+    "net_worth_fy0": {
+      "value": 46352.0,
+      "unit": "million",
+      "page": 82
+    },
+    "total_debt_fy0": {
+      "value": 0.0,
+      "unit": "million",
+      "page": 82
+    },
+    "cash_fy0": {
+      "value": 17734.0,
+      "unit": "million",
+      "page": 82
+    },
+    "eps_fy0": {
+      "value": 16.45,
+      "unit": "rupees",
+      "page": 83
+    },
+    "ronw_fy0_pct": {
+      "value": 23.6,
+      "unit": "percent",
+      "page": 256
+    },
+    "nav_per_share_fy0": {
+      "value": 69.77,
+      "unit": "rupees",
+      "page": 257
+    },
+    "stub_period_months": 9,
+    "revenue_stub": {
+      "value": 88200.0,
+      "unit": "million",
+      "page": 83
+    },
+    "pat_stub": {
+      "value": 8533.0,
+      "unit": "million",
+      "page": 83
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Persistent Systems Limited",
+        "nse_symbol": "PERSISTENT",
+        "pe": 84.0,
+        "ronw_pct": 22.1,
+        "page": 257
+      },
+      {
+        "name": "Coforge Limited",
+        "nse_symbol": "COFORGE",
+        "pe": 64.0,
+        "ronw_pct": 23.0,
+        "page": 257
+      },
+      {
+        "name": "LTIMindtree Limited",
+        "nse_symbol": "LTIM",
+        "pe": 38.0,
+        "ronw_pct": 22.9,
+        "page": 257
+      },
+      {
+        "name": "Mphasis Limited",
+        "nse_symbol": "MPHASIS",
+        "pe": 34.0,
+        "ronw_pct": 17.7,
+        "page": 257
+      }
+    ],
+    "notes": [
+      "The financial year ends December 31, so fy0 = year ended Dec 31, 2023, fy1 = Dec 31, 2022 and fy2 = Dec 31, 2021. The stub is the nine months ended Sep 30, 2024.",
+      "The offer is entirely an offer for sale (up to \u20b987,500 million) by the promoter CA Magnum Holdings. There is no fresh issue and the company receives no proceeds, so objects_of_offer is empty. The number of shares offered is printed as [\u25cf].",
+      "The price band, lot size and retail quota are not printed on these pages (shown as [\u25cf]).",
+      "net_worth_fy0 is equity attributable to shareholders of the Company (46,352) from the balance sheet. The RHP's own 'Net Worth' definition gives 42,309 (page 21) and is used for its RoNW/NAV.",
+      "Total borrowings at Dec 31, 2023 are printed as '-' (nil) on the balance sheet, so total_debt_fy0 is recorded as 0. Borrowings were 827 at Dec 31, 2022.",
+      "Pre-issue shares are 607,694,668 as on the RHP date (page 96). This differs from the 607,045,868 figure after the share split because of later allotments. Post-offer shares are the same since there is no fresh issue.",
+      "Pre-IPO placement status cannot be determined from these pages; the share capital history shown is incomplete.",
+      "Peer NSE symbols are inferred; they are not printed in the RHP. Peer data is for FY ended March 31, 2024, with P/E based on closing prices on Feb 4, 2025."
+    ]
+  }
+}

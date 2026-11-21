@@ -1,0 +1,417 @@
+{
+  "symbol": "SAMHI",
+  "rhp_file": "SAMHI.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T20:58:18+00:00",
+  "pages_sent": [
+    1,
+    2,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    105,
+    106,
+    107,
+    108,
+    121,
+    122,
+    123,
+    124,
+    141,
+    142,
+    143,
+    144,
+    145,
+    434,
+    435,
+    436,
+    466
+  ],
+  "n_pdf_pages": 570,
+  "usage": {
+    "input_tokens": 46295,
+    "output_tokens": 4004,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.4200372,
+    "session_id": "7f95f816-018b-4293-a9be-e4511805b4b8"
+  },
+  "checks": [
+    "|PAT| > revenue in fy2: unit mix-up?",
+    "|PAT| > revenue in fy1: unit mix-up?"
+  ],
+  "fields": {
+    "company_rhp": "SAMHI Hotels Limited",
+    "sector": "Logistics & travel",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023 (March 31, 2023)",
+    "stub_period_months": null,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "JM Financial Limited; Kotak Mahindra Capital Company Limited",
+    "revenue_fy2": 169.58,
+    "rhp_page_revenue_fy2": 87,
+    "revenue_fy1": 322.743,
+    "rhp_page_revenue_fy1": 87,
+    "revenue_fy0": 738.57,
+    "rhp_page_revenue_fy0": 87,
+    "ebitda_fy2": -59.714,
+    "rhp_page_ebitda_fy2": 144,
+    "ebitda_fy1": 21.793,
+    "rhp_page_ebitda_fy1": 144,
+    "ebitda_fy0": 260.595,
+    "rhp_page_ebitda_fy0": 144,
+    "pat_fy2": -477.727,
+    "rhp_page_pat_fy2": 87,
+    "pat_fy1": -443.253,
+    "rhp_page_pat_fy1": 87,
+    "pat_fy0": -338.586,
+    "rhp_page_pat_fy0": 87,
+    "cfo_fy2": 21.653,
+    "rhp_page_cfo_fy2": 88,
+    "cfo_fy1": 26.310000000000002,
+    "rhp_page_cfo_fy1": 88,
+    "cfo_fy0": 217.446,
+    "rhp_page_cfo_fy0": 88,
+    "net_worth_fy0": -807.646,
+    "rhp_page_net_worth_fy0": 86,
+    "total_debt_fy0": 2787.54,
+    "rhp_page_total_debt_fy0": 27,
+    "cash_fy0": 118.549,
+    "rhp_page_cash_fy0": 86,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 141,
+    "price_high": null,
+    "rhp_page_price_high": 141,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "rhp_page_promoter_pre_pct": 26,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 26,
+    "retail_quota_pct": null,
+    "rhp_page_retail_quota_pct": 83,
+    "pre_ipo_price": 130.22,
+    "rhp_page_pre_ipo_price": 108,
+    "eps_fy0": -43.93,
+    "rhp_page_eps_fy0": 87,
+    "ronw_fy0_pct": null,
+    "rhp_page_ronw_fy0_pct": 142,
+    "nav_per_share_fy0": -113.07,
+    "rhp_page_nav_per_share_fy0": 142,
+    "fresh_issue_cr": 1200.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 1.35,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 12.2797231,
+    "rhp_page_pre_issue_shares_cr": 83,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 83,
+    "ofs_promoter_shares_cr": 0,
+    "ofs_investor_shares_cr": 1.35,
+    "proceeds_debt_repayment_cr": 900.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "CHALET; LEMONTREE; INDHOTEL; EIHOTEL",
+    "n_peers": 4,
+    "peer_pe_list": [
+      61.64,
+      75.26,
+      59.63,
+      49.55
+    ],
+    "peer_ronw_list": [
+      11.96,
+      12.48,
+      12.24,
+      9.49
+    ],
+    "rhp_page_peers": 143
+  },
+  "extract": {
+    "company": "SAMHI Hotels Limited",
+    "sector": "Logistics & travel",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 141
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 141
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 12000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 13500000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Blue Chandra Pte. Ltd.",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 8428510.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Goldman Sachs Investments Holdings (Asia) Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 4931490.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "GTI Capital Alpha Pvt Ltd",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 140000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 122797231.0,
+      "unit": "shares",
+      "page": 83
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 83
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 26
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 26
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment/prepayment/redemption, in full or in part, of certain borrowings of the Company and Subsidiaries including accrued interest",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 9000.0,
+          "unit": "million",
+          "page": 122
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 122
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 83
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 130.22,
+      "unit": "rupees",
+      "page": 108
+    },
+    "lead_managers": [
+      "JM Financial Limited",
+      "Kotak Mahindra Capital Company Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023 (March 31, 2023)",
+    "revenue_fy2": {
+      "value": 1695.8,
+      "unit": "million",
+      "page": 87
+    },
+    "revenue_fy1": {
+      "value": 3227.43,
+      "unit": "million",
+      "page": 87
+    },
+    "revenue_fy0": {
+      "value": 7385.7,
+      "unit": "million",
+      "page": 87
+    },
+    "ebitda_fy2": {
+      "value": -597.14,
+      "unit": "million",
+      "page": 144
+    },
+    "ebitda_fy1": {
+      "value": 217.93,
+      "unit": "million",
+      "page": 144
+    },
+    "ebitda_fy0": {
+      "value": 2605.95,
+      "unit": "million",
+      "page": 144
+    },
+    "pat_fy2": {
+      "value": -4777.27,
+      "unit": "million",
+      "page": 87
+    },
+    "pat_fy1": {
+      "value": -4432.53,
+      "unit": "million",
+      "page": 87
+    },
+    "pat_fy0": {
+      "value": -3385.86,
+      "unit": "million",
+      "page": 87
+    },
+    "cfo_fy2": {
+      "value": 216.53,
+      "unit": "million",
+      "page": 88
+    },
+    "cfo_fy1": {
+      "value": 263.1,
+      "unit": "million",
+      "page": 88
+    },
+    "cfo_fy0": {
+      "value": 2174.46,
+      "unit": "million",
+      "page": 88
+    },
+    "net_worth_fy0": {
+      "value": -8076.46,
+      "unit": "million",
+      "page": 86
+    },
+    "total_debt_fy0": {
+      "value": 27875.4,
+      "unit": "million",
+      "page": 27
+    },
+    "cash_fy0": {
+      "value": 1185.49,
+      "unit": "million",
+      "page": 86
+    },
+    "eps_fy0": {
+      "value": -43.93,
+      "unit": "rupees",
+      "page": 87
+    },
+    "ronw_fy0_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 142
+    },
+    "nav_per_share_fy0": {
+      "value": -113.07,
+      "unit": "rupees",
+      "page": 142
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Chalet Hotels",
+        "nse_symbol": "CHALET",
+        "pe": 61.64,
+        "ronw_pct": 11.96,
+        "page": 143
+      },
+      {
+        "name": "Lemon Tree",
+        "nse_symbol": "LEMONTREE",
+        "pe": 75.26,
+        "ronw_pct": 12.48,
+        "page": 143
+      },
+      {
+        "name": "Indian Hotels",
+        "nse_symbol": "INDHOTEL",
+        "pe": 59.63,
+        "ronw_pct": 12.24,
+        "page": 143
+      },
+      {
+        "name": "EIH",
+        "nse_symbol": "EIHOTEL",
+        "pe": 49.55,
+        "ronw_pct": 9.49,
+        "page": 143
+      }
+    ],
+    "notes": [
+      "The company has no identifiable promoter (page 26), so promoter holding is null. All three selling shareholders are financial investors.",
+      "EBITDA is the 'Adjusted EBITDA' from the KPI table on page 144, which excludes exceptional items. Unadjusted EBITDA on page 436 is 2,797.79 / 33.87 / (609.76) million for FY23 / FY22 / FY21.",
+      "net_worth_fy0 is total equity from the balance sheet, (8,076.46) million. The RHP's own 'Net worth' figure is (8,714.33) million because it subtracts a capital reserve of 637.87 million. Net worth is negative, so RoNW is NA.",
+      "total_debt_fy0 of 27,875.40 million is the printed total borrowings. It includes interest accrued of 975.64 million and FCCDs. Current borrowings are 6,346.95 million and non-current are 20,552.81 million.",
+      "The price band, lot size, number of fresh issue shares, post-offer shares and retail quota are all [\u25cf] or not on the pages given. The offer is under Regulation 6(2), so the retail portion is 'not more than [\u25cf]'.",
+      "Pre-IPO allotments: a private placement to Sarvara Investment Fund I on Feb 27, 2023 at Rs 184.85 (consideration other than cash), and a conversion on Mar 7, 2023 at Rs 130.22, which is the latest price shown. FCCDs held by IFC were also converted into 1 equity share on Aug 31, 2023, but no price for that conversion is printed.",
+      "The general corporate purposes amount is [\u25cf] and is capped at 25% of Net Proceeds.",
+      "Sector mapped to Logistics & travel because the company is a hotel owner (hospitality).",
+      "Weighted average cost of acquisition per share for the selling shareholders: Blue Chandra Rs 127.01, GSA Rs 208.81, GTI Rs 127.94.",
+      "The ACIC acquisition (962 keys) closed Aug 10, 2023 and is not in the restated financials. Pro forma FY23 revenue is 9,328.09 million."
+    ]
+  }
+}

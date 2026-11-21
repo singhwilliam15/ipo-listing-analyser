@@ -1,0 +1,506 @@
+{
+  "symbol": "HONASA",
+  "rhp_file": "HONASA.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T21:00:30+00:00",
+  "pages_sent": [
+    1,
+    2,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    47,
+    48,
+    50,
+    51,
+    77,
+    78,
+    92,
+    93,
+    94,
+    95,
+    115,
+    116,
+    117,
+    118,
+    127,
+    128,
+    129,
+    130,
+    131,
+    134,
+    135,
+    163,
+    164,
+    315,
+    316,
+    317,
+    323,
+    329,
+    330,
+    354,
+    355,
+    356,
+    357,
+    358
+  ],
+  "n_pdf_pages": 431,
+  "usage": {
+    "input_tokens": 83111,
+    "output_tokens": 4509,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.7283472000000001,
+    "session_id": "aaad329f-33e7-44a2-8b88-8e564275c9dd"
+  },
+  "checks": [
+    "|PAT| > revenue in fy2: unit mix-up?"
+  ],
+  "fields": {
+    "company_rhp": "Honasa Consumer Limited",
+    "sector": "FMCG & food",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023 (March 31, 2023)",
+    "stub_period_months": 3,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Kotak Mahindra Capital Company Limited; Citigroup Global Markets India Private Limited; JM Financial Limited; J.P. Morgan India Private Limited",
+    "revenue_fy2": 459.99,
+    "rhp_page_revenue_fy2": 32,
+    "revenue_fy1": 943.465,
+    "rhp_page_revenue_fy1": 32,
+    "revenue_fy0": 1492.748,
+    "rhp_page_revenue_fy0": 32,
+    "ebitda_fy2": -1334.033,
+    "rhp_page_ebitda_fy2": 129,
+    "ebitda_fy1": 11.459,
+    "rhp_page_ebitda_fy1": 129,
+    "ebitda_fy0": 22.764,
+    "rhp_page_ebitda_fy0": 129,
+    "pat_fy2": -1332.215,
+    "rhp_page_pat_fy2": 32,
+    "pat_fy1": 14.443,
+    "rhp_page_pat_fy1": 32,
+    "pat_fy0": -150.966,
+    "rhp_page_pat_fy0": 32,
+    "cfo_fy2": 29.726,
+    "rhp_page_cfo_fy2": 50,
+    "cfo_fy1": 44.588,
+    "rhp_page_cfo_fy1": 50,
+    "cfo_fy0": -51.553999999999995,
+    "rhp_page_cfo_fy0": 50,
+    "net_worth_fy0": 605.901,
+    "rhp_page_net_worth_fy0": 32,
+    "total_debt_fy0": 3.609,
+    "rhp_page_total_debt_fy0": 33,
+    "cash_fy0": 4.646,
+    "rhp_page_cash_fy0": 356,
+    "revenue_stub": 464.487,
+    "rhp_page_revenue_stub": 32,
+    "pat_stub": 24.715,
+    "rhp_page_pat_stub": 32,
+    "price_low": null,
+    "rhp_page_price_low": 127,
+    "price_high": null,
+    "rhp_page_price_high": 127,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "rhp_page_promoter_pre_pct": 32,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": -4.66,
+    "rhp_page_eps_fy0": 32,
+    "ronw_fy0_pct": -23.57,
+    "rhp_page_ronw_fy0_pct": 128,
+    "nav_per_share_fy0": 19.27,
+    "rhp_page_nav_per_share_fy0": 32,
+    "fresh_issue_cr": 365.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 4.1248162,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 31.0479227,
+    "rhp_page_pre_issue_shares_cr": 77,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 77,
+    "ofs_promoter_shares_cr": 0.32863000000000003,
+    "ofs_investor_shares_cr": 2.8481974,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 46.6,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "HINDUNILVR; COLPAL; PGHH; DABUR; MARICO",
+    "n_peers": 5,
+    "peer_pe_list": [
+      59.16,
+      54.25,
+      83.12,
+      54.53,
+      54.28
+    ],
+    "peer_ronw_list": [
+      20.08,
+      61.01,
+      71.68,
+      18.02,
+      33.42
+    ],
+    "rhp_page_peers": 131
+  },
+  "extract": {
+    "company": "Honasa Consumer Limited",
+    "sector": "FMCG & food",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 127
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 127
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 3650.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 41248162.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Varun Alagh",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 3186300.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Ghazal Alagh",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 100000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Fireside Ventures Fund",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 7972478.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Sofina",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 9566974.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Stellaris",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 10942522.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Kunal Bahl",
+        "kind": "other",
+        "shares_offered": {
+          "value": 1193250.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Rishabh Harsh Mariwala",
+        "kind": "other",
+        "shares_offered": {
+          "value": 5700188.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Rohit Kumar Bansal",
+        "kind": "other",
+        "shares_offered": {
+          "value": 1193250.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Shilpa Shetty Kundra",
+        "kind": "other",
+        "shares_offered": {
+          "value": 1393200.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 310479227.0,
+      "unit": "shares",
+      "page": 77
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 77
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 32
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Advertisement expenses towards enhancing the awareness and visibility of our brands",
+        "category": "other",
+        "amount": {
+          "value": 1820.0,
+          "unit": "million",
+          "page": 115
+        }
+      },
+      {
+        "purpose": "Capital expenditure for setting up new exclusive brand outlets (EBOs)",
+        "category": "capex",
+        "amount": {
+          "value": 206.0,
+          "unit": "million",
+          "page": 115
+        }
+      },
+      {
+        "purpose": "Investment in Subsidiary BBlunt for setting up new salons",
+        "category": "capex",
+        "amount": {
+          "value": 260.0,
+          "unit": "million",
+          "page": 115
+        }
+      },
+      {
+        "purpose": "General corporate purposes and unidentified inorganic acquisition",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 115
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Kotak Mahindra Capital Company Limited",
+      "Citigroup Global Markets India Private Limited",
+      "JM Financial Limited",
+      "J.P. Morgan India Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023 (March 31, 2023)",
+    "revenue_fy2": {
+      "value": 4599.9,
+      "unit": "million",
+      "page": 32
+    },
+    "revenue_fy1": {
+      "value": 9434.65,
+      "unit": "million",
+      "page": 32
+    },
+    "revenue_fy0": {
+      "value": 14927.48,
+      "unit": "million",
+      "page": 32
+    },
+    "ebitda_fy2": {
+      "value": -13340.33,
+      "unit": "million",
+      "page": 129
+    },
+    "ebitda_fy1": {
+      "value": 114.59,
+      "unit": "million",
+      "page": 129
+    },
+    "ebitda_fy0": {
+      "value": 227.64,
+      "unit": "million",
+      "page": 129
+    },
+    "pat_fy2": {
+      "value": -13322.15,
+      "unit": "million",
+      "page": 32
+    },
+    "pat_fy1": {
+      "value": 144.43,
+      "unit": "million",
+      "page": 32
+    },
+    "pat_fy0": {
+      "value": -1509.66,
+      "unit": "million",
+      "page": 32
+    },
+    "cfo_fy2": {
+      "value": 297.26,
+      "unit": "million",
+      "page": 50
+    },
+    "cfo_fy1": {
+      "value": 445.88,
+      "unit": "million",
+      "page": 50
+    },
+    "cfo_fy0": {
+      "value": -515.54,
+      "unit": "million",
+      "page": 50
+    },
+    "net_worth_fy0": {
+      "value": 6059.01,
+      "unit": "million",
+      "page": 32
+    },
+    "total_debt_fy0": {
+      "value": 36.09,
+      "unit": "million",
+      "page": 33
+    },
+    "cash_fy0": {
+      "value": 46.46,
+      "unit": "million",
+      "page": 356
+    },
+    "eps_fy0": {
+      "value": -4.66,
+      "unit": "rupees",
+      "page": 32
+    },
+    "ronw_fy0_pct": {
+      "value": -23.57,
+      "unit": "percent",
+      "page": 128
+    },
+    "nav_per_share_fy0": {
+      "value": 19.27,
+      "unit": "rupees",
+      "page": 32
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 4644.87,
+      "unit": "million",
+      "page": 32
+    },
+    "pat_stub": {
+      "value": 247.15,
+      "unit": "million",
+      "page": 32
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Hindustan Unilever Limited",
+        "nse_symbol": "HINDUNILVR",
+        "pe": 59.16,
+        "ronw_pct": 20.08,
+        "page": 131
+      },
+      {
+        "name": "Colgate Palmolive (India) Limited",
+        "nse_symbol": "COLPAL",
+        "pe": 54.25,
+        "ronw_pct": 61.01,
+        "page": 131
+      },
+      {
+        "name": "Procter & Gamble Hygiene and Health Care Limited",
+        "nse_symbol": "PGHH",
+        "pe": 83.12,
+        "ronw_pct": 71.68,
+        "page": 131
+      },
+      {
+        "name": "Dabur India Limited",
+        "nse_symbol": "DABUR",
+        "pe": 54.53,
+        "ronw_pct": 18.02,
+        "page": 131
+      },
+      {
+        "name": "Marico Limited",
+        "nse_symbol": "MARICO",
+        "pe": 54.28,
+        "ronw_pct": 33.42,
+        "page": 131
+      }
+    ],
+    "notes": [
+      "FY2023 and FY2022 figures come from restated consolidated statements. FY2021 (fy2) comes from restated standalone statements (page 330).",
+      "Price band, lot size, number of fresh issue shares, post-offer shares, retail quota and post-offer promoter holding are not on the pages given, or are printed as [\u25cf].",
+      "promoter_pre_pct left null because no aggregate is printed. Individual holdings on a fully diluted basis (page 32): Varun Alagh 34.13%, Ghazal Alagh 3.22%, Mukesh Alagh 0.02%, Jaspal Alagh 0.02%, Sunita Sahni 0.03%, and the two trusts negligible.",
+      "Advertisement expenses object categorised as 'other'. EBO capex and the BBlunt salon investment categorised as capex. The total for general corporate purposes plus unidentified inorganic acquisition is capped at 35% of Net Proceeds.",
+      "Total debt for FY2023 = current borrowings 36.09 plus nil non-current borrowings. Cash for FY2023 is cash and cash equivalents at year end from the cash flow table (46.46); bank balances for FY2023 are not given.",
+      "Peer table seems incomplete: the pages given show only 5 peers, but Industry P/E lowest is printed as 25.65, which matches none of them. Other peers (e.g. Gillette India, mentioned in the notes) are probably on missing pages 127-128. NSE symbols are inferred from company names, not printed.",
+      "EBITDA is as reported in KPIs. FY2021 EBITDA includes a fair-value loss on preference shares of 13,612.43 million. FY2021 net worth is negative (-17,651.43).",
+      "PAT for FY2023 including NCI is -1,509.66. PAT attributable to owners is -1,428.09 (page 316).",
+      "Pre-IPO placement: no placements in the 12 months before the RHP. NCCCPS were converted into equity on October 3, 2023 and ESOP allotments were made on October 10, 2023 (at \u20b910, \u20b920.43 and \u20b9253.41). The last preferential allotment was to Shilpa Shetty Kundra on September 13, 2022 at \u20b9262.40, which is more than 12 months before the RHP date."
+    ]
+  }
+}

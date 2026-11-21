@@ -1,0 +1,453 @@
+{
+  "symbol": "MBEL",
+  "rhp_file": "MBEL.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:12:41+00:00",
+  "pages_sent": [
+    1,
+    2,
+    23,
+    24,
+    25,
+    26,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    99,
+    100,
+    101,
+    119,
+    120,
+    136,
+    137,
+    138,
+    366,
+    367,
+    396
+  ],
+  "n_pdf_pages": 499,
+  "usage": {
+    "input_tokens": 39403,
+    "output_tokens": 3883,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3617922,
+    "session_id": "7105552e-d81b-4e28-94c9-daa0ab1076ab"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "M & B Engineering Limited",
+    "sector": "Industrials & capital goods",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "stub_period_months": null,
+    "pre_ipo_placement": null,
+    "lead_managers": "Equirus Capital Private Limited; DAM Capital Advisors Limited",
+    "revenue_fy2": 880.47,
+    "rhp_page_revenue_fy2": 85,
+    "revenue_fy1": 795.06,
+    "rhp_page_revenue_fy1": 85,
+    "revenue_fy0": 988.554,
+    "rhp_page_revenue_fy0": 85,
+    "ebitda_fy2": 66.43,
+    "rhp_page_ebitda_fy2": 138,
+    "ebitda_fy1": 79.622,
+    "rhp_page_ebitda_fy1": 138,
+    "ebitda_fy0": 126.377,
+    "rhp_page_ebitda_fy0": 138,
+    "pat_fy2": 32.892,
+    "rhp_page_pat_fy2": 85,
+    "pat_fy1": 45.634,
+    "rhp_page_pat_fy1": 85,
+    "pat_fy0": 77.047,
+    "rhp_page_pat_fy0": 85,
+    "cfo_fy2": 28.97,
+    "rhp_page_cfo_fy2": 86,
+    "cfo_fy1": 5.659,
+    "rhp_page_cfo_fy1": 86,
+    "cfo_fy0": 35.589,
+    "rhp_page_cfo_fy0": 86,
+    "net_worth_fy0": 306.534,
+    "rhp_page_net_worth_fy0": 84,
+    "total_debt_fy0": 186.133,
+    "rhp_page_total_debt_fy0": 25,
+    "cash_fy0": 29.635,
+    "rhp_page_cash_fy0": 84,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 136,
+    "price_high": null,
+    "rhp_page_price_high": 136,
+    "lot_size": null,
+    "promoter_pre_pct": 100.0,
+    "rhp_page_promoter_pre_pct": 24,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 24,
+    "retail_quota_pct": null,
+    "rhp_page_retail_quota_pct": 87,
+    "pre_ipo_price": null,
+    "eps_fy0": 15.41,
+    "rhp_page_eps_fy0": 85,
+    "ronw_fy0_pct": 25.14,
+    "rhp_page_ronw_fy0_pct": 137,
+    "nav_per_share_fy0": 61.31,
+    "rhp_page_nav_per_share_fy0": 137,
+    "fresh_issue_cr": 275.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": 375.0,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 5.0,
+    "rhp_page_pre_issue_shares_cr": 87,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 87,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 58.75,
+    "proceeds_capex_cr": 130.579,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "PENIND; Bansal Roofing Products Limited; BIRLANU; EVERESTIND; INTERARCH",
+    "n_peers": 5,
+    "peer_pe_list": [
+      25.23,
+      28.39,
+      33.69
+    ],
+    "peer_ronw_list": [
+      11.96,
+      16.71,
+      -2.72,
+      -0.6,
+      14.35
+    ],
+    "rhp_page_peers": 137
+  },
+  "extract": {
+    "company": "M & B Engineering Limited",
+    "sector": "Industrials & capital goods",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 136
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 136
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 2750.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": 3750.0,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Girishbhai Manibhai Patel",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Chirag Hasmukhbhai Patel",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Vipinbhai Kantilal Patel",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Birva Chirag Patel",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Aditya Vipinbhai Patel",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Umaben Girishbhai Patel",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 50000000.0,
+      "unit": "shares",
+      "page": 87
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 87
+    },
+    "promoter_pre_pct": {
+      "value": 100.0,
+      "unit": "percent",
+      "page": 24
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 24
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Capital expenditure for purchase of equipment and machinery, building works, solar rooftop grid and transport vehicles at Manufacturing Facilities",
+        "category": "capex",
+        "amount": {
+          "value": 1305.79,
+          "unit": "million",
+          "page": 119
+        }
+      },
+      {
+        "purpose": "Investment in IT software upgradation",
+        "category": "other",
+        "amount": {
+          "value": 52.0,
+          "unit": "million",
+          "page": 119
+        }
+      },
+      {
+        "purpose": "Re-payment or pre-payment of term loans of certain borrowings",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 587.5,
+          "unit": "million",
+          "page": 119
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 119
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 87
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Equirus Capital Private Limited",
+      "DAM Capital Advisors Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "revenue_fy2": {
+      "value": 8804.7,
+      "unit": "million",
+      "page": 85
+    },
+    "revenue_fy1": {
+      "value": 7950.6,
+      "unit": "million",
+      "page": 85
+    },
+    "revenue_fy0": {
+      "value": 9885.54,
+      "unit": "million",
+      "page": 85
+    },
+    "ebitda_fy2": {
+      "value": 664.3,
+      "unit": "million",
+      "page": 138
+    },
+    "ebitda_fy1": {
+      "value": 796.22,
+      "unit": "million",
+      "page": 138
+    },
+    "ebitda_fy0": {
+      "value": 1263.77,
+      "unit": "million",
+      "page": 138
+    },
+    "pat_fy2": {
+      "value": 328.92,
+      "unit": "million",
+      "page": 85
+    },
+    "pat_fy1": {
+      "value": 456.34,
+      "unit": "million",
+      "page": 85
+    },
+    "pat_fy0": {
+      "value": 770.47,
+      "unit": "million",
+      "page": 85
+    },
+    "cfo_fy2": {
+      "value": 289.7,
+      "unit": "million",
+      "page": 86
+    },
+    "cfo_fy1": {
+      "value": 56.59,
+      "unit": "million",
+      "page": 86
+    },
+    "cfo_fy0": {
+      "value": 355.89,
+      "unit": "million",
+      "page": 86
+    },
+    "net_worth_fy0": {
+      "value": 3065.34,
+      "unit": "million",
+      "page": 84
+    },
+    "total_debt_fy0": {
+      "value": 1861.33,
+      "unit": "million",
+      "page": 25
+    },
+    "cash_fy0": {
+      "value": 296.35,
+      "unit": "million",
+      "page": 84
+    },
+    "eps_fy0": {
+      "value": 15.41,
+      "unit": "rupees",
+      "page": 85
+    },
+    "ronw_fy0_pct": {
+      "value": 25.14,
+      "unit": "percent",
+      "page": 137
+    },
+    "nav_per_share_fy0": {
+      "value": 61.31,
+      "unit": "rupees",
+      "page": 137
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Pennar Industries Limited",
+        "nse_symbol": "PENIND",
+        "pe": 25.23,
+        "ronw_pct": 11.96,
+        "page": 137
+      },
+      {
+        "name": "Bansal Roofing Products Limited",
+        "nse_symbol": null,
+        "pe": 28.39,
+        "ronw_pct": 16.71,
+        "page": 137
+      },
+      {
+        "name": "BirlaNU Limited",
+        "nse_symbol": "BIRLANU",
+        "pe": null,
+        "ronw_pct": -2.72,
+        "page": 137
+      },
+      {
+        "name": "Everest Industries Limited",
+        "nse_symbol": "EVERESTIND",
+        "pe": null,
+        "ronw_pct": -0.6,
+        "page": 137
+      },
+      {
+        "name": "Interarch Building Products Limited",
+        "nse_symbol": "INTERARCH",
+        "pe": 33.69,
+        "ronw_pct": 14.35,
+        "page": 137
+      }
+    ],
+    "notes": [
+      "Price band, lot size and share counts for fresh issue/OFS are [\u25cf] in the RHP. Only amounts are printed: fresh issue \u20b92,750.00 mn, OFS \u20b93,750.00 mn.",
+      "OFS amounts by seller (\u20b9 million, page 1): Girishbhai Manibhai Patel 1,533.50; Chirag Hasmukhbhai Patel 1,302.50; Vipinbhai Kantilal Patel 187.50; Birva Chirag Patel 385.00; Aditya Vipinbhai Patel 187.50; Umaben Girishbhai Patel 154.00. Share counts are [\u25cf].",
+      "RoNW FY2025 is 25.14% in Basis for Offer Price (page 137) but 25.13% in Accounting Ratios (page 366). FY2024/FY2023 also differ (19.68/18.89 vs 19.58/18.22).",
+      "Promoters and promoter group hold 100% of the 50,000,000 pre-offer shares. Post-offer holding is [\u25cf].",
+      "Retail quota % is not printed on these pages. The NII portion is 'not more than 15% of Net Offer'.",
+      "IT software upgradation (\u20b952.00 mn) is categorised as 'other'.",
+      "Total borrowings of 1,861.33 = non-current 542.13 + current 1,319.20 (balance sheet). The capitalisation statement splits it differently: 1,233.40 + 627.93.",
+      "Pre-IPO placement information is not on the pages provided. The latest share allotments are not shown.",
+      "Bansal Roofing NSE symbol is uncertain, so it is left null. P/E is NM for BirlaNU and Everest (negative earnings)."
+    ]
+  }
+}

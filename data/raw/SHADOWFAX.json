@@ -1,0 +1,448 @@
+{
+  "symbol": "SHADOWFAX",
+  "rhp_file": "SHADOWFAX.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:01:25+00:00",
+  "pages_sent": [
+    1,
+    2,
+    23,
+    24,
+    25,
+    26,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    86,
+    87,
+    88,
+    122,
+    123,
+    138,
+    139,
+    140,
+    298,
+    299,
+    335
+  ],
+  "n_pdf_pages": 422,
+  "usage": {
+    "input_tokens": 47906,
+    "output_tokens": 4297,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.4389468999999999,
+    "session_id": "4602ba28-f6f6-4777-9165-d46076013024"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Shadowfax Technologies Limited",
+    "sector": "Logistics & travel",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "stub_period_months": 6,
+    "pre_ipo_placement": null,
+    "lead_managers": "ICICI Securities Limited; Morgan Stanley India Company Private Limited; JM Financial Limited",
+    "revenue_fy2": 1415.124,
+    "rhp_page_revenue_fy2": 74,
+    "revenue_fy1": 1884.822,
+    "rhp_page_revenue_fy1": 74,
+    "revenue_fy0": 2485.131,
+    "rhp_page_revenue_fy0": 74,
+    "ebitda_fy2": -113.469,
+    "rhp_page_ebitda_fy2": 298,
+    "ebitda_fy1": 11.372,
+    "rhp_page_ebitda_fy1": 298,
+    "ebitda_fy0": 56.186,
+    "rhp_page_ebitda_fy0": 298,
+    "pat_fy2": -142.638,
+    "rhp_page_pat_fy2": 74,
+    "pat_fy1": -11.882,
+    "rhp_page_pat_fy1": 74,
+    "pat_fy0": 6.426000000000001,
+    "rhp_page_pat_fy0": 74,
+    "cfo_fy2": -72.834,
+    "rhp_page_cfo_fy2": 75,
+    "cfo_fy1": 131.552,
+    "rhp_page_cfo_fy1": 75,
+    "cfo_fy0": 49.867,
+    "rhp_page_cfo_fy0": 75,
+    "net_worth_fy0": 660.427,
+    "rhp_page_net_worth_fy0": 73,
+    "total_debt_fy0": null,
+    "rhp_page_total_debt_fy0": 73,
+    "cash_fy0": 161.989,
+    "rhp_page_cash_fy0": 73,
+    "revenue_stub": 1805.644,
+    "rhp_page_revenue_stub": 74,
+    "pat_stub": 21.037,
+    "rhp_page_pat_stub": 74,
+    "price_low": null,
+    "rhp_page_price_low": 138,
+    "price_high": null,
+    "rhp_page_price_high": 138,
+    "lot_size": null,
+    "promoter_pre_pct": 19.13,
+    "rhp_page_promoter_pre_pct": 24,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 24,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 0.13,
+    "rhp_page_eps_fy0": 74,
+    "ronw_fy0_pct": 0.97,
+    "rhp_page_ronw_fy0_pct": 139,
+    "nav_per_share_fy0": 13.83,
+    "rhp_page_nav_per_share_fy0": 139,
+    "fresh_issue_cr": 1000.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": 907.269,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 49.7488085,
+    "rhp_page_pre_issue_shares_cr": 70,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 70,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 423.43100000000004,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "BLUEDART; DELHIVERY",
+    "n_peers": 2,
+    "peer_pe_list": [
+      50.7,
+      195.07
+    ],
+    "peer_ronw_list": [
+      17.25,
+      1.75
+    ],
+    "rhp_page_peers": 139
+  },
+  "extract": {
+    "company": "Shadowfax Technologies Limited",
+    "sector": "Logistics & travel",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 138
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 138
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 10000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": 9072.69,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Flipkart Internet Private Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 71
+        }
+      },
+      {
+        "name": "Eight Roads Investments Mauritius II Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 71
+        }
+      },
+      {
+        "name": "International Finance Corporation",
+        "kind": "investor",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 71
+        }
+      },
+      {
+        "name": "Qualcomm Asia Pacific Pte. Ltd.",
+        "kind": "investor",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 71
+        }
+      },
+      {
+        "name": "Nokia Growth Partners IV, L.P.",
+        "kind": "investor",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 71
+        }
+      },
+      {
+        "name": "NewQuest Asia Fund IV (Singapore) Pte. Ltd.",
+        "kind": "investor",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 71
+        }
+      },
+      {
+        "name": "Mirae Asset - Naver New Growth Fund I",
+        "kind": "investor",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 71
+        }
+      },
+      {
+        "name": "Mirae Asset - GS Retail New Growth Fund I",
+        "kind": "investor",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 71
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 497488085.0,
+      "unit": "shares",
+      "page": 70
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 70
+    },
+    "promoter_pre_pct": {
+      "value": 19.13,
+      "unit": "percent",
+      "page": 24
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 24
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding of capital expenditure requirements in relation to network infrastructure",
+        "category": "capex",
+        "amount": {
+          "value": 4234.31,
+          "unit": "million",
+          "page": 123
+        }
+      },
+      {
+        "purpose": "Funding of lease payments for new first mile centers, last mile centers and sort centers",
+        "category": "other",
+        "amount": {
+          "value": 1386.43,
+          "unit": "million",
+          "page": 123
+        }
+      },
+      {
+        "purpose": "Funding of branding, marketing and communication costs",
+        "category": "other",
+        "amount": {
+          "value": 885.74,
+          "unit": "million",
+          "page": 123
+        }
+      },
+      {
+        "purpose": "Unidentified inorganic acquisitions and general corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 123
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "ICICI Securities Limited",
+      "Morgan Stanley India Company Private Limited",
+      "JM Financial Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "revenue_fy2": {
+      "value": 14151.24,
+      "unit": "million",
+      "page": 74
+    },
+    "revenue_fy1": {
+      "value": 18848.22,
+      "unit": "million",
+      "page": 74
+    },
+    "revenue_fy0": {
+      "value": 24851.31,
+      "unit": "million",
+      "page": 74
+    },
+    "ebitda_fy2": {
+      "value": -1134.69,
+      "unit": "million",
+      "page": 298
+    },
+    "ebitda_fy1": {
+      "value": 113.72,
+      "unit": "million",
+      "page": 298
+    },
+    "ebitda_fy0": {
+      "value": 561.86,
+      "unit": "million",
+      "page": 298
+    },
+    "pat_fy2": {
+      "value": -1426.38,
+      "unit": "million",
+      "page": 74
+    },
+    "pat_fy1": {
+      "value": -118.82,
+      "unit": "million",
+      "page": 74
+    },
+    "pat_fy0": {
+      "value": 64.26,
+      "unit": "million",
+      "page": 74
+    },
+    "cfo_fy2": {
+      "value": -728.34,
+      "unit": "million",
+      "page": 75
+    },
+    "cfo_fy1": {
+      "value": 1315.52,
+      "unit": "million",
+      "page": 75
+    },
+    "cfo_fy0": {
+      "value": 498.67,
+      "unit": "million",
+      "page": 75
+    },
+    "net_worth_fy0": {
+      "value": 6604.27,
+      "unit": "million",
+      "page": 73
+    },
+    "total_debt_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": 73
+    },
+    "cash_fy0": {
+      "value": 1619.89,
+      "unit": "million",
+      "page": 73
+    },
+    "eps_fy0": {
+      "value": 0.13,
+      "unit": "rupees",
+      "page": 74
+    },
+    "ronw_fy0_pct": {
+      "value": 0.97,
+      "unit": "percent",
+      "page": 139
+    },
+    "nav_per_share_fy0": {
+      "value": 13.83,
+      "unit": "rupees",
+      "page": 139
+    },
+    "stub_period_months": 6,
+    "revenue_stub": {
+      "value": 18056.44,
+      "unit": "million",
+      "page": 74
+    },
+    "pat_stub": {
+      "value": 210.37,
+      "unit": "million",
+      "page": 74
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Blue Dart Express Limited",
+        "nse_symbol": "BLUEDART",
+        "pe": 50.7,
+        "ronw_pct": 17.25,
+        "page": 139
+      },
+      {
+        "name": "Delhivery Limited",
+        "nse_symbol": "DELHIVERY",
+        "pe": 195.07,
+        "ronw_pct": 1.75,
+        "page": 139
+      }
+    ],
+    "notes": [
+      "Price band, lot size, share counts for fresh issue/OFS and post-offer shares are [\u25cf] in the RHP.",
+      "OFS is amount-based. Amounts each seller offers (\u20b9 million): Flipkart 4,000.00; Eight Roads 1,970.00; IFC 655.49; Qualcomm 654.20; Nokia Growth Partners 593.00; NewQuest 450.00; Mirae Naver 375.00; Mirae GS Retail 375.00. Share counts are [\u25cf].",
+      "Total debt FY2025 has no single printed total. The balance sheet (page 73) shows non-current borrowings of 2.76 and current borrowings of 61.83 (\u20b9 million) at March 31, 2025, so it is left null. The 'Borrowings and Lease liabilities' figure of 1,322.32 includes lease liabilities.",
+      "The capitalisation statement (page 335, as at Sep 30, 2025) seems to swap current and non-current borrowings compared with the balance sheet (1.19 shown as current, 3.84 as non-current). The total is 5.03.",
+      "EBITDA is 'EBITDA (excluding other income)' from Other Financial Information. In the reconciliation table the FY2023 figure is garbled ('(1,13 .69)'); the clean value (1,134.69) is taken from page 298.",
+      "Promoter group holding is Nil, so the promoter pre-offer % (19.13%) is on a fully diluted basis assuming vested ESOPs are converted.",
+      "Pre-IPO placement status is unclear. CCPS were converted into 324,925,649 equity shares on Dec 29, 2025, but that is a conversion, not a placement. Equity shares worth \u20b91,515.49 million were issued in FY2025, but the date of that allotment is not on these pages.",
+      "The retail quota % is not printed on the pages provided.",
+      "Lease payments and branding/marketing objects are categorised as 'other'. The GCP and inorganic acquisition amount is [\u25cf], capped at 35% of Gross Proceeds."
+    ]
+  }
+}

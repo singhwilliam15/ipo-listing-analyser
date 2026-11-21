@@ -1,0 +1,442 @@
+{
+  "symbol": "IXIGO",
+  "rhp_file": "IXIGO.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-21T06:06:55+00:00",
+  "pages_sent": [
+    1,
+    2,
+    23,
+    24,
+    25,
+    26,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    98,
+    99,
+    100,
+    148,
+    149,
+    161,
+    162,
+    163,
+    396,
+    397,
+    405
+  ],
+  "n_pdf_pages": 556,
+  "usage": {
+    "input_tokens": 42897,
+    "output_tokens": 4173,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.39601559999999997,
+    "session_id": "eda06707-07b3-445a-b989-488c721452d4"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Le Travenues Technology Limited (ixigo)",
+    "sector": "Internet & platforms",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "March 31, 2023",
+    "stub_period_months": 9,
+    "pre_ipo_placement": null,
+    "lead_managers": "Axis Capital Limited; DAM Capital Advisors Limited; JM Financial Limited",
+    "revenue_fy2": 135.566,
+    "rhp_page_revenue_fy2": 88,
+    "revenue_fy1": 379.58,
+    "rhp_page_revenue_fy1": 88,
+    "revenue_fy0": 501.25,
+    "rhp_page_revenue_fy0": 88,
+    "ebitda_fy2": 6.143,
+    "rhp_page_ebitda_fy2": 396,
+    "ebitda_fy1": -6.954,
+    "rhp_page_ebitda_fy1": 396,
+    "ebitda_fy0": 45.045,
+    "rhp_page_ebitda_fy0": 396,
+    "pat_fy2": 7.533,
+    "rhp_page_pat_fy2": 88,
+    "pat_fy1": -21.094,
+    "rhp_page_pat_fy1": 88,
+    "pat_fy0": 23.396,
+    "rhp_page_pat_fy0": 88,
+    "cfo_fy2": -15.184,
+    "rhp_page_cfo_fy2": 89,
+    "cfo_fy1": -34.349,
+    "rhp_page_cfo_fy1": 89,
+    "cfo_fy0": 30.702,
+    "rhp_page_cfo_fy0": 89,
+    "net_worth_fy0": 373.764,
+    "rhp_page_net_worth_fy0": 87,
+    "total_debt_fy0": 0.535,
+    "rhp_page_total_debt_fy0": 87,
+    "cash_fy0": 73.125,
+    "rhp_page_cash_fy0": 87,
+    "revenue_stub": 491.021,
+    "rhp_page_revenue_stub": 88,
+    "pat_stub": 65.712,
+    "rhp_page_pat_stub": 88,
+    "price_low": null,
+    "rhp_page_price_low": 162,
+    "price_high": null,
+    "rhp_page_price_high": 162,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "rhp_page_promoter_pre_pct": 23,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 23,
+    "retail_quota_pct": null,
+    "rhp_page_retail_quota_pct": 84,
+    "pre_ipo_price": 84.52,
+    "rhp_page_pre_ipo_price": 26,
+    "eps_fy0": 0.58,
+    "rhp_page_eps_fy0": 88,
+    "ronw_fy0_pct": 5.74,
+    "rhp_page_ronw_fy0_pct": 162,
+    "nav_per_share_fy0": 9.79,
+    "rhp_page_nav_per_share_fy0": 163,
+    "fresh_issue_cr": 120.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 6.6677674,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 37.4519945,
+    "rhp_page_pre_issue_shares_cr": 84,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 84,
+    "ofs_promoter_shares_cr": 0,
+    "ofs_investor_shares_cr": 4.2777674,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "EASEMYTRIP; YATRA",
+    "n_peers": 2,
+    "peer_pe_list": [
+      54.96,
+      187.83
+    ],
+    "peer_ronw_list": [
+      36.21,
+      4.5
+    ],
+    "rhp_page_peers": 163
+  },
+  "extract": {
+    "company": "Le Travenues Technology Limited (ixigo)",
+    "sector": "Internet & platforms",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 162
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 162
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 1200.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 66677674.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "SAIF Partners India IV Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 19437465.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Peak XV Partners Investments V (formerly SCI Investments V)",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 13024000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Aloke Bajpai",
+        "kind": "other",
+        "shares_offered": {
+          "value": 11950000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Rajnish Kumar",
+        "kind": "other",
+        "shares_offered": {
+          "value": 11950000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Micromax Informatics Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 5486893.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Placid Holdings",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 3048375.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Catalyst Trusteeship Limited as trustee of Madison India Opportunities Trust Fund",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 1333513.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Madison India Capital HC",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 447428.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 374519945.0,
+      "unit": "shares",
+      "page": 84
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 84
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 23
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 23
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Part-funding working capital requirements of the Company",
+        "category": "other",
+        "amount": {
+          "value": 450.0,
+          "unit": "million",
+          "page": 148
+        }
+      },
+      {
+        "purpose": "Investments in technology and data science including cloud and server hosting, AI technology and customer engagement",
+        "category": "other",
+        "amount": {
+          "value": 258.0,
+          "unit": "million",
+          "page": 148
+        }
+      },
+      {
+        "purpose": "Funding inorganic growth through unidentified acquisitions and other strategic initiatives and general corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 148
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 84
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": 84.52,
+      "unit": "rupees",
+      "page": 26
+    },
+    "lead_managers": [
+      "Axis Capital Limited",
+      "DAM Capital Advisors Limited",
+      "JM Financial Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "March 31, 2023",
+    "revenue_fy2": {
+      "value": 1355.66,
+      "unit": "million",
+      "page": 88
+    },
+    "revenue_fy1": {
+      "value": 3795.8,
+      "unit": "million",
+      "page": 88
+    },
+    "revenue_fy0": {
+      "value": 5012.5,
+      "unit": "million",
+      "page": 88
+    },
+    "ebitda_fy2": {
+      "value": 61.43,
+      "unit": "million",
+      "page": 396
+    },
+    "ebitda_fy1": {
+      "value": -69.54,
+      "unit": "million",
+      "page": 396
+    },
+    "ebitda_fy0": {
+      "value": 450.45,
+      "unit": "million",
+      "page": 396
+    },
+    "pat_fy2": {
+      "value": 75.33,
+      "unit": "million",
+      "page": 88
+    },
+    "pat_fy1": {
+      "value": -210.94,
+      "unit": "million",
+      "page": 88
+    },
+    "pat_fy0": {
+      "value": 233.96,
+      "unit": "million",
+      "page": 88
+    },
+    "cfo_fy2": {
+      "value": -151.84,
+      "unit": "million",
+      "page": 89
+    },
+    "cfo_fy1": {
+      "value": -343.49,
+      "unit": "million",
+      "page": 89
+    },
+    "cfo_fy0": {
+      "value": 307.02,
+      "unit": "million",
+      "page": 89
+    },
+    "net_worth_fy0": {
+      "value": 3737.64,
+      "unit": "million",
+      "page": 87
+    },
+    "total_debt_fy0": {
+      "value": 5.35,
+      "unit": "million",
+      "page": 87
+    },
+    "cash_fy0": {
+      "value": 731.25,
+      "unit": "million",
+      "page": 87
+    },
+    "eps_fy0": {
+      "value": 0.58,
+      "unit": "rupees",
+      "page": 88
+    },
+    "ronw_fy0_pct": {
+      "value": 5.74,
+      "unit": "percent",
+      "page": 162
+    },
+    "nav_per_share_fy0": {
+      "value": 9.79,
+      "unit": "rupees",
+      "page": 163
+    },
+    "stub_period_months": 9,
+    "revenue_stub": {
+      "value": 4910.21,
+      "unit": "million",
+      "page": 88
+    },
+    "pat_stub": {
+      "value": 657.12,
+      "unit": "million",
+      "page": 88
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Easy Trip Planners Limited",
+        "nse_symbol": "EASEMYTRIP",
+        "pe": 54.96,
+        "ronw_pct": 36.21,
+        "page": 163
+      },
+      {
+        "name": "Yatra Online Limited",
+        "nse_symbol": "YATRA",
+        "pe": 187.83,
+        "ronw_pct": 4.5,
+        "page": 163
+      }
+    ],
+    "notes": [
+      "Company has no identifiable promoter, so promoter pre/post holding is null. Aloke Bajpai and Rajnish Kumar (founders) are classified as 'other'.",
+      "Price band, lot size, fresh issue share count and post-offer shares are shown as [\u25cf] in this RHP.",
+      "The retail quota % is not printed on these pages. QIB is at least 75% and NII at most 15%, which implies retail of about 10%, but this is not stated, so the field is left null.",
+      "total_debt_fy0: FY2023 current borrowings are 5.35 (bank overdraft) and non-current borrowings are nil. The total is not printed separately for FY2023.",
+      "pre_ipo_price 84.52 is from the secondary acquisition by Malabar India on February 16, 2024 (a transfer, not an allotment). No pre-IPO allotment within 12 months is shown on these pages, so pre_ipo_placement is left null.",
+      "Working capital and the technology/cloud investment objects are classed as 'other' (not capex). Inorganic growth plus GCP amount is [\u25cf], capped at 35% of gross proceeds.",
+      "EBITDA comes from Other Financial Information (non-GAAP). Adjusted EBITDA for FY2023 is 443.45 million.",
+      "PAT is restated profit including non-controlling interest. PAT attributable to owners for FY2023 is 216.38 million.",
+      "The FY2023 cash flow statement shows closing cash of 725.90, net of overdraft. Cash and cash equivalents on the balance sheet is 731.25.",
+      "Peer NSE symbols are inferred, not printed in the RHP. Peer P/E is based on the closing price on June 3, 2024 and FY2023 diluted EPS."
+    ]
+  }
+}

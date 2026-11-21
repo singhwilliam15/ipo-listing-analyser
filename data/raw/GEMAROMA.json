@@ -1,0 +1,386 @@
+{
+  "symbol": "GEMAROMA",
+  "rhp_file": "GEMAROMA.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:11:26+00:00",
+  "pages_sent": [
+    1,
+    2,
+    24,
+    25,
+    26,
+    27,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    101,
+    102,
+    103,
+    119,
+    120,
+    129,
+    130,
+    131,
+    350,
+    351,
+    377
+  ],
+  "n_pdf_pages": 492,
+  "usage": {
+    "input_tokens": 35676,
+    "output_tokens": 3107,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3160824,
+    "session_id": "f8c2d195-d78a-447f-b0bc-237f9fb2cbec"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Gem Aromatics Limited",
+    "sector": "Chemicals & materials",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "stub_period_months": null,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Motilal Oswal Investment Advisors Limited",
+    "revenue_fy2": 424.79300000000006,
+    "rhp_page_revenue_fy2": 89,
+    "revenue_fy1": 452.452,
+    "rhp_page_revenue_fy1": 89,
+    "revenue_fy0": 503.953,
+    "rhp_page_revenue_fy0": 89,
+    "ebitda_fy2": 66.186,
+    "rhp_page_ebitda_fy2": 350,
+    "ebitda_fy1": 78.354,
+    "rhp_page_ebitda_fy1": 350,
+    "ebitda_fy0": 88.452,
+    "rhp_page_ebitda_fy0": 350,
+    "pat_fy2": 44.672,
+    "rhp_page_pat_fy2": 89,
+    "pat_fy1": 50.104,
+    "rhp_page_pat_fy1": 89,
+    "pat_fy0": 53.38400000000001,
+    "rhp_page_pat_fy0": 89,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 283.981,
+    "rhp_page_net_worth_fy0": 26,
+    "total_debt_fy0": 222.369,
+    "rhp_page_total_debt_fy0": 26,
+    "cash_fy0": 1.131,
+    "rhp_page_cash_fy0": 87,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 130,
+    "price_high": null,
+    "rhp_page_price_high": 130,
+    "lot_size": null,
+    "promoter_pre_pct": 75.0,
+    "rhp_page_promoter_pre_pct": 25,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 26,
+    "retail_quota_pct": null,
+    "rhp_page_retail_quota_pct": 84,
+    "pre_ipo_price": null,
+    "eps_fy0": 11.39,
+    "rhp_page_eps_fy0": 89,
+    "ronw_fy0_pct": 18.8,
+    "rhp_page_ronw_fy0_pct": 350,
+    "nav_per_share_fy0": 60.61,
+    "rhp_page_nav_per_share_fy0": 131,
+    "fresh_issue_cr": 175.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.85,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 4.6852523,
+    "rhp_page_pre_issue_shares_cr": 84,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 84,
+    "ofs_promoter_shares_cr": 0.6375,
+    "ofs_investor_shares_cr": 0.2125,
+    "proceeds_debt_repayment_cr": 140.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "Clean Science and Technology Limited; Privi Speciality Chemicals Limited",
+    "n_peers": 2,
+    "peer_pe_list": [
+      57.33,
+      50.51
+    ],
+    "peer_ronw_list": [
+      18.67,
+      16.95
+    ],
+    "rhp_page_peers": 131
+  },
+  "extract": {
+    "company": "Gem Aromatics Limited",
+    "sector": "Chemicals & materials",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 130
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 130
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 1750.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 8500000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Vipul Parekh",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 3234727.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Kaksha Vipul Parekh",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 1548873.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Yash Vipul Parekh",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 1591400.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "d\u014dTERRA Enterprises, S\u00e0rl",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 2125000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 46852523.0,
+      "unit": "shares",
+      "page": 84
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 84
+    },
+    "promoter_pre_pct": {
+      "value": 75.0,
+      "unit": "percent",
+      "page": 25
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 26
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Prepayment and/or repayment of certain outstanding borrowings of the Company and Subsidiary Krystal Ingredients Private Limited",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 1400.0,
+          "unit": "million",
+          "page": 119
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 119
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 84
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Motilal Oswal Investment Advisors Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "revenue_fy2": {
+      "value": 4247.93,
+      "unit": "million",
+      "page": 89
+    },
+    "revenue_fy1": {
+      "value": 4524.52,
+      "unit": "million",
+      "page": 89
+    },
+    "revenue_fy0": {
+      "value": 5039.53,
+      "unit": "million",
+      "page": 89
+    },
+    "ebitda_fy2": {
+      "value": 661.86,
+      "unit": "million",
+      "page": 350
+    },
+    "ebitda_fy1": {
+      "value": 783.54,
+      "unit": "million",
+      "page": 350
+    },
+    "ebitda_fy0": {
+      "value": 884.52,
+      "unit": "million",
+      "page": 350
+    },
+    "pat_fy2": {
+      "value": 446.72,
+      "unit": "million",
+      "page": 89
+    },
+    "pat_fy1": {
+      "value": 501.04,
+      "unit": "million",
+      "page": 89
+    },
+    "pat_fy0": {
+      "value": 533.84,
+      "unit": "million",
+      "page": 89
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 2839.81,
+      "unit": "million",
+      "page": 26
+    },
+    "total_debt_fy0": {
+      "value": 2223.69,
+      "unit": "million",
+      "page": 26
+    },
+    "cash_fy0": {
+      "value": 11.31,
+      "unit": "million",
+      "page": 87
+    },
+    "eps_fy0": {
+      "value": 11.39,
+      "unit": "rupees",
+      "page": 89
+    },
+    "ronw_fy0_pct": {
+      "value": 18.8,
+      "unit": "percent",
+      "page": 350
+    },
+    "nav_per_share_fy0": {
+      "value": 60.61,
+      "unit": "rupees",
+      "page": 131
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Clean Science and Technology Limited",
+        "nse_symbol": null,
+        "pe": 57.33,
+        "ronw_pct": 18.67,
+        "page": 131
+      },
+      {
+        "name": "Privi Speciality Chemicals Limited",
+        "nse_symbol": null,
+        "pe": 50.51,
+        "ronw_pct": 16.95,
+        "page": 131
+      }
+    ],
+    "notes": [
+      "Price band, lot size, fresh issue share count, post-offer shares and promoter post-offer % are printed as [\u25cf] in the RHP.",
+      "The peer table on page 131 seems to continue on a page that wasn't provided. Only 2 peers are shown, but the industry P/E summary on page 130 gives a high of 374.92, a low of 36.97 and an average of 112.41, so more peers must exist.",
+      "The cash flow statement was not among the pages provided, so CFO is null.",
+      "Promoter pre-offer % of 75.00 is the promoters' sub-total. The promoter group holds 15 shares, shown as negligible.",
+      "Total borrowings of 2,223.69 = non-current 686.79 + current 1,536.90 on the balance sheet. The capitalisation statement splits the same total differently: current 1,419.85 and non-current incl. current maturities 803.84.",
+      "The RHP gives the retail portion only as 'not less than [\u25cf] shares'; no retail % is printed on these pages.",
+      "No allotment in the 12 months before the RHP. The last allotment was a bonus issue on July 14, 2023; the last priced allotment was a preferential issue on May 17, 2019 at \u20b91,021 (\u20b910 face value)."
+    ]
+  }
+}

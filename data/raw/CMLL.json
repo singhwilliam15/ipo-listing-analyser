@@ -1,0 +1,404 @@
+{
+  "symbol": "CMLL",
+  "rhp_file": "CMLL.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:27:53+00:00",
+  "pages_sent": [
+    1,
+    2,
+    25,
+    84,
+    85,
+    87,
+    88,
+    89,
+    90,
+    92,
+    117,
+    118,
+    119,
+    150,
+    151,
+    182,
+    184,
+    463,
+    464,
+    479,
+    517
+  ],
+  "n_pdf_pages": 707,
+  "usage": {
+    "input_tokens": 32110,
+    "output_tokens": 3812,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3012994,
+    "session_id": "dea8b4a0-b5dc-4217-b401-de9d96f1705b"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Caliber Mining and Logistics Limited",
+    "sector": "Infrastructure, construction & real estate",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "stub_period_months": null,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "DAM Capital Advisors Limited",
+    "revenue_fy2": 953.116,
+    "rhp_page_revenue_fy2": 90,
+    "revenue_fy1": 1430.4038,
+    "rhp_page_revenue_fy1": 90,
+    "revenue_fy0": 1677.6609,
+    "rhp_page_revenue_fy0": 90,
+    "ebitda_fy2": 243.1443,
+    "rhp_page_ebitda_fy2": 184,
+    "ebitda_fy1": 349.76769999999993,
+    "rhp_page_ebitda_fy1": 184,
+    "ebitda_fy0": 430.9196,
+    "rhp_page_ebitda_fy0": 184,
+    "pat_fy2": 95.9016,
+    "rhp_page_pat_fy2": 90,
+    "pat_fy1": 131.5488,
+    "rhp_page_pat_fy1": 90,
+    "pat_fy0": 157.9004,
+    "rhp_page_pat_fy0": 90,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 647.5396,
+    "rhp_page_net_worth_fy0": 517,
+    "total_debt_fy0": 1057.6127,
+    "rhp_page_total_debt_fy0": 517,
+    "cash_fy0": 7.3743,
+    "rhp_page_cash_fy0": 88,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": 424.0,
+    "rhp_page_pre_ipo_price": 2,
+    "eps_fy0": 29.47,
+    "rhp_page_eps_fy0": 463,
+    "ronw_fy0_pct": 24.38,
+    "rhp_page_ronw_fy0_pct": 463,
+    "nav_per_share_fy0": 120.85,
+    "rhp_page_nav_per_share_fy0": 463,
+    "fresh_issue_cr": 400.0,
+    "rhp_page_fresh_issue_cr": 84,
+    "ofs_cr": 50.0,
+    "rhp_page_ofs_cr": 84,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 84,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 84,
+    "pre_issue_shares_cr": 5.5941823,
+    "rhp_page_pre_issue_shares_cr": 84,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 84,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 208.0,
+    "proceeds_capex_cr": 167.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "Power Mech Projects Ltd; NCC Ltd; Sindhu Trade Links Ltd; Dilip Buildcon Ltd",
+    "n_peers": 4,
+    "peer_pe_list": [
+      97.15,
+      4.95
+    ],
+    "peer_ronw_list": [],
+    "rhp_page_peers": 182
+  },
+  "extract": {
+    "company": "Caliber Mining and Logistics Limited",
+    "sector": "Infrastructure, construction & real estate",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 40000.0,
+      "unit": "lakh",
+      "page": 84
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 84
+    },
+    "ofs_amount": {
+      "value": 5000.0,
+      "unit": "lakh",
+      "page": 84
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": null,
+      "page": 84
+    },
+    "selling_shareholders": [
+      {
+        "name": "Mohit Satishkumar Chadda",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": null,
+          "page": 1
+        }
+      },
+      {
+        "name": "Anuj Krishanlal Chadda",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": null,
+          "page": 1
+        }
+      },
+      {
+        "name": "Manish Krishanlal Chadda",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": null,
+          "page": 1
+        }
+      },
+      {
+        "name": "Rahul Roshanlal Chadda",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": null,
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 55941823.0,
+      "unit": "shares",
+      "page": 84
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 84
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment/prepayment, in full or part, of certain borrowings availed by the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 20800.0,
+          "unit": "lakh",
+          "page": 151
+        }
+      },
+      {
+        "purpose": "Funding capital expenditure for purchase of commercial vehicles, plant and machinery",
+        "category": "capex",
+        "amount": {
+          "value": 16700.0,
+          "unit": "lakh",
+          "page": 151
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": null,
+          "page": 151
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 424.0,
+      "unit": "rupees",
+      "page": 2
+    },
+    "lead_managers": [
+      "DAM Capital Advisors Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "revenue_fy2": {
+      "value": 95311.6,
+      "unit": "lakh",
+      "page": 90
+    },
+    "revenue_fy1": {
+      "value": 143040.38,
+      "unit": "lakh",
+      "page": 90
+    },
+    "revenue_fy0": {
+      "value": 167766.09,
+      "unit": "lakh",
+      "page": 90
+    },
+    "ebitda_fy2": {
+      "value": 24314.43,
+      "unit": "lakh",
+      "page": 184
+    },
+    "ebitda_fy1": {
+      "value": 34976.77,
+      "unit": "lakh",
+      "page": 184
+    },
+    "ebitda_fy0": {
+      "value": 43091.96,
+      "unit": "lakh",
+      "page": 184
+    },
+    "pat_fy2": {
+      "value": 9590.16,
+      "unit": "lakh",
+      "page": 90
+    },
+    "pat_fy1": {
+      "value": 13154.88,
+      "unit": "lakh",
+      "page": 90
+    },
+    "pat_fy0": {
+      "value": 15790.04,
+      "unit": "lakh",
+      "page": 90
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 64753.96,
+      "unit": "lakh",
+      "page": 517
+    },
+    "total_debt_fy0": {
+      "value": 105761.27,
+      "unit": "lakh",
+      "page": 517
+    },
+    "cash_fy0": {
+      "value": 737.43,
+      "unit": "lakh",
+      "page": 88
+    },
+    "eps_fy0": {
+      "value": 29.47,
+      "unit": "rupees",
+      "page": 463
+    },
+    "ronw_fy0_pct": {
+      "value": 24.38,
+      "unit": "percent",
+      "page": 463
+    },
+    "nav_per_share_fy0": {
+      "value": 120.85,
+      "unit": "rupees",
+      "page": 463
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Power Mech Projects Ltd",
+        "nse_symbol": null,
+        "pe": null,
+        "ronw_pct": null,
+        "page": 182
+      },
+      {
+        "name": "NCC Ltd",
+        "nse_symbol": null,
+        "pe": null,
+        "ronw_pct": null,
+        "page": 182
+      },
+      {
+        "name": "Sindhu Trade Links Ltd",
+        "nse_symbol": null,
+        "pe": 97.15,
+        "ronw_pct": null,
+        "page": 182
+      },
+      {
+        "name": "Dilip Buildcon Ltd",
+        "nse_symbol": null,
+        "pe": 4.95,
+        "ronw_pct": null,
+        "page": 182
+      }
+    ],
+    "notes": [
+      "The restated financials use different bases by year: FY2026 and FY2024 are consolidated, but FY2025 is standalone (Restated Standalone Financial Information 2025).",
+      "None of the pages provided gives the price band, lot size, share counts for the fresh issue or offer for sale, post-offer shares or promoter holding. They are printed as [\u25cf] or missing.",
+      "Each of the four promoter selling shareholders offers shares worth up to \u20b91,250.00 lakhs. The number of shares is [\u25cf].",
+      "Pre-IPO placements: 14,15,095 shares and 9,43,395 shares, both at \u20b9424 per share, totalling \u20b910,000 lakhs. The fresh issue was cut from \u20b950,000 lakhs to \u20b940,000 lakhs. The pre-IPO money will go to general corporate purposes.",
+      "Net cash from operating activities is not on the pages provided. The cash flow summary stops at 'Cash generated from operations' (FY26 43,857.55, FY25 28,903.97, FY24 7,865.59 lakhs), so CFO is left null.",
+      "EBITDA is the Operating EBITDA from the KPI table. 'Other Financial Information' (p.463) gives a different EBITDA: 43,791.47 / 35,492.92 / 24,795.23 lakhs.",
+      "Net worth is shareholders' funds of 64,753.96 lakhs (equity share capital plus other equity, p.517). Total equity including non-controlling interest is 64,754.31 lakhs. The MD&A (p.479) prints net worth as 65,754.31 lakhs, which looks like a typo.",
+      "Total debt is 105,761.27 lakhs: current borrowings 35,894.13 plus non-current 69,867.14.",
+      "The full peer comparison table is not on the pages provided. Only the four peer names and the highest and lowest P/E from the industry P/E summary (97.15 Sindhu Trade Links, 4.95 Dilip Buildcon) are shown. Peer RoNW is not available.",
+      "The retail quota percentage is not given on the pages provided.",
+      "Sector chosen as the closest match: the company is a mining and logistics contractor, and its peers are infrastructure/construction companies."
+    ]
+  }
+}

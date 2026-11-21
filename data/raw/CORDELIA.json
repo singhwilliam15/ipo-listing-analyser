@@ -1,0 +1,423 @@
+{
+  "symbol": "CORDELIA",
+  "rhp_file": "CORDELIA.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:29:04+00:00",
+  "pages_sent": [
+    1,
+    2,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    87,
+    88,
+    89,
+    106,
+    107,
+    113,
+    114,
+    115,
+    306,
+    307,
+    333
+  ],
+  "n_pdf_pages": 424,
+  "usage": {
+    "input_tokens": 33145,
+    "output_tokens": 4207,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.317583,
+    "session_id": "0e86bd41-2a0f-4ea9-b099-dd47666f524d"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Waterways Leisure Tourism Limited",
+    "sector": "Logistics & travel",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "stub_period_months": null,
+    "pre_ipo_placement": null,
+    "lead_managers": "Centrum Broking Limited",
+    "revenue_fy2": 444.06,
+    "rhp_page_revenue_fy2": 72,
+    "revenue_fy1": 590.605,
+    "rhp_page_revenue_fy1": 72,
+    "revenue_fy0": 579.745,
+    "rhp_page_revenue_fy0": 72,
+    "ebitda_fy2": 111.145,
+    "rhp_page_ebitda_fy2": 306,
+    "ebitda_fy1": 215.459,
+    "rhp_page_ebitda_fy1": 306,
+    "ebitda_fy0": 117.48,
+    "rhp_page_ebitda_fy0": 306,
+    "pat_fy2": -122.733,
+    "rhp_page_pat_fy2": 72,
+    "pat_fy1": 168.185,
+    "rhp_page_pat_fy1": 72,
+    "pat_fy0": 52.142999999999994,
+    "rhp_page_pat_fy0": 72,
+    "cfo_fy2": 230.067,
+    "rhp_page_cfo_fy2": 73,
+    "cfo_fy1": 129.669,
+    "rhp_page_cfo_fy1": 73,
+    "cfo_fy0": -96.435,
+    "rhp_page_cfo_fy0": 73,
+    "net_worth_fy0": 80.204,
+    "rhp_page_net_worth_fy0": 71,
+    "total_debt_fy0": 101.901,
+    "rhp_page_total_debt_fy0": 333,
+    "cash_fy0": 5.427,
+    "rhp_page_cash_fy0": 71,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 113,
+    "price_high": null,
+    "rhp_page_price_high": 113,
+    "lot_size": null,
+    "rhp_page_lot_size": 2,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": 10.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": null,
+    "eps_fy0": 8.02,
+    "rhp_page_eps_fy0": 72,
+    "ronw_fy0_pct": 92.7,
+    "rhp_page_ronw_fy0_pct": 114,
+    "nav_per_share_fy0": 12.31,
+    "rhp_page_nav_per_share_fy0": 114,
+    "fresh_issue_cr": 585.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 6.5154444,
+    "rhp_page_pre_issue_shares_cr": 68,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 68,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "CHALET; LEMONTREE; JUNIPER; SAMHI; TAJGVK; WONDERLA; IMAGICAA; Royal Caribbean Cruises Ltd; Carnival Corporation & PLC; Norwegian Cruise Line Holdings Ltd",
+    "n_peers": 10,
+    "peer_pe_list": [
+      25.73,
+      40.98,
+      31.9,
+      6.19,
+      4.97,
+      40.98,
+      4544.0,
+      75.79,
+      139.53,
+      79.04
+    ],
+    "peer_ronw_list": [
+      19.4,
+      11.73,
+      5.06,
+      34.07,
+      39.48,
+      4.64,
+      0.1,
+      9.37,
+      2.08,
+      4.52
+    ],
+    "rhp_page_peers": 114
+  },
+  "extract": {
+    "company": "Waterways Leisure Tourism Limited",
+    "sector": "Logistics & travel",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 113
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 113
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": 2
+    },
+    "fresh_issue_amount": {
+      "value": 5850.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 65154444.0,
+      "unit": "shares",
+      "page": 68
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 68
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Payment towards deposit/advanced lease rental and monthly lease payments to step-down subsidiary Baycruise Shipping and Leasing (IFSC) Private Limited for leasing vessels Norwegian Sky and Norwegian Sun",
+        "category": "other",
+        "amount": {
+          "value": 4800.1,
+          "unit": "million",
+          "page": 106
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 106
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 10.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Centrum Broking Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "revenue_fy2": {
+      "value": 4440.6,
+      "unit": "million",
+      "page": 72
+    },
+    "revenue_fy1": {
+      "value": 5906.05,
+      "unit": "million",
+      "page": 72
+    },
+    "revenue_fy0": {
+      "value": 5797.45,
+      "unit": "million",
+      "page": 72
+    },
+    "ebitda_fy2": {
+      "value": 1111.45,
+      "unit": "million",
+      "page": 306
+    },
+    "ebitda_fy1": {
+      "value": 2154.59,
+      "unit": "million",
+      "page": 306
+    },
+    "ebitda_fy0": {
+      "value": 1174.8,
+      "unit": "million",
+      "page": 306
+    },
+    "pat_fy2": {
+      "value": -1227.33,
+      "unit": "million",
+      "page": 72
+    },
+    "pat_fy1": {
+      "value": 1681.85,
+      "unit": "million",
+      "page": 72
+    },
+    "pat_fy0": {
+      "value": 521.43,
+      "unit": "million",
+      "page": 72
+    },
+    "cfo_fy2": {
+      "value": 2300.67,
+      "unit": "million",
+      "page": 73
+    },
+    "cfo_fy1": {
+      "value": 1296.69,
+      "unit": "million",
+      "page": 73
+    },
+    "cfo_fy0": {
+      "value": -964.35,
+      "unit": "million",
+      "page": 73
+    },
+    "net_worth_fy0": {
+      "value": 802.04,
+      "unit": "million",
+      "page": 71
+    },
+    "total_debt_fy0": {
+      "value": 1019.01,
+      "unit": "million",
+      "page": 333
+    },
+    "cash_fy0": {
+      "value": 54.27,
+      "unit": "million",
+      "page": 71
+    },
+    "eps_fy0": {
+      "value": 8.02,
+      "unit": "rupees",
+      "page": 72
+    },
+    "ronw_fy0_pct": {
+      "value": 92.7,
+      "unit": "percent",
+      "page": 114
+    },
+    "nav_per_share_fy0": {
+      "value": 12.31,
+      "unit": "rupees",
+      "page": 114
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Chalet Hotels Limited",
+        "nse_symbol": "CHALET",
+        "pe": 25.73,
+        "ronw_pct": 19.4,
+        "page": 114
+      },
+      {
+        "name": "Lemon Tree Hotels Limited",
+        "nse_symbol": "LEMONTREE",
+        "pe": 40.98,
+        "ronw_pct": 11.73,
+        "page": 114
+      },
+      {
+        "name": "Juniper Hotels Limited",
+        "nse_symbol": "JUNIPER",
+        "pe": 31.9,
+        "ronw_pct": 5.06,
+        "page": 114
+      },
+      {
+        "name": "Samhi Hotels Limited",
+        "nse_symbol": "SAMHI",
+        "pe": 6.19,
+        "ronw_pct": 34.07,
+        "page": 114
+      },
+      {
+        "name": "Taj GVK Hotels & Resorts Limited",
+        "nse_symbol": "TAJGVK",
+        "pe": 4.97,
+        "ronw_pct": 39.48,
+        "page": 114
+      },
+      {
+        "name": "Wonderla Holidays Limited",
+        "nse_symbol": "WONDERLA",
+        "pe": 40.98,
+        "ronw_pct": 4.64,
+        "page": 115
+      },
+      {
+        "name": "Imagicaa World Entertainment",
+        "nse_symbol": "IMAGICAA",
+        "pe": 4544.0,
+        "ronw_pct": 0.1,
+        "page": 115
+      },
+      {
+        "name": "Royal Caribbean Cruises Ltd",
+        "nse_symbol": null,
+        "pe": 75.79,
+        "ronw_pct": 9.37,
+        "page": 115
+      },
+      {
+        "name": "Carnival Corporation & PLC",
+        "nse_symbol": null,
+        "pe": 139.53,
+        "ronw_pct": 2.08,
+        "page": 115
+      },
+      {
+        "name": "Norwegian Cruise Line Holdings Ltd",
+        "nse_symbol": null,
+        "pe": 79.04,
+        "ronw_pct": 4.52,
+        "page": 115
+      }
+    ],
+    "notes": [
+      "This is a fresh issue only (\u20b95,850.00 million); there is no offer for sale and there are no selling shareholders.",
+      "The price band, lot size, number of fresh issue shares and post-issue share count are all printed as [\u25cf].",
+      "Promoter shareholding percentages before and after the issue are not on the pages provided.",
+      "FY2026 P&L prints profit before tax as 788.15, while profit before exceptional items is 782.51 and there are no exceptional items. 782.51 minus tax of 261.08 gives the PAT of 521.43, and the cash flow statement uses 782.51 as PBT. So 788.15 looks like a typo.",
+      "RoNW is printed as 92.70% on page 114 and as the ratio 0.92 on page 306. I used 92.70%.",
+      "Total borrowings for FY2026 are 1,019.01 million: 522.50 non-current plus 496.51 current.",
+      "Pre-IPO placement is unclear. The last allotment shown is 130,705 shares to employees at \u20b910 on May 28, 2025, which is more than 12 months before the RHP date. Pre-issue capital of 65,154,444 shares is 341,754 shares more than the 64,812,690 cumulative total shown, so a later allotment (before March 31, 2026, given share capital of 651.54 million) is not on the pages provided.",
+      "The RHP says there are no direct Indian listed peers. It compares a blend of hotel and entertainment companies plus international cruise lines. NSE symbols for the Indian peers are my own inference. Foreign peers are US-listed, so no NSE symbol is given.",
+      "Wonderla's P/E is printed as 40.98, the same as Lemon Tree's, which may be a misprint. Imagicaa's P/E of 4,544.00 is copied as printed.",
+      "The fresh issue's main object (lease deposit and rental payments to the step-down subsidiary for the vessels) is categorised as 'other' because it is a lease, not a purchase of assets.",
+      "Sector: cruise tourism, mapped to 'Logistics & travel'."
+    ]
+  }
+}

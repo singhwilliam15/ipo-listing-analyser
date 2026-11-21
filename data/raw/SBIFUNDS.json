@@ -1,0 +1,334 @@
+{
+  "symbol": "SBIFUNDS",
+  "rhp_file": "SBIFUNDS.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:28:01+00:00",
+  "pages_sent": [
+    1,
+    2,
+    22,
+    75,
+    76,
+    78,
+    79,
+    80,
+    81,
+    101,
+    102,
+    103,
+    121,
+    122,
+    124,
+    125,
+    126,
+    395,
+    396,
+    428
+  ],
+  "n_pdf_pages": 568,
+  "usage": {
+    "input_tokens": 40462,
+    "output_tokens": 3037,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3534499,
+    "session_id": "b4612fa8-6adb-49a6-996d-4f1dd9d27b7b"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "SBI Funds Management Limited",
+    "sector": "Financial services",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026 (March 31, 2026)",
+    "stub_period_months": null,
+    "pre_ipo_placement": null,
+    "lead_managers": "Kotak Mahindra Capital Company Limited; Axis Capital Limited; BofA Securities India Limited; HSBC Securities and Capital Markets (India) Private Limited; ICICI Securities Limited; Jefferies India Private Limited; JM Financial Limited; Motilal Oswal Investment Advisors Limited; SBI Capital Markets Limited",
+    "revenue_fy2": 2690.558,
+    "rhp_page_revenue_fy2": 80,
+    "revenue_fy1": 3597.757,
+    "rhp_page_revenue_fy1": 80,
+    "revenue_fy0": 4389.488,
+    "rhp_page_revenue_fy0": 80,
+    "ebitda_fy2": 2718.823,
+    "rhp_page_ebitda_fy2": 395,
+    "ebitda_fy1": 3412.942,
+    "rhp_page_ebitda_fy1": 395,
+    "ebitda_fy0": 4058.444,
+    "rhp_page_ebitda_fy0": 395,
+    "pat_fy2": 2072.785,
+    "rhp_page_pat_fy2": 80,
+    "pat_fy1": 2540.154,
+    "rhp_page_pat_fy1": 80,
+    "pat_fy0": 3067.376,
+    "rhp_page_pat_fy0": 80,
+    "cfo_fy2": 1438.206,
+    "rhp_page_cfo_fy2": 81,
+    "cfo_fy1": 1992.376,
+    "rhp_page_cfo_fy1": 81,
+    "cfo_fy0": 2487.604,
+    "rhp_page_cfo_fy0": 81,
+    "net_worth_fy0": 5963.062,
+    "rhp_page_net_worth_fy0": 79,
+    "total_debt_fy0": 0.0,
+    "rhp_page_total_debt_fy0": 428,
+    "cash_fy0": 19.739,
+    "rhp_page_cash_fy0": 79,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 126,
+    "price_high": null,
+    "rhp_page_price_high": 126,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "rhp_page_retail_quota_pct": 75,
+    "pre_ipo_price": null,
+    "eps_fy0": 15.08,
+    "rhp_page_eps_fy0": 80,
+    "ronw_fy0_pct": 43.02,
+    "rhp_page_ronw_fy0_pct": 126,
+    "nav_per_share_fy0": 29.28,
+    "rhp_page_nav_per_share_fy0": 126,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 20.3709239,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 203.6827612,
+    "rhp_page_pre_issue_shares_cr": 75,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 75,
+    "ofs_promoter_shares_cr": 20.3709239,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": null,
+    "proceeds_capex_cr": null,
+    "proceeds_gcp_cr": null,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "SBI Funds Management Limited",
+    "sector": "Financial services",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 126
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 126
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 203709239.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "State Bank of India",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 128334397.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Amundi India Holding",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 75374842.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 2036827612.0,
+      "unit": "shares",
+      "page": 75
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 75
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 75
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Kotak Mahindra Capital Company Limited",
+      "Axis Capital Limited",
+      "BofA Securities India Limited",
+      "HSBC Securities and Capital Markets (India) Private Limited",
+      "ICICI Securities Limited",
+      "Jefferies India Private Limited",
+      "JM Financial Limited",
+      "Motilal Oswal Investment Advisors Limited",
+      "SBI Capital Markets Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026 (March 31, 2026)",
+    "revenue_fy2": {
+      "value": 26905.58,
+      "unit": "million",
+      "page": 80
+    },
+    "revenue_fy1": {
+      "value": 35977.57,
+      "unit": "million",
+      "page": 80
+    },
+    "revenue_fy0": {
+      "value": 43894.88,
+      "unit": "million",
+      "page": 80
+    },
+    "ebitda_fy2": {
+      "value": 27188.23,
+      "unit": "million",
+      "page": 395
+    },
+    "ebitda_fy1": {
+      "value": 34129.42,
+      "unit": "million",
+      "page": 395
+    },
+    "ebitda_fy0": {
+      "value": 40584.44,
+      "unit": "million",
+      "page": 395
+    },
+    "pat_fy2": {
+      "value": 20727.85,
+      "unit": "million",
+      "page": 80
+    },
+    "pat_fy1": {
+      "value": 25401.54,
+      "unit": "million",
+      "page": 80
+    },
+    "pat_fy0": {
+      "value": 30673.76,
+      "unit": "million",
+      "page": 80
+    },
+    "cfo_fy2": {
+      "value": 14382.06,
+      "unit": "million",
+      "page": 81
+    },
+    "cfo_fy1": {
+      "value": 19923.76,
+      "unit": "million",
+      "page": 81
+    },
+    "cfo_fy0": {
+      "value": 24876.04,
+      "unit": "million",
+      "page": 81
+    },
+    "net_worth_fy0": {
+      "value": 59630.62,
+      "unit": "million",
+      "page": 79
+    },
+    "total_debt_fy0": {
+      "value": 0.0,
+      "unit": "million",
+      "page": 428
+    },
+    "cash_fy0": {
+      "value": 197.39,
+      "unit": "million",
+      "page": 79
+    },
+    "eps_fy0": {
+      "value": 15.08,
+      "unit": "rupees",
+      "page": 80
+    },
+    "ronw_fy0_pct": {
+      "value": 43.02,
+      "unit": "percent",
+      "page": 126
+    },
+    "nav_per_share_fy0": {
+      "value": 29.28,
+      "unit": "rupees",
+      "page": 126
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [],
+    "notes": [
+      "This is a pure Offer for Sale with no fresh issue. The company gets none of the proceeds, so objects_of_offer is empty.",
+      "The price band, lot size, offer amounts and post-offer share count are printed as [\u25cf]. The capitalisation statement says the capital structure will not change after the offer, since it is a pure OFS.",
+      "The peer comparison table (item 6 of Basis for Offer Price) begins after page 126 and is not on the pages given, so the peers list is empty. Page 126 does print industry P/E figures: highest 51.10, lowest 31.57, composite 41.64. Since an industry P/E is given, the company does have listed peers.",
+      "Total borrowings are printed as '-' (nil) in the capitalisation statement on page 428, so I recorded them as 0. This excludes lease liabilities.",
+      "The pages given do not show promoter shareholding before or after the offer, the retail quota % (printed as 'not less than [\u25cf]'), or pre-IPO placement details. The share capital history on page 103 is cut off at an October 2020 ESOP allotment.",
+      "EPS and NAV reflect the 3:1 bonus issue allotted on December 19, 2025, applied to all years.",
+      "EBITDA comes from Other Financial Information on page 395. It is calculated as PBT plus finance cost plus D&A, so it includes other income. That is why the FY2024 EBITDA margin is above 100%.",
+      "PAT is profit for the year. No separate minority interest is disclosed."
+    ]
+  }
+}

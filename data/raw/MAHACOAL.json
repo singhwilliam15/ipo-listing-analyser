@@ -1,0 +1,369 @@
+{
+  "symbol": "MAHACOAL",
+  "rhp_file": "MAHACOAL.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-21T18:51:36+00:00",
+  "pages_sent": [
+    1,
+    2,
+    20,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    108,
+    109,
+    110,
+    122,
+    123,
+    125,
+    126,
+    127,
+    475,
+    476
+  ],
+  "n_pdf_pages": 647,
+  "usage": {
+    "input_tokens": 35341,
+    "output_tokens": 3539,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.35662820000000006,
+    "session_id": "644c47d5-5b44-4732-a8a7-7cda64461cbc"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Mahanadi Coalfields Limited",
+    "sector": "Energy, power & renewables",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "stub_period_months": 6,
+    "pre_ipo_placement": "no",
+    "lead_managers": "SBI Capital Markets Limited; Axis Capital Limited; BOB Capital Markets Limited; IDBI Capital Markets & Securities Limited; IIFL Capital Services Limited",
+    "revenue_fy2": 31634.35,
+    "rhp_page_revenue_fy2": 92,
+    "revenue_fy1": 31353.02,
+    "rhp_page_revenue_fy1": 92,
+    "revenue_fy0": 30549.59,
+    "rhp_page_revenue_fy0": 92,
+    "ebitda_fy2": 16636.91,
+    "rhp_page_ebitda_fy2": 475,
+    "ebitda_fy1": 15331.11,
+    "rhp_page_ebitda_fy1": 475,
+    "ebitda_fy0": 16084.93,
+    "rhp_page_ebitda_fy0": 475,
+    "pat_fy2": 11841.55,
+    "rhp_page_pat_fy2": 92,
+    "pat_fy1": 10825.12,
+    "rhp_page_pat_fy1": 92,
+    "pat_fy0": 10698.12,
+    "rhp_page_pat_fy0": 92,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 21255.983,
+    "rhp_page_net_worth_fy0": 90,
+    "total_debt_fy0": null,
+    "rhp_page_total_debt_fy0": 91,
+    "cash_fy0": 1846.82,
+    "rhp_page_cash_fy0": 90,
+    "revenue_stub": 16093.04,
+    "rhp_page_revenue_stub": 92,
+    "pat_stub": 4880.66,
+    "rhp_page_pat_stub": 92,
+    "price_low": null,
+    "rhp_page_price_low": 126,
+    "price_high": null,
+    "rhp_page_price_high": 126,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "rhp_page_retail_quota_pct": 87,
+    "pre_ipo_price": null,
+    "eps_fy0": 16.13,
+    "rhp_page_eps_fy0": 125,
+    "ronw_fy0_pct": 53.77,
+    "rhp_page_ronw_fy0_pct": 126,
+    "nav_per_share_fy0": 32.29,
+    "rhp_page_nav_per_share_fy0": 126,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 66.18363,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 661.8363,
+    "rhp_page_pre_issue_shares_cr": 87,
+    "post_issue_shares_cr": 661.8363,
+    "rhp_page_post_issue_shares_cr": 87,
+    "ofs_promoter_shares_cr": 66.18363,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": null,
+    "proceeds_capex_cr": null,
+    "proceeds_gcp_cr": null,
+    "peers": "COALINDIA; Bharat Coking Coal Limited; NMDC; PT Bukit Asam (Persero) Tbk; Yancoal Australia Limited",
+    "n_peers": 5,
+    "peer_pe_list": [
+      8.05,
+      8.47,
+      11.4,
+      18.34
+    ],
+    "peer_ronw_list": [
+      27.8,
+      2.07,
+      23.4,
+      13.03,
+      4.83
+    ],
+    "rhp_page_peers": 127
+  },
+  "extract": {
+    "company": "Mahanadi Coalfields Limited",
+    "sector": "Energy, power & renewables",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 126
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 126
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 661836300.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Coal India Limited",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 661836300.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 6618363000.0,
+      "unit": "shares",
+      "page": 87
+    },
+    "post_issue_shares": {
+      "value": 6618363000.0,
+      "unit": "shares",
+      "page": 87
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 87
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "SBI Capital Markets Limited",
+      "Axis Capital Limited",
+      "BOB Capital Markets Limited",
+      "IDBI Capital Markets & Securities Limited",
+      "IIFL Capital Services Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "revenue_fy2": {
+      "value": 316343.5,
+      "unit": "million",
+      "page": 92
+    },
+    "revenue_fy1": {
+      "value": 313530.2,
+      "unit": "million",
+      "page": 92
+    },
+    "revenue_fy0": {
+      "value": 305495.9,
+      "unit": "million",
+      "page": 92
+    },
+    "ebitda_fy2": {
+      "value": 166369.1,
+      "unit": "million",
+      "page": 475
+    },
+    "ebitda_fy1": {
+      "value": 153311.1,
+      "unit": "million",
+      "page": 475
+    },
+    "ebitda_fy0": {
+      "value": 160849.3,
+      "unit": "million",
+      "page": 475
+    },
+    "pat_fy2": {
+      "value": 118415.5,
+      "unit": "million",
+      "page": 92
+    },
+    "pat_fy1": {
+      "value": 108251.2,
+      "unit": "million",
+      "page": 92
+    },
+    "pat_fy0": {
+      "value": 106981.2,
+      "unit": "million",
+      "page": 92
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 212559.83,
+      "unit": "million",
+      "page": 90
+    },
+    "total_debt_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": 91
+    },
+    "cash_fy0": {
+      "value": 18468.2,
+      "unit": "million",
+      "page": 90
+    },
+    "eps_fy0": {
+      "value": 16.13,
+      "unit": "rupees",
+      "page": 125
+    },
+    "ronw_fy0_pct": {
+      "value": 53.77,
+      "unit": "percent",
+      "page": 126
+    },
+    "nav_per_share_fy0": {
+      "value": 32.29,
+      "unit": "rupees",
+      "page": 126
+    },
+    "stub_period_months": 6,
+    "revenue_stub": {
+      "value": 160930.4,
+      "unit": "million",
+      "page": 92
+    },
+    "pat_stub": {
+      "value": 48806.6,
+      "unit": "million",
+      "page": 92
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Coal India Limited",
+        "nse_symbol": "COALINDIA",
+        "pe": 8.05,
+        "ronw_pct": 27.8,
+        "page": 127
+      },
+      {
+        "name": "Bharat Coking Coal Limited",
+        "nse_symbol": null,
+        "pe": null,
+        "ronw_pct": 2.07,
+        "page": 127
+      },
+      {
+        "name": "National Mineral Development Corporation Limited",
+        "nse_symbol": "NMDC",
+        "pe": 8.47,
+        "ronw_pct": 23.4,
+        "page": 127
+      },
+      {
+        "name": "PT Bukit Asam (Persero) Tbk",
+        "nse_symbol": null,
+        "pe": 11.4,
+        "ronw_pct": 13.03,
+        "page": 127
+      },
+      {
+        "name": "Yancoal Australia Limited",
+        "nse_symbol": null,
+        "pe": 18.34,
+        "ronw_pct": 4.83,
+        "page": 127
+      }
+    ],
+    "notes": [
+      "The offer is entirely an offer for sale by Coal India Limited, so there is no fresh issue and there are no objects of the offer. The company receives no proceeds.",
+      "The price band, lot size, offer amounts and retail quota are all printed as [\u25cf] in this RHP.",
+      "Promoter holding % is not printed on these pages. The capital history shows Coal India Limited, with its nominees, holding all 6,618,363,000 shares. The pre-offer stake is therefore effectively 100%, and about 90% after the offer, but these are derived figures, not printed ones.",
+      "Total borrowings at March 31, 2026 are not printed as a single total. The balance sheet on pp. 90-91 shows non-current borrowings of 23.50 million and current borrowings of 8.10 million. Total borrowings at Sep 30, 2026 are 27.60 million (p. 476).",
+      "Cash flow statement pages were not provided, so CFO is null.",
+      "Net worth here is equity attributable to owners from the balance sheet: 212,559.83 million. The 'Net Worth' in the accounting ratios (213,712.33 million on p. 475) excludes the OCI remeasurement reserve.",
+      "pat_fy0 is profit for the year including non-controlling interest. Profit attributable to owners is 106,777.40 million.",
+      "Bharat Coking Coal's P/E is printed as 'Not meaningful'. The NSE symbol for Bharat Coking Coal is not given in the RHP, so it is left null. PT Bukit Asam and Yancoal are foreign-listed peers.",
+      "No share allotments were made in the 12 months before the RHP. The only change was the August 2026 split of the face value from \u20b91,000 to \u20b92.",
+      "Classified under the Energy sector as the closest match for a coal mining company."
+    ]
+  }
+}

@@ -1,0 +1,387 @@
+{
+  "symbol": "STALLION",
+  "rhp_file": "STALLION.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-21T05:53:34+00:00",
+  "pages_sent": [
+    1,
+    24,
+    25,
+    26,
+    27,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    80,
+    81,
+    82,
+    90,
+    91,
+    113,
+    114,
+    115,
+    266,
+    267,
+    302
+  ],
+  "n_pdf_pages": 384,
+  "usage": {
+    "input_tokens": 33475,
+    "output_tokens": 3451,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.30513660000000004,
+    "session_id": "1bc5ed6f-42b7-46e0-994d-74397544458f"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Stallion India Fluorochemicals Limited",
+    "sector": "Chemicals & materials",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "FY2024",
+    "stub_period_months": 6,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Sarthi Capital Advisors Private Limited",
+    "revenue_fy2": 185.8827,
+    "rhp_page_revenue_fy2": 71,
+    "revenue_fy1": 225.5044,
+    "rhp_page_revenue_fy1": 71,
+    "revenue_fy0": 233.2358,
+    "rhp_page_revenue_fy0": 71,
+    "ebitda_fy2": 33.0088,
+    "rhp_page_ebitda_fy2": 115,
+    "ebitda_fy1": 15.5989,
+    "rhp_page_ebitda_fy1": 115,
+    "ebitda_fy0": 26.7048,
+    "rhp_page_ebitda_fy0": 115,
+    "pat_fy2": 21.109699999999997,
+    "rhp_page_pat_fy2": 71,
+    "pat_fy1": 9.753,
+    "rhp_page_pat_fy1": 71,
+    "pat_fy0": 14.7883,
+    "rhp_page_pat_fy0": 71,
+    "cfo_fy2": 7.9895,
+    "rhp_page_cfo_fy2": 72,
+    "cfo_fy1": -2.8114,
+    "rhp_page_cfo_fy1": 72,
+    "cfo_fy0": -73.4479,
+    "rhp_page_cfo_fy0": 72,
+    "net_worth_fy0": 117.9639,
+    "rhp_page_net_worth_fy0": 70,
+    "total_debt_fy0": 65.3454,
+    "rhp_page_total_debt_fy0": 70,
+    "cash_fy0": 16.1363,
+    "rhp_page_cash_fy0": 70,
+    "revenue_stub": 140.7315,
+    "rhp_page_revenue_stub": 71,
+    "pat_stub": 16.5651,
+    "rhp_page_pat_stub": 71,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": 94.63,
+    "rhp_page_promoter_pre_pct": 27,
+    "promoter_post_pct": 67.9,
+    "rhp_page_promoter_post_pct": 27,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 2.54,
+    "rhp_page_eps_fy0": 71,
+    "ronw_fy0_pct": 12.54,
+    "rhp_page_ronw_fy0_pct": 114,
+    "nav_per_share_fy0": 19.19,
+    "rhp_page_nav_per_share_fy0": 114,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": 1.785874,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.4302656,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 6.1466514,
+    "rhp_page_pre_issue_shares_cr": 68,
+    "post_issue_shares_cr": 7.9325254,
+    "rhp_page_post_issue_shares_cr": 68,
+    "ofs_promoter_shares_cr": 0.4302656,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 50.33070000000001,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "NAVINFLUOR; SRF; FLUOROCHEM",
+    "n_peers": 3,
+    "peer_pe_list": [
+      70.82,
+      49.3,
+      108.36
+    ],
+    "peer_ronw_list": [
+      10.22,
+      13.07,
+      7.07
+    ],
+    "rhp_page_peers": 115
+  },
+  "extract": {
+    "company": "Stallion India Fluorochemicals Limited",
+    "sector": "Chemicals & materials",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "lakh",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": 17858740.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "lakh",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 4302656.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Shazad Sheriar Rustomji",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 4302656.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 61466514.0,
+      "unit": "shares",
+      "page": 68
+    },
+    "post_issue_shares": {
+      "value": 79325254.0,
+      "unit": "shares",
+      "page": 68
+    },
+    "promoter_pre_pct": {
+      "value": 94.63,
+      "unit": "percent",
+      "page": 27
+    },
+    "promoter_post_pct": {
+      "value": 67.9,
+      "unit": "percent",
+      "page": 27
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding incremental working capital requirements",
+        "category": "other",
+        "amount": {
+          "value": 9500.0,
+          "unit": "lakh",
+          "page": 91
+        }
+      },
+      {
+        "purpose": "Capex for Semi-conductor & Specialty Gas debulking & blending facility, Khalapur, Maharashtra",
+        "category": "capex",
+        "amount": {
+          "value": 2915.54,
+          "unit": "lakh",
+          "page": 91
+        }
+      },
+      {
+        "purpose": "Capex for Refrigerant debulking & blending facility, Mambattu, Andhra Pradesh",
+        "category": "capex",
+        "amount": {
+          "value": 2117.53,
+          "unit": "lakh",
+          "page": 91
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "lakh",
+          "page": 91
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lead_managers": [
+      "Sarthi Capital Advisors Private Limited"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "FY2024",
+    "revenue_fy2": {
+      "value": 18588.27,
+      "unit": "lakh",
+      "page": 71
+    },
+    "revenue_fy1": {
+      "value": 22550.44,
+      "unit": "lakh",
+      "page": 71
+    },
+    "revenue_fy0": {
+      "value": 23323.58,
+      "unit": "lakh",
+      "page": 71
+    },
+    "ebitda_fy2": {
+      "value": 3300.88,
+      "unit": "lakh",
+      "page": 115
+    },
+    "ebitda_fy1": {
+      "value": 1559.89,
+      "unit": "lakh",
+      "page": 115
+    },
+    "ebitda_fy0": {
+      "value": 2670.48,
+      "unit": "lakh",
+      "page": 115
+    },
+    "pat_fy2": {
+      "value": 2110.97,
+      "unit": "lakh",
+      "page": 71
+    },
+    "pat_fy1": {
+      "value": 975.3,
+      "unit": "lakh",
+      "page": 71
+    },
+    "pat_fy0": {
+      "value": 1478.83,
+      "unit": "lakh",
+      "page": 71
+    },
+    "cfo_fy2": {
+      "value": 798.95,
+      "unit": "lakh",
+      "page": 72
+    },
+    "cfo_fy1": {
+      "value": -281.14,
+      "unit": "lakh",
+      "page": 72
+    },
+    "cfo_fy0": {
+      "value": -7344.79,
+      "unit": "lakh",
+      "page": 72
+    },
+    "net_worth_fy0": {
+      "value": 11796.39,
+      "unit": "lakh",
+      "page": 70
+    },
+    "total_debt_fy0": {
+      "value": 6534.54,
+      "unit": "lakh",
+      "page": 70
+    },
+    "cash_fy0": {
+      "value": 1613.63,
+      "unit": "lakh",
+      "page": 70
+    },
+    "eps_fy0": {
+      "value": 2.54,
+      "unit": "rupees",
+      "page": 71
+    },
+    "ronw_fy0_pct": {
+      "value": 12.54,
+      "unit": "percent",
+      "page": 114
+    },
+    "nav_per_share_fy0": {
+      "value": 19.19,
+      "unit": "rupees",
+      "page": 114
+    },
+    "stub_period_months": 6,
+    "revenue_stub": {
+      "value": 14073.15,
+      "unit": "lakh",
+      "page": 71
+    },
+    "pat_stub": {
+      "value": 1656.51,
+      "unit": "lakh",
+      "page": 71
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Navin Flourine International Limited",
+        "nse_symbol": "NAVINFLUOR",
+        "pe": 70.82,
+        "ronw_pct": 10.22,
+        "page": 115
+      },
+      {
+        "name": "SRF Limited",
+        "nse_symbol": "SRF",
+        "pe": 49.3,
+        "ronw_pct": 13.07,
+        "page": 115
+      },
+      {
+        "name": "Gujarat Fluorochemicals Limited",
+        "nse_symbol": "FLUOROCHEM",
+        "pe": 108.36,
+        "ronw_pct": 7.07,
+        "page": 115
+      }
+    ],
+    "notes": [
+      "Restated financials are not labelled consolidated, and the peer table note says they are restated standalone, so the basis is recorded as standalone.",
+      "FY2024 PAT is 1,478.83 lakh in the restated P&L (page 71) and the KPI table, but 1,478.33 lakh in the Summary of Restated Financial Information (page 27). The P&L figure is used.",
+      "The price band, lot size, issue amounts and retail quota % are [\u25cf] or not given in these pages. The retail portion is described only as 'Not less than [\u25cf] Equity Shares'.",
+      "The most recent allotment was on September 30, 2023: 63,41,514 shares at \u20b951.20 to the promoter under a slump sale agreement (consideration other than cash). This is more than 12 months before the RHP date (January 11, 2025), so pre_ipo_placement is set to false.",
+      "Working capital funding (9,500 lakh) is categorised as 'other'.",
+      "Peer NSE symbols are inferred; they are not printed in the RHP. The peer table shows Total Revenue (23,622.63) as the company's 'Sales'.",
+      "Borrowings are all current/short-term; there are no long-term borrowings."
+    ]
+  }
+}

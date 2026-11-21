@@ -1,0 +1,361 @@
+{
+  "symbol": "EMIL",
+  "rhp_file": "EMIL.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T20:52:13+00:00",
+  "pages_sent": [
+    1,
+    2,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    78,
+    79,
+    80,
+    81,
+    85,
+    86,
+    87,
+    88,
+    101,
+    102,
+    103,
+    104,
+    105,
+    272,
+    273,
+    274
+  ],
+  "n_pdf_pages": 401,
+  "usage": {
+    "input_tokens": 42193,
+    "output_tokens": 3120,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.36913,
+    "session_id": "e56c466d-d26f-4162-b6bb-eeb29ca146b4"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Electronics Mart India Limited",
+    "sector": "Consumer & retail",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2022 (March 31, 2022)",
+    "stub_period_months": 3,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Anand Rathi Advisors Limited; IIFL Securities Limited; JM Financial Limited",
+    "revenue_fy2": 3172.477,
+    "rhp_page_revenue_fy2": 66,
+    "revenue_fy1": 3201.876,
+    "rhp_page_revenue_fy1": 66,
+    "revenue_fy0": 4349.316,
+    "rhp_page_revenue_fy0": 66,
+    "ebitda_fy2": 227.641,
+    "rhp_page_ebitda_fy2": 272,
+    "ebitda_fy1": 203.881,
+    "rhp_page_ebitda_fy1": 272,
+    "ebitda_fy0": 291.938,
+    "rhp_page_ebitda_fy0": 272,
+    "pat_fy2": 81.608,
+    "rhp_page_pat_fy2": 66,
+    "pat_fy1": 58.621,
+    "rhp_page_pat_fy1": 66,
+    "pat_fy0": 103.891,
+    "rhp_page_pat_fy0": 66,
+    "cfo_fy2": 36.006,
+    "rhp_page_cfo_fy2": 67,
+    "cfo_fy1": 64.014,
+    "rhp_page_cfo_fy1": 67,
+    "cfo_fy0": 121.599,
+    "rhp_page_cfo_fy0": 67,
+    "net_worth_fy0": 596.511,
+    "rhp_page_net_worth_fy0": 65,
+    "total_debt_fy0": null,
+    "cash_fy0": 34.399,
+    "rhp_page_cash_fy0": 65,
+    "revenue_stub": 1408.445,
+    "rhp_page_revenue_stub": 66,
+    "pat_stub": 40.658,
+    "rhp_page_pat_stub": 66,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": 99.98,
+    "rhp_page_promoter_pre_pct": 79,
+    "promoter_post_pct": null,
+    "retail_quota_pct": 35.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": null,
+    "eps_fy0": 3.46,
+    "rhp_page_eps_fy0": 66,
+    "ronw_fy0_pct": 17.42,
+    "rhp_page_ronw_fy0_pct": 102,
+    "nav_per_share_fy0": 19.88,
+    "rhp_page_nav_per_share_fy0": 102,
+    "fresh_issue_cr": 500.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "fresh_issue_shares_cr": null,
+    "ofs_shares_cr": null,
+    "pre_issue_shares_cr": 30.0003,
+    "rhp_page_pre_issue_shares_cr": 64,
+    "post_issue_shares_cr": null,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 55.0,
+    "proceeds_capex_cr": 111.441,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "Aditya Vision Limited",
+    "n_peers": 1,
+    "peer_pe_list": [
+      45.7
+    ],
+    "peer_ronw_list": [
+      41.88
+    ],
+    "rhp_page_peers": 103
+  },
+  "extract": {
+    "company": "Electronics Mart India Limited",
+    "sector": "Consumer & retail",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 5000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 300003000.0,
+      "unit": "shares",
+      "page": 64
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "promoter_pre_pct": {
+      "value": 99.98,
+      "unit": "percent",
+      "page": 79
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding of capital expenditure for expansion and opening of stores and warehouses",
+        "category": "capex",
+        "amount": {
+          "value": 1114.41,
+          "unit": "million",
+          "page": 85
+        }
+      },
+      {
+        "purpose": "Funding incremental working capital requirements",
+        "category": "other",
+        "amount": {
+          "value": 2200.0,
+          "unit": "million",
+          "page": 85
+        }
+      },
+      {
+        "purpose": "Repayment / prepayment, in full or part, of all or certain borrowings availed by the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 550.0,
+          "unit": "million",
+          "page": 85
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": null,
+          "page": 85
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lead_managers": [
+      "Anand Rathi Advisors Limited",
+      "IIFL Securities Limited",
+      "JM Financial Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2022 (March 31, 2022)",
+    "revenue_fy2": {
+      "value": 31724.77,
+      "unit": "million",
+      "page": 66
+    },
+    "revenue_fy1": {
+      "value": 32018.76,
+      "unit": "million",
+      "page": 66
+    },
+    "revenue_fy0": {
+      "value": 43493.16,
+      "unit": "million",
+      "page": 66
+    },
+    "ebitda_fy2": {
+      "value": 2276.41,
+      "unit": "million",
+      "page": 272
+    },
+    "ebitda_fy1": {
+      "value": 2038.81,
+      "unit": "million",
+      "page": 272
+    },
+    "ebitda_fy0": {
+      "value": 2919.38,
+      "unit": "million",
+      "page": 272
+    },
+    "pat_fy2": {
+      "value": 816.08,
+      "unit": "million",
+      "page": 66
+    },
+    "pat_fy1": {
+      "value": 586.21,
+      "unit": "million",
+      "page": 66
+    },
+    "pat_fy0": {
+      "value": 1038.91,
+      "unit": "million",
+      "page": 66
+    },
+    "cfo_fy2": {
+      "value": 360.06,
+      "unit": "million",
+      "page": 67
+    },
+    "cfo_fy1": {
+      "value": 640.14,
+      "unit": "million",
+      "page": 67
+    },
+    "cfo_fy0": {
+      "value": 1215.99,
+      "unit": "million",
+      "page": 67
+    },
+    "net_worth_fy0": {
+      "value": 5965.11,
+      "unit": "million",
+      "page": 65
+    },
+    "total_debt_fy0": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cash_fy0": {
+      "value": 343.99,
+      "unit": "million",
+      "page": 65
+    },
+    "eps_fy0": {
+      "value": 3.46,
+      "unit": "rupees",
+      "page": 66
+    },
+    "ronw_fy0_pct": {
+      "value": 17.42,
+      "unit": "percent",
+      "page": 102
+    },
+    "nav_per_share_fy0": {
+      "value": 19.88,
+      "unit": "rupees",
+      "page": 102
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 14084.45,
+      "unit": "million",
+      "page": 66
+    },
+    "pat_stub": {
+      "value": 406.58,
+      "unit": "million",
+      "page": 66
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Aditya Vision Limited",
+        "nse_symbol": null,
+        "pe": 45.7,
+        "ronw_pct": 41.88,
+        "page": 103
+      }
+    ],
+    "notes": [
+      "Pure fresh issue of up to \u20b95,000 million; no offer for sale, so there are no selling shareholders.",
+      "Price band, lot size, fresh issue share count and post-issue shares are printed as [\u25cf] in the RHP.",
+      "Total debt for FY2022 is not printed as one figure. The balance sheet (page 65) shows non-current borrowings of 551.64 and current borrowings of 5,384.77 (\u20b9 million). Left null rather than adding them. The capitalisation statement (page 273) gives total borrowings of 4,759.11 million, but that is at June 30, 2022 (the stub period).",
+      "Promoter pre-issue holding of 99.98% covers the Promoters only (Pavan Kumar Bajaj and Karan Bajaj). The Promoter Group holds a further 53,148 shares (about 0.01%, page 80).",
+      "Working capital funding (\u20b92,200 million) is classified as 'other'.",
+      "The general corporate purposes amount is [\u25cf] and is capped at 25% of gross proceeds.",
+      "PAT is profit attributable to the shareholders of the Company. No minority interest is shown.",
+      "Peer Aditya Vision Limited: the P/E of 45.70 is based on basic EPS, with closing price on BSE as of September 22, 2022. NSE symbol not given.",
+      "Financials are restated consolidated. The stub period is the three months ended June 30, 2022."
+    ]
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "symbol": "TENNIND",
+  "rhp_file": "TENNIND.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:04:23+00:00",
+  "pages_sent": [
+    1,
+    2,
+    23,
+    24,
+    25,
+    26,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    151,
+    152,
+    153,
+    167,
+    168,
+    170,
+    171,
+    172,
+    489,
+    490,
+    536
+  ],
+  "n_pdf_pages": 674,
+  "usage": {
+    "input_tokens": 39379,
+    "output_tokens": 3339,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.35071769999999997,
+    "session_id": "ef39ad4a-a261-4b07-bfbf-2ebfe3ea51b4"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Tenneco Clean Air India Limited",
+    "sector": "Auto & auto components",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "stub_period_months": 3,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "JM Financial Limited; Citigroup Global Markets India Private Limited; Axis Capital Limited; HSBC Securities and Capital Markets (India) Private Limited",
+    "revenue_fy2": 4827.368,
+    "rhp_page_revenue_fy2": 137,
+    "revenue_fy1": 5467.612,
+    "rhp_page_revenue_fy1": 137,
+    "revenue_fy0": 4890.43,
+    "rhp_page_revenue_fy0": 137,
+    "ebitda_fy2": 570.634,
+    "rhp_page_ebitda_fy2": 490,
+    "ebitda_fy1": 612.085,
+    "rhp_page_ebitda_fy1": 490,
+    "ebitda_fy0": 815.239,
+    "rhp_page_ebitda_fy0": 490,
+    "pat_fy2": 381.043,
+    "rhp_page_pat_fy2": 137,
+    "pat_fy1": 416.787,
+    "rhp_page_pat_fy1": 137,
+    "pat_fy0": 553.143,
+    "rhp_page_pat_fy0": 137,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 1609.97,
+    "rhp_page_net_worth_fy0": 135,
+    "total_debt_fy0": 0.0,
+    "rhp_page_total_debt_fy0": 135,
+    "cash_fy0": 285.898,
+    "rhp_page_cash_fy0": 135,
+    "revenue_stub": 1285.621,
+    "rhp_page_revenue_stub": 137,
+    "pat_stub": 168.088,
+    "rhp_page_pat_stub": 137,
+    "price_low": null,
+    "rhp_page_price_low": 172,
+    "price_high": null,
+    "rhp_page_price_high": 172,
+    "lot_size": null,
+    "promoter_pre_pct": 97.25,
+    "rhp_page_promoter_pre_pct": 24,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 24,
+    "retail_quota_pct": null,
+    "pre_ipo_price": 288.85,
+    "rhp_page_pre_ipo_price": 152,
+    "eps_fy0": 13.68,
+    "rhp_page_eps_fy0": 172,
+    "ronw_fy0_pct": 46.65,
+    "rhp_page_ronw_fy0_pct": 489,
+    "nav_per_share_fy0": 31.1,
+    "rhp_page_nav_per_share_fy0": 489,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": 3600.0,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 40.3604309,
+    "rhp_page_pre_issue_shares_cr": 132,
+    "post_issue_shares_cr": 40.3604309,
+    "rhp_page_post_issue_shares_cr": 132,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": null,
+    "proceeds_capex_cr": null,
+    "proceeds_gcp_cr": null,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "Tenneco Clean Air India Limited",
+    "sector": "Auto & auto components",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 172
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 172
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": 36000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Tenneco Mauritius Holdings Limited",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 403604309.0,
+      "unit": "shares",
+      "page": 132
+    },
+    "post_issue_shares": {
+      "value": 403604309.0,
+      "unit": "shares",
+      "page": 132
+    },
+    "promoter_pre_pct": {
+      "value": 97.25,
+      "unit": "percent",
+      "page": 24
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 24
+    },
+    "objects_of_offer": [],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 288.85,
+      "unit": "rupees",
+      "page": 152
+    },
+    "lead_managers": [
+      "JM Financial Limited",
+      "Citigroup Global Markets India Private Limited",
+      "Axis Capital Limited",
+      "HSBC Securities and Capital Markets (India) Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "revenue_fy2": {
+      "value": 48273.68,
+      "unit": "million",
+      "page": 137
+    },
+    "revenue_fy1": {
+      "value": 54676.12,
+      "unit": "million",
+      "page": 137
+    },
+    "revenue_fy0": {
+      "value": 48904.3,
+      "unit": "million",
+      "page": 137
+    },
+    "ebitda_fy2": {
+      "value": 5706.34,
+      "unit": "million",
+      "page": 490
+    },
+    "ebitda_fy1": {
+      "value": 6120.85,
+      "unit": "million",
+      "page": 490
+    },
+    "ebitda_fy0": {
+      "value": 8152.39,
+      "unit": "million",
+      "page": 490
+    },
+    "pat_fy2": {
+      "value": 3810.43,
+      "unit": "million",
+      "page": 137
+    },
+    "pat_fy1": {
+      "value": 4167.87,
+      "unit": "million",
+      "page": 137
+    },
+    "pat_fy0": {
+      "value": 5531.43,
+      "unit": "million",
+      "page": 137
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 16099.7,
+      "unit": "million",
+      "page": 135
+    },
+    "total_debt_fy0": {
+      "value": 0.0,
+      "unit": "million",
+      "page": 135
+    },
+    "cash_fy0": {
+      "value": 2858.98,
+      "unit": "million",
+      "page": 135
+    },
+    "eps_fy0": {
+      "value": 13.68,
+      "unit": "rupees",
+      "page": 172
+    },
+    "ronw_fy0_pct": {
+      "value": 46.65,
+      "unit": "percent",
+      "page": 489
+    },
+    "nav_per_share_fy0": {
+      "value": 31.1,
+      "unit": "rupees",
+      "page": 489
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 12856.21,
+      "unit": "million",
+      "page": 137
+    },
+    "pat_stub": {
+      "value": 1680.88,
+      "unit": "million",
+      "page": 137
+    },
+    "no_listed_peers": false,
+    "peers": [],
+    "notes": [
+      "This is a pure Offer for Sale by Tenneco Mauritius Holdings Limited. There is no fresh issue, so the company receives no proceeds and objects_of_offer is empty. Pre-offer and post-offer shares are the same: 403,604,309.",
+      "The price band, lot size, number of OFS shares and retail quota are [\u25cf] or not on the pages provided. Page 133 states only that the NII portion is not less than 15%.",
+      "Net worth is taken as 'Equity attributable to owners of Parent' (16,099.70 million, page 135). The summary table (page 25) shows a lower 'Net Worth' of 12,550.93 million because it excludes capital reserve, capital reserve on business combination, capital redemption reserve, stock compensation reserve and NCI. NAV and RoNW are calculated on that lower definition.",
+      "Borrowings at March 31, 2025 are printed as '-' (nil) on page 135 and in the capitalisation statement, so total_debt_fy0 is recorded as 0. Vendor bill financing of 503.44 million is shown separately and is not included in borrowings.",
+      "Net cash from operating activities: the cash flow statement is not on the pages provided.",
+      "The peer comparison table is not on the pages provided. Page 172 gives only the industry P/E: highest 75.92, lowest 9.67, average 48.34. The peers named are Bosch, Timken India, SKF India, ZF Commercial Vehicle Control System India, Sharda Motor Industries, Gabriel India, Uno Minda and Sona BLW Precision Forgings.",
+      "On March 26, 2025 shares were allotted by private placement at \u20b9288.85 each to promoter entities through share swaps (non-cash consideration). The pre-offer top-10 list includes institutional investors (Kotak Life, Whiteoak, SBI Emergent and others). They probably acquired shares by secondary transfer, but the price is not on these pages.",
+      "The EPS figures are based on profit attributable to owners. Shares were restated for a business combination under common control."
+    ]
+  }
+}

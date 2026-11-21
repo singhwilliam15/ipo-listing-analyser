@@ -1,0 +1,409 @@
+{
+  "symbol": "RUSTOMJEE",
+  "rhp_file": "RUSTOMJEE.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T20:53:44+00:00",
+  "pages_sent": [
+    1,
+    2,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    98,
+    99,
+    100,
+    101,
+    114,
+    115,
+    116,
+    117,
+    130,
+    131,
+    132,
+    133,
+    134,
+    416,
+    417,
+    418,
+    457
+  ],
+  "n_pdf_pages": 563,
+  "usage": {
+    "input_tokens": 56276,
+    "output_tokens": 3461,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.4900227,
+    "session_id": "44221d87-bd4d-4f46-884f-e710aed5ce42"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Keystone Realtors Limited",
+    "sector": "Infrastructure, construction & real estate",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2022",
+    "stub_period_months": 3,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "Axis Capital Limited; Credit Suisse Securities (India) Private Limited",
+    "revenue_fy2": 1211.471,
+    "rhp_page_revenue_fy2": 86,
+    "revenue_fy1": 848.7209999999999,
+    "rhp_page_revenue_fy1": 86,
+    "revenue_fy0": 1269.368,
+    "rhp_page_revenue_fy0": 86,
+    "ebitda_fy2": 193.426,
+    "rhp_page_ebitda_fy2": 131,
+    "ebitda_fy1": 149.45,
+    "rhp_page_ebitda_fy1": 131,
+    "ebitda_fy0": 210.74299999999997,
+    "rhp_page_ebitda_fy0": 131,
+    "pat_fy2": 14.494,
+    "rhp_page_pat_fy2": 86,
+    "pat_fy1": 231.823,
+    "rhp_page_pat_fy1": 86,
+    "pat_fy0": 135.826,
+    "rhp_page_pat_fy0": 86,
+    "cfo_fy2": 351.107,
+    "rhp_page_cfo_fy2": 88,
+    "cfo_fy1": 642.461,
+    "rhp_page_cfo_fy1": 88,
+    "cfo_fy0": -109.551,
+    "rhp_page_cfo_fy0": 88,
+    "net_worth_fy0": 932.643,
+    "rhp_page_net_worth_fy0": 84,
+    "total_debt_fy0": 1557.958,
+    "rhp_page_total_debt_fy0": 25,
+    "cash_fy0": 59.715,
+    "rhp_page_cash_fy0": 84,
+    "revenue_stub": 168.557,
+    "rhp_page_revenue_stub": 86,
+    "pat_stub": 4.222,
+    "rhp_page_pat_stub": 86,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": 96.71,
+    "rhp_page_promoter_pre_pct": 25,
+    "promoter_post_pct": null,
+    "retail_quota_pct": 35.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": 499.35,
+    "rhp_page_pre_ipo_price": 101,
+    "eps_fy0": 13.96,
+    "rhp_page_eps_fy0": 130,
+    "ronw_fy0_pct": 14.97,
+    "rhp_page_ronw_fy0_pct": 131,
+    "nav_per_share_fy0": 93.24,
+    "rhp_page_nav_per_share_fy0": 131,
+    "fresh_issue_cr": 560.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": 75.0,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "ofs_shares_cr": null,
+    "pre_issue_shares_cr": 10.3526222,
+    "rhp_page_pre_issue_shares_cr": 82,
+    "post_issue_shares_cr": null,
+    "ofs_promoter_shares_cr": 0,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 341.6,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "LODHA; GODREJPROP; OBEROIRLTY; SUNTECK",
+    "n_peers": 4,
+    "peer_pe_list": [
+      36.06,
+      99.31,
+      32.16,
+      220.34
+    ],
+    "peer_ronw_list": [
+      10.3,
+      4.06,
+      10.05,
+      0.9
+    ],
+    "rhp_page_peers": 134
+  },
+  "extract": {
+    "company": "Keystone Realtors Limited",
+    "sector": "Infrastructure, construction & real estate",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 5600.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "ofs_amount": {
+      "value": 750.0,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "selling_shareholders": [
+      {
+        "name": "Boman Rustom Irani",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": null,
+          "page": 1
+        }
+      },
+      {
+        "name": "Percy Sorabji Chowdhry",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": null,
+          "page": 1
+        }
+      },
+      {
+        "name": "Chandresh Dinesh Mehta",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": null,
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 103526222.0,
+      "unit": "shares",
+      "page": 82
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "promoter_pre_pct": {
+      "value": 96.71,
+      "unit": "percent",
+      "page": 25
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment/prepayment, in full or part, of certain borrowings availed by the Company and/or certain Subsidiaries",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 3416.0,
+          "unit": "million",
+          "page": 115
+        }
+      },
+      {
+        "purpose": "Funding acquisition of future real estate projects and general corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": null,
+          "page": 115
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 499.35,
+      "unit": "rupees",
+      "page": 101
+    },
+    "lead_managers": [
+      "Axis Capital Limited",
+      "Credit Suisse Securities (India) Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2022",
+    "revenue_fy2": {
+      "value": 12114.71,
+      "unit": "million",
+      "page": 86
+    },
+    "revenue_fy1": {
+      "value": 8487.21,
+      "unit": "million",
+      "page": 86
+    },
+    "revenue_fy0": {
+      "value": 12693.68,
+      "unit": "million",
+      "page": 86
+    },
+    "ebitda_fy2": {
+      "value": 1934.26,
+      "unit": "million",
+      "page": 131
+    },
+    "ebitda_fy1": {
+      "value": 1494.5,
+      "unit": "million",
+      "page": 131
+    },
+    "ebitda_fy0": {
+      "value": 2107.43,
+      "unit": "million",
+      "page": 131
+    },
+    "pat_fy2": {
+      "value": 144.94,
+      "unit": "million",
+      "page": 86
+    },
+    "pat_fy1": {
+      "value": 2318.23,
+      "unit": "million",
+      "page": 86
+    },
+    "pat_fy0": {
+      "value": 1358.26,
+      "unit": "million",
+      "page": 86
+    },
+    "cfo_fy2": {
+      "value": 3511.07,
+      "unit": "million",
+      "page": 88
+    },
+    "cfo_fy1": {
+      "value": 6424.61,
+      "unit": "million",
+      "page": 88
+    },
+    "cfo_fy0": {
+      "value": -1095.51,
+      "unit": "million",
+      "page": 88
+    },
+    "net_worth_fy0": {
+      "value": 9326.43,
+      "unit": "million",
+      "page": 84
+    },
+    "total_debt_fy0": {
+      "value": 15579.58,
+      "unit": "million",
+      "page": 25
+    },
+    "cash_fy0": {
+      "value": 597.15,
+      "unit": "million",
+      "page": 84
+    },
+    "eps_fy0": {
+      "value": 13.96,
+      "unit": "rupees",
+      "page": 130
+    },
+    "ronw_fy0_pct": {
+      "value": 14.97,
+      "unit": "percent",
+      "page": 131
+    },
+    "nav_per_share_fy0": {
+      "value": 93.24,
+      "unit": "rupees",
+      "page": 131
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 1685.57,
+      "unit": "million",
+      "page": 86
+    },
+    "pat_stub": {
+      "value": 42.22,
+      "unit": "million",
+      "page": 86
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Macrotech Developers Limited",
+        "nse_symbol": "LODHA",
+        "pe": 36.06,
+        "ronw_pct": 10.3,
+        "page": 134
+      },
+      {
+        "name": "Godrej Properties Limited",
+        "nse_symbol": "GODREJPROP",
+        "pe": 99.31,
+        "ronw_pct": 4.06,
+        "page": 134
+      },
+      {
+        "name": "Oberoi Realty Limited",
+        "nse_symbol": "OBEROIRLTY",
+        "pe": 32.16,
+        "ronw_pct": 10.05,
+        "page": 134
+      },
+      {
+        "name": "Sunteck Realty Limited",
+        "nse_symbol": "SUNTECK",
+        "pe": 220.34,
+        "ronw_pct": 0.9,
+        "page": 134
+      }
+    ],
+    "notes": [
+      "Price band, lot size and share counts for the fresh issue and OFS are shown as [\u25cf]. Only the amounts are given: fresh issue \u20b95,600 million and OFS \u20b9750 million (\u20b9375m from Irani, \u20b9187.5m each from Chowdhry and Mehta).",
+      "The amount for 'Funding acquisition of future real estate projects and general corporate purposes' is [\u25cf]. It is capped at 25% of gross proceeds each and 35% combined. It is filed under gcp although part of it is for acquisitions.",
+      "EBITDA is the 'Adjusted EBITDA' from the KPI table (PAT plus tax, finance costs and depreciation, less gain on loss of control of subsidiary).",
+      "Total debt for FY2022 (15,579.58) comes from the summary on page 25. It matches non-current borrowings 1,424.32 plus current borrowings 14,155.26 on the balance sheet.",
+      "NAV per share for FY2021 is printed as 80.06 on page 25 and 80.07 on page 416. RoNW and NAV are worked out using weighted average shares.",
+      "The pre-IPO placement was a private placement on May 11, 2022 of 3,404,412 shares at \u20b9499.35 each (HDFC Capital, IIFL funds and others). OCDs were also converted on May 6, 2022 at \u20b910 per share.",
+      "The promoter-and-promoter-group pre-offer holding is 96.71%. The promoters alone hold 93.82%.",
+      "PAT includes non-controlling interest. Profit attributable to owners for FY2022 is 1,396.19 million.",
+      "Peer P/E ratios are based on the closing price on BSE on November 4, 2022. NSE symbols were not printed in the RHP and were added from general knowledge."
+    ]
+  }
+}

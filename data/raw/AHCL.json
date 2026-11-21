@@ -1,0 +1,379 @@
+{
+  "symbol": "AHCL",
+  "rhp_file": "AHCL.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:10:43+00:00",
+  "pages_sent": [
+    1,
+    2,
+    29,
+    30,
+    31,
+    32,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    103,
+    104,
+    105,
+    125,
+    126,
+    147,
+    148,
+    149,
+    294,
+    295
+  ],
+  "n_pdf_pages": 409,
+  "usage": {
+    "input_tokens": 35143,
+    "output_tokens": 3778,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3251869,
+    "session_id": "5b2808e3-082e-416d-ab18-20a7263842d9"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Anlon Healthcare Limited",
+    "sector": "Healthcare & pharma",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "Fiscal 2025 (March 31, 2025)",
+    "stub_period_months": null,
+    "pre_ipo_placement": null,
+    "lead_managers": "Interactive Financial Services Limited",
+    "revenue_fy2": 112.8774,
+    "rhp_page_revenue_fy2": 90,
+    "revenue_fy1": 66.5837,
+    "rhp_page_revenue_fy1": 90,
+    "revenue_fy0": 120.2866,
+    "rhp_page_revenue_fy0": 90,
+    "ebitda_fy2": 12.6574,
+    "rhp_page_ebitda_fy2": 149,
+    "ebitda_fy1": 15.5694,
+    "rhp_page_ebitda_fy1": 149,
+    "ebitda_fy0": 32.3773,
+    "rhp_page_ebitda_fy0": 149,
+    "pat_fy2": 5.82,
+    "rhp_page_pat_fy2": 90,
+    "pat_fy1": 9.6571,
+    "rhp_page_pat_fy1": 90,
+    "pat_fy0": 20.5179,
+    "rhp_page_pat_fy0": 90,
+    "cfo_fy2": -2.8497000000000003,
+    "rhp_page_cfo_fy2": 91,
+    "cfo_fy1": -3.2260000000000004,
+    "rhp_page_cfo_fy1": 91,
+    "cfo_fy0": -22.551799999999997,
+    "rhp_page_cfo_fy0": 91,
+    "net_worth_fy0": 80.4217,
+    "rhp_page_net_worth_fy0": 89,
+    "total_debt_fy0": 58.3474,
+    "rhp_page_total_debt_fy0": 31,
+    "cash_fy0": 1.4494999999999998,
+    "rhp_page_cash_fy0": 89,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 147,
+    "price_high": null,
+    "rhp_page_price_high": 147,
+    "lot_size": null,
+    "promoter_pre_pct": 70.26,
+    "rhp_page_promoter_pre_pct": 30,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 30,
+    "retail_quota_pct": 10.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": null,
+    "eps_fy0": 6.38,
+    "rhp_page_eps_fy0": 90,
+    "ronw_fy0_pct": 25.51,
+    "rhp_page_ronw_fy0_pct": 148,
+    "nav_per_share_fy0": 20.18,
+    "rhp_page_nav_per_share_fy0": 148,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": 1.33,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 3.98515,
+    "rhp_page_pre_issue_shares_cr": 87,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 87,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 5.0,
+    "proceeds_capex_cr": 30.7195,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "KRONOX; ACUTAAS; SUPRIYA",
+    "n_peers": 3,
+    "peer_pe_list": [
+      26.18,
+      58.47,
+      29.27
+    ],
+    "peer_ronw_list": [
+      28.26,
+      12.15,
+      18.86
+    ],
+    "rhp_page_peers": 148
+  },
+  "extract": {
+    "company": "Anlon Healthcare Limited",
+    "sector": "Healthcare & pharma",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 147
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 147
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "lakh",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": 13300000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "lakh",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 39851500.0,
+      "unit": "shares",
+      "page": 87
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 87
+    },
+    "promoter_pre_pct": {
+      "value": 70.26,
+      "unit": "percent",
+      "page": 30
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 30
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding capital expenditure requirements for the expansion of the Manufacturing Facility",
+        "category": "capex",
+        "amount": {
+          "value": 3071.95,
+          "unit": "lakh",
+          "page": 125
+        }
+      },
+      {
+        "purpose": "Full or part repayment and/or pre-payment of certain outstanding secured borrowings (term loan)",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 500.0,
+          "unit": "lakh",
+          "page": 125
+        }
+      },
+      {
+        "purpose": "Funding the working capital requirements",
+        "category": "other",
+        "amount": {
+          "value": 4315.0,
+          "unit": "lakh",
+          "page": 125
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "lakh",
+          "page": 125
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 10.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Interactive Financial Services Limited"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "Fiscal 2025 (March 31, 2025)",
+    "revenue_fy2": {
+      "value": 11287.74,
+      "unit": "lakh",
+      "page": 90
+    },
+    "revenue_fy1": {
+      "value": 6658.37,
+      "unit": "lakh",
+      "page": 90
+    },
+    "revenue_fy0": {
+      "value": 12028.66,
+      "unit": "lakh",
+      "page": 90
+    },
+    "ebitda_fy2": {
+      "value": 1265.74,
+      "unit": "lakh",
+      "page": 149
+    },
+    "ebitda_fy1": {
+      "value": 1556.94,
+      "unit": "lakh",
+      "page": 149
+    },
+    "ebitda_fy0": {
+      "value": 3237.73,
+      "unit": "lakh",
+      "page": 149
+    },
+    "pat_fy2": {
+      "value": 582.0,
+      "unit": "lakh",
+      "page": 90
+    },
+    "pat_fy1": {
+      "value": 965.71,
+      "unit": "lakh",
+      "page": 90
+    },
+    "pat_fy0": {
+      "value": 2051.79,
+      "unit": "lakh",
+      "page": 90
+    },
+    "cfo_fy2": {
+      "value": -284.97,
+      "unit": "lakh",
+      "page": 91
+    },
+    "cfo_fy1": {
+      "value": -322.6,
+      "unit": "lakh",
+      "page": 91
+    },
+    "cfo_fy0": {
+      "value": -2255.18,
+      "unit": "lakh",
+      "page": 91
+    },
+    "net_worth_fy0": {
+      "value": 8042.17,
+      "unit": "lakh",
+      "page": 89
+    },
+    "total_debt_fy0": {
+      "value": 5834.74,
+      "unit": "lakh",
+      "page": 31
+    },
+    "cash_fy0": {
+      "value": 144.95,
+      "unit": "lakh",
+      "page": 89
+    },
+    "eps_fy0": {
+      "value": 6.38,
+      "unit": "rupees",
+      "page": 90
+    },
+    "ronw_fy0_pct": {
+      "value": 25.51,
+      "unit": "percent",
+      "page": 148
+    },
+    "nav_per_share_fy0": {
+      "value": 20.18,
+      "unit": "rupees",
+      "page": 148
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "lakh",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "lakh",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Kronox Lab Sciences Limited",
+        "nse_symbol": "KRONOX",
+        "pe": 26.18,
+        "ronw_pct": 28.26,
+        "page": 148
+      },
+      {
+        "name": "Acutaas Chemicals Ltd (formerly AMI Organics Limited)",
+        "nse_symbol": "ACUTAAS",
+        "pe": 58.47,
+        "ronw_pct": 12.15,
+        "page": 148
+      },
+      {
+        "name": "Supriya Lifesciences Limited",
+        "nse_symbol": "SUPRIYA",
+        "pe": 29.27,
+        "ronw_pct": 18.86,
+        "page": 149
+      }
+    ],
+    "notes": [
+      "Fresh issue only (no OFS); price band, lot size and issue amount are [\u25cf] in the RHP pages given.",
+      "The restated statements are not labelled consolidated, and the peer table note calls them 'restated Standalone financial information', so financials_basis is set to standalone.",
+      "Total debt of 5,834.74 lakh comes from the summary (page 31) and matches non-current 3,835.70 + current 1,999.04 borrowings on the balance sheet. The capitalisation statement (page 295) shows total debts of 6,655.44 lakh (long-term 4,656.39), which does not reconcile.",
+      "Capital structure (page 103) shows an aggregate nominal value of \u20b914,00,00,000 for the 1,33,00,000-share fresh issue, which does not match \u20b910 face value (that would give \u20b913,30,00,000).",
+      "Pre-IPO placement is uncertain. The share capital history on the pages given ends with a rights issue on July 19, 2024 at \u20b910 (cumulative 3,60,00,000 shares), which is more than 12 months before the RHP date. Pre-issue shares are 3,98,51,500, so 38,51,500 more shares were allotted before March 31, 2025 (FY25 cash flow shows share premium of 1,502.09 lakh), but the date and price are not on the pages given.",
+      "Working capital funding is categorised as 'other'.",
+      "Promoter group has no shareholders; promoter holding is 70.26% before the issue.",
+      "In the cash flow statement, the 'Provision for Gratuity' (371.52) and 'Finance Cost' (30.46) amounts appear to be in each other's rows; this has no effect on the CFO totals."
+    ]
+  }
+}

@@ -1,0 +1,448 @@
+{
+  "symbol": "ELIN",
+  "rhp_file": "ELIN.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T20:54:31+00:00",
+  "pages_sent": [
+    1,
+    2,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    76,
+    77,
+    78,
+    79,
+    103,
+    104,
+    105,
+    106,
+    113,
+    114,
+    115,
+    116,
+    117,
+    300,
+    301,
+    302,
+    333
+  ],
+  "n_pdf_pages": 415,
+  "usage": {
+    "input_tokens": 58400,
+    "output_tokens": 4424,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.5264863999999999,
+    "session_id": "092548d5-e9ae-42bc-812a-c205c90881bb"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Elin Electronics Limited",
+    "sector": "Electronics & EMS",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2022",
+    "stub_period_months": 6,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Axis Capital Limited; JM Financial Limited",
+    "revenue_fy2": 785.584,
+    "rhp_page_revenue_fy2": 65,
+    "revenue_fy1": 862.378,
+    "rhp_page_revenue_fy1": 65,
+    "revenue_fy0": 1093.754,
+    "rhp_page_revenue_fy0": 65,
+    "ebitda_fy2": 56.243,
+    "rhp_page_ebitda_fy2": 115,
+    "ebitda_fy1": 69.003,
+    "rhp_page_ebitda_fy1": 115,
+    "ebitda_fy0": 79.931,
+    "rhp_page_ebitda_fy0": 115,
+    "pat_fy2": 27.487,
+    "rhp_page_pat_fy2": 65,
+    "pat_fy1": 34.857,
+    "rhp_page_pat_fy1": 65,
+    "pat_fy0": 39.147,
+    "rhp_page_pat_fy0": 65,
+    "cfo_fy2": 76.814,
+    "rhp_page_cfo_fy2": 66,
+    "cfo_fy1": -33.643,
+    "rhp_page_cfo_fy1": 66,
+    "cfo_fy0": 51.282000000000004,
+    "rhp_page_cfo_fy0": 66,
+    "net_worth_fy0": 303.07,
+    "rhp_page_net_worth_fy0": 64,
+    "total_debt_fy0": 102.332,
+    "rhp_page_total_debt_fy0": 26,
+    "cash_fy0": 4.014,
+    "rhp_page_cash_fy0": 64,
+    "revenue_stub": 604.457,
+    "rhp_page_revenue_stub": 65,
+    "pat_stub": 20.668,
+    "rhp_page_pat_stub": 65,
+    "price_low": null,
+    "rhp_page_price_low": 113,
+    "price_high": null,
+    "rhp_page_price_high": 113,
+    "lot_size": null,
+    "rhp_page_lot_size": 2,
+    "promoter_pre_pct": 53.98,
+    "rhp_page_promoter_pre_pct": 25,
+    "promoter_post_pct": null,
+    "retail_quota_pct": 35.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": null,
+    "rhp_page_pre_ipo_price": 29,
+    "eps_fy0": 9.59,
+    "rhp_page_eps_fy0": 65,
+    "ronw_fy0_pct": 12.92,
+    "rhp_page_ronw_fy0_pct": 114,
+    "nav_per_share_fy0": 74.21,
+    "rhp_page_nav_per_share_fy0": 26,
+    "fresh_issue_cr": 175.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": 300.0,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 4.25742,
+    "rhp_page_pre_issue_shares_cr": 61,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 61,
+    "ofs_promoter_shares_cr": 0,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 88.0,
+    "proceeds_capex_cr": 37.589,
+    "proceeds_gcp_cr": 0.0,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "Elin Electronics Limited",
+    "sector": "Electronics & EMS",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 113
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 113
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": 2
+    },
+    "fresh_issue_amount": {
+      "value": 1750.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": 3000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Kamal Sethia",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Suman Sethia",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Kishore Sethia",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Vasudha Sethia",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Gaurav Sethia",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Vinay Kumar Sethia",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Sumit Sethia",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Dhani Devi Sethia Trust",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Kamal Sethia & Sons HUF",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Vijay Singh Sethia",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 42574200.0,
+      "unit": "shares",
+      "page": 61
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 61
+    },
+    "promoter_pre_pct": {
+      "value": 53.98,
+      "unit": "percent",
+      "page": 25
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment/prepayment, in full or part, of certain borrowings availed by the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 880.0,
+          "unit": "million",
+          "page": 25
+        }
+      },
+      {
+        "purpose": "Capital expenditure towards upgrading and expanding existing facilities at Ghaziabad, Uttar Pradesh and Verna, Goa",
+        "category": "capex",
+        "amount": {
+          "value": 375.89,
+          "unit": "million",
+          "page": 25
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 25
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": 29
+    },
+    "lead_managers": [
+      "Axis Capital Limited",
+      "JM Financial Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2022",
+    "revenue_fy2": {
+      "value": 7855.84,
+      "unit": "million",
+      "page": 65
+    },
+    "revenue_fy1": {
+      "value": 8623.78,
+      "unit": "million",
+      "page": 65
+    },
+    "revenue_fy0": {
+      "value": 10937.54,
+      "unit": "million",
+      "page": 65
+    },
+    "ebitda_fy2": {
+      "value": 562.43,
+      "unit": "million",
+      "page": 115
+    },
+    "ebitda_fy1": {
+      "value": 690.03,
+      "unit": "million",
+      "page": 115
+    },
+    "ebitda_fy0": {
+      "value": 799.31,
+      "unit": "million",
+      "page": 115
+    },
+    "pat_fy2": {
+      "value": 274.87,
+      "unit": "million",
+      "page": 65
+    },
+    "pat_fy1": {
+      "value": 348.57,
+      "unit": "million",
+      "page": 65
+    },
+    "pat_fy0": {
+      "value": 391.47,
+      "unit": "million",
+      "page": 65
+    },
+    "cfo_fy2": {
+      "value": 768.14,
+      "unit": "million",
+      "page": 66
+    },
+    "cfo_fy1": {
+      "value": -336.43,
+      "unit": "million",
+      "page": 66
+    },
+    "cfo_fy0": {
+      "value": 512.82,
+      "unit": "million",
+      "page": 66
+    },
+    "net_worth_fy0": {
+      "value": 3030.7,
+      "unit": "million",
+      "page": 64
+    },
+    "total_debt_fy0": {
+      "value": 1023.32,
+      "unit": "million",
+      "page": 26
+    },
+    "cash_fy0": {
+      "value": 40.14,
+      "unit": "million",
+      "page": 64
+    },
+    "eps_fy0": {
+      "value": 9.59,
+      "unit": "rupees",
+      "page": 65
+    },
+    "ronw_fy0_pct": {
+      "value": 12.92,
+      "unit": "percent",
+      "page": 114
+    },
+    "nav_per_share_fy0": {
+      "value": 74.21,
+      "unit": "rupees",
+      "page": 26
+    },
+    "stub_period_months": 6,
+    "revenue_stub": {
+      "value": 6044.57,
+      "unit": "million",
+      "page": 65
+    },
+    "pat_stub": {
+      "value": 206.68,
+      "unit": "million",
+      "page": 65
+    },
+    "no_listed_peers": false,
+    "peers": [],
+    "notes": [
+      "Price band, lot size, and the number of fresh-issue and OFS shares are all printed as [\u25cf] in the RHP, so they are null. Shares offered by each selling shareholder are also [\u25cf]; the RHP gives only rupee amounts (in \u20b9 million): Kamal Sethia 171.82, Suman Sethia 305.16, Kishore Sethia 280.88, Vasudha Sethia 83.30, Gaurav Sethia 253.76, Vinay Kumar Sethia 49.61, Sumit Sethia 66.62, Dhani Devi Sethia Trust 8.09, Kamal Sethia & Sons HUF 20.52, Vijay Singh Sethia 76.29.",
+      "Page 2 says the Other Selling Shareholders together offer up to \u20b91,788.85 million. The three named on the cover add up to only \u20b9104.90 million, so there are more Other Selling Shareholders, listed on page 14, which was not provided. The selling shareholder list here is therefore incomplete. Promoter sellers (\u20b91,211.15 million) plus \u20b91,788.85 million gives the \u20b93,000 million OFS.",
+      "The cover page calls Dhani Devi Sethia Trust, Kamal Sethia & Sons HUF and Vijay Singh Sethia 'Other Selling Shareholders'. They appear in the promoter group shareholding table on page 25, so I classed them as promoter_group.",
+      "Page 26 does not reconcile: Other Selling Shareholders 'Total (B)' is shown as 19,014,200 shares but only 4.66%.",
+      "The peer comparison table was not in the pages provided. Page 114 shows only the industry P/E: highest 140.44 (Dixon Technologies), lowest 62.82 (Amber Enterprises), average 101.63. The peers list is left empty and no_listed_peers is false.",
+      "There is no pre-IPO placement and no preferential or rights allotment in the last year (only a bonus issue). Shares were transacted in the last year at a weighted average cost of \u20b985.29, in a price range of \u20b985\u2013100. No single latest transfer price is given, so pre_ipo_price is null.",
+      "Total debt for FY2022 is from page 26 and matches the balance sheet: non-current 339.64 + current 683.67.",
+      "The general corporate purposes amount is [\u25cf]; it is capped at 25% of the gross proceeds.",
+      "EPS, RoNW and NAV are based on shares after eliminating the 1,734,000 shares held by the subsidiary. An alternative EPS of 9.20 and NAV of 71.19, calculated before that elimination, are also printed.",
+      "Post-offer promoter holding is not disclosed."
+    ]
+  }
+}

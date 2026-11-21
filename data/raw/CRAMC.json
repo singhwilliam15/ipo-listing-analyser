@@ -1,0 +1,354 @@
+{
+  "symbol": "CRAMC",
+  "rhp_file": "CRAMC.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:06:18+00:00",
+  "pages_sent": [
+    1,
+    2,
+    21,
+    22,
+    23,
+    24,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    103,
+    104,
+    105,
+    130,
+    131,
+    133,
+    134,
+    135,
+    389,
+    390,
+    392
+  ],
+  "n_pdf_pages": 639,
+  "usage": {
+    "input_tokens": 36867,
+    "output_tokens": 3226,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3281119,
+    "session_id": "5368f70c-e734-4e62-887f-698da55a0aec"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Canara Robeco Asset Management Company Limited",
+    "sector": "Financial services",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "FY2025",
+    "stub_period_months": 3,
+    "pre_ipo_placement": "no",
+    "lead_managers": "SBI Capital Markets Limited; Axis Capital Limited; JM Financial Limited",
+    "revenue_fy2": 204.595,
+    "rhp_page_revenue_fy2": 89,
+    "revenue_fy1": 318.09,
+    "rhp_page_revenue_fy1": 89,
+    "revenue_fy0": 403.695,
+    "rhp_page_revenue_fy0": 89,
+    "ebitda_fy2": 112.887,
+    "rhp_page_ebitda_fy2": 389,
+    "ebitda_fy1": 201.141,
+    "rhp_page_ebitda_fy1": 389,
+    "ebitda_fy0": 264.081,
+    "rhp_page_ebitda_fy0": 389,
+    "pat_fy2": 79.001,
+    "rhp_page_pat_fy2": 89,
+    "pat_fy1": 150.995,
+    "rhp_page_pat_fy1": 89,
+    "pat_fy0": 190.704,
+    "rhp_page_pat_fy0": 89,
+    "cfo_fy2": 68.903,
+    "rhp_page_cfo_fy2": 90,
+    "cfo_fy1": 107.255,
+    "rhp_page_cfo_fy1": 90,
+    "cfo_fy0": 157.48,
+    "rhp_page_cfo_fy0": 90,
+    "net_worth_fy0": 600.056,
+    "rhp_page_net_worth_fy0": 88,
+    "total_debt_fy0": 0.0,
+    "rhp_page_total_debt_fy0": 23,
+    "cash_fy0": 0.289,
+    "rhp_page_cash_fy0": 88,
+    "revenue_stub": 121.069,
+    "rhp_page_revenue_stub": 89,
+    "pat_stub": 60.977,
+    "rhp_page_pat_stub": 89,
+    "price_low": null,
+    "rhp_page_price_low": 134,
+    "price_high": null,
+    "rhp_page_price_high": 134,
+    "lot_size": null,
+    "promoter_pre_pct": 100.0,
+    "rhp_page_promoter_pre_pct": 22,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 23,
+    "retail_quota_pct": null,
+    "rhp_page_retail_quota_pct": 85,
+    "pre_ipo_price": null,
+    "eps_fy0": 9.56,
+    "rhp_page_eps_fy0": 89,
+    "ronw_fy0_pct": 31.78,
+    "rhp_page_ronw_fy0_pct": 135,
+    "nav_per_share_fy0": 30.09,
+    "rhp_page_nav_per_share_fy0": 135,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 4.9854357,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 19.9417428,
+    "rhp_page_pre_issue_shares_cr": 103,
+    "post_issue_shares_cr": 19.9417428,
+    "rhp_page_post_issue_shares_cr": 103,
+    "ofs_promoter_shares_cr": 4.9854357,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": null,
+    "proceeds_capex_cr": null,
+    "proceeds_gcp_cr": null,
+    "peers": "HDFCAMC; UTIAM",
+    "n_peers": 2,
+    "peer_pe_list": [
+      48.21,
+      22.83
+    ],
+    "peer_ronw_list": [],
+    "rhp_page_peers": 134
+  },
+  "extract": {
+    "company": "Canara Robeco Asset Management Company Limited",
+    "sector": "Financial services",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 134
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 134
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 49854357.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Canara Bank",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 25924266.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "ORIX Corporation Europe N.V.",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 23930091.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 199417428.0,
+      "unit": "shares",
+      "page": 103
+    },
+    "post_issue_shares": {
+      "value": 199417428.0,
+      "unit": "shares",
+      "page": 103
+    },
+    "promoter_pre_pct": {
+      "value": 100.0,
+      "unit": "percent",
+      "page": 22
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 23
+    },
+    "objects_of_offer": [],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 85
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "SBI Capital Markets Limited",
+      "Axis Capital Limited",
+      "JM Financial Limited"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "FY2025",
+    "revenue_fy2": {
+      "value": 2045.95,
+      "unit": "million",
+      "page": 89
+    },
+    "revenue_fy1": {
+      "value": 3180.9,
+      "unit": "million",
+      "page": 89
+    },
+    "revenue_fy0": {
+      "value": 4036.95,
+      "unit": "million",
+      "page": 89
+    },
+    "ebitda_fy2": {
+      "value": 1128.87,
+      "unit": "million",
+      "page": 389
+    },
+    "ebitda_fy1": {
+      "value": 2011.41,
+      "unit": "million",
+      "page": 389
+    },
+    "ebitda_fy0": {
+      "value": 2640.81,
+      "unit": "million",
+      "page": 389
+    },
+    "pat_fy2": {
+      "value": 790.01,
+      "unit": "million",
+      "page": 89
+    },
+    "pat_fy1": {
+      "value": 1509.95,
+      "unit": "million",
+      "page": 89
+    },
+    "pat_fy0": {
+      "value": 1907.04,
+      "unit": "million",
+      "page": 89
+    },
+    "cfo_fy2": {
+      "value": 689.03,
+      "unit": "million",
+      "page": 90
+    },
+    "cfo_fy1": {
+      "value": 1072.55,
+      "unit": "million",
+      "page": 90
+    },
+    "cfo_fy0": {
+      "value": 1574.8,
+      "unit": "million",
+      "page": 90
+    },
+    "net_worth_fy0": {
+      "value": 6000.56,
+      "unit": "million",
+      "page": 88
+    },
+    "total_debt_fy0": {
+      "value": 0.0,
+      "unit": "million",
+      "page": 23
+    },
+    "cash_fy0": {
+      "value": 2.89,
+      "unit": "million",
+      "page": 88
+    },
+    "eps_fy0": {
+      "value": 9.56,
+      "unit": "rupees",
+      "page": 89
+    },
+    "ronw_fy0_pct": {
+      "value": 31.78,
+      "unit": "percent",
+      "page": 135
+    },
+    "nav_per_share_fy0": {
+      "value": 30.09,
+      "unit": "rupees",
+      "page": 135
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 1210.69,
+      "unit": "million",
+      "page": 89
+    },
+    "pat_stub": {
+      "value": 609.77,
+      "unit": "million",
+      "page": 89
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "HDFC Asset Management Company Limited",
+        "nse_symbol": "HDFCAMC",
+        "pe": 48.21,
+        "ronw_pct": null,
+        "page": 134
+      },
+      {
+        "name": "UTI Asset Management Company Limited",
+        "nse_symbol": "UTIAM",
+        "pe": 22.83,
+        "ronw_pct": null,
+        "page": 135
+      }
+    ],
+    "notes": [
+      "The offer is a pure Offer for Sale by the promoters Canara Bank and ORIX Corporation Europe N.V. There is no fresh issue, so the company receives no proceeds and objects_of_offer is empty.",
+      "The company has no subsidiaries. The Restated Financial Information appears to be standalone (there is no consolidated set), so financials_basis is set to standalone.",
+      "Total borrowings are printed as 'Nil' (pages 23 and 392), not a number. I recorded this as 0.",
+      "The price band, lot size, retail quota % and post-offer promoter holding are all printed as [\u25cf] or not shown on the pages provided.",
+      "The full peer comparison table (section F, from page 135 onward) was not included in the pages. Only the highest P/E (HDFC AMC, 48.21) and lowest P/E (UTI AMC, 22.83) are shown, plus an average of 34.75, which means there are other peers. Peer RoNW figures are not available, and the NSE symbols are inferred, not printed.",
+      "There was a bonus issue on September 19, 2024 (149,563,071 shares). This is not a placement. No pre-IPO placement, preferential or rights allotment appears in the pages provided.",
+      "The NAV per share for FY2024 and earlier (91.16, 65.90) is calculated without adjusting for the bonus issue, so it cannot be compared with the FY2025 figure of 30.09.",
+      "Promoter pre-offer holding is 100%: Canara Bank 51% and OCE 49%."
+    ]
+  }
+}

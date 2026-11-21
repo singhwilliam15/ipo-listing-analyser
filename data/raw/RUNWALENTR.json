@@ -1,0 +1,406 @@
+{
+  "symbol": "RUNWALENTR",
+  "rhp_file": "RUNWALENTR.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:19:16+00:00",
+  "pages_sent": [
+    1,
+    2,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    91,
+    92,
+    93,
+    104,
+    105,
+    117,
+    118,
+    119,
+    398,
+    399,
+    401
+  ],
+  "n_pdf_pages": 611,
+  "usage": {
+    "input_tokens": 33226,
+    "output_tokens": 3746,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3090195,
+    "session_id": "e6c28a22-c284-4367-82d0-eee6f0ed490c"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Runwal Enterprises Limited",
+    "sector": "Infrastructure, construction & real estate",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026 (March 31, 2026)",
+    "stub_period_months": null,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "ICICI Securities Limited; Jefferies India Private Limited",
+    "revenue_fy2": 2408.865,
+    "rhp_page_revenue_fy2": 76,
+    "revenue_fy1": 1007.766,
+    "rhp_page_revenue_fy1": 76,
+    "revenue_fy0": 1798.949,
+    "rhp_page_revenue_fy0": 76,
+    "ebitda_fy2": 201.734,
+    "rhp_page_ebitda_fy2": 398,
+    "ebitda_fy1": 180.11,
+    "rhp_page_ebitda_fy1": 398,
+    "ebitda_fy0": 349.805,
+    "rhp_page_ebitda_fy0": 398,
+    "pat_fy2": 93.7,
+    "rhp_page_pat_fy2": 76,
+    "pat_fy1": 55.648,
+    "rhp_page_pat_fy1": 76,
+    "pat_fy0": 185.763,
+    "rhp_page_pat_fy0": 76,
+    "cfo_fy2": -549.482,
+    "rhp_page_cfo_fy2": 77,
+    "cfo_fy1": -198.136,
+    "rhp_page_cfo_fy1": 77,
+    "cfo_fy0": -180.713,
+    "rhp_page_cfo_fy0": 77,
+    "net_worth_fy0": 833.5370000000001,
+    "rhp_page_net_worth_fy0": 75,
+    "total_debt_fy0": 2909.128,
+    "rhp_page_total_debt_fy0": 401,
+    "cash_fy0": 201.264,
+    "rhp_page_cash_fy0": 75,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 118,
+    "price_high": null,
+    "rhp_page_price_high": 118,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "rhp_page_retail_quota_pct": 72,
+    "pre_ipo_price": 342.49,
+    "rhp_page_pre_ipo_price": 93,
+    "eps_fy0": 16.74,
+    "rhp_page_eps_fy0": 76,
+    "ronw_fy0_pct": 27.24,
+    "rhp_page_ronw_fy0_pct": 118,
+    "nav_per_share_fy0": 61.43,
+    "rhp_page_nav_per_share_fy0": 118,
+    "fresh_issue_cr": 500.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 13.1391436,
+    "rhp_page_pre_issue_shares_cr": 72,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 72,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 325.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "OBEROIRLTY; LODHA; GODREJPROP; SUNTECK; RUSTOMJEE; PRESTIGE; KALPATARU",
+    "n_peers": 7,
+    "peer_pe_list": [
+      25.88,
+      33.42,
+      27.53,
+      21.09,
+      56.96,
+      51.7,
+      57.66
+    ],
+    "peer_ronw_list": [
+      13.99,
+      14.73,
+      9.61,
+      5.6,
+      3.32,
+      8.02,
+      1.94
+    ],
+    "rhp_page_peers": 119
+  },
+  "extract": {
+    "company": "Runwal Enterprises Limited",
+    "sector": "Infrastructure, construction & real estate",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 118
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 118
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 5000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 131391436.0,
+      "unit": "shares",
+      "page": 72
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 72
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment/pre-payment, in full or in part, of certain outstanding borrowings availed by the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 1000.0,
+          "unit": "million",
+          "page": 104
+        }
+      },
+      {
+        "purpose": "Investment in wholly owned Material Subsidiaries Runwal Residency Private Limited and Evie Real Estate Private Limited for repayment/pre-payment of their outstanding borrowings",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 2250.0,
+          "unit": "million",
+          "page": 104
+        }
+      },
+      {
+        "purpose": "Funding acquisitions of future real estate projects and general corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 104
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 72
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 342.49,
+      "unit": "rupees",
+      "page": 93
+    },
+    "lead_managers": [
+      "ICICI Securities Limited",
+      "Jefferies India Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026 (March 31, 2026)",
+    "revenue_fy2": {
+      "value": 24088.65,
+      "unit": "million",
+      "page": 76
+    },
+    "revenue_fy1": {
+      "value": 10077.66,
+      "unit": "million",
+      "page": 76
+    },
+    "revenue_fy0": {
+      "value": 17989.49,
+      "unit": "million",
+      "page": 76
+    },
+    "ebitda_fy2": {
+      "value": 2017.34,
+      "unit": "million",
+      "page": 398
+    },
+    "ebitda_fy1": {
+      "value": 1801.1,
+      "unit": "million",
+      "page": 398
+    },
+    "ebitda_fy0": {
+      "value": 3498.05,
+      "unit": "million",
+      "page": 398
+    },
+    "pat_fy2": {
+      "value": 937.0,
+      "unit": "million",
+      "page": 76
+    },
+    "pat_fy1": {
+      "value": 556.48,
+      "unit": "million",
+      "page": 76
+    },
+    "pat_fy0": {
+      "value": 1857.63,
+      "unit": "million",
+      "page": 76
+    },
+    "cfo_fy2": {
+      "value": -5494.82,
+      "unit": "million",
+      "page": 77
+    },
+    "cfo_fy1": {
+      "value": -1981.36,
+      "unit": "million",
+      "page": 77
+    },
+    "cfo_fy0": {
+      "value": -1807.13,
+      "unit": "million",
+      "page": 77
+    },
+    "net_worth_fy0": {
+      "value": 8335.37,
+      "unit": "million",
+      "page": 75
+    },
+    "total_debt_fy0": {
+      "value": 29091.28,
+      "unit": "million",
+      "page": 401
+    },
+    "cash_fy0": {
+      "value": 2012.64,
+      "unit": "million",
+      "page": 75
+    },
+    "eps_fy0": {
+      "value": 16.74,
+      "unit": "rupees",
+      "page": 76
+    },
+    "ronw_fy0_pct": {
+      "value": 27.24,
+      "unit": "percent",
+      "page": 118
+    },
+    "nav_per_share_fy0": {
+      "value": 61.43,
+      "unit": "rupees",
+      "page": 118
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Oberoi Realty Limited",
+        "nse_symbol": "OBEROIRLTY",
+        "pe": 25.88,
+        "ronw_pct": 13.99,
+        "page": 119
+      },
+      {
+        "name": "Lodha Developers Limited",
+        "nse_symbol": "LODHA",
+        "pe": 33.42,
+        "ronw_pct": 14.73,
+        "page": 119
+      },
+      {
+        "name": "Godrej Properties Limited",
+        "nse_symbol": "GODREJPROP",
+        "pe": 27.53,
+        "ronw_pct": 9.61,
+        "page": 119
+      },
+      {
+        "name": "Sunteck Realty Limited",
+        "nse_symbol": "SUNTECK",
+        "pe": 21.09,
+        "ronw_pct": 5.6,
+        "page": 119
+      },
+      {
+        "name": "Keystone Realtors Limited",
+        "nse_symbol": "RUSTOMJEE",
+        "pe": 56.96,
+        "ronw_pct": 3.32,
+        "page": 119
+      },
+      {
+        "name": "Prestige Estates Projects Limited",
+        "nse_symbol": "PRESTIGE",
+        "pe": 51.7,
+        "ronw_pct": 8.02,
+        "page": 119
+      },
+      {
+        "name": "Kalpataru Limited",
+        "nse_symbol": "KALPATARU",
+        "pe": 57.66,
+        "ronw_pct": 1.94,
+        "page": 119
+      }
+    ],
+    "notes": [
+      "Pure fresh issue of up to \u20b95,000.00 million; no offer for sale. Employee reservation up to \u20b935.00 million.",
+      "Price band, lot size, share count of fresh issue, post-issue shares and retail quota are [\u25cf] / not on given pages; retail portion shown only as 'Not less than [\u25cf]'.",
+      "Promoter shareholding percentages not on the pages provided.",
+      "Pre-IPO: 1,500 CCDs held by HDFC Capital Affordable Real Estate Fund \u2013 3 converted into 6,341,436 equity shares on Aug 28, 2026 at an effective \u20b9342.49 per share (CCDs were originally allotted Oct 19, 2024 at \u20b981.51 per share equivalent). Separately, an NCI share issue of \u20b91,500 million appears in the FY2026 cash flow.",
+      "Total assets FY2026 is printed as '10,254,4.96' (a typo) on the asset side; total equity and liabilities is printed as 1,02,544.96.",
+      "The PBT in the cash flow statement (2,239.30) is the figure before share of associate/JV, which differs from the P&L PBT of 2,239.15.",
+      "FY2024 current tax is printed as negative (668.42), and the total tax expense as (630.71), but PAT of 937.00 equals PBT minus 630.71. The signs look inconsistent.",
+      "Total debt is from the capitalisation statement (current 12,816.23 + non-current 16,275.05); lease liabilities are excluded.",
+      "NAV of 61.43 is before CCD conversion; NAV after CCD conversion is 75.00.",
+      "Peer NSE symbols are not printed in the RHP; they were filled in from general knowledge.",
+      "Amount for 'acquisitions of future real estate projects and GCP' is [\u25cf], capped at 35% of gross proceeds."
+    ]
+  }
+}

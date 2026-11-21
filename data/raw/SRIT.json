@@ -1,0 +1,391 @@
+{
+  "symbol": "SRIT",
+  "rhp_file": "SRIT.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:17:58+00:00",
+  "pages_sent": [
+    1,
+    2,
+    5,
+    6,
+    27,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    104,
+    105,
+    106,
+    107,
+    122,
+    123,
+    124,
+    125,
+    141,
+    142,
+    143,
+    144,
+    145,
+    403,
+    404,
+    405
+  ],
+  "n_pdf_pages": 540,
+  "usage": {
+    "input_tokens": 40505,
+    "output_tokens": 3573,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.36451739999999994,
+    "session_id": "19a5d9cb-51de-469c-bffa-bc08163b730d"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "SRIT India Limited",
+    "sector": "IT & software",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "stub_period_months": null,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "Choice Capital Advisors Private Limited",
+    "revenue_fy2": 271.088,
+    "rhp_page_revenue_fy2": 84,
+    "revenue_fy1": 389.347,
+    "rhp_page_revenue_fy1": 84,
+    "revenue_fy0": 449.999,
+    "rhp_page_revenue_fy0": 84,
+    "ebitda_fy2": 40.985,
+    "rhp_page_ebitda_fy2": 145,
+    "ebitda_fy1": 49.809,
+    "rhp_page_ebitda_fy1": 145,
+    "ebitda_fy0": 64.774,
+    "rhp_page_ebitda_fy0": 145,
+    "pat_fy2": 29.076,
+    "rhp_page_pat_fy2": 85,
+    "pat_fy1": 33.604,
+    "rhp_page_pat_fy1": 85,
+    "pat_fy0": 43.289,
+    "rhp_page_pat_fy0": 85,
+    "cfo_fy2": 34.161,
+    "rhp_page_cfo_fy2": 86,
+    "cfo_fy1": 17.966,
+    "rhp_page_cfo_fy1": 86,
+    "cfo_fy0": -12.101,
+    "rhp_page_cfo_fy0": 86,
+    "net_worth_fy0": 193.272,
+    "rhp_page_net_worth_fy0": 83,
+    "total_debt_fy0": 44.807,
+    "rhp_page_total_debt_fy0": 405,
+    "cash_fy0": 5.587,
+    "rhp_page_cash_fy0": 83,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 142,
+    "price_high": null,
+    "rhp_page_price_high": 142,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": 95.0,
+    "rhp_page_pre_ipo_price": 107,
+    "eps_fy0": 9.47,
+    "rhp_page_eps_fy0": 85,
+    "ronw_fy0_pct": 30.23,
+    "rhp_page_ronw_fy0_pct": 143,
+    "nav_per_share_fy0": 40.71,
+    "rhp_page_nav_per_share_fy0": 143,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": 1.68,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 4.7471757,
+    "rhp_page_pre_issue_shares_cr": 104,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 104,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 12.857,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "MASTEK; RAILTEL; PROTEAN; ADSL; AURIONPRO",
+    "n_peers": 5,
+    "peer_pe_list": [
+      12.59,
+      24.03,
+      19.8,
+      15.52,
+      18.62
+    ],
+    "peer_ronw_list": [
+      14.81,
+      16.25,
+      9.69,
+      5.85,
+      13.06
+    ],
+    "rhp_page_peers": 144
+  },
+  "extract": {
+    "company": "SRIT India Limited",
+    "sector": "IT & software",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 142
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 142
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": 16800000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 47471757.0,
+      "unit": "shares",
+      "page": 104
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 104
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding of capital expenditure requirements towards modernization of existing products and redevelopment",
+        "category": "capex",
+        "amount": {
+          "value": 128.57,
+          "unit": "million",
+          "page": 122
+        }
+      },
+      {
+        "purpose": "Funding working capital requirements of our Company",
+        "category": "other",
+        "amount": {
+          "value": 1240.0,
+          "unit": "million",
+          "page": 122
+        }
+      },
+      {
+        "purpose": "Achieving inorganic growth through unidentified acquisitions and other strategic initiatives and general corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 122
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 95.0,
+      "unit": "rupees",
+      "page": 107
+    },
+    "lead_managers": [
+      "Choice Capital Advisors Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "revenue_fy2": {
+      "value": 2710.88,
+      "unit": "million",
+      "page": 84
+    },
+    "revenue_fy1": {
+      "value": 3893.47,
+      "unit": "million",
+      "page": 84
+    },
+    "revenue_fy0": {
+      "value": 4499.99,
+      "unit": "million",
+      "page": 84
+    },
+    "ebitda_fy2": {
+      "value": 409.85,
+      "unit": "million",
+      "page": 145
+    },
+    "ebitda_fy1": {
+      "value": 498.09,
+      "unit": "million",
+      "page": 145
+    },
+    "ebitda_fy0": {
+      "value": 647.74,
+      "unit": "million",
+      "page": 145
+    },
+    "pat_fy2": {
+      "value": 290.76,
+      "unit": "million",
+      "page": 85
+    },
+    "pat_fy1": {
+      "value": 336.04,
+      "unit": "million",
+      "page": 85
+    },
+    "pat_fy0": {
+      "value": 432.89,
+      "unit": "million",
+      "page": 85
+    },
+    "cfo_fy2": {
+      "value": 341.61,
+      "unit": "million",
+      "page": 86
+    },
+    "cfo_fy1": {
+      "value": 179.66,
+      "unit": "million",
+      "page": 86
+    },
+    "cfo_fy0": {
+      "value": -121.01,
+      "unit": "million",
+      "page": 86
+    },
+    "net_worth_fy0": {
+      "value": 1932.72,
+      "unit": "million",
+      "page": 83
+    },
+    "total_debt_fy0": {
+      "value": 448.07,
+      "unit": "million",
+      "page": 405
+    },
+    "cash_fy0": {
+      "value": 55.87,
+      "unit": "million",
+      "page": 83
+    },
+    "eps_fy0": {
+      "value": 9.47,
+      "unit": "rupees",
+      "page": 85
+    },
+    "ronw_fy0_pct": {
+      "value": 30.23,
+      "unit": "percent",
+      "page": 143
+    },
+    "nav_per_share_fy0": {
+      "value": 40.71,
+      "unit": "rupees",
+      "page": 143
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Mastek Limited",
+        "nse_symbol": "MASTEK",
+        "pe": 12.59,
+        "ronw_pct": 14.81,
+        "page": 144
+      },
+      {
+        "name": "Railtel Corporation of India Limited",
+        "nse_symbol": "RAILTEL",
+        "pe": 24.03,
+        "ronw_pct": 16.25,
+        "page": 144
+      },
+      {
+        "name": "Protean eGov Technologies Ltd",
+        "nse_symbol": "PROTEAN",
+        "pe": 19.8,
+        "ronw_pct": 9.69,
+        "page": 144
+      },
+      {
+        "name": "Allied Digital Services Limited",
+        "nse_symbol": "ADSL",
+        "pe": 15.52,
+        "ronw_pct": 5.85,
+        "page": 144
+      },
+      {
+        "name": "Aurionpro Solutions Limited",
+        "nse_symbol": "AURIONPRO",
+        "pe": 18.62,
+        "ronw_pct": 13.06,
+        "page": 144
+      }
+    ],
+    "notes": [
+      "The issue is a fresh issue only, with no offer for sale. The price band, lot size, issue amount and post-issue shares are shown as [\u25cf] in the RHP.",
+      "EBITDA comes from the KPI table (page 145), which defines it after subtracting other income. Page 403 also shows a separate 'EBITDA' including other income: 773.13 / 609.64 / 521.18 million for FY26 / FY25 / FY24. It labels the KPI figure 'Operating EBITDA'.",
+      "Total debt of 448.07 million is the Capitalisation Statement's total borrowings, which includes lease liabilities. The balance sheet shows borrowings of 195.01 million non-current and 166.45 million current, excluding lease liabilities.",
+      "Pre-IPO placements: private placements at \u20b995 per share were made on Aug 11, Sep 10, Oct 08 and Nov 18, 2025. A loan was converted into equity at \u20b970 on Apr 28, 2025. The Nov 18, 2025 placement is within 12 months of the RHP dated Sep 22, 2026.",
+      "Promoter shareholding percentages and the retail quota are not on the pages provided.",
+      "The working capital object (1,240.00 million) is categorised as 'other'. The combined object for inorganic growth/unidentified acquisitions and GCP is [\u25cf] and is categorised as gcp.",
+      "RoNW for FY26 is 30.23% in the RoNW and KPI tables, while the qualitative section states ROE of 29.98%.",
+      "Aurionpro's revenue is printed as '1,4110.85' in the peer table (14,110.85 million)."
+    ]
+  }
+}

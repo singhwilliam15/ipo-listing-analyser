@@ -1,0 +1,412 @@
+{
+  "symbol": "HAPPYFORGE",
+  "rhp_file": "HAPPYFORGE.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T21:02:03+00:00",
+  "pages_sent": [
+    1,
+    2,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    97,
+    98,
+    99,
+    100,
+    116,
+    117,
+    118,
+    119,
+    130,
+    131,
+    132,
+    133,
+    134,
+    381,
+    382,
+    383
+  ],
+  "n_pdf_pages": 524,
+  "usage": {
+    "input_tokens": 51982,
+    "output_tokens": 3311,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.45224000000000003,
+    "session_id": "0d28706d-f48e-470f-a0ca-2ea2c24d5b6b"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Happy Forgings Limited",
+    "sector": "Auto & auto components",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023 (March 31, 2023)",
+    "stub_period_months": 6,
+    "pre_ipo_placement": "no",
+    "lead_managers": "JM Financial Limited; Axis Capital Limited; Equirus Capital Private Limited; Motilal Oswal Investment Advisors Limited",
+    "revenue_fy2": 584.958,
+    "rhp_page_revenue_fy2": 83,
+    "revenue_fy1": 860.046,
+    "rhp_page_revenue_fy1": 83,
+    "revenue_fy0": 1196.53,
+    "rhp_page_revenue_fy0": 83,
+    "ebitda_fy2": 158.746,
+    "rhp_page_ebitda_fy2": 133,
+    "ebitda_fy1": 230.887,
+    "rhp_page_ebitda_fy1": 133,
+    "ebitda_fy0": 340.94,
+    "rhp_page_ebitda_fy0": 133,
+    "pat_fy2": 86.448,
+    "rhp_page_pat_fy2": 84,
+    "pat_fy1": 142.289,
+    "rhp_page_pat_fy1": 84,
+    "pat_fy0": 208.70100000000002,
+    "rhp_page_pat_fy0": 84,
+    "cfo_fy2": 49.853,
+    "rhp_page_cfo_fy2": 85,
+    "cfo_fy1": 80.294,
+    "rhp_page_cfo_fy1": 85,
+    "cfo_fy0": 209.45700000000002,
+    "rhp_page_cfo_fy0": 85,
+    "net_worth_fy0": 988.307,
+    "rhp_page_net_worth_fy0": 82,
+    "total_debt_fy0": 218.516,
+    "rhp_page_total_debt_fy0": 29,
+    "cash_fy0": 0.013,
+    "rhp_page_cash_fy0": 82,
+    "revenue_stub": 672.9,
+    "rhp_page_revenue_stub": 83,
+    "pat_stub": 119.299,
+    "rhp_page_pat_stub": 84,
+    "price_low": null,
+    "rhp_page_price_low": 131,
+    "price_high": null,
+    "rhp_page_price_high": 131,
+    "lot_size": null,
+    "promoter_pre_pct": 88.24,
+    "rhp_page_promoter_pre_pct": 28,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 28,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 23.32,
+    "rhp_page_eps_fy0": 84,
+    "ronw_fy0_pct": 21.12,
+    "rhp_page_ronw_fy0_pct": 131,
+    "nav_per_share_fy0": 110.43,
+    "rhp_page_nav_per_share_fy0": 131,
+    "fresh_issue_cr": 400.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.715992,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 8.9499,
+    "rhp_page_pre_issue_shares_cr": 80,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 80,
+    "ofs_promoter_shares_cr": 0.4922445,
+    "ofs_investor_shares_cr": 0.2237475,
+    "proceeds_debt_repayment_cr": 152.76,
+    "proceeds_capex_cr": 171.126,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "BHARATFORG; CRAFTSMAN; RKFORGE; SONACOMS",
+    "n_peers": 4,
+    "peer_pe_list": [
+      102.63,
+      43.92,
+      49.36,
+      85.56
+    ],
+    "peer_ronw_list": [
+      7.88,
+      18.04,
+      18.77,
+      17.26
+    ],
+    "rhp_page_peers": 132
+  },
+  "extract": {
+    "company": "Happy Forgings Limited",
+    "sector": "Auto & auto components",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 131
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 131
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 4000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 7159920.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Paritosh Kumar Garg (HUF)",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 4922445.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "India Business Excellence Fund \u2013 III",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 2237475.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 89499000.0,
+      "unit": "shares",
+      "page": 80
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 80
+    },
+    "promoter_pre_pct": {
+      "value": 88.24,
+      "unit": "percent",
+      "page": 28
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 28
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Purchase of equipment, plant and machinery",
+        "category": "capex",
+        "amount": {
+          "value": 1711.26,
+          "unit": "million",
+          "page": 28
+        }
+      },
+      {
+        "purpose": "Prepayment of all or a portion of certain outstanding borrowings availed by the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 1527.6,
+          "unit": "million",
+          "page": 28
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 28
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "JM Financial Limited",
+      "Axis Capital Limited",
+      "Equirus Capital Private Limited",
+      "Motilal Oswal Investment Advisors Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023 (March 31, 2023)",
+    "revenue_fy2": {
+      "value": 5849.58,
+      "unit": "million",
+      "page": 83
+    },
+    "revenue_fy1": {
+      "value": 8600.46,
+      "unit": "million",
+      "page": 83
+    },
+    "revenue_fy0": {
+      "value": 11965.3,
+      "unit": "million",
+      "page": 83
+    },
+    "ebitda_fy2": {
+      "value": 1587.46,
+      "unit": "million",
+      "page": 133
+    },
+    "ebitda_fy1": {
+      "value": 2308.87,
+      "unit": "million",
+      "page": 133
+    },
+    "ebitda_fy0": {
+      "value": 3409.4,
+      "unit": "million",
+      "page": 133
+    },
+    "pat_fy2": {
+      "value": 864.48,
+      "unit": "million",
+      "page": 84
+    },
+    "pat_fy1": {
+      "value": 1422.89,
+      "unit": "million",
+      "page": 84
+    },
+    "pat_fy0": {
+      "value": 2087.01,
+      "unit": "million",
+      "page": 84
+    },
+    "cfo_fy2": {
+      "value": 498.53,
+      "unit": "million",
+      "page": 85
+    },
+    "cfo_fy1": {
+      "value": 802.94,
+      "unit": "million",
+      "page": 85
+    },
+    "cfo_fy0": {
+      "value": 2094.57,
+      "unit": "million",
+      "page": 85
+    },
+    "net_worth_fy0": {
+      "value": 9883.07,
+      "unit": "million",
+      "page": 82
+    },
+    "total_debt_fy0": {
+      "value": 2185.16,
+      "unit": "million",
+      "page": 29
+    },
+    "cash_fy0": {
+      "value": 0.13,
+      "unit": "million",
+      "page": 82
+    },
+    "eps_fy0": {
+      "value": 23.32,
+      "unit": "rupees",
+      "page": 84
+    },
+    "ronw_fy0_pct": {
+      "value": 21.12,
+      "unit": "percent",
+      "page": 131
+    },
+    "nav_per_share_fy0": {
+      "value": 110.43,
+      "unit": "rupees",
+      "page": 131
+    },
+    "stub_period_months": 6,
+    "revenue_stub": {
+      "value": 6729.0,
+      "unit": "million",
+      "page": 83
+    },
+    "pat_stub": {
+      "value": 1192.99,
+      "unit": "million",
+      "page": 84
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Bharat Forge Limited",
+        "nse_symbol": "BHARATFORG",
+        "pe": 102.63,
+        "ronw_pct": 7.88,
+        "page": 132
+      },
+      {
+        "name": "Craftsman Automation Limited",
+        "nse_symbol": "CRAFTSMAN",
+        "pe": 43.92,
+        "ronw_pct": 18.04,
+        "page": 132
+      },
+      {
+        "name": "Ramkrishna Forgings Limited",
+        "nse_symbol": "RKFORGE",
+        "pe": 49.36,
+        "ronw_pct": 18.77,
+        "page": 132
+      },
+      {
+        "name": "Sona BLW Precision Forgings Limited",
+        "nse_symbol": "SONACOMS",
+        "pe": 85.56,
+        "ronw_pct": 17.26,
+        "page": 132
+      }
+    ],
+    "notes": [
+      "The financial years have different bases: FY2023, FY2022 and the six months to Sep 30, 2022 are consolidated, while FY2021 and the six months to Sep 30, 2023 (the stub) are standalone.",
+      "Net worth for FY2023 is 9,883.07 million in the restated balance sheet (p.82) but 9,883.06 million in the summary table (p.28). The balance sheet figure is used.",
+      "Price band, lot size, number of fresh issue shares, post-offer shares and the general corporate purposes amount are all printed as [\u25cf].",
+      "The retail quota is not on the pages provided; the Offer Structure section (p.471) was not included.",
+      "pre_ipo_placement is set to false because the weighted average cost of acquisition for the last year is Nil and Promoter acquisitions were by gift. The full share capital history after 2004 was not provided.",
+      "Motilal Oswal Investment Advisors is acting only as marketing lead manager because it is an associate of the investor selling shareholder.",
+      "Peer NSE symbols are inferred; they are not printed in the RHP."
+    ]
+  }
+}

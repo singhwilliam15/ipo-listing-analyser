@@ -1,0 +1,418 @@
+{
+  "symbol": "INDIASHLTR",
+  "rhp_file": "INDIASHLTR.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T21:01:05+00:00",
+  "pages_sent": [
+    1,
+    2,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    98,
+    99,
+    100,
+    101,
+    139,
+    140,
+    141,
+    142,
+    147,
+    148,
+    149,
+    150,
+    151,
+    400,
+    401,
+    402,
+    433
+  ],
+  "n_pdf_pages": 538,
+  "usage": {
+    "input_tokens": 57325,
+    "output_tokens": 3758,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.504459,
+    "session_id": "43e4477b-44d8-4d8c-bc0f-549b30df8ca7"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "India Shelter Finance Corporation Limited",
+    "sector": "Banking & NBFC",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023 (March 31, 2023)",
+    "stub_period_months": 6,
+    "pre_ipo_placement": null,
+    "lead_managers": "ICICI Securities Limited; Citigroup Global Markets India Private Limited; Kotak Mahindra Capital Company Limited; Ambit Private Limited",
+    "revenue_fy2": 316.707,
+    "rhp_page_revenue_fy2": 85,
+    "revenue_fy1": 447.978,
+    "rhp_page_revenue_fy1": 85,
+    "revenue_fy0": 584.53,
+    "rhp_page_revenue_fy0": 85,
+    "ebitda_fy2": 222.63,
+    "rhp_page_ebitda_fy2": 400,
+    "ebitda_fy1": 320.859,
+    "rhp_page_ebitda_fy1": 400,
+    "ebitda_fy0": 418.8310000000001,
+    "rhp_page_ebitda_fy0": 400,
+    "pat_fy2": 87.389,
+    "rhp_page_pat_fy2": 85,
+    "pat_fy1": 128.447,
+    "rhp_page_pat_fy1": 85,
+    "pat_fy0": 155.342,
+    "rhp_page_pat_fy0": 85,
+    "cfo_fy2": -420.851,
+    "rhp_page_cfo_fy2": 86,
+    "cfo_fy1": -495.282,
+    "rhp_page_cfo_fy1": 86,
+    "cfo_fy0": -852.182,
+    "rhp_page_cfo_fy0": 86,
+    "net_worth_fy0": 1240.528,
+    "rhp_page_net_worth_fy0": 84,
+    "total_debt_fy0": 2973.428,
+    "rhp_page_total_debt_fy0": 26,
+    "cash_fy0": 360.944,
+    "rhp_page_cash_fy0": 84,
+    "revenue_stub": 385.991,
+    "rhp_page_revenue_stub": 85,
+    "pat_stub": 107.354,
+    "rhp_page_pat_stub": 85,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": 56.7,
+    "rhp_page_promoter_pre_pct": 26,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 17.75,
+    "rhp_page_eps_fy0": 85,
+    "ronw_fy0_pct": 13.4,
+    "rhp_page_ronw_fy0_pct": 149,
+    "nav_per_share_fy0": 141.38,
+    "rhp_page_nav_per_share_fy0": 149,
+    "fresh_issue_cr": 800.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": 400.0,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "ofs_shares_cr": null,
+    "pre_issue_shares_cr": 9.0823956,
+    "rhp_page_pre_issue_shares_cr": 81,
+    "post_issue_shares_cr": null,
+    "ofs_promoter_shares_cr": 0,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "APTUS; AAVAS; HOMEFIRST",
+    "n_peers": 3,
+    "peer_pe_list": [
+      29.9,
+      27.4,
+      37.7
+    ],
+    "peer_ronw_list": [
+      16.1,
+      14.1,
+      13.5
+    ],
+    "rhp_page_peers": 149
+  },
+  "extract": {
+    "company": "India Shelter Finance Corporation Limited",
+    "sector": "Banking & NBFC",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 8000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "ofs_amount": {
+      "value": 4000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "selling_shareholders": [
+      {
+        "name": "Catalyst Trusteeship Limited (as trustee of MICP Trust)",
+        "kind": "investor",
+        "shares_offered": {
+          "value": null,
+          "unit": null,
+          "page": null
+        }
+      },
+      {
+        "name": "Catalyst Trusteeship Limited (as trustee of Madison India Opportunities Trust Fund)",
+        "kind": "investor",
+        "shares_offered": {
+          "value": null,
+          "unit": null,
+          "page": null
+        }
+      },
+      {
+        "name": "Madison India Opportunities IV",
+        "kind": "investor",
+        "shares_offered": {
+          "value": null,
+          "unit": null,
+          "page": null
+        }
+      },
+      {
+        "name": "MIO Starrock",
+        "kind": "investor",
+        "shares_offered": {
+          "value": null,
+          "unit": null,
+          "page": null
+        }
+      },
+      {
+        "name": "Nexus Ventures III, Ltd.",
+        "kind": "investor",
+        "shares_offered": {
+          "value": null,
+          "unit": null,
+          "page": null
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 90823956.0,
+      "unit": "shares",
+      "page": 81
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "promoter_pre_pct": {
+      "value": 56.7,
+      "unit": "percent",
+      "page": 26
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "To meet future capital requirements towards onward lending",
+        "category": "other",
+        "amount": {
+          "value": 6400.0,
+          "unit": "million",
+          "page": 140
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": null,
+          "page": null
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lead_managers": [
+      "ICICI Securities Limited",
+      "Citigroup Global Markets India Private Limited",
+      "Kotak Mahindra Capital Company Limited",
+      "Ambit Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023 (March 31, 2023)",
+    "revenue_fy2": {
+      "value": 3167.07,
+      "unit": "million",
+      "page": 85
+    },
+    "revenue_fy1": {
+      "value": 4479.78,
+      "unit": "million",
+      "page": 85
+    },
+    "revenue_fy0": {
+      "value": 5845.3,
+      "unit": "million",
+      "page": 85
+    },
+    "ebitda_fy2": {
+      "value": 2226.3,
+      "unit": "million",
+      "page": 400
+    },
+    "ebitda_fy1": {
+      "value": 3208.59,
+      "unit": "million",
+      "page": 400
+    },
+    "ebitda_fy0": {
+      "value": 4188.31,
+      "unit": "million",
+      "page": 400
+    },
+    "pat_fy2": {
+      "value": 873.89,
+      "unit": "million",
+      "page": 85
+    },
+    "pat_fy1": {
+      "value": 1284.47,
+      "unit": "million",
+      "page": 85
+    },
+    "pat_fy0": {
+      "value": 1553.42,
+      "unit": "million",
+      "page": 85
+    },
+    "cfo_fy2": {
+      "value": -4208.51,
+      "unit": "million",
+      "page": 86
+    },
+    "cfo_fy1": {
+      "value": -4952.82,
+      "unit": "million",
+      "page": 86
+    },
+    "cfo_fy0": {
+      "value": -8521.82,
+      "unit": "million",
+      "page": 86
+    },
+    "net_worth_fy0": {
+      "value": 12405.28,
+      "unit": "million",
+      "page": 84
+    },
+    "total_debt_fy0": {
+      "value": 29734.28,
+      "unit": "million",
+      "page": 26
+    },
+    "cash_fy0": {
+      "value": 3609.44,
+      "unit": "million",
+      "page": 84
+    },
+    "eps_fy0": {
+      "value": 17.75,
+      "unit": "rupees",
+      "page": 85
+    },
+    "ronw_fy0_pct": {
+      "value": 13.4,
+      "unit": "percent",
+      "page": 149
+    },
+    "nav_per_share_fy0": {
+      "value": 141.38,
+      "unit": "rupees",
+      "page": 149
+    },
+    "stub_period_months": 6,
+    "revenue_stub": {
+      "value": 3859.91,
+      "unit": "million",
+      "page": 85
+    },
+    "pat_stub": {
+      "value": 1073.54,
+      "unit": "million",
+      "page": 85
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Aptus Value Housing Finance India Limited",
+        "nse_symbol": "APTUS",
+        "pe": 29.9,
+        "ronw_pct": 16.1,
+        "page": 149
+      },
+      {
+        "name": "Aavas Financiers Limited",
+        "nse_symbol": "AAVAS",
+        "pe": 27.4,
+        "ronw_pct": 14.1,
+        "page": 149
+      },
+      {
+        "name": "Home First Finance Company India Limited",
+        "nse_symbol": "HOMEFIRST",
+        "pe": 37.7,
+        "ronw_pct": 13.5,
+        "page": 150
+      }
+    ],
+    "notes": [
+      "Price band, lot size, share counts for fresh issue/OFS and post-offer shares are [\u25cf] in this RHP; only amounts are given (Fresh \u20b98,000 mn, OFS \u20b94,000 mn).",
+      "Selling shareholders' offered shares are [\u25cf]; offered amounts are: MICP Trust \u20b90.20 mn, Madison India Opportunities Trust Fund \u20b91,712.90 mn, Madison India Opportunities IV \u20b9544.30 mn, MIO Starrock \u20b9317.60 mn, Nexus Ventures III \u20b91,425.00 mn.",
+      "Promoter pre-offer holding of 56.7% is on a fully diluted basis (p26). No promoter group members other than promoters hold shares.",
+      "Total debt = total outstanding borrowings (debt securities 1,765.34 + borrowings 28,123.35) per summary table, excluding lease liabilities.",
+      "Onward lending object (\u20b96,400 mn, to augment Tier I capital) classified as 'other'; GCP amount is [\u25cf].",
+      "Retail quota not printed (Retail Portion 'not less than [\u25cf]'); offer under Reg 6(1).",
+      "Pre-IPO placement: pages show employee allotments (e.g., Anil Mehta July 18, 2023 at \u20b941.60, equity proceeds of \u20b97.89 mn + premium in H1 FY24, likely ESOP exercise); no clear pre-IPO placement identified in provided pages, so left null.",
+      "EBITDA taken from 'Other Financial Information' (p400); KPI table does not list EBITDA.",
+      "Peer P/E based on BSE closing price as on November 16, 2023."
+    ]
+  }
+}

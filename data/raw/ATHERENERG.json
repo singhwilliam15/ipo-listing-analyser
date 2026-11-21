@@ -1,0 +1,455 @@
+{
+  "symbol": "ATHERENERG",
+  "rhp_file": "ATHERENERG.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-21T05:52:39+00:00",
+  "pages_sent": [
+    1,
+    2,
+    26,
+    27,
+    28,
+    29,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    129,
+    130,
+    131,
+    171,
+    172,
+    201,
+    202,
+    203,
+    437,
+    438,
+    478
+  ],
+  "n_pdf_pages": 586,
+  "usage": {
+    "input_tokens": 39993,
+    "output_tokens": 4263,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.4087868,
+    "session_id": "0724a3f6-e130-44c0-885f-e4096c7b72a0"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Ather Energy Limited",
+    "sector": "Auto & auto components",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "FY2024 (March 31, 2024)",
+    "stub_period_months": 9,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "Axis Capital Limited; HSBC Securities and Capital Markets (India) Private Limited; JM Financial Limited; Nomura Financial Advisory and Securities (India) Private Limited",
+    "revenue_fy2": 408.9,
+    "rhp_page_revenue_fy2": 116,
+    "revenue_fy1": 1780.9,
+    "rhp_page_revenue_fy1": 116,
+    "revenue_fy0": 1753.8,
+    "rhp_page_revenue_fy0": 116,
+    "ebitda_fy2": -255.0,
+    "rhp_page_ebitda_fy2": 203,
+    "ebitda_fy1": -686.7,
+    "rhp_page_ebitda_fy1": 203,
+    "ebitda_fy0": -649.4,
+    "rhp_page_ebitda_fy0": 203,
+    "pat_fy2": -344.1,
+    "rhp_page_pat_fy2": 116,
+    "pat_fy1": -864.5,
+    "rhp_page_pat_fy1": 116,
+    "pat_fy0": -1059.7,
+    "rhp_page_pat_fy0": 116,
+    "cfo_fy2": -228.4,
+    "rhp_page_cfo_fy2": 117,
+    "cfo_fy1": -871.3,
+    "rhp_page_cfo_fy1": 117,
+    "cfo_fy0": -267.6,
+    "rhp_page_cfo_fy0": 117,
+    "net_worth_fy0": 545.9,
+    "rhp_page_net_worth_fy0": 115,
+    "total_debt_fy0": null,
+    "rhp_page_total_debt_fy0": 115,
+    "cash_fy0": 227.9,
+    "rhp_page_cash_fy0": 115,
+    "revenue_stub": 1578.9,
+    "rhp_page_revenue_stub": 116,
+    "pat_stub": -577.9,
+    "rhp_page_pat_stub": 116,
+    "price_low": null,
+    "rhp_page_price_low": 202,
+    "price_high": null,
+    "rhp_page_price_high": 202,
+    "lot_size": null,
+    "promoter_pre_pct": 51.8,
+    "rhp_page_promoter_pre_pct": 27,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 28,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": -47.0,
+    "rhp_page_eps_fy0": 116,
+    "ronw_fy0_pct": -194.0,
+    "rhp_page_ronw_fy0_pct": 202,
+    "nav_per_share_fy0": 24.0,
+    "rhp_page_nav_per_share_fy0": 437,
+    "fresh_issue_cr": 2626.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 1.1051746,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 29.0643469,
+    "rhp_page_pre_issue_shares_cr": 112,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 112,
+    "ofs_promoter_shares_cr": 0.196,
+    "ofs_investor_shares_cr": 0.9037974000000001,
+    "proceeds_debt_repayment_cr": 40.0,
+    "proceeds_capex_cr": 927.2,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "TVSMOTOR; HEROMOTOCO",
+    "n_peers": 2,
+    "peer_pe_list": [
+      68.0,
+      20.0
+    ],
+    "peer_ronw_list": [],
+    "rhp_page_peers": 202
+  },
+  "extract": {
+    "company": "Ather Energy Limited",
+    "sector": "Auto & auto components",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 202
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 202
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 26260.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 11051746.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Tarun Sanjay Mehta",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 980000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Swapnil Babanlal Jain",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 980000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Caladium Investment Pte Ltd",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 6003460.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "National Investment and Infrastructure Fund II",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 2634514.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Internet Fund III Pte. Ltd.",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 400000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "IITM Incubation Cell",
+        "kind": "other",
+        "shares_offered": {
+          "value": 31050.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "IITMS Rural Technology and Business Incubator",
+        "kind": "other",
+        "shares_offered": {
+          "value": 4191.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Amit Bhatia",
+        "kind": "other",
+        "shares_offered": {
+          "value": 18531.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 290643469.0,
+      "unit": "shares",
+      "page": 112
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 112
+    },
+    "promoter_pre_pct": {
+      "value": 51.8,
+      "unit": "percent",
+      "page": 27
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 28
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Capital expenditure for establishment of an E2W factory in Maharashtra, India",
+        "category": "capex",
+        "amount": {
+          "value": 9272.0,
+          "unit": "million",
+          "page": 171
+        }
+      },
+      {
+        "purpose": "Repayment/pre-payment, in full or part, of certain borrowings",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 400.0,
+          "unit": "million",
+          "page": 171
+        }
+      },
+      {
+        "purpose": "Investment in research and development",
+        "category": "other",
+        "amount": {
+          "value": 7500.0,
+          "unit": "million",
+          "page": 171
+        }
+      },
+      {
+        "purpose": "Expenditure towards marketing initiatives",
+        "category": "other",
+        "amount": {
+          "value": 3000.0,
+          "unit": "million",
+          "page": 171
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 171
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Axis Capital Limited",
+      "HSBC Securities and Capital Markets (India) Private Limited",
+      "JM Financial Limited",
+      "Nomura Financial Advisory and Securities (India) Private Limited"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "FY2024 (March 31, 2024)",
+    "revenue_fy2": {
+      "value": 4089.0,
+      "unit": "million",
+      "page": 116
+    },
+    "revenue_fy1": {
+      "value": 17809.0,
+      "unit": "million",
+      "page": 116
+    },
+    "revenue_fy0": {
+      "value": 17538.0,
+      "unit": "million",
+      "page": 116
+    },
+    "ebitda_fy2": {
+      "value": -2550.0,
+      "unit": "million",
+      "page": 203
+    },
+    "ebitda_fy1": {
+      "value": -6867.0,
+      "unit": "million",
+      "page": 203
+    },
+    "ebitda_fy0": {
+      "value": -6494.0,
+      "unit": "million",
+      "page": 203
+    },
+    "pat_fy2": {
+      "value": -3441.0,
+      "unit": "million",
+      "page": 116
+    },
+    "pat_fy1": {
+      "value": -8645.0,
+      "unit": "million",
+      "page": 116
+    },
+    "pat_fy0": {
+      "value": -10597.0,
+      "unit": "million",
+      "page": 116
+    },
+    "cfo_fy2": {
+      "value": -2284.0,
+      "unit": "million",
+      "page": 117
+    },
+    "cfo_fy1": {
+      "value": -8713.0,
+      "unit": "million",
+      "page": 117
+    },
+    "cfo_fy0": {
+      "value": -2676.0,
+      "unit": "million",
+      "page": 117
+    },
+    "net_worth_fy0": {
+      "value": 5459.0,
+      "unit": "million",
+      "page": 115
+    },
+    "total_debt_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": 115
+    },
+    "cash_fy0": {
+      "value": 2279.0,
+      "unit": "million",
+      "page": 115
+    },
+    "eps_fy0": {
+      "value": -47.0,
+      "unit": "rupees",
+      "page": 116
+    },
+    "ronw_fy0_pct": {
+      "value": -194.0,
+      "unit": "percent",
+      "page": 202
+    },
+    "nav_per_share_fy0": {
+      "value": 24.0,
+      "unit": "rupees",
+      "page": 437
+    },
+    "stub_period_months": 9,
+    "revenue_stub": {
+      "value": 15789.0,
+      "unit": "million",
+      "page": 116
+    },
+    "pat_stub": {
+      "value": -5779.0,
+      "unit": "million",
+      "page": 116
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "TVS Motors Limited",
+        "nse_symbol": "TVSMOTOR",
+        "pe": 68.0,
+        "ronw_pct": null,
+        "page": 202
+      },
+      {
+        "name": "Hero MotoCorp Limited",
+        "nse_symbol": "HEROMOTOCO",
+        "pe": 20.0,
+        "ronw_pct": null,
+        "page": 202
+      }
+    ],
+    "notes": [
+      "The restated statements printed here have no 'consolidated' label, and there's no sign of subsidiaries. So I treated them as standalone. Check the full Restated Financial Information to confirm.",
+      "The 'Comparison with listed industry peers' table is not in these pages. Only the highest P/E (TVS Motors, 68) and lowest P/E (Hero MotoCorp, 20) are given, with an average of 38.50 (page 202). Peer RoNW is not available, and the NSE symbols are my own inference.",
+      "Total borrowings for FY2024 are not printed as a single number. The components are non-current 309 and current 2,840 (\u20b9 million, page 115). Following the no-calculation rule, total_debt_fy0 is null. Total borrowings at Dec 31, 2024 are 11,216 (page 478).",
+      "Promoter pre-offer % of 51.80 covers the Promoters only (Tarun Mehta, Swapnil Jain, HMCL), on a fully diluted basis. The Promoter Group holds another 0.87% (page 27). No combined figure is printed.",
+      "The price band, lot size, fresh issue share count and post-offer shares are all [\u25cf] in this RHP.",
+      "Retail quota % is not printed on these pages. The offer is under Reg 6(2), and the Non-Institutional portion is not more than 15% of the Net Offer. There is an Employee Reservation of up to 100,000 shares.",
+      "Pre-IPO placement: CCPS worth \u20b96,000 million were issued in the nine months to Dec 31, 2024. They were classified as borrowings and converted to equity on March 8, 2025 (page 478). The issue price per share is not on these pages.",
+      "Research and development (7,500) and marketing (3,000) were put under 'other'. GCP is [\u25cf], capped at 25% of Gross Proceeds.",
+      "The company is loss-making, so EPS, RoNW, PAT and EBITDA are all negative. NAV per share for FY2024 of 24 is taken from page 437."
+    ]
+  }
+}

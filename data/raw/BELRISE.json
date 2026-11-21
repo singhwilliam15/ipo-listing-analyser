@@ -1,0 +1,392 @@
+{
+  "symbol": "BELRISE",
+  "rhp_file": "BELRISE.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:16:16+00:00",
+  "pages_sent": [
+    1,
+    2,
+    18,
+    25,
+    26,
+    27,
+    28,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    122,
+    123,
+    124,
+    141,
+    142,
+    178,
+    179,
+    459,
+    460
+  ],
+  "n_pdf_pages": 593,
+  "usage": {
+    "input_tokens": 34479,
+    "output_tokens": 3308,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.31040639999999997,
+    "session_id": "36795d8b-d276-4472-995d-908adf1dd897"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Belrise Industries Limited",
+    "sector": "Auto & auto components",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024 (March 31, 2024)",
+    "stub_period_months": 9,
+    "pre_ipo_placement": null,
+    "lead_managers": "Axis Capital Limited; HSBC Securities and Capital Markets (India) Private Limited; Jefferies India Private Limited; SBI Capital Markets Limited",
+    "revenue_fy2": 5396.854,
+    "rhp_page_revenue_fy2": 106,
+    "revenue_fy1": 6582.496000000001,
+    "rhp_page_revenue_fy1": 106,
+    "revenue_fy0": 7484.241,
+    "rhp_page_revenue_fy0": 106,
+    "ebitda_fy2": 763.478,
+    "rhp_page_ebitda_fy2": 459,
+    "ebitda_fy1": 897.657,
+    "rhp_page_ebitda_fy1": 459,
+    "ebitda_fy0": 938.363,
+    "rhp_page_ebitda_fy0": 459,
+    "pat_fy2": 261.847,
+    "rhp_page_pat_fy2": 106,
+    "pat_fy1": 313.663,
+    "rhp_page_pat_fy1": 106,
+    "pat_fy0": 310.879,
+    "rhp_page_pat_fy0": 106,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 2331.916,
+    "rhp_page_net_worth_fy0": 27,
+    "total_debt_fy0": 2440.984,
+    "rhp_page_total_debt_fy0": 28,
+    "cash_fy0": 185.541,
+    "rhp_page_cash_fy0": 105,
+    "revenue_stub": 6013.426,
+    "rhp_page_revenue_stub": 106,
+    "pat_stub": 245.467,
+    "rhp_page_pat_stub": 106,
+    "price_low": null,
+    "rhp_page_price_low": 178,
+    "price_high": null,
+    "rhp_page_price_high": 178,
+    "lot_size": null,
+    "promoter_pre_pct": 99.81,
+    "rhp_page_promoter_pre_pct": 26,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 26,
+    "retail_quota_pct": null,
+    "rhp_page_retail_quota_pct": 102,
+    "pre_ipo_price": null,
+    "eps_fy0": 4.78,
+    "rhp_page_eps_fy0": 107,
+    "ronw_fy0_pct": 13.33,
+    "rhp_page_ronw_fy0_pct": 28,
+    "nav_per_share_fy0": 35.94,
+    "rhp_page_nav_per_share_fy0": 28,
+    "fresh_issue_cr": 2150.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 65.0990304,
+    "rhp_page_pre_issue_shares_cr": 102,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 102,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 1618.127,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "BHARATFORG; UNOMINDA; MSUMI; JBMA; ENDURANCE; MINDACORP",
+    "n_peers": 6,
+    "peer_pe_list": [
+      58.94,
+      62.19,
+      39.42,
+      45.52,
+      44.76,
+      51.32
+    ],
+    "peer_ronw_list": [
+      13.84,
+      21.68,
+      42.45,
+      22.21,
+      16.24,
+      13.99
+    ],
+    "rhp_page_peers": 179
+  },
+  "extract": {
+    "company": "Belrise Industries Limited",
+    "sector": "Auto & auto components",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 178
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 178
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 21500.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 650990304.0,
+      "unit": "shares",
+      "page": 102
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 102
+    },
+    "promoter_pre_pct": {
+      "value": 99.81,
+      "unit": "percent",
+      "page": 26
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 26
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment/pre-payment, in full or in part, of certain outstanding borrowings availed by the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 16181.27,
+          "unit": "million",
+          "page": 141
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 141
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 102
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Axis Capital Limited",
+      "HSBC Securities and Capital Markets (India) Private Limited",
+      "Jefferies India Private Limited",
+      "SBI Capital Markets Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024 (March 31, 2024)",
+    "revenue_fy2": {
+      "value": 53968.54,
+      "unit": "million",
+      "page": 106
+    },
+    "revenue_fy1": {
+      "value": 65824.96,
+      "unit": "million",
+      "page": 106
+    },
+    "revenue_fy0": {
+      "value": 74842.41,
+      "unit": "million",
+      "page": 106
+    },
+    "ebitda_fy2": {
+      "value": 7634.78,
+      "unit": "million",
+      "page": 459
+    },
+    "ebitda_fy1": {
+      "value": 8976.57,
+      "unit": "million",
+      "page": 459
+    },
+    "ebitda_fy0": {
+      "value": 9383.63,
+      "unit": "million",
+      "page": 459
+    },
+    "pat_fy2": {
+      "value": 2618.47,
+      "unit": "million",
+      "page": 106
+    },
+    "pat_fy1": {
+      "value": 3136.63,
+      "unit": "million",
+      "page": 106
+    },
+    "pat_fy0": {
+      "value": 3108.79,
+      "unit": "million",
+      "page": 106
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 23319.16,
+      "unit": "million",
+      "page": 27
+    },
+    "total_debt_fy0": {
+      "value": 24409.84,
+      "unit": "million",
+      "page": 28
+    },
+    "cash_fy0": {
+      "value": 1855.41,
+      "unit": "million",
+      "page": 105
+    },
+    "eps_fy0": {
+      "value": 4.78,
+      "unit": "rupees",
+      "page": 107
+    },
+    "ronw_fy0_pct": {
+      "value": 13.33,
+      "unit": "percent",
+      "page": 28
+    },
+    "nav_per_share_fy0": {
+      "value": 35.94,
+      "unit": "rupees",
+      "page": 28
+    },
+    "stub_period_months": 9,
+    "revenue_stub": {
+      "value": 60134.26,
+      "unit": "million",
+      "page": 106
+    },
+    "pat_stub": {
+      "value": 2454.67,
+      "unit": "million",
+      "page": 106
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Bharat Forge Ltd",
+        "nse_symbol": "BHARATFORG",
+        "pe": 58.94,
+        "ronw_pct": 13.84,
+        "page": 179
+      },
+      {
+        "name": "Uno Minda Ltd",
+        "nse_symbol": "UNOMINDA",
+        "pe": 62.19,
+        "ronw_pct": 21.68,
+        "page": 179
+      },
+      {
+        "name": "Motherson Sumi Wiring India Ltd",
+        "nse_symbol": "MSUMI",
+        "pe": 39.42,
+        "ronw_pct": 42.45,
+        "page": 179
+      },
+      {
+        "name": "JBM Auto Ltd",
+        "nse_symbol": "JBMA",
+        "pe": 45.52,
+        "ronw_pct": 22.21,
+        "page": 179
+      },
+      {
+        "name": "Endurance Technologies Ltd",
+        "nse_symbol": "ENDURANCE",
+        "pe": 44.76,
+        "ronw_pct": 16.24,
+        "page": 179
+      },
+      {
+        "name": "Minda Corporation Ltd (Spark Minda)",
+        "nse_symbol": "MINDACORP",
+        "pe": 51.32,
+        "ronw_pct": 13.99,
+        "page": 179
+      }
+    ],
+    "notes": [
+      "Issue is entirely a fresh issue (OFS 'Not applicable'), so there are no selling shareholders.",
+      "Price band, lot size, number of fresh issue shares and post-issue shares are printed as [\u25cf] on the pages provided.",
+      "Retail portion is printed as 'Not less than [\u25cf] Equity Shares'. No percentage is given on the pages provided; the Regulation 6(1) issue would usually be 35% retail, but this is not stated, so it is left null.",
+      "The cash flow statement is not in the pages provided, so CFO is null.",
+      "Total debt for FY2024 (24,409.84 million) is from the summary 'Total borrowings (as per balance sheet)', which excludes interest accrued. It matches non-current borrowings 14,217.79 + current borrowings 10,192.05 on page 105.",
+      "PAT for FY2024 is after an exceptional item of 122.60 million. There is no non-controlling interest.",
+      "Promoter pre-issue % is the promoter and promoter group total (99.81%). Promoters alone hold 90.30%.",
+      "Pre-IPO placement status cannot be determined from the pages provided; the equity share capital history shown is incomplete.",
+      "NSE symbols for the peers are inferred; they are not printed in the RHP.",
+      "The RHP notes that peer RoNW is calculated on average tangible net worth, while Belrise's RoNW uses year-end equity."
+    ]
+  }
+}

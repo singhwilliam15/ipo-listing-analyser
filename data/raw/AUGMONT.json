@@ -1,0 +1,358 @@
+{
+  "symbol": "AUGMONT",
+  "rhp_file": "AUGMONT.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:24:25+00:00",
+  "pages_sent": [
+    1,
+    2,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    107,
+    108,
+    109,
+    130,
+    131,
+    144,
+    145,
+    146,
+    386,
+    387,
+    418
+  ],
+  "n_pdf_pages": 549,
+  "usage": {
+    "input_tokens": 31426,
+    "output_tokens": 3866,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.2968373,
+    "session_id": "d5f3f841-f0a4-459a-b741-4d102751b0b4"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Augmont Enterprises Limited",
+    "sector": "Consumer & retail",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "stub_period_months": null,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "Nuvama Wealth Management Limited; Intensive Fiscal Services Private Limited; JM Financial Limited; Motilal Oswal Investment Advisors Limited",
+    "revenue_fy2": 34921.493,
+    "rhp_page_revenue_fy2": 83,
+    "revenue_fy1": 66230.779,
+    "rhp_page_revenue_fy1": 83,
+    "revenue_fy0": 94186.212,
+    "rhp_page_revenue_fy0": 83,
+    "ebitda_fy2": 103.919,
+    "rhp_page_ebitda_fy2": 386,
+    "ebitda_fy1": 304.088,
+    "rhp_page_ebitda_fy1": 386,
+    "ebitda_fy0": 385.95,
+    "rhp_page_ebitda_fy0": 386,
+    "pat_fy2": 75.966,
+    "rhp_page_pat_fy2": 83,
+    "pat_fy1": 227.188,
+    "rhp_page_pat_fy1": 83,
+    "pat_fy0": 348.3,
+    "rhp_page_pat_fy0": 83,
+    "cfo_fy2": 96.739,
+    "rhp_page_cfo_fy2": 84,
+    "cfo_fy1": 105.448,
+    "rhp_page_cfo_fy1": 84,
+    "cfo_fy0": -42.157,
+    "rhp_page_cfo_fy0": 84,
+    "net_worth_fy0": null,
+    "rhp_page_net_worth_fy0": 82,
+    "total_debt_fy0": 12.672,
+    "rhp_page_total_debt_fy0": 418,
+    "cash_fy0": 86.894,
+    "rhp_page_cash_fy0": 82,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 144,
+    "price_high": null,
+    "rhp_page_price_high": 144,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": 678.51,
+    "rhp_page_pre_ipo_price": 109,
+    "eps_fy0": 40.45,
+    "rhp_page_eps_fy0": 83,
+    "ronw_fy0_pct": 49.52,
+    "rhp_page_ronw_fy0_pct": 145,
+    "nav_per_share_fy0": 111.0,
+    "rhp_page_nav_per_share_fy0": 145,
+    "fresh_issue_cr": 620.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": 205.0,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 8.3505486,
+    "rhp_page_pre_issue_shares_cr": 79,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 79,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "Augmont Enterprises Limited",
+    "sector": "Consumer & retail",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 144
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 144
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 6200.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": 2050.0,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Namita Ketan Kothari",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Vivek Prithviraj Kothari",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Dimple Mukesh Kothari",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 83505486.0,
+      "unit": "shares",
+      "page": 79
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 79
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding future working capital requirements towards procurement, maintenance and scaling up of inventory and advance margin requirements for procurement of inventory",
+        "category": "other",
+        "amount": {
+          "value": 4650.0,
+          "unit": "million",
+          "page": 130
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 130
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 678.51,
+      "unit": "rupees",
+      "page": 109
+    },
+    "lead_managers": [
+      "Nuvama Wealth Management Limited",
+      "Intensive Fiscal Services Private Limited",
+      "JM Financial Limited",
+      "Motilal Oswal Investment Advisors Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "revenue_fy2": {
+      "value": 349214.93,
+      "unit": "million",
+      "page": 83
+    },
+    "revenue_fy1": {
+      "value": 662307.79,
+      "unit": "million",
+      "page": 83
+    },
+    "revenue_fy0": {
+      "value": 941862.12,
+      "unit": "million",
+      "page": 83
+    },
+    "ebitda_fy2": {
+      "value": 1039.19,
+      "unit": "million",
+      "page": 386
+    },
+    "ebitda_fy1": {
+      "value": 3040.88,
+      "unit": "million",
+      "page": 386
+    },
+    "ebitda_fy0": {
+      "value": 3859.5,
+      "unit": "million",
+      "page": 386
+    },
+    "pat_fy2": {
+      "value": 759.66,
+      "unit": "million",
+      "page": 83
+    },
+    "pat_fy1": {
+      "value": 2271.88,
+      "unit": "million",
+      "page": 83
+    },
+    "pat_fy0": {
+      "value": 3483.0,
+      "unit": "million",
+      "page": 83
+    },
+    "cfo_fy2": {
+      "value": 967.39,
+      "unit": "million",
+      "page": 84
+    },
+    "cfo_fy1": {
+      "value": 1054.48,
+      "unit": "million",
+      "page": 84
+    },
+    "cfo_fy0": {
+      "value": -421.57,
+      "unit": "million",
+      "page": 84
+    },
+    "net_worth_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": 82
+    },
+    "total_debt_fy0": {
+      "value": 126.72,
+      "unit": "million",
+      "page": 418
+    },
+    "cash_fy0": {
+      "value": 868.94,
+      "unit": "million",
+      "page": 82
+    },
+    "eps_fy0": {
+      "value": 40.45,
+      "unit": "rupees",
+      "page": 83
+    },
+    "ronw_fy0_pct": {
+      "value": 49.52,
+      "unit": "percent",
+      "page": 145
+    },
+    "nav_per_share_fy0": {
+      "value": 111.0,
+      "unit": "rupees",
+      "page": 145
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": true,
+    "peers": [],
+    "notes": [
+      "Revenue from operations is printed with Indian digit grouping (9,41,862.12 / 6,62,307.79 / 3,49,214.93) under the 'INR in millions' header. So FY2026 revenue is about \u20b9941,862 million. That is large next to PAT of 3,483 million, but it fits a high-volume bullion trading business.",
+      "Net worth attributable to owners is not printed as a single figure, so I left it null. The page 82 components are equity share capital 417.53 and other equity 8,651.36. Total equity including NCI of 258.65 is 9,327.54 (\u20b9 million).",
+      "Total debt of 126.72 is taken from the capitalisation statement (page 418). The balance sheet shows non-current borrowings of 11.15 and current borrowings of 115.57, which also add to 126.72.",
+      "Cash at closing in the cash flow statement is 868.93, while the balance sheet shows 868.94. I used the balance sheet figure.",
+      "Selling shareholders' share counts are [\u25cf]. Their offer amounts are Namita Ketan Kothari \u20b9694.00 million, Vivek Prithviraj Kothari \u20b9694.00 million and Dimple Mukesh Kothari \u20b9662.00 million.",
+      "The price band, lot size and retail quota % are not printed on the pages given. The offer includes an employee reservation of up to \u20b940.00 million.",
+      "Pre-IPO placement: a private placement of 294,760 shares at \u20b9678.51 to Utpal Hemendra Sheth on August 29, 2025, which is within 12 months of the RHP dated August 17, 2026. Before that, on August 18, 2025, OCPS were converted into shares at \u20b9678.51.",
+      "The promoter shareholding % is not on the pages given.",
+      "The working capital object is categorised as 'other'.",
+      "The RHP states there are no listed peers, either in India or globally."
+    ]
+  }
+}

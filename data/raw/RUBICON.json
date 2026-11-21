@@ -1,0 +1,411 @@
+{
+  "symbol": "RUBICON",
+  "rhp_file": "RUBICON.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:05:59+00:00",
+  "pages_sent": [
+    1,
+    2,
+    26,
+    27,
+    28,
+    29,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    115,
+    116,
+    117,
+    145,
+    146,
+    157,
+    158,
+    159,
+    423,
+    424,
+    462
+  ],
+  "n_pdf_pages": 626,
+  "usage": {
+    "input_tokens": 41959,
+    "output_tokens": 3684,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.37851429999999997,
+    "session_id": "7dd87dfe-a093-4c12-bfcd-5805db7932a4"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Rubicon Research Limited",
+    "sector": "Healthcare & pharma",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "stub_period_months": 3,
+    "pre_ipo_placement": null,
+    "lead_managers": "Axis Capital Limited; IIFL Capital Services Limited; JM Financial Limited; SBI Capital Markets Limited",
+    "revenue_fy2": 393.519,
+    "rhp_page_revenue_fy2": 102,
+    "revenue_fy1": 853.8889999999999,
+    "rhp_page_revenue_fy1": 102,
+    "revenue_fy0": 1284.272,
+    "rhp_page_revenue_fy0": 102,
+    "ebitda_fy2": 43.972,
+    "rhp_page_ebitda_fy2": 423,
+    "ebitda_fy1": 173.09,
+    "rhp_page_ebitda_fy1": 423,
+    "ebitda_fy0": 267.893,
+    "rhp_page_ebitda_fy0": 423,
+    "pat_fy2": -16.888,
+    "rhp_page_pat_fy2": 102,
+    "pat_fy1": 91.012,
+    "rhp_page_pat_fy1": 102,
+    "pat_fy0": 134.361,
+    "rhp_page_pat_fy0": 102,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 540.984,
+    "rhp_page_net_worth_fy0": 101,
+    "total_debt_fy0": 393.172,
+    "rhp_page_total_debt_fy0": 29,
+    "cash_fy0": 104.977,
+    "rhp_page_cash_fy0": 101,
+    "revenue_stub": 352.494,
+    "rhp_page_revenue_stub": 102,
+    "pat_stub": 43.301,
+    "rhp_page_pat_stub": 102,
+    "price_low": null,
+    "rhp_page_price_low": 158,
+    "price_high": null,
+    "rhp_page_price_high": 158,
+    "lot_size": null,
+    "promoter_pre_pct": 77.67,
+    "rhp_page_promoter_pre_pct": 28,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 28,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 8.82,
+    "rhp_page_eps_fy0": 102,
+    "ronw_fy0_pct": 29.02,
+    "rhp_page_ronw_fy0_pct": 158,
+    "nav_per_share_fy0": 35.53,
+    "rhp_page_nav_per_share_fy0": 29,
+    "fresh_issue_cr": 500.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": 877.499,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 15.4437251,
+    "rhp_page_pre_issue_shares_cr": 98,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 98,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 310.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "SUNPHARMA; AUROPHARMA; ZYDUSLIFE; STAR; DRREDDY; APLLTD; LUPIN",
+    "n_peers": 7,
+    "peer_pe_list": [
+      34.98,
+      18.12,
+      21.83,
+      18.72,
+      18.05,
+      30.33,
+      26.64
+    ],
+    "peer_ronw_list": [
+      16.16,
+      11.15,
+      21.34,
+      17.51,
+      18.53,
+      11.63,
+      21.0
+    ],
+    "rhp_page_peers": 159
+  },
+  "extract": {
+    "company": "Rubicon Research Limited",
+    "sector": "Healthcare & pharma",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 158
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 158
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 5000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": 8774.99,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "General Atlantic Singapore RR Pte. Ltd.",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 99
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 154437251.0,
+      "unit": "shares",
+      "page": 98
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 98
+    },
+    "promoter_pre_pct": {
+      "value": 77.67,
+      "unit": "percent",
+      "page": 28
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 28
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Prepayment or scheduled repayment of all or a portion of certain outstanding borrowings availed by the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 3100.0,
+          "unit": "million",
+          "page": 145
+        }
+      },
+      {
+        "purpose": "Funding inorganic growth through unidentified acquisitions and other strategic initiatives and general corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 145
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Axis Capital Limited",
+      "IIFL Capital Services Limited",
+      "JM Financial Limited",
+      "SBI Capital Markets Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "revenue_fy2": {
+      "value": 3935.19,
+      "unit": "million",
+      "page": 102
+    },
+    "revenue_fy1": {
+      "value": 8538.89,
+      "unit": "million",
+      "page": 102
+    },
+    "revenue_fy0": {
+      "value": 12842.72,
+      "unit": "million",
+      "page": 102
+    },
+    "ebitda_fy2": {
+      "value": 439.72,
+      "unit": "million",
+      "page": 423
+    },
+    "ebitda_fy1": {
+      "value": 1730.9,
+      "unit": "million",
+      "page": 423
+    },
+    "ebitda_fy0": {
+      "value": 2678.93,
+      "unit": "million",
+      "page": 423
+    },
+    "pat_fy2": {
+      "value": -168.88,
+      "unit": "million",
+      "page": 102
+    },
+    "pat_fy1": {
+      "value": 910.12,
+      "unit": "million",
+      "page": 102
+    },
+    "pat_fy0": {
+      "value": 1343.61,
+      "unit": "million",
+      "page": 102
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 5409.84,
+      "unit": "million",
+      "page": 101
+    },
+    "total_debt_fy0": {
+      "value": 3931.72,
+      "unit": "million",
+      "page": 29
+    },
+    "cash_fy0": {
+      "value": 1049.77,
+      "unit": "million",
+      "page": 101
+    },
+    "eps_fy0": {
+      "value": 8.82,
+      "unit": "rupees",
+      "page": 102
+    },
+    "ronw_fy0_pct": {
+      "value": 29.02,
+      "unit": "percent",
+      "page": 158
+    },
+    "nav_per_share_fy0": {
+      "value": 35.53,
+      "unit": "rupees",
+      "page": 29
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 3524.94,
+      "unit": "million",
+      "page": 102
+    },
+    "pat_stub": {
+      "value": 433.01,
+      "unit": "million",
+      "page": 102
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Sun Pharmaceutical Industries Limited",
+        "nse_symbol": "SUNPHARMA",
+        "pe": 34.98,
+        "ronw_pct": 16.16,
+        "page": 159
+      },
+      {
+        "name": "Aurobindo Pharma Limited",
+        "nse_symbol": "AUROPHARMA",
+        "pe": 18.12,
+        "ronw_pct": 11.15,
+        "page": 159
+      },
+      {
+        "name": "Zydus Lifesciences Limited",
+        "nse_symbol": "ZYDUSLIFE",
+        "pe": 21.83,
+        "ronw_pct": 21.34,
+        "page": 159
+      },
+      {
+        "name": "Strides Pharma Science Limited",
+        "nse_symbol": "STAR",
+        "pe": 18.72,
+        "ronw_pct": 17.51,
+        "page": 159
+      },
+      {
+        "name": "Dr. Reddy's Laboratories Limited",
+        "nse_symbol": "DRREDDY",
+        "pe": 18.05,
+        "ronw_pct": 18.53,
+        "page": 159
+      },
+      {
+        "name": "Alembic Pharmaceuticals Limited",
+        "nse_symbol": "APLLTD",
+        "pe": 30.33,
+        "ronw_pct": 11.63,
+        "page": 159
+      },
+      {
+        "name": "Lupin Limited",
+        "nse_symbol": "LUPIN",
+        "pe": 26.64,
+        "ronw_pct": 21.0,
+        "page": 159
+      }
+    ],
+    "notes": [
+      "The price band, lot size, fresh issue and OFS share counts, and post-offer shares are all printed as [\u25cf] in this RHP. The P/E table says it will be filled in once the price band is fixed.",
+      "There is no cash flow statement in the pages provided, so CFO is null for every year.",
+      "The retail quota % is not on the pages provided. The offer is made under Regulation 6(2) of SEBI ICDR.",
+      "Promoter pre-offer % of 77.67 covers promoters (77.34%) plus promoter group Terentia Venture Partners (0.33%). It is computed on a fully diluted basis from the beneficiary position statement dated October 1, 2025.",
+      "fy0 total debt of 3,931.72 is the total borrowings figure printed in the summary on page 29. It equals non-current 644.68 plus current 3,287.04 on page 101.",
+      "Fiscal 2025 total equity is 5,409.85 including NCI of 0.01. Equity attributable to owners is 5,409.84.",
+      "The share capital history table is cut off after the January 3, 2025 ESOP allotment at \u20b916 per share. The pre-offer count of 154,437,251 suggests later ESOP allotments, but they are not shown. Only ESOP allotments are visible, with no preferential or private placement in the last 12 months, so pre_ipo_placement is left null.",
+      "The fresh issue amount for 'inorganic growth plus general corporate purposes' is [\u25cf]. The combined amount may not exceed 35% of the offer, and each part may not exceed 25%. It is categorised here as gcp.",
+      "The NSE symbols for peers are not printed in the RHP; they were added from general knowledge.",
+      "EBITDA is taken from Other Financial Information (accounting ratios) and is calculated as PBT plus depreciation plus finance costs."
+    ]
+  }
+}

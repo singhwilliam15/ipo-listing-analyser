@@ -1,0 +1,370 @@
+{
+  "symbol": "PNGSREVA",
+  "rhp_file": "PNGSREVA.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:00:13+00:00",
+  "pages_sent": [
+    1,
+    2,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    95,
+    96,
+    97,
+    117,
+    118,
+    147,
+    148,
+    149,
+    330,
+    331,
+    353
+  ],
+  "n_pdf_pages": 476,
+  "usage": {
+    "input_tokens": 28140,
+    "output_tokens": 3372,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.2603431,
+    "session_id": "cab88e2a-01cc-408d-951a-5e84f2015810"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "PNGS Reva Diamond Jewellery Limited",
+    "sector": "Consumer & retail",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "March 31, 2025",
+    "stub_period_months": 6,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "Smart Horizon Capital Advisors Private Limited (formerly Shreni Capital Advisors Private Limited)",
+    "revenue_fy2": 198.848,
+    "rhp_page_revenue_fy2": 84,
+    "revenue_fy1": 195.634,
+    "rhp_page_revenue_fy1": 84,
+    "revenue_fy0": 258.183,
+    "rhp_page_revenue_fy0": 84,
+    "ebitda_fy2": 68.731,
+    "rhp_page_ebitda_fy2": 330,
+    "ebitda_fy1": 56.139,
+    "rhp_page_ebitda_fy1": 330,
+    "ebitda_fy0": 79.611,
+    "rhp_page_ebitda_fy0": 330,
+    "pat_fy2": 51.747,
+    "rhp_page_pat_fy2": 84,
+    "pat_fy1": 42.414,
+    "rhp_page_pat_fy1": 84,
+    "pat_fy0": 59.474,
+    "rhp_page_pat_fy0": 84,
+    "cfo_fy2": 39.496,
+    "rhp_page_cfo_fy2": 85,
+    "cfo_fy1": 18.365,
+    "rhp_page_cfo_fy1": 85,
+    "cfo_fy0": 39.013,
+    "rhp_page_cfo_fy0": 85,
+    "net_worth_fy0": 100.191,
+    "rhp_page_net_worth_fy0": 82,
+    "total_debt_fy0": 90.65,
+    "rhp_page_total_debt_fy0": 83,
+    "cash_fy0": 39.02,
+    "rhp_page_cash_fy0": 82,
+    "revenue_stub": 156.718,
+    "rhp_page_revenue_stub": 84,
+    "pat_stub": 20.133,
+    "rhp_page_pat_stub": 84,
+    "price_low": null,
+    "rhp_page_price_low": 148,
+    "price_high": null,
+    "rhp_page_price_high": 148,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": 750.0,
+    "rhp_page_pre_ipo_price": 97,
+    "eps_fy0": 35.21,
+    "rhp_page_eps_fy0": 147,
+    "ronw_fy0_pct": 59.36,
+    "rhp_page_ronw_fy0_pct": 148,
+    "nav_per_share_fy0": 45.82,
+    "rhp_page_nav_per_share_fy0": 148,
+    "fresh_issue_cr": 380.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 2.18664,
+    "rhp_page_pre_issue_shares_cr": 79,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 79,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 286.564,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "TBZ; THANGAMAYL; SENCO",
+    "n_peers": 3,
+    "peer_pe_list": [
+      15.74,
+      80.96,
+      33.0
+    ],
+    "peer_ronw_list": [
+      10.41,
+      10.77,
+      8.09
+    ],
+    "rhp_page_peers": 149
+  },
+  "extract": {
+    "company": "PNGS Reva Diamond Jewellery Limited",
+    "sector": "Consumer & retail",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 148
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 148
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 3800.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 21866400.0,
+      "unit": "shares",
+      "page": 79
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 79
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding expenditure towards setting-up of 15 new brand-exclusive stores",
+        "category": "capex",
+        "amount": {
+          "value": 2865.64,
+          "unit": "million",
+          "page": 117
+        }
+      },
+      {
+        "purpose": "Marketing and promotional expenses related to launch of the 15 New Stores",
+        "category": "other",
+        "amount": {
+          "value": 354.0,
+          "unit": "million",
+          "page": 117
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 117
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 750.0,
+      "unit": "rupees",
+      "page": 97
+    },
+    "lead_managers": [
+      "Smart Horizon Capital Advisors Private Limited (formerly Shreni Capital Advisors Private Limited)"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "March 31, 2025",
+    "revenue_fy2": {
+      "value": 1988.48,
+      "unit": "million",
+      "page": 84
+    },
+    "revenue_fy1": {
+      "value": 1956.34,
+      "unit": "million",
+      "page": 84
+    },
+    "revenue_fy0": {
+      "value": 2581.83,
+      "unit": "million",
+      "page": 84
+    },
+    "ebitda_fy2": {
+      "value": 687.31,
+      "unit": "million",
+      "page": 330
+    },
+    "ebitda_fy1": {
+      "value": 561.39,
+      "unit": "million",
+      "page": 330
+    },
+    "ebitda_fy0": {
+      "value": 796.11,
+      "unit": "million",
+      "page": 330
+    },
+    "pat_fy2": {
+      "value": 517.47,
+      "unit": "million",
+      "page": 84
+    },
+    "pat_fy1": {
+      "value": 424.14,
+      "unit": "million",
+      "page": 84
+    },
+    "pat_fy0": {
+      "value": 594.74,
+      "unit": "million",
+      "page": 84
+    },
+    "cfo_fy2": {
+      "value": 394.96,
+      "unit": "million",
+      "page": 85
+    },
+    "cfo_fy1": {
+      "value": 183.65,
+      "unit": "million",
+      "page": 85
+    },
+    "cfo_fy0": {
+      "value": 390.13,
+      "unit": "million",
+      "page": 85
+    },
+    "net_worth_fy0": {
+      "value": 1001.91,
+      "unit": "million",
+      "page": 82
+    },
+    "total_debt_fy0": {
+      "value": 906.5,
+      "unit": "million",
+      "page": 83
+    },
+    "cash_fy0": {
+      "value": 390.2,
+      "unit": "million",
+      "page": 82
+    },
+    "eps_fy0": {
+      "value": 35.21,
+      "unit": "rupees",
+      "page": 147
+    },
+    "ronw_fy0_pct": {
+      "value": 59.36,
+      "unit": "percent",
+      "page": 148
+    },
+    "nav_per_share_fy0": {
+      "value": 45.82,
+      "unit": "rupees",
+      "page": 148
+    },
+    "stub_period_months": 6,
+    "revenue_stub": {
+      "value": 1567.18,
+      "unit": "million",
+      "page": 84
+    },
+    "pat_stub": {
+      "value": 201.33,
+      "unit": "million",
+      "page": 84
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Tribhovandas Bhimji Zaveri Limited",
+        "nse_symbol": "TBZ",
+        "pe": 15.74,
+        "ronw_pct": 10.41,
+        "page": 149
+      },
+      {
+        "name": "Thangamayil Jewellery Limited",
+        "nse_symbol": "THANGAMAYL",
+        "pe": 80.96,
+        "ronw_pct": 10.77,
+        "page": 149
+      },
+      {
+        "name": "Senco Gold Limited",
+        "nse_symbol": "SENCO",
+        "pe": 33.0,
+        "ronw_pct": 8.09,
+        "page": 149
+      }
+    ],
+    "notes": [
+      "The restated financials are described only as 'Restated Financial Information' and are not labelled consolidated, so I treated them as standalone.",
+      "The restated financials for FY2023\u2013FY2025 are the transferred diamond business of the corporate promoter, P. N. Gadgil & Sons, and its predecessor partnership firm. They are a reconstructed track record. Total equity was negative in FY2024 (-284.96 million) and FY2023 (-520.17 million).",
+      "The issue is a fresh issue only, with no offer for sale. It includes an Employee Reservation Portion of up to \u20b93.86 million. It is made under Regulation 6(2) of the SEBI ICDR Regulations. The retail quota percentage is not printed on these pages.",
+      "The price band, lot size, number of fresh issue shares and post-issue share count are all printed as [\u25cf].",
+      "EBITDA is the 'Adjusted EBITDA' from Other Financial Information. FY2025 EPS of 35.21 is adjusted for the bonus issue (350:100, May 21, 2025); before the bonus it was 158.43. EPS is not presented for FY2024 or FY2023.",
+      "RoNW of 59.36% includes capital reserve and partners' capital; excluding them it is 24.14%. NAV of 45.82 is after the bonus and includes capital reserve.",
+      "Pre-IPO activity: a preferential issue of 1,199,200 shares at \u20b9750 on March 24, 2025, within 12 months of the RHP dated February 10, 2026, and a bonus issue of 17,007,200 shares on May 21, 2025.",
+      "Promoter shareholding percentages are not on the pages provided.",
+      "The marketing and promotional expenses object is categorised as 'other'.",
+      "Peer NSE symbols were inferred, not printed in the RHP."
+    ]
+  }
+}

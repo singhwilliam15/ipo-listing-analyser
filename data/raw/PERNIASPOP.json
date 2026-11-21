@@ -1,0 +1,335 @@
+{
+  "symbol": "PERNIASPOP",
+  "rhp_file": "PERNIASPOP.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:22:56+00:00",
+  "pages_sent": [
+    1,
+    2,
+    17,
+    57,
+    58,
+    59,
+    60,
+    61,
+    74,
+    75,
+    76,
+    114,
+    115,
+    122,
+    123,
+    124,
+    320,
+    321,
+    350
+  ],
+  "n_pdf_pages": 448,
+  "usage": {
+    "input_tokens": 34784,
+    "output_tokens": 2859,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3038974,
+    "session_id": "4b2337f8-fd70-4eb7-a463-e397686f10e9"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Purple Style Labs Limited",
+    "sector": "Consumer & retail",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "stub_period_months": null,
+    "pre_ipo_placement": null,
+    "lead_managers": "Axis Capital Limited; IIFL Capital Services Limited (formerly known as IIFL Securities Limited)",
+    "revenue_fy2": 504.373,
+    "rhp_page_revenue_fy2": 60,
+    "revenue_fy1": 489.909,
+    "rhp_page_revenue_fy1": 60,
+    "revenue_fy0": 557.838,
+    "rhp_page_revenue_fy0": 60,
+    "ebitda_fy2": 31.628,
+    "rhp_page_ebitda_fy2": 124,
+    "ebitda_fy1": 41.988,
+    "rhp_page_ebitda_fy1": 124,
+    "ebitda_fy0": 30.365,
+    "rhp_page_ebitda_fy0": 124,
+    "pat_fy2": -47.71,
+    "rhp_page_pat_fy2": 60,
+    "pat_fy1": -188.383,
+    "rhp_page_pat_fy1": 60,
+    "pat_fy0": -285.399,
+    "rhp_page_pat_fy0": 60,
+    "cfo_fy2": -31.344,
+    "rhp_page_cfo_fy2": 61,
+    "cfo_fy1": -45.185,
+    "rhp_page_cfo_fy1": 61,
+    "cfo_fy0": -34.895,
+    "rhp_page_cfo_fy0": 61,
+    "net_worth_fy0": -52.278,
+    "rhp_page_net_worth_fy0": 59,
+    "total_debt_fy0": 371.402,
+    "rhp_page_total_debt_fy0": 350,
+    "cash_fy0": 15.573,
+    "rhp_page_cash_fy0": 59,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 122,
+    "price_high": null,
+    "rhp_page_price_high": 122,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "rhp_page_retail_quota_pct": 57,
+    "pre_ipo_price": null,
+    "eps_fy0": -41.98,
+    "rhp_page_eps_fy0": 122,
+    "ronw_fy0_pct": null,
+    "rhp_page_ronw_fy0_pct": 123,
+    "nav_per_share_fy0": -7.69,
+    "rhp_page_nav_per_share_fy0": 123,
+    "fresh_issue_cr": 680.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 6.8235,
+    "rhp_page_pre_issue_shares_cr": 57,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 57,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "Purple Style Labs Limited",
+    "sector": "Consumer & retail",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 122
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 122
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 6800.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 68235000.0,
+      "unit": "shares",
+      "page": 57
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 57
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Investment in wholly owned Subsidiary, PSL Retail for expenditure towards lease liabilities of Experience Centers and back-end offices in India",
+        "category": "other",
+        "amount": {
+          "value": 3711.26,
+          "unit": "million",
+          "page": 115
+        }
+      },
+      {
+        "purpose": "Funding towards sales and marketing expenses",
+        "category": "other",
+        "amount": {
+          "value": 1389.0,
+          "unit": "million",
+          "page": 115
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 115
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 57
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Axis Capital Limited",
+      "IIFL Capital Services Limited (formerly known as IIFL Securities Limited)"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "revenue_fy2": {
+      "value": 5043.73,
+      "unit": "million",
+      "page": 60
+    },
+    "revenue_fy1": {
+      "value": 4899.09,
+      "unit": "million",
+      "page": 60
+    },
+    "revenue_fy0": {
+      "value": 5578.38,
+      "unit": "million",
+      "page": 60
+    },
+    "ebitda_fy2": {
+      "value": 316.28,
+      "unit": "million",
+      "page": 124
+    },
+    "ebitda_fy1": {
+      "value": 419.88,
+      "unit": "million",
+      "page": 124
+    },
+    "ebitda_fy0": {
+      "value": 303.65,
+      "unit": "million",
+      "page": 124
+    },
+    "pat_fy2": {
+      "value": -477.1,
+      "unit": "million",
+      "page": 60
+    },
+    "pat_fy1": {
+      "value": -1883.83,
+      "unit": "million",
+      "page": 60
+    },
+    "pat_fy0": {
+      "value": -2853.99,
+      "unit": "million",
+      "page": 60
+    },
+    "cfo_fy2": {
+      "value": -313.44,
+      "unit": "million",
+      "page": 61
+    },
+    "cfo_fy1": {
+      "value": -451.85,
+      "unit": "million",
+      "page": 61
+    },
+    "cfo_fy0": {
+      "value": -348.95,
+      "unit": "million",
+      "page": 61
+    },
+    "net_worth_fy0": {
+      "value": -522.78,
+      "unit": "million",
+      "page": 59
+    },
+    "total_debt_fy0": {
+      "value": 3714.02,
+      "unit": "million",
+      "page": 350
+    },
+    "cash_fy0": {
+      "value": 155.73,
+      "unit": "million",
+      "page": 59
+    },
+    "eps_fy0": {
+      "value": -41.98,
+      "unit": "rupees",
+      "page": 122
+    },
+    "ronw_fy0_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 123
+    },
+    "nav_per_share_fy0": {
+      "value": -7.69,
+      "unit": "rupees",
+      "page": 123
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": true,
+    "peers": [],
+    "notes": [
+      "The issue is a fresh issue only, with no offer for sale. The price band, lot size and share count are shown as [\u25cf].",
+      "RoNW for FY2026 is printed as N.A. because net worth is negative (total equity of \u20b9(522.78) million), so it is left null.",
+      "Total borrowings for FY2026 are all current borrowings; non-current borrowings are nil.",
+      "FY2026 and FY2025 PAT include exceptional items (share based payment expense) of \u20b91,179.28 million and \u20b91,227.68 million.",
+      "The retail quota % is not printed on these pages. The issue is under Regulation 6(2), where retail is typically not more than 10%, but this was not confirmed here, so it is left null.",
+      "Promoter shareholding % is not on the pages provided.",
+      "The capital history table on the pages provided is cut off at November 2021, so pre-IPO placements in the last 12 months cannot be checked. It records a 999:1 bonus issue on August 30, 2025 and FY2026 proceeds from share issue of \u20b90.01 million.",
+      "The 'other' category was used for the lease-liability investment in the subsidiary PSL Retail and for sales and marketing expenses. The general corporate purposes amount is [\u25cf]."
+    ]
+  }
+}

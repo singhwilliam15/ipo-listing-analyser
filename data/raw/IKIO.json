@@ -1,0 +1,369 @@
+{
+  "symbol": "IKIO",
+  "rhp_file": "IKIO.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T20:55:50+00:00",
+  "pages_sent": [
+    1,
+    2,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    91,
+    92,
+    93,
+    94,
+    101,
+    102,
+    103,
+    104,
+    121,
+    122,
+    402,
+    403,
+    404,
+    464
+  ],
+  "n_pdf_pages": 559,
+  "usage": {
+    "input_tokens": 50923,
+    "output_tokens": 3417,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.4457847,
+    "session_id": "c10563e8-6cbd-4b45-ab14-9e36c94f25de"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "IKIO Lighting Limited",
+    "sector": "Electronics & EMS",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2022 (March 31, 2022)",
+    "stub_period_months": 9,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Motilal Oswal Investment Advisors Limited",
+    "revenue_fy2": 140.648,
+    "rhp_page_revenue_fy2": 76,
+    "revenue_fy1": 159.663,
+    "rhp_page_revenue_fy1": 76,
+    "revenue_fy0": 219.895,
+    "rhp_page_revenue_fy0": 76,
+    "ebitda_fy2": 26.337,
+    "rhp_page_ebitda_fy2": 402,
+    "ebitda_fy1": 30.282,
+    "rhp_page_ebitda_fy1": 402,
+    "ebitda_fy0": 40.15,
+    "rhp_page_ebitda_fy0": 402,
+    "pat_fy2": 15.993,
+    "rhp_page_pat_fy2": 76,
+    "pat_fy1": 20.58,
+    "rhp_page_pat_fy1": 76,
+    "pat_fy0": 28.01,
+    "rhp_page_pat_fy0": 76,
+    "cfo_fy2": 13.21,
+    "rhp_page_cfo_fy2": 77,
+    "cfo_fy1": -0.049,
+    "rhp_page_cfo_fy1": 77,
+    "cfo_fy0": -5.253,
+    "rhp_page_cfo_fy0": 77,
+    "net_worth_fy0": 76.441,
+    "rhp_page_net_worth_fy0": 75,
+    "total_debt_fy0": 16.161,
+    "rhp_page_total_debt_fy0": 28,
+    "cash_fy0": 0.65,
+    "rhp_page_cash_fy0": 75,
+    "revenue_stub": 240.721,
+    "rhp_page_revenue_stub": 76,
+    "pat_stub": 34.582,
+    "rhp_page_pat_stub": 76,
+    "price_low": null,
+    "rhp_page_price_low": 121,
+    "price_high": null,
+    "rhp_page_price_high": 121,
+    "lot_size": null,
+    "promoter_pre_pct": 100.0,
+    "rhp_page_promoter_pre_pct": 94,
+    "promoter_post_pct": null,
+    "retail_quota_pct": 35.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": null,
+    "eps_fy0": 4.31,
+    "rhp_page_eps_fy0": 402,
+    "ronw_fy0_pct": 36.64,
+    "rhp_page_ronw_fy0_pct": 402,
+    "nav_per_share_fy0": 11.76,
+    "rhp_page_nav_per_share_fy0": 402,
+    "fresh_issue_cr": 350.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.9,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 6.5,
+    "rhp_page_pre_issue_shares_cr": 73,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 73,
+    "ofs_promoter_shares_cr": 0.8999999999999999,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 50.0,
+    "proceeds_capex_cr": 212.31100000000004,
+    "proceeds_gcp_cr": 0.0,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "IKIO Lighting Limited",
+    "sector": "Electronics & EMS",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 121
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 121
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 3500.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 9000000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Hardeep Singh",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 6000000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Surmeet Kaur",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 3000000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 65000000.0,
+      "unit": "shares",
+      "page": 73
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 73
+    },
+    "promoter_pre_pct": {
+      "value": 100.0,
+      "unit": "percent",
+      "page": 94
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment/prepayment, in full or part, of certain borrowings availed by the Company and its Subsidiaries on consolidated basis",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 500.0,
+          "unit": "million",
+          "page": 101
+        }
+      },
+      {
+        "purpose": "Investment in wholly owned Subsidiary IKIO Solutions Private Limited for setting up a new facility at Noida, Uttar Pradesh",
+        "category": "capex",
+        "amount": {
+          "value": 2123.11,
+          "unit": "million",
+          "page": 102
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 102
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Motilal Oswal Investment Advisors Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2022 (March 31, 2022)",
+    "revenue_fy2": {
+      "value": 1406.48,
+      "unit": "million",
+      "page": 76
+    },
+    "revenue_fy1": {
+      "value": 1596.63,
+      "unit": "million",
+      "page": 76
+    },
+    "revenue_fy0": {
+      "value": 2198.95,
+      "unit": "million",
+      "page": 76
+    },
+    "ebitda_fy2": {
+      "value": 263.37,
+      "unit": "million",
+      "page": 402
+    },
+    "ebitda_fy1": {
+      "value": 302.82,
+      "unit": "million",
+      "page": 402
+    },
+    "ebitda_fy0": {
+      "value": 401.5,
+      "unit": "million",
+      "page": 402
+    },
+    "pat_fy2": {
+      "value": 159.93,
+      "unit": "million",
+      "page": 76
+    },
+    "pat_fy1": {
+      "value": 205.8,
+      "unit": "million",
+      "page": 76
+    },
+    "pat_fy0": {
+      "value": 280.1,
+      "unit": "million",
+      "page": 76
+    },
+    "cfo_fy2": {
+      "value": 132.1,
+      "unit": "million",
+      "page": 77
+    },
+    "cfo_fy1": {
+      "value": -0.49,
+      "unit": "million",
+      "page": 77
+    },
+    "cfo_fy0": {
+      "value": -52.53,
+      "unit": "million",
+      "page": 77
+    },
+    "net_worth_fy0": {
+      "value": 764.41,
+      "unit": "million",
+      "page": 75
+    },
+    "total_debt_fy0": {
+      "value": 161.61,
+      "unit": "million",
+      "page": 28
+    },
+    "cash_fy0": {
+      "value": 6.5,
+      "unit": "million",
+      "page": 75
+    },
+    "eps_fy0": {
+      "value": 4.31,
+      "unit": "rupees",
+      "page": 402
+    },
+    "ronw_fy0_pct": {
+      "value": 36.64,
+      "unit": "percent",
+      "page": 402
+    },
+    "nav_per_share_fy0": {
+      "value": 11.76,
+      "unit": "rupees",
+      "page": 402
+    },
+    "stub_period_months": 9,
+    "revenue_stub": {
+      "value": 2407.21,
+      "unit": "million",
+      "page": 76
+    },
+    "pat_stub": {
+      "value": 345.82,
+      "unit": "million",
+      "page": 76
+    },
+    "no_listed_peers": false,
+    "peers": [],
+    "notes": [
+      "The price band, lot size, number of fresh issue shares and post-offer shares are all printed as [\u25cf] in the RHP.",
+      "Two different FY2022 EPS figures are printed. The restated P&L (p.76) shows basic EPS of 11.20 (FY21 8.23, FY20 6.40). The accounting ratios (p.402) and the summary (p.27) show the bonus-adjusted 4.31 (FY21 3.17, FY20 2.46). I used 4.31.",
+      "The 'Comparison with listed industry peers' table was not on the pages given. Page 122 gives only the industry P/E: highest 90.93, lowest 13.91, composite 56.30. The peers list is left empty.",
+      "Proforma consolidated financials (after acquiring the subsidiaries) are also reported, e.g. FY22 revenue 3,318.40 million and PAT 505.16 million. The figures above use the restated consolidated financials, not the proforma ones.",
+      "Total debt for FY22 (161.61) is from the summary on p.28. It equals non-current borrowings 11.08 plus current borrowings 147.22 (p.75) only to within 3.31 million, so it does not fully reconcile.",
+      "The capex object is printed as '2,123,11' on p.27 and as 2,123.11 on p.102. Its total estimated cost is 2,628.75 million, of which 505.63 million has already been deployed.",
+      "The promoter holding before the offer is about 100%: promoters 64,999,142 shares plus promoter group 520, out of 65,000,000. The post-offer holding is not stated.",
+      "The only share allotments in the last year were bonus issues, so pre_ipo_placement is false.",
+      "The OFS is entirely by the promoters. Their weighted average cost of acquisition is \u20b90.01 per share."
+    ]
+  }
+}

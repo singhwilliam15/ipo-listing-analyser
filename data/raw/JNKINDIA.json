@@ -1,0 +1,403 @@
+{
+  "symbol": "JNKINDIA",
+  "rhp_file": "JNKINDIA.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:14:13+00:00",
+  "pages_sent": [
+    1,
+    2,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    95,
+    96,
+    97,
+    98,
+    108,
+    109,
+    110,
+    111,
+    120,
+    121,
+    122,
+    123,
+    124,
+    309,
+    310,
+    311
+  ],
+  "n_pdf_pages": 464,
+  "usage": {
+    "input_tokens": 56686,
+    "output_tokens": 3531,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.49474260000000003,
+    "session_id": "4923fc41-69d3-4cab-8581-5a3ea6d93ea1"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "JNK India Limited",
+    "sector": "Industrials & capital goods",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023 (March 31, 2023)",
+    "stub_period_months": 9,
+    "pre_ipo_placement": "no",
+    "lead_managers": "IIFL Securities Limited; ICICI Securities Limited",
+    "revenue_fy2": 137.721,
+    "rhp_page_revenue_fy2": 82,
+    "revenue_fy1": 296.396,
+    "rhp_page_revenue_fy1": 82,
+    "revenue_fy0": 407.302,
+    "rhp_page_revenue_fy0": 82,
+    "ebitda_fy2": 26.014999999999997,
+    "rhp_page_ebitda_fy2": 123,
+    "ebitda_fy1": 54.577,
+    "rhp_page_ebitda_fy1": 123,
+    "ebitda_fy0": 73.505,
+    "rhp_page_ebitda_fy0": 123,
+    "pat_fy2": 16.476,
+    "rhp_page_pat_fy2": 82,
+    "pat_fy1": 35.983,
+    "rhp_page_pat_fy1": 82,
+    "pat_fy0": 46.362,
+    "rhp_page_pat_fy0": 82,
+    "cfo_fy2": 11.452,
+    "rhp_page_cfo_fy2": 83,
+    "cfo_fy1": 38.912,
+    "rhp_page_cfo_fy1": 83,
+    "cfo_fy0": -7.222,
+    "rhp_page_cfo_fy0": 83,
+    "net_worth_fy0": 122.17,
+    "rhp_page_net_worth_fy0": 81,
+    "total_debt_fy0": 33.763,
+    "rhp_page_total_debt_fy0": 24,
+    "cash_fy0": 15.393,
+    "rhp_page_cash_fy0": 81,
+    "revenue_stub": 253.393,
+    "rhp_page_revenue_stub": 82,
+    "pat_stub": 46.211,
+    "rhp_page_pat_stub": 82,
+    "price_low": null,
+    "rhp_page_price_low": 2,
+    "price_high": null,
+    "rhp_page_price_high": 2,
+    "lot_size": null,
+    "rhp_page_lot_size": 2,
+    "promoter_pre_pct": 94.56,
+    "rhp_page_promoter_pre_pct": 24,
+    "promoter_post_pct": null,
+    "retail_quota_pct": 35.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": null,
+    "eps_fy0": 9.66,
+    "rhp_page_eps_fy0": 82,
+    "ronw_fy0_pct": 47.71,
+    "rhp_page_ronw_fy0_pct": 121,
+    "nav_per_share_fy0": 25.45,
+    "rhp_page_nav_per_share_fy0": 121,
+    "fresh_issue_cr": 300.0,
+    "rhp_page_fresh_issue_cr": 2,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 2,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 2,
+    "ofs_shares_cr": 0.8421052,
+    "rhp_page_ofs_shares_cr": 2,
+    "pre_issue_shares_cr": 4.8392,
+    "rhp_page_pre_issue_shares_cr": 78,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 78,
+    "ofs_promoter_shares_cr": 0.7953217,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "THERMAX; BHEL",
+    "n_peers": 2,
+    "peer_pe_list": [
+      112.9,
+      186.02
+    ],
+    "peer_ronw_list": [
+      12.24,
+      1.79
+    ],
+    "rhp_page_peers": 122
+  },
+  "extract": {
+    "company": "JNK India Limited",
+    "sector": "Industrials & capital goods",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 2
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 2
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": 2
+    },
+    "fresh_issue_amount": {
+      "value": 3000.0,
+      "unit": "million",
+      "page": 2
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 2
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 2
+    },
+    "ofs_shares": {
+      "value": 8421052.0,
+      "unit": "shares",
+      "page": 2
+    },
+    "selling_shareholders": [
+      {
+        "name": "Goutam Rampelli",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 1122807.0,
+          "unit": "shares",
+          "page": 2
+        }
+      },
+      {
+        "name": "JNK Global Co. Ltd (formerly JNK Heaters Co. Ltd)",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 2432749.0,
+          "unit": "shares",
+          "page": 2
+        }
+      },
+      {
+        "name": "Mascot Capital and Marketing Private Limited",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 4397661.0,
+          "unit": "shares",
+          "page": 2
+        }
+      },
+      {
+        "name": "Milind Joshi",
+        "kind": "other",
+        "shares_offered": {
+          "value": 467835.0,
+          "unit": "shares",
+          "page": 2
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 48392000.0,
+      "unit": "shares",
+      "page": 78
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 78
+    },
+    "promoter_pre_pct": {
+      "value": 94.56,
+      "unit": "percent",
+      "page": 24
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding working capital requirements",
+        "category": "other",
+        "amount": {
+          "value": 2626.9,
+          "unit": "million",
+          "page": 108
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 108
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "IIFL Securities Limited",
+      "ICICI Securities Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023 (March 31, 2023)",
+    "revenue_fy2": {
+      "value": 1377.21,
+      "unit": "million",
+      "page": 82
+    },
+    "revenue_fy1": {
+      "value": 2963.96,
+      "unit": "million",
+      "page": 82
+    },
+    "revenue_fy0": {
+      "value": 4073.02,
+      "unit": "million",
+      "page": 82
+    },
+    "ebitda_fy2": {
+      "value": 260.15,
+      "unit": "million",
+      "page": 123
+    },
+    "ebitda_fy1": {
+      "value": 545.77,
+      "unit": "million",
+      "page": 123
+    },
+    "ebitda_fy0": {
+      "value": 735.05,
+      "unit": "million",
+      "page": 123
+    },
+    "pat_fy2": {
+      "value": 164.76,
+      "unit": "million",
+      "page": 82
+    },
+    "pat_fy1": {
+      "value": 359.83,
+      "unit": "million",
+      "page": 82
+    },
+    "pat_fy0": {
+      "value": 463.62,
+      "unit": "million",
+      "page": 82
+    },
+    "cfo_fy2": {
+      "value": 114.52,
+      "unit": "million",
+      "page": 83
+    },
+    "cfo_fy1": {
+      "value": 389.12,
+      "unit": "million",
+      "page": 83
+    },
+    "cfo_fy0": {
+      "value": -72.22,
+      "unit": "million",
+      "page": 83
+    },
+    "net_worth_fy0": {
+      "value": 1221.7,
+      "unit": "million",
+      "page": 81
+    },
+    "total_debt_fy0": {
+      "value": 337.63,
+      "unit": "million",
+      "page": 24
+    },
+    "cash_fy0": {
+      "value": 153.93,
+      "unit": "million",
+      "page": 81
+    },
+    "eps_fy0": {
+      "value": 9.66,
+      "unit": "rupees",
+      "page": 82
+    },
+    "ronw_fy0_pct": {
+      "value": 47.71,
+      "unit": "percent",
+      "page": 121
+    },
+    "nav_per_share_fy0": {
+      "value": 25.45,
+      "unit": "rupees",
+      "page": 121
+    },
+    "stub_period_months": 9,
+    "revenue_stub": {
+      "value": 2533.93,
+      "unit": "million",
+      "page": 82
+    },
+    "pat_stub": {
+      "value": 462.11,
+      "unit": "million",
+      "page": 82
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Thermax Limited",
+        "nse_symbol": "THERMAX",
+        "pe": 112.9,
+        "ronw_pct": 12.24,
+        "page": 122
+      },
+      {
+        "name": "Bharat Heavy Electricals Limited",
+        "nse_symbol": "BHEL",
+        "pe": 186.02,
+        "ronw_pct": 1.79,
+        "page": 122
+      }
+    ],
+    "notes": [
+      "The price band and lot size are printed as [\u25cf] in the RHP and were to be announced by advertisement, so they are null.",
+      "No pre-IPO placement was done: the DRHP had contemplated one, but the RHP says it was not undertaken. The only recent allotment was an ESOP exercise on April 12, 2023: 78,400 shares of face value \u20b910 at \u20b910 each, made before the 5:1 split. It was not treated as a placement.",
+      "Working capital funding (\u20b92,626.90 million) is categorised as 'other' because the fixed list has no working-capital category. The general corporate purposes amount is [\u25cf].",
+      "The NAV per share for December 31, 2023 is printed as 34.84 on pages 24 and 121 but as 34.83 on page 309.",
+      "Some revenue breakdown tables on page 84 total 4,065.51 for FY2023 (excluding other operating revenue). The figure used is 4,073.02 from the statement of profit and loss.",
+      "The fy0 total borrowings (337.63) are from the summary on page 24. They match non-current 32.39 plus current 305.24 on page 81.",
+      "Promoter post-offer holding is not given on these pages.",
+      "The NSE symbols for the peers are inferred, not printed in the RHP."
+    ]
+  }
+}

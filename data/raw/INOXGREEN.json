@@ -1,0 +1,353 @@
+{
+  "symbol": "INOXGREEN",
+  "rhp_file": "INOXGREEN.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T20:53:25+00:00",
+  "pages_sent": [
+    1,
+    2,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    93,
+    94,
+    95,
+    96,
+    106,
+    107,
+    108,
+    109,
+    115,
+    116,
+    117,
+    118,
+    119,
+    353,
+    354,
+    355,
+    356
+  ],
+  "n_pdf_pages": 483,
+  "usage": {
+    "input_tokens": 50128,
+    "output_tokens": 3097,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.4329441,
+    "session_id": "1a05779f-5fb4-43a5-b7a2-c44fe3663119"
+  },
+  "checks": [
+    "EPS -0.25 vs PAT/shares -3.97 disagree (bonus/split after FY end?)"
+  ],
+  "fields": {
+    "company_rhp": "Inox Green Energy Services Limited",
+    "sector": "Energy, power & renewables",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2022 (March 31, 2022)",
+    "stub_period_months": 3,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "Edelweiss Financial Services Limited; DAM Capital Advisors Limited; Equirus Capital Private Limited; IDBI Capital Markets & Securities Limited; Systematix Corporate Services Limited",
+    "revenue_fy2": 165.315,
+    "rhp_page_revenue_fy2": 74,
+    "revenue_fy1": 172.248,
+    "rhp_page_revenue_fy1": 74,
+    "revenue_fy0": 172.166,
+    "rhp_page_revenue_fy0": 74,
+    "ebitda_fy2": 95.353,
+    "rhp_page_ebitda_fy2": 353,
+    "ebitda_fy1": 77.267,
+    "rhp_page_ebitda_fy1": 353,
+    "ebitda_fy0": 100.26,
+    "rhp_page_ebitda_fy0": 353,
+    "pat_fy2": -52.264,
+    "rhp_page_pat_fy2": 75,
+    "pat_fy1": -153.522,
+    "rhp_page_pat_fy1": 75,
+    "pat_fy0": -93.198,
+    "rhp_page_pat_fy0": 75,
+    "cfo_fy2": 361.602,
+    "rhp_page_cfo_fy2": 76,
+    "cfo_fy1": 48.732,
+    "rhp_page_cfo_fy1": 76,
+    "cfo_fy0": 141.029,
+    "rhp_page_cfo_fy0": 76,
+    "net_worth_fy0": 806.633,
+    "rhp_page_net_worth_fy0": 72,
+    "total_debt_fy0": 904.167,
+    "rhp_page_total_debt_fy0": 24,
+    "cash_fy0": 44.716,
+    "rhp_page_cash_fy0": 72,
+    "revenue_stub": 61.788,
+    "rhp_page_revenue_stub": 74,
+    "pat_stub": -11.584,
+    "rhp_page_pat_stub": 75,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": 93.84,
+    "rhp_page_promoter_pre_pct": 24,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": 80.64,
+    "rhp_page_pre_ipo_price": 90,
+    "eps_fy0": -0.25,
+    "rhp_page_eps_fy0": 111,
+    "ronw_fy0_pct": -0.61,
+    "rhp_page_ronw_fy0_pct": 112,
+    "nav_per_share_fy0": 34.32,
+    "rhp_page_nav_per_share_fy0": 112,
+    "fresh_issue_cr": 370.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": 370.0,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "ofs_shares_cr": null,
+    "pre_issue_shares_cr": 23.5016258,
+    "rhp_page_pre_issue_shares_cr": 69,
+    "post_issue_shares_cr": null,
+    "ofs_promoter_shares_cr": 0,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 260.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "Inox Green Energy Services Limited",
+    "sector": "Energy, power & renewables",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 3700.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "ofs_amount": {
+      "value": 3700.0,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "selling_shareholders": [
+      {
+        "name": "Inox Wind Limited",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": null,
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 235016258.0,
+      "unit": "shares",
+      "page": 69
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "promoter_pre_pct": {
+      "value": 93.84,
+      "unit": "percent",
+      "page": 24
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment and/or pre-payment, in full or part, of certain borrowings availed by the Company including redemption of Secured NCDs in full",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 2600.0,
+          "unit": "million",
+          "page": 107
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": null,
+          "page": 107
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 80.64,
+      "unit": "rupees",
+      "page": 90
+    },
+    "lead_managers": [
+      "Edelweiss Financial Services Limited",
+      "DAM Capital Advisors Limited",
+      "Equirus Capital Private Limited",
+      "IDBI Capital Markets & Securities Limited",
+      "Systematix Corporate Services Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2022 (March 31, 2022)",
+    "revenue_fy2": {
+      "value": 1653.15,
+      "unit": "million",
+      "page": 74
+    },
+    "revenue_fy1": {
+      "value": 1722.48,
+      "unit": "million",
+      "page": 74
+    },
+    "revenue_fy0": {
+      "value": 1721.66,
+      "unit": "million",
+      "page": 74
+    },
+    "ebitda_fy2": {
+      "value": 953.53,
+      "unit": "million",
+      "page": 353
+    },
+    "ebitda_fy1": {
+      "value": 772.67,
+      "unit": "million",
+      "page": 353
+    },
+    "ebitda_fy0": {
+      "value": 1002.6,
+      "unit": "million",
+      "page": 353
+    },
+    "pat_fy2": {
+      "value": -522.64,
+      "unit": "million",
+      "page": 75
+    },
+    "pat_fy1": {
+      "value": -1535.22,
+      "unit": "million",
+      "page": 75
+    },
+    "pat_fy0": {
+      "value": -931.98,
+      "unit": "million",
+      "page": 75
+    },
+    "cfo_fy2": {
+      "value": 3616.02,
+      "unit": "million",
+      "page": 76
+    },
+    "cfo_fy1": {
+      "value": 487.32,
+      "unit": "million",
+      "page": 76
+    },
+    "cfo_fy0": {
+      "value": 1410.29,
+      "unit": "million",
+      "page": 76
+    },
+    "net_worth_fy0": {
+      "value": 8066.33,
+      "unit": "million",
+      "page": 72
+    },
+    "total_debt_fy0": {
+      "value": 9041.67,
+      "unit": "million",
+      "page": 24
+    },
+    "cash_fy0": {
+      "value": 447.16,
+      "unit": "million",
+      "page": 72
+    },
+    "eps_fy0": {
+      "value": -0.25,
+      "unit": "rupees",
+      "page": 111
+    },
+    "ronw_fy0_pct": {
+      "value": -0.61,
+      "unit": "percent",
+      "page": 112
+    },
+    "nav_per_share_fy0": {
+      "value": 34.32,
+      "unit": "rupees",
+      "page": 112
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 617.88,
+      "unit": "million",
+      "page": 74
+    },
+    "pat_stub": {
+      "value": -115.84,
+      "unit": "million",
+      "page": 75
+    },
+    "no_listed_peers": true,
+    "peers": [],
+    "notes": [
+      "PAT figures are total restated profit/(loss) for the year, including discontinued operations (EPC business that was hived off): FY22 (931.98), FY21 (1,535.22), FY20 (522.64). Profit from continuing operations alone was (49.52), (277.29) and 16.76, and those are the figures behind the EPS and RoNW shown in the summary on page 24.",
+      "Total debt for FY22 (9,041.67) is taken from the summary of financial information on page 24. The balance-sheet line items are non-current borrowings 3,194.48 and current borrowings 5,847.19. The page 24 total excludes accrued interest.",
+      "EBITDA comes from the accounting ratios on page 353 and covers continuing operations. The KPIs only give normalized EBITDA per MW.",
+      "The price band, lot size, number of shares in the fresh issue and OFS, and post-offer shares are all shown as [\u25cf] in the RHP.",
+      "Retail quota percentage is not printed. The offer is made under Regulation 6(2) of SEBI ICDR, and the retail portion is shown only as 'Not more than [\u25cf] Equity Shares'.",
+      "Pre-IPO allotment: the last preferential allotment was on December 13, 2021 at \u20b980.64 per share (other than cash, against debt owed). It falls within 12 months before the RHP dated November 3, 2022.",
+      "Equity attributable to owners at FY20 was 966.17, against total equity of 965.43. Net worth for FY22 is the same either way."
+    ]
+  }
+}

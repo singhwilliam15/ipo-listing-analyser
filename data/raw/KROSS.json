@@ -1,0 +1,416 @@
+{
+  "symbol": "KROSS",
+  "rhp_file": "KROSS.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-21T06:03:35+00:00",
+  "pages_sent": [
+    1,
+    2,
+    24,
+    25,
+    26,
+    27,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    93,
+    94,
+    95,
+    112,
+    113,
+    133,
+    134,
+    135,
+    298,
+    299,
+    300
+  ],
+  "n_pdf_pages": 435,
+  "usage": {
+    "input_tokens": 33197,
+    "output_tokens": 3425,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.30236140000000006,
+    "session_id": "60199e2e-b7fa-4241-b694-b3c7ec399df1"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Kross Limited",
+    "sector": "Auto & auto components",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "FY2024",
+    "stub_period_months": null,
+    "pre_ipo_placement": null,
+    "lead_managers": "Equirus Capital Private Limited",
+    "revenue_fy2": 297.455,
+    "rhp_page_revenue_fy2": 80,
+    "revenue_fy1": 488.628,
+    "rhp_page_revenue_fy1": 80,
+    "revenue_fy0": 620.25,
+    "rhp_page_revenue_fy0": 80,
+    "ebitda_fy2": 29.548,
+    "rhp_page_ebitda_fy2": 298,
+    "ebitda_fy1": 57.522,
+    "rhp_page_ebitda_fy1": 298,
+    "ebitda_fy0": 80.758,
+    "rhp_page_ebitda_fy0": 298,
+    "pat_fy2": 12.169,
+    "rhp_page_pat_fy2": 80,
+    "pat_fy1": 30.931,
+    "rhp_page_pat_fy1": 80,
+    "pat_fy0": 44.881,
+    "rhp_page_pat_fy0": 80,
+    "cfo_fy2": 17.538,
+    "rhp_page_cfo_fy2": 81,
+    "cfo_fy1": 41.746,
+    "rhp_page_cfo_fy1": 81,
+    "cfo_fy0": 8.251,
+    "rhp_page_cfo_fy0": 81,
+    "net_worth_fy0": 146.805,
+    "rhp_page_net_worth_fy0": 79,
+    "total_debt_fy0": 117.104,
+    "rhp_page_total_debt_fy0": 300,
+    "cash_fy0": 5.655,
+    "rhp_page_cash_fy0": 79,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 134,
+    "price_high": null,
+    "rhp_page_price_high": 134,
+    "lot_size": null,
+    "promoter_pre_pct": 99.99,
+    "rhp_page_promoter_pre_pct": 25,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 25,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 8.3,
+    "rhp_page_eps_fy0": 80,
+    "ronw_fy0_pct": 30.57,
+    "rhp_page_ronw_fy0_pct": 134,
+    "nav_per_share_fy0": 27.14,
+    "rhp_page_nav_per_share_fy0": 134,
+    "fresh_issue_cr": 250.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": 250.0,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 5.4092756,
+    "rhp_page_pre_issue_shares_cr": 76,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 76,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 90.0,
+    "proceeds_capex_cr": 70.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "Ramkrishna Forgings Limited; Jamna Auto Industries Limited; Automotive Axles Limited; GNA Axles Limited; Talbros Automotive Components Limited",
+    "n_peers": 5,
+    "peer_pe_list": [
+      46.55,
+      24.3,
+      17.05,
+      17.32,
+      19.03
+    ],
+    "peer_ronw_list": [
+      12.72,
+      22.74,
+      18.97,
+      12.47,
+      20.47
+    ],
+    "rhp_page_peers": 135
+  },
+  "extract": {
+    "company": "Kross Limited",
+    "sector": "Auto & auto components",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 134
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 134
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 2500.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": 2500.0,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Sudhir Rai",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Anita Rai",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 54092756.0,
+      "unit": "shares",
+      "page": 76
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 76
+    },
+    "promoter_pre_pct": {
+      "value": 99.99,
+      "unit": "percent",
+      "page": 25
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 25
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding of capital expenditure requirements towards purchase of machinery and equipment",
+        "category": "capex",
+        "amount": {
+          "value": 700.0,
+          "unit": "million",
+          "page": 112
+        }
+      },
+      {
+        "purpose": "Repayment or prepayment of certain outstanding borrowings from banks and financial institutions",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 900.0,
+          "unit": "million",
+          "page": 113
+        }
+      },
+      {
+        "purpose": "Funding working capital requirements of the Company",
+        "category": "other",
+        "amount": {
+          "value": 300.0,
+          "unit": "million",
+          "page": 113
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 113
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Equirus Capital Private Limited"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "FY2024",
+    "revenue_fy2": {
+      "value": 2974.55,
+      "unit": "million",
+      "page": 80
+    },
+    "revenue_fy1": {
+      "value": 4886.28,
+      "unit": "million",
+      "page": 80
+    },
+    "revenue_fy0": {
+      "value": 6202.5,
+      "unit": "million",
+      "page": 80
+    },
+    "ebitda_fy2": {
+      "value": 295.48,
+      "unit": "million",
+      "page": 298
+    },
+    "ebitda_fy1": {
+      "value": 575.22,
+      "unit": "million",
+      "page": 298
+    },
+    "ebitda_fy0": {
+      "value": 807.58,
+      "unit": "million",
+      "page": 298
+    },
+    "pat_fy2": {
+      "value": 121.69,
+      "unit": "million",
+      "page": 80
+    },
+    "pat_fy1": {
+      "value": 309.31,
+      "unit": "million",
+      "page": 80
+    },
+    "pat_fy0": {
+      "value": 448.81,
+      "unit": "million",
+      "page": 80
+    },
+    "cfo_fy2": {
+      "value": 175.38,
+      "unit": "million",
+      "page": 81
+    },
+    "cfo_fy1": {
+      "value": 417.46,
+      "unit": "million",
+      "page": 81
+    },
+    "cfo_fy0": {
+      "value": 82.51,
+      "unit": "million",
+      "page": 81
+    },
+    "net_worth_fy0": {
+      "value": 1468.05,
+      "unit": "million",
+      "page": 79
+    },
+    "total_debt_fy0": {
+      "value": 1171.04,
+      "unit": "million",
+      "page": 300
+    },
+    "cash_fy0": {
+      "value": 56.55,
+      "unit": "million",
+      "page": 79
+    },
+    "eps_fy0": {
+      "value": 8.3,
+      "unit": "rupees",
+      "page": 80
+    },
+    "ronw_fy0_pct": {
+      "value": 30.57,
+      "unit": "percent",
+      "page": 134
+    },
+    "nav_per_share_fy0": {
+      "value": 27.14,
+      "unit": "rupees",
+      "page": 134
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Ramkrishna Forgings Limited",
+        "nse_symbol": null,
+        "pe": 46.55,
+        "ronw_pct": 12.72,
+        "page": 135
+      },
+      {
+        "name": "Jamna Auto Industries Limited",
+        "nse_symbol": null,
+        "pe": 24.3,
+        "ronw_pct": 22.74,
+        "page": 135
+      },
+      {
+        "name": "Automotive Axles Limited",
+        "nse_symbol": null,
+        "pe": 17.05,
+        "ronw_pct": 18.97,
+        "page": 135
+      },
+      {
+        "name": "GNA Axles Limited",
+        "nse_symbol": null,
+        "pe": 17.32,
+        "ronw_pct": 12.47,
+        "page": 135
+      },
+      {
+        "name": "Talbros Automotive Components Limited",
+        "nse_symbol": null,
+        "pe": 19.03,
+        "ronw_pct": 20.47,
+        "page": 135
+      }
+    ],
+    "notes": [
+      "Financials are restated standalone; the peer table marks Kross as Standalone and the pages show no consolidated statements.",
+      "Total debt of 1,171.04 million comes from the capitalization statement (p.300). The balance sheet shows non-current borrowings of 225.26 and current borrowings of 945.79. The summary on p.26 shows 1,179.00, which includes lease liabilities.",
+      "The price band, lot size and share counts for the fresh issue and OFS are shown as [\u25cf] in the RHP. Only rupee amounts are given: fresh issue \u20b92,500 million, OFS \u20b92,500 million (Sudhir Rai \u20b91,680 million, Anita Rai \u20b9820 million).",
+      "The retail quota percentage is not shown on the pages provided. The Offer section only says 'Not less than [\u25cf]' shares.",
+      "Pre-IPO placement: the pages provided show a 1:1 bonus issue (November 9, 2023) and a share split, but the full share capital history for the last 12 months is not included. Pre-IPO placement is therefore left null.",
+      "The working capital object (300 million) is categorised as 'other'.",
+      "Promoter and promoter group pre-offer holding is 99.99% (promoters 99.26% plus Dipak Rai HUF 0.74%).",
+      "The 'Comparison with listed industry peers' table appears in 'Basis for Offer Price' under the heading 'Accounting Ratios'; NSE symbols are not printed."
+    ]
+  }
+}

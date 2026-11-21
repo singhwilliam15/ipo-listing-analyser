@@ -1,0 +1,370 @@
+{
+  "symbol": "JPL",
+  "rhp_file": "JPL.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:16:20+00:00",
+  "pages_sent": [
+    1,
+    2,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    99,
+    100,
+    101,
+    102,
+    116,
+    117,
+    118,
+    119,
+    126,
+    127,
+    128,
+    129,
+    130,
+    431,
+    432,
+    433
+  ],
+  "n_pdf_pages": 591,
+  "usage": {
+    "input_tokens": 40410,
+    "output_tokens": 3515,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.36258710000000005,
+    "session_id": "68270be5-dafe-4831-af9b-96e98a7fc325"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Jio Platforms Limited",
+    "sector": "Internet & platforms",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026 (March 31, 2026)",
+    "stub_period_months": 3,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Kotak Mahindra Capital Company Limited; Morgan Stanley India Company Private Limited; BofA Securities India Limited; Axis Capital Limited; BNP Paribas; Citigroup Global Markets India Private Limited; CLSA India Private Limited; DAM Capital Advisors Limited; Goldman Sachs (India) Securities Private Limited; HDFC Bank Limited; HSBC Securities and Capital Markets (India) Private Limited; ICICI Securities Limited; IIFL Capital Services Limited; Jefferies India Private Limited; JM Financial Limited; J.P. Morgan India Private Limited; SBI Capital Markets Limited; UBS Securities India Private Limited; 360 ONE WAM Limited",
+    "revenue_fy2": 109558.1,
+    "rhp_page_revenue_fy2": 76,
+    "revenue_fy1": 128218.4,
+    "rhp_page_revenue_fy1": 76,
+    "revenue_fy0": 146885.3,
+    "rhp_page_revenue_fy0": 76,
+    "ebitda_fy2": 54958.7,
+    "rhp_page_ebitda_fy2": 431,
+    "ebitda_fy1": 64170.0,
+    "rhp_page_ebitda_fy1": 431,
+    "ebitda_fy0": 76255.4,
+    "rhp_page_ebitda_fy0": 431,
+    "pat_fy2": 21423.2,
+    "rhp_page_pat_fy2": 76,
+    "pat_fy1": 26109.0,
+    "rhp_page_pat_fy1": 76,
+    "pat_fy0": 30049.1,
+    "rhp_page_pat_fy0": 76,
+    "cfo_fy2": 57661.6,
+    "rhp_page_cfo_fy2": 77,
+    "cfo_fy1": 68155.7,
+    "rhp_page_cfo_fy1": 77,
+    "cfo_fy0": 77556.3,
+    "rhp_page_cfo_fy0": 77,
+    "net_worth_fy0": null,
+    "total_debt_fy0": null,
+    "cash_fy0": 16557.0,
+    "rhp_page_cash_fy0": 75,
+    "revenue_stub": 39172.9,
+    "rhp_page_revenue_stub": 76,
+    "pat_stub": 7764.1,
+    "rhp_page_pat_stub": 76,
+    "price_low": null,
+    "rhp_page_price_low": 129,
+    "price_high": null,
+    "rhp_page_price_high": 129,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 33.63,
+    "rhp_page_eps_fy0": 76,
+    "ronw_fy0_pct": 9.42,
+    "rhp_page_ronw_fy0_pct": 129,
+    "nav_per_share_fy0": 373.66,
+    "rhp_page_nav_per_share_fy0": 130,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": 27.0,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 893.903083,
+    "rhp_page_pre_issue_shares_cr": 72,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 72,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 27500.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "BHARTIARTL; IDEA",
+    "n_peers": 2,
+    "peer_pe_list": [
+      40.71,
+      3.99
+    ],
+    "peer_ronw_list": [
+      20.32
+    ],
+    "rhp_page_peers": 130
+  },
+  "extract": {
+    "company": "Jio Platforms Limited",
+    "sector": "Internet & platforms",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 129
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 129
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": 270000000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 8939030830.0,
+      "unit": "shares",
+      "page": 72
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 72
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Prepayment, in full or in part, of certain outstanding borrowings availed by the Material Subsidiary, RJIL",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 275000.0,
+          "unit": "million",
+          "page": 116
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 116
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Kotak Mahindra Capital Company Limited",
+      "Morgan Stanley India Company Private Limited",
+      "BofA Securities India Limited",
+      "Axis Capital Limited",
+      "BNP Paribas",
+      "Citigroup Global Markets India Private Limited",
+      "CLSA India Private Limited",
+      "DAM Capital Advisors Limited",
+      "Goldman Sachs (India) Securities Private Limited",
+      "HDFC Bank Limited",
+      "HSBC Securities and Capital Markets (India) Private Limited",
+      "ICICI Securities Limited",
+      "IIFL Capital Services Limited",
+      "Jefferies India Private Limited",
+      "JM Financial Limited",
+      "J.P. Morgan India Private Limited",
+      "SBI Capital Markets Limited",
+      "UBS Securities India Private Limited",
+      "360 ONE WAM Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026 (March 31, 2026)",
+    "revenue_fy2": {
+      "value": 1095581.0,
+      "unit": "million",
+      "page": 76
+    },
+    "revenue_fy1": {
+      "value": 1282184.0,
+      "unit": "million",
+      "page": 76
+    },
+    "revenue_fy0": {
+      "value": 1468853.0,
+      "unit": "million",
+      "page": 76
+    },
+    "ebitda_fy2": {
+      "value": 549587.0,
+      "unit": "million",
+      "page": 431
+    },
+    "ebitda_fy1": {
+      "value": 641700.0,
+      "unit": "million",
+      "page": 431
+    },
+    "ebitda_fy0": {
+      "value": 762554.0,
+      "unit": "million",
+      "page": 431
+    },
+    "pat_fy2": {
+      "value": 214232.0,
+      "unit": "million",
+      "page": 76
+    },
+    "pat_fy1": {
+      "value": 261090.0,
+      "unit": "million",
+      "page": 76
+    },
+    "pat_fy0": {
+      "value": 300491.0,
+      "unit": "million",
+      "page": 76
+    },
+    "cfo_fy2": {
+      "value": 576616.0,
+      "unit": "million",
+      "page": 77
+    },
+    "cfo_fy1": {
+      "value": 681557.0,
+      "unit": "million",
+      "page": 77
+    },
+    "cfo_fy0": {
+      "value": 775563.0,
+      "unit": "million",
+      "page": 77
+    },
+    "net_worth_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "total_debt_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cash_fy0": {
+      "value": 165570.0,
+      "unit": "million",
+      "page": 75
+    },
+    "eps_fy0": {
+      "value": 33.63,
+      "unit": "rupees",
+      "page": 76
+    },
+    "ronw_fy0_pct": {
+      "value": 9.42,
+      "unit": "percent",
+      "page": 129
+    },
+    "nav_per_share_fy0": {
+      "value": 373.66,
+      "unit": "rupees",
+      "page": 130
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 391729.0,
+      "unit": "million",
+      "page": 76
+    },
+    "pat_stub": {
+      "value": 77641.0,
+      "unit": "million",
+      "page": 76
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Bharti Airtel Limited",
+        "nse_symbol": "BHARTIARTL",
+        "pe": 40.71,
+        "ronw_pct": 20.32,
+        "page": 130
+      },
+      {
+        "name": "Vodafone Idea Limited",
+        "nse_symbol": "IDEA",
+        "pe": 3.99,
+        "ronw_pct": null,
+        "page": 130
+      }
+    ],
+    "notes": [
+      "Issue is 100% fresh issue (no OFS); promoter is Reliance Industries Limited.",
+      "Price band, lot size, retail quota and promoter shareholding % are not printed on the pages provided (price band shown as [\u25cf]).",
+      "Net worth for FY2026 is not printed as a single total. The balance sheet on page 75 shows equity share capital of 89,390 and other equity of 3,270,379 (\u20b9 million). The NAV-basis net worth excludes OCI. The only net worth figure printed is 3,417,785 as at June 30, 2026 (page 79).",
+      "Total borrowings for FY2026 are not printed as a single total. Page 75 shows non-current borrowings of 514,548 and current borrowings of 193,262 (\u20b9 million). Total borrowings as at June 30, 2026 are 613,722 (page 432).",
+      "The amount for general corporate purposes is [\u25cf] and capped at 25% of gross proceeds. The issue includes an Employee Reservation of up to \u20b95,000 million and an RIL Shareholders Reservation of up to \u20b925,000 million.",
+      "The capital history shows no allotment after January 4, 2022, so pre_ipo_placement is set to false.",
+      "Vodafone Idea's RoNW is printed as NM (negative average net worth). Its P/E of 3.99 is distorted by exceptional items.",
+      "Sector: telecom/digital connectivity is mapped to Internet & platforms, the closest category in the fixed list."
+    ]
+  }
+}

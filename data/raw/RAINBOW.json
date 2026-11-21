@@ -1,0 +1,458 @@
+{
+  "symbol": "RAINBOW",
+  "rhp_file": "RAINBOW.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T17:47:53+00:00",
+  "pages_sent": [
+    1,
+    2,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    93,
+    94,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    117,
+    118,
+    119,
+    120,
+    158,
+    159,
+    160,
+    161,
+    176,
+    177,
+    178,
+    179,
+    180,
+    437,
+    438,
+    439,
+    442
+  ],
+  "n_pdf_pages": 646,
+  "usage": {
+    "input_tokens": 47910,
+    "output_tokens": 3976,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.433,
+    "session_id": "e4c3bf21-c857-466b-a803-0d8d2efa9695"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Rainbow Children's Medicare Limited",
+    "sector": "Healthcare & pharma",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2021 (March 31, 2021)",
+    "stub_period_months": 9,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "Kotak Mahindra Capital Company Limited; J.P. Morgan India Private Limited; IIFL Securities Limited",
+    "revenue_fy2": 542.792,
+    "rhp_page_revenue_fy2": 99,
+    "revenue_fy1": 719.391,
+    "rhp_page_revenue_fy1": 99,
+    "revenue_fy0": 650.047,
+    "rhp_page_revenue_fy0": 99,
+    "ebitda_fy2": 156.866,
+    "rhp_page_ebitda_fy2": 437,
+    "ebitda_fy1": 207.373,
+    "rhp_page_ebitda_fy1": 437,
+    "ebitda_fy0": 173.097,
+    "rhp_page_ebitda_fy0": 437,
+    "pat_fy2": 44.59,
+    "rhp_page_pat_fy2": 99,
+    "pat_fy1": 55.34,
+    "rhp_page_pat_fy1": 99,
+    "pat_fy0": 39.568,
+    "rhp_page_pat_fy0": 99,
+    "cfo_fy2": 127.242,
+    "rhp_page_cfo_fy2": 102,
+    "cfo_fy1": 170.407,
+    "rhp_page_cfo_fy1": 102,
+    "cfo_fy0": 142.714,
+    "rhp_page_cfo_fy0": 102,
+    "net_worth_fy0": 446.363,
+    "rhp_page_net_worth_fy0": 98,
+    "total_debt_fy0": 47.967,
+    "rhp_page_total_debt_fy0": 29,
+    "cash_fy0": 5.658,
+    "rhp_page_cash_fy0": 97,
+    "revenue_stub": 761.311,
+    "rhp_page_revenue_stub": 99,
+    "pat_stub": 126.413,
+    "rhp_page_pat_stub": 99,
+    "price_low": null,
+    "rhp_page_price_low": 177,
+    "price_high": null,
+    "rhp_page_price_high": 177,
+    "lot_size": null,
+    "promoter_pre_pct": 62.19,
+    "rhp_page_promoter_pre_pct": 27,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 27,
+    "retail_quota_pct": 35.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": null,
+    "eps_fy0": 4.36,
+    "rhp_page_eps_fy0": 99,
+    "ronw_fy0_pct": 8.88,
+    "rhp_page_ronw_fy0_pct": 178,
+    "nav_per_share_fy0": 48.82,
+    "rhp_page_nav_per_share_fy0": 178,
+    "fresh_issue_cr": 280.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 2,
+    "ofs_shares_cr": 2.40009,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 9.6334008,
+    "rhp_page_pre_issue_shares_cr": 93,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 93,
+    "ofs_promoter_shares_cr": 0.9334788,
+    "ofs_investor_shares_cr": 1.4666112,
+    "proceeds_debt_repayment_cr": 40.0,
+    "proceeds_capex_cr": 170.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "APOLLOHOSP; FORTIS; NH; MAXHEALTH; KIMS",
+    "n_peers": 5,
+    "peer_pe_list": [
+      428.88,
+      54.19
+    ],
+    "peer_ronw_list": [
+      3.3,
+      -0.75,
+      -1.46,
+      -2.47,
+      23.74
+    ],
+    "rhp_page_peers": 179
+  },
+  "extract": {
+    "company": "Rainbow Children's Medicare Limited",
+    "sector": "Healthcare & pharma",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 177
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 177
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 2800.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 2
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 24000900.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Dr. Ramesh Kancharla",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 5354630.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Dr. Dinesh Kumar Chirla",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 1926690.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Dr. Adarsh Kancharla",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 1445020.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "British International Investment plc (formerly CDC Group plc)",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 9632876.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "CDC India",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 5033236.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Padma Kancharla",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 608448.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 96334008.0,
+      "unit": "shares",
+      "page": 93
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 93
+    },
+    "promoter_pre_pct": {
+      "value": 62.19,
+      "unit": "percent",
+      "page": 27
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 27
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Early redemption of NCDs issued to CDC Emerging Markets Limited in full",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 400.0,
+          "unit": "million",
+          "page": 159
+        }
+      },
+      {
+        "purpose": "Capital expenditure towards setting up new hospitals and purchase of medical equipment",
+        "category": "capex",
+        "amount": {
+          "value": 1700.0,
+          "unit": "million",
+          "page": 159
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 159
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Kotak Mahindra Capital Company Limited",
+      "J.P. Morgan India Private Limited",
+      "IIFL Securities Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2021 (March 31, 2021)",
+    "revenue_fy2": {
+      "value": 5427.92,
+      "unit": "million",
+      "page": 99
+    },
+    "revenue_fy1": {
+      "value": 7193.91,
+      "unit": "million",
+      "page": 99
+    },
+    "revenue_fy0": {
+      "value": 6500.47,
+      "unit": "million",
+      "page": 99
+    },
+    "ebitda_fy2": {
+      "value": 1568.66,
+      "unit": "million",
+      "page": 437
+    },
+    "ebitda_fy1": {
+      "value": 2073.73,
+      "unit": "million",
+      "page": 437
+    },
+    "ebitda_fy0": {
+      "value": 1730.97,
+      "unit": "million",
+      "page": 437
+    },
+    "pat_fy2": {
+      "value": 445.9,
+      "unit": "million",
+      "page": 99
+    },
+    "pat_fy1": {
+      "value": 553.4,
+      "unit": "million",
+      "page": 99
+    },
+    "pat_fy0": {
+      "value": 395.68,
+      "unit": "million",
+      "page": 99
+    },
+    "cfo_fy2": {
+      "value": 1272.42,
+      "unit": "million",
+      "page": 102
+    },
+    "cfo_fy1": {
+      "value": 1704.07,
+      "unit": "million",
+      "page": 102
+    },
+    "cfo_fy0": {
+      "value": 1427.14,
+      "unit": "million",
+      "page": 102
+    },
+    "net_worth_fy0": {
+      "value": 4463.63,
+      "unit": "million",
+      "page": 98
+    },
+    "total_debt_fy0": {
+      "value": 479.67,
+      "unit": "million",
+      "page": 29
+    },
+    "cash_fy0": {
+      "value": 56.58,
+      "unit": "million",
+      "page": 97
+    },
+    "eps_fy0": {
+      "value": 4.36,
+      "unit": "rupees",
+      "page": 99
+    },
+    "ronw_fy0_pct": {
+      "value": 8.88,
+      "unit": "percent",
+      "page": 178
+    },
+    "nav_per_share_fy0": {
+      "value": 48.82,
+      "unit": "rupees",
+      "page": 178
+    },
+    "stub_period_months": 9,
+    "revenue_stub": {
+      "value": 7613.11,
+      "unit": "million",
+      "page": 99
+    },
+    "pat_stub": {
+      "value": 1264.13,
+      "unit": "million",
+      "page": 99
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Apollo Hospitals Enterprise Limited",
+        "nse_symbol": "APOLLOHOSP",
+        "pe": 428.88,
+        "ronw_pct": 3.3,
+        "page": 179
+      },
+      {
+        "name": "Fortis Healthcare Limited",
+        "nse_symbol": "FORTIS",
+        "pe": null,
+        "ronw_pct": -0.75,
+        "page": 179
+      },
+      {
+        "name": "Narayana Hrudayalaya Limited",
+        "nse_symbol": "NH",
+        "pe": null,
+        "ronw_pct": -1.46,
+        "page": 179
+      },
+      {
+        "name": "Max Healthcare Institute Limited",
+        "nse_symbol": "MAXHEALTH",
+        "pe": null,
+        "ronw_pct": -2.47,
+        "page": 179
+      },
+      {
+        "name": "Krishna Institute of Medical Sciences Limited",
+        "nse_symbol": "KIMS",
+        "pe": 54.19,
+        "ronw_pct": 23.74,
+        "page": 179
+      }
+    ],
+    "notes": [
+      "The price band and lot size are printed as [\u25cf] in this RHP, so they are left null. Fresh issue share count, OFS amount and post-offer shares are also [\u25cf].",
+      "Two net worth figures for FY2021: equity attributable to owners is 4,463.63 million (page 98) and was used. The RHP's defined 'Net Worth', which excludes the capital reserve, is 4,454.68 million (page 29).",
+      "Total debt FY2021 is 479.67 million (page 29): non-current borrowings 405.20 plus current borrowings 74.47. Lease liabilities are not included.",
+      "Cash FY2021 is cash and cash equivalents only, 56.58 million. Other bank balances of 890.16 million are not included.",
+      "There was a rights issue to an existing shareholder on October 22, 2021 and a 1:1 bonus issue in November 2021. The rights issue price is not on these pages. CCPS were converted to equity under an April 4, 2022 board resolution.",
+      "On the cover page Padma Kancharla is listed as Promoter Group; the summary table on page 26 lists her as 'Other'.",
+      "The cover page lists BII and CDC India as 'Other (Investor)'; they are classified here as investor.",
+      "Retail share is 'not less than 35% of the Net Offer'. There is also an Employee Reservation Portion of up to 300,000 shares.",
+      "Peer P/E figures are as printed (closing price on April 8, 2022). P/E is NA for loss-making peers. NSE symbols are not printed in the RHP and were filled in from general knowledge.",
+      "Promoter pre-offer 62.19% is the total of promoters and promoter group on a fully diluted basis."
+    ]
+  }
+}

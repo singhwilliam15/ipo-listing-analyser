@@ -1,0 +1,495 @@
+{
+  "symbol": "EPACK",
+  "rhp_file": "EPACK.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T21:03:21+00:00",
+  "pages_sent": [
+    1,
+    2,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    98,
+    99,
+    100,
+    101,
+    111,
+    112,
+    113,
+    114,
+    130,
+    131,
+    132,
+    133,
+    134,
+    339,
+    340,
+    341,
+    342
+  ],
+  "n_pdf_pages": 506,
+  "usage": {
+    "input_tokens": 54816,
+    "output_tokens": 4306,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.4950978,
+    "session_id": "8d421520-914b-4670-b4ce-33af40c61068"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "EPACK Durable Limited",
+    "sector": "Electronics & EMS",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023 (March 31, 2023)",
+    "stub_period_months": 6,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "Axis Capital Limited; DAM Capital Advisors Limited; ICICI Securities Limited",
+    "revenue_fy2": 736.245,
+    "rhp_page_revenue_fy2": 83,
+    "revenue_fy1": 924.162,
+    "rhp_page_revenue_fy1": 83,
+    "revenue_fy0": 1538.832,
+    "rhp_page_revenue_fy0": 83,
+    "ebitda_fy2": 42.033,
+    "rhp_page_ebitda_fy2": 133,
+    "ebitda_fy1": 68.803,
+    "rhp_page_ebitda_fy1": 133,
+    "ebitda_fy0": 102.525,
+    "rhp_page_ebitda_fy0": 133,
+    "pat_fy2": 7.803,
+    "rhp_page_pat_fy2": 83,
+    "pat_fy1": 17.434,
+    "rhp_page_pat_fy1": 83,
+    "pat_fy0": 31.972,
+    "rhp_page_pat_fy0": 83,
+    "cfo_fy2": 47.419,
+    "rhp_page_cfo_fy2": 85,
+    "cfo_fy1": -28.941,
+    "rhp_page_cfo_fy1": 85,
+    "cfo_fy0": 18.828,
+    "rhp_page_cfo_fy0": 85,
+    "net_worth_fy0": 313.618,
+    "rhp_page_net_worth_fy0": 82,
+    "total_debt_fy0": 492.445,
+    "rhp_page_total_debt_fy0": 28,
+    "cash_fy0": 60.018,
+    "rhp_page_cash_fy0": 82,
+    "revenue_stub": 614.804,
+    "rhp_page_revenue_stub": 83,
+    "pat_stub": 2.654,
+    "rhp_page_pat_stub": 83,
+    "price_low": null,
+    "rhp_page_price_low": 130,
+    "price_high": null,
+    "rhp_page_price_high": 130,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "rhp_page_promoter_pre_pct": 27,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 27,
+    "retail_quota_pct": null,
+    "pre_ipo_price": 151.9,
+    "rhp_page_pre_ipo_price": 99,
+    "eps_fy0": 4.71,
+    "rhp_page_eps_fy0": 84,
+    "ronw_fy0_pct": 14.68,
+    "rhp_page_ronw_fy0_pct": 131,
+    "nav_per_share_fy0": 46.21,
+    "rhp_page_nav_per_share_fy0": 131,
+    "fresh_issue_cr": 400.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 1.0437047,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 7.8407387,
+    "rhp_page_pre_issue_shares_cr": 80,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 80,
+    "ofs_promoter_shares_cr": 0.5175360999999999,
+    "ofs_investor_shares_cr": 0.5261686,
+    "proceeds_debt_repayment_cr": 80.0,
+    "proceeds_capex_cr": 230.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "AMBER; PGEL; DIXON; ELIN",
+    "n_peers": 4,
+    "peer_pe_list": [
+      66.28,
+      67.27,
+      139.96,
+      24.28
+    ],
+    "peer_ronw_list": [
+      8.79,
+      21.88,
+      22.36,
+      6.73
+    ],
+    "rhp_page_peers": 131
+  },
+  "extract": {
+    "company": "EPACK Durable Limited",
+    "sector": "Electronics & EMS",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 130
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 130
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 4000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 10437047.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Bajrang Bothra",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 1172976.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Laxmi Pat Bothra",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 666798.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Sanjay Singhania",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 748721.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Ajay DD Singhania",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 748721.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Pinky Ajay Singhania",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 286351.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Preity Singhania",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 286351.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Nikhil Bothra",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 442905.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Nitin Bothra",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 442905.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Rajjat Kumar Bothra",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 379633.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "India Advantage Fund S4 I",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 4630284.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Dynamic India Fund S4 US I",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 631402.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 78407387.0,
+      "unit": "shares",
+      "page": 80
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 80
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 27
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 27
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding capital expenditure for the expansion / setting up of manufacturing facilities (Bhiwadi, Sri City, equipment for Bhiwadi facility)",
+        "category": "capex",
+        "amount": {
+          "value": 2300.0,
+          "unit": "million",
+          "page": 111
+        }
+      },
+      {
+        "purpose": "Repayment and / or prepayment, in part or in full, of certain outstanding loans of our Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 800.0,
+          "unit": "million",
+          "page": 112
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 112
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 151.9,
+      "unit": "rupees",
+      "page": 99
+    },
+    "lead_managers": [
+      "Axis Capital Limited",
+      "DAM Capital Advisors Limited",
+      "ICICI Securities Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023 (March 31, 2023)",
+    "revenue_fy2": {
+      "value": 7362.45,
+      "unit": "million",
+      "page": 83
+    },
+    "revenue_fy1": {
+      "value": 9241.62,
+      "unit": "million",
+      "page": 83
+    },
+    "revenue_fy0": {
+      "value": 15388.32,
+      "unit": "million",
+      "page": 83
+    },
+    "ebitda_fy2": {
+      "value": 420.33,
+      "unit": "million",
+      "page": 133
+    },
+    "ebitda_fy1": {
+      "value": 688.03,
+      "unit": "million",
+      "page": 133
+    },
+    "ebitda_fy0": {
+      "value": 1025.25,
+      "unit": "million",
+      "page": 133
+    },
+    "pat_fy2": {
+      "value": 78.03,
+      "unit": "million",
+      "page": 83
+    },
+    "pat_fy1": {
+      "value": 174.34,
+      "unit": "million",
+      "page": 83
+    },
+    "pat_fy0": {
+      "value": 319.72,
+      "unit": "million",
+      "page": 83
+    },
+    "cfo_fy2": {
+      "value": 474.19,
+      "unit": "million",
+      "page": 85
+    },
+    "cfo_fy1": {
+      "value": -289.41,
+      "unit": "million",
+      "page": 85
+    },
+    "cfo_fy0": {
+      "value": 188.28,
+      "unit": "million",
+      "page": 85
+    },
+    "net_worth_fy0": {
+      "value": 3136.18,
+      "unit": "million",
+      "page": 82
+    },
+    "total_debt_fy0": {
+      "value": 4924.45,
+      "unit": "million",
+      "page": 28
+    },
+    "cash_fy0": {
+      "value": 600.18,
+      "unit": "million",
+      "page": 82
+    },
+    "eps_fy0": {
+      "value": 4.71,
+      "unit": "rupees",
+      "page": 84
+    },
+    "ronw_fy0_pct": {
+      "value": 14.68,
+      "unit": "percent",
+      "page": 131
+    },
+    "nav_per_share_fy0": {
+      "value": 46.21,
+      "unit": "rupees",
+      "page": 131
+    },
+    "stub_period_months": 6,
+    "revenue_stub": {
+      "value": 6148.04,
+      "unit": "million",
+      "page": 83
+    },
+    "pat_stub": {
+      "value": 26.54,
+      "unit": "million",
+      "page": 83
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Amber Enterprises India Ltd",
+        "nse_symbol": "AMBER",
+        "pe": 66.28,
+        "ronw_pct": 8.79,
+        "page": 131
+      },
+      {
+        "name": "PG Electroplast Limited",
+        "nse_symbol": "PGEL",
+        "pe": 67.27,
+        "ronw_pct": 21.88,
+        "page": 131
+      },
+      {
+        "name": "Dixon Technologies (India) Ltd",
+        "nse_symbol": "DIXON",
+        "pe": 139.96,
+        "ronw_pct": 22.36,
+        "page": 131
+      },
+      {
+        "name": "Elin Electronics Ltd",
+        "nse_symbol": "ELIN",
+        "pe": 24.28,
+        "ronw_pct": 6.73,
+        "page": 132
+      }
+    ],
+    "notes": [
+      "Price band, lot size, fresh issue share count, post-offer shares and OFS amount are printed as [\u25cf] in the RHP.",
+      "Promoter holding before the offer: the 4 Promoters hold 42.90% and the Promoter Group (excluding Promoters) holds 22.46% (page 27). No combined total is printed, so promoter_pre_pct is left null. Post-offer percentages are [\u25cf].",
+      "India Advantage Fund S4 I and Dynamic India Fund S4 US I are labelled 'Other' on the cover page but 'Investor Selling Shareholders' on page 27. They are classified here as investor.",
+      "Pre-IPO: on December 16, 2023 (within 12 months of the RHP), CCPSs were converted into equity: 15,785,057 shares at an effective \u20b9101.36 to the India Advantage/Dynamic India funds and 10,533,318 shares at \u20b9151.90 to Augusta Investments Zero Pte. Ltd. Both were on the same date; \u20b9151.90 is reported as pre_ipo_price. Earlier secondary transfers by promoters were at \u20b9223\u2013227 (June\u2013Nov 2022).",
+      "Retail quota % is not stated on the pages provided (Retail Portion 'not less than [\u25cf] Equity Shares').",
+      "Net worth = Total Equity, which includes instruments entirely equity in nature (CCPS) of \u20b9188.24 million at FY2023.",
+      "Total borrowings FY2023 = 1,135.80 non-current + 3,788.65 current = 4,924.45 (as printed on pages 28/341).",
+      "Peer NSE symbols are inferred from the company names; they are not printed in the RHP."
+    ]
+  }
+}

@@ -1,0 +1,340 @@
+{
+  "symbol": "PROSTARM",
+  "rhp_file": "PROSTARM.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:15:46+00:00",
+  "pages_sent": [
+    1,
+    2,
+    28,
+    29,
+    30,
+    31,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    110,
+    111,
+    112,
+    124,
+    125,
+    131,
+    141,
+    142,
+    143,
+    398,
+    399
+  ],
+  "n_pdf_pages": 540,
+  "usage": {
+    "input_tokens": 39389,
+    "output_tokens": 3089,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3457984,
+    "session_id": "3f655464-a44e-4f0c-8059-f36b5bc9bdd5"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Prostarm Info Systems Limited",
+    "sector": "Electronics & EMS",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024",
+    "stub_period_months": 9,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Choice Capital Advisors Private Limited",
+    "revenue_fy2": 171.3073,
+    "rhp_page_revenue_fy2": 98,
+    "revenue_fy1": 230.3632,
+    "rhp_page_revenue_fy1": 98,
+    "revenue_fy0": 257.8704,
+    "rhp_page_revenue_fy0": 98,
+    "ebitda_fy2": 16.568,
+    "rhp_page_ebitda_fy2": 398,
+    "ebitda_fy1": 29.1479,
+    "rhp_page_ebitda_fy1": 398,
+    "ebitda_fy0": 36.6235,
+    "rhp_page_ebitda_fy0": 398,
+    "pat_fy2": 10.8705,
+    "rhp_page_pat_fy2": 98,
+    "pat_fy1": 19.3455,
+    "rhp_page_pat_fy1": 98,
+    "pat_fy0": 22.798000000000002,
+    "rhp_page_pat_fy0": 98,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 84.2959,
+    "rhp_page_net_worth_fy0": 96,
+    "total_debt_fy0": 43.4696,
+    "rhp_page_total_debt_fy0": 31,
+    "cash_fy0": 0.533,
+    "rhp_page_cash_fy0": 96,
+    "revenue_stub": 268.6266,
+    "rhp_page_revenue_stub": 98,
+    "pat_stub": 22.1076,
+    "rhp_page_pat_stub": 98,
+    "price_low": null,
+    "rhp_page_price_low": 2,
+    "price_high": null,
+    "rhp_page_price_high": 2,
+    "lot_size": null,
+    "rhp_page_lot_size": 2,
+    "promoter_pre_pct": 100.0,
+    "rhp_page_promoter_pre_pct": 30,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 31,
+    "retail_quota_pct": 35.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": null,
+    "eps_fy0": 5.44,
+    "rhp_page_eps_fy0": 142,
+    "ronw_fy0_pct": 32.09,
+    "rhp_page_ronw_fy0_pct": 143,
+    "nav_per_share_fy0": 19.66,
+    "rhp_page_nav_per_share_fy0": 398,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": 1.6,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 4.2874592,
+    "rhp_page_pre_issue_shares_cr": 93,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 93,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 17.9583,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "Prostarm Info Systems Limited",
+    "sector": "Electronics & EMS",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 2
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 2
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": 2
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "lakh",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": 16000000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "lakh",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 42874592.0,
+      "unit": "shares",
+      "page": 93
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 93
+    },
+    "promoter_pre_pct": {
+      "value": 100.0,
+      "unit": "percent",
+      "page": 30
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 31
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding working capital requirements of our Company",
+        "category": "other",
+        "amount": {
+          "value": 7250.0,
+          "unit": "lakh",
+          "page": 124
+        }
+      },
+      {
+        "purpose": "Prepayment or repayment of all or a portion of certain outstanding borrowings availed by our Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 1795.83,
+          "unit": "lakh",
+          "page": 124
+        }
+      },
+      {
+        "purpose": "Achieving inorganic growth through unidentified acquisitions and other strategic initiatives and general corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "lakh",
+          "page": 124
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Choice Capital Advisors Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024",
+    "revenue_fy2": {
+      "value": 17130.73,
+      "unit": "lakh",
+      "page": 98
+    },
+    "revenue_fy1": {
+      "value": 23036.32,
+      "unit": "lakh",
+      "page": 98
+    },
+    "revenue_fy0": {
+      "value": 25787.04,
+      "unit": "lakh",
+      "page": 98
+    },
+    "ebitda_fy2": {
+      "value": 1656.8,
+      "unit": "lakh",
+      "page": 398
+    },
+    "ebitda_fy1": {
+      "value": 2914.79,
+      "unit": "lakh",
+      "page": 398
+    },
+    "ebitda_fy0": {
+      "value": 3662.35,
+      "unit": "lakh",
+      "page": 398
+    },
+    "pat_fy2": {
+      "value": 1087.05,
+      "unit": "lakh",
+      "page": 98
+    },
+    "pat_fy1": {
+      "value": 1934.55,
+      "unit": "lakh",
+      "page": 98
+    },
+    "pat_fy0": {
+      "value": 2279.8,
+      "unit": "lakh",
+      "page": 98
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "lakh",
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": "lakh",
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": "lakh",
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 8429.59,
+      "unit": "lakh",
+      "page": 96
+    },
+    "total_debt_fy0": {
+      "value": 4346.96,
+      "unit": "lakh",
+      "page": 31
+    },
+    "cash_fy0": {
+      "value": 53.3,
+      "unit": "lakh",
+      "page": 96
+    },
+    "eps_fy0": {
+      "value": 5.44,
+      "unit": "rupees",
+      "page": 142
+    },
+    "ronw_fy0_pct": {
+      "value": 32.09,
+      "unit": "percent",
+      "page": 143
+    },
+    "nav_per_share_fy0": {
+      "value": 19.66,
+      "unit": "rupees",
+      "page": 398
+    },
+    "stub_period_months": 9,
+    "revenue_stub": {
+      "value": 26862.66,
+      "unit": "lakh",
+      "page": 98
+    },
+    "pat_stub": {
+      "value": 2210.76,
+      "unit": "lakh",
+      "page": 98
+    },
+    "no_listed_peers": false,
+    "peers": [],
+    "notes": [
+      "The issue is a pure fresh issue with no offer for sale. Price band, lot size, issue amount and post-issue shares are all printed as [\u25cf].",
+      "The peer comparison table was not among the pages provided. Page 143 gives only industry P/E: highest 243, lowest 55, average 149.",
+      "Total debt for FY2024 (4,346.96 lakh) is taken from the summary on page 31 and includes lease liabilities. The balance sheet borrowings alone add up to 461.44 + 3,879.70 = 4,341.14 lakh.",
+      "The stub-period total borrowings figure on page 31 is misprinted as '6.037.19'. The capitalisation statement on page 399 shows it as 6,037.19.",
+      "No cash flow statement was provided, so CFO is null for all years.",
+      "PAT is the total profit for the year, including non-controlling interest. The share attributable to owners for FY2024 is 2,331.21 lakh.",
+      "Working capital funding is classified as 'other'. The GCP/inorganic growth amount is [\u25cf], capped at 35% of gross proceeds.",
+      "The capital history shows no allotments in the 12 months before the RHP; the last was a bonus issue on March 11, 2023. Promoter plus promoter group hold 100% before the issue."
+    ]
+  }
+}

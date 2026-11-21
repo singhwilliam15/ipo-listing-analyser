@@ -1,0 +1,447 @@
+{
+  "symbol": "IVALUE",
+  "rhp_file": "IVALUE.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:09:30+00:00",
+  "pages_sent": [
+    1,
+    2,
+    26,
+    27,
+    28,
+    29,
+    80,
+    81,
+    83,
+    84,
+    85,
+    86,
+    104,
+    105,
+    106,
+    137,
+    138,
+    139,
+    140,
+    141,
+    374,
+    375,
+    413
+  ],
+  "n_pdf_pages": 525,
+  "usage": {
+    "input_tokens": 41611,
+    "output_tokens": 3872,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3794576,
+    "session_id": "e49aaf4f-5fe8-478c-8c3d-62ba6d57cd4d"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "iValue Infosolutions Limited",
+    "sector": "IT & software",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "stub_period_months": null,
+    "pre_ipo_placement": null,
+    "lead_managers": "IIFL Capital Services Limited; Motilal Oswal Investment Advisors Limited",
+    "revenue_fy2": 796.825,
+    "rhp_page_revenue_fy2": 86,
+    "revenue_fy1": 780.23,
+    "rhp_page_revenue_fy1": 86,
+    "revenue_fy0": 922.68,
+    "rhp_page_revenue_fy0": 86,
+    "ebitda_fy2": 88.821,
+    "rhp_page_ebitda_fy2": 29,
+    "ebitda_fy1": 111.061,
+    "rhp_page_ebitda_fy1": 29,
+    "ebitda_fy0": 129.128,
+    "rhp_page_ebitda_fy0": 29,
+    "pat_fy2": 59.917,
+    "rhp_page_pat_fy2": 86,
+    "pat_fy1": 70.57,
+    "rhp_page_pat_fy1": 86,
+    "pat_fy0": 85.3,
+    "rhp_page_pat_fy0": 86,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 463.812,
+    "rhp_page_net_worth_fy0": 84,
+    "total_debt_fy0": 42.451,
+    "rhp_page_total_debt_fy0": 29,
+    "cash_fy0": 117.859,
+    "rhp_page_cash_fy0": 84,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": 39.04,
+    "rhp_page_promoter_pre_pct": 27,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 27,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 15.98,
+    "rhp_page_eps_fy0": 86,
+    "ronw_fy0_pct": 20.63,
+    "rhp_page_ronw_fy0_pct": 141,
+    "nav_per_share_fy0": 77.47,
+    "rhp_page_nav_per_share_fy0": 29,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 1.8738958,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 5.353988,
+    "rhp_page_pre_issue_shares_cr": 80,
+    "post_issue_shares_cr": 5.353988,
+    "rhp_page_post_issue_shares_cr": 80,
+    "ofs_promoter_shares_cr": 0.3848054,
+    "ofs_investor_shares_cr": 1.1012539,
+    "proceeds_debt_repayment_cr": null,
+    "proceeds_capex_cr": null,
+    "proceeds_gcp_cr": null,
+    "peers": "Multi Chem Limited; Exclusive Networks SA",
+    "n_peers": 2,
+    "peer_pe_list": [
+      10.15
+    ],
+    "peer_ronw_list": [
+      19.98
+    ],
+    "rhp_page_peers": 141
+  },
+  "extract": {
+    "company": "iValue Infosolutions Limited",
+    "sector": "IT & software",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 18738958.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Sunil Kumar Pillai",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 762115.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Krishna Raj Sharma",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 1164645.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Srinivasan Sriram",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 921048.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Sundara (Mauritius) Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 11012539.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Venkatesh R",
+        "kind": "other",
+        "shares_offered": {
+          "value": 632196.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Subodh Anchan",
+        "kind": "other",
+        "shares_offered": {
+          "value": 592726.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Roy Abraham Yohannan",
+        "kind": "other",
+        "shares_offered": {
+          "value": 477949.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Hilda Sunil Pillai",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 1000246.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Brijesh Shrivastava",
+        "kind": "other",
+        "shares_offered": {
+          "value": 457149.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "L Nagabushana Reddy",
+        "kind": "other",
+        "shares_offered": {
+          "value": 449915.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Ran Vijay Pratap Singh",
+        "kind": "other",
+        "shares_offered": {
+          "value": 449916.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Ravindra Kumar Sankhla",
+        "kind": "other",
+        "shares_offered": {
+          "value": 377099.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Venkata Naga Swaroop Muvvala",
+        "kind": "other",
+        "shares_offered": {
+          "value": 441415.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 53539880.0,
+      "unit": "shares",
+      "page": 80
+    },
+    "post_issue_shares": {
+      "value": 53539880.0,
+      "unit": "shares",
+      "page": 80
+    },
+    "promoter_pre_pct": {
+      "value": 39.04,
+      "unit": "percent",
+      "page": 27
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": 27
+    },
+    "objects_of_offer": [],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lead_managers": [
+      "IIFL Capital Services Limited",
+      "Motilal Oswal Investment Advisors Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "revenue_fy2": {
+      "value": 7968.25,
+      "unit": "million",
+      "page": 86
+    },
+    "revenue_fy1": {
+      "value": 7802.3,
+      "unit": "million",
+      "page": 86
+    },
+    "revenue_fy0": {
+      "value": 9226.8,
+      "unit": "million",
+      "page": 86
+    },
+    "ebitda_fy2": {
+      "value": 888.21,
+      "unit": "million",
+      "page": 29
+    },
+    "ebitda_fy1": {
+      "value": 1110.61,
+      "unit": "million",
+      "page": 29
+    },
+    "ebitda_fy0": {
+      "value": 1291.28,
+      "unit": "million",
+      "page": 29
+    },
+    "pat_fy2": {
+      "value": 599.17,
+      "unit": "million",
+      "page": 86
+    },
+    "pat_fy1": {
+      "value": 705.7,
+      "unit": "million",
+      "page": 86
+    },
+    "pat_fy0": {
+      "value": 853.0,
+      "unit": "million",
+      "page": 86
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 4638.12,
+      "unit": "million",
+      "page": 84
+    },
+    "total_debt_fy0": {
+      "value": 424.51,
+      "unit": "million",
+      "page": 29
+    },
+    "cash_fy0": {
+      "value": 1178.59,
+      "unit": "million",
+      "page": 84
+    },
+    "eps_fy0": {
+      "value": 15.98,
+      "unit": "rupees",
+      "page": 86
+    },
+    "ronw_fy0_pct": {
+      "value": 20.63,
+      "unit": "percent",
+      "page": 141
+    },
+    "nav_per_share_fy0": {
+      "value": 77.47,
+      "unit": "rupees",
+      "page": 29
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Multi Chem Limited",
+        "nse_symbol": null,
+        "pe": 10.15,
+        "ronw_pct": 19.98,
+        "page": 141
+      },
+      {
+        "name": "Exclusive Networks SA",
+        "nse_symbol": null,
+        "pe": null,
+        "ronw_pct": null,
+        "page": 141
+      }
+    ],
+    "notes": [
+      "The whole offer is an offer for sale. There is no fresh issue, the company gets no proceeds, and objects_of_offer is left empty.",
+      "Price band, lot size, offer amount and retail quota are all printed as [\u25cf] in this RHP.",
+      "Net worth: the summary table on page 29 prints 'Net Worth' as 4,147.92 million. That figure is defined under SEBI ICDR and excludes capital reserves and similar items. The balance sheet on page 84 shows equity attributable to owners of 4,638.12 million, and that is the figure used here.",
+      "NAV per share for FY2025 is printed as 77.47 on pages 29 and 374 but as 75.77 on page 136 (Basis for Offer Price). 77.47 is used here.",
+      "EBITDA for FY2025 is 1,291.28 on page 29 but 1,291.27 on page 374.",
+      "Other Equity for FY2025 is printed as '4.541.40' on page 84, which looks like a typo for 4,541.40.",
+      "Cash flow statement pages were not provided, so CFO is null.",
+      "Peers: the RHP says there are no comparable listed peers in India. It names foreign peers instead: Multi Chem Limited, listed in Singapore, with P/E 10.15x and RoNW 19.98%; and Exclusive Networks SA, listed in Paris, with all figures shown as N.A.",
+      "Promoter pre-offer holding of 39.04% is on a fully diluted basis (including 1,200,460 vested ESOP options). The post-offer figure is [\u25cf].",
+      "Equity shares before the offer include 11,432,730 shares from converting Sundara's Series A CCPS (Board resolution of August 22, 2025). This is a conversion, not a fresh placement, so pre_ipo_placement is left null."
+    ]
+  }
+}

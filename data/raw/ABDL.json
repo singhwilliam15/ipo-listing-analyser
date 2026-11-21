@@ -1,0 +1,354 @@
+{
+  "symbol": "ABDL",
+  "rhp_file": "ABDL.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-21T06:06:18+00:00",
+  "pages_sent": [
+    1,
+    2,
+    19,
+    20,
+    21,
+    22,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    127,
+    128,
+    129,
+    145,
+    146,
+    159,
+    160,
+    161,
+    436,
+    437,
+    492
+  ],
+  "n_pdf_pages": 675,
+  "usage": {
+    "input_tokens": 33692,
+    "output_tokens": 3338,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3046334,
+    "session_id": "d782cf80-9fc1-4067-bb6f-2e8eff51cd86"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Allied Blenders and Distillers Limited",
+    "sector": "FMCG & food",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023 (March 31, 2023)",
+    "stub_period_months": 9,
+    "pre_ipo_placement": null,
+    "lead_managers": "ICICI Securities Limited; Nuvama Wealth Management Limited; ITI Capital Limited",
+    "revenue_fy2": 6378.776,
+    "rhp_page_revenue_fy2": 111,
+    "revenue_fy1": 7196.92,
+    "rhp_page_revenue_fy1": 111,
+    "revenue_fy0": 7105.68,
+    "rhp_page_revenue_fy0": 111,
+    "ebitda_fy2": 212.996,
+    "rhp_page_ebitda_fy2": 437,
+    "ebitda_fy1": 207.55100000000002,
+    "rhp_page_ebitda_fy1": 437,
+    "ebitda_fy0": 196.061,
+    "rhp_page_ebitda_fy0": 437,
+    "pat_fy2": 2.508,
+    "rhp_page_pat_fy2": 22,
+    "pat_fy1": 1.476,
+    "rhp_page_pat_fy1": 22,
+    "pat_fy0": 1.6010000000000002,
+    "rhp_page_pat_fy0": 22,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 406.099,
+    "rhp_page_net_worth_fy0": 109,
+    "total_debt_fy0": 780.823,
+    "rhp_page_total_debt_fy0": 22,
+    "cash_fy0": 27.545,
+    "rhp_page_cash_fy0": 109,
+    "revenue_stub": 5911.144,
+    "rhp_page_revenue_stub": 111,
+    "pat_stub": 4.229,
+    "rhp_page_pat_stub": 22,
+    "price_low": null,
+    "rhp_page_price_low": 160,
+    "price_high": null,
+    "rhp_page_price_high": 160,
+    "lot_size": null,
+    "promoter_pre_pct": 100.0,
+    "rhp_page_promoter_pre_pct": 22,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "rhp_page_retail_quota_pct": 106,
+    "pre_ipo_price": null,
+    "eps_fy0": 0.07,
+    "rhp_page_eps_fy0": 160,
+    "ronw_fy0_pct": 0.39,
+    "rhp_page_ronw_fy0_pct": 160,
+    "nav_per_share_fy0": 16.64,
+    "rhp_page_nav_per_share_fy0": 161,
+    "fresh_issue_cr": 1000.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": 500.0,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 24.4113665,
+    "rhp_page_pre_issue_shares_cr": 106,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 106,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 720.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "Allied Blenders and Distillers Limited",
+    "sector": "FMCG & food",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 160
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 160
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 10000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": 5000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Bina Kishore Chhabria",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Resham Chhabria Jeetendra Hemdev",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 244113665.0,
+      "unit": "shares",
+      "page": 106
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 106
+    },
+    "promoter_pre_pct": {
+      "value": 100.0,
+      "unit": "percent",
+      "page": 22
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Prepayment or scheduled re-payment of a portion of certain outstanding borrowings availed by the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 7200.0,
+          "unit": "million",
+          "page": 145
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 145
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 106
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "ICICI Securities Limited",
+      "Nuvama Wealth Management Limited",
+      "ITI Capital Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023 (March 31, 2023)",
+    "revenue_fy2": {
+      "value": 63787.76,
+      "unit": "million",
+      "page": 111
+    },
+    "revenue_fy1": {
+      "value": 71969.2,
+      "unit": "million",
+      "page": 111
+    },
+    "revenue_fy0": {
+      "value": 71056.8,
+      "unit": "million",
+      "page": 111
+    },
+    "ebitda_fy2": {
+      "value": 2129.96,
+      "unit": "million",
+      "page": 437
+    },
+    "ebitda_fy1": {
+      "value": 2075.51,
+      "unit": "million",
+      "page": 437
+    },
+    "ebitda_fy0": {
+      "value": 1960.61,
+      "unit": "million",
+      "page": 437
+    },
+    "pat_fy2": {
+      "value": 25.08,
+      "unit": "million",
+      "page": 22
+    },
+    "pat_fy1": {
+      "value": 14.76,
+      "unit": "million",
+      "page": 22
+    },
+    "pat_fy0": {
+      "value": 16.01,
+      "unit": "million",
+      "page": 22
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 4060.99,
+      "unit": "million",
+      "page": 109
+    },
+    "total_debt_fy0": {
+      "value": 7808.23,
+      "unit": "million",
+      "page": 22
+    },
+    "cash_fy0": {
+      "value": 275.45,
+      "unit": "million",
+      "page": 109
+    },
+    "eps_fy0": {
+      "value": 0.07,
+      "unit": "rupees",
+      "page": 160
+    },
+    "ronw_fy0_pct": {
+      "value": 0.39,
+      "unit": "percent",
+      "page": 160
+    },
+    "nav_per_share_fy0": {
+      "value": 16.64,
+      "unit": "rupees",
+      "page": 161
+    },
+    "stub_period_months": 9,
+    "revenue_stub": {
+      "value": 59111.44,
+      "unit": "million",
+      "page": 111
+    },
+    "pat_stub": {
+      "value": 42.29,
+      "unit": "million",
+      "page": 22
+    },
+    "no_listed_peers": false,
+    "peers": [],
+    "notes": [
+      "The peer comparison table on page 161 stops after its header row, so no peer names, P/E or RoNW figures could be extracted. The industry P/E on page 160 is highest 95.87x, lowest 17.26x and average 62.10x.",
+      "Price band, lot size and share counts for the fresh issue and OFS are printed as [\u25cf]. Only the amounts are given: fresh issue \u20b910,000 million and OFS \u20b95,000 million (Bina Kishore Chhabria \u20b93,750 million, Resham Chhabria Jeetendra Hemdev \u20b91,250 million).",
+      "No cash flow statement is included in these pages, so CFO is null.",
+      "Total debt for FY2023 (7,808.23) comes from the summary on page 22. It matches the balance sheet on pages 109\u2013110: non-current 1,386.64 plus current 6,375.83.",
+      "EBITDA is the KPI figure on page 437, defined as profit before finance costs, depreciation, exceptional items and tax.",
+      "PAT for FY2023 (16.01) is from the summary on page 22, because the profit-and-loss page 111 stops at tax expense. It reconciles: 59.46 minus 43.45.",
+      "The listing pages only say 'the Stock Exchanges', with NSE as the Designated Stock Exchange. 'both' (NSE and BSE) is inferred, not stated.",
+      "The retail portion is printed as 'not less than [\u25cf]' with no percentage, so retail quota is null.",
+      "The general corporate purposes amount is [\u25cf] (capped at 25% of gross proceeds).",
+      "Promoters hold 100% of pre-offer capital, but no promoter group is listed. Post-offer holding is not printed.",
+      "Pre-IPO placement status cannot be determined from these pages; the share capital history shown ends in 2017.",
+      "The stub period is the nine months ended December 31, 2023."
+    ]
+  }
+}

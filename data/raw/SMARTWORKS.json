@@ -1,0 +1,381 @@
+{
+  "symbol": "SMARTWORKS",
+  "rhp_file": "SMARTWORKS.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:13:52+00:00",
+  "pages_sent": [
+    1,
+    2,
+    29,
+    30,
+    31,
+    32,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    131,
+    132,
+    133,
+    152,
+    153,
+    167,
+    168,
+    169,
+    397,
+    398,
+    401
+  ],
+  "n_pdf_pages": 583,
+  "usage": {
+    "input_tokens": 44605,
+    "output_tokens": 3202,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3903096,
+    "session_id": "3ece57a6-bd32-4e1a-ac54-efbc4b365272"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Smartworks Coworking Spaces Limited",
+    "sector": "Infrastructure, construction & real estate",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "stub_period_months": null,
+    "pre_ipo_placement": null,
+    "lead_managers": "JM Financial Limited; BOB Capital Markets Limited; IIFL Capital Services Limited; Kotak Mahindra Capital Company Limited",
+    "revenue_fy2": 711.392,
+    "rhp_page_revenue_fy2": 118,
+    "revenue_fy1": 1039.364,
+    "rhp_page_revenue_fy1": 118,
+    "revenue_fy0": 1374.056,
+    "rhp_page_revenue_fy0": 118,
+    "ebitda_fy2": 423.99799999999993,
+    "rhp_page_ebitda_fy2": 30,
+    "ebitda_fy1": 659.67,
+    "rhp_page_ebitda_fy1": 30,
+    "ebitda_fy0": 857.2639999999999,
+    "rhp_page_ebitda_fy0": 30,
+    "pat_fy2": -101.046,
+    "rhp_page_pat_fy2": 118,
+    "pat_fy1": -49.957,
+    "rhp_page_pat_fy1": 118,
+    "pat_fy0": -63.179,
+    "rhp_page_pat_fy0": 118,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 107.881,
+    "rhp_page_net_worth_fy0": 116,
+    "total_debt_fy0": 397.77,
+    "rhp_page_total_debt_fy0": 398,
+    "cash_fy0": 49.671,
+    "rhp_page_cash_fy0": 116,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 168,
+    "price_high": null,
+    "rhp_page_price_high": 168,
+    "lot_size": null,
+    "promoter_pre_pct": 65.19,
+    "rhp_page_promoter_pre_pct": 32,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 32,
+    "retail_quota_pct": 35.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": null,
+    "eps_fy0": -6.18,
+    "rhp_page_eps_fy0": 118,
+    "ronw_fy0_pct": -58.76,
+    "rhp_page_ronw_fy0_pct": 169,
+    "nav_per_share_fy0": 10.55,
+    "rhp_page_nav_per_share_fy0": 169,
+    "fresh_issue_cr": 445.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.337974,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 10.3189592,
+    "rhp_page_pre_issue_shares_cr": 113,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 113,
+    "ofs_promoter_shares_cr": 0.08,
+    "ofs_investor_shares_cr": 0.257974,
+    "proceeds_debt_repayment_cr": 114.0,
+    "proceeds_capex_cr": 225.84,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "AWFIS",
+    "n_peers": 1,
+    "peer_pe_list": [
+      63.18
+    ],
+    "peer_ronw_list": [
+      14.78
+    ],
+    "rhp_page_peers": 169
+  },
+  "extract": {
+    "company": "Smartworks Coworking Spaces Limited",
+    "sector": "Infrastructure, construction & real estate",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 168
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 168
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 4450.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 3379740.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "NS Niketan LLP",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 490000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "SNS Infrarealty LLP",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 310000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Space Solutions India Pte. Ltd. (formerly Lisbrine Pte Limited)",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 2579740.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 103189592.0,
+      "unit": "shares",
+      "page": 113
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 113
+    },
+    "promoter_pre_pct": {
+      "value": 65.19,
+      "unit": "percent",
+      "page": 32
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 32
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment/prepayment/redemption, in full or in part, of certain borrowings availed by the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 1140.0,
+          "unit": "million",
+          "page": 153
+        }
+      },
+      {
+        "purpose": "Capital expenditure for fit-outs in the New Centres and for security deposits of the New Centres",
+        "category": "capex",
+        "amount": {
+          "value": 2258.4,
+          "unit": "million",
+          "page": 153
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 153
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "JM Financial Limited",
+      "BOB Capital Markets Limited",
+      "IIFL Capital Services Limited",
+      "Kotak Mahindra Capital Company Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "revenue_fy2": {
+      "value": 7113.92,
+      "unit": "million",
+      "page": 118
+    },
+    "revenue_fy1": {
+      "value": 10393.64,
+      "unit": "million",
+      "page": 118
+    },
+    "revenue_fy0": {
+      "value": 13740.56,
+      "unit": "million",
+      "page": 118
+    },
+    "ebitda_fy2": {
+      "value": 4239.98,
+      "unit": "million",
+      "page": 30
+    },
+    "ebitda_fy1": {
+      "value": 6596.7,
+      "unit": "million",
+      "page": 30
+    },
+    "ebitda_fy0": {
+      "value": 8572.64,
+      "unit": "million",
+      "page": 30
+    },
+    "pat_fy2": {
+      "value": -1010.46,
+      "unit": "million",
+      "page": 118
+    },
+    "pat_fy1": {
+      "value": -499.57,
+      "unit": "million",
+      "page": 118
+    },
+    "pat_fy0": {
+      "value": -631.79,
+      "unit": "million",
+      "page": 118
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 1078.81,
+      "unit": "million",
+      "page": 116
+    },
+    "total_debt_fy0": {
+      "value": 3977.7,
+      "unit": "million",
+      "page": 398
+    },
+    "cash_fy0": {
+      "value": 496.71,
+      "unit": "million",
+      "page": 116
+    },
+    "eps_fy0": {
+      "value": -6.18,
+      "unit": "rupees",
+      "page": 118
+    },
+    "ronw_fy0_pct": {
+      "value": -58.76,
+      "unit": "percent",
+      "page": 169
+    },
+    "nav_per_share_fy0": {
+      "value": 10.55,
+      "unit": "rupees",
+      "page": 169
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Awfis Space Solutions Limited",
+        "nse_symbol": "AWFIS",
+        "pe": 63.18,
+        "ronw_pct": 14.78,
+        "page": 169
+      }
+    ],
+    "notes": [
+      "Price band and lot size are not printed in the RHP (shown as [\u25cf]).",
+      "The cash flow statement is not among the pages provided, so CFO is null for all years.",
+      "Promoter pre-offer holding of 65.19% includes the promoter group, on a fully diluted basis. Promoters alone hold 65.15%.",
+      "The equity capital history table (page 133) is cut off after the June 7, 2024 preferential allotment at \u20b9269. That allotment is more than 12 months before the RHP date of July 4, 2025. Later allotments are not shown, apart from the conversion of 19,610,398 CCPS on Dec 31, 2024 (page 397). About 850,000 shares, possibly from warrants, are not accounted for, so pre_ipo_placement and its price are left null.",
+      "Restated losses in all three years. P/E is not applicable (NA) because EPS is negative.",
+      "The amount for general corporate purposes is [\u25cf]; it is capped at 25% of gross proceeds.",
+      "The NAV per share uses the weighted average number of shares, as defined by the company.",
+      "The peer's NSE symbol (AWFIS) is not printed in the RHP; it is inferred."
+    ]
+  }
+}

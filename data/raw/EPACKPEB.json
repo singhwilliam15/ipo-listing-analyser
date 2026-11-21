@@ -1,0 +1,535 @@
+{
+  "symbol": "EPACKPEB",
+  "rhp_file": "EPACKPEB.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:07:52+00:00",
+  "pages_sent": [
+    1,
+    2,
+    28,
+    29,
+    30,
+    31,
+    95,
+    96,
+    97,
+    98,
+    100,
+    101,
+    114,
+    115,
+    116,
+    144,
+    145,
+    178,
+    179,
+    180,
+    456,
+    457,
+    491
+  ],
+  "n_pdf_pages": 668,
+  "usage": {
+    "input_tokens": 45380,
+    "output_tokens": 4182,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.41618659999999996,
+    "session_id": "61e6ac11-b8c1-4177-92f8-222f0a727ec9"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "EPack Prefab Technologies Limited",
+    "sector": "Industrials & capital goods",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "stub_period_months": null,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "Monarch Networth Capital Limited; Motilal Oswal Investment Advisors Limited",
+    "revenue_fy2": 656.761,
+    "rhp_page_revenue_fy2": 96,
+    "revenue_fy1": 904.902,
+    "rhp_page_revenue_fy1": 96,
+    "revenue_fy0": 1133.917,
+    "rhp_page_revenue_fy0": 96,
+    "ebitda_fy2": 51.529999999999994,
+    "rhp_page_ebitda_fy2": 456,
+    "ebitda_fy1": 87.002,
+    "rhp_page_ebitda_fy1": 456,
+    "ebitda_fy0": 117.794,
+    "rhp_page_ebitda_fy0": 456,
+    "pat_fy2": 23.972,
+    "rhp_page_pat_fy2": 96,
+    "pat_fy1": 42.959,
+    "rhp_page_pat_fy1": 96,
+    "pat_fy0": 59.322,
+    "rhp_page_pat_fy0": 96,
+    "cfo_fy2": 1.52,
+    "rhp_page_cfo_fy2": 98,
+    "cfo_fy1": 71.654,
+    "rhp_page_cfo_fy1": 98,
+    "cfo_fy0": 62.287,
+    "rhp_page_cfo_fy0": 98,
+    "net_worth_fy0": 353.927,
+    "rhp_page_net_worth_fy0": 95,
+    "total_debt_fy0": 210.231,
+    "rhp_page_total_debt_fy0": 491,
+    "cash_fy0": 79.356,
+    "rhp_page_cash_fy0": 95,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 179,
+    "price_high": null,
+    "rhp_page_price_high": 179,
+    "lot_size": null,
+    "rhp_page_lot_size": 2,
+    "promoter_pre_pct": 87.27,
+    "rhp_page_promoter_pre_pct": 30,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 30,
+    "retail_quota_pct": 35.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": 157.8,
+    "rhp_page_pre_ipo_price": 100,
+    "eps_fy0": 7.65,
+    "rhp_page_eps_fy0": 97,
+    "ronw_fy0_pct": 22.69,
+    "rhp_page_ronw_fy0_pct": 179,
+    "nav_per_share_fy0": 45.66,
+    "rhp_page_nav_per_share_fy0": 179,
+    "fresh_issue_cr": 300.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 1.0,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 8.5746115,
+    "rhp_page_pre_issue_shares_cr": 100,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 100,
+    "ofs_promoter_shares_cr": 1.0,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 70.0,
+    "proceeds_capex_cr": 161.14000000000001,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "PENIND; EVERESTIND; INTERARCH; BEARDSELL",
+    "n_peers": 4,
+    "peer_pe_list": [
+      27.5,
+      30.32,
+      12.02
+    ],
+    "peer_ronw_list": [
+      12.74,
+      -0.6,
+      18.03,
+      12.91
+    ],
+    "rhp_page_peers": 180
+  },
+  "extract": {
+    "company": "EPack Prefab Technologies Limited",
+    "sector": "Industrials & capital goods",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 179
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 179
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": 2
+    },
+    "fresh_issue_amount": {
+      "value": 3000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 10000000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Sanjay Singhania",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 999897.0,
+          "unit": "shares",
+          "page": 100
+        }
+      },
+      {
+        "name": "Ajay DD Singhania",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 995859.0,
+          "unit": "shares",
+          "page": 100
+        }
+      },
+      {
+        "name": "Bajrang Bothra",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 100000.0,
+          "unit": "shares",
+          "page": 100
+        }
+      },
+      {
+        "name": "Laxmi Pat Bothra",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 1386906.0,
+          "unit": "shares",
+          "page": 100
+        }
+      },
+      {
+        "name": "Nikhil Bothra",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 225000.0,
+          "unit": "shares",
+          "page": 100
+        }
+      },
+      {
+        "name": "Divisha Singhania",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 250077.0,
+          "unit": "shares",
+          "page": 100
+        }
+      },
+      {
+        "name": "Preity Singhania",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 1009679.0,
+          "unit": "shares",
+          "page": 100
+        }
+      },
+      {
+        "name": "Drishikka Singhania",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 240347.0,
+          "unit": "shares",
+          "page": 101
+        }
+      },
+      {
+        "name": "Suman Bothra",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 121228.0,
+          "unit": "shares",
+          "page": 101
+        }
+      },
+      {
+        "name": "Nitin Bothra",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 766866.0,
+          "unit": "shares",
+          "page": 101
+        }
+      },
+      {
+        "name": "Leela Devi Bothra",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 800373.0,
+          "unit": "shares",
+          "page": 101
+        }
+      },
+      {
+        "name": "Rajjat Bothra",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 1599627.0,
+          "unit": "shares",
+          "page": 101
+        }
+      },
+      {
+        "name": "Avishi Singhania",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 166063.0,
+          "unit": "shares",
+          "page": 101
+        }
+      },
+      {
+        "name": "Pinky Ajay Singhania",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 1005954.0,
+          "unit": "shares",
+          "page": 101
+        }
+      },
+      {
+        "name": "Arshia Singhania",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 166063.0,
+          "unit": "shares",
+          "page": 101
+        }
+      },
+      {
+        "name": "Araanya Singhania",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 166061.0,
+          "unit": "shares",
+          "page": 101
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 85746115.0,
+      "unit": "shares",
+      "page": 100
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 100
+    },
+    "promoter_pre_pct": {
+      "value": 87.27,
+      "unit": "percent",
+      "page": 30
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 30
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Capex for new manufacturing facility at Ghiloth Industrial Area, Shahjahanpur, Alwar, Rajasthan (continuous Sandwich Insulated Panels and PEB)",
+        "category": "capex",
+        "amount": {
+          "value": 1029.67,
+          "unit": "million",
+          "page": 145
+        }
+      },
+      {
+        "purpose": "Capex for expansion of existing facility at Mambattu (Unit 4), Andhra Pradesh for PEB capacity",
+        "category": "capex",
+        "amount": {
+          "value": 581.73,
+          "unit": "million",
+          "page": 145
+        }
+      },
+      {
+        "purpose": "Repayment/pre-payment of certain borrowings",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 700.0,
+          "unit": "million",
+          "page": 145
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 145
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 157.8,
+      "unit": "rupees",
+      "page": 100
+    },
+    "lead_managers": [
+      "Monarch Networth Capital Limited",
+      "Motilal Oswal Investment Advisors Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "revenue_fy2": {
+      "value": 6567.61,
+      "unit": "million",
+      "page": 96
+    },
+    "revenue_fy1": {
+      "value": 9049.02,
+      "unit": "million",
+      "page": 96
+    },
+    "revenue_fy0": {
+      "value": 11339.17,
+      "unit": "million",
+      "page": 96
+    },
+    "ebitda_fy2": {
+      "value": 515.3,
+      "unit": "million",
+      "page": 456
+    },
+    "ebitda_fy1": {
+      "value": 870.02,
+      "unit": "million",
+      "page": 456
+    },
+    "ebitda_fy0": {
+      "value": 1177.94,
+      "unit": "million",
+      "page": 456
+    },
+    "pat_fy2": {
+      "value": 239.72,
+      "unit": "million",
+      "page": 96
+    },
+    "pat_fy1": {
+      "value": 429.59,
+      "unit": "million",
+      "page": 96
+    },
+    "pat_fy0": {
+      "value": 593.22,
+      "unit": "million",
+      "page": 96
+    },
+    "cfo_fy2": {
+      "value": 15.2,
+      "unit": "million",
+      "page": 98
+    },
+    "cfo_fy1": {
+      "value": 716.54,
+      "unit": "million",
+      "page": 98
+    },
+    "cfo_fy0": {
+      "value": 622.87,
+      "unit": "million",
+      "page": 98
+    },
+    "net_worth_fy0": {
+      "value": 3539.27,
+      "unit": "million",
+      "page": 95
+    },
+    "total_debt_fy0": {
+      "value": 2102.31,
+      "unit": "million",
+      "page": 491
+    },
+    "cash_fy0": {
+      "value": 793.56,
+      "unit": "million",
+      "page": 95
+    },
+    "eps_fy0": {
+      "value": 7.65,
+      "unit": "rupees",
+      "page": 97
+    },
+    "ronw_fy0_pct": {
+      "value": 22.69,
+      "unit": "percent",
+      "page": 179
+    },
+    "nav_per_share_fy0": {
+      "value": 45.66,
+      "unit": "rupees",
+      "page": 179
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Pennar Industries Limited",
+        "nse_symbol": "PENIND",
+        "pe": 27.5,
+        "ronw_pct": 12.74,
+        "page": 180
+      },
+      {
+        "name": "Everest Industries Limited",
+        "nse_symbol": "EVERESTIND",
+        "pe": null,
+        "ronw_pct": -0.6,
+        "page": 180
+      },
+      {
+        "name": "Interarch Building Solutions Limited",
+        "nse_symbol": "INTERARCH",
+        "pe": 30.32,
+        "ronw_pct": 18.03,
+        "page": 180
+      },
+      {
+        "name": "Beardsell Limited",
+        "nse_symbol": "BEARDSELL",
+        "pe": 12.02,
+        "ronw_pct": 12.91,
+        "page": 180
+      }
+    ],
+    "notes": [
+      "Price band and lot size not yet set in RHP ([\u25cf]).",
+      "Promoter pre-offer % (87.27%) covers Promoters plus Promoter Group, including Sanjay Preity Singhania Trust.",
+      "Total debt 2,102.31 million taken from the capitalisation statement (p.491). The balance sheet gives non-current 1,021.25 + current 1,081.06 = 2,102.31, which matches.",
+      "Net worth: 3,539.27 per balance sheet; capitalisation statement shows 3,539.28.",
+      "RoNW FY2024 is 29.13% on p.179 and 29.12% on p.456.",
+      "Pre-IPO: CCPS held by South Asia Growth Fund III Holdings LLC and South Asia EBT Trust III were converted into 8,238,115 equity shares on September 9, 2025 at \u20b9157.80 per share (the CCPS were acquired at \u20b9184.00). The CCPS allotment date is not on the pages given.",
+      "Everest Industries P/E is printed as (298.20), a negative figure, so it is set to null. Peer NSE symbols are not printed in the RHP; they are inferred."
+    ]
+  }
+}

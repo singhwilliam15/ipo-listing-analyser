@@ -1,0 +1,495 @@
+{
+  "symbol": "SAIPARENT",
+  "rhp_file": "SAIPARENT.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T17:58:52+00:00",
+  "pages_sent": [
+    1,
+    2,
+    29,
+    30,
+    31,
+    32,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    109,
+    110,
+    111,
+    131,
+    132,
+    168,
+    169,
+    170,
+    365,
+    366
+  ],
+  "n_pdf_pages": 510,
+  "usage": {
+    "input_tokens": 34124,
+    "output_tokens": 4779,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3715677,
+    "session_id": "c16a2c8a-f434-4f7e-9705-147207243206"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Sai Parenteral's Limited",
+    "sector": "Healthcare & pharma",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "stub_period_months": 6,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "Arihant Capital Markets Limited",
+    "revenue_fy2": 96.796,
+    "rhp_page_revenue_fy2": 97,
+    "revenue_fy1": 153.761,
+    "rhp_page_revenue_fy1": 97,
+    "revenue_fy0": 163.106,
+    "rhp_page_revenue_fy0": 97,
+    "ebitda_fy2": 17.641,
+    "rhp_page_ebitda_fy2": 365,
+    "ebitda_fy1": 31.7,
+    "rhp_page_ebitda_fy1": 365,
+    "ebitda_fy0": 39.435,
+    "rhp_page_ebitda_fy0": 365,
+    "pat_fy2": 4.376,
+    "rhp_page_pat_fy2": 97,
+    "pat_fy1": 8.415,
+    "rhp_page_pat_fy1": 97,
+    "pat_fy0": 14.454,
+    "rhp_page_pat_fy0": 97,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 95.779,
+    "rhp_page_net_worth_fy0": 95,
+    "total_debt_fy0": null,
+    "cash_fy0": 2.086,
+    "rhp_page_cash_fy0": 95,
+    "revenue_stub": 86.918,
+    "rhp_page_revenue_stub": 97,
+    "pat_stub": 7.764,
+    "rhp_page_pat_stub": 97,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": 55.81,
+    "rhp_page_promoter_pre_pct": 30,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 30,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 5.43,
+    "rhp_page_eps_fy0": 168,
+    "ronw_fy0_pct": 15.09,
+    "rhp_page_ronw_fy0_pct": 169,
+    "nav_per_share_fy0": 35.98,
+    "rhp_page_nav_per_share_fy0": 169,
+    "fresh_issue_cr": 285.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.315788,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 3.6908823,
+    "rhp_page_pre_issue_shares_cr": 93,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 93,
+    "ofs_promoter_shares_cr": 0,
+    "ofs_investor_shares_cr": 0.043,
+    "proceeds_debt_repayment_cr": 49.943,
+    "proceeds_capex_cr": 128.818,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "SAILIFE; INNOVACAP; SENORES; GLAND",
+    "n_peers": 4,
+    "peer_pe_list": [
+      107.7,
+      32.45,
+      64.3,
+      44.71
+    ],
+    "peer_ronw_list": [
+      7.99,
+      13.37,
+      7.18,
+      7.63
+    ],
+    "rhp_page_peers": 170
+  },
+  "extract": {
+    "company": "Sai Parenteral's Limited",
+    "sector": "Healthcare & pharma",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 2850.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 3157880.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Vikasa India EIF I Fund",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 430000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Tilokchand Punamchand Ostwal",
+        "kind": "other",
+        "shares_offered": {
+          "value": 222222.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Devendra Chawla",
+        "kind": "other",
+        "shares_offered": {
+          "value": 222218.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Bhanwar Lal Chandak",
+        "kind": "other",
+        "shares_offered": {
+          "value": 222000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Ashish Maheshwari",
+        "kind": "other",
+        "shares_offered": {
+          "value": 222000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Sreelekha Ganta",
+        "kind": "other",
+        "shares_offered": {
+          "value": 200000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Padma Guntupalli",
+        "kind": "other",
+        "shares_offered": {
+          "value": 200000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Vijay Gondi",
+        "kind": "other",
+        "shares_offered": {
+          "value": 180000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Bhautik Mukund Shah",
+        "kind": "other",
+        "shares_offered": {
+          "value": 140000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Nilesh Pravinchandra Doshi",
+        "kind": "other",
+        "shares_offered": {
+          "value": 140000.0,
+          "unit": "shares",
+          "page": 2
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 36908823.0,
+      "unit": "shares",
+      "page": 93
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 93
+    },
+    "promoter_pre_pct": {
+      "value": 55.81,
+      "unit": "percent",
+      "page": 30
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": 30
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Capacity expansion and upgradation of manufacturing facilities",
+        "category": "capex",
+        "amount": {
+          "value": 1107.95,
+          "unit": "million",
+          "page": 132
+        }
+      },
+      {
+        "purpose": "Establishment of a new R&D centre",
+        "category": "capex",
+        "amount": {
+          "value": 180.23,
+          "unit": "million",
+          "page": 132
+        }
+      },
+      {
+        "purpose": "Repayment / prepayment of certain outstanding borrowings",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 143.02,
+          "unit": "million",
+          "page": 132
+        }
+      },
+      {
+        "purpose": "Working capital requirements",
+        "category": "other",
+        "amount": {
+          "value": 330.0,
+          "unit": "million",
+          "page": 132
+        }
+      },
+      {
+        "purpose": "Repayment of bridge loan and term loan availed for investment in wholly owned subsidiary Sai Parenterals Pte Limited (Singapore) for acquisition of Noumed Pharmaceuticals Pty Limited (Australia)",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 356.41,
+          "unit": "million",
+          "page": 132
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": null,
+          "page": 132
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lead_managers": [
+      "Arihant Capital Markets Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "revenue_fy2": {
+      "value": 967.96,
+      "unit": "million",
+      "page": 97
+    },
+    "revenue_fy1": {
+      "value": 1537.61,
+      "unit": "million",
+      "page": 97
+    },
+    "revenue_fy0": {
+      "value": 1631.06,
+      "unit": "million",
+      "page": 97
+    },
+    "ebitda_fy2": {
+      "value": 176.41,
+      "unit": "million",
+      "page": 365
+    },
+    "ebitda_fy1": {
+      "value": 317.0,
+      "unit": "million",
+      "page": 365
+    },
+    "ebitda_fy0": {
+      "value": 394.35,
+      "unit": "million",
+      "page": 365
+    },
+    "pat_fy2": {
+      "value": 43.76,
+      "unit": "million",
+      "page": 97
+    },
+    "pat_fy1": {
+      "value": 84.15,
+      "unit": "million",
+      "page": 97
+    },
+    "pat_fy0": {
+      "value": 144.54,
+      "unit": "million",
+      "page": 97
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 957.79,
+      "unit": "million",
+      "page": 95
+    },
+    "total_debt_fy0": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cash_fy0": {
+      "value": 20.86,
+      "unit": "million",
+      "page": 95
+    },
+    "eps_fy0": {
+      "value": 5.43,
+      "unit": "rupees",
+      "page": 168
+    },
+    "ronw_fy0_pct": {
+      "value": 15.09,
+      "unit": "percent",
+      "page": 169
+    },
+    "nav_per_share_fy0": {
+      "value": 35.98,
+      "unit": "rupees",
+      "page": 169
+    },
+    "stub_period_months": 6,
+    "revenue_stub": {
+      "value": 869.18,
+      "unit": "million",
+      "page": 97
+    },
+    "pat_stub": {
+      "value": 77.64,
+      "unit": "million",
+      "page": 97
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Sai Life Sciences Limited",
+        "nse_symbol": "SAILIFE",
+        "pe": 107.7,
+        "ronw_pct": 7.99,
+        "page": 170
+      },
+      {
+        "name": "Innova Captab Limited",
+        "nse_symbol": "INNOVACAP",
+        "pe": 32.45,
+        "ronw_pct": 13.37,
+        "page": 170
+      },
+      {
+        "name": "Senores Pharmaceuticals Limited",
+        "nse_symbol": "SENORES",
+        "pe": 64.3,
+        "ronw_pct": 7.18,
+        "page": 170
+      },
+      {
+        "name": "Gland Pharma Limited",
+        "nse_symbol": "GLAND",
+        "pe": 44.71,
+        "ronw_pct": 7.63,
+        "page": 170
+      }
+    ],
+    "notes": [
+      "Price band, lot size, fresh issue share count and retail quota are not given on these pages ([\u25cf]).",
+      "Selling shareholders: only the top 10 Investor Selling Shareholders and the shares they offer appear on the cover (pages 1-2). The summary on pages 30-31 lists 30 Investor Selling Shareholders but shows only their pre-Offer holdings (total 3,175,730), not the shares each offers. The full list is on page 421, which was not provided. The top 10 add up to 2,178,440 shares out of the 3,157,880-share OFS.",
+      "Every seller is labelled 'Investor Selling Shareholder'. Vikasa India EIF I Fund is classed as investor; the individuals are classed as other.",
+      "promoter_pre_pct of 55.81% covers the Promoters only. The promoter group (Kunal Kakumanu) holds another 5.42%.",
+      "Net worth fy0 is total equity of 957.79, which includes a non-controlling interest of 21.10. The RHP's RoNW of 15.09% matches 144.54/957.79. Equity attributable to owners is not printed as a single figure: share capital is 133.09 and the 'Equity Attributable to Parent' (other equity) line is 803.60.",
+      "Total debt for FY2025 is not printed as a single figure: non-current borrowings are 137.54 and current borrowings 802.00 (page 95). The 760.69 on page 366 is as at September 30, 2025.",
+      "Cash flow statement not provided, so CFO is null.",
+      "EBITDA is taken from the accounting ratios on page 365. The KPI table (page 170 onward) was not provided.",
+      "pre_ipo_placement is set to true because paid-up equity capital rose from 133.09 million (March 31, 2025) to 184.54 million (September 30, 2025), which points to allotments within 12 months of the RHP. The details and price are not on these pages.",
+      "The EPS line header in the P&L says nominal value Rs. 100 per share, but the Basis for Offer Price section states face value of \u20b95. FY2024 EPS of 10.54 looks high compared with PAT, which may reflect share-count adjustments.",
+      "The peer RoNW column is printed as 'Return on tangible Net Worth (%)'. Peer NSE symbols are inferred; they are not printed in the RHP."
+    ]
+  }
+}

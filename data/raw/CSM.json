@@ -1,0 +1,337 @@
+{
+  "symbol": "CSM",
+  "rhp_file": "CSM.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:28:51+00:00",
+  "pages_sent": [
+    1,
+    2,
+    7,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    102,
+    103,
+    104,
+    125,
+    126,
+    144,
+    145,
+    146,
+    378,
+    379,
+    384
+  ],
+  "n_pdf_pages": 508,
+  "usage": {
+    "input_tokens": 31343,
+    "output_tokens": 3477,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.28838430000000004,
+    "session_id": "ce5c5cc0-bfc1-4a86-b059-0d37c7565864"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "CSM Technologies Limited",
+    "sector": "IT & software",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "stub_period_months": 9,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Keynote Financial Services Limited",
+    "revenue_fy2": 160.4387,
+    "rhp_page_revenue_fy2": 87,
+    "revenue_fy1": 196.7105,
+    "rhp_page_revenue_fy1": 87,
+    "revenue_fy0": 199.24419999999998,
+    "rhp_page_revenue_fy0": 87,
+    "ebitda_fy2": 27.8723,
+    "rhp_page_ebitda_fy2": 378,
+    "ebitda_fy1": 23.7094,
+    "rhp_page_ebitda_fy1": 378,
+    "ebitda_fy0": 29.27,
+    "rhp_page_ebitda_fy0": 378,
+    "pat_fy2": 15.824,
+    "rhp_page_pat_fy2": 87,
+    "pat_fy1": 12.5493,
+    "rhp_page_pat_fy1": 87,
+    "pat_fy0": 14.0865,
+    "rhp_page_pat_fy0": 87,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 76.9841,
+    "rhp_page_net_worth_fy0": 85,
+    "total_debt_fy0": null,
+    "rhp_page_total_debt_fy0": 85,
+    "cash_fy0": 1.0545,
+    "rhp_page_cash_fy0": 85,
+    "revenue_stub": 165.5236,
+    "rhp_page_revenue_stub": 87,
+    "pat_stub": 14.7014,
+    "rhp_page_pat_stub": 87,
+    "price_low": null,
+    "rhp_page_price_low": 145,
+    "price_high": null,
+    "rhp_page_price_high": 145,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 3.72,
+    "rhp_page_eps_fy0": 145,
+    "ronw_fy0_pct": 18.49,
+    "rhp_page_ronw_fy0_pct": 146,
+    "nav_per_share_fy0": 118.73,
+    "rhp_page_nav_per_share_fy0": 146,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": 1.2901,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 3.8702472,
+    "rhp_page_pre_issue_shares_cr": 82,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 82,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 22.6275,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "CSM Technologies Limited",
+    "sector": "IT & software",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 145
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 145
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "lakh",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": 12901000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 38702472.0,
+      "unit": "shares",
+      "page": 82
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 82
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding working capital requirements of our Company",
+        "category": "other",
+        "amount": {
+          "value": 5600.0,
+          "unit": "lakh",
+          "page": 125
+        }
+      },
+      {
+        "purpose": "Prepayment or repayment of all or a portion of certain outstanding borrowings availed by our Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 2262.75,
+          "unit": "lakh",
+          "page": 125
+        }
+      },
+      {
+        "purpose": "Achieving inorganic growth through unidentified acquisitions and other strategic initiatives and general corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "lakh",
+          "page": 125
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Keynote Financial Services Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "revenue_fy2": {
+      "value": 16043.87,
+      "unit": "lakh",
+      "page": 87
+    },
+    "revenue_fy1": {
+      "value": 19671.05,
+      "unit": "lakh",
+      "page": 87
+    },
+    "revenue_fy0": {
+      "value": 19924.42,
+      "unit": "lakh",
+      "page": 87
+    },
+    "ebitda_fy2": {
+      "value": 2787.23,
+      "unit": "lakh",
+      "page": 378
+    },
+    "ebitda_fy1": {
+      "value": 2370.94,
+      "unit": "lakh",
+      "page": 378
+    },
+    "ebitda_fy0": {
+      "value": 2927.0,
+      "unit": "lakh",
+      "page": 378
+    },
+    "pat_fy2": {
+      "value": 1582.4,
+      "unit": "lakh",
+      "page": 87
+    },
+    "pat_fy1": {
+      "value": 1254.93,
+      "unit": "lakh",
+      "page": 87
+    },
+    "pat_fy0": {
+      "value": 1408.65,
+      "unit": "lakh",
+      "page": 87
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "lakh",
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": "lakh",
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": "lakh",
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 7698.41,
+      "unit": "lakh",
+      "page": 85
+    },
+    "total_debt_fy0": {
+      "value": null,
+      "unit": "lakh",
+      "page": 85
+    },
+    "cash_fy0": {
+      "value": 105.45,
+      "unit": "lakh",
+      "page": 85
+    },
+    "eps_fy0": {
+      "value": 3.72,
+      "unit": "rupees",
+      "page": 145
+    },
+    "ronw_fy0_pct": {
+      "value": 18.49,
+      "unit": "percent",
+      "page": 146
+    },
+    "nav_per_share_fy0": {
+      "value": 118.73,
+      "unit": "rupees",
+      "page": 146
+    },
+    "stub_period_months": 9,
+    "revenue_stub": {
+      "value": 16552.36,
+      "unit": "lakh",
+      "page": 87
+    },
+    "pat_stub": {
+      "value": 1470.14,
+      "unit": "lakh",
+      "page": 87
+    },
+    "no_listed_peers": false,
+    "peers": [],
+    "notes": [
+      "Pure fresh issue; no offer for sale. Employee reservation of up to 1,30,000 shares.",
+      "Price band, lot size, post-issue shares and retail quota are not printed on these pages (shown as [\u25cf]). Retail quota is printed only as 'Not less than [\u25cf]'.",
+      "FY2025 total debt was not printed as one figure. The balance sheet shows non-current borrowings of 2,130.62 lakh and current borrowings of 1,086.62 lakh (page 85). I left total_debt_fy0 null rather than add them myself.",
+      "Cash flow statement not provided, so CFO is null.",
+      "FY2025 PAT is 1,408.65 lakh as profit for the year. The attribution line shows 1,408.64.",
+      "Net worth FY2025 is total equity of 7,698.41 lakh; there was no non-controlling interest in FY2025.",
+      "NAV for FY2025 (118.73) looks like it is on the pre-bonus share count, while EPS (3.72) looks adjusted for the bonus. The Dec 2025 NAV is 22.97.",
+      "Peer comparison table (page 141) not provided. Only the peer P/E summary on page 139 was available: highest 24.44, lowest 4.12, average 14.28.",
+      "Promoter shareholding percentages not on these pages. Promoters are Priyadarshi Pany and Lagna Panda.",
+      "Last share allotment for cash was a private placement on May 24, 2025 at \u20b9438 per share (pre-bonus). This is more than 12 months before the RHP dated June 17, 2026. A 5:1 bonus issue on June 25, 2025 falls within the 12 months but is not a placement. So pre_ipo_placement is set false.",
+      "Working capital object categorised as 'other'. Inorganic growth and general corporate purposes are one combined object with amount [\u25cf], categorised as gcp.",
+      "Dec 31, 2025 capitalisation statement shows total debt of 7,617.72 lakh including lease liabilities (page 379)."
+    ]
+  }
+}

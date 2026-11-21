@@ -1,0 +1,368 @@
+{
+  "symbol": "TECHNOCRAF",
+  "rhp_file": "TECHNOCRAF.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:26:29+00:00",
+  "pages_sent": [
+    1,
+    2,
+    4,
+    31,
+    90,
+    91,
+    93,
+    94,
+    95,
+    96,
+    116,
+    117,
+    118,
+    139,
+    140,
+    153,
+    154,
+    155,
+    474,
+    475,
+    488
+  ],
+  "n_pdf_pages": 632,
+  "usage": {
+    "input_tokens": 31313,
+    "output_tokens": 3121,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.2810235,
+    "session_id": "83acfb4b-cdb3-4433-bef0-3b37cefd6dd3"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Technocraft Ventures Limited",
+    "sector": "Infrastructure, construction & real estate",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026 (March 31, 2026)",
+    "stub_period_months": null,
+    "pre_ipo_placement": null,
+    "lead_managers": "Khambatta Securities Limited",
+    "revenue_fy2": 226.102,
+    "rhp_page_revenue_fy2": 96,
+    "revenue_fy1": 279.564,
+    "rhp_page_revenue_fy1": 96,
+    "revenue_fy0": 344.996,
+    "rhp_page_revenue_fy0": 96,
+    "ebitda_fy2": 35.025,
+    "rhp_page_ebitda_fy2": 474,
+    "ebitda_fy1": 49.627,
+    "rhp_page_ebitda_fy1": 474,
+    "ebitda_fy0": 72.175,
+    "rhp_page_ebitda_fy0": 474,
+    "pat_fy2": 19.054,
+    "rhp_page_pat_fy2": 96,
+    "pat_fy1": 28.204,
+    "rhp_page_pat_fy1": 96,
+    "pat_fy0": 43.315,
+    "rhp_page_pat_fy0": 96,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 163.376,
+    "rhp_page_net_worth_fy0": 94,
+    "total_debt_fy0": 89.764,
+    "rhp_page_total_debt_fy0": 488,
+    "cash_fy0": 13.099000000000002,
+    "rhp_page_cash_fy0": 94,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 154,
+    "price_high": null,
+    "rhp_page_price_high": 154,
+    "lot_size": null,
+    "rhp_page_lot_size": 2,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": 35.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": null,
+    "eps_fy0": 14.39,
+    "rhp_page_eps_fy0": 96,
+    "ronw_fy0_pct": 26.51,
+    "rhp_page_ronw_fy0_pct": 155,
+    "nav_per_share_fy0": 54.28,
+    "rhp_page_nav_per_share_fy0": 155,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": 0.9505,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.2376,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 3.01012,
+    "rhp_page_pre_issue_shares_cr": 91,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 91,
+    "ofs_promoter_shares_cr": 0.2376,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "VA Tech Wabag Limited; Denta Water and Infra Solutions Limited; EMS Limited; Enviro Infra Engineers Limited",
+    "n_peers": 4,
+    "peer_pe_list": [
+      31.96,
+      14.81
+    ],
+    "peer_ronw_list": [],
+    "rhp_page_peers": 155
+  },
+  "extract": {
+    "company": "Technocraft Ventures Limited",
+    "sector": "Infrastructure, construction & real estate",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 154
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 154
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": 2
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": 9505000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 2376000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Kartikey Constructions (Partnership Firm)",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 2376000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 30101200.0,
+      "unit": "shares",
+      "page": 91
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 91
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding working capital requirements of our Company",
+        "category": "other",
+        "amount": {
+          "value": 1500.0,
+          "unit": "million",
+          "page": 140
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 140
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Khambatta Securities Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026 (March 31, 2026)",
+    "revenue_fy2": {
+      "value": 2261.02,
+      "unit": "million",
+      "page": 96
+    },
+    "revenue_fy1": {
+      "value": 2795.64,
+      "unit": "million",
+      "page": 96
+    },
+    "revenue_fy0": {
+      "value": 3449.96,
+      "unit": "million",
+      "page": 96
+    },
+    "ebitda_fy2": {
+      "value": 350.25,
+      "unit": "million",
+      "page": 474
+    },
+    "ebitda_fy1": {
+      "value": 496.27,
+      "unit": "million",
+      "page": 474
+    },
+    "ebitda_fy0": {
+      "value": 721.75,
+      "unit": "million",
+      "page": 474
+    },
+    "pat_fy2": {
+      "value": 190.54,
+      "unit": "million",
+      "page": 96
+    },
+    "pat_fy1": {
+      "value": 282.04,
+      "unit": "million",
+      "page": 96
+    },
+    "pat_fy0": {
+      "value": 433.15,
+      "unit": "million",
+      "page": 96
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 1633.76,
+      "unit": "million",
+      "page": 94
+    },
+    "total_debt_fy0": {
+      "value": 897.64,
+      "unit": "million",
+      "page": 488
+    },
+    "cash_fy0": {
+      "value": 130.99,
+      "unit": "million",
+      "page": 94
+    },
+    "eps_fy0": {
+      "value": 14.39,
+      "unit": "rupees",
+      "page": 96
+    },
+    "ronw_fy0_pct": {
+      "value": 26.51,
+      "unit": "percent",
+      "page": 155
+    },
+    "nav_per_share_fy0": {
+      "value": 54.28,
+      "unit": "rupees",
+      "page": 155
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "VA Tech Wabag Limited",
+        "nse_symbol": null,
+        "pe": 31.96,
+        "ronw_pct": null,
+        "page": 155
+      },
+      {
+        "name": "Denta Water and Infra Solutions Limited",
+        "nse_symbol": null,
+        "pe": 14.81,
+        "ronw_pct": null,
+        "page": 155
+      },
+      {
+        "name": "EMS Limited",
+        "nse_symbol": null,
+        "pe": null,
+        "ronw_pct": null,
+        "page": 155
+      },
+      {
+        "name": "Enviro Infra Engineers Limited",
+        "nse_symbol": null,
+        "pe": null,
+        "ronw_pct": null,
+        "page": 155
+      }
+    ],
+    "notes": [
+      "The full 'Comparison with listed industry peers' table (around RHP page 153) is not in the pages provided. Peer names come from the industry P/E summary on page 155. Only the highest P/E (VA Tech Wabag, 31.96) and lowest P/E (Denta Water, 14.81) are shown; the average is 22.96. P/E for EMS and Enviro Infra, and RoNW for all peers, are not on these pages.",
+      "Price band, lot size, issue amounts and post-offer share count are [\u25cf] in the RHP.",
+      "Cash flow statement not provided, so CFO is null for all years.",
+      "Total debt of 897.64 is taken from the capitalisation statement. The balance sheet gives long-term borrowings 298.15 plus short-term borrowings 599.48, which adds to 897.63.",
+      "Promoter shareholding before and after the offer is not on the pages provided.",
+      "Share capital rose from 75.25 million (FY2025) to 301.01 million (FY2026), and the EPS notes mention bonus adjustment, so this was probably a bonus issue. Whether there was any pre-IPO placement cannot be confirmed from these pages.",
+      "Fresh issue objects: working capital of 1,500.00 million is categorised as 'other'. The general corporate purposes amount is [\u25cf] and capped at 25% of gross proceeds.",
+      "Retail quota: not less than 35% of the offer."
+    ]
+  }
+}

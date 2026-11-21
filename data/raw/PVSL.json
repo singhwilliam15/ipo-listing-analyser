@@ -1,0 +1,368 @@
+{
+  "symbol": "PVSL",
+  "rhp_file": "PVSL.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:13:42+00:00",
+  "pages_sent": [
+    1,
+    2,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    82,
+    83,
+    84,
+    85,
+    111,
+    112,
+    113,
+    114,
+    124,
+    125,
+    126,
+    127,
+    128,
+    338,
+    339,
+    340,
+    373
+  ],
+  "n_pdf_pages": 458,
+  "usage": {
+    "input_tokens": 60184,
+    "output_tokens": 3229,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.5170405,
+    "session_id": "4612a8ac-0492-4fcf-82c5-c749799d201d"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Popular Vehicles and Services Limited",
+    "sector": "Auto & auto components",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023 (March 31, 2023)",
+    "stub_period_months": 6,
+    "pre_ipo_placement": "no",
+    "lead_managers": "ICICI Securities Limited; Nuvama Wealth Management Limited; Centrum Capital Limited",
+    "revenue_fy2": 2893.525,
+    "rhp_page_revenue_fy2": 69,
+    "revenue_fy1": 3465.879,
+    "rhp_page_revenue_fy1": 69,
+    "revenue_fy0": 4875.002,
+    "rhp_page_revenue_fy0": 69,
+    "ebitda_fy2": 174.853,
+    "rhp_page_ebitda_fy2": 126,
+    "ebitda_fy1": 178.663,
+    "rhp_page_ebitda_fy1": 126,
+    "ebitda_fy0": 234.846,
+    "rhp_page_ebitda_fy0": 126,
+    "pat_fy2": 32.455,
+    "rhp_page_pat_fy2": 69,
+    "pat_fy1": 33.669,
+    "rhp_page_pat_fy1": 69,
+    "pat_fy0": 64.074,
+    "rhp_page_pat_fy0": 69,
+    "cfo_fy2": 95.174,
+    "rhp_page_cfo_fy2": 70,
+    "cfo_fy1": 69.692,
+    "rhp_page_cfo_fy1": 70,
+    "cfo_fy0": 108.893,
+    "rhp_page_cfo_fy0": 70,
+    "net_worth_fy0": 343.044,
+    "rhp_page_net_worth_fy0": 21,
+    "total_debt_fy0": 505.006,
+    "rhp_page_total_debt_fy0": 21,
+    "cash_fy0": 23.825,
+    "rhp_page_cash_fy0": 68,
+    "revenue_stub": 2834.997,
+    "rhp_page_revenue_stub": 69,
+    "pat_stub": 40.044,
+    "rhp_page_pat_stub": 69,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": 69.45,
+    "rhp_page_promoter_pre_pct": 20,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 20,
+    "retail_quota_pct": null,
+    "pre_ipo_price": 57.0,
+    "rhp_page_pre_ipo_price": 24,
+    "eps_fy0": 10.22,
+    "rhp_page_eps_fy0": 69,
+    "ronw_fy0_pct": 18.68,
+    "rhp_page_ronw_fy0_pct": 125,
+    "nav_per_share_fy0": 54.69,
+    "rhp_page_nav_per_share_fy0": 125,
+    "fresh_issue_cr": 250.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 1.1917075,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 6.2721445,
+    "rhp_page_pre_issue_shares_cr": 65,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 65,
+    "ofs_promoter_shares_cr": 0,
+    "ofs_investor_shares_cr": 1.1917075,
+    "proceeds_debt_repayment_cr": 192.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "LANDMARK",
+    "n_peers": 1,
+    "peer_pe_list": [
+      34.84
+    ],
+    "peer_ronw_list": [
+      18.04
+    ],
+    "rhp_page_peers": 125
+  },
+  "extract": {
+    "company": "Popular Vehicles and Services Limited",
+    "sector": "Auto & auto components",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 2500.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 11917075.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "BanyanTree Growth Capital II, LLC",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 11917075.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 62721445.0,
+      "unit": "shares",
+      "page": 65
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 65
+    },
+    "promoter_pre_pct": {
+      "value": 69.45,
+      "unit": "percent",
+      "page": 20
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": 20
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment and/or pre-payment, in full or part, of certain borrowings availed by the Company and Subsidiaries PAWL, PMMIL, KGPL, KCPL and PMPL",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 1920.0,
+          "unit": "million",
+          "page": 111
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": null,
+          "page": 111
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": 57.0,
+      "unit": "rupees",
+      "page": 24
+    },
+    "lead_managers": [
+      "ICICI Securities Limited",
+      "Nuvama Wealth Management Limited",
+      "Centrum Capital Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023 (March 31, 2023)",
+    "revenue_fy2": {
+      "value": 28935.25,
+      "unit": "million",
+      "page": 69
+    },
+    "revenue_fy1": {
+      "value": 34658.79,
+      "unit": "million",
+      "page": 69
+    },
+    "revenue_fy0": {
+      "value": 48750.02,
+      "unit": "million",
+      "page": 69
+    },
+    "ebitda_fy2": {
+      "value": 1748.53,
+      "unit": "million",
+      "page": 126
+    },
+    "ebitda_fy1": {
+      "value": 1786.63,
+      "unit": "million",
+      "page": 126
+    },
+    "ebitda_fy0": {
+      "value": 2348.46,
+      "unit": "million",
+      "page": 126
+    },
+    "pat_fy2": {
+      "value": 324.55,
+      "unit": "million",
+      "page": 69
+    },
+    "pat_fy1": {
+      "value": 336.69,
+      "unit": "million",
+      "page": 69
+    },
+    "pat_fy0": {
+      "value": 640.74,
+      "unit": "million",
+      "page": 69
+    },
+    "cfo_fy2": {
+      "value": 951.74,
+      "unit": "million",
+      "page": 70
+    },
+    "cfo_fy1": {
+      "value": 696.92,
+      "unit": "million",
+      "page": 70
+    },
+    "cfo_fy0": {
+      "value": 1088.93,
+      "unit": "million",
+      "page": 70
+    },
+    "net_worth_fy0": {
+      "value": 3430.44,
+      "unit": "million",
+      "page": 21
+    },
+    "total_debt_fy0": {
+      "value": 5050.06,
+      "unit": "million",
+      "page": 21
+    },
+    "cash_fy0": {
+      "value": 238.25,
+      "unit": "million",
+      "page": 68
+    },
+    "eps_fy0": {
+      "value": 10.22,
+      "unit": "rupees",
+      "page": 69
+    },
+    "ronw_fy0_pct": {
+      "value": 18.68,
+      "unit": "percent",
+      "page": 125
+    },
+    "nav_per_share_fy0": {
+      "value": 54.69,
+      "unit": "rupees",
+      "page": 125
+    },
+    "stub_period_months": 6,
+    "revenue_stub": {
+      "value": 28349.97,
+      "unit": "million",
+      "page": 69
+    },
+    "pat_stub": {
+      "value": 400.44,
+      "unit": "million",
+      "page": 69
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Landmark Cars Limited",
+        "nse_symbol": "LANDMARK",
+        "pe": 34.84,
+        "ronw_pct": 18.04,
+        "page": 125
+      }
+    ],
+    "notes": [
+      "Price band, lot size, fresh issue share count, OFS amount and post-offer shares are shown as [\u25cf] in the RHP.",
+      "Retail portion is printed as 'Not less than [\u25cf] Equity Shares'; no percentage is given on these pages.",
+      "The company states it did not do a pre-IPO placement. The promoters (John K. Paul, Francis K. Paul, Naveen Philip) each acquired 763,737 shares at \u20b957 on February 21, 2024. This looks like a secondary acquisition, so pre_ipo_placement=false and pre_ipo_price=57.",
+      "The promoter pre-offer holding of 69.45% covers the three promoters only; the RHP says no promoter group members hold shares.",
+      "The pre-offer share count reflects the 1:5 split (\u20b910 to \u20b92 face value) approved in September 2023. EPS and NAV are adjusted for the split.",
+      "EBITDA is as reported in the KPIs (PAT + tax + D&A + finance costs). Adjusted EBITDA for the stub period was 1,443.04 million.",
+      "Cash fy0 is cash and cash equivalents only, 238.25 million. Other bank balances of 43.35 million are not included.",
+      "The NSE symbol for Landmark Cars is not printed in the RHP; 'LANDMARK' is assumed.",
+      "Pro forma FY2023 financials for the KEPL acquisition also exist (EBITDA 2,492.00 million, EPS 10.76). They were not used."
+    ]
+  }
+}

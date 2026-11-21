@@ -1,0 +1,483 @@
+{
+  "symbol": "AEQUS",
+  "rhp_file": "AEQUS.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:03:37+00:00",
+  "pages_sent": [
+    1,
+    2,
+    22,
+    23,
+    24,
+    25,
+    99,
+    100,
+    102,
+    103,
+    104,
+    105,
+    119,
+    120,
+    121,
+    151,
+    152,
+    170,
+    171,
+    172,
+    539,
+    540,
+    580
+  ],
+  "n_pdf_pages": 704,
+  "usage": {
+    "input_tokens": 45241,
+    "output_tokens": 4224,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.4158982,
+    "session_id": "2ccba0be-6af3-4983-9c56-94fee7961975"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Aequs Limited",
+    "sector": "Industrials & capital goods",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "stub_period_months": 6,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "JM Financial Limited; IIFL Capital Services Limited; Kotak Mahindra Capital Company Limited",
+    "revenue_fy2": 812.132,
+    "rhp_page_revenue_fy2": 105,
+    "revenue_fy1": 965.074,
+    "rhp_page_revenue_fy1": 105,
+    "revenue_fy0": 924.606,
+    "rhp_page_revenue_fy0": 105,
+    "ebitda_fy2": 63.056,
+    "rhp_page_ebitda_fy2": 539,
+    "ebitda_fy1": 145.51,
+    "rhp_page_ebitda_fy1": 539,
+    "ebitda_fy0": 107.969,
+    "rhp_page_ebitda_fy0": 539,
+    "pat_fy2": -109.495,
+    "rhp_page_pat_fy2": 105,
+    "pat_fy1": -14.244,
+    "rhp_page_pat_fy1": 105,
+    "pat_fy0": -102.346,
+    "rhp_page_pat_fy0": 105,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 716.919,
+    "rhp_page_net_worth_fy0": 103,
+    "total_debt_fy0": 437.062,
+    "rhp_page_total_debt_fy0": 25,
+    "cash_fy0": 60.943,
+    "rhp_page_cash_fy0": 103,
+    "revenue_stub": 537.159,
+    "rhp_page_revenue_stub": 105,
+    "pat_stub": -16.977,
+    "rhp_page_pat_stub": 105,
+    "price_low": null,
+    "rhp_page_price_low": 170,
+    "price_high": null,
+    "rhp_page_price_high": 170,
+    "lot_size": null,
+    "promoter_pre_pct": 63.82,
+    "rhp_page_promoter_pre_pct": 24,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 25,
+    "retail_quota_pct": null,
+    "pre_ipo_price": 123.97,
+    "rhp_page_pre_ipo_price": 2,
+    "eps_fy0": -1.8,
+    "rhp_page_eps_fy0": 170,
+    "ronw_fy0_pct": -14.47,
+    "rhp_page_ronw_fy0_pct": 171,
+    "nav_per_share_fy0": 12.47,
+    "rhp_page_nav_per_share_fy0": 171,
+    "fresh_issue_cr": 670.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 2.0307393,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 61.6617677,
+    "rhp_page_pre_issue_shares_cr": 99,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 99,
+    "ofs_promoter_shares_cr": 0.14235,
+    "ofs_investor_shares_cr": 1.7987585000000001,
+    "proceeds_debt_repayment_cr": 433.167,
+    "proceeds_capex_cr": 64.002,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "AZAD; UNIMECH; AMBER; KAYNES; DIXON; PTCIL",
+    "n_peers": 6,
+    "peer_pe_list": [
+      115.48,
+      55.73,
+      100.4,
+      129.59,
+      73.87,
+      417.03
+    ],
+    "peer_ronw_list": [
+      6.21,
+      12.48,
+      10.99,
+      10.33,
+      47.5,
+      4.4
+    ],
+    "rhp_page_peers": 172
+  },
+  "extract": {
+    "company": "Aequs Limited",
+    "sector": "Industrials & capital goods",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 170
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 170
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 6700.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 20307393.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Amicus Capital Private Equity I LLP",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 7481908.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Amicus Capital Partners India Fund II",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 8879915.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Melligeri Private Family Foundation",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 1323500.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Amicus Capital Partners India Fund I",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 754450.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Raman Subramanian",
+        "kind": "other",
+        "shares_offered": {
+          "value": 25000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Ravindra Mariwala",
+        "kind": "other",
+        "shares_offered": {
+          "value": 871308.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Vasundhara Dempo Family Private Trust",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 435656.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Girija Dempo Family Private Trust",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 435656.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Aequs Manufacturing Investments Private Limited",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 100000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 616617677.0,
+      "unit": "shares",
+      "page": 99
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 99
+    },
+    "promoter_pre_pct": {
+      "value": 63.82,
+      "unit": "percent",
+      "page": 24
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 25
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment/prepayment of certain outstanding borrowings and prepayment penalties of the Company and wholly-owned subsidiaries ASMIPL, ACPPL, AEPPL",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 4331.67,
+          "unit": "million",
+          "page": 152
+        }
+      },
+      {
+        "purpose": "Capital expenditure for purchase of machinery and equipment by the Company and subsidiary ASMIPL",
+        "category": "capex",
+        "amount": {
+          "value": 640.02,
+          "unit": "million",
+          "page": 152
+        }
+      },
+      {
+        "purpose": "Inorganic growth through unidentified acquisitions, other strategic initiatives and general corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 152
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 123.97,
+      "unit": "rupees",
+      "page": 2
+    },
+    "lead_managers": [
+      "JM Financial Limited",
+      "IIFL Capital Services Limited",
+      "Kotak Mahindra Capital Company Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "revenue_fy2": {
+      "value": 8121.32,
+      "unit": "million",
+      "page": 105
+    },
+    "revenue_fy1": {
+      "value": 9650.74,
+      "unit": "million",
+      "page": 105
+    },
+    "revenue_fy0": {
+      "value": 9246.06,
+      "unit": "million",
+      "page": 105
+    },
+    "ebitda_fy2": {
+      "value": 630.56,
+      "unit": "million",
+      "page": 539
+    },
+    "ebitda_fy1": {
+      "value": 1455.1,
+      "unit": "million",
+      "page": 539
+    },
+    "ebitda_fy0": {
+      "value": 1079.69,
+      "unit": "million",
+      "page": 539
+    },
+    "pat_fy2": {
+      "value": -1094.95,
+      "unit": "million",
+      "page": 105
+    },
+    "pat_fy1": {
+      "value": -142.44,
+      "unit": "million",
+      "page": 105
+    },
+    "pat_fy0": {
+      "value": -1023.46,
+      "unit": "million",
+      "page": 105
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 7169.19,
+      "unit": "million",
+      "page": 103
+    },
+    "total_debt_fy0": {
+      "value": 4370.62,
+      "unit": "million",
+      "page": 25
+    },
+    "cash_fy0": {
+      "value": 609.43,
+      "unit": "million",
+      "page": 103
+    },
+    "eps_fy0": {
+      "value": -1.8,
+      "unit": "rupees",
+      "page": 170
+    },
+    "ronw_fy0_pct": {
+      "value": -14.47,
+      "unit": "percent",
+      "page": 171
+    },
+    "nav_per_share_fy0": {
+      "value": 12.47,
+      "unit": "rupees",
+      "page": 171
+    },
+    "stub_period_months": 6,
+    "revenue_stub": {
+      "value": 5371.59,
+      "unit": "million",
+      "page": 105
+    },
+    "pat_stub": {
+      "value": -169.77,
+      "unit": "million",
+      "page": 105
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Azad Engineering Limited",
+        "nse_symbol": "AZAD",
+        "pe": 115.48,
+        "ronw_pct": 6.21,
+        "page": 172
+      },
+      {
+        "name": "Unimech Aerospace and Manufacturing Limited",
+        "nse_symbol": "UNIMECH",
+        "pe": 55.73,
+        "ronw_pct": 12.48,
+        "page": 172
+      },
+      {
+        "name": "Amber Enterprises India Limited",
+        "nse_symbol": "AMBER",
+        "pe": 100.4,
+        "ronw_pct": 10.99,
+        "page": 172
+      },
+      {
+        "name": "Kaynes Technology India Limited",
+        "nse_symbol": "KAYNES",
+        "pe": 129.59,
+        "ronw_pct": 10.33,
+        "page": 172
+      },
+      {
+        "name": "Dixon Technologies (India) Limited",
+        "nse_symbol": "DIXON",
+        "pe": 73.87,
+        "ronw_pct": 47.5,
+        "page": 172
+      },
+      {
+        "name": "PTC Industries Limited",
+        "nse_symbol": "PTCIL",
+        "pe": 417.03,
+        "ronw_pct": 4.4,
+        "page": 172
+      }
+    ],
+    "notes": [
+      "Price band, lot size and fresh issue share count are printed as [\u25cf] in the RHP.",
+      "promoter_pre_pct of 63.82% is the Promoters' sub-total only. The Promoter Group holds a further 0.66% (page 24). The combined figure is not printed.",
+      "Cash flow statement pages were not provided, so CFO is null.",
+      "total_debt_fy0 of 4,370.62 is from the summary on page 25. It matches non-current borrowings 1,424.39 plus current borrowings 2,946.23 on page 103.",
+      "net_worth_fy0 is equity attributable to owners (7,169.19). The SEBI-defined Net Worth, after deducting the common control capital reserve, is 7,075.25 (page 540).",
+      "EBITDA is as reported in the accounting ratios and KPIs (before other adjustments). It equals the line in the P&L for earnings from continuing operations before finance cost, depreciation and amortisation, share of associates/JVs, exceptional items and tax.",
+      "There was a Pre-IPO Placement of Rs 1,440.00 million at Rs 123.97 per share to SBI, DSP and Think India funds. Separately, the Net Pre-IPO Proceeds were used for: debt 202.54, capex 166.42 and GCP 750.00 (288.64 still pending).",
+      "The GCP/inorganic growth amount from the Net Proceeds is [\u25cf].",
+      "The retail quota percentage is not explicitly printed on these pages. NII is not more than 15% of the Net Offer and QIB is at least 75%.",
+      "The company made losses in all three years and in the stub period. Its P/E is NA."
+    ]
+  }
+}

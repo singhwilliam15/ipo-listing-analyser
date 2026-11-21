@@ -1,0 +1,475 @@
+{
+  "symbol": "INNOVACAP",
+  "rhp_file": "INNOVACAP.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T21:02:41+00:00",
+  "pages_sent": [
+    1,
+    2,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    92,
+    93,
+    94,
+    95,
+    103,
+    104,
+    105,
+    106,
+    116,
+    117,
+    118,
+    119,
+    120,
+    346,
+    347,
+    348,
+    355
+  ],
+  "n_pdf_pages": 543,
+  "usage": {
+    "input_tokens": 52191,
+    "output_tokens": 3767,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.4630534,
+    "session_id": "5c2d98f1-d674-403e-bfc9-15fb657414c8"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Innova Captab Limited",
+    "sector": "Healthcare & pharma",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "March 31, 2023",
+    "stub_period_months": 3,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "ICICI Securities Limited; JM Financial Limited",
+    "revenue_fy2": 410.662,
+    "rhp_page_revenue_fy2": 76,
+    "revenue_fy1": 800.526,
+    "rhp_page_revenue_fy1": 76,
+    "revenue_fy0": 926.38,
+    "rhp_page_revenue_fy0": 76,
+    "ebitda_fy2": 55.857,
+    "rhp_page_ebitda_fy2": 119,
+    "ebitda_fy1": 98.903,
+    "rhp_page_ebitda_fy1": 119,
+    "ebitda_fy0": 122.845,
+    "rhp_page_ebitda_fy0": 119,
+    "pat_fy2": 34.5,
+    "rhp_page_pat_fy2": 76,
+    "pat_fy1": 63.953,
+    "rhp_page_pat_fy1": 76,
+    "pat_fy0": 67.954,
+    "rhp_page_pat_fy0": 76,
+    "cfo_fy2": 41.566,
+    "rhp_page_cfo_fy2": 77,
+    "cfo_fy1": 58.898,
+    "rhp_page_cfo_fy1": 77,
+    "cfo_fy0": 67.124,
+    "rhp_page_cfo_fy0": 77,
+    "net_worth_fy0": 276.506,
+    "rhp_page_net_worth_fy0": 74,
+    "total_debt_fy0": 235.192,
+    "rhp_page_total_debt_fy0": 27,
+    "cash_fy0": 3.525,
+    "rhp_page_cash_fy0": 74,
+    "revenue_stub": 233.243,
+    "rhp_page_revenue_stub": 76,
+    "pat_stub": 17.593,
+    "rhp_page_pat_stub": 76,
+    "price_low": null,
+    "rhp_page_price_low": 116,
+    "price_high": null,
+    "rhp_page_price_high": 116,
+    "lot_size": null,
+    "promoter_pre_pct": 66.85,
+    "rhp_page_promoter_pre_pct": 95,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": 448.0,
+    "rhp_page_pre_ipo_price": 31,
+    "eps_fy0": 14.16,
+    "rhp_page_eps_fy0": 116,
+    "ronw_fy0_pct": 24.58,
+    "rhp_page_ronw_fy0_pct": 117,
+    "nav_per_share_fy0": 57.6,
+    "rhp_page_nav_per_share_fy0": 117,
+    "fresh_issue_cr": 320.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.5580357,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 5.0082072,
+    "rhp_page_pre_issue_shares_cr": 72,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 72,
+    "ofs_promoter_shares_cr": 0.390625,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 168.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "TORNTPHARM; LAURUSLABS; AJANTPHARM; JBCHEPHARM; NATCOPHARM; ERIS; INDOCO; SUVENPHAR; WINDLAS",
+    "n_peers": 9,
+    "peer_pe_list": [
+      57.61,
+      25.53,
+      42.91,
+      28.61,
+      19.9,
+      33.01,
+      22.74,
+      37.13,
+      22.04
+    ],
+    "peer_ronw_list": [
+      20.11,
+      19.74,
+      17.36,
+      16.54,
+      14.84,
+      17.1,
+      13.83,
+      23.7,
+      10.61
+    ],
+    "rhp_page_peers": 117
+  },
+  "extract": {
+    "company": "Innova Captab Limited",
+    "sector": "Healthcare & pharma",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 116
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 116
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 3200.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 5580357.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Manoj Kumar Lohariwala",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 1953125.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Vinay Kumar Lohariwala",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 1953125.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Gian Parkash Aggarwal",
+        "kind": "other",
+        "shares_offered": {
+          "value": 1674107.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 50082072.0,
+      "unit": "shares",
+      "page": 72
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 72
+    },
+    "promoter_pre_pct": {
+      "value": 66.85,
+      "unit": "percent",
+      "page": 95
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment and/or prepayment, in part or in full, of certain outstanding loans of the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 1444.0,
+          "unit": "million",
+          "page": 27
+        }
+      },
+      {
+        "purpose": "Investment in Subsidiary UML for repayment/prepayment of outstanding loans availed by UML",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 236.0,
+          "unit": "million",
+          "page": 27
+        }
+      },
+      {
+        "purpose": "Funding working capital requirements",
+        "category": "other",
+        "amount": {
+          "value": 720.0,
+          "unit": "million",
+          "page": 27
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 27
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 448.0,
+      "unit": "rupees",
+      "page": 31
+    },
+    "lead_managers": [
+      "ICICI Securities Limited",
+      "JM Financial Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "March 31, 2023",
+    "revenue_fy2": {
+      "value": 4106.62,
+      "unit": "million",
+      "page": 76
+    },
+    "revenue_fy1": {
+      "value": 8005.26,
+      "unit": "million",
+      "page": 76
+    },
+    "revenue_fy0": {
+      "value": 9263.8,
+      "unit": "million",
+      "page": 76
+    },
+    "ebitda_fy2": {
+      "value": 558.57,
+      "unit": "million",
+      "page": 119
+    },
+    "ebitda_fy1": {
+      "value": 989.03,
+      "unit": "million",
+      "page": 119
+    },
+    "ebitda_fy0": {
+      "value": 1228.45,
+      "unit": "million",
+      "page": 119
+    },
+    "pat_fy2": {
+      "value": 345.0,
+      "unit": "million",
+      "page": 76
+    },
+    "pat_fy1": {
+      "value": 639.53,
+      "unit": "million",
+      "page": 76
+    },
+    "pat_fy0": {
+      "value": 679.54,
+      "unit": "million",
+      "page": 76
+    },
+    "cfo_fy2": {
+      "value": 415.66,
+      "unit": "million",
+      "page": 77
+    },
+    "cfo_fy1": {
+      "value": 588.98,
+      "unit": "million",
+      "page": 77
+    },
+    "cfo_fy0": {
+      "value": 671.24,
+      "unit": "million",
+      "page": 77
+    },
+    "net_worth_fy0": {
+      "value": 2765.06,
+      "unit": "million",
+      "page": 74
+    },
+    "total_debt_fy0": {
+      "value": 2351.92,
+      "unit": "million",
+      "page": 27
+    },
+    "cash_fy0": {
+      "value": 35.25,
+      "unit": "million",
+      "page": 74
+    },
+    "eps_fy0": {
+      "value": 14.16,
+      "unit": "rupees",
+      "page": 116
+    },
+    "ronw_fy0_pct": {
+      "value": 24.58,
+      "unit": "percent",
+      "page": 117
+    },
+    "nav_per_share_fy0": {
+      "value": 57.6,
+      "unit": "rupees",
+      "page": 117
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 2332.43,
+      "unit": "million",
+      "page": 76
+    },
+    "pat_stub": {
+      "value": 175.93,
+      "unit": "million",
+      "page": 76
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Torrent Pharmaceuticals Limited",
+        "nse_symbol": "TORNTPHARM",
+        "pe": 57.61,
+        "ronw_pct": 20.11,
+        "page": 117
+      },
+      {
+        "name": "Laurus Labs Limited",
+        "nse_symbol": "LAURUSLABS",
+        "pe": 25.53,
+        "ronw_pct": 19.74,
+        "page": 117
+      },
+      {
+        "name": "Ajanta Pharma Limited",
+        "nse_symbol": "AJANTPHARM",
+        "pe": 42.91,
+        "ronw_pct": 17.36,
+        "page": 117
+      },
+      {
+        "name": "J. B. Chemicals and Pharmaceuticals Limited",
+        "nse_symbol": "JBCHEPHARM",
+        "pe": 28.61,
+        "ronw_pct": 16.54,
+        "page": 117
+      },
+      {
+        "name": "NATCO Pharma Limited",
+        "nse_symbol": "NATCOPHARM",
+        "pe": 19.9,
+        "ronw_pct": 14.84,
+        "page": 117
+      },
+      {
+        "name": "Eris Lifesciences Limited",
+        "nse_symbol": "ERIS",
+        "pe": 33.01,
+        "ronw_pct": 17.1,
+        "page": 117
+      },
+      {
+        "name": "Indoco Remedies Limited",
+        "nse_symbol": "INDOCO",
+        "pe": 22.74,
+        "ronw_pct": 13.83,
+        "page": 118
+      },
+      {
+        "name": "Suven Pharmaceuticals Limited",
+        "nse_symbol": "SUVENPHAR",
+        "pe": 37.13,
+        "ronw_pct": 23.7,
+        "page": 118
+      },
+      {
+        "name": "Windlas Biotech Limited",
+        "nse_symbol": "WINDLAS",
+        "pe": 22.04,
+        "ronw_pct": 10.61,
+        "page": 118
+      }
+    ],
+    "notes": [
+      "Price band, lot size, fresh issue share count, OFS amount and post-offer shares are printed as [\u25cf] or are not on the pages provided.",
+      "The fresh issue was cut from \u20b94,000 million to \u20b93,200 million after the \u20b9800 million pre-IPO placement: CCPS issued to UTI at \u20b9354 and equity shares issued to the 360 One funds at \u20b9448 on Dec 3, 2023. pre_ipo_price is the latest of these, \u20b9448.",
+      "promoter_pre_pct of 66.85% is promoter plus promoter group from the shareholding pattern (p.95). The promoters alone hold 66.83% (p.27).",
+      "Net worth is total equity of \u20b92,765.06 million. No non-controlling interest is shown. The RHP defines net worth as total equity less capital reserves, but NAV and RoNW are taken as printed.",
+      "Working capital of \u20b9720 million is categorised as 'other'. The \u20b9236 million investment in UML is for repaying UML's loans, so it is categorised as debt_repayment.",
+      "Retail quota % is not shown on the pages provided.",
+      "NSE symbols for peers come from general knowledge, not from the RHP.",
+      "RoNW for FY2021 is printed as 23.83% in one table and 23.82% (Return on Equity) in another. This does not affect fy0."
+    ]
+  }
+}

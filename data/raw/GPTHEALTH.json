@@ -1,0 +1,410 @@
+{
+  "symbol": "GPTHEALTH",
+  "rhp_file": "GPTHEALTH.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:12:45+00:00",
+  "pages_sent": [
+    1,
+    2,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    79,
+    80,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    101,
+    102,
+    103,
+    104,
+    125,
+    126,
+    127,
+    128,
+    134,
+    135,
+    136,
+    137,
+    138,
+    396,
+    397,
+    398,
+    431
+  ],
+  "n_pdf_pages": 506,
+  "usage": {
+    "input_tokens": 50992,
+    "output_tokens": 3114,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.4748982,
+    "session_id": "040e1128-615c-47d5-8d3a-c34c740e3b66"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "GPT Healthcare Limited",
+    "sector": "Healthcare & pharma",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "FY2023 (March 31, 2023)",
+    "stub_period_months": 6,
+    "pre_ipo_placement": null,
+    "lead_managers": "JM Financial Limited",
+    "revenue_fy2": 242.753,
+    "rhp_page_revenue_fy2": 88,
+    "revenue_fy1": 337.415,
+    "rhp_page_revenue_fy1": 88,
+    "revenue_fy0": 361.037,
+    "rhp_page_revenue_fy0": 88,
+    "ebitda_fy2": 55.101,
+    "rhp_page_ebitda_fy2": 136,
+    "ebitda_fy1": 78.823,
+    "rhp_page_ebitda_fy1": 136,
+    "ebitda_fy0": 80.045,
+    "rhp_page_ebitda_fy0": 136,
+    "pat_fy2": 21.093,
+    "rhp_page_pat_fy2": 88,
+    "pat_fy1": 41.663,
+    "rhp_page_pat_fy1": 88,
+    "pat_fy0": 39.008,
+    "rhp_page_pat_fy0": 88,
+    "cfo_fy2": 43.928,
+    "rhp_page_cfo_fy2": 89,
+    "cfo_fy1": 65.992,
+    "rhp_page_cfo_fy1": 89,
+    "cfo_fy0": 66.354,
+    "rhp_page_cfo_fy0": 89,
+    "net_worth_fy0": 164.138,
+    "rhp_page_net_worth_fy0": 28,
+    "total_debt_fy0": 64.673,
+    "rhp_page_total_debt_fy0": 28,
+    "cash_fy0": 6.598999999999999,
+    "rhp_page_cash_fy0": 86,
+    "revenue_stub": 204.176,
+    "rhp_page_revenue_stub": 88,
+    "pat_stub": 23.485,
+    "rhp_page_pat_stub": 88,
+    "price_low": null,
+    "rhp_page_price_low": 135,
+    "price_high": null,
+    "rhp_page_price_high": 135,
+    "lot_size": null,
+    "promoter_pre_pct": 67.34,
+    "rhp_page_promoter_pre_pct": 28,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 4.88,
+    "rhp_page_eps_fy0": 88,
+    "ronw_fy0_pct": 23.77,
+    "rhp_page_ronw_fy0_pct": 135,
+    "nav_per_share_fy0": 20.54,
+    "rhp_page_nav_per_share_fy0": 136,
+    "fresh_issue_cr": 40.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 2.6082786,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 7.9904286,
+    "rhp_page_pre_issue_shares_cr": 101,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 101,
+    "ofs_promoter_shares_cr": 0,
+    "ofs_investor_shares_cr": 2.6082786,
+    "proceeds_debt_repayment_cr": 30.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "Global Health Limited; Krishna Institute of Medical Sciences Limited; Jupiter Life Line Hospitals Limited; Yatharth Hospital & Trauma Care Services Limited; Kovai Medical Center & Hospital Limited; Shalby Limited",
+    "n_peers": 6,
+    "peer_pe_list": [
+      90.29,
+      49.51,
+      81.73,
+      37.66,
+      29.93,
+      49.01
+    ],
+    "peer_ronw_list": [
+      13.56,
+      20.35,
+      19.94,
+      36.06,
+      16.11,
+      7.33
+    ],
+    "rhp_page_peers": 138
+  },
+  "extract": {
+    "company": "GPT Healthcare Limited",
+    "sector": "Healthcare & pharma",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 135
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 135
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 400.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 26082786.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "BanyanTree Growth Capital II, LLC",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 26082786.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 79904286.0,
+      "unit": "shares",
+      "page": 101
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 101
+    },
+    "promoter_pre_pct": {
+      "value": 67.34,
+      "unit": "percent",
+      "page": 28
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment or prepayment, in full or in part, of certain outstanding borrowings from banks and financial institutions",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 300.0,
+          "unit": "million",
+          "page": 125
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 125
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "JM Financial Limited"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "FY2023 (March 31, 2023)",
+    "revenue_fy2": {
+      "value": 2427.53,
+      "unit": "million",
+      "page": 88
+    },
+    "revenue_fy1": {
+      "value": 3374.15,
+      "unit": "million",
+      "page": 88
+    },
+    "revenue_fy0": {
+      "value": 3610.37,
+      "unit": "million",
+      "page": 88
+    },
+    "ebitda_fy2": {
+      "value": 551.01,
+      "unit": "million",
+      "page": 136
+    },
+    "ebitda_fy1": {
+      "value": 788.23,
+      "unit": "million",
+      "page": 136
+    },
+    "ebitda_fy0": {
+      "value": 800.45,
+      "unit": "million",
+      "page": 136
+    },
+    "pat_fy2": {
+      "value": 210.93,
+      "unit": "million",
+      "page": 88
+    },
+    "pat_fy1": {
+      "value": 416.63,
+      "unit": "million",
+      "page": 88
+    },
+    "pat_fy0": {
+      "value": 390.08,
+      "unit": "million",
+      "page": 88
+    },
+    "cfo_fy2": {
+      "value": 439.28,
+      "unit": "million",
+      "page": 89
+    },
+    "cfo_fy1": {
+      "value": 659.92,
+      "unit": "million",
+      "page": 89
+    },
+    "cfo_fy0": {
+      "value": 663.54,
+      "unit": "million",
+      "page": 89
+    },
+    "net_worth_fy0": {
+      "value": 1641.38,
+      "unit": "million",
+      "page": 28
+    },
+    "total_debt_fy0": {
+      "value": 646.73,
+      "unit": "million",
+      "page": 28
+    },
+    "cash_fy0": {
+      "value": 65.99,
+      "unit": "million",
+      "page": 86
+    },
+    "eps_fy0": {
+      "value": 4.88,
+      "unit": "rupees",
+      "page": 88
+    },
+    "ronw_fy0_pct": {
+      "value": 23.77,
+      "unit": "percent",
+      "page": 135
+    },
+    "nav_per_share_fy0": {
+      "value": 20.54,
+      "unit": "rupees",
+      "page": 136
+    },
+    "stub_period_months": 6,
+    "revenue_stub": {
+      "value": 2041.76,
+      "unit": "million",
+      "page": 88
+    },
+    "pat_stub": {
+      "value": 234.85,
+      "unit": "million",
+      "page": 88
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Global Health Limited",
+        "nse_symbol": null,
+        "pe": 90.29,
+        "ronw_pct": 13.56,
+        "page": 138
+      },
+      {
+        "name": "Krishna Institute of Medical Sciences Limited",
+        "nse_symbol": null,
+        "pe": 49.51,
+        "ronw_pct": 20.35,
+        "page": 138
+      },
+      {
+        "name": "Jupiter Life Line Hospitals Limited",
+        "nse_symbol": null,
+        "pe": 81.73,
+        "ronw_pct": 19.94,
+        "page": 138
+      },
+      {
+        "name": "Yatharth Hospital & Trauma Care Services Limited",
+        "nse_symbol": null,
+        "pe": 37.66,
+        "ronw_pct": 36.06,
+        "page": 138
+      },
+      {
+        "name": "Kovai Medical Center & Hospital Limited",
+        "nse_symbol": null,
+        "pe": 29.93,
+        "ronw_pct": 16.11,
+        "page": 138
+      },
+      {
+        "name": "Shalby Limited",
+        "nse_symbol": null,
+        "pe": 49.01,
+        "ronw_pct": 7.33,
+        "page": 138
+      }
+    ],
+    "notes": [
+      "Financials are on a standalone basis (Restated Financial Information). The company has no subsidiaries, and restated consolidated figures exist only for FY2022 and FY2021 because of a former associate, TM Medicare.",
+      "Net worth FY2023 of 1,641.38 is the 'Net Worth' figure on page 28. Total equity on the balance sheet (page 86) is 1,653.62.",
+      "Total debt FY2023 of 646.73 is printed on page 28. Non-current borrowings 402.67 plus current borrowings 244.06 (page 86) give the same total.",
+      "The price band, lot size, fresh issue share count, post-issue shares and the general corporate purposes amount are all printed as [\u25cf] or not given in these pages.",
+      "The retail quota is not given in these pages; the offer structure is on page 458, which was not provided.",
+      "The pages provided do not show whether there was any pre-IPO placement in the last 12 months.",
+      "Promoter holding of 67.34% excludes the promoter group, which holds 900 shares (negligible).",
+      "NSE symbols for the peers are not printed in the RHP."
+    ]
+  }
+}

@@ -1,0 +1,356 @@
+{
+  "symbol": "HYUNDAI",
+  "rhp_file": "HYUNDAI.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-21T06:02:18+00:00",
+  "pages_sent": [
+    1,
+    2,
+    21,
+    22,
+    23,
+    24,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    112,
+    113,
+    114,
+    120,
+    121,
+    123,
+    124,
+    125,
+    330,
+    331,
+    366
+  ],
+  "n_pdf_pages": 476,
+  "usage": {
+    "input_tokens": 42387,
+    "output_tokens": 2991,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.36812370000000005,
+    "session_id": "e8a2ae29-41ad-46da-b03b-a69097a74b72"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Hyundai Motor India Limited",
+    "sector": "Auto & auto components",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024 (March 31, 2024)",
+    "stub_period_months": 3,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Kotak Mahindra Capital Company Limited; Citigroup Global Markets India Private Limited; HSBC Securities and Capital Markets (India) Private Limited; J.P. Morgan India Private Limited; Morgan Stanley India Company Private Limited",
+    "revenue_fy2": 47378.432,
+    "rhp_page_revenue_fy2": 99,
+    "revenue_fy1": 60307.58,
+    "rhp_page_revenue_fy1": 99,
+    "revenue_fy0": 69829.057,
+    "rhp_page_revenue_fy0": 99,
+    "ebitda_fy2": 5486.089,
+    "rhp_page_ebitda_fy2": 330,
+    "ebitda_fy1": 7548.78,
+    "rhp_page_ebitda_fy1": 330,
+    "ebitda_fy0": 9132.616,
+    "rhp_page_ebitda_fy0": 330,
+    "pat_fy2": 2901.591,
+    "rhp_page_pat_fy2": 99,
+    "pat_fy1": 4709.25,
+    "rhp_page_pat_fy1": 99,
+    "pat_fy0": 6060.044,
+    "rhp_page_pat_fy0": 99,
+    "cfo_fy2": 5138.409,
+    "rhp_page_cfo_fy2": 100,
+    "cfo_fy1": 6564.256,
+    "rhp_page_cfo_fy1": 100,
+    "cfo_fy0": 9251.955,
+    "rhp_page_cfo_fy0": 100,
+    "net_worth_fy0": 10665.657,
+    "rhp_page_net_worth_fy0": 98,
+    "total_debt_fy0": 767.915,
+    "rhp_page_total_debt_fy0": 22,
+    "cash_fy0": 973.215,
+    "rhp_page_cash_fy0": 98,
+    "revenue_stub": 17344.234,
+    "rhp_page_revenue_stub": 99,
+    "pat_stub": 1489.652,
+    "rhp_page_pat_stub": 99,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": 100.0,
+    "rhp_page_promoter_pre_pct": 22,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 22,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 74.58,
+    "rhp_page_eps_fy0": 99,
+    "ronw_fy0_pct": 56.82,
+    "rhp_page_ronw_fy0_pct": 124,
+    "nav_per_share_fy0": 131.26,
+    "rhp_page_nav_per_share_fy0": 124,
+    "fresh_issue_cr": null,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "ofs_shares_cr": 14.21947,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 81.25411,
+    "rhp_page_pre_issue_shares_cr": 95,
+    "post_issue_shares_cr": 81.25411,
+    "rhp_page_post_issue_shares_cr": 95,
+    "ofs_promoter_shares_cr": 14.21947,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": null,
+    "proceeds_capex_cr": null,
+    "proceeds_gcp_cr": null,
+    "peers": "MARUTI; TATAMOTORS; M&M",
+    "n_peers": 3,
+    "peer_pe_list": [
+      29.38,
+      11.36,
+      29.96
+    ],
+    "peer_ronw_list": [
+      15.75,
+      36.98,
+      17.02
+    ],
+    "rhp_page_peers": 125
+  },
+  "extract": {
+    "company": "Hyundai Motor India Limited",
+    "sector": "Auto & auto components",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 142194700.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Hyundai Motor Company",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 142194700.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 812541100.0,
+      "unit": "shares",
+      "page": 95
+    },
+    "post_issue_shares": {
+      "value": 812541100.0,
+      "unit": "shares",
+      "page": 95
+    },
+    "promoter_pre_pct": {
+      "value": 100.0,
+      "unit": "percent",
+      "page": 22
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 22
+    },
+    "objects_of_offer": [],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lead_managers": [
+      "Kotak Mahindra Capital Company Limited",
+      "Citigroup Global Markets India Private Limited",
+      "HSBC Securities and Capital Markets (India) Private Limited",
+      "J.P. Morgan India Private Limited",
+      "Morgan Stanley India Company Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024 (March 31, 2024)",
+    "revenue_fy2": {
+      "value": 473784.32,
+      "unit": "million",
+      "page": 99
+    },
+    "revenue_fy1": {
+      "value": 603075.8,
+      "unit": "million",
+      "page": 99
+    },
+    "revenue_fy0": {
+      "value": 698290.57,
+      "unit": "million",
+      "page": 99
+    },
+    "ebitda_fy2": {
+      "value": 54860.89,
+      "unit": "million",
+      "page": 330
+    },
+    "ebitda_fy1": {
+      "value": 75487.8,
+      "unit": "million",
+      "page": 330
+    },
+    "ebitda_fy0": {
+      "value": 91326.16,
+      "unit": "million",
+      "page": 330
+    },
+    "pat_fy2": {
+      "value": 29015.91,
+      "unit": "million",
+      "page": 99
+    },
+    "pat_fy1": {
+      "value": 47092.5,
+      "unit": "million",
+      "page": 99
+    },
+    "pat_fy0": {
+      "value": 60600.44,
+      "unit": "million",
+      "page": 99
+    },
+    "cfo_fy2": {
+      "value": 51384.09,
+      "unit": "million",
+      "page": 100
+    },
+    "cfo_fy1": {
+      "value": 65642.56,
+      "unit": "million",
+      "page": 100
+    },
+    "cfo_fy0": {
+      "value": 92519.55,
+      "unit": "million",
+      "page": 100
+    },
+    "net_worth_fy0": {
+      "value": 106656.57,
+      "unit": "million",
+      "page": 98
+    },
+    "total_debt_fy0": {
+      "value": 7679.15,
+      "unit": "million",
+      "page": 22
+    },
+    "cash_fy0": {
+      "value": 9732.15,
+      "unit": "million",
+      "page": 98
+    },
+    "eps_fy0": {
+      "value": 74.58,
+      "unit": "rupees",
+      "page": 99
+    },
+    "ronw_fy0_pct": {
+      "value": 56.82,
+      "unit": "percent",
+      "page": 124
+    },
+    "nav_per_share_fy0": {
+      "value": 131.26,
+      "unit": "rupees",
+      "page": 124
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 173442.34,
+      "unit": "million",
+      "page": 99
+    },
+    "pat_stub": {
+      "value": 14896.52,
+      "unit": "million",
+      "page": 99
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Maruti Suzuki India Limited",
+        "nse_symbol": "MARUTI",
+        "pe": 29.38,
+        "ronw_pct": 15.75,
+        "page": 125
+      },
+      {
+        "name": "Tata Motors Limited",
+        "nse_symbol": "TATAMOTORS",
+        "pe": 11.36,
+        "ronw_pct": 36.98,
+        "page": 125
+      },
+      {
+        "name": "Mahindra & Mahindra Limited",
+        "nse_symbol": "M&M",
+        "pe": 29.96,
+        "ronw_pct": 17.02,
+        "page": 125
+      }
+    ],
+    "notes": [
+      "The offer is a pure Offer for Sale by the promoter, Hyundai Motor Company. There is no fresh issue, so the company gets no proceeds and objects_of_offer is empty.",
+      "Price band, lot size and OFS amount are shown as [\u25cf] in this RHP, so they are null.",
+      "Post-offer promoter % is shown as [\u25cf], so it is null. The offer is 17.50% of post-offer capital, which implies about 82.5% after the offer, but this figure is not printed.",
+      "The retail quota % is not printed on these pages, so it is null. The Retail Portion is 'not less than 49,495,705 Equity Shares' out of a Net Offer of 141,416,300 shares (page 95).",
+      "Shares outstanding are the same before and after the offer (812,541,100) because it is an OFS only.",
+      "fy0 total debt 7,679.15 is from the summary on page 22. It matches non-current borrowings 6,227.97 plus current borrowings 1,451.18 on page 98.",
+      "Net worth fell in FY2024 (106,656.57 vs 200,548.18 in FY2023) because of a dividend payout of 154,358.43 million.",
+      "The NSE symbols for the peers are not printed in the RHP; they were filled in from general knowledge.",
+      "Cash for fy0 is cash and cash equivalents only (9,732.15). Other bank balances of 80,441.30 are excluded.",
+      "No equity was issued in the year before the RHP. Shares were sub-divided from \u20b91,000 to \u20b910 face value on May 17, 2024, and EPS is restated for the split."
+    ]
+  }
+}

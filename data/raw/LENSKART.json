@@ -1,0 +1,569 @@
+{
+  "symbol": "LENSKART",
+  "rhp_file": "LENSKART.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:05:23+00:00",
+  "pages_sent": [
+    1,
+    2,
+    33,
+    34,
+    35,
+    36,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    137,
+    138,
+    139,
+    211,
+    212,
+    227,
+    228,
+    229,
+    903,
+    904,
+    948
+  ],
+  "n_pdf_pages": 1083,
+  "usage": {
+    "input_tokens": 47197,
+    "output_tokens": 4881,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.4448837,
+    "session_id": "54ec8148-348c-447f-89ef-226724767b39"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Lenskart Solutions Limited",
+    "sector": "Consumer & retail",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "stub_period_months": 3,
+    "pre_ipo_placement": null,
+    "lead_managers": "Kotak Mahindra Capital Company Limited; Morgan Stanley India Company Private Limited; Avendus Capital Private Limited; Citigroup Global Markets India Private Limited; Axis Capital Limited; Intensive Fiscal Services Private Limited",
+    "revenue_fy2": 3788.028,
+    "rhp_page_revenue_fy2": 124,
+    "revenue_fy1": 5427.703,
+    "rhp_page_revenue_fy1": 124,
+    "revenue_fy0": 6652.517,
+    "rhp_page_revenue_fy0": 124,
+    "ebitda_fy2": 399.655,
+    "rhp_page_ebitda_fy2": 903,
+    "ebitda_fy1": 854.26,
+    "rhp_page_ebitda_fy1": 903,
+    "ebitda_fy0": 1327.815,
+    "rhp_page_ebitda_fy0": 903,
+    "pat_fy2": -63.757,
+    "rhp_page_pat_fy2": 124,
+    "pat_fy1": -10.154,
+    "rhp_page_pat_fy1": 124,
+    "pat_fy0": 297.34,
+    "rhp_page_pat_fy0": 124,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 6098.734,
+    "rhp_page_net_worth_fy0": 122,
+    "total_debt_fy0": 345.939,
+    "rhp_page_total_debt_fy0": 35,
+    "cash_fy0": 654.219,
+    "rhp_page_cash_fy0": 122,
+    "revenue_stub": 1894.455,
+    "rhp_page_revenue_stub": 124,
+    "pat_stub": 61.173,
+    "rhp_page_pat_stub": 124,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": 19.83,
+    "rhp_page_promoter_pre_pct": 34,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 34,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 1.77,
+    "rhp_page_eps_fy0": 228,
+    "ronw_fy0_pct": 4.84,
+    "rhp_page_ronw_fy0_pct": 228,
+    "nav_per_share_fy0": 36.34,
+    "rhp_page_nav_per_share_fy0": 229,
+    "fresh_issue_cr": 2150.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 12.7562573,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 168.101559,
+    "rhp_page_pre_issue_shares_cr": 119,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 119,
+    "ofs_promoter_shares_cr": 2.7236438,
+    "ofs_investor_shares_cr": 10.0326135,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 485.997,
+    "proceeds_gcp_cr": 0.0,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "Lenskart Solutions Limited",
+    "sector": "Consumer & retail",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 21500.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 127562573.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Peyush Bansal",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 20488978.0,
+          "unit": "shares",
+          "page": 119
+        }
+      },
+      {
+        "name": "Neha Bansal",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 1010546.0,
+          "unit": "shares",
+          "page": 119
+        }
+      },
+      {
+        "name": "Amit Chaudhary",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 2868457.0,
+          "unit": "shares",
+          "page": 119
+        }
+      },
+      {
+        "name": "Sumeet Kapahi",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 2868457.0,
+          "unit": "shares",
+          "page": 119
+        }
+      },
+      {
+        "name": "Alpha Wave Ventures LP",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 6664179.0,
+          "unit": "shares",
+          "page": 119
+        }
+      },
+      {
+        "name": "Bay Capital Holdings Ltd",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 3178826.0,
+          "unit": "shares",
+          "page": 119
+        }
+      },
+      {
+        "name": "Birdseye View Holdings II Pte. Ltd.",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 3732756.0,
+          "unit": "shares",
+          "page": 119
+        }
+      },
+      {
+        "name": "Chiratae Trust",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 534532.0,
+          "unit": "shares",
+          "page": 119
+        }
+      },
+      {
+        "name": "ECLK Innovations LLP",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 148496.0,
+          "unit": "shares",
+          "page": 119
+        }
+      },
+      {
+        "name": "Epiq Capital B, L.P.",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 1096220.0,
+          "unit": "shares",
+          "page": 119
+        }
+      },
+      {
+        "name": "IDG Ventures India Fund III LLC",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 950282.0,
+          "unit": "shares",
+          "page": 119
+        }
+      },
+      {
+        "name": "Kariba Holdings IV Mauritius",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 1909372.0,
+          "unit": "shares",
+          "page": 119
+        }
+      },
+      {
+        "name": "Kedaara Capital Fund II LLP",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 7360340.0,
+          "unit": "shares",
+          "page": 119
+        }
+      },
+      {
+        "name": "Kedaara Norfolk Holdings Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 2944137.0,
+          "unit": "shares",
+          "page": 119
+        }
+      },
+      {
+        "name": "MacRitchie Investments Pte. Ltd.",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 7858841.0,
+          "unit": "shares",
+          "page": 119
+        }
+      },
+      {
+        "name": "Madison India Opportunities V VCC",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 821813.0,
+          "unit": "shares",
+          "page": 119
+        }
+      },
+      {
+        "name": "PI Opportunities Fund - II",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 8701817.0,
+          "unit": "shares",
+          "page": 119
+        }
+      },
+      {
+        "name": "Schroders Capital Private Equity Asia Mauritius Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 19064344.0,
+          "unit": "shares",
+          "page": 119
+        }
+      },
+      {
+        "name": "SVF II Lightbulb (Cayman) Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 25518098.0,
+          "unit": "shares",
+          "page": 120
+        }
+      },
+      {
+        "name": "Technology Venture Fund",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 474446.0,
+          "unit": "shares",
+          "page": 120
+        }
+      },
+      {
+        "name": "TR Capital II L.P.",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 685455.0,
+          "unit": "shares",
+          "page": 120
+        }
+      },
+      {
+        "name": "TR Capital III Mauritius",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 3986272.0,
+          "unit": "shares",
+          "page": 120
+        }
+      },
+      {
+        "name": "TR Capital III Mauritius II",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 4695909.0,
+          "unit": "shares",
+          "page": 120
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 1681015590.0,
+      "unit": "shares",
+      "page": 119
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 119
+    },
+    "promoter_pre_pct": {
+      "value": 19.83,
+      "unit": "percent",
+      "page": 34
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": 34
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Capital expenditure towards set-up of new CoCo stores in India",
+        "category": "capex",
+        "amount": {
+          "value": 2726.22,
+          "unit": "million",
+          "page": 212
+        }
+      },
+      {
+        "purpose": "Expenditure for lease/rent/license agreements related payments for CoCo stores in India",
+        "category": "other",
+        "amount": {
+          "value": 5914.4,
+          "unit": "million",
+          "page": 212
+        }
+      },
+      {
+        "purpose": "Investing in technology and cloud infrastructure",
+        "category": "capex",
+        "amount": {
+          "value": 2133.75,
+          "unit": "million",
+          "page": 212
+        }
+      },
+      {
+        "purpose": "Brand marketing and business promotion expenses for enhancing brand awareness",
+        "category": "other",
+        "amount": {
+          "value": 3200.63,
+          "unit": "million",
+          "page": 212
+        }
+      },
+      {
+        "purpose": "Unidentified inorganic acquisitions and general corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": null,
+          "page": 212
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lead_managers": [
+      "Kotak Mahindra Capital Company Limited",
+      "Morgan Stanley India Company Private Limited",
+      "Avendus Capital Private Limited",
+      "Citigroup Global Markets India Private Limited",
+      "Axis Capital Limited",
+      "Intensive Fiscal Services Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "revenue_fy2": {
+      "value": 37880.28,
+      "unit": "million",
+      "page": 124
+    },
+    "revenue_fy1": {
+      "value": 54277.03,
+      "unit": "million",
+      "page": 124
+    },
+    "revenue_fy0": {
+      "value": 66525.17,
+      "unit": "million",
+      "page": 124
+    },
+    "ebitda_fy2": {
+      "value": 3996.55,
+      "unit": "million",
+      "page": 903
+    },
+    "ebitda_fy1": {
+      "value": 8542.6,
+      "unit": "million",
+      "page": 903
+    },
+    "ebitda_fy0": {
+      "value": 13278.15,
+      "unit": "million",
+      "page": 903
+    },
+    "pat_fy2": {
+      "value": -637.57,
+      "unit": "million",
+      "page": 124
+    },
+    "pat_fy1": {
+      "value": -101.54,
+      "unit": "million",
+      "page": 124
+    },
+    "pat_fy0": {
+      "value": 2973.4,
+      "unit": "million",
+      "page": 124
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 60987.34,
+      "unit": "million",
+      "page": 122
+    },
+    "total_debt_fy0": {
+      "value": 3459.39,
+      "unit": "million",
+      "page": 35
+    },
+    "cash_fy0": {
+      "value": 6542.19,
+      "unit": "million",
+      "page": 122
+    },
+    "eps_fy0": {
+      "value": 1.77,
+      "unit": "rupees",
+      "page": 228
+    },
+    "ronw_fy0_pct": {
+      "value": 4.84,
+      "unit": "percent",
+      "page": 228
+    },
+    "nav_per_share_fy0": {
+      "value": 36.34,
+      "unit": "rupees",
+      "page": 229
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 18944.55,
+      "unit": "million",
+      "page": 124
+    },
+    "pat_stub": {
+      "value": 611.73,
+      "unit": "million",
+      "page": 124
+    },
+    "no_listed_peers": true,
+    "peers": [],
+    "notes": [
+      "Price band, lot size, fresh issue share count, OFS amount, post-offer shares and retail quota are all shown as [\u25cf] or are not on the pages provided.",
+      "Two different pre-offer share counts are printed: 1,681,015,590 in 'The Offer' (p.119) and 1,681,374,282 in Capital Structure (p.137). The p.119 figure was used.",
+      "The promoter pre-offer holding of 19.83% covers the promoters only (on a fully diluted basis). The promoter group holds a further 0.02% (p.34). No combined figure is printed.",
+      "Net worth: equity attributable to owners on the balance sheet is 60,987.34 million. This differs from the SEBI-defined 'Net Worth' of 61,082.99 million (p.35), which excludes the foreign currency translation reserve.",
+      "Total borrowings for FY2025 (3,459.39 million) were taken from the summary on p.35. They equal non-current 2,115.30 plus current 1,344.09 million on the balance sheet.",
+      "The cash flow statement is not on the pages provided, so CFO is null.",
+      "EBITDA is as reported on p.903 (PAT + tax + depreciation + finance costs, including other income). EBITDA excluding other income for FY2025 is 9,710.56 million.",
+      "The basis for offer price says there are no listed peers in India or globally with a similar business model (pp.228-229).",
+      "No pre-IPO placement is disclosed on these pages. Equity allotments made after June 30, 2025 are mentioned (p.948), but their nature and price are not shown, so pre_ipo_placement is null.",
+      "Lease/rent payments and brand marketing were classified as 'other'. Technology and cloud infrastructure investment was classified as capex."
+    ]
+  }
+}

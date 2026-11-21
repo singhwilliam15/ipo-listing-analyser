@@ -1,0 +1,368 @@
+{
+  "symbol": "VMSTMT",
+  "rhp_file": "VMSTMT.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:09:36+00:00",
+  "pages_sent": [
+    1,
+    2,
+    19,
+    26,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    106,
+    107,
+    108,
+    119,
+    120,
+    131,
+    132,
+    136,
+    320,
+    321,
+    354
+  ],
+  "n_pdf_pages": 473,
+  "usage": {
+    "input_tokens": 28523,
+    "output_tokens": 3678,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.2695635,
+    "session_id": "40a9057c-b38f-46f5-9b0f-6b24bd6c9922"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "VMS TMT Limited",
+    "sector": "Chemicals & materials",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "FY2025",
+    "stub_period_months": 3,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Arihant Capital Markets Limited",
+    "revenue_fy2": 882.0135,
+    "rhp_page_revenue_fy2": 94,
+    "revenue_fy1": 872.9577,
+    "rhp_page_revenue_fy1": 94,
+    "revenue_fy0": 770.1910000000001,
+    "rhp_page_revenue_fy0": 94,
+    "ebitda_fy2": 21.9077,
+    "rhp_page_ebitda_fy2": 320,
+    "ebitda_fy1": 41.2029,
+    "rhp_page_ebitda_fy1": 320,
+    "ebitda_fy0": 45.5262,
+    "rhp_page_ebitda_fy0": 320,
+    "pat_fy2": 4.1953,
+    "rhp_page_pat_fy2": 94,
+    "pat_fy1": 13.4684,
+    "rhp_page_pat_fy1": 94,
+    "pat_fy0": 14.737,
+    "rhp_page_pat_fy0": 94,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 73.19,
+    "rhp_page_net_worth_fy0": 26,
+    "total_debt_fy0": 275.7156,
+    "rhp_page_total_debt_fy0": 26,
+    "cash_fy0": 0.889,
+    "rhp_page_cash_fy0": 92,
+    "revenue_stub": 212.25919999999996,
+    "rhp_page_revenue_stub": 94,
+    "pat_stub": 8.5764,
+    "rhp_page_pat_stub": 94,
+    "price_low": null,
+    "rhp_page_price_low": 131,
+    "price_high": null,
+    "rhp_page_price_high": 131,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 4.29,
+    "rhp_page_eps_fy0": 320,
+    "ronw_fy0_pct": 20.14,
+    "rhp_page_ronw_fy0_pct": 131,
+    "nav_per_share_fy0": 13.32,
+    "rhp_page_nav_per_share_fy0": 132,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": 1.5,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 3.463121,
+    "rhp_page_pre_issue_shares_cr": 89,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 89,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 115.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "KAMDHENU; VRAJ; BMW Industries Limited; ELECTHERM",
+    "n_peers": 4,
+    "peer_pe_list": [
+      13.5,
+      11.77,
+      16.57,
+      2.37
+    ],
+    "peer_ronw_list": [
+      18.82,
+      10.88,
+      9.16,
+      -377.85
+    ],
+    "rhp_page_peers": 132
+  },
+  "extract": {
+    "company": "VMS TMT Limited",
+    "sector": "Chemicals & materials",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 131
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 131
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "lakh",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": 15000000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "lakh",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 34631210.0,
+      "unit": "shares",
+      "page": 89
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 89
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment/prepayment, in full or part, of all or a portion of certain borrowings availed by the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 11500.0,
+          "unit": "lakh",
+          "page": 119
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "lakh",
+          "page": 119
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Arihant Capital Markets Limited"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "FY2025",
+    "revenue_fy2": {
+      "value": 88201.35,
+      "unit": "lakh",
+      "page": 94
+    },
+    "revenue_fy1": {
+      "value": 87295.77,
+      "unit": "lakh",
+      "page": 94
+    },
+    "revenue_fy0": {
+      "value": 77019.1,
+      "unit": "lakh",
+      "page": 94
+    },
+    "ebitda_fy2": {
+      "value": 2190.77,
+      "unit": "lakh",
+      "page": 320
+    },
+    "ebitda_fy1": {
+      "value": 4120.29,
+      "unit": "lakh",
+      "page": 320
+    },
+    "ebitda_fy0": {
+      "value": 4552.62,
+      "unit": "lakh",
+      "page": 320
+    },
+    "pat_fy2": {
+      "value": 419.53,
+      "unit": "lakh",
+      "page": 94
+    },
+    "pat_fy1": {
+      "value": 1346.84,
+      "unit": "lakh",
+      "page": 94
+    },
+    "pat_fy0": {
+      "value": 1473.7,
+      "unit": "lakh",
+      "page": 94
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "lakh",
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": "lakh",
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": "lakh",
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 7319.0,
+      "unit": "lakh",
+      "page": 26
+    },
+    "total_debt_fy0": {
+      "value": 27571.56,
+      "unit": "lakh",
+      "page": 26
+    },
+    "cash_fy0": {
+      "value": 88.9,
+      "unit": "lakh",
+      "page": 92
+    },
+    "eps_fy0": {
+      "value": 4.29,
+      "unit": "rupees",
+      "page": 320
+    },
+    "ronw_fy0_pct": {
+      "value": 20.14,
+      "unit": "percent",
+      "page": 131
+    },
+    "nav_per_share_fy0": {
+      "value": 13.32,
+      "unit": "rupees",
+      "page": 132
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 21225.92,
+      "unit": "lakh",
+      "page": 94
+    },
+    "pat_stub": {
+      "value": 857.64,
+      "unit": "lakh",
+      "page": 94
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Kamdhenu Limited",
+        "nse_symbol": "KAMDHENU",
+        "pe": 13.5,
+        "ronw_pct": 18.82,
+        "page": 132
+      },
+      {
+        "name": "Vraj Iron and Steel Limited",
+        "nse_symbol": "VRAJ",
+        "pe": 11.77,
+        "ronw_pct": 10.88,
+        "page": 132
+      },
+      {
+        "name": "BMW Industries Limited",
+        "nse_symbol": null,
+        "pe": 16.57,
+        "ronw_pct": 9.16,
+        "page": 132
+      },
+      {
+        "name": "Electrotherm (India) Limited",
+        "nse_symbol": "ELECTHERM",
+        "pe": 2.37,
+        "ronw_pct": -377.85,
+        "page": 132
+      }
+    ],
+    "notes": [
+      "Only standalone restated financials exist (the company has no consolidated statements).",
+      "Cash flow statement pages were not provided, so CFO is null for all years.",
+      "FY2025 basic EPS: 4.29 on pages 26 and 320 (continuing plus discontinued operations); page 94 shows 4.49 from continuing operations only.",
+      "FY2025 NAV per share: 13.32 on pages 26 and 132, but page 320 shows 21.13 (7,319.00 / 3,46,31,210 = 21.13). 13.32 was used, but it looks inconsistent.",
+      "FY2023 net worth: 3,083.77 on pages 26 and 320 vs total equity of 3,084.52 on page 92.",
+      "FY2025 PAT of 1,473.70 includes a loss from discontinued operations of (68.15); PAT from continuing operations is 1,541.84.",
+      "The issue is a pure fresh issue with no offer for sale. Price band, lot size and issue amount are shown as [\u25cf].",
+      "Last allotments: preferential on July 22, 2024 at \u20b992 per share and on June 19, 2024 at \u20b9230. Both are more than 12 months before the RHP date (Sept 10, 2025), so pre_ipo_placement is false.",
+      "Promoter shareholding % and retail quota % were not on the pages provided. The issue is under Reg 6(1), so retail is likely not less than 35%, but that is not printed here.",
+      "Peer P/E and RoNW are from the peer table on page 132. Electrotherm's RoNW is negative (-377.85). BMW Industries' NSE symbol is uncertain.",
+      "EBITDA comes from the accounting ratios on page 320 and matches the KPI table on page 131."
+    ]
+  }
+}

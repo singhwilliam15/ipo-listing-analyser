@@ -1,0 +1,411 @@
+{
+  "symbol": "SIGNATURE",
+  "rhp_file": "SIGNATURE.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T20:58:47+00:00",
+  "pages_sent": [
+    1,
+    2,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    85,
+    86,
+    87,
+    88,
+    100,
+    101,
+    102,
+    103,
+    120,
+    121,
+    122,
+    123,
+    124,
+    427,
+    428,
+    429,
+    458
+  ],
+  "n_pdf_pages": 532,
+  "usage": {
+    "input_tokens": 61698,
+    "output_tokens": 3443,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.5335816000000001,
+    "session_id": "3f566713-fb9c-4802-b784-22af6a4c22eb"
+  },
+  "checks": [
+    "|PAT| > revenue in fy2: unit mix-up?"
+  ],
+  "fields": {
+    "company_rhp": "Signatureglobal (India) Limited",
+    "sector": "Infrastructure, construction & real estate",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023",
+    "stub_period_months": null,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "ICICI Securities Limited; Axis Capital Limited; Kotak Mahindra Capital Company Limited",
+    "revenue_fy2": 82.057,
+    "rhp_page_revenue_fy2": 74,
+    "revenue_fy1": 901.298,
+    "rhp_page_revenue_fy1": 74,
+    "revenue_fy0": 1553.57,
+    "rhp_page_revenue_fy0": 74,
+    "ebitda_fy2": null,
+    "ebitda_fy1": null,
+    "ebitda_fy0": null,
+    "pat_fy2": -86.278,
+    "rhp_page_pat_fy2": 74,
+    "pat_fy1": -115.5,
+    "rhp_page_pat_fy1": 74,
+    "pat_fy0": -63.715,
+    "rhp_page_pat_fy0": 74,
+    "cfo_fy2": 36.438,
+    "rhp_page_cfo_fy2": 75,
+    "cfo_fy1": 205.244,
+    "rhp_page_cfo_fy1": 75,
+    "cfo_fy0": -278.176,
+    "rhp_page_cfo_fy0": 75,
+    "net_worth_fy0": 47.539,
+    "rhp_page_net_worth_fy0": 73,
+    "total_debt_fy0": 1709.7490000000003,
+    "rhp_page_total_debt_fy0": 458,
+    "cash_fy0": 638.744,
+    "rhp_page_cash_fy0": 73,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 120,
+    "price_high": null,
+    "rhp_page_price_high": 120,
+    "lot_size": null,
+    "rhp_page_lot_size": 2,
+    "promoter_pre_pct": 78.35,
+    "rhp_page_promoter_pre_pct": 27,
+    "promoter_post_pct": null,
+    "retail_quota_pct": 10.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": 417.0,
+    "rhp_page_pre_ipo_price": 32,
+    "eps_fy0": -5.44,
+    "rhp_page_eps_fy0": 74,
+    "ronw_fy0_pct": null,
+    "rhp_page_ronw_fy0_pct": 121,
+    "nav_per_share_fy0": 3.81,
+    "rhp_page_nav_per_share_fy0": 121,
+    "fresh_issue_cr": 603.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": 127.0,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 12.4848354,
+    "rhp_page_pre_issue_shares_cr": 71,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 71,
+    "ofs_promoter_shares_cr": 0,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 432.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "DLF; GODREJPROP; LODHA; PRESTIGE; SOBHA",
+    "n_peers": 5,
+    "peer_pe_list": [
+      65.69,
+      82.4,
+      76.23,
+      27.54,
+      61.97
+    ],
+    "peer_ronw_list": [
+      5.4,
+      6.68,
+      3.85,
+      10.69,
+      4.18
+    ],
+    "rhp_page_peers": 122
+  },
+  "extract": {
+    "company": "Signatureglobal (India) Limited",
+    "sector": "Infrastructure, construction & real estate",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 120
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 120
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": 2
+    },
+    "fresh_issue_amount": {
+      "value": 6030.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": 1270.0,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "International Finance Corporation",
+        "kind": "investor",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 124848354.0,
+      "unit": "shares",
+      "page": 71
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 71
+    },
+    "promoter_pre_pct": {
+      "value": 78.35,
+      "unit": "percent",
+      "page": 27
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Re-payment or pre-payment, in full or in part, of certain borrowings availed by the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 2640.0,
+          "unit": "million",
+          "page": 100
+        }
+      },
+      {
+        "purpose": "Infusion of funds in Subsidiaries (Signatureglobal Homes, Signatureglobal Developers, Signatureglobal Business Park, Sternal Buildcon) for re-payment/pre-payment of their borrowings",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 1680.0,
+          "unit": "million",
+          "page": 100
+        }
+      },
+      {
+        "purpose": "Inorganic growth through land acquisitions and general corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 100
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 10.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 417.0,
+      "unit": "rupees",
+      "page": 32
+    },
+    "lead_managers": [
+      "ICICI Securities Limited",
+      "Axis Capital Limited",
+      "Kotak Mahindra Capital Company Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023",
+    "revenue_fy2": {
+      "value": 820.57,
+      "unit": "million",
+      "page": 74
+    },
+    "revenue_fy1": {
+      "value": 9012.98,
+      "unit": "million",
+      "page": 74
+    },
+    "revenue_fy0": {
+      "value": 15535.7,
+      "unit": "million",
+      "page": 74
+    },
+    "ebitda_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "ebitda_fy1": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "ebitda_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_fy2": {
+      "value": -862.78,
+      "unit": "million",
+      "page": 74
+    },
+    "pat_fy1": {
+      "value": -1155.0,
+      "unit": "million",
+      "page": 74
+    },
+    "pat_fy0": {
+      "value": -637.15,
+      "unit": "million",
+      "page": 74
+    },
+    "cfo_fy2": {
+      "value": 364.38,
+      "unit": "million",
+      "page": 75
+    },
+    "cfo_fy1": {
+      "value": 2052.44,
+      "unit": "million",
+      "page": 75
+    },
+    "cfo_fy0": {
+      "value": -2781.76,
+      "unit": "million",
+      "page": 75
+    },
+    "net_worth_fy0": {
+      "value": 475.39,
+      "unit": "million",
+      "page": 73
+    },
+    "total_debt_fy0": {
+      "value": 17097.49,
+      "unit": "million",
+      "page": 458
+    },
+    "cash_fy0": {
+      "value": 6387.44,
+      "unit": "million",
+      "page": 73
+    },
+    "eps_fy0": {
+      "value": -5.44,
+      "unit": "rupees",
+      "page": 74
+    },
+    "ronw_fy0_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 121
+    },
+    "nav_per_share_fy0": {
+      "value": 3.81,
+      "unit": "rupees",
+      "page": 121
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "DLF Limited",
+        "nse_symbol": "DLF",
+        "pe": 65.69,
+        "ronw_pct": 5.4,
+        "page": 122
+      },
+      {
+        "name": "Godrej Properties Limited",
+        "nse_symbol": "GODREJPROP",
+        "pe": 82.4,
+        "ronw_pct": 6.68,
+        "page": 122
+      },
+      {
+        "name": "Macrotech Developers Limited",
+        "nse_symbol": "LODHA",
+        "pe": 76.23,
+        "ronw_pct": 3.85,
+        "page": 122
+      },
+      {
+        "name": "Prestige Estates Projects Limited",
+        "nse_symbol": "PRESTIGE",
+        "pe": 27.54,
+        "ronw_pct": 10.69,
+        "page": 122
+      },
+      {
+        "name": "Sobha Limited",
+        "nse_symbol": "SOBHA",
+        "pe": 61.97,
+        "ronw_pct": 4.18,
+        "page": 122
+      }
+    ],
+    "notes": [
+      "Price band, lot size, share counts for fresh issue/OFS and post-offer shares are [\u25cf] in the RHP.",
+      "EBITDA is not one of the KPIs in Basis for Offer Price, so ebitda is left null. Adjusted EBITDA is given in Other Financial Information (p.427): FY2023 2,155.64, FY2022 273.82, FY2021 (582.85) \u20b9 million.",
+      "RoNW is N.A. for every year because PAT or net worth is negative. Net worth was negative in FY2022 (-3,522.17) and FY2021 (-2,068.67).",
+      "PAT is restated profit after tax including NCI. The share attributable to owners for FY2023 is (638.64).",
+      "Pre-IPO allotment: on Dec 2, 2022, CCDs held by IFC and HCARE converted into 11,089,554 equity shares at an effective \u20b9417 per share. This falls within 12 months of the RHP.",
+      "Promoter pre-offer % = promoters 63.60% + promoter group 14.75% = 78.35%.",
+      "Industry P/E summary: highest 137.03, lowest 21.23, average 63.89. These do not match the peer P/Es in the table (27.54\u201382.40).",
+      "The amount for land acquisitions and GCP is [\u25cf]. It is capped at 35% of gross proceeds."
+    ]
+  }
+}

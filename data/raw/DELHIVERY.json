@@ -1,0 +1,444 @@
+{
+  "symbol": "DELHIVERY",
+  "rhp_file": "DELHIVERY.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T17:48:25+00:00",
+  "pages_sent": [
+    1,
+    2,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    121,
+    122,
+    123,
+    124,
+    165,
+    166,
+    167,
+    168,
+    176,
+    177,
+    178,
+    179,
+    180,
+    514,
+    515,
+    516,
+    523
+  ],
+  "n_pdf_pages": 650,
+  "usage": {
+    "input_tokens": 59002,
+    "output_tokens": 3793,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.5191853,
+    "session_id": "98ea7a04-b43b-42b7-97aa-42e3e112da29"
+  },
+  "checks": [
+    "|PAT| > revenue in fy2: unit mix-up?"
+  ],
+  "fields": {
+    "company_rhp": "Delhivery Limited",
+    "sector": "Logistics & travel",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "March 31, 2021",
+    "stub_period_months": 9,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "Kotak Mahindra Capital Company Limited; Morgan Stanley India Company Private Limited; BofA Securities India Limited; Citigroup Global Markets India Private Limited",
+    "revenue_fy2": 1653.8970000000002,
+    "rhp_page_revenue_fy2": 96,
+    "revenue_fy1": 2780.575,
+    "rhp_page_revenue_fy1": 96,
+    "revenue_fy0": 3646.527,
+    "rhp_page_revenue_fy0": 96,
+    "ebitda_fy2": -137.071,
+    "rhp_page_ebitda_fy2": 180,
+    "ebitda_fy1": -172.047,
+    "rhp_page_ebitda_fy1": 180,
+    "ebitda_fy0": -100.379,
+    "rhp_page_ebitda_fy0": 180,
+    "pat_fy2": -1783.304,
+    "rhp_page_pat_fy2": 96,
+    "pat_fy1": -268.926,
+    "rhp_page_pat_fy1": 96,
+    "pat_fy0": -415.74300000000005,
+    "rhp_page_pat_fy0": 96,
+    "cfo_fy2": -242.684,
+    "rhp_page_cfo_fy2": 99,
+    "cfo_fy1": -633.906,
+    "rhp_page_cfo_fy1": 99,
+    "cfo_fy0": 4.769,
+    "rhp_page_cfo_fy0": 99,
+    "net_worth_fy0": 2836.797,
+    "rhp_page_net_worth_fy0": 95,
+    "total_debt_fy0": 301.343,
+    "rhp_page_total_debt_fy0": 28,
+    "cash_fy0": 275.863,
+    "rhp_page_cash_fy0": 94,
+    "revenue_stub": 4810.53,
+    "rhp_page_revenue_stub": 96,
+    "pat_stub": -891.139,
+    "rhp_page_pat_stub": 96,
+    "price_low": null,
+    "rhp_page_price_low": 177,
+    "price_high": null,
+    "rhp_page_price_high": 177,
+    "lot_size": null,
+    "rhp_page_lot_size": 2,
+    "promoter_pre_pct": null,
+    "rhp_page_promoter_pre_pct": 26,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 26,
+    "retail_quota_pct": 10.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": 356.55,
+    "rhp_page_pre_ipo_price": 124,
+    "eps_fy0": -8.05,
+    "rhp_page_eps_fy0": 97,
+    "ronw_fy0_pct": -14.66,
+    "rhp_page_ronw_fy0_pct": 177,
+    "nav_per_share_fy0": 54.79,
+    "rhp_page_nav_per_share_fy0": 178,
+    "fresh_issue_cr": 4000.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": 1235.0,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 64.2365827,
+    "rhp_page_pre_issue_shares_cr": 92,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 92,
+    "ofs_promoter_shares_cr": 0,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 1840.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "Delhivery Limited",
+    "sector": "Logistics & travel",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 177
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 177
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": 2
+    },
+    "fresh_issue_amount": {
+      "value": 40000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": 12350.0,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "CA Swift Investments",
+        "kind": "investor",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Deli CMF Pte. Ltd.",
+        "kind": "investor",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "SVF Doorbell (Cayman) Ltd",
+        "kind": "investor",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Times Internet Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Kapil Bharati",
+        "kind": "other",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Mohit Tandon",
+        "kind": "other",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Suraj Saharan",
+        "kind": "other",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 642365827.0,
+      "unit": "shares",
+      "page": 92
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 92
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 26
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 26
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Organic growth: building scale in existing business lines and developing new adjacent business lines",
+        "category": "other",
+        "amount": {
+          "value": 1600.0,
+          "unit": "million",
+          "page": 166
+        }
+      },
+      {
+        "purpose": "Organic growth: expanding network infrastructure",
+        "category": "capex",
+        "amount": {
+          "value": 13600.0,
+          "unit": "million",
+          "page": 166
+        }
+      },
+      {
+        "purpose": "Organic growth: upgrading and improving proprietary logistics operating system",
+        "category": "capex",
+        "amount": {
+          "value": 4800.0,
+          "unit": "million",
+          "page": 166
+        }
+      },
+      {
+        "purpose": "Funding inorganic growth through acquisitions and other strategic initiatives",
+        "category": "other",
+        "amount": {
+          "value": 10000.0,
+          "unit": "million",
+          "page": 166
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 166
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 10.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 356.55,
+      "unit": "rupees",
+      "page": 124
+    },
+    "lead_managers": [
+      "Kotak Mahindra Capital Company Limited",
+      "Morgan Stanley India Company Private Limited",
+      "BofA Securities India Limited",
+      "Citigroup Global Markets India Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "March 31, 2021",
+    "revenue_fy2": {
+      "value": 16538.97,
+      "unit": "million",
+      "page": 96
+    },
+    "revenue_fy1": {
+      "value": 27805.75,
+      "unit": "million",
+      "page": 96
+    },
+    "revenue_fy0": {
+      "value": 36465.27,
+      "unit": "million",
+      "page": 96
+    },
+    "ebitda_fy2": {
+      "value": -1370.71,
+      "unit": "million",
+      "page": 180
+    },
+    "ebitda_fy1": {
+      "value": -1720.47,
+      "unit": "million",
+      "page": 180
+    },
+    "ebitda_fy0": {
+      "value": -1003.79,
+      "unit": "million",
+      "page": 180
+    },
+    "pat_fy2": {
+      "value": -17833.04,
+      "unit": "million",
+      "page": 96
+    },
+    "pat_fy1": {
+      "value": -2689.26,
+      "unit": "million",
+      "page": 96
+    },
+    "pat_fy0": {
+      "value": -4157.43,
+      "unit": "million",
+      "page": 96
+    },
+    "cfo_fy2": {
+      "value": -2426.84,
+      "unit": "million",
+      "page": 99
+    },
+    "cfo_fy1": {
+      "value": -6339.06,
+      "unit": "million",
+      "page": 99
+    },
+    "cfo_fy0": {
+      "value": 47.69,
+      "unit": "million",
+      "page": 99
+    },
+    "net_worth_fy0": {
+      "value": 28367.97,
+      "unit": "million",
+      "page": 95
+    },
+    "total_debt_fy0": {
+      "value": 3013.43,
+      "unit": "million",
+      "page": 28
+    },
+    "cash_fy0": {
+      "value": 2758.63,
+      "unit": "million",
+      "page": 94
+    },
+    "eps_fy0": {
+      "value": -8.05,
+      "unit": "rupees",
+      "page": 97
+    },
+    "ronw_fy0_pct": {
+      "value": -14.66,
+      "unit": "percent",
+      "page": 177
+    },
+    "nav_per_share_fy0": {
+      "value": 54.79,
+      "unit": "rupees",
+      "page": 178
+    },
+    "stub_period_months": 9,
+    "revenue_stub": {
+      "value": 48105.3,
+      "unit": "million",
+      "page": 96
+    },
+    "pat_stub": {
+      "value": -8911.39,
+      "unit": "million",
+      "page": 96
+    },
+    "no_listed_peers": false,
+    "peers": [],
+    "notes": [
+      "The company is professionally managed and has no identifiable promoter, so promoter holding before and after the offer is null.",
+      "The price band, lot size, share counts for the fresh issue and OFS, and post-offer shares are all printed as [\u25cf]. Only rupee amounts are given.",
+      "OFS amounts by seller (\u20b9 million): CA Swift Investments 4,540; Deli CMF 2,000; SVF Doorbell 3,650; Times Internet 1,650; Kapil Bharati 50; Mohit Tandon 400; Suraj Saharan 60.",
+      "The offer includes an employee reservation of up to \u20b9200 million.",
+      "The peer comparison table is not on the pages provided. Page 177 gives only industry P/E: high 150.37, low 66.88, average 112.21.",
+      "Revenue is 'Revenue from contract with customers'. Revenue from sale of services on page 174 is slightly different (FY21: 36,354.38).",
+      "EBITDA is as reported by the company. It is defined after excluding other income and other items, and the company's own EBITDA margin is computed in an unusual way.",
+      "Pre-IPO placement: 20,914,500 shares were allotted to FedEx on December 8, 2021 at \u20b9356.55. Later ESOP allotments happened in January and April 2022 at \u20b94.53 to \u20b929.85.",
+      "The 1,600 figure for building scale is mostly opex (sales, marketing, hiring), so it is categorised as other. Spending on the logistics operating system is categorised as capex.",
+      "NAV and loss per share are computed after bonus issue, share split and conversion of preference shares."
+    ]
+  }
+}

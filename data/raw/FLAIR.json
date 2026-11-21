@@ -1,0 +1,493 @@
+{
+  "symbol": "FLAIR",
+  "rhp_file": "FLAIR.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T21:01:06+00:00",
+  "pages_sent": [
+    1,
+    2,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    99,
+    100,
+    101,
+    102,
+    116,
+    117,
+    118,
+    119,
+    141,
+    142,
+    143,
+    144,
+    145,
+    349,
+    350,
+    351
+  ],
+  "n_pdf_pages": 489,
+  "usage": {
+    "input_tokens": 55275,
+    "output_tokens": 4110,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.4948939,
+    "session_id": "e4baaff3-57bc-497a-a75e-6fdd739a52c0"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Flair Writing Industries Limited",
+    "sector": "Consumer & retail",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023 (March 31, 2023)",
+    "stub_period_months": 3,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "Nuvama Wealth Management Limited; Axis Capital Limited",
+    "revenue_fy2": 297.988,
+    "rhp_page_revenue_fy2": 86,
+    "revenue_fy1": 577.398,
+    "rhp_page_revenue_fy1": 86,
+    "revenue_fy0": 942.66,
+    "rhp_page_revenue_fy0": 86,
+    "ebitda_fy2": 22.997,
+    "rhp_page_ebitda_fy2": 144,
+    "ebitda_fy1": 97.568,
+    "rhp_page_ebitda_fy1": 144,
+    "ebitda_fy0": 183.512,
+    "rhp_page_ebitda_fy0": 144,
+    "pat_fy2": 0.989,
+    "rhp_page_pat_fy2": 86,
+    "pat_fy1": 55.151,
+    "rhp_page_pat_fy1": 86,
+    "pat_fy0": 118.1,
+    "rhp_page_pat_fy0": 86,
+    "cfo_fy2": 60.394,
+    "rhp_page_cfo_fy2": 88,
+    "cfo_fy1": 35.043,
+    "rhp_page_cfo_fy1": 88,
+    "cfo_fy0": 96.438,
+    "rhp_page_cfo_fy0": 88,
+    "net_worth_fy0": 434.951,
+    "rhp_page_net_worth_fy0": 84,
+    "total_debt_fy0": 115.592,
+    "rhp_page_total_debt_fy0": 22,
+    "cash_fy0": 0.789,
+    "rhp_page_cash_fy0": 84,
+    "revenue_stub": 246.698,
+    "rhp_page_revenue_stub": 86,
+    "pat_stub": 32.138,
+    "rhp_page_pat_stub": 86,
+    "price_low": null,
+    "rhp_page_price_low": 142,
+    "price_high": null,
+    "rhp_page_price_high": 142,
+    "lot_size": null,
+    "promoter_pre_pct": 97.49,
+    "rhp_page_promoter_pre_pct": 22,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 22,
+    "retail_quota_pct": null,
+    "pre_ipo_price": 304.0,
+    "rhp_page_pre_ipo_price": 1,
+    "eps_fy0": 12.66,
+    "rhp_page_eps_fy0": 86,
+    "ronw_fy0_pct": 31.17,
+    "rhp_page_ronw_fy0_pct": 142,
+    "nav_per_share_fy0": 46.9,
+    "rhp_page_nav_per_share_fy0": 142,
+    "fresh_issue_cr": 292.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": 301.0,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 9.5790115,
+    "rhp_page_pre_issue_shares_cr": 81,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 81,
+    "ofs_promoter_shares_cr": 0,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 43.0,
+    "proceeds_capex_cr": 142.741,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "Linc Limited; Kokuyo Camlin Limited; Cello World Limited",
+    "n_peers": 3,
+    "peer_pe_list": [
+      33.5,
+      56.82
+    ],
+    "peer_ronw_list": [
+      23.37,
+      9.74,
+      23.17
+    ],
+    "rhp_page_peers": 143
+  },
+  "extract": {
+    "company": "Flair Writing Industries Limited",
+    "sector": "Consumer & retail",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 142
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 142
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 2920.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": 3010.0,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Mr. Khubilal Jugraj Rathod",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Mr. Vimalchand Jugraj Rathod",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Mr. Rajesh Khubilal Rathod",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Mr. Mohit Khubilal Rathod",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Mr. Sumit Rathod",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Mrs. Nirmala Khubilal Rathod",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Mrs. Manjula Vimalchand Rathod",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Mrs. Sangita Rajesh Rathod",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Mrs. Shalini Mohit Rathod",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Mrs. Sonal Sumit Rathod",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": null,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 95790115.0,
+      "unit": "shares",
+      "page": 81
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 81
+    },
+    "promoter_pre_pct": {
+      "value": 97.49,
+      "unit": "percent",
+      "page": 22
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 22
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Setting up the New Valsad Unit",
+        "category": "capex",
+        "amount": {
+          "value": 559.93,
+          "unit": "million",
+          "page": 117
+        }
+      },
+      {
+        "purpose": "Funding capital expenditure of the Company and Subsidiary FWEPL",
+        "category": "capex",
+        "amount": {
+          "value": 867.48,
+          "unit": "million",
+          "page": 117
+        }
+      },
+      {
+        "purpose": "Funding working capital requirements of the Company and Subsidiaries FWEPL and FCIPL",
+        "category": "other",
+        "amount": {
+          "value": 770.0,
+          "unit": "million",
+          "page": 117
+        }
+      },
+      {
+        "purpose": "Repayment/pre-payment of certain borrowings of the Company and Subsidiaries",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 430.0,
+          "unit": "million",
+          "page": 117
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 117
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 304.0,
+      "unit": "rupees",
+      "page": 1
+    },
+    "lead_managers": [
+      "Nuvama Wealth Management Limited",
+      "Axis Capital Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023 (March 31, 2023)",
+    "revenue_fy2": {
+      "value": 2979.88,
+      "unit": "million",
+      "page": 86
+    },
+    "revenue_fy1": {
+      "value": 5773.98,
+      "unit": "million",
+      "page": 86
+    },
+    "revenue_fy0": {
+      "value": 9426.6,
+      "unit": "million",
+      "page": 86
+    },
+    "ebitda_fy2": {
+      "value": 229.97,
+      "unit": "million",
+      "page": 144
+    },
+    "ebitda_fy1": {
+      "value": 975.68,
+      "unit": "million",
+      "page": 144
+    },
+    "ebitda_fy0": {
+      "value": 1835.12,
+      "unit": "million",
+      "page": 144
+    },
+    "pat_fy2": {
+      "value": 9.89,
+      "unit": "million",
+      "page": 86
+    },
+    "pat_fy1": {
+      "value": 551.51,
+      "unit": "million",
+      "page": 86
+    },
+    "pat_fy0": {
+      "value": 1181.0,
+      "unit": "million",
+      "page": 86
+    },
+    "cfo_fy2": {
+      "value": 603.94,
+      "unit": "million",
+      "page": 88
+    },
+    "cfo_fy1": {
+      "value": 350.43,
+      "unit": "million",
+      "page": 88
+    },
+    "cfo_fy0": {
+      "value": 964.38,
+      "unit": "million",
+      "page": 88
+    },
+    "net_worth_fy0": {
+      "value": 4349.51,
+      "unit": "million",
+      "page": 84
+    },
+    "total_debt_fy0": {
+      "value": 1155.92,
+      "unit": "million",
+      "page": 22
+    },
+    "cash_fy0": {
+      "value": 7.89,
+      "unit": "million",
+      "page": 84
+    },
+    "eps_fy0": {
+      "value": 12.66,
+      "unit": "rupees",
+      "page": 86
+    },
+    "ronw_fy0_pct": {
+      "value": 31.17,
+      "unit": "percent",
+      "page": 142
+    },
+    "nav_per_share_fy0": {
+      "value": 46.9,
+      "unit": "rupees",
+      "page": 142
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 2466.98,
+      "unit": "million",
+      "page": 86
+    },
+    "pat_stub": {
+      "value": 321.38,
+      "unit": "million",
+      "page": 86
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Linc Limited",
+        "nse_symbol": null,
+        "pe": 33.5,
+        "ronw_pct": 23.37,
+        "page": 143
+      },
+      {
+        "name": "Kokuyo Camlin Limited",
+        "nse_symbol": null,
+        "pe": 56.82,
+        "ronw_pct": 9.74,
+        "page": 143
+      },
+      {
+        "name": "Cello World Limited",
+        "nse_symbol": null,
+        "pe": null,
+        "ronw_pct": 23.17,
+        "page": 143
+      }
+    ],
+    "notes": [
+      "Price band, lot size, share counts for fresh issue/OFS and post-offer shares are [\u25cf] in the RHP.",
+      "Selling shareholders' offers are given only as amounts (\u20b9 million): Khubilal 514.00, Vimalchand 396.50, Rajesh/Mohit/Sumit/Nirmala/Manjula 323.00 each, Sangita/Shalini/Sonal 161.50 each.",
+      "Pre-IPO placement: 2,401,315 shares at \u20b9304 to Volrado Venture Partners Fund III - Beta on Nov 10, 2023 (\u20b9730 million); Fresh Issue reduced from \u20b93,650 million to \u20b92,920 million.",
+      "Net worth: balance sheet equity attributable to owners FY2023 = 4,349.51 (p.84); summary table 'Net worth' shows 4,379.87 (p.22), which apparently leaves out OCI. Capitalisation statement total equity at June 30, 2023 = 4,701.57.",
+      "Total debt FY2023 1,155.92 = non-current 418.01 + current 737.91 borrowings.",
+      "KPI table shows stub revenue as 2,446.98, while the P&L shows 2,466.98; P&L figure used.",
+      "Working capital object categorised as 'other'. GCP amount is [\u25cf]; the pre-IPO proceeds will go to GCP.",
+      "Retail quota % not stated on the pages provided.",
+      "PAT attributable to owners FY2023 is 1,182.11; PAT including minority interest is 1,181.00."
+    ]
+  }
+}

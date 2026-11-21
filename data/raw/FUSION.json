@@ -1,0 +1,447 @@
+{
+  "symbol": "FUSION",
+  "rhp_file": "FUSION.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T20:52:43+00:00",
+  "pages_sent": [
+    1,
+    2,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    79,
+    80,
+    81,
+    82,
+    102,
+    103,
+    104,
+    105,
+    107,
+    108,
+    109,
+    110,
+    111,
+    323,
+    324,
+    325,
+    375
+  ],
+  "n_pdf_pages": 465,
+  "usage": {
+    "input_tokens": 55983,
+    "output_tokens": 3779,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.49400969999999994,
+    "session_id": "87e6f599-dbe5-4a4a-b05b-1201a921720e"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Fusion Micro Finance Limited",
+    "sector": "Banking & NBFC",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "FY2022 (March 31, 2022)",
+    "stub_period_months": 3,
+    "pre_ipo_placement": "no",
+    "lead_managers": "ICICI Securities Limited; CLSA India Private Limited; IIFL Securities Limited; JM Financial Limited",
+    "revenue_fy2": 720.264,
+    "rhp_page_revenue_fy2": 65,
+    "revenue_fy1": 855.8120000000001,
+    "rhp_page_revenue_fy1": 65,
+    "revenue_fy0": 1151.265,
+    "rhp_page_revenue_fy0": 65,
+    "ebitda_fy2": 440.243,
+    "rhp_page_ebitda_fy2": 323,
+    "ebitda_fy1": 435.789,
+    "rhp_page_ebitda_fy1": 323,
+    "ebitda_fy0": 525.761,
+    "rhp_page_ebitda_fy0": 323,
+    "pat_fy2": 69.61,
+    "rhp_page_pat_fy2": 65,
+    "pat_fy1": 43.944,
+    "rhp_page_pat_fy1": 65,
+    "pat_fy0": 21.755,
+    "rhp_page_pat_fy0": 65,
+    "cfo_fy2": -749.432,
+    "rhp_page_cfo_fy2": 66,
+    "cfo_fy1": -793.025,
+    "rhp_page_cfo_fy1": 66,
+    "cfo_fy0": -1640.7279999999998,
+    "rhp_page_cfo_fy0": 66,
+    "net_worth_fy0": 1337.951,
+    "rhp_page_net_worth_fy0": 64,
+    "total_debt_fy0": 5775.809,
+    "rhp_page_total_debt_fy0": 22,
+    "cash_fy0": 1011.372,
+    "rhp_page_cash_fy0": 64,
+    "revenue_stub": 342.72,
+    "rhp_page_revenue_stub": 65,
+    "pat_stub": 75.102,
+    "rhp_page_pat_stub": 65,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": 85.21,
+    "rhp_page_promoter_pre_pct": 22,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 22,
+    "retail_quota_pct": 35.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": null,
+    "eps_fy0": 2.67,
+    "rhp_page_eps_fy0": 65,
+    "ronw_fy0_pct": 1.63,
+    "rhp_page_ronw_fy0_pct": 108,
+    "nav_per_share_fy0": 161.67,
+    "rhp_page_nav_per_share_fy0": 109,
+    "fresh_issue_cr": 600.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 1.3695466,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 8.4326388,
+    "rhp_page_pre_issue_shares_cr": 68,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 68,
+    "ofs_promoter_shares_cr": 0.35500000000000004,
+    "ofs_investor_shares_cr": 1.0145466,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "Credit Access Grameen Limited; Spandana Sphoorty Financial Limited; Bandhan Bank Limited; Ujjivan Small Finance Bank Limited; Equitas Small Finance Bank Limited; Suryoday Small Finance Bank Limited",
+    "n_peers": 6,
+    "peer_pe_list": [
+      42.6,
+      52.76,
+      342.44,
+      20.21
+    ],
+    "peer_ronw_list": [
+      8.98,
+      2.26,
+      0.72,
+      -14.79,
+      6.61,
+      -6.18
+    ],
+    "rhp_page_peers": 109
+  },
+  "extract": {
+    "company": "Fusion Micro Finance Limited",
+    "sector": "Banking & NBFC",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 6000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 13695466.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Devesh Sachdev",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 650000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Mini Sachdev",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 100000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Honey Rose Investment Ltd",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 1400000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Creation Investments Fusion, LLC",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 1400000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Oikocredit Ecumenical Development Cooperative Society U.A.",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 6606375.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Global Impact Funds, S.C.A., SICAR",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 3539091.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 84326388.0,
+      "unit": "shares",
+      "page": 68
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 68
+    },
+    "promoter_pre_pct": {
+      "value": 85.21,
+      "unit": "percent",
+      "page": 22
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": 22
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Augment the capital base of the Company",
+        "category": "other",
+        "amount": {
+          "value": 6000.0,
+          "unit": "million",
+          "page": 21
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lead_managers": [
+      "ICICI Securities Limited",
+      "CLSA India Private Limited",
+      "IIFL Securities Limited",
+      "JM Financial Limited"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "FY2022 (March 31, 2022)",
+    "revenue_fy2": {
+      "value": 7202.64,
+      "unit": "million",
+      "page": 65
+    },
+    "revenue_fy1": {
+      "value": 8558.12,
+      "unit": "million",
+      "page": 65
+    },
+    "revenue_fy0": {
+      "value": 11512.65,
+      "unit": "million",
+      "page": 65
+    },
+    "ebitda_fy2": {
+      "value": 4402.43,
+      "unit": "million",
+      "page": 323
+    },
+    "ebitda_fy1": {
+      "value": 4357.89,
+      "unit": "million",
+      "page": 323
+    },
+    "ebitda_fy0": {
+      "value": 5257.61,
+      "unit": "million",
+      "page": 323
+    },
+    "pat_fy2": {
+      "value": 696.1,
+      "unit": "million",
+      "page": 65
+    },
+    "pat_fy1": {
+      "value": 439.44,
+      "unit": "million",
+      "page": 65
+    },
+    "pat_fy0": {
+      "value": 217.55,
+      "unit": "million",
+      "page": 65
+    },
+    "cfo_fy2": {
+      "value": -7494.32,
+      "unit": "million",
+      "page": 66
+    },
+    "cfo_fy1": {
+      "value": -7930.25,
+      "unit": "million",
+      "page": 66
+    },
+    "cfo_fy0": {
+      "value": -16407.28,
+      "unit": "million",
+      "page": 66
+    },
+    "net_worth_fy0": {
+      "value": 13379.51,
+      "unit": "million",
+      "page": 64
+    },
+    "total_debt_fy0": {
+      "value": 57758.09,
+      "unit": "million",
+      "page": 22
+    },
+    "cash_fy0": {
+      "value": 10113.72,
+      "unit": "million",
+      "page": 64
+    },
+    "eps_fy0": {
+      "value": 2.67,
+      "unit": "rupees",
+      "page": 65
+    },
+    "ronw_fy0_pct": {
+      "value": 1.63,
+      "unit": "percent",
+      "page": 108
+    },
+    "nav_per_share_fy0": {
+      "value": 161.67,
+      "unit": "rupees",
+      "page": 109
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 3427.2,
+      "unit": "million",
+      "page": 65
+    },
+    "pat_stub": {
+      "value": 751.02,
+      "unit": "million",
+      "page": 65
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Credit Access Grameen Limited",
+        "nse_symbol": null,
+        "pe": 42.6,
+        "ronw_pct": 8.98,
+        "page": 109
+      },
+      {
+        "name": "Spandana Sphoorty Financial Limited",
+        "nse_symbol": null,
+        "pe": 52.76,
+        "ronw_pct": 2.26,
+        "page": 110
+      },
+      {
+        "name": "Bandhan Bank Limited",
+        "nse_symbol": null,
+        "pe": 342.44,
+        "ronw_pct": 0.72,
+        "page": 110
+      },
+      {
+        "name": "Ujjivan Small Finance Bank Limited",
+        "nse_symbol": null,
+        "pe": null,
+        "ronw_pct": -14.79,
+        "page": 110
+      },
+      {
+        "name": "Equitas Small Finance Bank Limited",
+        "nse_symbol": null,
+        "pe": 20.21,
+        "ronw_pct": 6.61,
+        "page": 110
+      },
+      {
+        "name": "Suryoday Small Finance Bank Limited",
+        "nse_symbol": null,
+        "pe": null,
+        "ronw_pct": -6.18,
+        "page": 110
+      }
+    ],
+    "notes": [
+      "The RHP calls its financials 'Restated Financial Statements' without saying consolidated or standalone; the company shows no subsidiaries, so they are treated as standalone.",
+      "Price band, lot size, fresh issue share count and post-offer shares are [\u25cf] in the RHP.",
+      "promoter_pre_pct of 85.21% is for Promoters only; the Promoter Group (Mini Sachdev and Devesh Sachdev Family Private Trust) holds a further 0.36%, which was not added.",
+      "The only object of the fresh issue is augmenting the capital base (Tier 1 capital for an NBFC-MFI), categorised as 'other'.",
+      "Oikocredit and Global Impact Funds are labelled 'Other Selling Shareholder' in the RHP but are institutional/impact investors, so they are classified as investor.",
+      "Total debt is debt securities plus borrowings (other than debt securities) plus subordinated liabilities, as printed on page 22.",
+      "Peer P/E is 'NM' (not meaningful) for Ujjivan SFB and Suryoday SFB.",
+      "No allotments were made at a price in the last one year; the weighted average cost of acquisition for that period is Nil. The last preferential allotment at \u20b9290.48 was in December 2019.",
+      "Stub period is the 3 months ended June 30, 2022."
+    ]
+  }
+}

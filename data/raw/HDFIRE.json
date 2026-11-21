@@ -1,0 +1,382 @@
+{
+  "symbol": "HDFIRE",
+  "rhp_file": "HDFIRE.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:17:30+00:00",
+  "pages_sent": [
+    1,
+    2,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    99,
+    100,
+    101,
+    102,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    327,
+    328,
+    329
+  ],
+  "n_pdf_pages": 460,
+  "usage": {
+    "input_tokens": 39120,
+    "output_tokens": 3450,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3508389,
+    "session_id": "04cd657b-d6ca-4888-9c30-43620d474f93"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "HD Fire Protect Limited",
+    "sector": "Industrials & capital goods",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "FY2026 (March 31, 2026)",
+    "stub_period_months": 3,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Ambit Private Limited; Anand Rathi Advisors Limited; IIFL Capital Services Limited (formerly IIFL Securities Limited)",
+    "revenue_fy2": 372.953,
+    "rhp_page_revenue_fy2": 84,
+    "revenue_fy1": 432.799,
+    "rhp_page_revenue_fy1": 84,
+    "revenue_fy0": 489.281,
+    "rhp_page_revenue_fy0": 84,
+    "ebitda_fy2": 106.63199999999999,
+    "rhp_page_ebitda_fy2": 327,
+    "ebitda_fy1": 138.008,
+    "rhp_page_ebitda_fy1": 327,
+    "ebitda_fy0": 150.459,
+    "rhp_page_ebitda_fy0": 327,
+    "pat_fy2": 87.92,
+    "rhp_page_pat_fy2": 84,
+    "pat_fy1": 109.718,
+    "rhp_page_pat_fy1": 84,
+    "pat_fy0": 116.787,
+    "rhp_page_pat_fy0": 84,
+    "cfo_fy2": 63.771,
+    "rhp_page_cfo_fy2": 85,
+    "cfo_fy1": 98.315,
+    "rhp_page_cfo_fy1": 85,
+    "cfo_fy0": 92.492,
+    "rhp_page_cfo_fy0": 85,
+    "net_worth_fy0": 377.147,
+    "rhp_page_net_worth_fy0": 83,
+    "total_debt_fy0": null,
+    "rhp_page_total_debt_fy0": 83,
+    "cash_fy0": 14.874,
+    "rhp_page_cash_fy0": 83,
+    "revenue_stub": 109.052,
+    "rhp_page_revenue_stub": 84,
+    "pat_stub": 23.865,
+    "rhp_page_pat_stub": 84,
+    "price_low": null,
+    "rhp_page_price_low": 126,
+    "price_high": null,
+    "rhp_page_price_high": 126,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 6.66,
+    "rhp_page_eps_fy0": 126,
+    "ronw_fy0_pct": 31.07,
+    "rhp_page_ronw_fy0_pct": 127,
+    "nav_per_share_fy0": 21.45,
+    "rhp_page_nav_per_share_fy0": 127,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 2.62845,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 17.523,
+    "rhp_page_pre_issue_shares_cr": 80,
+    "post_issue_shares_cr": 17.523,
+    "rhp_page_post_issue_shares_cr": 80,
+    "ofs_promoter_shares_cr": 2.62845,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": null,
+    "proceeds_capex_cr": null,
+    "proceeds_gcp_cr": null,
+    "peers": "Azad Engineering Limited; KSB Limited; Kirloskar Pneumatic Company Limited; Elgi Equipment Limited; Ingersoll-Rand (India) Limited",
+    "n_peers": 5,
+    "peer_pe_list": [
+      145.65,
+      55.68,
+      17.2,
+      44.83,
+      51.39
+    ],
+    "peer_ronw_list": [
+      8.74,
+      16.11,
+      20.36,
+      19.28,
+      20.36
+    ],
+    "rhp_page_peers": 128
+  },
+  "extract": {
+    "company": "HD Fire Protect Limited",
+    "sector": "Industrials & capital goods",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 126
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 126
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 26284500.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Harish Narshi Dharamshi",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 8983700.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Kusum Harish Dharamshi",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 17300800.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 175230000.0,
+      "unit": "shares",
+      "page": 80
+    },
+    "post_issue_shares": {
+      "value": 175230000.0,
+      "unit": "shares",
+      "page": 80
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Ambit Private Limited",
+      "Anand Rathi Advisors Limited",
+      "IIFL Capital Services Limited (formerly IIFL Securities Limited)"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "FY2026 (March 31, 2026)",
+    "revenue_fy2": {
+      "value": 3729.53,
+      "unit": "million",
+      "page": 84
+    },
+    "revenue_fy1": {
+      "value": 4327.99,
+      "unit": "million",
+      "page": 84
+    },
+    "revenue_fy0": {
+      "value": 4892.81,
+      "unit": "million",
+      "page": 84
+    },
+    "ebitda_fy2": {
+      "value": 1066.32,
+      "unit": "million",
+      "page": 327
+    },
+    "ebitda_fy1": {
+      "value": 1380.08,
+      "unit": "million",
+      "page": 327
+    },
+    "ebitda_fy0": {
+      "value": 1504.59,
+      "unit": "million",
+      "page": 327
+    },
+    "pat_fy2": {
+      "value": 879.2,
+      "unit": "million",
+      "page": 84
+    },
+    "pat_fy1": {
+      "value": 1097.18,
+      "unit": "million",
+      "page": 84
+    },
+    "pat_fy0": {
+      "value": 1167.87,
+      "unit": "million",
+      "page": 84
+    },
+    "cfo_fy2": {
+      "value": 637.71,
+      "unit": "million",
+      "page": 85
+    },
+    "cfo_fy1": {
+      "value": 983.15,
+      "unit": "million",
+      "page": 85
+    },
+    "cfo_fy0": {
+      "value": 924.92,
+      "unit": "million",
+      "page": 85
+    },
+    "net_worth_fy0": {
+      "value": 3771.47,
+      "unit": "million",
+      "page": 83
+    },
+    "total_debt_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": 83
+    },
+    "cash_fy0": {
+      "value": 148.74,
+      "unit": "million",
+      "page": 83
+    },
+    "eps_fy0": {
+      "value": 6.66,
+      "unit": "rupees",
+      "page": 126
+    },
+    "ronw_fy0_pct": {
+      "value": 31.07,
+      "unit": "percent",
+      "page": 127
+    },
+    "nav_per_share_fy0": {
+      "value": 21.45,
+      "unit": "rupees",
+      "page": 127
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 1090.52,
+      "unit": "million",
+      "page": 84
+    },
+    "pat_stub": {
+      "value": 238.65,
+      "unit": "million",
+      "page": 84
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Azad Engineering Limited",
+        "nse_symbol": null,
+        "pe": 145.65,
+        "ronw_pct": 8.74,
+        "page": 128
+      },
+      {
+        "name": "KSB Limited",
+        "nse_symbol": null,
+        "pe": 55.68,
+        "ronw_pct": 16.11,
+        "page": 128
+      },
+      {
+        "name": "Kirloskar Pneumatic Company Limited",
+        "nse_symbol": null,
+        "pe": 17.2,
+        "ronw_pct": 20.36,
+        "page": 128
+      },
+      {
+        "name": "Elgi Equipment Limited",
+        "nse_symbol": null,
+        "pe": 44.83,
+        "ronw_pct": 19.28,
+        "page": 128
+      },
+      {
+        "name": "Ingersoll-Rand (India) Limited",
+        "nse_symbol": null,
+        "pe": 51.39,
+        "ronw_pct": 20.36,
+        "page": 128
+      }
+    ],
+    "notes": [
+      "The offer is entirely an offer for sale (OFS) by two promoters. The company gets no proceeds, so there are no objects of the fresh issue.",
+      "The financials are the company's restated financial information. The pages don't call it consolidated and mention no subsidiaries, so I treated it as standalone.",
+      "The balance sheet has no borrowings line at March 31, 2026, and the capitalisation statement shows Nil borrowings at June 30, 2026. I left total_debt_fy0 as null rather than entering 0.",
+      "EBITDA is the 'Operating EBITDA' figure from Other Financial Information on page 327, which excludes other income. The KPI table itself is not on the pages provided.",
+      "RoNW for FY2026 is 31.07% in Basis for Offer Price (page 127) but 30.97% in Other Financial Information (page 327). I used 31.07%.",
+      "The price band, lot size and the shareholding split in the Offer Structure are not printed. The promoter holding percentage and retail quota are not on the pages provided.",
+      "The pages say there are no listed fire-protection peers in India, but they still give a table of capital goods peers. For peer P/E I used the diluted-EPS P/E, which matches the industry P/E figures; basic-EPS P/E is 17.18 for Kirloskar Pneumatic and 44.70 for Elgi.",
+      "The last share allotment was a bonus issue on March 28, 2025, more than 12 months before the RHP, so I found no pre-IPO placement in that window.",
+      "Weighted average cost of acquisition per share is \u20b90.05 for Harish Dharamshi and \u20b90.09 for Kusum Dharamshi."
+    ]
+  }
+}

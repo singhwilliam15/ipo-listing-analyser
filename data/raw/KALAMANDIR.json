@@ -1,0 +1,462 @@
+{
+  "symbol": "KALAMANDIR",
+  "rhp_file": "KALAMANDIR.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T20:59:04+00:00",
+  "pages_sent": [
+    1,
+    2,
+    4,
+    5,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    83,
+    84,
+    85,
+    86,
+    97,
+    98,
+    99,
+    100,
+    118,
+    119,
+    120,
+    121,
+    122,
+    332,
+    333,
+    334,
+    364
+  ],
+  "n_pdf_pages": 459,
+  "usage": {
+    "input_tokens": 119619,
+    "output_tokens": 6444,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.6050325,
+    "session_id": "c1957452-e958-453a-8c1a-0298f9122452"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Sai Silks (Kalamandir) Limited",
+    "sector": "Consumer & retail",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "FY2023",
+    "stub_period_months": null,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Motilal Oswal Investment Advisors Limited; HDFC Bank Limited; Nuvama Wealth Management Limited",
+    "revenue_fy2": 677.248,
+    "rhp_page_revenue_fy2": 72,
+    "revenue_fy1": 1129.323,
+    "rhp_page_revenue_fy1": 72,
+    "revenue_fy0": 1351.469,
+    "rhp_page_revenue_fy0": 72,
+    "ebitda_fy2": 62.361,
+    "rhp_page_ebitda_fy2": 120,
+    "ebitda_fy1": 133.048,
+    "rhp_page_ebitda_fy1": 120,
+    "ebitda_fy0": 212.531,
+    "rhp_page_ebitda_fy0": 120,
+    "pat_fy2": 5.131,
+    "rhp_page_pat_fy2": 72,
+    "pat_fy1": 57.687,
+    "rhp_page_pat_fy1": 72,
+    "pat_fy0": 97.588,
+    "rhp_page_pat_fy0": 72,
+    "cfo_fy2": -15.2,
+    "rhp_page_cfo_fy2": 73,
+    "cfo_fy1": 45.598,
+    "rhp_page_cfo_fy1": 73,
+    "cfo_fy0": 41.231,
+    "rhp_page_cfo_fy0": 73,
+    "net_worth_fy0": 397.334,
+    "rhp_page_net_worth_fy0": 71,
+    "total_debt_fy0": 345.498,
+    "rhp_page_total_debt_fy0": 27,
+    "cash_fy0": 4.615,
+    "rhp_page_cash_fy0": 71,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 119,
+    "price_high": null,
+    "rhp_page_price_high": 119,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "rhp_page_promoter_pre_pct": 26,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 8.11,
+    "rhp_page_eps_fy0": 72,
+    "ronw_fy0_pct": 24.56,
+    "rhp_page_ronw_fy0_pct": 119,
+    "nav_per_share_fy0": 33.02,
+    "rhp_page_nav_per_share_fy0": 119,
+    "fresh_issue_cr": 600.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 2.7072,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 12.6339085,
+    "rhp_page_pre_issue_shares_cr": 83,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 83,
+    "ofs_promoter_shares_cr": 2.7072,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 50.0,
+    "proceeds_capex_cr": 150.483,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "MANYAVAR; TCNSBRANDS; GOCOLORS",
+    "n_peers": 3,
+    "peer_pe_list": [
+      71.29,
+      87.74
+    ],
+    "peer_ronw_list": [
+      30.65,
+      15.91
+    ],
+    "rhp_page_peers": 122
+  },
+  "extract": {
+    "company": "Sai Silks (Kalamandir) Limited",
+    "sector": "Consumer & retail",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 119
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 119
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 6000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 27072000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Nagakanaka Durga Prasad Chalavadi",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 6409345.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Jhansi Rani Chalavadi",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 7949520.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Dhanalakshmi Perumalla",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 3083865.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Doodeswara Kanaka Durgarao Chalavadi",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 656295.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Kalyan Srinivas Annam",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 6346975.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Subash Chandra Mohan Annam",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 2120500.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Venkata Rajesh Annam",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 505500.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 126339085.0,
+      "unit": "shares",
+      "page": 83
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 83
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 26
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding capital expenditure towards setting-up of 30 new stores",
+        "category": "capex",
+        "amount": {
+          "value": 1250.84,
+          "unit": "million",
+          "page": 97
+        }
+      },
+      {
+        "purpose": "Funding capital expenditure towards setting-up of two warehouses",
+        "category": "capex",
+        "amount": {
+          "value": 253.99,
+          "unit": "million",
+          "page": 97
+        }
+      },
+      {
+        "purpose": "Funding working capital requirements of our Company",
+        "category": "other",
+        "amount": {
+          "value": 2800.67,
+          "unit": "million",
+          "page": 97
+        }
+      },
+      {
+        "purpose": "Repayment or pre-payment, in full or part, of certain borrowings",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 500.0,
+          "unit": "million",
+          "page": 97
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 97
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Motilal Oswal Investment Advisors Limited",
+      "HDFC Bank Limited",
+      "Nuvama Wealth Management Limited"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "FY2023",
+    "revenue_fy2": {
+      "value": 6772.48,
+      "unit": "million",
+      "page": 72
+    },
+    "revenue_fy1": {
+      "value": 11293.23,
+      "unit": "million",
+      "page": 72
+    },
+    "revenue_fy0": {
+      "value": 13514.69,
+      "unit": "million",
+      "page": 72
+    },
+    "ebitda_fy2": {
+      "value": 623.61,
+      "unit": "million",
+      "page": 120
+    },
+    "ebitda_fy1": {
+      "value": 1330.48,
+      "unit": "million",
+      "page": 120
+    },
+    "ebitda_fy0": {
+      "value": 2125.31,
+      "unit": "million",
+      "page": 120
+    },
+    "pat_fy2": {
+      "value": 51.31,
+      "unit": "million",
+      "page": 72
+    },
+    "pat_fy1": {
+      "value": 576.87,
+      "unit": "million",
+      "page": 72
+    },
+    "pat_fy0": {
+      "value": 975.88,
+      "unit": "million",
+      "page": 72
+    },
+    "cfo_fy2": {
+      "value": -152.0,
+      "unit": "million",
+      "page": 73
+    },
+    "cfo_fy1": {
+      "value": 455.98,
+      "unit": "million",
+      "page": 73
+    },
+    "cfo_fy0": {
+      "value": 412.31,
+      "unit": "million",
+      "page": 73
+    },
+    "net_worth_fy0": {
+      "value": 3973.34,
+      "unit": "million",
+      "page": 71
+    },
+    "total_debt_fy0": {
+      "value": 3454.98,
+      "unit": "million",
+      "page": 27
+    },
+    "cash_fy0": {
+      "value": 46.15,
+      "unit": "million",
+      "page": 71
+    },
+    "eps_fy0": {
+      "value": 8.11,
+      "unit": "rupees",
+      "page": 72
+    },
+    "ronw_fy0_pct": {
+      "value": 24.56,
+      "unit": "percent",
+      "page": 119
+    },
+    "nav_per_share_fy0": {
+      "value": 33.02,
+      "unit": "rupees",
+      "page": 119
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Vedant Fashions Limited",
+        "nse_symbol": "MANYAVAR",
+        "pe": 71.29,
+        "ronw_pct": 30.65,
+        "page": 122
+      },
+      {
+        "name": "TCNS Clothing Co. Limited",
+        "nse_symbol": "TCNSBRANDS",
+        "pe": null,
+        "ronw_pct": null,
+        "page": 122
+      },
+      {
+        "name": "Go Fashion (India) Limited",
+        "nse_symbol": "GOCOLORS",
+        "pe": 87.74,
+        "ronw_pct": 15.91,
+        "page": 122
+      }
+    ],
+    "notes": [
+      "Price band, lot size, fresh issue share count and post-offer shares are [\u25cf] in the RHP.",
+      "The restated financial statements are standalone (the company has no subsidiary). The SSKL Employees Trust is treated as an extension of the company, so its treasury shares are deducted: equity share capital is shown as \u20b9240.65 million rather than \u20b9252.68 million.",
+      "Promoter pre-offer holding: the two Promoters hold 54.16% and the other Promoter Group members (including SSKL Family Trust) hold 41.07% (pages 26-27). No combined figure is printed, so promoter_pre_pct is left null.",
+      "The peer comparison table is cut off on the pages provided: only Vedant, TCNS and Go Fashion are visible. Aditya Birla Fashion, Shoppers Stop (P/E 69.34) and Trent (P/E 163.76) also appear to be peers but their rows are missing. TCNS P/E and RoNW are printed as NM.",
+      "Peer page numbers use the marker of the page where the table appears (printed page 117 is marker 122). NSE symbols were not printed and come from general knowledge.",
+      "Working capital funding (\u20b92,800.67 million) is categorised as 'other'.",
+      "The only allotment shown is to SSKL Employees Trust on June 9, 2022 at \u20b922. That is more than 12 months before the RHP date (September 13, 2023), and the RHP states no pre-IPO placement, so pre_ipo_placement is false.",
+      "The KPI table gives RoE of 27.96% for FY2023, based on average net worth. RoNW of 24.56% (profit divided by year-end net worth) is used instead."
+    ]
+  }
+}

@@ -1,0 +1,411 @@
+{
+  "symbol": "MANIPALHOS",
+  "rhp_file": "MANIPALHOS.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:27:06+00:00",
+  "pages_sent": [
+    1,
+    2,
+    4,
+    5,
+    99,
+    100,
+    101,
+    102,
+    123,
+    124,
+    125,
+    151,
+    152,
+    163,
+    164,
+    165,
+    550,
+    551
+  ],
+  "n_pdf_pages": 717,
+  "usage": {
+    "input_tokens": 34439,
+    "output_tokens": 3468,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3132842,
+    "session_id": "62d0afb5-ba07-458d-91a0-c4742296e3cc"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Manipal Health Enterprises Limited",
+    "sector": "Healthcare & pharma",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "stub_period_months": null,
+    "pre_ipo_placement": null,
+    "lead_managers": "Kotak Mahindra Capital Company Limited; Axis Capital Limited; Goldman Sachs (India) Securities Private Limited; Jefferies India Private Limited; J.P. Morgan India Private Limited; UBS Securities India Private Limited; DBS Bank India Limited",
+    "revenue_fy2": 6171.632,
+    "rhp_page_revenue_fy2": 101,
+    "revenue_fy1": 8242.25,
+    "rhp_page_revenue_fy1": 101,
+    "revenue_fy0": 10335.751,
+    "rhp_page_revenue_fy0": 101,
+    "ebitda_fy2": 1596.976,
+    "rhp_page_ebitda_fy2": 550,
+    "ebitda_fy1": 2261.023,
+    "rhp_page_ebitda_fy1": 550,
+    "ebitda_fy0": 2721.867,
+    "rhp_page_ebitda_fy0": 550,
+    "pat_fy2": 533.203,
+    "rhp_page_pat_fy2": 101,
+    "pat_fy1": 1081.672,
+    "rhp_page_pat_fy1": 101,
+    "pat_fy0": 916.519,
+    "rhp_page_pat_fy0": 101,
+    "cfo_fy2": 1388.645,
+    "rhp_page_cfo_fy2": 102,
+    "cfo_fy1": 1569.83,
+    "rhp_page_cfo_fy1": 102,
+    "cfo_fy0": 2078.401,
+    "rhp_page_cfo_fy0": 102,
+    "net_worth_fy0": 8426.094,
+    "rhp_page_net_worth_fy0": 100,
+    "total_debt_fy0": 10553.431,
+    "rhp_page_total_debt_fy0": 551,
+    "cash_fy0": 299.348,
+    "rhp_page_cash_fy0": 100,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 7.71,
+    "rhp_page_eps_fy0": 101,
+    "ronw_fy0_pct": 10.57,
+    "rhp_page_ronw_fy0_pct": 165,
+    "nav_per_share_fy0": 72.55,
+    "rhp_page_nav_per_share_fy0": 165,
+    "fresh_issue_cr": 8000.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 2.1613834,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 117.9757321,
+    "rhp_page_pre_issue_shares_cr": 123,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 123,
+    "ofs_promoter_shares_cr": 1.7600863000000002,
+    "ofs_investor_shares_cr": 0.4012971,
+    "proceeds_debt_repayment_cr": 5552.759,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "Apollo Hospitals Enterprise Ltd",
+    "n_peers": 1,
+    "peer_pe_list": [
+      66.15
+    ],
+    "peer_ronw_list": [],
+    "rhp_page_peers": 165
+  },
+  "extract": {
+    "company": "Manipal Health Enterprises Limited",
+    "sector": "Healthcare & pharma",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 80000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 21613834.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Imperius Healthcare Investments Pte. Ltd.",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 10808861.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Manipal Education and Medical Group India Private Limited",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 6792002.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "TPG SG Magazine Pte. Ltd.",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 2329667.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Seventy Second Investment Company LLC",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 792494.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Ammar Sdn Bhd",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 405791.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Novo Holdings Invest Asia A/S",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 264556.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Phoenix Bear Investments, LLC",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 220463.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 1179757321.0,
+      "unit": "shares",
+      "page": 123
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 123
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment/prepayment of certain outstanding borrowings and accrued interest of Material Subsidiary Manipal Hospitals Private Limited",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 55527.59,
+          "unit": "million",
+          "page": 151
+        }
+      },
+      {
+        "purpose": "Acquisition of minority stake in stepdown Subsidiary Sahyadri Hospitals Private Limited",
+        "category": "other",
+        "amount": {
+          "value": 5740.0,
+          "unit": "million",
+          "page": 151
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": null,
+          "page": 151
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lead_managers": [
+      "Kotak Mahindra Capital Company Limited",
+      "Axis Capital Limited",
+      "Goldman Sachs (India) Securities Private Limited",
+      "Jefferies India Private Limited",
+      "J.P. Morgan India Private Limited",
+      "UBS Securities India Private Limited",
+      "DBS Bank India Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2026",
+    "revenue_fy2": {
+      "value": 61716.32,
+      "unit": "million",
+      "page": 101
+    },
+    "revenue_fy1": {
+      "value": 82422.5,
+      "unit": "million",
+      "page": 101
+    },
+    "revenue_fy0": {
+      "value": 103357.51,
+      "unit": "million",
+      "page": 101
+    },
+    "ebitda_fy2": {
+      "value": 15969.76,
+      "unit": "million",
+      "page": 550
+    },
+    "ebitda_fy1": {
+      "value": 22610.23,
+      "unit": "million",
+      "page": 550
+    },
+    "ebitda_fy0": {
+      "value": 27218.67,
+      "unit": "million",
+      "page": 550
+    },
+    "pat_fy2": {
+      "value": 5332.03,
+      "unit": "million",
+      "page": 101
+    },
+    "pat_fy1": {
+      "value": 10816.72,
+      "unit": "million",
+      "page": 101
+    },
+    "pat_fy0": {
+      "value": 9165.19,
+      "unit": "million",
+      "page": 101
+    },
+    "cfo_fy2": {
+      "value": 13886.45,
+      "unit": "million",
+      "page": 102
+    },
+    "cfo_fy1": {
+      "value": 15698.3,
+      "unit": "million",
+      "page": 102
+    },
+    "cfo_fy0": {
+      "value": 20784.01,
+      "unit": "million",
+      "page": 102
+    },
+    "net_worth_fy0": {
+      "value": 84260.94,
+      "unit": "million",
+      "page": 100
+    },
+    "total_debt_fy0": {
+      "value": 105534.31,
+      "unit": "million",
+      "page": 551
+    },
+    "cash_fy0": {
+      "value": 2993.48,
+      "unit": "million",
+      "page": 100
+    },
+    "eps_fy0": {
+      "value": 7.71,
+      "unit": "rupees",
+      "page": 101
+    },
+    "ronw_fy0_pct": {
+      "value": 10.57,
+      "unit": "percent",
+      "page": 165
+    },
+    "nav_per_share_fy0": {
+      "value": 72.55,
+      "unit": "rupees",
+      "page": 165
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Apollo Hospitals Enterprise Ltd",
+        "nse_symbol": null,
+        "pe": 66.15,
+        "ronw_pct": null,
+        "page": 165
+      }
+    ],
+    "notes": [
+      "The EBITDA figures come from Other Financial Information (p.550): profit plus tax, D&A and finance costs, including exceptional items. Basis for Offer Price (p.164) gives a separate EBITDA excluding exceptional items: 27,959.37 million for FY2026 and 17,766.03 million for FY2024.",
+      "The peer comparison table is cut off after Apollo Hospitals. The industry P/E range of 74.55 high, 66.15 low and 70.31 average (p.164-165) shows there are other peers, but they are not on the pages provided. Apollo's RoNW is printed as NA.",
+      "Price band, lot size, fresh issue share count and post-offer shares are all printed as [\u25cf].",
+      "Promoter shareholding before and after the offer, the retail quota and recent pre-IPO allotments are not on the pages provided.",
+      "The share capital history table is incomplete. It stops at the March 2016 allotment, so the latest allotment price could not be found.",
+      "Consolidated borrowings were 111,850.24 million as of May 31, 2026 (p.152).",
+      "Profit attributable to owners for FY2026 is 8,923.19 million. The pat_fy0 figure of 9,165.19 million includes non-controlling interests.",
+      "Pre-offer shares of 1,179,757,321 are as of the RHP date. The count reflects the share split and the 2:1 bonus issue."
+    ]
+  }
+}

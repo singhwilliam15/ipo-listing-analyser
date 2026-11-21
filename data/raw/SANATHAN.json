@@ -1,0 +1,257 @@
+{
+  "symbol": "SANATHAN",
+  "rhp_file": "SANATHAN.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-21T05:54:43+00:00",
+  "pages_sent": [
+    1,
+    2
+  ],
+  "n_pdf_pages": 2,
+  "usage": {
+    "input_tokens": 8645,
+    "output_tokens": 2036,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.0757083,
+    "session_id": "55cb95f9-6636-4494-987f-b8c0e49edc14"
+  },
+  "checks": [
+    "missing fy0 revenue or PAT"
+  ],
+  "fields": {
+    "company_rhp": null,
+    "sector": null,
+    "exchange": null,
+    "financials_basis": null,
+    "fy0_label": null,
+    "stub_period_months": null,
+    "pre_ipo_placement": null,
+    "lead_managers": null,
+    "revenue_fy2": null,
+    "revenue_fy1": null,
+    "revenue_fy0": null,
+    "ebitda_fy2": null,
+    "ebitda_fy1": null,
+    "ebitda_fy0": null,
+    "pat_fy2": null,
+    "pat_fy1": null,
+    "pat_fy0": null,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": null,
+    "total_debt_fy0": null,
+    "cash_fy0": null,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": null,
+    "ronw_fy0_pct": null,
+    "nav_per_share_fy0": null,
+    "fresh_issue_cr": null,
+    "ofs_cr": null,
+    "fresh_issue_shares_cr": null,
+    "ofs_shares_cr": null,
+    "pre_issue_shares_cr": null,
+    "post_issue_shares_cr": null,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": null,
+    "proceeds_capex_cr": null,
+    "proceeds_gcp_cr": null,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": null,
+    "sector": null,
+    "exchanges": null,
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "objects_of_offer": [],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lead_managers": [],
+    "financials_basis": null,
+    "fy0_label": null,
+    "revenue_fy2": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "revenue_fy1": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "revenue_fy0": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "ebitda_fy2": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "ebitda_fy1": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "ebitda_fy0": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pat_fy2": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pat_fy1": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pat_fy0": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "total_debt_fy0": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "cash_fy0": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "eps_fy0": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "ronw_fy0_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "nav_per_share_fy0": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [],
+    "notes": [
+      "The pages provided are not from an RHP. Page 1 is only a Financial Express masthead (page 40, Wednesday, December 18, 2024) with no other content. Page 2 is a list of classified advertising centres in Mumbai (agency names and phone numbers).",
+      "No IPO details, offer structure, financial statements, objects of the offer, peer comparison or company name appear on these pages, so every field is left null or empty. no_listed_peers is set to false only because a value is required; nothing on the pages says whether listed peers exist.",
+      "This may be a newspaper page that carried an IPO advertisement, but the ad's text is not in the extracted content. Please provide the actual RHP pages or the full ad text."
+    ]
+  }
+}

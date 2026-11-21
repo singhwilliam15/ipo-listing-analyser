@@ -1,0 +1,428 @@
+{
+  "symbol": "GALAPREC",
+  "rhp_file": "GALAPREC.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-21T06:03:50+00:00",
+  "pages_sent": [
+    1,
+    2,
+    28,
+    29,
+    30,
+    31,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    89,
+    90,
+    91,
+    121,
+    122,
+    145,
+    146,
+    153,
+    360,
+    361,
+    392
+  ],
+  "n_pdf_pages": 523,
+  "usage": {
+    "input_tokens": 32824,
+    "output_tokens": 3942,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3096815,
+    "session_id": "52efb23d-b8a6-4834-a3e8-1e96aae9fc40"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Gala Precision Engineering Limited",
+    "sector": "Industrials & capital goods",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024",
+    "stub_period_months": null,
+    "pre_ipo_placement": null,
+    "lead_managers": "PL Capital Markets Private Limited",
+    "revenue_fy2": 145.277,
+    "rhp_page_revenue_fy2": 77,
+    "revenue_fy1": 165.465,
+    "rhp_page_revenue_fy1": 77,
+    "revenue_fy0": 202.545,
+    "rhp_page_revenue_fy0": 77,
+    "ebitda_fy2": 22.351,
+    "rhp_page_ebitda_fy2": 31,
+    "ebitda_fy1": 28.941,
+    "rhp_page_ebitda_fy1": 31,
+    "ebitda_fy0": 40.589,
+    "rhp_page_ebitda_fy0": 31,
+    "pat_fy2": 6.631,
+    "rhp_page_pat_fy2": 77,
+    "pat_fy1": 24.212,
+    "rhp_page_pat_fy1": 77,
+    "pat_fy0": 22.332,
+    "rhp_page_pat_fy0": 77,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 104.448,
+    "rhp_page_net_worth_fy0": 360,
+    "total_debt_fy0": 55.028,
+    "rhp_page_total_debt_fy0": 392,
+    "cash_fy0": 1.383,
+    "rhp_page_cash_fy0": 75,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 145,
+    "price_high": null,
+    "rhp_page_price_high": 145,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "rhp_page_promoter_pre_pct": 30,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 22.09,
+    "rhp_page_eps_fy0": 360,
+    "ronw_fy0_pct": 21.38,
+    "rhp_page_ronw_fy0_pct": 146,
+    "nav_per_share_fy0": 103.3,
+    "rhp_page_nav_per_share_fy0": 146,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": 0.2558416,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.0616,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 1.0111584,
+    "rhp_page_pre_issue_shares_cr": 72,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 72,
+    "ofs_promoter_shares_cr": 0.05144,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 45.43,
+    "proceeds_capex_cr": 48.069,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "Sundram Fasteners Limited; Ratnaveer Precision Engineering Limited",
+    "n_peers": 2,
+    "peer_pe_list": [
+      54.49,
+      24.69
+    ],
+    "peer_ronw_list": [],
+    "rhp_page_peers": 145
+  },
+  "extract": {
+    "company": "Gala Precision Engineering Limited",
+    "sector": "Industrials & capital goods",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 145
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 145
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": 2558416.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 616000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Taramati V Gala",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 385200.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Kirit Vishanji Gala (HUF)",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 79200.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Nayna Gala",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 50000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Satish Kotwani",
+        "kind": "other",
+        "shares_offered": {
+          "value": 40000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Hemlata Dhiraj Shah",
+        "kind": "other",
+        "shares_offered": {
+          "value": 23600.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Dhiraj Nanchand Shah",
+        "kind": "other",
+        "shares_offered": {
+          "value": 28000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Rupa Sunil Mehta",
+        "kind": "other",
+        "shares_offered": {
+          "value": 10000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 10111584.0,
+      "unit": "shares",
+      "page": 72
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 72
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 30
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Setting up a new facility at Vallam-Vadagal, SIPCOT, Sriperumbudur, Tamil Nadu for manufacturing high tensile fasteners and hex bolts",
+        "category": "capex",
+        "amount": {
+          "value": 370.0,
+          "unit": "million",
+          "page": 121
+        }
+      },
+      {
+        "purpose": "Capital expenditure for purchase of equipment, plant and machinery at Wada, Palghar, Maharashtra",
+        "category": "capex",
+        "amount": {
+          "value": 110.69,
+          "unit": "million",
+          "page": 122
+        }
+      },
+      {
+        "purpose": "Repayment/prepayment of certain borrowings",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 454.3,
+          "unit": "million",
+          "page": 122
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 122
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "PL Capital Markets Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024",
+    "revenue_fy2": {
+      "value": 1452.77,
+      "unit": "million",
+      "page": 77
+    },
+    "revenue_fy1": {
+      "value": 1654.65,
+      "unit": "million",
+      "page": 77
+    },
+    "revenue_fy0": {
+      "value": 2025.45,
+      "unit": "million",
+      "page": 77
+    },
+    "ebitda_fy2": {
+      "value": 223.51,
+      "unit": "million",
+      "page": 31
+    },
+    "ebitda_fy1": {
+      "value": 289.41,
+      "unit": "million",
+      "page": 31
+    },
+    "ebitda_fy0": {
+      "value": 405.89,
+      "unit": "million",
+      "page": 31
+    },
+    "pat_fy2": {
+      "value": 66.31,
+      "unit": "million",
+      "page": 77
+    },
+    "pat_fy1": {
+      "value": 242.12,
+      "unit": "million",
+      "page": 77
+    },
+    "pat_fy0": {
+      "value": 223.32,
+      "unit": "million",
+      "page": 77
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 1044.48,
+      "unit": "million",
+      "page": 360
+    },
+    "total_debt_fy0": {
+      "value": 550.28,
+      "unit": "million",
+      "page": 392
+    },
+    "cash_fy0": {
+      "value": 13.83,
+      "unit": "million",
+      "page": 75
+    },
+    "eps_fy0": {
+      "value": 22.09,
+      "unit": "rupees",
+      "page": 360
+    },
+    "ronw_fy0_pct": {
+      "value": 21.38,
+      "unit": "percent",
+      "page": 146
+    },
+    "nav_per_share_fy0": {
+      "value": 103.3,
+      "unit": "rupees",
+      "page": 146
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Sundram Fasteners Limited",
+        "nse_symbol": null,
+        "pe": 54.49,
+        "ronw_pct": null,
+        "page": 145
+      },
+      {
+        "name": "Ratnaveer Precision Engineering Limited",
+        "nse_symbol": null,
+        "pe": 24.69,
+        "ronw_pct": null,
+        "page": 145
+      }
+    ],
+    "notes": [
+      "Price band, lot size, offer amounts, post-offer shares and retail quota are shown as [\u25cf] or are not on the pages provided.",
+      "Promoter holding before the offer is not printed as one combined figure. Promoters hold 33.44% (page 30) and the rest of the promoter group holds 41.12% (page 30). I left promoter_pre_pct null rather than add them.",
+      "The FY2024 peer comparison table is not on the pages provided. Only the industry P/E high (Sundram Fasteners 54.49), low (Ratnaveer 24.69) and average (39.59) on page 145 are available. Other peers named (Harsha Engineers, SKF India, Rolex Rings, Sterling Tools) have no FY2024 P/E or RoNW on these pages. The FY2023 RoNW figures are on page 153.",
+      "Net worth of 1044.48 is total equity including non-controlling interest of (3.37). The RHP uses this as net worth in its accounting ratios. Equity attributable to owners (101.11 + 946.74) is not printed as a separate total.",
+      "Total borrowings are 550.28 in the capitalisation statement (page 392) and 550.27 in the summary (page 31).",
+      "EBITDA FY2024 is 405.89 in the summary (page 31) and 405.88 on page 360.",
+      "PAT FY2024 of 223.32 is after an exceptional loss of (23.09). PAT before exceptional items is 243.02 on page 31 and 246.41 on page 360, which do not match. FY2023 PAT includes an exceptional gain of 97.59.",
+      "The cash flow statement is not on the pages provided, so CFO is null.",
+      "Pre-IPO placements in the last 12 months could not be checked from these pages. A 3:1 bonus issue was allotted on September 27, 2023."
+    ]
+  }
+}

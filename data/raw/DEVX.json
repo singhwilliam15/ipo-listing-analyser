@@ -1,0 +1,348 @@
+{
+  "symbol": "DEVX",
+  "rhp_file": "DEVX.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:10:04+00:00",
+  "pages_sent": [
+    1,
+    2,
+    30,
+    31,
+    32,
+    33,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    100,
+    101,
+    102,
+    126,
+    127,
+    140,
+    141,
+    142,
+    354,
+    355
+  ],
+  "n_pdf_pages": 473,
+  "usage": {
+    "input_tokens": 31583,
+    "output_tokens": 3261,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.2860086,
+    "session_id": "d8128418-e4b6-40bd-a5bd-81ce628625fd"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Dev Accelerator Limited",
+    "sector": "Infrastructure, construction & real estate",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "stub_period_months": null,
+    "pre_ipo_placement": null,
+    "lead_managers": "Pantomath Capital Advisors Private Limited",
+    "revenue_fy2": 69.911,
+    "rhp_page_revenue_fy2": 89,
+    "revenue_fy1": 108.087,
+    "rhp_page_revenue_fy1": 89,
+    "revenue_fy0": 158.875,
+    "rhp_page_revenue_fy0": 89,
+    "ebitda_fy2": 29.881,
+    "rhp_page_ebitda_fy2": 354,
+    "ebitda_fy1": 64.739,
+    "rhp_page_ebitda_fy1": 354,
+    "ebitda_fy0": 80.457,
+    "rhp_page_ebitda_fy0": 354,
+    "pat_fy2": -12.830000000000002,
+    "rhp_page_pat_fy2": 89,
+    "pat_fy1": 0.437,
+    "rhp_page_pat_fy1": 89,
+    "pat_fy0": 1.773,
+    "rhp_page_pat_fy0": 89,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": null,
+    "rhp_page_net_worth_fy0": 87,
+    "total_debt_fy0": 130.673,
+    "rhp_page_total_debt_fy0": 355,
+    "cash_fy0": 3.363,
+    "rhp_page_cash_fy0": 87,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 141,
+    "price_high": null,
+    "rhp_page_price_high": 141,
+    "lot_size": null,
+    "promoter_pre_pct": 49.8,
+    "rhp_page_promoter_pre_pct": 32,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 32,
+    "retail_quota_pct": null,
+    "rhp_page_retail_quota_pct": 84,
+    "pre_ipo_price": null,
+    "eps_fy0": 0.27,
+    "rhp_page_eps_fy0": 89,
+    "ronw_fy0_pct": 3.24,
+    "rhp_page_ronw_fy0_pct": 142,
+    "nav_per_share_fy0": 7.68,
+    "rhp_page_nav_per_share_fy0": 142,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": 2.35,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 6.6687515,
+    "rhp_page_pre_issue_shares_cr": 84,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 84,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 35.0,
+    "proceeds_capex_cr": 73.116,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "AWFIS",
+    "n_peers": 1,
+    "peer_pe_list": [
+      60.95
+    ],
+    "peer_ronw_list": [],
+    "rhp_page_peers": 142
+  },
+  "extract": {
+    "company": "Dev Accelerator Limited",
+    "sector": "Infrastructure, construction & real estate",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 141
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 141
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": 23500000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 66687515.0,
+      "unit": "shares",
+      "page": 84
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 84
+    },
+    "promoter_pre_pct": {
+      "value": 49.8,
+      "unit": "percent",
+      "page": 32
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 32
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Capital expenditure for fit-outs in the Proposed Centers",
+        "category": "capex",
+        "amount": {
+          "value": 731.16,
+          "unit": "million",
+          "page": 126
+        }
+      },
+      {
+        "purpose": "Repayment and/or pre-payment of certain borrowings including redemption of NCDs",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 350.0,
+          "unit": "million",
+          "page": 126
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 126
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 84
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Pantomath Capital Advisors Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025",
+    "revenue_fy2": {
+      "value": 699.11,
+      "unit": "million",
+      "page": 89
+    },
+    "revenue_fy1": {
+      "value": 1080.87,
+      "unit": "million",
+      "page": 89
+    },
+    "revenue_fy0": {
+      "value": 1588.75,
+      "unit": "million",
+      "page": 89
+    },
+    "ebitda_fy2": {
+      "value": 298.81,
+      "unit": "million",
+      "page": 354
+    },
+    "ebitda_fy1": {
+      "value": 647.39,
+      "unit": "million",
+      "page": 354
+    },
+    "ebitda_fy0": {
+      "value": 804.57,
+      "unit": "million",
+      "page": 354
+    },
+    "pat_fy2": {
+      "value": -128.3,
+      "unit": "million",
+      "page": 89
+    },
+    "pat_fy1": {
+      "value": 4.37,
+      "unit": "million",
+      "page": 89
+    },
+    "pat_fy0": {
+      "value": 17.73,
+      "unit": "million",
+      "page": 89
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": 87
+    },
+    "total_debt_fy0": {
+      "value": 1306.73,
+      "unit": "million",
+      "page": 355
+    },
+    "cash_fy0": {
+      "value": 33.63,
+      "unit": "million",
+      "page": 87
+    },
+    "eps_fy0": {
+      "value": 0.27,
+      "unit": "rupees",
+      "page": 89
+    },
+    "ronw_fy0_pct": {
+      "value": 3.24,
+      "unit": "percent",
+      "page": 142
+    },
+    "nav_per_share_fy0": {
+      "value": 7.68,
+      "unit": "rupees",
+      "page": 142
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Awfis Space Solutions Ltd",
+        "nse_symbol": "AWFIS",
+        "pe": 60.95,
+        "ronw_pct": null,
+        "page": 142
+      }
+    ],
+    "notes": [
+      "Issue is entirely a fresh issue; no offer for sale.",
+      "Price band, lot size, retail quota and post-issue shares are printed as [\u25cf] or not given in these pages.",
+      "Net worth attributable to owners is not printed as its own line (the row is blank). Total equity is 548.20 million including NCI of 0.34 (equity share capital 169.15 + other equity 378.71); net_worth left null.",
+      "Cash flow from operations is not on the pages provided.",
+      "PAT is restated profit for the year including minority share; profit attributable to owners is 17.44 / 4.33 / (128.30).",
+      "The only peer P/E in Basis for Issue Price is Awfis at 60.95 (industry P/E table). The full peer comparison table with RoNW is not on these pages, and the NSE symbol was not printed.",
+      "The capital history on page 102 is cut off after the 13 May 2024 private placement at \u20b9208,945 per share (face value \u20b910, before bonus and split). The later allotments needed to reach 66,687,515 shares are not shown, so pre-IPO placement within 12 months could not be confirmed.",
+      "Shareholders' Reservation Portion of 329,000 shares and Employee Reservation Portion of 164,500 shares.",
+      "Sector chosen: flexible workspace operator, mapped to real estate."
+    ]
+  }
+}

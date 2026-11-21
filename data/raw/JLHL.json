@@ -1,0 +1,486 @@
+{
+  "symbol": "JLHL",
+  "rhp_file": "JLHL.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T20:57:50+00:00",
+  "pages_sent": [
+    1,
+    2,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    87,
+    88,
+    89,
+    90,
+    106,
+    107,
+    108,
+    109,
+    123,
+    124,
+    125,
+    126,
+    127,
+    309,
+    310,
+    311
+  ],
+  "n_pdf_pages": 442,
+  "usage": {
+    "input_tokens": 49695,
+    "output_tokens": 4037,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.44823699999999994,
+    "session_id": "5e193377-94a7-4f24-aaff-1d7e0b0935d2"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Jupiter Life Line Hospitals Limited",
+    "sector": "Healthcare & pharma",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023",
+    "stub_period_months": null,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "ICICI Securities Limited; Nuvama Wealth Management Limited; JM Financial Limited",
+    "revenue_fy2": 486.164,
+    "rhp_page_revenue_fy2": 74,
+    "revenue_fy1": 733.123,
+    "rhp_page_revenue_fy1": 74,
+    "revenue_fy0": 892.543,
+    "rhp_page_revenue_fy0": 74,
+    "ebitda_fy2": 71.268,
+    "rhp_page_ebitda_fy2": 126,
+    "ebitda_fy1": 157.409,
+    "rhp_page_ebitda_fy1": 126,
+    "ebitda_fy0": 211.74,
+    "rhp_page_ebitda_fy0": 126,
+    "pat_fy2": -2.297,
+    "rhp_page_pat_fy2": 74,
+    "pat_fy1": 51.128,
+    "rhp_page_pat_fy1": 74,
+    "pat_fy0": 72.905,
+    "rhp_page_pat_fy0": 74,
+    "cfo_fy2": 123.407,
+    "rhp_page_cfo_fy2": 75,
+    "cfo_fy1": 136.972,
+    "rhp_page_cfo_fy1": 75,
+    "cfo_fy0": 176.401,
+    "rhp_page_cfo_fy0": 75,
+    "net_worth_fy0": 363.91,
+    "rhp_page_net_worth_fy0": 28,
+    "total_debt_fy0": 468.627,
+    "rhp_page_total_debt_fy0": 310,
+    "cash_fy0": 134.463,
+    "rhp_page_cash_fy0": 73,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 13.95,
+    "rhp_page_eps_fy0": 74,
+    "ronw_fy0_pct": 20.03,
+    "rhp_page_ronw_fy0_pct": 124,
+    "nav_per_share_fy0": 64.39,
+    "rhp_page_nav_per_share_fy0": 124,
+    "fresh_issue_cr": 542.001,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.445,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 5.8191859,
+    "rhp_page_pre_issue_shares_cr": 70,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 70,
+    "ofs_promoter_shares_cr": 0.215,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 510.406,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "APOLLOHOSP; FORTIS; MAXHEALTH; NH; MEDANTA; KIMS",
+    "n_peers": 6,
+    "peer_pe_list": [
+      84.64,
+      40.26,
+      45.97,
+      33.14,
+      53.7,
+      45.09
+    ],
+    "peer_ronw_list": [
+      16.4,
+      20.9,
+      62.8,
+      35.4,
+      16.2,
+      25.7
+    ],
+    "rhp_page_peers": 124
+  },
+  "extract": {
+    "company": "Jupiter Life Line Hospitals Limited",
+    "sector": "Healthcare & pharma",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 5420.01,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 4450000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Devang Vasantlal Gandhi (HUF)",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 1250000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Devang Gandhi jointly with Neeta Gandhi",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 900000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Nitin Thakker jointly with Asha Thakker",
+        "kind": "other",
+        "shares_offered": {
+          "value": 1000000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Anuradha Ramesh Modi with Megha Ramesh Modi (as trustees for Modi Family Private Trust)",
+        "kind": "other",
+        "shares_offered": {
+          "value": 400000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Bhaskar P Shah (HUF)",
+        "kind": "other",
+        "shares_offered": {
+          "value": 400000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Rajeshwari Capital Market Limited",
+        "kind": "other",
+        "shares_offered": {
+          "value": 200000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Vadapatra Sayee Raghavan (HUF)",
+        "kind": "other",
+        "shares_offered": {
+          "value": 200000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Sangeeta Ravat jointly with Dr. Hasmukh Ravat",
+        "kind": "other",
+        "shares_offered": {
+          "value": 40000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Dr. Hasmukh Ravat jointly with Sangeeta Ravat",
+        "kind": "other",
+        "shares_offered": {
+          "value": 40000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Shreyas Ravat jointly with Sangeeta Ravat",
+        "kind": "other",
+        "shares_offered": {
+          "value": 20000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 58191859.0,
+      "unit": "shares",
+      "page": 70
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 70
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment/pre-payment, in full or part, of borrowings availed from banks by the Company and Material Subsidiary",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 5104.06,
+          "unit": "million",
+          "page": 106
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": null,
+          "page": 106
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lead_managers": [
+      "ICICI Securities Limited",
+      "Nuvama Wealth Management Limited",
+      "JM Financial Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2023",
+    "revenue_fy2": {
+      "value": 4861.64,
+      "unit": "million",
+      "page": 74
+    },
+    "revenue_fy1": {
+      "value": 7331.23,
+      "unit": "million",
+      "page": 74
+    },
+    "revenue_fy0": {
+      "value": 8925.43,
+      "unit": "million",
+      "page": 74
+    },
+    "ebitda_fy2": {
+      "value": 712.68,
+      "unit": "million",
+      "page": 126
+    },
+    "ebitda_fy1": {
+      "value": 1574.09,
+      "unit": "million",
+      "page": 126
+    },
+    "ebitda_fy0": {
+      "value": 2117.4,
+      "unit": "million",
+      "page": 126
+    },
+    "pat_fy2": {
+      "value": -22.97,
+      "unit": "million",
+      "page": 74
+    },
+    "pat_fy1": {
+      "value": 511.28,
+      "unit": "million",
+      "page": 74
+    },
+    "pat_fy0": {
+      "value": 729.05,
+      "unit": "million",
+      "page": 74
+    },
+    "cfo_fy2": {
+      "value": 1234.07,
+      "unit": "million",
+      "page": 75
+    },
+    "cfo_fy1": {
+      "value": 1369.72,
+      "unit": "million",
+      "page": 75
+    },
+    "cfo_fy0": {
+      "value": 1764.01,
+      "unit": "million",
+      "page": 75
+    },
+    "net_worth_fy0": {
+      "value": 3639.1,
+      "unit": "million",
+      "page": 28
+    },
+    "total_debt_fy0": {
+      "value": 4686.27,
+      "unit": "million",
+      "page": 310
+    },
+    "cash_fy0": {
+      "value": 1344.63,
+      "unit": "million",
+      "page": 73
+    },
+    "eps_fy0": {
+      "value": 13.95,
+      "unit": "rupees",
+      "page": 74
+    },
+    "ronw_fy0_pct": {
+      "value": 20.03,
+      "unit": "percent",
+      "page": 124
+    },
+    "nav_per_share_fy0": {
+      "value": 64.39,
+      "unit": "rupees",
+      "page": 124
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Apollo Hospitals Enterprise Limited",
+        "nse_symbol": "APOLLOHOSP",
+        "pe": 84.64,
+        "ronw_pct": 16.4,
+        "page": 124
+      },
+      {
+        "name": "Fortis Healthcare Limited",
+        "nse_symbol": "FORTIS",
+        "pe": 40.26,
+        "ronw_pct": 20.9,
+        "page": 124
+      },
+      {
+        "name": "Max Healthcare Institute Limited",
+        "nse_symbol": "MAXHEALTH",
+        "pe": 45.97,
+        "ronw_pct": 62.8,
+        "page": 125
+      },
+      {
+        "name": "Narayana Hrudayalaya Limited",
+        "nse_symbol": "NH",
+        "pe": 33.14,
+        "ronw_pct": 35.4,
+        "page": 125
+      },
+      {
+        "name": "Global Health Limited",
+        "nse_symbol": "MEDANTA",
+        "pe": 53.7,
+        "ronw_pct": 16.2,
+        "page": 125
+      },
+      {
+        "name": "Krishna Institute of Medical Sciences Limited",
+        "nse_symbol": "KIMS",
+        "pe": 45.09,
+        "ronw_pct": 25.7,
+        "page": 125
+      }
+    ],
+    "notes": [
+      "Price band, lot size, fresh issue share count, post-offer shares and retail quota % are not printed on these pages (shown as [\u25cf] or missing).",
+      "Promoter pre-offer holding: Promoters alone 40.69% and Promoter Group (other than promoters) 9.10% (page 27-28); no combined promoter+promoter group figure is printed, so promoter_pre_pct is left null. Post-offer % is [\u25cf].",
+      "Pre-IPO placement of 1,673,469 equity shares for \u20b91,229.99 million is disclosed (page 2); the per-share price is not printed on these pages, so pre_ipo_price is null. Fresh issue was cut by \u20b91,229.99 million and then raised by \u20b9500 million to \u20b95,420.01 million.",
+      "The most recent printed allotment price is \u20b971.00 per share on April 28, 2023 to the promoters and Kirtika Thakker (page 32).",
+      "Net worth of 3,639.10 equals Total Equity, which includes minority interest of (17.75). Equity attributable to owners is not printed as a separate figure.",
+      "The \u20b95,104.06 million debt repayment object includes the Pre-IPO Placement proceeds. The GCP amount is [\u25cf].",
+      "NSE symbols for peers are not printed in the RHP; they were inferred."
+    ]
+  }
+}

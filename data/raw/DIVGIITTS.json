@@ -1,0 +1,453 @@
+{
+  "symbol": "DIVGIITTS",
+  "rhp_file": "DIVGIITTS.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-16T20:55:05+00:00",
+  "pages_sent": [
+    1,
+    2,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    74,
+    75,
+    76,
+    77,
+    91,
+    92,
+    93,
+    94,
+    98,
+    99,
+    100,
+    101,
+    102,
+    270,
+    271,
+    272,
+    298
+  ],
+  "n_pdf_pages": 403,
+  "usage": {
+    "input_tokens": 63858,
+    "output_tokens": 4038,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.5629789999999999,
+    "session_id": "613a8ce9-9f6a-45fe-aec2-cfce9cde7bd9"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Divgi TorqTransfer Systems Limited",
+    "sector": "Auto & auto components",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "FY2022 (March 31, 2022)",
+    "stub_period_months": 6,
+    "pre_ipo_placement": "no",
+    "lead_managers": "Inga Ventures Private Limited; Equirus Capital Private Limited",
+    "revenue_fy2": 159.065,
+    "rhp_page_revenue_fy2": 63,
+    "revenue_fy1": 186.575,
+    "rhp_page_revenue_fy1": 63,
+    "revenue_fy0": 233.777,
+    "rhp_page_revenue_fy0": 63,
+    "ebitda_fy2": 36.935,
+    "rhp_page_ebitda_fy2": 100,
+    "ebitda_fy1": 51.899,
+    "rhp_page_ebitda_fy1": 100,
+    "ebitda_fy0": 65.613,
+    "rhp_page_ebitda_fy0": 100,
+    "pat_fy2": 28.039,
+    "rhp_page_pat_fy2": 63,
+    "pat_fy1": 38.044,
+    "rhp_page_pat_fy1": 63,
+    "pat_fy0": 46.151,
+    "rhp_page_pat_fy0": 63,
+    "cfo_fy2": 38.329,
+    "rhp_page_cfo_fy2": 64,
+    "cfo_fy1": 26.965,
+    "rhp_page_cfo_fy1": 64,
+    "cfo_fy0": 51.077,
+    "rhp_page_cfo_fy0": 64,
+    "net_worth_fy0": 340.015,
+    "rhp_page_net_worth_fy0": 62,
+    "total_debt_fy0": 0.12,
+    "rhp_page_total_debt_fy0": 25,
+    "cash_fy0": 17.353,
+    "rhp_page_cash_fy0": 62,
+    "revenue_stub": 133.716,
+    "rhp_page_revenue_stub": 63,
+    "pat_stub": 25.664,
+    "rhp_page_pat_stub": 63,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": 10.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": null,
+    "eps_fy0": 16.76,
+    "rhp_page_eps_fy0": 63,
+    "ronw_fy0_pct": 13.57,
+    "rhp_page_ronw_fy0_pct": 99,
+    "nav_per_share_fy0": 123.5,
+    "rhp_page_nav_per_share_fy0": 99,
+    "fresh_issue_cr": 180.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "fresh_issue_shares_cr": null,
+    "ofs_shares_cr": 0.3934243,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 2.753208,
+    "rhp_page_pre_issue_shares_cr": 59,
+    "post_issue_shares_cr": null,
+    "ofs_promoter_shares_cr": 0,
+    "ofs_investor_shares_cr": 0.3691441,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 150.707,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "SONACOMS; BOSCHLTD; ZFCVINDIA; SUNDRMFAST; ENDURANCE",
+    "n_peers": 5,
+    "peer_pe_list": [
+      73.52,
+      41.44,
+      124.83,
+      45.1,
+      44.61
+    ],
+    "peer_ronw_list": [
+      18.07,
+      11.41,
+      6.72,
+      17.52,
+      11.75
+    ],
+    "rhp_page_peers": 101
+  },
+  "extract": {
+    "company": "Divgi TorqTransfer Systems Limited",
+    "sector": "Auto & auto components",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 1800.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "ofs_shares": {
+      "value": 3934243.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Oman India Joint Investment Fund II",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 2250000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "NRJN Family Trust (represented by its corporate trustee, Entrust Family Office Legal and Trusteeship Services Private Limited)",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 1441441.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Bharat Bhalchandra Divgi",
+        "kind": "other",
+        "shares_offered": {
+          "value": 49430.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Sanjay Bhalchandra Divgi",
+        "kind": "other",
+        "shares_offered": {
+          "value": 40460.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Ashish Anant Divgi",
+        "kind": "other",
+        "shares_offered": {
+          "value": 104020.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Arun Ramdas Idgunji",
+        "kind": "other",
+        "shares_offered": {
+          "value": 33660.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Kishore Mangesh Kalbag",
+        "kind": "other",
+        "shares_offered": {
+          "value": 15232.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 27532080.0,
+      "unit": "shares",
+      "page": 59
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding capital expenditure requirements for the purchase of equipments/machineries at manufacturing facilities",
+        "category": "capex",
+        "amount": {
+          "value": 1507.07,
+          "unit": "million",
+          "page": 91
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": null,
+          "page": null
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 10.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": false,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lead_managers": [
+      "Inga Ventures Private Limited",
+      "Equirus Capital Private Limited"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "FY2022 (March 31, 2022)",
+    "revenue_fy2": {
+      "value": 1590.65,
+      "unit": "million",
+      "page": 63
+    },
+    "revenue_fy1": {
+      "value": 1865.75,
+      "unit": "million",
+      "page": 63
+    },
+    "revenue_fy0": {
+      "value": 2337.77,
+      "unit": "million",
+      "page": 63
+    },
+    "ebitda_fy2": {
+      "value": 369.35,
+      "unit": "million",
+      "page": 100
+    },
+    "ebitda_fy1": {
+      "value": 518.99,
+      "unit": "million",
+      "page": 100
+    },
+    "ebitda_fy0": {
+      "value": 656.13,
+      "unit": "million",
+      "page": 100
+    },
+    "pat_fy2": {
+      "value": 280.39,
+      "unit": "million",
+      "page": 63
+    },
+    "pat_fy1": {
+      "value": 380.44,
+      "unit": "million",
+      "page": 63
+    },
+    "pat_fy0": {
+      "value": 461.51,
+      "unit": "million",
+      "page": 63
+    },
+    "cfo_fy2": {
+      "value": 383.29,
+      "unit": "million",
+      "page": 64
+    },
+    "cfo_fy1": {
+      "value": 269.65,
+      "unit": "million",
+      "page": 64
+    },
+    "cfo_fy0": {
+      "value": 510.77,
+      "unit": "million",
+      "page": 64
+    },
+    "net_worth_fy0": {
+      "value": 3400.15,
+      "unit": "million",
+      "page": 62
+    },
+    "total_debt_fy0": {
+      "value": 1.2,
+      "unit": "million",
+      "page": 25
+    },
+    "cash_fy0": {
+      "value": 173.53,
+      "unit": "million",
+      "page": 62
+    },
+    "eps_fy0": {
+      "value": 16.76,
+      "unit": "rupees",
+      "page": 63
+    },
+    "ronw_fy0_pct": {
+      "value": 13.57,
+      "unit": "percent",
+      "page": 99
+    },
+    "nav_per_share_fy0": {
+      "value": 123.5,
+      "unit": "rupees",
+      "page": 99
+    },
+    "stub_period_months": 6,
+    "revenue_stub": {
+      "value": 1337.16,
+      "unit": "million",
+      "page": 63
+    },
+    "pat_stub": {
+      "value": 256.64,
+      "unit": "million",
+      "page": 63
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Sona BLW Precision Forgings Limited",
+        "nse_symbol": "SONACOMS",
+        "pe": 73.52,
+        "ronw_pct": 18.07,
+        "page": 101
+      },
+      {
+        "name": "Bosch Limited",
+        "nse_symbol": "BOSCHLTD",
+        "pe": 41.44,
+        "ronw_pct": 11.41,
+        "page": 101
+      },
+      {
+        "name": "ZF Commercial Vehicle Control Systems India Limited",
+        "nse_symbol": "ZFCVINDIA",
+        "pe": 124.83,
+        "ronw_pct": 6.72,
+        "page": 101
+      },
+      {
+        "name": "Sundram Fasteners Limited",
+        "nse_symbol": "SUNDRMFAST",
+        "pe": 45.1,
+        "ronw_pct": 17.52,
+        "page": 101
+      },
+      {
+        "name": "Endurance Technologies Limited",
+        "nse_symbol": "ENDURANCE",
+        "pe": 44.61,
+        "ronw_pct": 11.75,
+        "page": 101
+      }
+    ],
+    "notes": [
+      "The financial statements are restated standalone, not consolidated. The capitalisation note on page 298 says 'Restated Standalone' and the peer table labels the company Standalone. No consolidated statements are given.",
+      "The price band, lot size, number of fresh issue shares, post-offer shares and the GCP amount are all printed as [\u25cf].",
+      "No combined promoter + promoter group % is printed, so promoter_pre_pct is left null. The individual holdings on page 24 are: promoters 2.65% + 2.66% + 57.32%, and promoter group 2.59% + 0.98% + 0.98%. No post-offer promoter % is printed either.",
+      "RoNW for FY2022 is 13.57% in Basis for Offer Price (profit divided by closing net worth). The Other Financial Information table on page 270 and the KPI table on page 100 show 14.52%, based on average net worth.",
+      "The industry peer P/E summary on page 99 gives a highest of 124.23, but the peer table shows 124.83 for ZF CV. The value from the peer table is used.",
+      "NSE symbols for the peers are not printed in the RHP; they were added from general knowledge.",
+      "Total debt for FY2022 is 1.20 million (non-current 0.35 + current 0.85), taken from page 25. Lease liabilities are not included.",
+      "Cash for FY2022 is cash and cash equivalents only. Other bank balances of 1,558.72 million are excluded.",
+      "The company states it is not undertaking any pre-Offer placement. Shares issued in the last year were a 1:1 bonus issue on February 18, 2022; the last cash allotment was a CCPS conversion on October 17, 2020 at \u20b95,811.39 (face value \u20b9100).",
+      "The cover-page table shows 'Up to \u20b9 1,800.00 million' in the column headed Fresh Issue Size; page 2 gives the same amount in the offer description."
+    ]
+  }
+}

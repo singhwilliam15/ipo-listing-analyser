@@ -1,0 +1,371 @@
+{
+  "symbol": "RSL",
+  "rhp_file": "RSL.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T17:59:44+00:00",
+  "pages_sent": [
+    1,
+    2,
+    32,
+    33,
+    34,
+    35,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    115,
+    116,
+    117,
+    160,
+    161,
+    179,
+    180,
+    181,
+    396,
+    397,
+    398
+  ],
+  "n_pdf_pages": 542,
+  "usage": {
+    "input_tokens": 41739,
+    "output_tokens": 3090,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3648548,
+    "session_id": "6198d527-ec9a-45b6-9675-5bbdd33fc55a"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Rajputana Stainless Limited",
+    "sector": "Chemicals & materials",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "Fiscal 2025",
+    "stub_period_months": 6,
+    "pre_ipo_placement": null,
+    "lead_managers": "Nirbhay Capital Services Private Limited",
+    "revenue_fy2": 947.6744,
+    "rhp_page_revenue_fy2": 103,
+    "revenue_fy1": 909.808,
+    "rhp_page_revenue_fy1": 103,
+    "revenue_fy0": 932.1558,
+    "rhp_page_revenue_fy0": 103,
+    "ebitda_fy2": 43.8458,
+    "rhp_page_ebitda_fy2": 396,
+    "ebitda_fy1": 59.4097,
+    "rhp_page_ebitda_fy1": 396,
+    "ebitda_fy0": 73.7878,
+    "rhp_page_ebitda_fy0": 396,
+    "pat_fy2": 24.0446,
+    "rhp_page_pat_fy2": 103,
+    "pat_fy1": 31.6289,
+    "rhp_page_pat_fy1": 103,
+    "pat_fy0": 39.8514,
+    "rhp_page_pat_fy0": 103,
+    "cfo_fy2": 25.1035,
+    "rhp_page_cfo_fy2": 104,
+    "cfo_fy1": 31.4896,
+    "rhp_page_cfo_fy1": 104,
+    "cfo_fy0": 7.0839,
+    "rhp_page_cfo_fy0": 104,
+    "net_worth_fy0": 151.9467,
+    "rhp_page_net_worth_fy0": 102,
+    "total_debt_fy0": 99.74540000000002,
+    "rhp_page_total_debt_fy0": 35,
+    "cash_fy0": 0.0293,
+    "rhp_page_cash_fy0": 102,
+    "revenue_stub": 501.5294,
+    "rhp_page_revenue_stub": 103,
+    "pat_stub": 24.4096,
+    "rhp_page_pat_stub": 103,
+    "price_low": null,
+    "rhp_page_price_low": 1,
+    "price_high": null,
+    "rhp_page_price_high": 1,
+    "lot_size": null,
+    "rhp_page_lot_size": 2,
+    "promoter_pre_pct": 70.92,
+    "rhp_page_promoter_pre_pct": 33,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 33,
+    "retail_quota_pct": 35.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": null,
+    "eps_fy0": 5.78,
+    "rhp_page_eps_fy0": 103,
+    "ronw_fy0_pct": 26.23,
+    "rhp_page_ronw_fy0_pct": 181,
+    "nav_per_share_fy0": 22.05,
+    "rhp_page_nav_per_share_fy0": 181,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": 1.465,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 0.625,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 6.8917658,
+    "rhp_page_pre_issue_shares_cr": 100,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 100,
+    "ofs_promoter_shares_cr": 0.625,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 98.0,
+    "proceeds_capex_cr": 18.5717,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "Panchmahal Steel Limited; Electrotherm Limited",
+    "n_peers": 2,
+    "peer_pe_list": [
+      182.18,
+      3.16
+    ],
+    "peer_ronw_list": [],
+    "rhp_page_peers": 181
+  },
+  "extract": {
+    "company": "Rajputana Stainless Limited",
+    "sector": "Chemicals & materials",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 1
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 1
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": 2
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "lakh",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": 14650000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "lakh",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 6250000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Shankarlal Deepchand Mehta",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 6250000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 68917658.0,
+      "unit": "shares",
+      "page": 100
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 100
+    },
+    "promoter_pre_pct": {
+      "value": 70.92,
+      "unit": "percent",
+      "page": 33
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 33
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Capex for expansion of existing manufacturing facility at Panchmahal, Gujarat \u2013 Stainless Steel Seamless Pipes",
+        "category": "capex",
+        "amount": {
+          "value": 1857.17,
+          "unit": "lakh",
+          "page": 33
+        }
+      },
+      {
+        "purpose": "Full or part repayment/prepayment of certain outstanding borrowings",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 9800.0,
+          "unit": "lakh",
+          "page": 33
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "lakh",
+          "page": 33
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Nirbhay Capital Services Private Limited"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "Fiscal 2025",
+    "revenue_fy2": {
+      "value": 94767.44,
+      "unit": "lakh",
+      "page": 103
+    },
+    "revenue_fy1": {
+      "value": 90980.8,
+      "unit": "lakh",
+      "page": 103
+    },
+    "revenue_fy0": {
+      "value": 93215.58,
+      "unit": "lakh",
+      "page": 103
+    },
+    "ebitda_fy2": {
+      "value": 4384.58,
+      "unit": "lakh",
+      "page": 396
+    },
+    "ebitda_fy1": {
+      "value": 5940.97,
+      "unit": "lakh",
+      "page": 396
+    },
+    "ebitda_fy0": {
+      "value": 7378.78,
+      "unit": "lakh",
+      "page": 396
+    },
+    "pat_fy2": {
+      "value": 2404.46,
+      "unit": "lakh",
+      "page": 103
+    },
+    "pat_fy1": {
+      "value": 3162.89,
+      "unit": "lakh",
+      "page": 103
+    },
+    "pat_fy0": {
+      "value": 3985.14,
+      "unit": "lakh",
+      "page": 103
+    },
+    "cfo_fy2": {
+      "value": 2510.35,
+      "unit": "lakh",
+      "page": 104
+    },
+    "cfo_fy1": {
+      "value": 3148.96,
+      "unit": "lakh",
+      "page": 104
+    },
+    "cfo_fy0": {
+      "value": 708.39,
+      "unit": "lakh",
+      "page": 104
+    },
+    "net_worth_fy0": {
+      "value": 15194.67,
+      "unit": "lakh",
+      "page": 102
+    },
+    "total_debt_fy0": {
+      "value": 9974.54,
+      "unit": "lakh",
+      "page": 35
+    },
+    "cash_fy0": {
+      "value": 2.93,
+      "unit": "lakh",
+      "page": 102
+    },
+    "eps_fy0": {
+      "value": 5.78,
+      "unit": "rupees",
+      "page": 103
+    },
+    "ronw_fy0_pct": {
+      "value": 26.23,
+      "unit": "percent",
+      "page": 181
+    },
+    "nav_per_share_fy0": {
+      "value": 22.05,
+      "unit": "rupees",
+      "page": 181
+    },
+    "stub_period_months": 6,
+    "revenue_stub": {
+      "value": 50152.94,
+      "unit": "lakh",
+      "page": 103
+    },
+    "pat_stub": {
+      "value": 2440.96,
+      "unit": "lakh",
+      "page": 103
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Panchmahal Steel Limited",
+        "nse_symbol": null,
+        "pe": 182.18,
+        "ronw_pct": null,
+        "page": 181
+      },
+      {
+        "name": "Electrotherm Limited",
+        "nse_symbol": null,
+        "pe": 3.16,
+        "ronw_pct": null,
+        "page": 181
+      }
+    ],
+    "notes": [
+      "Financials are restated standalone (company has no consolidated statements per Basis for Offer Price notes).",
+      "Price band, lot size, offer amounts and post-offer shares are [\u25cf] in RHP.",
+      "promoter_pre_pct 70.92% is Promoters only (Total A); Promoter Group holds a further 7.30% (Total B) as per page 34; combined not printed.",
+      "The full peer comparison table was not on the pages provided; only highest (Panchmahal Steel, 182.18) and lowest (Electrotherm, 3.16) industry P/E and average 58.56 were shown on page 181. Peer RoNW not available.",
+      "Total borrowings FY2025 9,974.54 lakh from summary (page 35); balance sheet shows long-term 1,763.81 + short-term 8,210.73.",
+      "EBITDA as computed in Other Financial Information (PBT + finance cost + depreciation - other income).",
+      "Pre-IPO placement status not determinable from provided pages; bonus issue occurred in Fiscal 2025 (shares doubled)."
+    ]
+  }
+}

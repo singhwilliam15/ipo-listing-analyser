@@ -1,0 +1,345 @@
+{
+  "symbol": "KANOHAR",
+  "rhp_file": "KANOHAR.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:22:32+00:00",
+  "pages_sent": [
+    1,
+    2,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    91,
+    92,
+    93,
+    135,
+    136,
+    154,
+    155,
+    156,
+    383,
+    384,
+    417
+  ],
+  "n_pdf_pages": 508,
+  "usage": {
+    "input_tokens": 30846,
+    "output_tokens": 2923,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.2734131,
+    "session_id": "0bc28c0f-e4da-4da7-975f-c1b14a282704"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Kanohar Electricals Limited",
+    "sector": "Industrials & capital goods",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "FY2026",
+    "stub_period_months": null,
+    "pre_ipo_placement": null,
+    "lead_managers": "Nuvama Wealth Management Limited; IIFL Capital Services Limited",
+    "revenue_fy2": 276.69,
+    "rhp_page_revenue_fy2": 74,
+    "revenue_fy1": 450.612,
+    "rhp_page_revenue_fy1": 74,
+    "revenue_fy0": 653.839,
+    "rhp_page_revenue_fy0": 74,
+    "ebitda_fy2": 31.072,
+    "rhp_page_ebitda_fy2": 383,
+    "ebitda_fy1": 93.392,
+    "rhp_page_ebitda_fy1": 383,
+    "ebitda_fy0": 180.416,
+    "rhp_page_ebitda_fy0": 383,
+    "pat_fy2": 17.755,
+    "rhp_page_pat_fy2": 74,
+    "pat_fy1": 65.118,
+    "rhp_page_pat_fy1": 74,
+    "pat_fy0": 129.733,
+    "rhp_page_pat_fy0": 74,
+    "cfo_fy2": -16.318,
+    "rhp_page_cfo_fy2": 75,
+    "cfo_fy1": 79.382,
+    "rhp_page_cfo_fy1": 75,
+    "cfo_fy0": 25.842000000000002,
+    "rhp_page_cfo_fy0": 75,
+    "net_worth_fy0": 372.842,
+    "rhp_page_net_worth_fy0": 73,
+    "total_debt_fy0": 39.039,
+    "rhp_page_total_debt_fy0": 417,
+    "cash_fy0": 0.002,
+    "rhp_page_cash_fy0": 73,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 154,
+    "price_high": null,
+    "rhp_page_price_high": 154,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": 35.0,
+    "rhp_page_retail_quota_pct": 71,
+    "pre_ipo_price": null,
+    "eps_fy0": 17.43,
+    "rhp_page_eps_fy0": 74,
+    "ronw_fy0_pct": 34.8,
+    "rhp_page_ronw_fy0_pct": 155,
+    "nav_per_share_fy0": 50.09,
+    "rhp_page_nav_per_share_fy0": 155,
+    "fresh_issue_cr": 300.0,
+    "rhp_page_fresh_issue_cr": 70,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 70,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 70,
+    "ofs_shares_cr": 1.1957915,
+    "rhp_page_ofs_shares_cr": 70,
+    "pre_issue_shares_cr": 7.444,
+    "rhp_page_pre_issue_shares_cr": 70,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 70,
+    "ofs_promoter_shares_cr": 1.1957915,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 64.183,
+    "proceeds_gcp_cr": 0.0,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "Kanohar Electricals Limited",
+    "sector": "Industrials & capital goods",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 154
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 154
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 3000.0,
+      "unit": "million",
+      "page": 70
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 70
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 70
+    },
+    "ofs_shares": {
+      "value": 11957915.0,
+      "unit": "shares",
+      "page": 70
+    },
+    "selling_shareholders": [
+      {
+        "name": "K Sons Family Trust",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 11957915.0,
+          "unit": "shares",
+          "page": 70
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 74440000.0,
+      "unit": "shares",
+      "page": 70
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 70
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Capital expenditure: new machinery and equipment at Gangol Manufacturing Facility, office building construction, solar power plants and electric vehicles",
+        "category": "capex",
+        "amount": {
+          "value": 641.83,
+          "unit": "million",
+          "page": 136
+        }
+      },
+      {
+        "purpose": "Funding incremental working capital requirements",
+        "category": "other",
+        "amount": {
+          "value": 1550.0,
+          "unit": "million",
+          "page": 136
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 136
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 71
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Nuvama Wealth Management Limited",
+      "IIFL Capital Services Limited"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "FY2026",
+    "revenue_fy2": {
+      "value": 2766.9,
+      "unit": "million",
+      "page": 74
+    },
+    "revenue_fy1": {
+      "value": 4506.12,
+      "unit": "million",
+      "page": 74
+    },
+    "revenue_fy0": {
+      "value": 6538.39,
+      "unit": "million",
+      "page": 74
+    },
+    "ebitda_fy2": {
+      "value": 310.72,
+      "unit": "million",
+      "page": 383
+    },
+    "ebitda_fy1": {
+      "value": 933.92,
+      "unit": "million",
+      "page": 383
+    },
+    "ebitda_fy0": {
+      "value": 1804.16,
+      "unit": "million",
+      "page": 383
+    },
+    "pat_fy2": {
+      "value": 177.55,
+      "unit": "million",
+      "page": 74
+    },
+    "pat_fy1": {
+      "value": 651.18,
+      "unit": "million",
+      "page": 74
+    },
+    "pat_fy0": {
+      "value": 1297.33,
+      "unit": "million",
+      "page": 74
+    },
+    "cfo_fy2": {
+      "value": -163.18,
+      "unit": "million",
+      "page": 75
+    },
+    "cfo_fy1": {
+      "value": 793.82,
+      "unit": "million",
+      "page": 75
+    },
+    "cfo_fy0": {
+      "value": 258.42,
+      "unit": "million",
+      "page": 75
+    },
+    "net_worth_fy0": {
+      "value": 3728.42,
+      "unit": "million",
+      "page": 73
+    },
+    "total_debt_fy0": {
+      "value": 390.39,
+      "unit": "million",
+      "page": 417
+    },
+    "cash_fy0": {
+      "value": 0.02,
+      "unit": "million",
+      "page": 73
+    },
+    "eps_fy0": {
+      "value": 17.43,
+      "unit": "rupees",
+      "page": 74
+    },
+    "ronw_fy0_pct": {
+      "value": 34.8,
+      "unit": "percent",
+      "page": 155
+    },
+    "nav_per_share_fy0": {
+      "value": 50.09,
+      "unit": "rupees",
+      "page": 155
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [],
+    "notes": [
+      "The financial statements are called 'Restated Financial Information' and are never labelled consolidated. No subsidiaries are mentioned, so the basis is recorded as standalone.",
+      "The peer comparison table was not in the pages provided. Page 155 gives only the industry P/E summary (highest 159.55, lowest 32.19, average 107.05), so the peers list is empty but listed peers do exist.",
+      "The price band, lot size, number of fresh issue shares, post-offer shares and GCP amount are all shown as [\u25cf].",
+      "Promoter shareholding before and after the offer is not on the pages provided.",
+      "Total debt of 390.39 comes from the capitalisation statement and includes accrued interest. The balance sheet gives borrowings of 144.39 non-current plus 246.00 current.",
+      "Share capital rose from 40.15 to 148.88 million in FY2026, apparently from a share split and bonus issue (EPS was restated for both). The pages do not show whether there was any pre-IPO placement or preferential allotment, so pre_ipo_placement is left null.",
+      "Working capital funding of 1,550 million is categorised as 'other'.",
+      "Cash is cash and cash equivalents only (0.02 million). Separate bank balances of 955.29 million are not included."
+    ]
+  }
+}

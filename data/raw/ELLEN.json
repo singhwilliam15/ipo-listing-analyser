@@ -1,0 +1,376 @@
+{
+  "symbol": "ELLEN",
+  "rhp_file": "ELLEN.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-20T18:15:11+00:00",
+  "pages_sent": [
+    1,
+    2,
+    21,
+    22,
+    23,
+    24,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    82,
+    83,
+    84,
+    105,
+    106,
+    124,
+    125,
+    126,
+    308,
+    309,
+    334
+  ],
+  "n_pdf_pages": 417,
+  "usage": {
+    "input_tokens": 42719,
+    "output_tokens": 3292,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3768342,
+    "session_id": "a0bf7d23-381c-4cb2-ba00-14c9083778fe"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Ellenbarrie Industrial Gases Limited",
+    "sector": "Chemicals & materials",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "stub_period_months": null,
+    "pre_ipo_placement": null,
+    "lead_managers": "Motilal Oswal Investment Advisors Limited; IIFL Capital Services Limited (formerly IIFL Securities Limited); JM Financial Limited",
+    "revenue_fy2": 205.10700000000003,
+    "rhp_page_revenue_fy2": 72,
+    "revenue_fy1": 269.475,
+    "rhp_page_revenue_fy1": 72,
+    "revenue_fy0": 312.483,
+    "rhp_page_revenue_fy0": 72,
+    "ebitda_fy2": 33.588,
+    "rhp_page_ebitda_fy2": 126,
+    "ebitda_fy1": 61.53,
+    "rhp_page_ebitda_fy1": 126,
+    "ebitda_fy0": 109.736,
+    "rhp_page_ebitda_fy0": 126,
+    "pat_fy2": 28.142,
+    "rhp_page_pat_fy2": 72,
+    "pat_fy1": 45.289,
+    "rhp_page_pat_fy1": 72,
+    "pat_fy0": 83.289,
+    "rhp_page_pat_fy0": 72,
+    "cfo_fy2": 38.747,
+    "rhp_page_cfo_fy2": 73,
+    "cfo_fy1": 43.747,
+    "rhp_page_cfo_fy1": 73,
+    "cfo_fy0": 4.275,
+    "rhp_page_cfo_fy0": 73,
+    "net_worth_fy0": 493.359,
+    "rhp_page_net_worth_fy0": 71,
+    "total_debt_fy0": 245.296,
+    "rhp_page_total_debt_fy0": 23,
+    "cash_fy0": 0.181,
+    "rhp_page_cash_fy0": 71,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "rhp_page_price_low": 124,
+    "price_high": null,
+    "rhp_page_price_high": 124,
+    "lot_size": null,
+    "rhp_page_lot_size": 2,
+    "promoter_pre_pct": 86.96,
+    "rhp_page_promoter_pre_pct": 22,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 22,
+    "retail_quota_pct": 35.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": null,
+    "eps_fy0": 6.36,
+    "rhp_page_eps_fy0": 72,
+    "ronw_fy0_pct": 24.97,
+    "rhp_page_ronw_fy0_pct": 125,
+    "nav_per_share_fy0": 25.48,
+    "rhp_page_nav_per_share_fy0": 125,
+    "fresh_issue_cr": 400.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 1.131313,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 13.09356,
+    "rhp_page_pre_issue_shares_cr": 68,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 68,
+    "ofs_promoter_shares_cr": 1.131313,
+    "ofs_investor_shares_cr": 0,
+    "proceeds_debt_repayment_cr": 210.0,
+    "proceeds_capex_cr": 104.5,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "LINDEINDIA",
+    "n_peers": 1,
+    "peer_pe_list": [
+      140.74
+    ],
+    "peer_ronw_list": [
+      11.91
+    ],
+    "rhp_page_peers": 125
+  },
+  "extract": {
+    "company": "Ellenbarrie Industrial Gases Limited",
+    "sector": "Chemicals & materials",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 124
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 124
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": 2
+    },
+    "fresh_issue_amount": {
+      "value": 4000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 11313130.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Padam Kumar Agarwala",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 5656565.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Varun Agarwal",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 5656565.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 130935600.0,
+      "unit": "shares",
+      "page": 68
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 68
+    },
+    "promoter_pre_pct": {
+      "value": 86.96,
+      "unit": "percent",
+      "page": 22
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 22
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment/prepayment, in full or in part, of certain outstanding borrowings",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 2100.0,
+          "unit": "million",
+          "page": 105
+        }
+      },
+      {
+        "purpose": "Setting up of an air separation unit at Uluberia-II plant with a capacity of 220 TPD",
+        "category": "capex",
+        "amount": {
+          "value": 1045.0,
+          "unit": "million",
+          "page": 105
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 105
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 35.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Motilal Oswal Investment Advisors Limited",
+      "IIFL Capital Services Limited (formerly IIFL Securities Limited)",
+      "JM Financial Limited"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "revenue_fy2": {
+      "value": 2051.07,
+      "unit": "million",
+      "page": 72
+    },
+    "revenue_fy1": {
+      "value": 2694.75,
+      "unit": "million",
+      "page": 72
+    },
+    "revenue_fy0": {
+      "value": 3124.83,
+      "unit": "million",
+      "page": 72
+    },
+    "ebitda_fy2": {
+      "value": 335.88,
+      "unit": "million",
+      "page": 126
+    },
+    "ebitda_fy1": {
+      "value": 615.3,
+      "unit": "million",
+      "page": 126
+    },
+    "ebitda_fy0": {
+      "value": 1097.36,
+      "unit": "million",
+      "page": 126
+    },
+    "pat_fy2": {
+      "value": 281.42,
+      "unit": "million",
+      "page": 72
+    },
+    "pat_fy1": {
+      "value": 452.89,
+      "unit": "million",
+      "page": 72
+    },
+    "pat_fy0": {
+      "value": 832.89,
+      "unit": "million",
+      "page": 72
+    },
+    "cfo_fy2": {
+      "value": 387.47,
+      "unit": "million",
+      "page": 73
+    },
+    "cfo_fy1": {
+      "value": 437.47,
+      "unit": "million",
+      "page": 73
+    },
+    "cfo_fy0": {
+      "value": 42.75,
+      "unit": "million",
+      "page": 73
+    },
+    "net_worth_fy0": {
+      "value": 4933.59,
+      "unit": "million",
+      "page": 71
+    },
+    "total_debt_fy0": {
+      "value": 2452.96,
+      "unit": "million",
+      "page": 23
+    },
+    "cash_fy0": {
+      "value": 1.81,
+      "unit": "million",
+      "page": 71
+    },
+    "eps_fy0": {
+      "value": 6.36,
+      "unit": "rupees",
+      "page": 72
+    },
+    "ronw_fy0_pct": {
+      "value": 24.97,
+      "unit": "percent",
+      "page": 125
+    },
+    "nav_per_share_fy0": {
+      "value": 25.48,
+      "unit": "rupees",
+      "page": 125
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Linde India Limited",
+        "nse_symbol": "LINDEINDIA",
+        "pe": 140.74,
+        "ronw_pct": 11.91,
+        "page": 125
+      }
+    ],
+    "notes": [
+      "Financials taken as standalone: the peer table labels the company's figures 'Standalone', and the pages given show no consolidated statements.",
+      "net_worth_fy0 is total equity, \u20b94,933.59 million. The RHP also prints a 'Net Worth' of \u20b93,336.19 million (p.23), which leaves out some reserves. RoNW and NAV per share are based on that \u20b93,336.19 million figure.",
+      "promoter_pre_pct of 86.96% covers the two promoters only. The promoter group holds a further 9.51% (p.22). The combined figure is not printed.",
+      "Price band, lot size, number of fresh issue shares, OFS amount and post-offer shares are all shown as [\u25cf] in the RHP.",
+      "GCP amount is [\u25cf] and is capped at 25% of gross proceeds.",
+      "NAV per share is calculated on the weighted average number of shares, as the RHP's notes describe.",
+      "No information on pre-IPO placements appears in the pages given. A split and bonus issue took place in April 2024.",
+      "Linde India's NSE symbol (LINDEINDIA) is not printed in the RHP. It is filled in from general knowledge.",
+      "Retail quota is 'not less than 35%' of the Offer."
+    ]
+  }
+}

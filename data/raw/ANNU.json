@@ -1,0 +1,378 @@
+{
+  "symbol": "ANNU",
+  "rhp_file": "ANNU.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-19T17:23:40+00:00",
+  "pages_sent": [
+    1,
+    2,
+    4,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    84,
+    85,
+    86,
+    107,
+    108,
+    120,
+    121,
+    122,
+    350,
+    351,
+    382
+  ],
+  "n_pdf_pages": 462,
+  "usage": {
+    "input_tokens": 33614,
+    "output_tokens": 3224,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.30172099999999996,
+    "session_id": "202211c0-26a5-49c4-a406-4125789bc969"
+  },
+  "checks": [
+    "retail quota 50.0 is not 10 or 35"
+  ],
+  "fields": {
+    "company_rhp": "Annu Projects Limited",
+    "sector": "Infrastructure, construction & real estate",
+    "exchange": "both",
+    "financials_basis": "standalone",
+    "fy0_label": "FY2026",
+    "stub_period_months": null,
+    "pre_ipo_placement": null,
+    "lead_managers": "Mefcom Capital Markets Limited",
+    "revenue_fy2": 153.982,
+    "rhp_page_revenue_fy2": 69,
+    "revenue_fy1": 180.066,
+    "rhp_page_revenue_fy1": 69,
+    "revenue_fy0": 241.248,
+    "rhp_page_revenue_fy0": 69,
+    "ebitda_fy2": 28.504,
+    "rhp_page_ebitda_fy2": 122,
+    "ebitda_fy1": 32.192,
+    "rhp_page_ebitda_fy1": 122,
+    "ebitda_fy0": 50.194,
+    "rhp_page_ebitda_fy0": 122,
+    "pat_fy2": 17.387,
+    "rhp_page_pat_fy2": 69,
+    "pat_fy1": 21.104,
+    "rhp_page_pat_fy1": 69,
+    "pat_fy0": 33.027,
+    "rhp_page_pat_fy0": 69,
+    "cfo_fy2": 8.205,
+    "rhp_page_cfo_fy2": 70,
+    "cfo_fy1": -35.378,
+    "rhp_page_cfo_fy1": 70,
+    "cfo_fy0": -0.247,
+    "rhp_page_cfo_fy0": 70,
+    "net_worth_fy0": 155.262,
+    "rhp_page_net_worth_fy0": 67,
+    "total_debt_fy0": 52.538,
+    "rhp_page_total_debt_fy0": 382,
+    "cash_fy0": 2.769,
+    "rhp_page_cash_fy0": 67,
+    "revenue_stub": null,
+    "pat_stub": null,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": 50.0,
+    "rhp_page_retail_quota_pct": 2,
+    "pre_ipo_price": null,
+    "eps_fy0": 6.91,
+    "rhp_page_eps_fy0": 69,
+    "ronw_fy0_pct": 21.27,
+    "rhp_page_ronw_fy0_pct": 121,
+    "nav_per_share_fy0": 32.48,
+    "rhp_page_nav_per_share_fy0": 121,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": 1.7683,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 4.780967,
+    "rhp_page_pre_issue_shares_cr": 84,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 84,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 15.408,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "LIKHITHA; Bondada Engineering Limited; EMSLIMITED; Suyog Telematics Limited",
+    "n_peers": 4,
+    "peer_pe_list": [
+      23.17,
+      16.6,
+      24.65,
+      16.11
+    ],
+    "peer_ronw_list": [
+      9.37,
+      28.82,
+      8.62,
+      12.88
+    ],
+    "rhp_page_peers": 121
+  },
+  "extract": {
+    "company": "Annu Projects Limited",
+    "sector": "Infrastructure, construction & real estate",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": 17683000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 47809670.0,
+      "unit": "shares",
+      "page": 84
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 84
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Funding capital expenditure requirements for purchase of machinery or equipment",
+        "category": "capex",
+        "amount": {
+          "value": 154.08,
+          "unit": "million",
+          "page": 107
+        }
+      },
+      {
+        "purpose": "Funding working capital requirements",
+        "category": "other",
+        "amount": {
+          "value": 1150.0,
+          "unit": "million",
+          "page": 107
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 107
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 50.0,
+      "unit": "percent",
+      "page": 2
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lead_managers": [
+      "Mefcom Capital Markets Limited"
+    ],
+    "financials_basis": "standalone",
+    "fy0_label": "FY2026",
+    "revenue_fy2": {
+      "value": 1539.82,
+      "unit": "million",
+      "page": 69
+    },
+    "revenue_fy1": {
+      "value": 1800.66,
+      "unit": "million",
+      "page": 69
+    },
+    "revenue_fy0": {
+      "value": 2412.48,
+      "unit": "million",
+      "page": 69
+    },
+    "ebitda_fy2": {
+      "value": 285.04,
+      "unit": "million",
+      "page": 122
+    },
+    "ebitda_fy1": {
+      "value": 321.92,
+      "unit": "million",
+      "page": 122
+    },
+    "ebitda_fy0": {
+      "value": 501.94,
+      "unit": "million",
+      "page": 122
+    },
+    "pat_fy2": {
+      "value": 173.87,
+      "unit": "million",
+      "page": 69
+    },
+    "pat_fy1": {
+      "value": 211.04,
+      "unit": "million",
+      "page": 69
+    },
+    "pat_fy0": {
+      "value": 330.27,
+      "unit": "million",
+      "page": 69
+    },
+    "cfo_fy2": {
+      "value": 82.05,
+      "unit": "million",
+      "page": 70
+    },
+    "cfo_fy1": {
+      "value": -353.78,
+      "unit": "million",
+      "page": 70
+    },
+    "cfo_fy0": {
+      "value": -2.47,
+      "unit": "million",
+      "page": 70
+    },
+    "net_worth_fy0": {
+      "value": 1552.62,
+      "unit": "million",
+      "page": 67
+    },
+    "total_debt_fy0": {
+      "value": 525.38,
+      "unit": "million",
+      "page": 382
+    },
+    "cash_fy0": {
+      "value": 27.69,
+      "unit": "million",
+      "page": 67
+    },
+    "eps_fy0": {
+      "value": 6.91,
+      "unit": "rupees",
+      "page": 69
+    },
+    "ronw_fy0_pct": {
+      "value": 21.27,
+      "unit": "percent",
+      "page": 121
+    },
+    "nav_per_share_fy0": {
+      "value": 32.48,
+      "unit": "rupees",
+      "page": 121
+    },
+    "stub_period_months": null,
+    "revenue_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "pat_stub": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Likhitha Infrastructure Limited",
+        "nse_symbol": "LIKHITHA",
+        "pe": 23.17,
+        "ronw_pct": 9.37,
+        "page": 121
+      },
+      {
+        "name": "Bondada Engineering Limited",
+        "nse_symbol": null,
+        "pe": 16.6,
+        "ronw_pct": 28.82,
+        "page": 121
+      },
+      {
+        "name": "EMS Limited",
+        "nse_symbol": "EMSLIMITED",
+        "pe": 24.65,
+        "ronw_pct": 8.62,
+        "page": 121
+      },
+      {
+        "name": "Suyog Telematics Limited",
+        "nse_symbol": null,
+        "pe": 16.11,
+        "ronw_pct": 12.88,
+        "page": 121
+      }
+    ],
+    "notes": [
+      "Mixed basis: FY2026 restated figures are Standalone (subsidiary Ann Projects Pvt Ltd divested in FY2025); FY2025 and FY2024 are Consolidated. financials_basis set to standalone for fy0.",
+      "Fresh issue only; no offer for sale, so no selling shareholders.",
+      "Price band, lot size, issue amount and post-issue shares are [\u25cf] in the RHP.",
+      "Retail quota is 'not less than 50%', NII not less than 40%, QIB not more than 10%.",
+      "Promoter shareholding % is not on the pages provided.",
+      "Pre-IPO placement status unknown: the capital history pages provided stop at June 20, 2020; a bonus issue dated September 28, 2024 is mentioned, but no allotment details for the 12 months before the RHP are shown.",
+      "Working capital object (\u20b91,150.00 million) categorised as 'other'.",
+      "Total debt 525.38 = current 388.03 + non-current 137.35 borrowings (capitalisation statement), excluding lease liabilities.",
+      "NSE symbols for peers are not printed in the RHP. Those given are from general knowledge; Bondada and Suyog prices were sourced from BSE.",
+      "Peer table lists 'Suyog Telematics Limited', while the notes call it 'Suyog Telecom Limited'."
+    ]
+  }
+}

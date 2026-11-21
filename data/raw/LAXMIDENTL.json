@@ -1,0 +1,444 @@
+{
+  "symbol": "LAXMIDENTL",
+  "rhp_file": "LAXMIDENTL.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-21T05:53:43+00:00",
+  "pages_sent": [
+    1,
+    2,
+    25,
+    26,
+    27,
+    28,
+    122,
+    123,
+    125,
+    126,
+    127,
+    128,
+    145,
+    146,
+    147,
+    175,
+    176,
+    200,
+    201,
+    202,
+    461,
+    462,
+    498
+  ],
+  "n_pdf_pages": 610,
+  "usage": {
+    "input_tokens": 37746,
+    "output_tokens": 3646,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.3436309,
+    "session_id": "3c5b9ee7-0b64-4faf-a0ec-37e534080f93"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Laxmi Dental Limited",
+    "sector": "Healthcare & pharma",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024",
+    "stub_period_months": 6,
+    "pre_ipo_placement": null,
+    "lead_managers": "Nuvama Wealth Management Limited; Motilal Oswal Investment Advisors Limited; SBI Capital Markets Limited",
+    "revenue_fy2": 136.843,
+    "rhp_page_revenue_fy2": 127,
+    "revenue_fy1": 161.631,
+    "rhp_page_revenue_fy1": 127,
+    "revenue_fy0": 193.555,
+    "rhp_page_revenue_fy0": 127,
+    "ebitda_fy2": 5.413,
+    "rhp_page_ebitda_fy2": 28,
+    "ebitda_fy1": 8.964,
+    "rhp_page_ebitda_fy1": 28,
+    "ebitda_fy0": 23.79,
+    "rhp_page_ebitda_fy0": 28,
+    "pat_fy2": -18.679,
+    "rhp_page_pat_fy2": 127,
+    "pat_fy1": -4.163,
+    "rhp_page_pat_fy1": 127,
+    "pat_fy0": 25.229,
+    "rhp_page_pat_fy0": 127,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 42.465,
+    "rhp_page_net_worth_fy0": 126,
+    "total_debt_fy0": 42.025,
+    "rhp_page_total_debt_fy0": 27,
+    "cash_fy0": 0.698,
+    "rhp_page_cash_fy0": 125,
+    "revenue_stub": 116.78,
+    "rhp_page_revenue_stub": 127,
+    "pat_stub": 22.739,
+    "rhp_page_pat_stub": 127,
+    "price_low": null,
+    "rhp_page_price_low": 201,
+    "price_high": null,
+    "rhp_page_price_high": 201,
+    "lot_size": null,
+    "promoter_pre_pct": 46.56,
+    "rhp_page_promoter_pre_pct": 26,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 26,
+    "retail_quota_pct": null,
+    "pre_ipo_price": null,
+    "eps_fy0": 4.8,
+    "rhp_page_eps_fy0": 27,
+    "ronw_fy0_pct": 78.78,
+    "rhp_page_ronw_fy0_pct": 202,
+    "nav_per_share_fy0": 8.63,
+    "rhp_page_nav_per_share_fy0": 27,
+    "fresh_issue_cr": 138.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 1.3085467,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 5.173785,
+    "rhp_page_pre_issue_shares_cr": 122,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 122,
+    "ofs_promoter_shares_cr": 0.117112,
+    "ofs_investor_shares_cr": 1.1614267,
+    "proceeds_debt_repayment_cr": 27.584000000000003,
+    "proceeds_capex_cr": 68.511,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "POLYMED",
+    "n_peers": 1,
+    "peer_pe_list": [
+      94.02
+    ],
+    "peer_ronw_list": [
+      19.05
+    ],
+    "rhp_page_peers": 202
+  },
+  "extract": {
+    "company": "Laxmi Dental Limited",
+    "sector": "Healthcare & pharma",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 201
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 201
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 1380.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 13085467.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Rajesh Vrajlal Khakhar",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 196604.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Sameer Kamlesh Merchant",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 434598.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "OrbiMed Asia II Mauritius Limited",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 11614267.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Jigna Rajesh Khakhar",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 239838.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Hasmukh Vrajlal Khakhar",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 150040.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Amrish Mahendrabhai Desai",
+        "kind": "other",
+        "shares_offered": {
+          "value": 150040.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Parag Jamnadas Bhimjiyani",
+        "kind": "other",
+        "shares_offered": {
+          "value": 150040.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "Kunal Kamlesh Merchant",
+        "kind": "promoter_group",
+        "shares_offered": {
+          "value": 150040.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 51737850.0,
+      "unit": "shares",
+      "page": 122
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 122
+    },
+    "promoter_pre_pct": {
+      "value": 46.56,
+      "unit": "percent",
+      "page": 26
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 26
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment/prepayment of certain outstanding borrowings availed by the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 229.84,
+          "unit": "million",
+          "page": 176
+        }
+      },
+      {
+        "purpose": "Investment in certain Subsidiaries for repayment/prepayment of borrowings",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 46.0,
+          "unit": "million",
+          "page": 176
+        }
+      },
+      {
+        "purpose": "Capital expenditure for purchase of new machinery for the Company",
+        "category": "capex",
+        "amount": {
+          "value": 435.07,
+          "unit": "million",
+          "page": 176
+        }
+      },
+      {
+        "purpose": "Investment in Subsidiary Bizdent Devices Private Limited for purchase of new machinery",
+        "category": "capex",
+        "amount": {
+          "value": 250.04,
+          "unit": "million",
+          "page": 176
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 176
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": null,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Nuvama Wealth Management Limited",
+      "Motilal Oswal Investment Advisors Limited",
+      "SBI Capital Markets Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024",
+    "revenue_fy2": {
+      "value": 1368.43,
+      "unit": "million",
+      "page": 127
+    },
+    "revenue_fy1": {
+      "value": 1616.31,
+      "unit": "million",
+      "page": 127
+    },
+    "revenue_fy0": {
+      "value": 1935.55,
+      "unit": "million",
+      "page": 127
+    },
+    "ebitda_fy2": {
+      "value": 54.13,
+      "unit": "million",
+      "page": 28
+    },
+    "ebitda_fy1": {
+      "value": 89.64,
+      "unit": "million",
+      "page": 28
+    },
+    "ebitda_fy0": {
+      "value": 237.9,
+      "unit": "million",
+      "page": 28
+    },
+    "pat_fy2": {
+      "value": -186.79,
+      "unit": "million",
+      "page": 127
+    },
+    "pat_fy1": {
+      "value": -41.63,
+      "unit": "million",
+      "page": 127
+    },
+    "pat_fy0": {
+      "value": 252.29,
+      "unit": "million",
+      "page": 127
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 424.65,
+      "unit": "million",
+      "page": 126
+    },
+    "total_debt_fy0": {
+      "value": 420.25,
+      "unit": "million",
+      "page": 27
+    },
+    "cash_fy0": {
+      "value": 6.98,
+      "unit": "million",
+      "page": 125
+    },
+    "eps_fy0": {
+      "value": 4.8,
+      "unit": "rupees",
+      "page": 27
+    },
+    "ronw_fy0_pct": {
+      "value": 78.78,
+      "unit": "percent",
+      "page": 202
+    },
+    "nav_per_share_fy0": {
+      "value": 8.63,
+      "unit": "rupees",
+      "page": 27
+    },
+    "stub_period_months": 6,
+    "revenue_stub": {
+      "value": 1167.8,
+      "unit": "million",
+      "page": 127
+    },
+    "pat_stub": {
+      "value": 227.39,
+      "unit": "million",
+      "page": 127
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Poly Medicure Limited",
+        "nse_symbol": "POLYMED",
+        "pe": 94.02,
+        "ronw_pct": 19.05,
+        "page": 202
+      }
+    ],
+    "notes": [
+      "Price band, lot size, retail quota and post-offer shares are not printed (shown as [\u25cf] or not on the pages provided).",
+      "The cash flow statement is not on the pages provided, so CFO is null.",
+      "Net worth for FY2024 uses total equity attributable to owners (424.65). The 'Net Worth' in the summary table (445.71) includes non-controlling interest.",
+      "RoNW 78.78% is calculated on average total equity including NCI. The company says it has no comparable listed peer but discloses Poly Medicure as the peer. The NSE symbol POLYMED is not printed and was added from general knowledge.",
+      "Promoter pre-offer holding of 46.56% covers Promoters plus Promoter Group. Jigna, Hasmukh and Kunal are called 'Other Selling Shareholders' but are listed in the Promoter Group, so they are classed as promoter_group.",
+      "On December 19, 2024, 290,597 CCPS were converted into 23,922,450 equity shares. In 2024 there was also a share split and a 17:1 bonus issue. No priced pre-IPO placement appears on these pages, so pre_ipo_placement is left null.",
+      "EPS 4.80 is for continuing plus discontinued operations. EPS for continuing operations only is 5.11.",
+      "EBITDA as reported. Adjusted EBITDA for FY2024 is 326.78 million."
+    ]
+  }
+}
