@@ -12,7 +12,7 @@ price, and the strengths, risks and most similar past IPOs behind that estimate.
 | **Tested by** | walk-forward: each of 2024, 2025 and 2026 scored by models trained only on earlier years (297 IPOs pooled) |
 | **Chance of a gain, once subscription is final** | AUC 0.83, 78% accuracy pooled (a coin flip is 0.5; always saying "gain" is 72%) |
 | **Expected gain** | median error 9.4 percentage points pooled; ranges widened so about 50% and 80% of outcomes fall inside |
-| **Before bidding closes** | weak (pooled AUC 0.61), so the app keeps the pre-bid estimate as the headline while bidding is open and says so |
+| **Before bidding closes** | weak: pooled AUC 0.63, gain error 10.6 points. Pre-bid probabilities under 80% are shown as "about the base rate" |
 
 Educational tool, not investment advice. Models learn from past listings and can be wrong.
 
@@ -62,12 +62,40 @@ the accuracy figures come from models that never saw their test years.
 ## Logging live subscription
 
 `python -m src.build snapshot` appends NSE's category-wise subscription (QIB, NII, retail, employee and shareholder quotas)
-for every open issue to `data/snapshots.csv`, with a timestamp. It is safe to run from cron every 30 minutes: runs cannot overlap
+for every open issue to `data/snapshots.csv`, with a timestamp. It is safe to run on a schedule every 30 minutes: runs cannot overlap
 (lock file), a row is written only when NSE's own "updated as on" stamp has changed, and NSE errors are logged, not raised.
+Use `--all` to include issues that have not opened yet.
+
+**macOS / Linux (cron)**
 
 ```
 */30 9-17 * * 1-5  cd /path/to/ipo-analyser && .venv/bin/python -m src.build snapshot
 ```
+
+**Windows (Task Scheduler)**
+
+Open PowerShell and run the following, replacing the folder with where you cloned the repo. It runs Monday to Friday from 9:30
+and repeats every 30 minutes for 8 hours, never starts a second copy while one is running, and catches up if the PC was asleep.
+
+```powershell
+$dir = "C:\path\to\ipo-analyser"
+$action  = New-ScheduledTaskAction -Execute "$dir\.venv\Scripts\python.exe" -Argument "-m src.build snapshot" -WorkingDirectory $dir
+$trigger = New-ScheduledTaskTrigger -Weekly -DaysOfWeek Monday,Tuesday,Wednesday,Thursday,Friday -At 9:30am
+$trigger.Repetition = (New-ScheduledTaskTrigger -Once -At 9:30am -RepetitionInterval (New-TimeSpan -Minutes 30) -RepetitionDuration (New-TimeSpan -Hours 8)).Repetition
+$settings = New-ScheduledTaskSettingsSet -StartWhenAvailable -MultipleInstances IgnoreNew -ExecutionTimeLimit (New-TimeSpan -Minutes 10)
+Register-ScheduledTask -TaskName "IPO snapshot" -Action $action -Trigger $trigger -Settings $settings
+```
+
+Prefer the window? In Task Scheduler choose **Create Task**, then: *Triggers > New*: Weekly, Monday to Friday, start 9:30, tick
+"Repeat task every 30 minutes for a duration of 8 hours"; *Actions > New*: Program `C:\path\to\ipo-analyser\.venv\Scripts\python.exe`,
+arguments `-m src.build snapshot`, Start in `C:\path\to\ipo-analyser`; *Settings*: "Run task as soon as possible after a scheduled
+start is missed" and "Do not start a new instance".
+
+Notes:
+- Task Scheduler uses the PC's clock, so keep it on India time (the snapshot file stores UTC timestamps either way).
+- The task runs under your account while you are logged in, which is enough because NSE only answers from a normal connection.
+- Check it with `Get-ScheduledTaskInfo -TaskName "IPO snapshot"` (look at LastTaskResult 0) and watch `data\snapshots.csv` grow.
+- Remove it with `Unregister-ScheduledTask -TaskName "IPO snapshot" -Confirm:$false`.
 
 ## Setup
 

@@ -51,7 +51,7 @@ with st.sidebar:
     if research:
         use_demo = st.toggle("Synthetic demo data", value=not path.exists(), help="Fake companies, only for trying the screens.")
     st.divider()
-    st.caption("Models learn from IPOs listed 2022-2025 and are scored on 2026. Educational tool, not investment advice.")
+    st.caption("Live estimates use models refit on all IPOs to date. Accuracy is measured by a walk-forward: each year is scored by models trained only on earlier years. Educational tool, not investment advice.")
 
 
 # --------------------------------------------------------------------------- #
@@ -62,7 +62,7 @@ def hist_frame(mtime: float) -> pd.DataFrame:
 
 @st.cache_resource(show_spinner="Fitting models and running the walk-forward backtest…")
 def report_models(mtime: float):
-    """published = trained on 2022-2025 (its 2026 scores are the ones shown); production = refit on every row, used for live IPOs."""
+    """published = trained on 2022-2025 (a single 2026 test); production = refit on every IPO to date and used for live estimates. Accuracy comes from the walk-forward."""
     d = report.prepare(pd.read_csv(ROOT / "data" / "ipos.csv"))
     wf_raw = report.walk_forward_raw(d)
     published = report.fit_models(d, wf_raw=wf_raw)
@@ -157,9 +157,9 @@ def page_new() -> None:
     if a is None or a.match.symbol != m.symbol:
         return
     sub = {**a.live_sub, **{k: v for k, v in man.items() if v > 0}}
-    rep = report.build_report(a.row, a.record, st.session_state.get("qual"), models, d, sub, closed, backtest_res=bt)
+    rep = report.build_report(a.row, a.record, st.session_state.get("qual"), models, d, sub, closed, backtest_res={**bt, "walk_forward": wf})
     rep.notes += a.notes
-    render_report(rep, a, sub, bt, wf, models.info['n_train'])
+    render_report(rep, a, sub, bt, wf, models.info["n_train"])
 
 
 VERDICT_STYLE = {"Apply": ("#137333", "#e6f4ea"), "Apply with caution": ("#b06000", "#fef7e0"),
@@ -229,7 +229,8 @@ def render_report(rep, a, sub: dict, bt: dict, wf: dict, n_live_train: int) -> N
             col.metric(f"For a {t:.0%} chance", need_txt(t), f"now {now:.1f}x" if now else "", delta_color="off")
         st.caption("Bidding is open and QIBs bid mostly on the last day, so the headline below stays the pre-bid estimate.")
     k = st.columns(4)
-    k[0].metric(f"Chance of a listing gain ({e['headline']})", _pct(e["prob"]), help="Probability the listing-day open is above the issue price.")
+    k[0].metric(f"Chance of a listing gain ({e['headline']})", e["prob_text"],
+                help="Probability the listing-day open is above the issue price. Before bidding, anything below 80% is shown as about the base rate, because the pre-bid model cannot separate IPOs that finely.")
     k[1].metric("Expected listing gain", _pct(gq["p50"], True), f"likely {_pct(gq['p25'], True)} to {_pct(gq['p75'], True)}", delta_color="off")
     k[2].metric("Implied listing price", f"₹{e['prices']['p50']:,.0f}" if pd.notna(e["prices"]["p50"]) else "–",
                 f"₹{e['prices']['p25']:,.0f} – ₹{e['prices']['p75']:,.0f}" if pd.notna(e["prices"]["p25"]) else "", delta_color="off")
@@ -248,12 +249,12 @@ def render_report(rep, a, sub: dict, bt: dict, wf: dict, n_live_train: int) -> N
         st.info("Pre-bid estimate from fundamentals and the 10 most similar past IPOs. This is a weak signal, so the range is wide on purpose.")
     else:
         st.caption("QIB subscription needed for a 70% / 85% / 95% chance: " + " / ".join(need_txt(t) for t in (0.70, 0.85, 0.95)) + f" · gain model {e['gain_model']}")
-    st.caption(f"Estimates for this IPO come from models refit on all {n_live_train} IPOs with a listing price, including 2026. "
-               "The accuracy figures are different and cleaner: models trained to 2025 and tested on 2026 (below), plus a walk-forward test over 2024-2026.")
+    st.caption(f"Estimates for this IPO come from models refit on all {n_live_train} IPOs to date, which cannot be tested out of sample. "
+               "Their accuracy is measured by the walk-forward: each of 2024, 2025 and 2026 scored by models trained only on earlier years (Model accuracy tab).")
     if wf and "pooled" in wf["prob"].index:
         pw, ga = wf["prob"].loc["pooled"], wf["gain"].loc[("A", "pooled")]
-        st.caption(f"Walk-forward, pooled over {int(pw['n'])} IPOs listed 2024-2026: subscription model AUC {pw['demand_auc']:.2f}, accuracy {pw['demand_acc']:.0%}; "
-                   f"fundamentals only AUC {pw['prebid_auc']:.2f}; gain median error {ga['mae_p50']:.1f} points. See the Model accuracy tab.")
+        st.caption(f"Walk-forward, pooled over {int(pw['n'])} IPOs listed 2024-2026: subscription model AUC {pw['demand_auc']:.2f}, accuracy {pw['demand_acc_raw']:.0%}; "
+                   f"pre-bid AUC {pw['prebid_auc']:.2f}; gain median error {ga['mae_p50']:.1f} points. See the Model accuracy tab.")
 
     qq = rep.qual
     pt = lambda p: p["text"] + (f" *(PDF p.{p['page']})*" if p.get("page") else "")
@@ -344,20 +345,51 @@ def show_walk_forward(wf: dict) -> None:
     if not wf or not len(wf.get("years", [])):
         return
     st.markdown("### Walk-forward: every test year scored by models trained on all earlier years")
-    st.caption("2024 is tested by models trained on 2022-2023, 2025 on 2022-2024, 2026 on 2022-2025. 'pooled' scores all test years together.")
-    pr = wf["prob"].rename(columns={"n": "IPOs", "demand_auc": "subscription AUC", "demand_brier": "subscription Brier", "demand_acc": "subscription accuracy",
-                                    "prebid_auc": "pre-bid AUC", "prebid_acc": "pre-bid accuracy", "base_rate": "base rate"})
-    st.dataframe(pr.style.format({"subscription AUC": "{:.2f}", "subscription Brier": "{:.3f}", "subscription accuracy": "{:.0%}",
-                                  "pre-bid AUC": "{:.2f}", "pre-bid accuracy": "{:.0%}", "base rate": "{:.0%}"}), width="stretch")
-    names = {"A": "Model A (quantile regression)", "B": "Model B (similar QIB)", "prebid": "Pre-bid (10 nearest IPOs)"}
+    st.caption("2024 is tested by models trained on 2022-2023, 2025 on 2022-2024, 2026 on 2022-2025. 'pooled' scores all test years together. "
+               "Live estimates use models refit on every IPO to date, so this is the evidence for them.")
+    pr = wf["prob"]
+    st.markdown("**Once subscription is final** (subscription model)")
+    t = pr[["n", "base_rate", "demand_auc", "demand_brier_raw", "demand_acc_raw"]].rename(columns={
+        "n": "IPOs", "base_rate": "base rate", "demand_auc": "AUC", "demand_brier_raw": "Brier", "demand_acc_raw": "accuracy"})
+    st.dataframe(t.style.format({"IPOs": "{:.0f}", "base rate": "{:.0%}", "AUC": "{:.2f}", "Brier": "{:.3f}", "accuracy": "{:.0%}"}), width="stretch")
+    st.markdown("**Before bidding opens**: new method (forecast final QIB, push 21 points through the models) vs the previous one (logistic on fundamentals)")
+    t = pr[["prebid_auc", "prebid_brier", "prebid_acc", "old_prebid_auc", "old_prebid_brier", "old_prebid_acc"]].rename(columns={
+        "prebid_auc": "new AUC", "prebid_brier": "new Brier", "prebid_acc": "new accuracy",
+        "old_prebid_auc": "old AUC", "old_prebid_brier": "old Brier", "old_prebid_acc": "old accuracy"})
+    st.dataframe(t.style.format({"new AUC": "{:.2f}", "new Brier": "{:.3f}", "new accuracy": "{:.0%}", "old AUC": "{:.2f}", "old Brier": "{:.3f}", "old accuracy": "{:.0%}"}), width="stretch")
+    rule = wf.get("prebid_rule")
+    if rule:
+        st.caption(f"Why the 80% rule: pooled out-of-sample, only {rule['n_high']} pre-bid probabilities reached 80% and {rule['hit_high']:.0%} of those listed above issue; "
+                   f"the other {rule['n_low']} listed above issue {rule['hit_low']:.0%} of the time against a {rule['base_rate']:.0%} base rate, so below 80% the app says 'about the base rate'.")
+    fq = wf.get("forecast")
+    if fq is not None and len(fq):
+        st.markdown("**The QIB forecast behind it** (log1p of final QIB subscription)")
+        st.dataframe(fq.rename(columns={"n": "IPOs", "rmse": "error (RMSE)", "r2_vs_mean": "R² vs average", "corr": "correlation"}).style.format(
+            {"IPOs": "{:.0f}", "error (RMSE)": "{:.2f}", "R² vs average": "{:.2f}", "correlation": "{:.2f}"}), width="stretch")
+        st.caption("R² near 0.1 means fundamentals explain little of how much QIB demand an IPO draws, which is why pre-bid ranges are wide.")
+    names = {"A": "Model A (quantile regression, final figures)", "B": "Model B (similar QIB, final figures)",
+             "prebid": "Pre-bid, new (QIB forecast)", "prebid_knn": "Pre-bid, old (10 nearest IPOs)"}
     g = wf["gain"].reset_index()
     g["model"] = g["model"].map(names)
     g = g.rename(columns={"period": "test year", "mae_p50": "median error (pts)", "cov_25_75_raw": "25-75 covers (raw)", "cov_10_90_raw": "10-90 covers (raw)",
                           "cov_25_75_cal": "25-75 covers (widened)", "cov_10_90_cal": "10-90 covers (widened)"})
     pct = {c: "{:.0%}" for c in g.columns if "covers" in c}
-    st.dataframe(g.style.format(pct | {"median error (pts)": "{:.1f}", "spearman": "{:.2f}"}), hide_index=True, width="stretch")
+    st.markdown("**Expected listing gain**")
+    st.dataframe(g.style.format(pct | {"n": "{:.0f}", "median error (pts)": "{:.1f}", "spearman": "{:.2f}"}), hide_index=True, width="stretch")
     st.caption("Targets: 25-75 should cover about 50%, 10-90 about 80%. 'Widened' ranges use only the other test years' residuals, so the "
                "widening is never scored on the data it was fitted on.")
+    st.markdown("**Isotonic calibration of the subscription model's probabilities, before and after** (each year calibrated on the other years only)")
+    cmp_ = pr[["demand_brier_raw", "demand_brier_cal", "demand_ece_raw", "demand_ece_cal", "demand_acc_raw", "demand_acc_cal"]].rename(columns={
+        "demand_brier_raw": "Brier before", "demand_brier_cal": "Brier after", "demand_ece_raw": "calibration error before",
+        "demand_ece_cal": "calibration error after", "demand_acc_raw": "accuracy before", "demand_acc_cal": "accuracy after"})
+    st.dataframe(cmp_.style.format({"Brier before": "{:.3f}", "Brier after": "{:.3f}", "calibration error before": "{:.3f}", "calibration error after": "{:.3f}",
+                                    "accuracy before": "{:.0%}", "accuracy after": "{:.0%}"}), width="stretch")
+    c1, c2 = st.columns(2)
+    for col, key, title in ((c1, "calibration_before", "Pooled calibration before (deciles)"), (c2, "calibration_after", "Pooled calibration after (deciles)")):
+        col.markdown(title)
+        col.dataframe(wf[key].style.format({"n": "{:.0f}", "predicted": "{:.0%}", "actual": "{:.0%}"}), width="stretch")
+    st.caption("Isotonic calibration is only applied if it lowers the walk-forward Brier score by at least 0.005. With a few hundred IPOs it can overfit, "
+               "and here it does not clear that bar, so the app shows the subscription model's probabilities as fitted. Change `ISOTONIC` in src/report.py to force it on.")
 
 
 def show_backtest(bt: dict, wf: dict | None = None) -> None:
@@ -365,28 +397,29 @@ def show_backtest(bt: dict, wf: dict | None = None) -> None:
     if not bt.get("demand"):
         st.info("Not enough 2026 rows to score.")
         return
-    st.markdown("### Published test: trained 2022-2025, scored on 2026")
-    st.markdown(f"**{bt['n_test']} IPOs listed in 2026. Models were fitted on {bt['n_train']} IPOs from 2022-2025 and never saw these.** "
-                "(The models behind live estimates are refit on every row; their scores cannot be measured, so these are the ones shown.)")
-    rows = {"Subscription model (QIB, total, retail, PAT margin)": bt["demand"], "Fundamentals only (pre-bid)": bt["prebid"]}
+    st.markdown("### Single test: trained 2022-2025, scored on 2026")
+    st.markdown(f"**{bt['n_test']} IPOs listed in 2026. These models were fitted on {bt['n_train']} IPOs from 2022-2025 and never saw them.** "
+                "It is one year, so the walk-forward above is the fairer summary.")
+    rows = {"Subscription model (final figures)": bt["demand"], "Pre-bid, new (QIB forecast)": bt["prebid"], "Pre-bid, old (logistic on fundamentals)": bt["prebid_old"]}
     st.dataframe(pd.DataFrame(rows).T[["n", "auc", "brier", "accuracy", "base_rate"]].style.format({"n": "{:.0f}", "auc": "{:.2f}", "brier": "{:.3f}", "accuracy": "{:.0%}", "base_rate": "{:.0%}"}), width="stretch")
     st.dataframe(bt["baselines"].style.format("{:.0%}"), width="stretch")
     c1, c2 = st.columns(2)
     c1.markdown("Calibration, subscription model (deciles)")
-    c1.dataframe(bt["calibration_demand"].style.format({"predicted": "{:.0%}", "actual": "{:.0%}"}), width="stretch")
+    c1.dataframe(bt["calibration_demand_raw"].style.format({"predicted": "{:.0%}", "actual": "{:.0%}"}), width="stretch")
     c2.markdown("Calibration, pre-bid model (deciles)")
     c2.dataframe(bt["calibration_prebid"].style.format({"predicted": "{:.0%}", "actual": "{:.0%}"}), width="stretch")
-    g = pd.DataFrame({"Model A (quantile regression)": bt["gain_a"], "Model B (similar QIB)": bt["gain_b"], "Pre-bid (10 nearest IPOs)": bt["gain_prebid_knn"]}).T
+    g = pd.DataFrame({"Model A (quantile regression)": bt["gain_a"], "Model B (similar QIB)": bt["gain_b"],
+                      "Pre-bid, new (QIB forecast)": bt["gain_prebid"], "Pre-bid, old (10 nearest IPOs)": bt["gain_prebid_knn"]}).T
     st.markdown(f"Listing-gain %: Model {bt['gain_model_default']} is the default (chosen on the last full year inside the training data). "
                 "Ranges are widened using 2024-2025 walk-forward residuals only.")
     st.dataframe(g.style.format({"n": "{:.0f}", "mae_p50": "{:.1f}", "cov_25_75": "{:.0%}", "cov_10_90": "{:.0%}", "cov_25_75_raw": "{:.0%}", "cov_10_90_raw": "{:.0%}",
                                  "spearman": "{:.2f}", "pinball": "{:.2f}"}), width="stretch")
     st.caption("mae_p50 = median absolute error of the 50th-percentile prediction, in percentage points. cov_* = share of outcomes inside the range (targets 50% and 80%); "
-               "the _raw columns are before widening. One year (2026) is a small sample; the pooled walk-forward above is the fairer summary.")
+               "the _raw columns are before widening.")
     if bt.get("widen", {}).get("A"):
         w = pd.DataFrame({m: {band: f"+{v['inner']:.1f} / +{v['outer']:.1f}" for band, v in tb.items()} for m, tb in bt["widen"].items()}).T
         st.markdown("Range widening by QIB band (points added to each side, inner 25-75 / outer 10-90)")
-        st.dataframe(w.rename(index={"A": "Model A", "B": "Model B", "prebid": "Pre-bid"}), width="stretch")
+        st.dataframe(w.rename(index={"A": "Model A", "B": "Model B", "prebid": "Pre-bid (QIB forecast)", "prebid_knn": "Pre-bid (10 nearest)"}), width="stretch")
     st.markdown("Strategies on 2026")
     st.dataframe(bt["strategies"].rename(columns={"expected_gain_per_application_pct": "expected gain per application %"}).style.format(
         {"hit_rate": "{:.0%}", "avg_gain_pct": "{:+.1f}", "expected gain per application %": "{:+.1f}", "sum_expected_gain_per_lot_rs": "₹{:,.0f}"}), width="stretch")

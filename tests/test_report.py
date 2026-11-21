@@ -275,7 +275,7 @@ def test_walk_forward_tables_have_every_year_and_pooled(data, wf_raw):
     assert list(wf["prob"].index) == ["2024", "2025", "2026", "pooled"]
     assert wf["prob"].loc["pooled", "n"] == sum(wf["prob"].loc[y, "n"] for y in ("2024", "2025", "2026"))
     g = wf["gain"]
-    assert {m for m, _ in g.index} == {"A", "B", "prebid"}
+    assert {m for m, _ in g.index} == {"A", "B", "prebid", "prebid_knn"}
     assert ("A", "pooled") in g.index and wf["prob"].loc["pooled", "demand_auc"] > 0.8
 
 
@@ -311,10 +311,12 @@ def test_qib_band_edges():
 
 def test_prebid_ranges_are_widened(models, data):
     e = R.estimate(models, a_row(data), {}, False)
-    raw_knn = R.similar(models, a_row(data), 10)["listing_gain_pct"]
-    raw_width = raw_knn.quantile(0.90) - raw_knn.quantile(0.10)
+    pts = R.prebid_points(models, a_row(data).to_frame().T)
+    raw = R.mix_quantiles(pts["qk"])
+    raw_width = raw["p90"][0] - raw["p10"][0]
     assert e["gain"]["p90"] - e["gain"]["p10"] >= raw_width - 1e-9
-    assert models.widen["prebid"]["pre-bid"]["outer"] >= 0
+    w = models.widen["prebid"]["pre-bid"]
+    assert w["inner"] >= 0 and w["outer"] >= 0 and set(models.widen) >= {"A", "B", "prebid", "prebid_knn"}
 
 
 def test_production_refit_uses_every_row_but_published_does_not(data, wf_raw):
@@ -333,3 +335,213 @@ def test_split_without_cutoff_puts_everything_in_train(data):
     assert len(te) == 0 and len(tr) == int(data["listing_gain_pct"].notna().sum())
     tr, te = R.split(data, "2025-01-01", "2026-01-01")
     assert (te["listing_date"].dt.year == 2025).all() and (tr["listing_date"] < "2025-01-01").all()
+
+
+# ---- pre-bid estimate from a QIB forecast --------------------------------- #
+class FixedForecast(R.QibForecaster):
+    """A pluggable forecaster: always predicts the same final QIB subscription."""
+
+    def __init__(self, qib, sd=1.0):
+        self.mu, self.sd = float(np.log1p(qib)), sd
+        self.seen = None
+
+    def fit(self, train, features):
+        return self
+
+    def forecast(self, rows, snapshots=None):
+        self.seen = snapshots
+        return np.full(len(rows), self.mu), np.full(len(rows), self.sd)
+
+
+def test_qib_forecaster_is_fitted_on_training_rows_only(data):
+    base = R.fit_models(data)
+    scrambled = data.copy()
+    mask = scrambled["listing_date"] >= "2026-01-01"
+    scrambled.loc[mask, "sub_qib_x"] = scrambled.loc[mask, "sub_qib_x"].to_numpy()[::-1] * 7 + 50
+    scrambled["l_qib"] = np.log1p(scrambled["sub_qib_x"])
+    again = R.fit_models(scrambled)
+    np.testing.assert_allclose(base.forecaster.pipe[-1].coef_, again.forecaster.pipe[-1].coef_)
+    assert base.forecaster.sd_ == pytest.approx(again.forecaster.sd_)
+    assert base.forecaster.n_ == int(base.train["l_qib"].notna().sum()) and base.forecaster.features == R.PREBID_NUM
+    assert R.fit_models(data, cutoff=None).forecaster.n_ > base.forecaster.n_              # production uses every row
+
+
+def test_forecast_distribution_points_and_weights():
+    assert len(R.POINT_Z) == 21 == R.N_POINTS and R.POINT_Z[0] == -2.5 and R.POINT_Z[-1] == 2.5
+    assert R.POINT_W.sum() == pytest.approx(1.0) and R.POINT_W[10] == R.POINT_W.max()
+    assert R.POINT_W == pytest.approx(R.POINT_W[::-1])                                     # symmetric around the forecast mean
+
+
+def test_prebid_mixture_uses_the_forecast(models, data):
+    row = a_row(data)
+    probs, gains = [], []
+    for q in (1.0, 10.0, 200.0):
+        models.forecaster = FixedForecast(q)
+        e = R.estimate(models, row, {}, False)
+        probs.append(e["prob"]); gains.append(e["gain"]["p50"])
+        assert e["gain_model"] == "QIB forecast" and e["wide"] and e["stage"] == "pre-bid"
+    models.forecaster = R.RidgeQibForecaster().fit(models.train, R.PREBID_NUM)
+    assert probs[0] < probs[1] < probs[2] and gains[0] < gains[1] < gains[2]               # a bigger forecast means a better outlook
+
+
+def test_mixture_probability_and_quantiles_are_consistent(models, data):
+    pts = R.prebid_points(models, a_row(data).to_frame().T)
+    pk, qk = pts["pk"], pts["qk"]
+    p = R.mix_probability(pk)[0]
+    assert pk.min() <= p <= pk.max() and p == pytest.approx(float((pk[0] * R.POINT_W).sum()))
+    q = R.mix_quantiles(qk)
+    vals = [q[k][0] for k in R.QKEYS]
+    assert vals == sorted(vals)
+    # twenty-one identical points must reproduce that point's own quantiles
+    same = np.repeat(qk[:, 10:11, :], R.N_POINTS, axis=1)
+    q2 = R.mix_quantiles(same)
+    np.testing.assert_allclose([q2[k][0] for k in R.QKEYS], same[0, 0], atol=0.2)
+    # the mixture is wider than its middle point because the forecast is uncertain
+    assert vals[-1] - vals[0] >= qk[0, 10, -1] - qk[0, 10, 0] - 1e-6
+
+
+def test_prebid_keeps_knn_as_a_table_only(models, data):
+    e = R.estimate(models, a_row(data), {}, False)
+    assert len(e["similar"]) == 10 and e["headline"] == "pre-bid" and e["gain_model"] != "kNN"
+    rep = R.build_report(a_row(data), None, None, models, data, {}, False)
+    assert not any("most similar past IPOs listed above issue" in x for x in rep.reasons)
+
+
+def test_forecaster_interface_and_snapshot_stub(data):
+    with pytest.raises(NotImplementedError):
+        R.QibForecaster().forecast(data)
+    from src.qibforecast import SnapshotQibForecaster
+    train, _ = R.split(data)
+    stub = SnapshotQibForecaster().fit(train, R.PREBID_NUM)
+    plain = R.RidgeQibForecaster().fit(train, R.PREBID_NUM)
+    rows = data.head(5)
+    np.testing.assert_allclose(stub.forecast(rows, {"day": 1, "sub_qib_x": 4.0})[0], plain.forecast(rows)[0])    # snapshots ignored for now
+    assert "TODO" in SnapshotQibForecaster.__doc__ and "snapshots.csv" in SnapshotQibForecaster.__doc__
+
+
+def test_a_custom_forecaster_receives_snapshots(models, data):
+    models.forecaster = FixedForecast(30.0)
+    R.estimate(models, a_row(data), {}, False, snapshots={"day": 1, "sub_qib_x": 3.0})
+    assert models.forecaster.seen == {"day": 1, "sub_qib_x": 3.0}
+    models.forecaster = R.RidgeQibForecaster().fit(models.train, R.PREBID_NUM)
+
+
+# ---- low pre-bid probabilities are shown as the base rate ------------------ #
+def test_prebid_probability_text_rule():
+    assert R.prebid_prob_text(0.55, 0.74) == ("about the base rate (74%)", False)
+    assert R.prebid_prob_text(0.799, 0.74)[1] is False
+    assert R.prebid_prob_text(0.80, 0.74) == ("80%", True)
+    assert R.prebid_prob_text(0.93, 0.74) == ("93%", True)
+    assert R.prebid_prob_text(float("nan"), 0.74) == ("–", False)
+
+
+def test_base_rate_comes_from_training_rows_and_drives_the_text(models, data):
+    train, _ = R.split(data)
+    assert models.base_rate == pytest.approx(float((train["listing_gain_pct"] > 0).mean()))
+    assert R.fit_models(data, cutoff=None).base_rate == pytest.approx(float((data["listing_gain_pct"] > 0).mean()))
+    models.forecaster = FixedForecast(1.0)                                              # a weak forecast: low pre-bid probability
+    e = R.estimate(models, a_row(data), {}, False)
+    assert e["prob"] < 0.80 and not e["prob_precise"] and e["prob_text"] == f"about the base rate ({models.base_rate:.0%})"
+    md = R.to_markdown(R.build_report(a_row(data), None, None, models, data, {}, False))
+    assert "about the base rate" in md and f"model value {e['prob']:.0%}" in md
+    models.forecaster = FixedForecast(400.0)                                            # a strong forecast: precise figure
+    e = R.estimate(models, a_row(data), {}, False)
+    assert e["prob"] >= 0.80 and e["prob_precise"] and e["prob_text"] == f"{e['prob']:.0%}"
+    models.forecaster = R.RidgeQibForecaster().fit(models.train, R.PREBID_NUM)
+    fin = R.estimate(models, a_row(data), {"sub_qib_x": 2.0, "sub_total_x": 1.5, "sub_retail_x": 1.0}, True)
+    assert fin["prob_precise"] and fin["prob_text"] == f"{fin['prob']:.0%}"              # final figures are always precise
+
+
+# ---- walk-forward: new method vs old, and isotonic calibration ------------- #
+def test_walk_forward_compares_new_and_old_prebid(data, wf_raw):
+    wf = R.walk_forward(data, wf_raw)
+    cols = set(wf["prob"].columns)
+    assert {"prebid_auc", "prebid_brier", "prebid_acc", "old_prebid_auc", "old_prebid_brier", "old_prebid_acc"} <= cols
+    assert {"demand_brier_raw", "demand_brier_cal", "demand_ece_raw", "demand_ece_cal"} <= cols
+    assert {("prebid", "pooled"), ("prebid_knn", "pooled")} <= set(wf["gain"].index)
+    assert list(wf["forecast"].index) == ["2024", "2025", "2026", "pooled"]
+    rule = wf["prebid_rule"]
+    assert rule["n_high"] + rule["n_low"] == int(wf["prob"].loc["pooled", "n"])
+    assert len(wf["calibration_before"]) == len(wf["calibration_after"]) > 0
+
+
+def test_isotonic_is_fitted_leave_one_year_out(wf_raw):
+    maps = R.loyo_isotonic(wf_raw)
+    assert set(maps) == set(wf_raw)
+    grid = np.linspace(0.05, 0.95, 19)
+    before = {y: maps[y].predict(grid) for y in maps}
+    changed = {y: {**r, "yd": 1 - r["yd"]} if y == 2026 else r for y, r in wf_raw.items()}      # flip only 2026's outcomes
+    after = R.loyo_isotonic(changed)
+    np.testing.assert_allclose(after[2026].predict(grid), before[2026])                  # 2026's own map ignores its own labels
+    assert not np.allclose(after[2024].predict(grid), before[2024])                      # other years' maps use them
+    for m in maps.values():
+        out = m.predict(grid)
+        assert (np.diff(out) >= -1e-12).all() and out.min() >= 0 and out.max() <= 1      # monotone, valid probabilities
+
+
+def test_isotonic_gate_and_modes(models, wf_raw, monkeypatch):
+    raws = [wf_raw[y] for y in sorted(wf_raw)]
+    g = R.iso_gate(raws)
+    assert {"brier_raw", "brier_cal", "ece_raw", "ece_cal", "applied", "reason"} <= set(g)
+    assert g["applied"] == (g["brier_raw"] - g["brier_cal"] >= R.ISO_MIN_BRIER_GAIN)
+    assert R.iso_gate(raws[:1])["applied"] is False                                       # one year gives no evidence
+    monkeypatch.setattr(R, "ISOTONIC", "on")
+    assert R.iso_gate(raws)["applied"] is True and "forced" in R.iso_gate(raws)["reason"]
+    forced = R.fit_models(synth(), wf_raw=wf_raw)
+    assert forced.iso_demand is not None and forced.iso_demand is forced.iso_candidate
+    monkeypatch.setattr(R, "ISOTONIC", "off")
+    off = R.fit_models(synth(), wf_raw=wf_raw)
+    assert off.iso_demand is None and off.iso_candidate is not None                       # fitted and kept, just not applied
+    p = np.array([0.2, 0.6, 0.9])
+    np.testing.assert_allclose(off.cal_prob(p), p)                                       # identity when not applied
+    assert (np.diff(forced.cal_prob(np.linspace(0.05, 0.95, 10))) >= -1e-12).all()
+
+
+def test_forced_isotonic_changes_demand_probability_and_qib_needed(wf_raw, monkeypatch):
+    d = synth()
+    monkeypatch.setattr(R, "ISOTONIC", "off")
+    off = R.fit_models(d, wf_raw=wf_raw)
+    monkeypatch.setattr(R, "ISOTONIC", "on")
+    on = R.fit_models(d, wf_raw=wf_raw)
+    row = a_row(d)
+    sub = {"sub_qib_x": 20.0, "sub_total_x": 15.0, "sub_retail_x": 5.0}
+    e_off, e_on = R.estimate(off, row, sub, True), R.estimate(on, row, sub, True)
+    assert e_on["prob"] == pytest.approx(float(on.cal_prob(e_off["prob"])))
+    assert e_on["qib_needed"] != e_off["qib_needed"] or e_on["prob"] != e_off["prob"]
+
+
+def test_backtest_reports_isotonic_before_and_after(models, data):
+    bt = R.backtest(models, data)
+    assert {"demand_raw", "demand_isotonic", "prebid_old", "gain_prebid", "gain_prebid_knn", "ece", "iso_gate", "qib_forecast"} <= set(bt)
+    assert set(bt["ece"]) == {"demand_raw", "demand_isotonic"}
+    assert len(bt["calibration_demand_raw"]) == len(bt["calibration_demand"])
+
+
+def test_new_prebid_widening_and_walk_forward_are_leak_free(data):
+    base = R.fit_models(data)
+    scrambled = data.copy()
+    m = scrambled["listing_date"] >= "2026-01-01"
+    scrambled.loc[m, "listing_gain_pct"] = np.random.default_rng(3).permutation(scrambled.loc[m, "listing_gain_pct"].to_numpy()) + 300
+    again = R.fit_models(scrambled)
+    assert base.widen == again.widen and base.iso_gate == again.iso_gate and base.base_rate == again.base_rate
+    row, sub = a_row(data), {}
+    e1, e2 = R.estimate(base, row, sub, False), R.estimate(again, row, sub, False)
+    assert e1["prob"] == pytest.approx(e2["prob"]) and e1["gain"] == pytest.approx(e2["gain"])
+
+
+# ---- stale text ------------------------------------------------------------ #
+def test_report_header_and_app_text_say_live_models_are_refit():
+    import pathlib
+    md = R.to_markdown(R.build_report(a_row(synth()), None, None, R.fit_models(synth()), synth(), {}, False))
+    assert "refit on all IPOs to date" in md.split("\n")[2] and "walk-forward" in md.split("\n")[2]
+    app = pathlib.Path(__file__).resolve().parents[1].joinpath("app.py").read_text(encoding="utf-8")
+    assert "Live estimates use models refit on all IPOs to date" in app and "walk-forward" in app
+    assert "Models learn from IPOs listed 2022-2025 and are scored on 2026" not in app
+
+
+def test_readme_documents_windows_task_scheduler():
+    import pathlib
+    readme = pathlib.Path(__file__).resolve().parents[1].joinpath("README.md").read_text(encoding="utf-8")
+    assert "*/30 9-17 * * 1-5" in readme                                                   # the cron line stays
+    assert "Task Scheduler" in readme and "Register-ScheduledTask" in readme and "src.build snapshot" in readme
+    assert "-RepetitionInterval" in readme and "Monday" in readme
