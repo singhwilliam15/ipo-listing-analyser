@@ -258,8 +258,7 @@ def get_document(symbol: str, detail, pdf: Path | None, nse: NSEClient) -> tuple
         return dest, "RHP (cached)"
     url = find_rhp_url(detail)
     if not url:
-        raise DataError("NSE has no RHP for this issue yet. Upload the RHP or DRHP PDF (SEBI: sebi.gov.in > Filings > "
-                        "Public Issues) and try again.")
+        raise DataError("NSE has not published the RHP for this issue yet. It usually appears a few days before bidding opens; check back then.")
     extract_rhp.RHP_DIR.mkdir(parents=True, exist_ok=True)
     nse.download(url, dest)
     return dest, "RHP (NSE)"

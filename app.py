@@ -56,16 +56,14 @@ def hist_frame(mtime: float) -> pd.DataFrame:
 
 def page_new() -> None:
     st.header("Analyse a new IPO")
-    st.caption("Type a company name or NSE symbol. The app finds it on NSE, reads the RHP with Claude, flags good and bad "
+    st.caption("Type a company name or NSE symbol. The app finds it on NSE, downloads its RHP, reads it with Claude, flags good and bad "
                "points and shows how similar past IPOs listed. Historical patterns only; not investment advice.")
     hp = ROOT / "data" / "ipos.csv"
     if not hp.exists():
         st.info("data/ipos.csv is missing; see README.md to build it.")
         return
     hist = hist_frame(hp.stat().st_mtime)
-    c1, c2 = st.columns([3, 2])
-    q = c1.text_input("IPO name or symbol", placeholder="e.g. Mahanadi Coalfields")
-    up = c2.file_uploader("RHP / DRHP PDF (optional)", type="pdf", help="Use this when NSE has no RHP yet, or for a DRHP.")
+    q = st.text_input("IPO name or symbol", placeholder="e.g. Mahanadi Coalfields")
     if st.button("Find", type="primary") and q.strip():
         try:
             st.session_state["matches"] = live.find_issue(q)
@@ -79,14 +77,9 @@ def page_new() -> None:
     if m.segment == "SME":
         st.warning("This is an SME issue. The history here is mainboard only, so the numbers are not reliable for it.")
     if st.button("Analyse"):
-        pdf = None
-        if up is not None:
-            import tempfile
-            pdf = Path(tempfile.mkdtemp()) / f"{m.symbol}.pdf"
-            pdf.write_bytes(up.getvalue())
         with st.status("Working…", expanded=True) as status:
             try:
-                st.session_state["analysis"] = live.analyse_issue(m, pdf=pdf, hist=hist, progress=status.write)
+                st.session_state["analysis"] = live.analyse_issue(m, hist=hist, progress=status.write)
                 status.update(label="Done", state="complete")
             except Exception as exc:
                 status.update(label="Failed", state="error")

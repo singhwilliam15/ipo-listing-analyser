@@ -12,7 +12,7 @@ outcomes and are never used as features.
 Open the app, pick **Analyse a new IPO**, type a name or NSE symbol (for example `Mahanadi Coalfields`). The app:
 
 1. finds it among NSE's current and upcoming issues,
-2. downloads the RHP from NSE (or use the upload box for a DRHP or any PDF),
+2. downloads the RHP automatically from NSE (RHP only; if NSE has not published it yet the app says so),
 3. has Claude extract the financials and issue terms,
 4. lists the good and bad points, each with how similar past IPOs listed,
 5. shows what past IPOs did at each final-subscription level, with the implied listing-price range,
