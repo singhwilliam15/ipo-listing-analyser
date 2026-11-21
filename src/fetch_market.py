@@ -92,11 +92,13 @@ class NSEClient:
 
     # -- endpoints --------------------------------------------------------- #
     def past_issues(self, start: date, end: date) -> pd.DataFrame:
-        """All issues (mainboard + SME) that listed between start and end, fetched year by year."""
+        """All issues (mainboard + SME) that listed between start and end, fetched month by month
+        (a yearly window silently dropped some issues)."""
         rows: list[dict] = []
         cur = start
         while cur <= end:
-            stop = min(end, date(cur.year, 12, 31))
+            nxt = date(cur.year + (cur.month == 12), cur.month % 12 + 1, 1)
+            stop = min(end, nxt - timedelta(days=1))
             js = self.get_json("public-past-issues", from_date=cur.strftime("%d-%m-%Y"),
                                to_date=stop.strftime("%d-%m-%Y"), security_type="all")
             rows += js if isinstance(js, list) else js.get("data", [])
@@ -214,6 +216,26 @@ def parse_past_issues(rows: Iterable[dict]) -> pd.DataFrame:
     if df.empty:
         return df
     return df.drop_duplicates("symbol", keep="last").sort_values("listing_date").reset_index(drop=True)
+
+
+def issue_row_from_detail(symbol: str, detail: Any) -> dict | None:
+    """One past-issues row built from an ipo-detail payload. NSE's past-issues list omits some
+    mainboard IPOs (Ola Electric, IREDA, NTPC Green, Tata Capital, Aegis Vopak) though their issue pages work."""
+    if not isinstance(detail, dict) or not detail.get("metaInfo"):
+        return None
+    meta, rows = detail["metaInfo"], {}
+    for d in _walk(detail.get("issueInfo", {})):
+        if isinstance(d.get("title"), str) and "value" in d:
+            rows[d["title"].strip().lower()] = str(d.get("value") or "").strip().strip('"')
+    period = re.findall(r"\d{1,2}-[A-Za-z]{3}-\d{4}", rows.get("issue period", ""))
+    lo, hi = price_band(rows.get("price range"))
+    lot = num(re.findall(r"[\d,]+", rows.get("bid lot", ""))[0]) if re.findall(r"[\d,]+", rows.get("bid lot", "")) else np.nan
+    if len(period) < 2 or not meta.get("listingDate") or np.isnan(hi):
+        return None
+    return {"symbol": symbol.upper(), "company": meta.get("companyName"), "segment": "Mainboard",
+            "issue_open": pd.to_datetime(period[0]), "issue_close": pd.to_datetime(period[1]),
+            "listing_date": pd.to_datetime(meta["listingDate"]), "price_low": lo, "price_high": hi,
+            "issue_price": hi, "lot_size": lot, "series": "EQ"}
 
 
 CATEGORY_PATTERNS = [   # order matters: sNII/bNII before generic NII

@@ -1,0 +1,351 @@
+{
+  "symbol": "TATACAP",
+  "rhp_file": "TATACAP.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-21T20:34:37+00:00",
+  "pages_sent": [
+    1,
+    2,
+    21,
+    22,
+    23,
+    24,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    119,
+    120,
+    121,
+    144,
+    145,
+    150,
+    151,
+    152,
+    621,
+    622,
+    660
+  ],
+  "n_pdf_pages": 836,
+  "usage": {
+    "input_tokens": 42265,
+    "output_tokens": 3448,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.41088959999999997,
+    "session_id": "59ff5b14-28dd-4fc3-90f7-09cfa64ee647"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "Tata Capital Limited",
+    "sector": "Banking & NBFC",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "stub_period_months": 3,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "Kotak Mahindra Capital Company Limited; Axis Capital Limited; BNP Paribas; Citigroup Global Markets India Private Limited; HDFC Bank Limited; HSBC Securities and Capital Markets (India) Private Limited; ICICI Securities Limited; IIFL Capital Services Limited; J.P. Morgan India Private Limited; SBI Capital Markets Limited",
+    "revenue_fy2": 13628.85,
+    "rhp_page_revenue_fy2": 106,
+    "revenue_fy1": 18174.82,
+    "rhp_page_revenue_fy1": 106,
+    "revenue_fy0": 28312.74,
+    "rhp_page_revenue_fy0": 106,
+    "ebitda_fy2": 10763.22,
+    "rhp_page_ebitda_fy2": 621,
+    "ebitda_fy1": 14247.76,
+    "rhp_page_ebitda_fy1": 621,
+    "ebitda_fy0": 20338.22,
+    "rhp_page_ebitda_fy0": 621,
+    "pat_fy2": 2945.77,
+    "rhp_page_pat_fy2": 106,
+    "pat_fy1": 3326.96,
+    "rhp_page_pat_fy1": 106,
+    "pat_fy0": 3655.02,
+    "rhp_page_pat_fy0": 106,
+    "cfo_fy2": null,
+    "cfo_fy1": null,
+    "cfo_fy0": null,
+    "net_worth_fy0": 33191.81,
+    "rhp_page_net_worth_fy0": 105,
+    "total_debt_fy0": 208414.93,
+    "rhp_page_total_debt_fy0": 23,
+    "cash_fy0": 9478.2,
+    "rhp_page_cash_fy0": 105,
+    "revenue_stub": 7664.81,
+    "rhp_page_revenue_stub": 106,
+    "pat_stub": 1040.93,
+    "rhp_page_pat_stub": 106,
+    "price_low": null,
+    "rhp_page_price_low": 150,
+    "price_high": null,
+    "rhp_page_price_high": 150,
+    "lot_size": null,
+    "promoter_pre_pct": 88.6,
+    "rhp_page_promoter_pre_pct": 22,
+    "promoter_post_pct": null,
+    "rhp_page_promoter_post_pct": 22,
+    "retail_quota_pct": null,
+    "rhp_page_retail_quota_pct": 102,
+    "pre_ipo_price": null,
+    "eps_fy0": 9.3,
+    "rhp_page_eps_fy0": 107,
+    "ronw_fy0_pct": 11.2,
+    "rhp_page_ronw_fy0_pct": 152,
+    "nav_per_share_fy0": 79.5,
+    "rhp_page_nav_per_share_fy0": 152,
+    "fresh_issue_cr": null,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": 21.0,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": 26.582428,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 403.4869037,
+    "rhp_page_pre_issue_shares_cr": 102,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 102,
+    "ofs_promoter_shares_cr": 23.0,
+    "ofs_investor_shares_cr": 3.582428,
+    "proceeds_debt_repayment_cr": 0.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": null,
+    "n_peers": 0,
+    "peer_pe_list": [],
+    "peer_ronw_list": []
+  },
+  "extract": {
+    "company": "Tata Capital Limited",
+    "sector": "Banking & NBFC",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 150
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 150
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": 210000000.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": 265824280.0,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "Tata Sons Private Limited",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": 230000000.0,
+          "unit": "shares",
+          "page": 1
+        }
+      },
+      {
+        "name": "International Finance Corporation",
+        "kind": "investor",
+        "shares_offered": {
+          "value": 35824280.0,
+          "unit": "shares",
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 4034869037.0,
+      "unit": "shares",
+      "page": 102
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 102
+    },
+    "promoter_pre_pct": {
+      "value": 88.6,
+      "unit": "percent",
+      "page": 22
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 22
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Augmentation of the Company's Tier-I capital base to meet future capital requirements including onward lending",
+        "category": "other",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 144
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": 102
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": null,
+      "unit": "rupees",
+      "page": null
+    },
+    "lead_managers": [
+      "Kotak Mahindra Capital Company Limited",
+      "Axis Capital Limited",
+      "BNP Paribas",
+      "Citigroup Global Markets India Private Limited",
+      "HDFC Bank Limited",
+      "HSBC Securities and Capital Markets (India) Private Limited",
+      "ICICI Securities Limited",
+      "IIFL Capital Services Limited",
+      "J.P. Morgan India Private Limited",
+      "SBI Capital Markets Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2025 (March 31, 2025)",
+    "revenue_fy2": {
+      "value": 136288.5,
+      "unit": "million",
+      "page": 106
+    },
+    "revenue_fy1": {
+      "value": 181748.2,
+      "unit": "million",
+      "page": 106
+    },
+    "revenue_fy0": {
+      "value": 283127.4,
+      "unit": "million",
+      "page": 106
+    },
+    "ebitda_fy2": {
+      "value": 107632.2,
+      "unit": "million",
+      "page": 621
+    },
+    "ebitda_fy1": {
+      "value": 142477.6,
+      "unit": "million",
+      "page": 621
+    },
+    "ebitda_fy0": {
+      "value": 203382.2,
+      "unit": "million",
+      "page": 621
+    },
+    "pat_fy2": {
+      "value": 29457.7,
+      "unit": "million",
+      "page": 106
+    },
+    "pat_fy1": {
+      "value": 33269.6,
+      "unit": "million",
+      "page": 106
+    },
+    "pat_fy0": {
+      "value": 36550.2,
+      "unit": "million",
+      "page": 106
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "net_worth_fy0": {
+      "value": 331918.1,
+      "unit": "million",
+      "page": 105
+    },
+    "total_debt_fy0": {
+      "value": 2084149.3,
+      "unit": "million",
+      "page": 23
+    },
+    "cash_fy0": {
+      "value": 94782.0,
+      "unit": "million",
+      "page": 105
+    },
+    "eps_fy0": {
+      "value": 9.3,
+      "unit": "rupees",
+      "page": 107
+    },
+    "ronw_fy0_pct": {
+      "value": 11.2,
+      "unit": "percent",
+      "page": 152
+    },
+    "nav_per_share_fy0": {
+      "value": 79.5,
+      "unit": "rupees",
+      "page": 152
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 76648.1,
+      "unit": "million",
+      "page": 106
+    },
+    "pat_stub": {
+      "value": 10409.3,
+      "unit": "million",
+      "page": 106
+    },
+    "no_listed_peers": false,
+    "peers": [],
+    "notes": [
+      "Price band, lot size, issue amounts and post-offer shares are shown as [\u25cf] in the RHP.",
+      "PAT figures are profit from continuing operations including non-controlling interest. Profit attributable to owners: FY25 36,646.6, FY24 31,502.1, FY23 30,292.0, Q1 FY26 9,898.9 (\u20b9 million).",
+      "Net worth uses equity attributable to owners from the balance sheet (331,918.1). The summary table prints a regulatory 'Net Worth' of 325,878.2 for FY25.",
+      "promoter_pre_pct of 88.6% covers Tata Sons only. Promoter Group (other than the Promoter) holds another 7.0% (page 22). The combined figure is not printed.",
+      "Retail portion is 'not less than 166,118,498 Equity Shares'. The percentage is not printed on these pages.",
+      "Cash flow statement pages were not provided, so CFO is null.",
+      "Peer comparison table (page 153) was not provided. Only peer P/E summary given: highest 37.8, lowest 12.1, average 26.6; P/B highest 6.5, lowest 2.0, average 4.1.",
+      "Pre-IPO: rights issue of 51,074,292 shares for about \u20b917,518.5 million allotted on July 18, 2025. The per-share price is not printed on these pages. 183,867,495 shares were also allotted to TMF Holdings on May 13, 2025 under the TMFL merger scheme.",
+      "Object of the offer is Tier-I capital augmentation (onward lending). It is categorised as 'other' and is 100% of Net Proceeds.",
+      "Stub period is the three months ended June 30, 2025."
+    ]
+  }
+}

@@ -1,0 +1,417 @@
+{
+  "symbol": "DCX",
+  "rhp_file": "DCX.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-21T20:35:57+00:00",
+  "pages_sent": [
+    1,
+    2,
+    22,
+    23,
+    24,
+    25,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    88,
+    89,
+    90,
+    101,
+    102,
+    116,
+    117,
+    118,
+    296,
+    297,
+    299
+  ],
+  "n_pdf_pages": 437,
+  "usage": {
+    "input_tokens": 40326,
+    "output_tokens": 3445,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.08590099999999999,
+    "session_id": "992caeef-eaa4-42cf-96dc-8b40d5bc8cc2"
+  },
+  "checks": [],
+  "fields": {
+    "company_rhp": "DCX Systems Limited",
+    "sector": "Electronics & EMS",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2022",
+    "stub_period_months": 3,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "Edelweiss Financial Services Limited; Axis Capital Limited; Saffron Capital Advisors Private Limited",
+    "revenue_fy2": 449.262,
+    "rhp_page_revenue_fy2": 76,
+    "revenue_fy1": 641.163,
+    "rhp_page_revenue_fy1": 76,
+    "revenue_fy0": 1102.273,
+    "rhp_page_revenue_fy0": 76,
+    "ebitda_fy2": 30.513,
+    "rhp_page_ebitda_fy2": 296,
+    "ebitda_fy1": 10.08,
+    "rhp_page_ebitda_fy1": 296,
+    "ebitda_fy0": 83.873,
+    "rhp_page_ebitda_fy0": 296,
+    "pat_fy2": 9.744,
+    "rhp_page_pat_fy2": 76,
+    "pat_fy1": 29.558,
+    "rhp_page_pat_fy1": 76,
+    "pat_fy0": 65.608,
+    "rhp_page_pat_fy0": 76,
+    "cfo_fy2": 130.028,
+    "rhp_page_cfo_fy2": 77,
+    "cfo_fy1": 113.981,
+    "rhp_page_cfo_fy1": 77,
+    "cfo_fy0": -134.025,
+    "rhp_page_cfo_fy0": 77,
+    "net_worth_fy0": 117.59,
+    "rhp_page_net_worth_fy0": 75,
+    "total_debt_fy0": 502.62,
+    "rhp_page_total_debt_fy0": 297,
+    "cash_fy0": 188.479,
+    "rhp_page_cash_fy0": 75,
+    "revenue_stub": 213.254,
+    "rhp_page_revenue_stub": 76,
+    "pat_stub": 5.568,
+    "rhp_page_pat_stub": 76,
+    "price_low": null,
+    "price_high": null,
+    "lot_size": null,
+    "promoter_pre_pct": 98.2,
+    "rhp_page_promoter_pre_pct": 23,
+    "promoter_post_pct": null,
+    "retail_quota_pct": 10.0,
+    "rhp_page_retail_quota_pct": 1,
+    "pre_ipo_price": 141.0,
+    "rhp_page_pre_ipo_price": 89,
+    "eps_fy0": 9.19,
+    "rhp_page_eps_fy0": 76,
+    "ronw_fy0_pct": 55.79,
+    "rhp_page_ronw_fy0_pct": 117,
+    "nav_per_share_fy0": 15.19,
+    "rhp_page_nav_per_share_fy0": 117,
+    "fresh_issue_cr": 400.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": 100.0,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 7.74,
+    "rhp_page_pre_issue_shares_cr": 72,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 72,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 110.0,
+    "proceeds_capex_cr": 44.883,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "BEL; DATAPATTNS; PARAS; ASTRAMICRO; CENTUM",
+    "n_peers": 5,
+    "peer_pe_list": [
+      32.36,
+      61.56,
+      84.69,
+      73.15
+    ],
+    "peer_ronw_list": [
+      19.5,
+      16.4,
+      7.2,
+      6.5,
+      -26.9
+    ],
+    "rhp_page_peers": 118
+  },
+  "extract": {
+    "company": "DCX Systems Limited",
+    "sector": "Electronics & EMS",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "price_high": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "lot_size": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 4000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": 1000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": null,
+      "page": 1
+    },
+    "selling_shareholders": [
+      {
+        "name": "NCBG Holdings Inc.",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": null,
+          "page": 1
+        }
+      },
+      {
+        "name": "VNG Technology Private Limited",
+        "kind": "promoter",
+        "shares_offered": {
+          "value": null,
+          "unit": null,
+          "page": 1
+        }
+      }
+    ],
+    "pre_issue_shares": {
+      "value": 77400000.0,
+      "unit": "shares",
+      "page": 72
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": null,
+      "page": 72
+    },
+    "promoter_pre_pct": {
+      "value": 98.2,
+      "unit": "percent",
+      "page": 23
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": null,
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Repayment/prepayment, in full or part, of certain borrowings availed by the Company",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 1100.0,
+          "unit": "million",
+          "page": 22
+        }
+      },
+      {
+        "purpose": "Funding working capital requirements of the Company",
+        "category": "other",
+        "amount": {
+          "value": 1600.0,
+          "unit": "million",
+          "page": 23
+        }
+      },
+      {
+        "purpose": "Investment in wholly owned Subsidiary Raneal Advanced Systems Private Limited to fund its capital expenditure",
+        "category": "capex",
+        "amount": {
+          "value": 448.83,
+          "unit": "million",
+          "page": 23
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": null,
+          "page": 23
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": 10.0,
+      "unit": "percent",
+      "page": 1
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 141.0,
+      "unit": "rupees",
+      "page": 89
+    },
+    "lead_managers": [
+      "Edelweiss Financial Services Limited",
+      "Axis Capital Limited",
+      "Saffron Capital Advisors Private Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2022",
+    "revenue_fy2": {
+      "value": 4492.62,
+      "unit": "million",
+      "page": 76
+    },
+    "revenue_fy1": {
+      "value": 6411.63,
+      "unit": "million",
+      "page": 76
+    },
+    "revenue_fy0": {
+      "value": 11022.73,
+      "unit": "million",
+      "page": 76
+    },
+    "ebitda_fy2": {
+      "value": 305.13,
+      "unit": "million",
+      "page": 296
+    },
+    "ebitda_fy1": {
+      "value": 100.8,
+      "unit": "million",
+      "page": 296
+    },
+    "ebitda_fy0": {
+      "value": 838.73,
+      "unit": "million",
+      "page": 296
+    },
+    "pat_fy2": {
+      "value": 97.44,
+      "unit": "million",
+      "page": 76
+    },
+    "pat_fy1": {
+      "value": 295.58,
+      "unit": "million",
+      "page": 76
+    },
+    "pat_fy0": {
+      "value": 656.08,
+      "unit": "million",
+      "page": 76
+    },
+    "cfo_fy2": {
+      "value": 1300.28,
+      "unit": "million",
+      "page": 77
+    },
+    "cfo_fy1": {
+      "value": 1139.81,
+      "unit": "million",
+      "page": 77
+    },
+    "cfo_fy0": {
+      "value": -1340.25,
+      "unit": "million",
+      "page": 77
+    },
+    "net_worth_fy0": {
+      "value": 1175.9,
+      "unit": "million",
+      "page": 75
+    },
+    "total_debt_fy0": {
+      "value": 5026.2,
+      "unit": "million",
+      "page": 297
+    },
+    "cash_fy0": {
+      "value": 1884.79,
+      "unit": "million",
+      "page": 75
+    },
+    "eps_fy0": {
+      "value": 9.19,
+      "unit": "rupees",
+      "page": 76
+    },
+    "ronw_fy0_pct": {
+      "value": 55.79,
+      "unit": "percent",
+      "page": 117
+    },
+    "nav_per_share_fy0": {
+      "value": 15.19,
+      "unit": "rupees",
+      "page": 117
+    },
+    "stub_period_months": 3,
+    "revenue_stub": {
+      "value": 2132.54,
+      "unit": "million",
+      "page": 76
+    },
+    "pat_stub": {
+      "value": 55.68,
+      "unit": "million",
+      "page": 76
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Bharat Electronics Limited",
+        "nse_symbol": "BEL",
+        "pe": 32.36,
+        "ronw_pct": 19.5,
+        "page": 118
+      },
+      {
+        "name": "Data Patterns (India) Limited",
+        "nse_symbol": "DATAPATTNS",
+        "pe": 61.56,
+        "ronw_pct": 16.4,
+        "page": 118
+      },
+      {
+        "name": "Paras Defence and Space Technologies Ltd",
+        "nse_symbol": "PARAS",
+        "pe": 84.69,
+        "ronw_pct": 7.2,
+        "page": 118
+      },
+      {
+        "name": "Astra Microwave Products Ltd",
+        "nse_symbol": "ASTRAMICRO",
+        "pe": 73.15,
+        "ronw_pct": 6.5,
+        "page": 118
+      },
+      {
+        "name": "Centum Electronics Ltd",
+        "nse_symbol": "CENTUM",
+        "pe": null,
+        "ronw_pct": -26.9,
+        "page": 118
+      }
+    ],
+    "notes": [
+      "Mixed basis: FY2022 and Q1 FY2023 (June 30, 2022) are restated consolidated; FY2021, FY2020 and Q1 FY2022 are restated standalone (the subsidiary came later).",
+      "Price band, lot size, share counts for the fresh issue and OFS, and post-offer shares are [\u25cf] in the RHP. OFS: NCBG Holdings Inc. up to \u20b9500.00 million and VNG Technology Pvt Ltd up to \u20b9500.00 million.",
+      "Pre-IPO allotments: private placement of 100,000 shares on Jan 20, 2022 and rights issue of 270,000 shares on Jan 24, 2022, both at \u20b9141 (face value \u20b910, before the 1:5 split and 3:1 bonus), to promoter Dr. H.S. Raghavendra Rao.",
+      "Working capital object (\u20b91,600 million) is categorised as 'other'. The GCP amount is [\u25cf].",
+      "Cash = cash and cash equivalents of \u20b91,884.79 million. Other bank balances of \u20b96,118.44 million are not included; the cash flow statement shows \u20b98,003.23 million including them.",
+      "EBITDA is the reported EBITDA; Adjusted EBITDA for FY2022 is 1058.97 million.",
+      "Centum Electronics P/E is shown as n.m., so it is set to null."
+    ]
+  }
+}

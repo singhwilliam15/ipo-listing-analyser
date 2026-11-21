@@ -1,0 +1,349 @@
+{
+  "symbol": "NTPCGREEN",
+  "rhp_file": "NTPCGREEN.pdf",
+  "model": "claude-opus-5-5",
+  "extracted_at": "2026-11-21T20:35:09+00:00",
+  "pages_sent": [
+    1,
+    2,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    118,
+    119,
+    120,
+    129,
+    130,
+    138,
+    139,
+    140,
+    434,
+    435,
+    520
+  ],
+  "n_pdf_pages": 643,
+  "usage": {
+    "input_tokens": 30995,
+    "output_tokens": 3652,
+    "backend": "claude-cli",
+    "cost_usd_list": 0.28906669999999995,
+    "session_id": "d8c7132d-40b1-40fd-83d7-e43676507f87"
+  },
+  "checks": [
+    "|PAT| > revenue in fy1: unit mix-up?"
+  ],
+  "fields": {
+    "company_rhp": "NTPC Green Energy Limited",
+    "sector": "Energy, power & renewables",
+    "exchange": "both",
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024 (March 31, 2024)",
+    "stub_period_months": 6,
+    "pre_ipo_placement": "yes",
+    "lead_managers": "IDBI Capital Markets & Securities Limited; HDFC Bank Limited; IIFL Capital Services Limited (formerly known as IIFL Securities Limited); Nuvama Wealth Management Limited",
+    "revenue_fy2": null,
+    "revenue_fy1": 169.69,
+    "rhp_page_revenue_fy1": 103,
+    "revenue_fy0": 1962.598,
+    "rhp_page_revenue_fy0": 103,
+    "ebitda_fy2": null,
+    "ebitda_fy1": 152.322,
+    "rhp_page_ebitda_fy1": 434,
+    "ebitda_fy0": 1821.529,
+    "rhp_page_ebitda_fy0": 434,
+    "pat_fy2": null,
+    "pat_fy1": 171.228,
+    "rhp_page_pat_fy1": 103,
+    "pat_fy0": 344.721,
+    "rhp_page_pat_fy0": 103,
+    "cfo_fy2": null,
+    "cfo_fy1": 17.27,
+    "rhp_page_cfo_fy1": 104,
+    "cfo_fy0": 1579.122,
+    "rhp_page_cfo_fy0": 104,
+    "net_worth_fy0": 6232.142,
+    "rhp_page_net_worth_fy0": 102,
+    "total_debt_fy0": null,
+    "rhp_page_total_debt_fy0": 102,
+    "cash_fy0": 115.627,
+    "rhp_page_cash_fy0": 102,
+    "revenue_stub": 1082.291,
+    "rhp_page_revenue_stub": 103,
+    "pat_stub": 175.3,
+    "rhp_page_pat_stub": 103,
+    "price_low": null,
+    "rhp_page_price_low": 139,
+    "price_high": null,
+    "rhp_page_price_high": 139,
+    "lot_size": null,
+    "promoter_pre_pct": null,
+    "promoter_post_pct": null,
+    "retail_quota_pct": null,
+    "pre_ipo_price": 10.0,
+    "rhp_page_pre_ipo_price": 120,
+    "eps_fy0": 0.73,
+    "rhp_page_eps_fy0": 103,
+    "ronw_fy0_pct": 5.53,
+    "rhp_page_ronw_fy0_pct": 140,
+    "nav_per_share_fy0": 10.9,
+    "rhp_page_nav_per_share_fy0": 140,
+    "fresh_issue_cr": 10000.0,
+    "rhp_page_fresh_issue_cr": 1,
+    "ofs_cr": null,
+    "rhp_page_ofs_cr": 1,
+    "fresh_issue_shares_cr": null,
+    "rhp_page_fresh_issue_shares_cr": 1,
+    "ofs_shares_cr": null,
+    "rhp_page_ofs_shares_cr": 1,
+    "pre_issue_shares_cr": 750.0,
+    "rhp_page_pre_issue_shares_cr": 99,
+    "post_issue_shares_cr": null,
+    "rhp_page_post_issue_shares_cr": 99,
+    "ofs_promoter_shares_cr": null,
+    "ofs_investor_shares_cr": null,
+    "proceeds_debt_repayment_cr": 7500.0,
+    "proceeds_capex_cr": 0.0,
+    "proceeds_gcp_cr": 0.0,
+    "peers": "ADANIGREEN; ReNew Energy Global PLC",
+    "n_peers": 2,
+    "peer_pe_list": [
+      259.83,
+      47.05
+    ],
+    "peer_ronw_list": [
+      12.81
+    ],
+    "rhp_page_peers": 140
+  },
+  "extract": {
+    "company": "NTPC Green Energy Limited",
+    "sector": "Energy, power & renewables",
+    "exchanges": "both",
+    "price_low": {
+      "value": null,
+      "unit": "rupees",
+      "page": 139
+    },
+    "price_high": {
+      "value": null,
+      "unit": "rupees",
+      "page": 139
+    },
+    "lot_size": {
+      "value": null,
+      "unit": "shares",
+      "page": null
+    },
+    "fresh_issue_amount": {
+      "value": 100000.0,
+      "unit": "million",
+      "page": 1
+    },
+    "fresh_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "ofs_amount": {
+      "value": null,
+      "unit": "million",
+      "page": 1
+    },
+    "ofs_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 1
+    },
+    "selling_shareholders": [],
+    "pre_issue_shares": {
+      "value": 7500000000.0,
+      "unit": "shares",
+      "page": 99
+    },
+    "post_issue_shares": {
+      "value": null,
+      "unit": "shares",
+      "page": 99
+    },
+    "promoter_pre_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "promoter_post_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "objects_of_offer": [
+      {
+        "purpose": "Investment in wholly owned subsidiary NTPC Renewable Energy Limited (NREL) for repayment/prepayment of certain outstanding borrowings of NREL",
+        "category": "debt_repayment",
+        "amount": {
+          "value": 75000.0,
+          "unit": "million",
+          "page": 129
+        }
+      },
+      {
+        "purpose": "General corporate purposes",
+        "category": "gcp",
+        "amount": {
+          "value": null,
+          "unit": "million",
+          "page": 129
+        }
+      }
+    ],
+    "retail_quota_pct": {
+      "value": null,
+      "unit": "percent",
+      "page": null
+    },
+    "pre_ipo_placement": true,
+    "pre_ipo_price": {
+      "value": 10.0,
+      "unit": "rupees",
+      "page": 120
+    },
+    "lead_managers": [
+      "IDBI Capital Markets & Securities Limited",
+      "HDFC Bank Limited",
+      "IIFL Capital Services Limited (formerly known as IIFL Securities Limited)",
+      "Nuvama Wealth Management Limited"
+    ],
+    "financials_basis": "consolidated",
+    "fy0_label": "FY2024 (March 31, 2024)",
+    "revenue_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "revenue_fy1": {
+      "value": 1696.9,
+      "unit": "million",
+      "page": 103
+    },
+    "revenue_fy0": {
+      "value": 19625.98,
+      "unit": "million",
+      "page": 103
+    },
+    "ebitda_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "ebitda_fy1": {
+      "value": 1523.22,
+      "unit": "million",
+      "page": 434
+    },
+    "ebitda_fy0": {
+      "value": 18215.29,
+      "unit": "million",
+      "page": 434
+    },
+    "pat_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "pat_fy1": {
+      "value": 1712.28,
+      "unit": "million",
+      "page": 103
+    },
+    "pat_fy0": {
+      "value": 3447.21,
+      "unit": "million",
+      "page": 103
+    },
+    "cfo_fy2": {
+      "value": null,
+      "unit": "million",
+      "page": null
+    },
+    "cfo_fy1": {
+      "value": 172.7,
+      "unit": "million",
+      "page": 104
+    },
+    "cfo_fy0": {
+      "value": 15791.22,
+      "unit": "million",
+      "page": 104
+    },
+    "net_worth_fy0": {
+      "value": 62321.42,
+      "unit": "million",
+      "page": 102
+    },
+    "total_debt_fy0": {
+      "value": null,
+      "unit": "million",
+      "page": 102
+    },
+    "cash_fy0": {
+      "value": 1156.27,
+      "unit": "million",
+      "page": 102
+    },
+    "eps_fy0": {
+      "value": 0.73,
+      "unit": "rupees",
+      "page": 103
+    },
+    "ronw_fy0_pct": {
+      "value": 5.53,
+      "unit": "percent",
+      "page": 140
+    },
+    "nav_per_share_fy0": {
+      "value": 10.9,
+      "unit": "rupees",
+      "page": 140
+    },
+    "stub_period_months": 6,
+    "revenue_stub": {
+      "value": 10822.91,
+      "unit": "million",
+      "page": 103
+    },
+    "pat_stub": {
+      "value": 1753.0,
+      "unit": "million",
+      "page": 103
+    },
+    "no_listed_peers": false,
+    "peers": [
+      {
+        "name": "Adani Green Energy Limited",
+        "nse_symbol": "ADANIGREEN",
+        "pe": 259.83,
+        "ronw_pct": 12.81,
+        "page": 140
+      },
+      {
+        "name": "ReNew Energy Global PLC",
+        "nse_symbol": null,
+        "pe": 47.05,
+        "ronw_pct": null,
+        "page": 139
+      }
+    ],
+    "notes": [
+      "Issue is 100% fresh issue (no OFS). Price band, lot size, share count of the issue and post-issue shares are shown as [\u25cf] in the RHP.",
+      "FY2023 restated consolidated figures cover the period April 7, 2022 to March 31, 2023, with only 31 days of operations after RE assets were transferred from NTPC on Feb 28, 2023. There is no restated consolidated FY2022 (fy2). Special Purpose Carved-Out figures exist (e.g. EBITDA FY2022 8,027.10 million, FY2023 carved-out 13,174.34 million) but were not used.",
+      "No total borrowings figure is printed for March 31, 2024. The balance sheet shows non-current borrowings of 121,645.11 million and current borrowings of 6,322.29 million, so total_debt_fy0 is left null. The capitalisation statement shows total debt of 170,574.96 million as at Sep 30, 2024.",
+      "Promoter holding % is not printed on these pages. NTPC Limited (including its nominees) holds all 7,500,000,000 pre-issue shares (page 120).",
+      "Pre-IPO: rights issue of 1,780,388,965 shares to NTPC Limited at \u20b910 on September 7, 2024, and an earlier rights issue on March 28, 2024 at \u20b910.",
+      "The retail quota % is not given on these pages. The issue includes an Employee Reservation of \u20b92,000 million and a Shareholders' Reservation of \u20b910,000 million; the Net Issue is \u20b988,000 million.",
+      "The amount for general corporate purposes is [\u25cf] and is capped at 25% of the Issue Proceeds.",
+      "Peer row for ReNew Energy Global PLC (Nasdaq-listed) is not on the pages given. Its P/E of 47.05 is taken from the industry P/E summary on page 139, and its RoNW is not available. The NSE symbol for Adani Green is not printed in the RHP; it was inferred."
+    ]
+  }
+}

@@ -4,3 +4,14 @@
 # TATATECH,anchor_cr,791,anchor allotment notice
 # TATATECH,rhp_url,https://www.sebi.gov.in/.../rhp.pdf,
 symbol,field,value,note
+DCX,listing_date,11-11-2022,NSE: DCX Systems listed 2022-11-11 (trading symbol DCXINDIA)
+NSDL,listing_date,06-08-2025,NSDL listed 6 Aug 2025
+IREDA,list_open,50,Yahoo IREDA.NS 2023-11-29 (NSE history starts 2024-01-03)
+IREDA,list_high,60,same
+IREDA,list_low,50,same
+IREDA,list_close,60,same
+IREDA,sub_qib_x,104.57,final subscription per Chittorgarh/5paisa/IIFL (NSE has no bid data for this older issue)
+IREDA,sub_nii_x,24.16,same
+IREDA,sub_retail_x,7.73,same
+IREDA,sub_employee_x,9.80,same
+IREDA,sub_total_x,38.80,same

@@ -25,12 +25,14 @@ import numpy as np
 import pandas as pd
 
 from . import analyse, extract_rhp, features, schema
-from .fetch_market import DataError, NSEClient, find_rhp_url, index_closes, issue_info, listing_outcome, parse_bids
+from .fetch_market import DataError, NSEClient, find_rhp_url, issue_row_from_detail, index_closes, issue_info, listing_outcome, parse_bids
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 ISSUES, OUTCOMES, DEMAND, MARKET = (DATA / f for f in ("issues.csv", "outcomes.csv", "demand.csv", "market.csv"))
 OVERRIDES = DATA / "manual" / "overrides.csv"
+EXTRA_ISSUES = DATA / "manual" / "extra_issues.txt"      # mainboard IPOs NSE's past-issues list leaves out
+NSE_SYMBOL = {"DCX": "DCXINDIA"}                        # list symbol -> trading symbol, where they differ
 WARMUP_START = date(2021, 10, 1)    # a few months before training so section F has history
 
 
@@ -111,6 +113,19 @@ def cmd_issues(a) -> None:
     if df.empty:
         sys.exit("No issues returned.")
     upsert(ISSUES, df)
+    extra = [l.split("#")[0].strip().upper() for l in EXTRA_ISSUES.read_text(encoding="utf-8").splitlines()] if EXTRA_ISSUES.exists() else []
+    rows = []
+    for sym in filter(None, extra):
+        try:
+            r = issue_row_from_detail(sym, NSEClient().ipo_detail(sym))
+        except DataError as exc:
+            log(f"  extra issue {sym}: {exc}")
+            continue
+        if r:
+            rows.append(r)
+    if rows:
+        upsert(ISSUES, pd.DataFrame(rows))
+        log(f"  added {len(rows)} issues missing from NSE's list: {', '.join(r['symbol'] for r in rows)}")
     log(f"{len(df)} issues saved to {ISSUES.relative_to(ROOT)} "
         f"({(df['segment'] == 'Mainboard').sum()} mainboard, {(df['segment'] == 'SME').sum()} SME).")
 
@@ -123,7 +138,7 @@ def cmd_outcomes(a) -> None:
     log(f"Pricing {len(todo)} listings (NSE, Yahoo fallback)…")
     rows = []
     for i, r in enumerate(todo.itertuples(), 1):
-        o = listing_outcome(r.symbol, r.listing_date, float(r.issue_price), nse)
+        o = listing_outcome(NSE_SYMBOL.get(r.symbol, r.symbol), r.listing_date, float(r.issue_price), nse)
         rows.append({"symbol": r.symbol, **o})
         if i % 20 == 0 or i == len(todo):
             upsert(OUTCOMES, pd.DataFrame(rows))
@@ -282,7 +297,7 @@ def _extract_round(a) -> bool:
 
 def load_raw() -> pd.DataFrame:
     rows = []
-    for p in sorted(extract_rhp.RAW_DIR.glob("*.json")):
+    for p in sorted(q for q in extract_rhp.RAW_DIR.glob("*.json") if not q.name.endswith(".qual.json")):
         rec = json.loads(p.read_text(encoding="utf-8"))
         fields = rec["fields"]
         if rec.get("extract"):                     # re-derive with the current code, no new API call
@@ -345,6 +360,9 @@ def cmd_analyse(a) -> None:
 
 
 def main(argv=None) -> None:
+    for stream in (sys.stdout, sys.stderr):      # Windows consoles/log files default to cp1252 and choke on ⚠ / ≈
+        if hasattr(stream, "reconfigure"):
+            stream.reconfigure(encoding="utf-8", errors="replace")
     ap = argparse.ArgumentParser(prog="python -m src.build")
     sub = ap.add_subparsers(dest="cmd", required=True)
     p = sub.add_parser("issues")

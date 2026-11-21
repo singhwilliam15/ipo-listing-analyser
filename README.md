@@ -9,17 +9,25 @@ outcomes and are never used as features.
 
 ## Analyse a new IPO
 
-Open the app, pick **Analyse a new IPO**, type a name or NSE symbol (for example `Mahanadi Coalfields`). The app:
+Open the app, pick **Analyse a new IPO**, type a name or NSE symbol (for example `Mahanadi Coalfields`), and press Analyse.
+The app finds it on NSE and downloads the RHP automatically (or use the upload box if NSE is blocked or has no link). Claude
+reads the RHP, and the code does all the maths. The report has eight sections:
 
-1. finds it among NSE's current and upcoming issues,
-2. downloads the RHP automatically from NSE (RHP only; if NSE has not published it yet the app says so),
-3. has Claude extract the financials and issue terms,
-4. lists the good and bad points, each with how similar past IPOs listed,
-5. shows what past IPOs did at each final-subscription level, with the implied listing-price range,
-6. adds a rough fundamentals-only estimate of listing-gain chance and final subscription.
+1. **Verdict**: Apply / Apply with caution / Skip / Wait for subscription, with reasons.
+2. **Listing chance and expected gain**: P(listing above issue price), the expected gain with likely and 80% ranges, the
+   implied listing price, allotment odds, expected profit per lot, and the QIB subscription needed for a 70/85/95% chance.
+   A stage label shows whether the number is pre-bid, provisional (live bidding, a floor) or final.
+3. **Subscription** by category, and how past IPOs listed at each subscription band.
+4. **The business**: summary, segments, concentration, industry, promoters (second Claude pass, page number on every point).
+5. **Key numbers**: valuation vs peers, financials, use of fresh money, selling shareholders.
+6. **Scorecard** per pillar as a percentile rank against all past IPOs.
+7. **Strengths, concerns, risks**, litigation, contingent liabilities, related-party items and red flags.
+8. **The 10 most similar past IPOs.**
 
-The estimate in step 6 is weak by design: before bidding closes there is little to go on. See
-[docs/findings.md](docs/findings.md) for the measured accuracy and what separated winners from losers.
+You can type in subscription figures yourself and tick "bidding has closed" to override NSE's live numbers, and download the
+report as Markdown. Every probability and gain shown comes from a model whose 2026 test score is on the same page (see the
+backtest expander) and in [docs/findings.md](docs/findings.md). Headline 2026 scores: subscription model AUC 0.85 and 81%
+accuracy; fundamentals-only AUC 0.68; median gain error 6.6 points.
 
 ## Setup
 
@@ -127,7 +135,10 @@ src/features.py            derived fields, market context, targets, data quality
 src/analyse.py             group comparison, rules, logistic regression, metrics
 src/build.py               the CLI above
 src/demo.py                synthetic rows for tests and the demo toggle
-app.py                     Streamlit front end
+src/report.py               probability, gain ranges, backtest, report assembly
+src/qualitative.py          second Claude pass: business, risks, litigation (page-referenced)
+src/live.py                 NSE lookup, RHP download, feature row for a new IPO
+app.py                     Streamlit front end (display only)
 ```
 
 ## Known limits

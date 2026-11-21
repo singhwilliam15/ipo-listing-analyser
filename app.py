@@ -12,7 +12,7 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
-from src import analyse, demo, live, schema
+from src import analyse, demo, extract_rhp, live, qualitative, report, schema
 
 ROOT = Path(__file__).parent
 st.set_page_config(page_title="IPO Listing-Day Analyser", page_icon="📈", layout="wide")
@@ -54,15 +54,28 @@ def hist_frame(mtime: float) -> pd.DataFrame:
     return live.load_history()
 
 
+@st.cache_resource(show_spinner="Fitting models on 2022-2025 and scoring 2026…")
+def report_models(mtime: float):
+    d = report.prepare(pd.read_csv(ROOT / "data" / "ipos.csv"))
+    m = report.fit_models(d)
+    return d, m, report.backtest(m, d)
+
+
+def _pct(v, signed=False):
+    return "–" if v is None or pd.isna(v) else (f"{v:+.0f}%" if signed else f"{v:.0%}")
+
+
 def page_new() -> None:
     st.header("Analyse a new IPO")
-    st.caption("Type a company name or NSE symbol. The app finds it on NSE, downloads its RHP, reads it with Claude, flags good and bad "
-               "points and shows how similar past IPOs listed. Historical patterns only; not investment advice.")
+    st.caption("Type a company name or NSE symbol. The app finds it on NSE, downloads its RHP (or use your own PDF), reads it with "
+               "Claude, and reports the chance of a listing gain and the expected gain. Historical patterns only; not investment advice.")
     hp = ROOT / "data" / "ipos.csv"
     if not hp.exists():
         st.info("data/ipos.csv is missing; see README.md to build it.")
         return
+    d, models, bt = report_models(hp.stat().st_mtime)
     hist = hist_frame(hp.stat().st_mtime)
+
     q = st.text_input("IPO name or symbol", placeholder="e.g. Mahanadi Coalfields")
     if st.button("Find", type="primary") and q.strip():
         try:
@@ -76,10 +89,37 @@ def page_new() -> None:
     m = st.radio("Which one?", matches, format_func=lambda x: f"{x.company} ({x.symbol}) · {x.status} · {x.segment}")
     if m.segment == "SME":
         st.warning("This is an SME issue. The history here is mainboard only, so the numbers are not reliable for it.")
+
+    c1, c2 = st.columns(2)
+    up = c1.file_uploader("Upload the RHP (PDF), optional", type="pdf",
+                          help="Use it when NSE is blocked or has no RHP link. It is saved as rhp/<SYMBOL>.pdf and replaces cached extractions if it differs.")
+    with c2:
+        st.markdown("**Subscription (overrides NSE's live figures)**")
+        s1, s2 = st.columns(2)
+        man = {"sub_qib_x": s1.number_input("QIB (x)", min_value=0.0, value=0.0, step=0.1),
+               "sub_nii_x": s2.number_input("NII (x)", min_value=0.0, value=0.0, step=0.1),
+               "sub_retail_x": s1.number_input("Retail (x)", min_value=0.0, value=0.0, step=0.1),
+               "sub_total_x": s2.number_input("Total (x)", min_value=0.0, value=0.0, step=0.1)}
+        closed = st.checkbox("Bidding has closed (these are final figures)")
+    with_qual = st.checkbox("Include business, risks and litigation (a second Claude pass, uses more of your plan)", value=True)
+
     if st.button("Analyse"):
+        pdf = None
+        if up is not None:
+            import tempfile
+            pdf = Path(tempfile.mkdtemp()) / f"{m.symbol}.pdf"
+            pdf.write_bytes(up.getvalue())
         with st.status("Working…", expanded=True) as status:
             try:
-                st.session_state["analysis"] = live.analyse_issue(m, hist=hist, progress=status.write)
+                a = live.analyse_issue(m, pdf=pdf, hist=hist, progress=status.write)
+                qual = None
+                if with_qual and a.record is not None:
+                    status.write("Reading business, risks and litigation")
+                    try:
+                        qual = qualitative.extract_qual(m.symbol, pdf=extract_rhp.RHP_DIR / f"{m.symbol}.pdf", client=extract_rhp.make_client())
+                    except Exception as exc:
+                        a.notes.append(f"Business and risk pass failed: {exc}")
+                st.session_state["analysis"], st.session_state["qual"] = a, qual
                 status.update(label="Done", state="complete")
             except Exception as exc:
                 status.update(label="Failed", state="error")
@@ -87,74 +127,141 @@ def page_new() -> None:
     a = st.session_state.get("analysis")
     if a is None or a.match.symbol != m.symbol:
         return
-    r = a.row
-    st.subheader(f"{a.match.company}")
-    k = st.columns(4)
-    k[0].metric("Price band", f"₹{a.match.price_low:g} – ₹{a.match.price_high:g}" if a.match.price_low else "–")
-    k[1].metric("Issue size", f"₹{r['issue_size_cr']:,.0f} cr" if pd.notna(r.get("issue_size_cr")) else "–")
-    k[2].metric("Offer for sale", f"{r['ofs_pct']:.0f}%" if pd.notna(r.get("ofs_pct")) else "–")
-    k[3].metric("P/E at top of band", f"{r['pe_at_issue']:.1f}" if pd.notna(r.get("pe_at_issue")) else "–")
-    for n in a.notes:
+    sub = {**a.live_sub, **{k: v for k, v in man.items() if v > 0}}
+    rep = report.build_report(a.row, a.record, st.session_state.get("qual"), models, d, sub, closed, backtest_res=bt)
+    rep.notes += a.notes
+    e, gq = rep.est, rep.est["gain"]
+    st.title(rep.company)
+    st.caption(f"Source: {a.source}. Stage: {e['stage']}.")
+    for n in rep.notes:
         st.warning(n)
-    st.caption(f"Source: {a.source}.")
 
-    if a.live_sub.get("sub_total_x") is not None:
-        st.markdown("**Live subscription (NSE + BSE)**")
-        cols = st.columns(5)
-        for col, (key, label) in zip(cols, [("sub_total_x", "Total"), ("sub_qib_x", "QIB"), ("sub_nii_x", "NII"),
-                                           ("sub_retail_x", "Retail"), ("sub_employee_x", "Employee")]):
-            v = a.live_sub.get(key)
-            col.metric(label, "–" if v is None else f"{v:.2f}x")
-        st.caption("Institutions usually bid on the last day, so numbers are low until bidding closes. "
-                   "Match the final number against the table below.")
+    st.subheader("1. Verdict")
+    {"Apply": st.success, "Apply with caution": st.warning, "Skip": st.error}.get(rep.verdict, st.info)(f"**{rep.verdict}**")
+    for x in rep.reasons:
+        st.markdown(f"- {x}")
 
-    st.markdown("### Before bidding closes: rough prior from fundamentals")
-    if a.prior_gain_prob is not None:
-        p1, p2 = st.columns(2)
-        p1.metric("Chance of listing above issue price", f"{a.prior_gain_prob:.0%}")
-        lo, hi = a.prior_sub_range
-        p2.metric("Likely final subscription", f"~{a.prior_sub_median:.0f}x", f"80% range {lo:.0f}x – {hi:.0f}x", delta_color="off")
-        st.caption(live.PRE_BID_NOTE + f" Measured on this data: AUC {a.model_quality['auc']:.2f}, "
-                   f"subscription R² {a.model_quality['r2']:.2f} on {a.model_quality['n_test']} IPOs from 2026.")
+    st.subheader("2. Listing chance and expected gain")
+    k = st.columns(3)
+    k[0].metric(f"Chance of a listing gain ({e['stage']})", _pct(e["prob"]) + (" or more" if e["floor"] else ""))
+    k[1].metric("Expected listing gain (median)", _pct(gq["p50"], True), f"likely {_pct(gq['p25'], True)} to {_pct(gq['p75'], True)}", delta_color="off")
+    k[2].metric("Implied listing price", f"₹{e['prices']['p50']:,.0f}" if pd.notna(e["prices"]["p50"]) else "–",
+                f"₹{e['prices']['p25']:,.0f} – ₹{e['prices']['p75']:,.0f}" if pd.notna(e["prices"]["p25"]) else "", delta_color="off")
+    k = st.columns(3)
+    k[0].metric("80% range for the gain", f"{_pct(gq['p10'], True)} to {_pct(gq['p90'], True)}")
+    k[1].metric("Allotment odds per application", _pct(e["p_allot"]))
+    k[2].metric("Expected profit per lot", "–" if pd.isna(e["profit_per_lot"]) else f"₹{e['profit_per_lot']:,.0f}", f"lot ₹{e['lot_value']:,.0f}", delta_color="off")
+    if e["stage"] == "pre-bid":
+        st.info("Pre-bid estimate from fundamentals and the 10 most similar past IPOs. This is a weak signal; the range is wide on purpose.")
+    elif e["floor"]:
+        st.info("Provisional: live figures are a floor because QIBs bid mostly on the last day. Tick 'bidding has closed' when final.")
+    need = e["qib_needed"]
+    st.caption("QIB subscription needed for a 70% / 85% / 95% chance: " + " / ".join("over 3000x" if need[t] is None else f"{need[t]:.0f}x" for t in (0.70, 0.85, 0.95))
+               + f".  Gain model used: {e['gain_model']}.")
+    if bt.get("demand"):
+        st.caption(f"Scored on {bt['n_test']} IPOs from 2026 (models never saw them): subscription model AUC {bt['demand']['auc']:.2f}, accuracy {bt['demand']['accuracy']:.0%}; "
+                   f"fundamentals-only AUC {bt['prebid']['auc']:.2f}; gain median error {bt['gain_a']['mae_p50']:.1f} points; "
+                   f"25-75 range covers {bt['gain_a']['cov_25_75']:.0%}, 10-90 covers {bt['gain_a']['cov_10_90']:.0%}. Full backtest below.")
+
+    st.subheader("3. Subscription")
+    cols = st.columns(4)
+    for col, (key, label) in zip(cols, [("sub_total_x", "Total"), ("sub_qib_x", "QIB"), ("sub_nii_x", "NII"), ("sub_retail_x", "Retail")]):
+        col.metric(label, "–" if sub.get(key) is None else f"{sub[key]:.2f}x")
+    st.dataframe(rep.band_table.style.format({"listed above issue": "{:.0%}", "median gain %": "{:+.1f}", "p25 %": "{:+.1f}", "p75 %": "{:+.1f}"}), width="stretch")
+
+    st.subheader("4. The business")
+    qq = rep.qual
+    pt = lambda p: p["text"] + (f" *(PDF p.{p['page']})*" if p.get("page") else "")
+    if qq:
+        for key, title in (("business_summary", "What it does"), ("industry", "Industry")):
+            st.markdown(f"**{title}**")
+            for p in qq.get(key, []):
+                st.markdown(f"- {pt(p)}")
+        if qq.get("segments"):
+            st.markdown("**Segments**")
+            for s in qq["segments"]:
+                st.markdown(f"- {s['name']}" + (f": {s['share_of_revenue']}" if s.get("share_of_revenue") else "") + (f" *(p.{s['page']})*" if s.get("page") else ""))
+        st.markdown("**Concentration**")
+        for p in qq.get("concentration", []):
+            st.markdown(f"- {pt(p)}")
+        st.markdown("**Promoters**")
+        for p in qq.get("promoters", []):
+            st.markdown(f"- {p['name']}: {p['background']}" + (f" *(p.{p['page']})*" if p.get("page") else ""))
     else:
-        st.info("No model estimate without extracted fundamentals.")
+        st.info("Business, risk and litigation pass not run (tick the box above and press Analyse).")
 
-    st.markdown("### What past IPOs did, by final subscription")
-    t = a.scenarios.copy()
-    t.index.name = "final subscription"
-    show = pd.DataFrame({"IPOs": t["n"], "Listed above issue": t["gain_rate"],
-                         "Gain, weak 25%": t["p25"], "Gain, median": t["median"], "Gain, strong 25%": t["p75"],
-                         "Price, weak": t["price_p25"], "Price, median": t["price_median"], "Price, strong": t["price_p75"]})
-    st.dataframe(show.style.format({"Listed above issue": "{:.0%}", "Gain, weak 25%": "{:+.1f}%", "Gain, median": "{:+.1f}%",
-                                    "Gain, strong 25%": "{:+.1f}%", "Price, weak": "₹{:,.0f}", "Price, median": "₹{:,.0f}",
-                                    "Price, strong": "₹{:,.0f}"}), width="stretch")
-    st.caption("Gain = listing-day open vs issue price. Price columns apply that gain to the top of the band. "
-               "Allotment odds, costs and tax are not included.")
+    st.subheader("5. Key numbers")
+    st.table(pd.DataFrame(rep.key_numbers, columns=["Item", "Value", "Note"]).set_index("Item"))
+    st.markdown("**Financials (₹ crore)**")
+    st.dataframe(rep.financials.style.format("{:,.1f}", na_rep="–"), width="stretch")
+    st.markdown("**Listed peers**")
+    st.dataframe(rep.peers, hide_index=True, width="stretch")
+    p1, p2 = st.columns(2)
+    p1.markdown("**Use of fresh money**")
+    p1.dataframe(rep.proceeds, hide_index=True, width="stretch")
+    p2.markdown("**Selling shareholders**")
+    p2.dataframe(rep.sellers, hide_index=True, width="stretch")
 
-    good = [f for f in a.flags if f.kind == "good"]
-    bad = [f for f in a.flags if f.kind == "bad"]
-    info = [f for f in a.flags if f.kind == "info"]
-    g, b = st.columns(2)
-    with g:
-        st.markdown("### 👍 Good")
-        for f in good or []:
-            st.markdown(f"**{f.text}**" + (f"<br><small>{f.evidence}</small>" if f.evidence else ""), unsafe_allow_html=True)
-        if not good:
-            st.write("Nothing stood out.")
-    with b:
-        st.markdown("### 👎 Bad")
-        for f in bad or []:
-            st.markdown(f"**{f.text}**" + (f"<br><small>{f.evidence}</small>" if f.evidence else ""), unsafe_allow_html=True)
-        if not bad:
-            st.write("Nothing stood out.")
-    if info:
-        st.markdown("### Worth knowing")
-        for f in info:
-            st.markdown(f"- {f.text}" + (f" ({f.evidence})" if f.evidence else ""))
-    with st.expander("All extracted fields"):
-        st.dataframe(r.reindex([c for c in schema.ORDER if c in r.index and schema.BY_NAME[c].group != "G"]).astype(str).to_frame("value"),
-                     width="stretch", height=450)
+    st.subheader("6. Scorecard")
+    st.dataframe(rep.scorecard.style.format({"score_0_10": "{:.1f}", "train_spearman_vs_gain": "{:+.2f}", "train_auc": "{:.2f}"}, na_rep="–"), width="stretch")
+    st.caption("Score = percentile rank against every past IPO, scaled 0-10. The last two columns show how well that pillar predicted listing results on 2022-2025 (AUC 0.5 = no skill).")
+
+    st.subheader("7. Strengths, concerns and risks")
+    gcol, bcol = st.columns(2)
+    with gcol:
+        st.markdown("**Strengths**")
+        for f in [f for f in rep.flags if f.kind == "good"]:
+            st.markdown(f"- {f.text}" + (f" *({f.evidence})*" if f.evidence else ""))
+        for p in (qq or {}).get("strengths", []):
+            st.markdown(f"- {pt(p)}")
+    with bcol:
+        st.markdown("**Concerns**")
+        for f in [f for f in rep.flags if f.kind == "bad"]:
+            st.markdown(f"- {f.text}" + (f" *({f.evidence})*" if f.evidence else ""))
+    if qq:
+        st.markdown("**Top company-specific risks**")
+        for x in qq.get("risks", []):
+            st.markdown(f"- **[{x['severity']}]** {x['title']}: {x['detail']}" + (f" *(p.{x['page']})*" if x.get("page") else ""))
+        for key, title in (("litigation", "Litigation"), ("contingent_liabilities", "Contingent liabilities"), ("related_party", "Related-party transactions"), ("red_flags", "Red flags")):
+            items = qq.get(key, [])
+            st.markdown(f"**{title}**")
+            if not items:
+                st.write("None stated in the pages read.")
+            for x in items:
+                if key == "litigation":
+                    st.markdown(f"- {x['category']}: {x.get('count') or '?'} cases, {x.get('amount') or 'amount not stated'}" + (f" *(p.{x['page']})*" if x.get("page") else ""))
+                else:
+                    st.markdown(f"- {pt(x)}")
+
+    st.subheader("8. Most similar past IPOs")
+    st.dataframe(rep.similar.assign(listing_date=rep.similar["listing_date"].dt.date), hide_index=True, width="stretch",
+                 column_config={"distance": st.column_config.NumberColumn(format="%.2f")})
+    st.download_button("Download report (Markdown)", report.to_markdown(rep), file_name=f"{rep.symbol}_report.md", mime="text/markdown")
+
+    with st.expander("Backtest: 2022-2025 train, 2026 test", expanded=False):
+        show_backtest(bt)
     st.caption("Educational tool. Not investment advice. Past patterns do not guarantee future listings.")
+
+
+def show_backtest(bt: dict) -> None:
+    if not bt.get("demand"):
+        st.info("Not enough 2026 rows to score.")
+        return
+    st.markdown(f"**{bt['n_test']} IPOs listed in 2026. Models were fitted on {bt['n_train']} IPOs from 2022-2025 and never saw these.**")
+    rows = {"Subscription model (QIB, total, retail, PAT margin)": bt["demand"], "Fundamentals only (pre-bid)": bt["prebid"]}
+    st.dataframe(pd.DataFrame(rows).T[["n", "auc", "brier", "accuracy", "base_rate"]].style.format({"auc": "{:.2f}", "brier": "{:.3f}", "accuracy": "{:.0%}", "base_rate": "{:.0%}"}), width="stretch")
+    st.dataframe(bt["baselines"].style.format("{:.0%}"), width="stretch")
+    c1, c2 = st.columns(2)
+    c1.markdown("Calibration, subscription model (deciles)")
+    c1.dataframe(bt["calibration_demand"].style.format({"predicted": "{:.0%}", "actual": "{:.0%}"}), width="stretch")
+    c2.markdown("Calibration, pre-bid model (deciles)")
+    c2.dataframe(bt["calibration_prebid"].style.format({"predicted": "{:.0%}", "actual": "{:.0%}"}), width="stretch")
+    g = pd.DataFrame({"Model A (quantile regression)": bt["gain_a"], "Model B (similar QIB)": bt["gain_b"], "Pre-bid (10 nearest IPOs)": bt["gain_prebid_knn"]}).T
+    st.markdown(f"Listing-gain %: Model {bt['gain_model_default']} is the default (chosen on a 2025 validation fold inside the training data).")
+    st.dataframe(g.style.format({"mae_p50": "{:.1f}", "cov_25_75": "{:.0%}", "cov_10_90": "{:.0%}", "spearman": "{:.2f}", "pinball": "{:.2f}"}), width="stretch")
+    st.caption("mae_p50 = median absolute error of the 50th-percentile prediction, in percentage points. The 25-75 and 10-90 ranges should cover about 50% and 80%.")
+    st.markdown("Strategies on 2026")
+    st.dataframe(bt["strategies"].style.format({"hit_rate": "{:.0%}", "avg_gain_pct": "{:+.1f}", "allotment_weighted_gain_pct": "{:+.1f}", "sum_expected_gain_per_lot_rs": "₹{:,.0f}"}), width="stretch")
 
 
 if page == "Analyse a new IPO":

@@ -407,14 +407,14 @@ class ClaudeCLI:
         if not self.exe:
             raise ExtractionError("Claude Code CLI not found; set CLAUDE_CLI or ANTHROPIC_API_KEY")
         self.timeout = timeout
-        self.schema = json.dumps(RHPExtract.model_json_schema())
 
-    def run(self, prompt: str) -> tuple[RHPExtract, dict]:
+    def run(self, prompt: str, model=None, system: str | None = None) -> tuple[BaseModel, dict]:
+        model, system = model or RHPExtract, system or SYSTEM
         import subprocess
         import tempfile
         cmd = [self.exe, "-p", "--output-format", "json", "--model", MODEL, "--tools", "",
                "--strict-mcp-config", "--setting-sources", "", "--disable-slash-commands",
-               "--no-session-persistence", "--system-prompt", SYSTEM, "--json-schema", self.schema]
+               "--no-session-persistence", "--system-prompt", system, "--json-schema", json.dumps(model.model_json_schema())]
         with tempfile.TemporaryDirectory() as cwd:          # empty cwd: no project CLAUDE.md
             try:
                 p = subprocess.run(cmd, input=prompt + "\n\nExtract the fields from these RHP pages.",
@@ -430,7 +430,7 @@ class ClaudeCLI:
             if "limit" in str(msg).lower():
                 raise RateLimited(str(msg))
             raise ExtractionError(f"claude CLI error: {str(msg)[:300]}")
-        x = RHPExtract.model_validate(out["structured_output"])
+        x = model.model_validate(out["structured_output"])
         u = out.get("usage", {})
         return x, {"input_tokens": u.get("input_tokens", 0) + u.get("cache_creation_input_tokens", 0)
                    + u.get("cache_read_input_tokens", 0),
@@ -442,6 +442,21 @@ class RateLimited(RuntimeError):
     pass
 
 
+def file_sha256(path: Path) -> str:
+    import hashlib
+    h = hashlib.sha256()
+    with open(path, "rb") as f:
+        for block in iter(lambda: f.read(1 << 20), b""):
+            h.update(block)
+    return h.hexdigest()
+
+
+def clear_cached(symbol: str) -> None:
+    """Delete extractions and page caches for one symbol (used when its RHP file changes)."""
+    for p in (RAW_DIR / f"{symbol}.json", RAW_DIR / f"{symbol}.qual.json", RHP_DIR / f"{symbol}.pages.json"):
+        p.unlink(missing_ok=True)
+
+
 def make_client():
     """API client when ANTHROPIC_API_KEY is set, otherwise the Claude Code CLI login."""
     if os.environ.get("ANTHROPIC_API_KEY"):
@@ -450,9 +465,10 @@ def make_client():
     return ClaudeCLI()
 
 
-def call_claude(prompt: str, client=None) -> tuple[RHPExtract, dict]:
+def call_claude(prompt: str, client=None, model=None, system: str | None = None) -> tuple[BaseModel, dict]:
+    model, system = model or RHPExtract, system or SYSTEM
     if isinstance(client, ClaudeCLI):
-        return client.run(prompt)
+        return client.run(prompt, model, system)
     import anthropic
     client = client or anthropic.Anthropic()
     resp = client.messages.parse(
@@ -477,17 +493,20 @@ def extract(symbol: str, pdf: Path | None = None, force: bool = False, client=No
     """Run the whole pipeline for one IPO and write data/raw/<symbol>.json."""
     pdf = pdf or RHP_DIR / f"{symbol}.pdf"
     out = RAW_DIR / f"{symbol}.json"
-    if out.exists() and not force:
-        return json.loads(out.read_text(encoding="utf-8"))
-    if not pdf.exists():
+    if not pdf.exists() and not (out.exists() and not force):
         raise ExtractionError(f"no RHP at {pdf}")
+    if out.exists() and not force:
+        rec = json.loads(out.read_text(encoding="utf-8"))
+        if not (pdf.exists() and rec.get("rhp_sha256") and rec["rhp_sha256"] != file_sha256(pdf)):
+            return rec
+        clear_cached(symbol)                     # a different RHP file was supplied: drop stale extractions
     pages = page_texts(pdf)
     if sum(len(p) for p in pages) / max(len(pages), 1) < 500:
         raise ExtractionError("PDF has almost no text layer (scanned). OCR it first, e.g. `ocrmypdf in.pdf out.pdf`.")
     idx = select_pages(pages)
     x, usage = call_claude(build_prompt(pages, idx), client)
     flat = flatten(x)
-    rec = {"symbol": symbol, "rhp_file": pdf.name, "model": MODEL,
+    rec = {"symbol": symbol, "rhp_file": pdf.name, "rhp_sha256": file_sha256(pdf), "model": MODEL,
            "extracted_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
            "pages_sent": [i + 1 for i in idx], "n_pdf_pages": len(pages), "usage": usage,
            "checks": checks(flat), "fields": flat, "extract": x.model_dump()}

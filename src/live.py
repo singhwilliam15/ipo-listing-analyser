@@ -246,13 +246,19 @@ class Analysis:
     model_quality: dict
     sub_table: pd.DataFrame
     source: str                 # which document the numbers came from
+    record: dict | None = None  # raw RHP extraction (fields, checks, page refs)
     notes: list[str] = field(default_factory=list)
 
 
 def get_document(symbol: str, detail, pdf: Path | None, nse: NSEClient) -> tuple[Path, str]:
     """Return (pdf path, label). An uploaded PDF wins; else the NSE RHP; else say what is missing."""
     if pdf:
-        return pdf, "uploaded document"
+        dest = extract_rhp.RHP_DIR / f"{symbol}.pdf"
+        extract_rhp.RHP_DIR.mkdir(parents=True, exist_ok=True)
+        if not dest.exists() or dest.resolve() != Path(pdf).resolve():
+            import shutil
+            shutil.copyfile(pdf, dest)
+        return dest, "uploaded RHP"
     dest = extract_rhp.RHP_DIR / f"{symbol}.pdf"
     if dest.exists():
         return dest, "RHP (cached)"
@@ -351,4 +357,4 @@ def analyse_issue(m: Match, pdf: Path | None = None, hist: pd.DataFrame | None =
     for c in ("p25", "median", "p75"):
         sc[f"price_{c}"] = price * (1 + sc[c] / 100) if pd.notna(price) else np.nan
     return Analysis(m, row, flags(row, hist), live, gain_p, sub_med, sub_rng, sc,
-                    {k: models[k] for k in ("auc", "r2", "n_train", "n_test")}, table, source, notes)
+                    {k: models[k] for k in ("auc", "r2", "n_train", "n_test")}, table, source, notes, record)
