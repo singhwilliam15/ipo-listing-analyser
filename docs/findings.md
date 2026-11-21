@@ -1,40 +1,40 @@
 # What separated IPOs that listed up from those that listed down
 
-385 mainboard IPOs listed 2022 to 2026 (NSE data; fundamentals read from each RHP).
-"Gain" means the listing-day open was above the issue price: 280 IPOs (average +26.7%).
-"Loss" means flat or lower: 105 IPOs (average -5.7%).
+392 mainboard IPOs listed 2022 to 2026 with a listing-day price (NSE data; fundamentals read from each RHP).
+"Gain" means the listing-day open was above the issue price: 285 IPOs (average +26.6%).
+"Loss" means flat or lower: 107 IPOs (average -5.6%).
 
 | Feature | Gainers (median) | Losers (median) | Signal |
 |---|---|---|---|
 | QIB subscription | 90x | 4.2x | strong (Spearman 0.74) |
-| Total subscription | 54x | 3.0x | strong (0.71) |
-| Retail subscription | 13.8x | 2.3x | strong (0.59) |
+| Total subscription | 55x | 3.0x | strong (0.73) |
+| Retail subscription | 13.3x | 2.3x | strong (0.59) |
 | PAT margin | 8.9% | 6.0% | modest |
-| Revenue CAGR | 27.9% | 21.2% | modest |
-| Return on net worth | 22% | 18% | modest |
-| Debt / equity | 0.46 | 0.74 | weak |
-| P/E premium to peers | -12.7% | +1.0% | weak |
+| Revenue CAGR | 27.9% | 21.3% | modest |
+| Return on net worth | 22% | 17% | modest |
+| Debt / equity | 0.47 | 0.80 | weak |
+| P/E premium to peers | -12.7% | +1.4% | weak |
 | Issue size, OFS share, promoter holding, anchor share, P/E | no difference | | none |
 
 ## Gainers
-- QIB subscription of 50x or more: 95% gained (176 IPOs). Total subscription over 100x: all 62 gained, +49% on average.
-- Debt/equity of 1 or less: 78-80% gained. P/E 20% or more below peers: 80%.
+- QIB subscription of 50x or more: 95% gained (179 IPOs). Total subscription over 100x: all 62 gained, +49% on average.
+- Debt/equity of 1 or less: 79% gained. P/E 20% or more below peers: 80%.
 - IPO priced above the pre-IPO placement: 83% gained (53 IPOs).
-- Strong sectors: internet and platforms, FMCG, healthcare, industrials, consumer (79-86%).
+- (Sector and pre-IPO-placement rates below were computed on an earlier 385-row run and not refreshed.) Strong sectors: internet and platforms, FMCG, healthcare, industrials, consumer (79-86%).
 
 ## Losers
-- 53 of 105 losers were under 3x subscribed; 72 were under 10x. With QIB subscription under 5x only 41% gained.
-- Debt/equity above 2: 49% gained. Loss-making companies: median listing gain +2.2% vs +10.5%.
+- 53 of 107 losers were under 3x subscribed; 73 were under 10x. With QIB subscription under 5x only 42% gained.
+- Debt/equity above 2: 51% gained. Loss-making companies: median listing gain +2.0% vs +10.5%.
 - Weak sectors: banking and NBFC (44%), media and education (44%), logistics and travel (53%).
 - Exceptions exist: Shree Ram Twistex (44x), Udayshivakumar Infra (31x) and R K Swamy (26x) were well subscribed and still lost.
 
 ## By year
 | Year | IPOs | Listed above issue | Median gain |
 |---|---|---|---|
-| 2022 | 37 | 65% | +3.2% |
-| 2023 | 56 | 80% | +16.5% |
-| 2024 | 85 | 79% | +17.8% |
-| 2025 | 100 | 70% | +6.2% |
+| 2022 | 38 | 66% | +3.4% |
+| 2023 | 57 | 81% | +17.1% |
+| 2024 | 87 | 78% | +16.8% |
+| 2025 | 103 | 70% | +6.0% |
 | 2026 | 107 | 69% | +7.6% |
 
 ## Where this data disagrees with commentary
@@ -45,8 +45,7 @@ size made no clear difference, and a high P/E alone did not predict a loss.
 
 The dataset now has 394 mainboard IPOs. Five that NSE's past-issues list omits (Ola Electric, IREDA, NTPC Green,
 Tata Capital, Aegis Vopak) were added from their NSE issue pages, DCX Systems and NSDL got their listing dates, and
-IREDA's subscription was entered by hand from published figures. The winners-vs-losers tables above were computed on the
-earlier 385-row version; the models below use the updated data. 285 IPOs listed in 2022-2025 are used for fitting and
+IREDA's subscription was entered by hand from published figures. 285 IPOs listed in 2022-2025 are used for fitting and
 107 listed in 2026 are used only for scoring. A test (`tests/test_report.py`) scrambles the 2026 outcomes and checks that no
 fitted parameter or prediction changes.
 

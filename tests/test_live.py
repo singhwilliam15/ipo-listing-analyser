@@ -49,3 +49,16 @@ def test_date_parsing_handles_nse_and_iso():
     assert live._date("23-Nov-2026") == pd.Timestamp("2026-11-23")
     assert live._date("2026-03-27") == pd.Timestamp("2026-03-27")
     assert pd.isna(live._date(None))
+
+
+def test_uploaded_rhp_is_saved_as_symbol_pdf(tmp_path, monkeypatch):
+    from src import extract_rhp
+    monkeypatch.setattr(extract_rhp, "RHP_DIR", tmp_path / "rhp")
+    src = tmp_path / "upload.pdf"
+    src.write_bytes(b"%PDF-1.4 upload")
+    path, label = live.get_document("ABC", None, src, nse=None)
+    assert path == tmp_path / "rhp" / "ABC.pdf" and path.read_bytes() == b"%PDF-1.4 upload"
+    assert label == "uploaded RHP"
+    src.write_bytes(b"%PDF-1.4 newer")                       # a different upload replaces the saved copy
+    live.get_document("ABC", None, src, nse=None)
+    assert path.read_bytes() == b"%PDF-1.4 newer"
